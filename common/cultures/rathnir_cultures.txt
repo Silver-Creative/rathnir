@@ -1,0 +1,172 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+
+audalad = {
+	graphical_culture = muslimgfx
+
+	audalad = {
+		primary = AUD #Yimmu-Audal
+		
+		dynasty_names = {
+			Audalad "Maximos Caicuria" Mosulia "Orne'Valerin" Rochelle Amossi
+		}
+	}
+	fuscinian = {
+	
+	}
+	maeretine = {
+	
+	}
+	taloran = {
+	
+	}
+	theioniki = {
+		primary = TEI #Theiónikos
+		
+		dynasty_names = {
+			Audalad Caicuria Galus Amossi Keírikos
+		}
+	
+	}
+	anoshphite = {
+		primary = ANO #Anòshphéy
+		
+		dynasty_names = {
+			Audalad Caicuria Galus Amossi Keírikos
+		}
+	
+	}
+	shimmere = {
+	
+	}
+	
+
+	dynasty_names = {
+		Audalad Galus Rochelle
+	}
+	male_names = {
+		Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+	}
+	female_names = {
+		Seramida Ardamine Ederai Lerai Ifaeri
+	}
+}
+
+sagaviri = {
+	graphical_culture = easterngfx
+	
+	sironian = {
+		
+	}
+	lapidosan = {
+		
+	}
+	kaithrati = {
+	
+	}
+	myrish = {
+		
+	}
+	thenian = {
+	
+	}
+	aldavian = {
+	
+	}
+	vanakuniri = {
+	
+	}
+	asturcian = {
+	
+	}
+	astyllean = {
+	
+	}
+	
+	dynasty_names = {
+		
+	}
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+}
+
+niedene = {
+	graphical_culture = westerngfx
+	
+	escharii = {
+		primary = ESC #Escharia
+		
+		dynasty = {
+			"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
+			Pallas-Akerian "an Seqerie"
+		}
+	
+	}
+	solarii = {
+	
+	}
+	kaseii = {
+	
+	}
+	serrenese = {
+	
+	}
+	varmerii = {
+	
+	}
+	reikarii = {
+	
+	}
+	gentarii = {
+	
+	}
+	lausarii = {
+	
+	}
+	anesarii = {
+	
+	}
+	mimarii = {
+	
+	}
+	sylerii = {
+	
+	}
+	annuvii = {
+	
+	}
+	vendarii = {
+	
+	}
+	floramii = {
+	
+	}
+	
+	dynasty_names = {
+		"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
+		"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
+		"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
+		"dai Lostesrei" "dai Delgrenzvar" "dai Annuvin" "dai Attori"
+	
+		"de Escharien" "de Suderen" "de Soleanna" "de Vale'du'nor" "de Varmerien" "de Iremith"
+		"de Annun" "de Arj'entor" "de Reikara"
+	}
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+}
+	

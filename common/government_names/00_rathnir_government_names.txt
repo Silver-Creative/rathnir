@@ -1,0 +1,80 @@
+
+# For specific combinations of culture, religion and other such triggers
+# Will pick the first valid one it finds in list
+
+#Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
+
+sagaviri_archonate = {
+	rank = {
+		1 = SAGAVIRI_ARCHONATE
+		2 = SAGAVIRI_ARCHONATE
+		3 = GRAND_ARCHONATE
+	}
+	
+	ruler_male = {
+		1 = SAGAVIRI_ARCHON
+		2 = SAGAVIRI_ARCHON
+		3 = HIEROPHANT
+	}
+	
+	ruler_female = {
+		1 = SAGAVIRI_ARCHONESS
+		2 = SAGAVIRI_ARCHONESS
+		3 = HIEROPHANTESS
+	}
+
+	trigger = {
+		culture_group = sagaviri
+		#NOT = { tag = COB }
+	}
+}
+
+niedene_monarchy = {
+	rank = {
+		1 = AROREI
+		2 = ERRASTERREI
+		3 = IRASTEREI
+	}
+	
+	ruler_male = {
+		1 = AHROKAN
+		2 = AKEREI
+		3 = IKSARE
+	}
+	
+	ruler_female = {
+		1 = AHROKIN
+		2 = AKERIN
+		3 = IKSARIN
+	}
+	
+	consort_male = {
+		1 = IMAERE
+		2 = IMAERE
+		3 = IMAERE
+	}
+	
+	consort_female = {
+		1 = IMAERE
+		2 = IMAERE
+		3 = IMAERE
+	}
+	
+	heir_male = {
+		1 = ERJIL
+		2 = OSHI
+		3 = EROJI
+	}
+	
+	heir_female = {
+		1 = ERJIL
+		2 = OSHI
+		3 = EROJI
+	}
+	
+
+	trigger = {
+		culture_group = niedene
+		#NOT = { tag = COB }
+	}
+}

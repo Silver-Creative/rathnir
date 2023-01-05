@@ -1,0 +1,467 @@
+
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+jagdasian = {
+	can_form_personal_unions = yes
+	defender_of_faith = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 408 #Urnu-Arrak (Basra)
+
+	hukar_sharud = {
+		color = { 240 182 0 }
+		icon = 30
+		allowed_conversion = {
+			red_cult
+			theiosism
+		}
+		country = {
+			diplomatic_reputation = 1
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			tolerance_heathen = 2
+		}
+
+		on_convert = {
+			change_religion = hukar_sharud
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+		
+		}
+	}
+	
+	red_cult = {
+		color = { 136 8 8 }
+		icon = 31
+		allowed_conversion = {
+			hukar_sharud
+		}
+		country = {
+			local_monthly_devastation = 0.05
+			land_morale = 0.2
+		}
+		country_as_secondary = {
+			local_monthly_devastation = 0.05
+		}
+		province = {
+			local_unrest = -2
+		}
+
+		on_convert = {
+			change_religion = red_cult
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			HUKAR_SHARUD
+			ABYSS_MYSTICISM
+		}
+	}
+	
+	abyss_mysticism = {
+		color = { 106 43 149 }
+		icon = 32
+		allowed_conversion = {
+			hukar_sharud
+		}
+		country = {
+			ae_impact = 0.1
+			technology_cost = -0.2
+		}
+		country_as_secondary = {
+			ae_impact = 0.1
+		}
+
+		on_convert = {
+			change_religion = abyss_mysticism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			RED_CULT
+			HUKAR_SHARUD
+		}
+	}
+	
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_jagdasian #FIX THIS
+}
+
+alteniquian = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 341 #Azethvir (Tunis)
+
+	sakrelism = {
+		color = { 130 36 51 }
+		icon = 33
+		allowed_conversion = {
+			theiosism
+		}
+		country = {
+			army_tradition_decay = -0.01
+			fire_damage = 0.1
+		}
+		country_as_secondary = {
+			reinforce_speed = 0.1
+			fire_damage = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		on_convert = {
+			change_religion = sakrelism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+			THEIOSISM
+		}
+	}
+	
+	theiosism = {
+		color = { 200 99 0 }
+		icon = 34
+		allowed_conversion = {
+			sakrelism
+		}
+		country = {
+			cavalry_shock = 0.25
+			promote_culture_cost = -0.25
+		}
+		country_as_secondary = {
+			local_missionary_strength = -0.02
+		}
+
+		on_convert = {
+			change_religion = theiosism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			SAKRELISM
+		}
+	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_alteniquian
+}
+
+niedene = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 1878 #Soleanna (Aachen)
+
+	soleannen = {
+		color = { 255 236 114 }
+		icon = 35
+		allowed_conversion = {
+			
+		}
+		country = {
+			tolerance_own = 1
+			global_heathen_missionary_strength = 0.01
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+			tolerance_own = 1
+		}
+
+		on_convert = {
+			change_religion = soleannen
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			SOLEVIEL
+		}
+	}
+	
+	soleviel = {
+		color = { 192 192 192 }
+		icon = 36
+		allowed_conversion = {
+		
+		}
+		country = {
+			global_tax_modifier = 0.1
+			advisor_cost = -0.1
+			church_loyalty_modifier = 0.1
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			advisor_pool = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		on_convert = {
+			change_religion = soleviel
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			SOLEANNEN
+		}
+	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_nieden
+}
+
+talawan = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 1224 #Lukka (Gonder)
+
+	asharu = {
+		color = { 153 0 0 }
+		icon = 37
+		allowed_conversion = {
+			
+		}
+		country = {
+			supply_limit_modifier = 0.2
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			supply_limit_modifier = 0.1
+			improve_relation_modifier = 0.1
+		}
+
+		on_convert = {
+			change_religion = asharu
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			#EASTERN_ASHARU
+		}
+	}
+	
+	eastern_asharu = {
+		color = { 236 47 47 } 
+		icon = 38
+		allowed_conversion = {
+		
+		}
+		country = {
+			global_missionary_strength = 0.015
+			trade_efficiency = 0.15
+		}
+		country_as_secondary = {
+			global_missionary_strength = 0.01
+			trade_efficiency = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		on_convert = {
+			change_religion = eastern_asharu
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			#ASHARU
+		}
+	}
+	
+	crusade_name = JIHAD
+	harmonized_modifier = harmonized_talawan
+}
+
+northern = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 1858 #Sovdal (Stettin)
+
+	noxism = {
+		color = { 205 217 191 }
+		icon = 39
+		allowed_conversion = {
+			
+		}
+		country = {
+			innovativeness_gain = 0.75
+			technology_cost = -0.1
+			yearly_corruption = -0.05
+		}
+		country_as_secondary = {
+			technology_cost = -0.1
+			embracement_cost = -0.1
+		}
+
+		on_convert = {
+			change_religion = noxism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+		
+		}
+	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_northern
+}
+
+brothian = {
+	can_form_personal_unions = yes
+	defender_of_faith = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 295 #Tossagrad (Moscow)
+
+	dandelism = {
+		color = { 0 154 22 }
+		icon = 40
+		allowed_conversion = {
+			
+		}
+		country = {
+			land_morale = 0.1
+			global_regiment_cost = -0.2
+		}
+		country_as_secondary = {
+			fire_damage = 0.5
+			global_regiment_cost = -0.1
+		}
+		province = {
+			land_forcelimit_modifier  = 0.01 #this is probably stupid
+		}
+
+		on_convert = {
+			change_religion = dandelism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			#TOSSANISM
+		}
+	}
+	
+	tossanism = {
+		color = { 66 58 119 } 
+		icon = 41
+		allowed_conversion = {
+		
+		}
+		country = {
+			merchants = 1
+			defensiveness = 0.2
+		}
+		country_as_secondary = {
+			global_trade_power = 0.1
+			defensiveness = 0.1
+		}
+		province = {
+			fort_maintenance_modifier = -0.25 #this is less stupid than the bards idea, but still kinda stupid
+		}
+
+		on_convert = {
+			change_religion = tossanism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			#DANDELISM
+		}
+	}
+	
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_brothian
+}

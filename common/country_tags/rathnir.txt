@@ -1,0 +1,10 @@
+# Tales of Rathnir
+
+#Alteniquia
+AUD = "countries/Yimmu-Audal.txt"
+TEI = "countries/Theionikos.txt"
+ANO = "countries/Anoshphey.txt"
+ESU = "countries/Theios-Essukdal.txt"
+
+#Nieden
+ESC = "countries/Escharia.txt"

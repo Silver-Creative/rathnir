@@ -1,0 +1,22 @@
+
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 2
+primary_culture = theioniki
+religion = theiosism
+technology_group = muslim
+historical_friend = AUD #Yimmu-Audal
+capital = 382 #Theiotokos (Damascus)
+
+1444.1.1 = {
+	monarch = {
+		name = "Hákon the Blessed"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 3
+		mil = 3
+		culture = theioniki
+		religion = theiosism
+	}
+	add_ruler_personality = pious_personality
+}

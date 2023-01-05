@@ -1,0 +1,126 @@
+
+# For specific combinations of culture, religion and other such triggers
+# Will pick the first valid one it finds in list
+
+#Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
+
+yimmu-audal = {
+	rank = {
+		1 = DAHRSAT
+		2 = SHARRULAT
+		3 = ORISHARRULAT
+	}
+	
+	ruler_male = {
+		1 = DAHRSU
+		2 = SHARRULAR
+		3 = ORISHARA
+	}
+	
+	ruler_female = {
+		1 = DAHRSU
+		2 = SHARRULAR
+		3 = ORISHARA
+	}
+	
+	heir_male = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+	
+	heir_female = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+
+	trigger = {
+		tag = AUD #Yimmu-Audal
+	}
+}
+
+theionikos = {
+	rank = {
+		1 = TETRARCHATE
+		2 = ARCHONATE
+		3 = ARCHONATE
+	}
+	
+	ruler_male = {
+		1 = TETRARCH
+		2 = ARCHON
+		3 = ARCHON
+	}
+	
+	ruler_female = {
+		1 = TETRARCHESS
+		2 = ARCHONESS
+		3 = ARCHONESS
+	}
+
+	trigger = {
+		tag = TEI #Theiónikos
+	}
+}
+
+anoshphey = {
+	rank = {
+		1 = SHYHENEY
+		2 = LUMINEREY
+		3 = ORISARENEY
+	}
+	
+	ruler_male = {
+		1 = SHYUH
+		2 = LUMIRUH
+		3 = ORISARUH
+	}
+	
+	ruler_female = {
+		1 = SHYAH
+		2 = LUMIRAH
+		3 = ORISARAH
+	}
+
+	trigger = {
+		tag = ANO #Anòshphéy
+	}
+}
+
+theios-essukdal = {
+	rank = {
+		1 = DAHRSAT
+		2 = SHARRULAT
+		3 = ORISHARRULAT
+	}
+	
+	ruler_male = {
+		1 = DAHRSU
+		2 = LUGAL
+		3 = LUGAL
+	}
+	
+	ruler_female = {
+		1 = DAHRSAT
+		2 = NINGAL
+		3 = NINGAL
+	}
+	
+	heir_male = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+	
+	heir_female = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+
+	trigger = {
+		tag = ESU #Theios-Essukdal
+	}
+}
+

@@ -1,0 +1,102 @@
+country_decisions = {
+
+	essukdalad_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_theios_essukdal_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			#OR = {
+			#	is_free_or_tributary_trigger = yes
+			#	ai = no
+			#}
+			NOT = { exists = ESU }
+			#OR = {
+			#	culture = theionikan
+			#	culture = audalad
+			#}
+			#religion = theiosism
+			tag = TEI
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 408		# Urnu-Arrak
+				province_id = 382		# Theiotokos
+				province_id = 327		# Jirn
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 5
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 327		# Jirn
+			owns_core_province = 382		# Theiotokos
+			owns_core_province = 408		# Urnu-Arrak
+			408 = {							# Urnu-Arrak
+				is_state = yes
+			}
+		}
+		effect = {
+			408 = {							# Urnu-Arrak
+				move_capital_effect = yes
+			}
+			hidden_effect = { restore_country_name = yes }
+			change_tag = ESU
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ESU
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_theios_essukdal_flag
+			#if = {
+			#	limit = { 
+			#		has_custom_ideas = no
+			#		NOT = { has_idea_group = GBR_ideas }
+			#	}
+			#	country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = AUD
+				NOT = { is_enemy = TEI }
+				NOT = { is_rival = TEI }
+			}
+		}
+		#ai_importance = 400
+	}
+	
+}

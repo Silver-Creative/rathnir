@@ -1,0 +1,118 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 6  6  6 }
+
+historical_idea_groups = {
+	religious_ideas
+	quantity_ideas
+	trade_ideas
+	expansion_ideas
+	exploration_ideas
+	offensive_ideas
+	spy_ideas
+	innovativeness_ideas		
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	#Historical Escharian Leaders (Male)
+	"Auberon #0" = 10
+	"Severie Arminius #0" = 10
+	"Valerian Iuris #0" = 10
+	"Hadrian #0" = 10
+	"Orzren Auralas #0" = 10
+	"Avensur #0" = 10
+	"Nive #0" = 10
+	
+	#Generic Niedene Names (Male)
+	"Orzen #0" = 10
+	"Aremi #0" = 10
+	"Isaris #0" = 10
+	"Dietras Sinso #0" = 10
+	"Ioannis #0" = 10
+	"Alseret #0" = 10
+	"Severie #0" = 10
+	"Arminius #0" = 10
+	"Valerian #0" = 10
+	"Aurelas #0" = 10
+	"Eros #0" = 10
+	"Numethos #0" = 10
+	
+	#Generic Niedene Names (Female)
+	"Illia #0" = -1
+	"Erissia #0" = -1
+	"Akesrie #0" = -1
+	"Etienne #0" = -1
+	"Irabella #0" = -1
+	
+	#Historical Escharian Leaders (Female)
+	"Debi #0" = -1
+	"Veriss #0" = -1
+	"Etienne Irabella #0" = -1
+	"Auria #0" = -1
+	
+}
+
+leader_names = {
+	#Country Specific
+	"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
+	"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
+	"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
+	"dai Lostesrei" "dai Delgrenzvar" "dai Annuvin" "dai Attori"
+	
+	"de Escharien" "de Suderen" "de Soleanna" "de Vale'du'nor" "de Varmerien" "de Iremith"
+	"de Annun" "de Arj'entor" "de Reikara"
+	
+	#Noble Families
+	"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
+	Pallas-Akerian "an Seqerie"
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
+	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite "Young Prince" Zealous
+
+	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+}
+
+army_names = {
+	"Îrastli Arus" "Arus de $PROVINCE$"
+}
+
+fleet_names = {
+	"Zabtra Lerenta" "Aryen Flamara" "Akise Sikeri" "Mari Sikeri" "Sove Sikeri"
+}

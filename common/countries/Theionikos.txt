@@ -1,0 +1,113 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 200  99  0 }
+
+historical_idea_groups = {
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+	expansion_ideas
+	administrative_ideas
+	aristocracy_ideas
+	offensive_ideas
+	innovativeness_ideas		
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+
+	#Historical Theiónikan Leaders (Male)
+	"Hákon #0" = 10
+	"Bób Pullus #0" = 10
+	"Xérxes #0" = 10
+	"Círandir #0" = 10
+	
+	#Generic Theiónikan Names (Male)
+	"Adónis #0" = 10
+	"Belísaros #0" = 10
+	"Érbor #0" = 10
+	"Décimus #0" = 10
+	"Cáecil #0" = 10
+	"Káloman #0" = 10
+	"Átticus #0" = 10
+	"Attálios Pórtu #0" = 10
+	"Félicus #0" = 10
+	"Nárthedir #0" = 10
+	
+	#Generic Theiónikan Names (Female)
+	"Pártha #0" = -1
+	"Dióni #0" = -1
+	"Altáni #0" = -1
+	"Héla #0" = -1
+	"Clélia #0" = -1
+	"Aélia #0" = -1
+	"Felícia #0" = -1
+	
+	#Historical Theiónikan Leaders (Female)
+	
+}
+
+leader_names = {
+	#Country Specific
+	"of Theiónikos" "of Theiotokos" "of Dasir" "of Evangelista" "of Ayesinco" "of Dur-Sharrukin" "of Nous-Il"
+	
+	#Province Neighbours
+	"of Jirn" "of Azethvir" "of Maereta" "of Carvay" "of Yirenes" "of Ersetu" "of Urnu-Arrak"
+	
+	#Country Neighbours
+	"of Anòshphéy" "of Audal" "of Coltmaere" "of Sironia" "of Egalia" "of Varmerion"
+	
+	#Geographic Neighbours
+	"of Aldovir" "of Vastallos" "of Phagos" "of Nieden" "of Gentaria" "of Varmeria"
+	
+	#Noble Families
+	Audalad Caicuria Galus Amossi Keírikos
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
+	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite "Young Prince" Zealous
+
+	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+	
+	#Specific Audalad
+	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
+}
+
+army_names = {
+	"The Riders of Theios" "Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"The Sunfleet" "Red Squadron" "White Squadron" "Blue Squadron"
+}

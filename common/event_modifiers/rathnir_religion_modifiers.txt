@@ -1,0 +1,15 @@
+# Harmonizing religions
+harmonized_jagdasian = {
+	idea_cost = -0.05
+	religion = yes
+}
+
+harmonized_alteniquian = {
+	land_morale = 0.05
+	religion = yes
+}
+
+harmonized_niedene = {
+	stability_cost_modifier = -0.1
+	religion = yes
+}
