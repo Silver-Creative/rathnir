@@ -13,4 +13,4 @@ tags={
 }
 name="Rathnir"
 supported_version="1.34.5"
-path="C:/Users/Miguel/Documents/Paradox Interactive/Europa Universalis IV/mod/rathnir"
+path="mod/rathnir"
