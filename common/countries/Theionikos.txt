@@ -99,9 +99,6 @@ ship_names = {
 
 	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
 	Strength Dexterity Constitution Intelligence Wisdom Charisma
-	
-	#Specific Audalad
-	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
 }
 
 army_names = {
