@@ -1,0 +1,15 @@
+song = {
+    name = "yimmies_in_lileanen"
+
+    chance = {
+        modifier = {
+            factor = 2
+            tag = AUD #Yimmu-Audal
+        }
+
+        modifier = {
+            factor = 0
+            is_at_war = yes
+        }
+    }
+}
