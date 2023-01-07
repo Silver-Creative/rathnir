@@ -120,7 +120,7 @@ theios-essukdal = {
 	}
 
 	trigger = {
-		tag = ESU #Theios-Essukdal
+		tag = A09 #Theios-Essukdal
 	}
 }
 
