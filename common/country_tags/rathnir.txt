@@ -4,6 +4,10 @@
 AUD = "countries/Yimmu-Audal.txt"
 TEI = "countries/Theionikos.txt"
 ANO = "countries/Anoshphey.txt"
+TAL = "countries/Talor.txt"
+FUS = "countries/Fuscinia.txt"
+SHN = "countries/Shiny.txt"
+
 ESU = "countries/Theios-Essukdal.txt"
 
 #Nieden

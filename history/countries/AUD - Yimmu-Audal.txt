@@ -8,6 +8,8 @@ add_accepted_culture = anoshphite
 religion = hukar_sharud
 technology_group = muslim
 historical_friend = TEI #Theiónikos
+historical_friend = FUS #Fuscinia
+historical_friend = TAL #Tàlor
 capital = 408 #Urnu-Arrak (Basra)
 
 1444.1.1 = {

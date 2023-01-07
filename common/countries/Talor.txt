@@ -1,0 +1,103 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 142  26  80 }
+
+historical_idea_groups = {
+	naval_ideas
+	trade_ideas
+    expansion_ideas
+	quality_ideas
+	spy_ideas
+	exploration_ideas
+	offensive_ideas
+	economic_ideas		
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+
+	#Generic Audalad Names (Male)
+	"Auriliz #0" = 10 
+	"Daritumi #0" = 10 
+	"Nargashar #0" = 10 
+	"Lexadi #0" = 10 
+	"Hash #0" = 10 
+	"Suni #0" = 10 
+	"Utur #0" = 10 
+	"Ramadi #0" = 10 
+	"Odil #0" = 10 
+	"Naru #0" = 10 
+	"Igu #0" = 10
+
+	#Generic Audalad Names (Female)
+	"Seramida #0" = -1
+	"Ardamine #0" = -1 
+	"Ederai #0" = -1 
+	"Lerai #0" = -1
+	"Ifaeri #0" = -1
+}
+
+leader_names = {
+	#Country Specific
+	"of Tàlor" "of Coilton" "of Amos" "of Rhodia" "of Argenti" "of Kacenia" "of Alcomir"
+	
+	#Province Neighbours
+	"of Aleria" "of the Roscella" "of Athazolant" "of Auszan" "of Eldal-Adadi" "of Ederai-Elnam"
+	
+	#Country Neighbours
+	"of Audal" "of Reyllea" "of Akratia" "of Viratayn" "of Serafini"
+	
+	#Geographic Neighbours
+	"of Aldovir" "of Essukdal" "of Leythe" "of Cahuarn" "of Sparwood" 
+	
+	#Noble Families
+	Audalad Rochelle Argenti Dynami
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
+	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite "Young Prince" Zealous
+
+	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+	
+	#Specific Audalad
+	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
+}
+
+army_names = {
+	"Talorad Darae" "Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Astyllean Fleet" "Red Squadron" "Blue Squadron" "Yellow Squadron" "Green Squadron"
+}

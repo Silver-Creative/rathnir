@@ -1,0 +1,23 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = shimmere
+religion = hukar_sharud
+technology_group = muslim
+historical_friend = AUD #Yimmu-Audal
+capital = 396 #Swal'awz (Awal)
+
+1444.1.1 = {
+	monarch = {
+		name = "Suni"
+		dynasty = "dez Swal'awz"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 4
+		mil = 0
+		culture = shimmere
+		religion = hukar_sharud
+	}
+	add_ruler_personality = entrepreneur_personality
+}

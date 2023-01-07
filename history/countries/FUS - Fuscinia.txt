@@ -1,0 +1,23 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = fuscinian
+religion = hukar_sharud
+technology_group = muslim
+historical_friend = AUD #Yimmu-Audal
+capital = 356 #Dasir (Benghazi)
+
+1444.1.1 = {
+	monarch = {
+		name = "Utur"
+		dynasty = "dez Abayril"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 2
+		mil = 2
+		culture = fuscinian
+		religion = hukar_sharud
+	}
+	add_ruler_personality = kind_hearted_personality
+}

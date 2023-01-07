@@ -19,12 +19,22 @@ audalad = {
 		}
 	}
 	fuscinian = {
+		primary = FUS #Fuscinia
+
+		dynasty_names = {
+			Audalad Caicuria
+		}
 	
 	}
 	maeretine = {
 	
 	}
 	taloran = {
+		primary = TAL #Tàlor
+
+		dynasty_names = {
+			Audalad Rochelle Argenti Dynami
+		}
 	
 	}
 	theioniki = {
@@ -39,23 +49,28 @@ audalad = {
 		primary = ANO #Anòshphéy
 		
 		dynasty_names = {
-			Audalad Caicuria Galus Amossi Keírikos
+			Audalad Caicuria Galus Amossi Keírikos "Orne'Valerin"
 		}
 	
 	}
 	shimmere = {
-	
+		primary = SHN #Shiny
+
+		dynasty_names = {
+			Audalad Caicuria
+		}
 	}
 	
 
 	dynasty_names = {
-		Audalad Galus Rochelle
+		Audalad Caicuria
 	}
 	male_names = {
 		Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 	}
 	female_names = {
 		Seramida Ardamine Ederai Lerai Ifaeri
+		
 	}
 }
 
@@ -78,9 +93,6 @@ sagaviri = {
 	
 	}
 	aldavian = {
-	
-	}
-	vanakuniri = {
 	
 	}
 	asturcian = {

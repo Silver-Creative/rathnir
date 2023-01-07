@@ -4,6 +4,42 @@
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
+audalad_monarchy = {
+	rank = {
+		1 = DAHRSAT
+		2 = GIDESAT
+		3 = SHARRULAT
+	}
+	
+	ruler_male = {
+		1 = DAHRSU
+		2 = GIDESH
+		3 = SHARRULAR
+	}
+	
+	ruler_female = {
+		1 = DAHRSU
+		2 = GIDESH
+		3 = SHARRULAR
+	}
+	
+	heir_male = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+	
+	heir_female = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+
+	trigger = {
+		culture_group = audalad
+	}
+}
+
 sagaviri_archonate = {
 	rank = {
 		1 = SAGAVIRI_ARCHONATE

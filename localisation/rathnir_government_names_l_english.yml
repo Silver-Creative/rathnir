@@ -30,6 +30,10 @@
  #theios-essukdal
  LUGAL:0 "Lugal"
  NINGAL:0 "Ningal"
+
+ #audalad_monarchy
+ GIDESAT:0 "Gidesat"
+ GIDESH:0 "Gidesh"
  
  #sagaviri_archonate
  SAGAVIRI_ARCHONATE:0 "Archonate"
