@@ -1,7 +1,0 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
-government_rank = 3
-primary_culture = theioniki
-religion = theiosism
-technology_group = muslim
-capital = 408 #Urnu-Arrak (Basra)
