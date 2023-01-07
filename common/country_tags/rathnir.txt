@@ -8,6 +8,7 @@ A03 = "countries/Talor.txt"
 A04 = "countries/Shiny.txt"
 
 A06 = "countries/Fuscinia.txt"
+A07 = "countries/Coltmaere.txt"
 
 A09 = "countries/Theios-Essukdal.txt"
 

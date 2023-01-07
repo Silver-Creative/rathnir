@@ -1,0 +1,23 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = maeretine
+religion = hukar_sharud
+technology_group = western
+capital = 126 #Maereta (Malta)
+
+1444.1.1 = {
+	monarch = {
+		name = "Skoubs"
+		dynasty = "ov Raykara"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 4
+		mil = 4
+		culture = maeretine
+		religion = hukar_sharud
+	}
+	add_ruler_personality = navigator_personality
+    add_ruler_personality = greedy_personality
+}

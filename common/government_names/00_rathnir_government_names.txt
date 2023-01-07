@@ -37,7 +37,7 @@ audalad_monarchy = {
 
 	trigger = {
 		NOT = { tag = A00 #Yimmu-Audal }
-		culture_group = audalad
+		culture_group = audalad_group
 	}
 }
 
@@ -61,7 +61,7 @@ sagaviri_archonate = {
 	}
 
 	trigger = {
-		culture_group = sagaviri
+		culture_group = sagaviri_group
 		#NOT = { tag = COB }
 	}
 }
@@ -108,10 +108,9 @@ niedene_monarchy = {
 		2 = OSHI
 		3 = EROJI
 	}
-	
 
 	trigger = {
-		culture_group = niedene
+		culture_group = niedene_group
 		#NOT = { tag = COB }
 	}
 }

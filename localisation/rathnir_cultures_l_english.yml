@@ -1,5 +1,5 @@
 ﻿l_english:
- audalad:0 "Audalad"
+ audalad_group:0 "Audalad" #Audalad Group
   audalad:0 "Audalad"
   fuscinian:0 "Fuscinian"
   maeretine:0 "Maeretine"
@@ -7,7 +7,7 @@
   theioniki:0 "Theióniki"
   anoshphite:0 "Anòshphite"
   shimmere:0 "Shimmere"
- sagaviri:0 "Sagaviri"
+ sagaviri_group:0 "Sagaviri" #Sagaviri Group
   sironian:0 "Sironian"
   lapidosan:0 "Lapidosan"
   kaithrati:0 "Kaithrati"
@@ -16,7 +16,7 @@
   aldavian:0 "Aldavian"
   asturcian:0 "Asturcian"
   astyllean:0 "Astyllean"
- niedene:0 "Niedene"
+ niedene_group:0 "Niedene" #Niedene Group
   escharii:0 "Escharii"
   solarii:0 "Solarii"
   kaseii:0 "Kaseii"

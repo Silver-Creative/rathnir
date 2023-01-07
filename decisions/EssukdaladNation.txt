@@ -91,7 +91,7 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				tag = AUD
+				tag = A00
 				NOT = { is_enemy = A01 }
 				NOT = { is_rival = A01 }
 			}

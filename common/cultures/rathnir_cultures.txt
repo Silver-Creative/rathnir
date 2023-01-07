@@ -8,7 +8,7 @@
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
 
-audalad = {
+audalad_group = {
 	graphical_culture = muslimgfx
 
 	audalad = {
@@ -27,6 +27,11 @@ audalad = {
 	
 	}
 	maeretine = {
+		primary = A07 #Coltmaere
+
+		dynasty_names = {
+			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
+		}
 	
 	}
 	taloran = {
@@ -74,7 +79,7 @@ audalad = {
 	}
 }
 
-sagaviri = {
+sagaviri_group = {
 	graphical_culture = easterngfx
 	
 	sironian = {
@@ -113,7 +118,7 @@ sagaviri = {
 	}
 }
 
-niedene = {
+niedene_group = {
 	graphical_culture = westerngfx
 	
 	escharii = {
