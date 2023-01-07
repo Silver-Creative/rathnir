@@ -36,6 +36,7 @@ audalad_monarchy = {
 	}
 
 	trigger = {
+		NOT = { tag = A00 #Yimmu-Audal }
 		culture_group = audalad
 	}
 }
