@@ -4,7 +4,7 @@ song = {
     chance = {
         modifier = {
             factor = 2
-            tag = AUD #Yimmu-Audal
+            tag = A00 #Yimmu-Audal
         }
 
         modifier = {

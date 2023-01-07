@@ -118,7 +118,7 @@ alteniquian = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 341 #Azethvir (Tunis)
+	center_of_religion = 224 #Azethvir (Sevilha)
 
 	sakrelism = {
 		color = { 130 36 51 }
