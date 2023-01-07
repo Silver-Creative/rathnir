@@ -68,6 +68,7 @@ leader_names = {
 	
 	#Noble Families
 	Audalad Caicuria
+}
 
 ship_names = {
 	#Generic Rathniri

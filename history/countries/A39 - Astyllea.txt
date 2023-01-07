@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = astyllean
+technology_group = western
+capital = 408 #Urnu-Arrak

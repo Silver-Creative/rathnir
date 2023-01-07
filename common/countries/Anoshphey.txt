@@ -130,6 +130,7 @@ leader_names = {
 	
 	#Noble Families
 	Caicuria Senekín Éría Carro'éather Bravníl Caicuria'Reris Orne'Valerin 
+}
 
 ship_names = {
 	#Generic Rathniri

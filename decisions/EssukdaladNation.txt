@@ -12,7 +12,7 @@ country_decisions = {
 			#	is_free_or_tributary_trigger = yes
 			#	ai = no
 			#}
-			NOT = { exists = ESU }
+			NOT = { exists = A09 }
 			#OR = {
 			#	culture = theionikan
 			#	culture = audalad

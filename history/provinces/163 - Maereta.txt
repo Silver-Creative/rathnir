@@ -1,9 +1,9 @@
-# 126 - Maereta
+# 163 - Maereta
 
 owner = A07
 controller = A07
 add_core = A07
-add_core = SIC
+add_core = CRT
 
 culture = maeretine
 religion = hukar_sharud
@@ -11,9 +11,9 @@ capital = ""
 
 hre = no
 
-base_tax = 3 
-base_production = 3
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 3
 
 trade_goods = fish
 

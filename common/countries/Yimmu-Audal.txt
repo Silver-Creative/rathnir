@@ -92,7 +92,8 @@ leader_names = {
 	"of Aldovir" "of Vastallos" "of Shiny" "of Wyngale" "of Coltmaere" 
 	
 	#Noble Families
-	Audalad "Maximos Caicuria" Galus Mosulia "Orne'Valerin" Rochelle Amossi
+	Audalad "Maximos Caicuria" Galus Mosulia "Orne'Valerin" Rochelle Amossi Keírikos
+}
 
 ship_names = {
 	#Generic Rathniri

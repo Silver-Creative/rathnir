@@ -12,5 +12,7 @@ A07 = "countries/Coltmaere.txt"
 
 A09 = "countries/Theios-Essukdal.txt"
 
+A39 = "countries/Astyllea.txt"
+
 #Nieden
 N00 = "countries/Escharia.txt"

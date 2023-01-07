@@ -36,8 +36,9 @@ audalad_monarchy = {
 	}
 
 	trigger = {
-		NOT = { tag = A00 #Yimmu-Audal }
+		government = monarchy
 		culture_group = audalad_group
+		NOT = { tag = A00 } #Yimmu-Audal
 	}
 }
 
@@ -61,6 +62,7 @@ sagaviri_archonate = {
 	}
 
 	trigger = {
+		government = monarchy
 		culture_group = sagaviri_group
 		#NOT = { tag = COB }
 	}

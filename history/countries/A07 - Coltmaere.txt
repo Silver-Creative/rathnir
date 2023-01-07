@@ -5,7 +5,7 @@ government_rank = 1
 primary_culture = maeretine
 religion = hukar_sharud
 technology_group = western
-capital = 126 #Maereta (Malta)
+capital = 163 #Maereta (Crete)
 
 1444.1.1 = {
 	monarch = {

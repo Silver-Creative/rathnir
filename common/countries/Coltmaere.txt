@@ -81,6 +81,7 @@ leader_names = {
 	
 	#Noble Families
 	Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
+}
 
 ship_names = {
 	#Generic Rathniri

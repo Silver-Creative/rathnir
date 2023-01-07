@@ -78,6 +78,7 @@ leader_names = {
 	
 	#Noble Families
 	Audalad Caicuria Galus Amossi Keírikos
+}
 
 ship_names = {
 	#Generic Rathniri

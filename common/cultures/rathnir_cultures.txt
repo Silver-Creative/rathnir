@@ -104,6 +104,7 @@ sagaviri_group = {
 	
 	}
 	astyllean = {
+		primary = A40 #Astyllea
 	
 	}
 	

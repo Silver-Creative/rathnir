@@ -86,6 +86,7 @@ leader_names = {
 	#Noble Families
 	"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
 	Pallas-Akerian "an Seqerie"
+}
 
 ship_names = {
 	#Generic Rathniri

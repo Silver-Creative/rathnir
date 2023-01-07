@@ -1,19 +1,19 @@
 
 #Country Name: Please see filename.
 
-graphical_culture = muslimgfx
+graphical_culture = westerngfx
 
-color = { 142  26  80 }
+color = { 114  39  97 }
 
 historical_idea_groups = {
-	naval_ideas
-	trade_ideas
-    expansion_ideas
-	quality_ideas
-	spy_ideas
-	exploration_ideas
+    administrative_ideas
+	quantity_ideas
+	economic_ideas
+	diplomatic_ideas
+	expansion_ideas
 	offensive_ideas
-	economic_ideas		
+	trade_ideas
+	quality_ideas		
 }
 
 historical_units = {
@@ -32,6 +32,46 @@ historical_units = {
 
 monarch_names = {
 
+	#Historical Sagaviri Leaders (Male)
+	"Rithaur #0" = 10
+	"Artorinn #0" = 10
+	"Uthr #0" = 10
+	"Ythar #0" = 10
+    "Tálos #0" = 10
+    "Talanthas #0" = 10
+    "Vorian #0" = 10
+	
+	#Historical Audalad Leaders (Male)
+	"Gray #0" = 10
+	"Stori #0" = 10
+	"Kaleb #0" = 10
+	"Hákon #0" = 10
+	"Blue #0" = 10
+	"Dexter #0" = 10
+	"Foxmunk #0" = 10
+	"Harbardr #0" = 10
+	"Centurion #0" = 10
+	"Toren #0" = 10
+	"Pontéos #0" = 10
+	"Brot #0" = 10
+	"Beagle #0" = 10
+	"Círandir #0" = 10
+
+    #Generic Sagaviri Names (Male)
+    "Aldrik #0" = 10
+    "Alessandir #0" = 10
+    "Anther #0" = 10
+    "Antrinn #0" = 10
+    "Arstenn #0" = 10
+    "Iakes #0" = 10
+    "Karil #0" = 10
+    "Outher #0" = 10
+    "Therenn #0" = 10
+    "Theres #0" = 10
+    "Sinaur #0" = 10
+    "Sinthor #0" = 10
+    "Ynaur #0" = 10
+
 	#Generic Audalad Names (Male)
 	"Auriliz #0" = 10 
 	"Daritumi #0" = 10 
@@ -44,6 +84,15 @@ monarch_names = {
 	"Odil #0" = 10 
 	"Naru #0" = 10 
 	"Igu #0" = 10
+	
+	#Historical Audalad Leaders (Female)
+	"Carpicious #0" = -1
+	"Dalatra #0" = -1
+	"Ghastly #0" = -1
+	"Adeline #0" = -1
+	"Natty #0" = -1
+	"Mouse #0" = -1
+	"Rosie #0" = -1
 
 	#Generic Audalad Names (Female)
 	"Seramida #0" = -1
@@ -51,23 +100,46 @@ monarch_names = {
 	"Ederai #0" = -1 
 	"Lerai #0" = -1
 	"Ifaeri #0" = -1
+
+    #Generic Sagaviri Names (Female)
+    "Annasa #0" = -1
+    "Ansa #0" = -1
+    "Arstenna #0" = -1
+    "Artorianna" #0" = -1
+    "Avril #0" = -1
+    "Kara #0" = -1
+    "Maira #0" = -1
+    "Sinna #0" = -1
+    "Sinsa #0" = -1
+    "Yna #0" = -1
+	
+	#Historical Aldoviri Leaders (Female)
+    "Alessandra #0" -1
+    "Subica #0" = -1
+	
 }
 
 leader_names = {
 	#Country Specific
-	"of Tàlor" "of Coilton" "of Amos" "of Rhodia" "of Argenti" "of Kacenia" "of Alcomir"
+	"of Yimmu-Audal" "of Theiónikos" "of Anòshphéy" "of Azuria" "of Vanakunir" "of Coltmaere"
+    "of Aldovir" "of Lapidosa" "of Sironia" "of Adavia" "of Carn" "of Kronesia"
+
+    "of Urnu-Arrak" "of Tàlor" "of Jirn" "of Theiotokos" "of Maereta" "of Ayesinco" "of Amos"
+    "of Arstedanna" "of Azethvir" "of Mimir's Pride" "of Larokin" "of Lestria" "of Roscella" "of Lirgal"
 	
 	#Province Neighbours
-	"of Aleria" "of the Roscella" "of Athazolant" "of Auszan" "of Eldal-Adadi" "of Ederai-Elnam"
+	"of Hapatmitas" "of Corthaidh" "of Carvay" "of Carvay" "of Soléa" "of Dorasterrock" "of Lumaire"
 	
 	#Country Neighbours
-	"of Audal" "of Reyllea" "of Akratia" "of Viratayn" "of Serafini"
+	"of Ombria" "of Escharia" "of Uldarash" "of Sironia" "of Tortuga" "of Athazolant" "of Bardonia"
 	
 	#Geographic Neighbours
-	"of Aldovir" "of Essukdal" "of Leythe" "of Cahuarn" "of Sparwood" 
+	"of Alteniquia" "of Nieden" "of Vastallos" "of Ummarnu" "of Syltör" "of Sparwood"
 	
 	#Noble Families
-	Audalad Rochelle Argenti Dynami
+	Audalad "Maximos Caicuria" Galus Mosulia "Orne'Valerin" Rochelle Amossi 
+    "se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+    Asherin Athisach Velrath Yramar Teranath Karilath Zerithan Talinthus Seirina Salári
 }
 
 ship_names = {
@@ -96,9 +168,9 @@ ship_names = {
 }
 
 army_names = {
-	"Talorad Darae" "Army of $PROVINCE$"
+	"Imperial Guild of War" "Army of $PROVINCE$"
 }
 
 fleet_names = {
-	"Astyllean Fleet" "Red Squadron" "Blue Squadron" "Yellow Squadron" "Green Squadron"
+	"The Tyrian Fleet" "Red Squadron" "White Squadron" "Blue Squadron"
 }
