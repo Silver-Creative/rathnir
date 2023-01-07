@@ -1,0 +1,44 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = audalad
+add_accepted_culture = theioniki
+add_accepted_culture = anoshphite
+religion = hukar_sharud
+technology_group = muslim
+historical_friend = A01 #Theiónikos
+historical_friend = A06 #Fuscinia
+historical_friend = A03 #Tàlor
+capital = 408 #Urnu-Arrak (Basra)
+
+1444.1.1 = {
+	monarch = {
+		name = "Mistic"
+		dynasty = "Audalad"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 6
+		mil = 2
+		culture = audalad
+		religion = hukar_sharud
+		female = yes
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = secretive_personality
+	
+	queen = {
+		country_of_origin = N00
+		name = "Valerian"
+		dynasty = "an Aesperii"
+		culture = sylerii
+		religion = soleannen
+		birth_date = 1440.10.17
+		death_date = 1820.6.8
+		female = no
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	add_queen_personality = cruel_personality
+}

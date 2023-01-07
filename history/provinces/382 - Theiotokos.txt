@@ -1,8 +1,8 @@
 # 382 - Theiotokos
 
-owner = TEI
-controller = TEI
-add_core = TEI
+owner = A01
+controller = A01
+add_core = A01
 add_core = MAM
 add_core = SYR
 

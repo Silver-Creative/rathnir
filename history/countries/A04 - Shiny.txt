@@ -2,10 +2,10 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = shimmere
+primary_culture = audalad
 religion = hukar_sharud
 technology_group = muslim
-historical_friend = AUD #Yimmu-Audal
+historical_friend = A00 #Yimmu-Audal
 capital = 396 #Swal'awz (Awal)
 
 1444.1.1 = {

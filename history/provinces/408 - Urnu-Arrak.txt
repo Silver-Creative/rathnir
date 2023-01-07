@@ -1,8 +1,8 @@
 #408 - Urnu-Arrak (Basra)
 
-owner = AUD
-controller = AUD
-add_core = AUD
+owner = A00
+controller = A00
+add_core = A00
 add_core = BSR
 add_core = MSY
 

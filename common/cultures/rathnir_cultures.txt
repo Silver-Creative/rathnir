@@ -12,14 +12,14 @@ audalad = {
 	graphical_culture = muslimgfx
 
 	audalad = {
-		primary = AUD #Yimmu-Audal
+		primary = A00 #Yimmu-Audal
 		
 		dynasty_names = {
 			Audalad "Maximos Caicuria" Mosulia "Orne'Valerin" Rochelle Amossi
 		}
 	}
 	fuscinian = {
-		primary = FUS #Fuscinia
+		primary = A06 #Fuscinia
 
 		dynasty_names = {
 			Audalad Caicuria
@@ -30,7 +30,7 @@ audalad = {
 	
 	}
 	taloran = {
-		primary = TAL #Tàlor
+		primary = A03 #Tàlor
 
 		dynasty_names = {
 			Audalad Rochelle Argenti Dynami
@@ -38,7 +38,7 @@ audalad = {
 	
 	}
 	theioniki = {
-		primary = TEI #Theiónikos
+		primary = A01 #Theiónikos
 		
 		dynasty_names = {
 			Audalad Caicuria Galus Amossi Keírikos
@@ -46,7 +46,7 @@ audalad = {
 	
 	}
 	anoshphite = {
-		primary = ANO #Anòshphéy
+		primary = A02 #Anòshphéy
 		
 		dynasty_names = {
 			Audalad Caicuria Galus Amossi Keírikos "Orne'Valerin"
@@ -54,7 +54,7 @@ audalad = {
 	
 	}
 	shimmere = {
-		primary = SHN #Shiny
+		primary = A04 #Shiny
 
 		dynasty_names = {
 			Audalad Caicuria
@@ -117,7 +117,7 @@ niedene = {
 	graphical_culture = westerngfx
 	
 	escharii = {
-		primary = ESC #Escharia
+		primary = N00 #Escharia
 		
 		dynasty = {
 			"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"

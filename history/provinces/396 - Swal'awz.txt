@@ -1,8 +1,8 @@
 # 396 - Swal'awz
 
-owner = SHN
-controller = SHN
-add_core = SHN
+owner = A04
+controller = A04
+add_core = A04
 add_core = ALH
 add_core = ORM #Tributary to Hormuz up until conquest by Jabrids
 

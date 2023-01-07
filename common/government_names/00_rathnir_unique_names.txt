@@ -36,11 +36,11 @@ yimmu-audal = {
 	}
 
 	trigger = {
-		tag = AUD #Yimmu-Audal
+		tag = A00 #Yimmu-Audal
 	}
 }
 
-theionikos = {
+theioniki_monarchy = {
 	rank = {
 		1 = TETRARCHATE
 		2 = ARCHONATE
@@ -60,11 +60,11 @@ theionikos = {
 	}
 
 	trigger = {
-		tag = TEI #Theiónikos
+		culture = theioniki
 	}
 }
 
-anoshphey = {
+anoshphite_monarchy = {
 	rank = {
 		1 = SHYHENEY
 		2 = LUMINEREY
@@ -84,7 +84,7 @@ anoshphey = {
 	}
 
 	trigger = {
-		tag = ANO #Anòshphéy
+		culture = anoshphite
 	}
 }
 

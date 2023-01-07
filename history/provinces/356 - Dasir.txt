@@ -1,8 +1,8 @@
 # 356 - Dasir
 
-owner = FUS
-controller = FUS
-add_core = FUS
+owner = A06
+controller = A06
+add_core = A06
 add_core = MAM
 
 culture = fuscinian

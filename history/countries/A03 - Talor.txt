@@ -5,7 +5,7 @@ government_rank = 1
 primary_culture = taloran
 religion = hukar_sharud
 technology_group = muslim
-historical_friend = AUD #Yimmu-Audal
+historical_friend = A00 #Yimmu-Audal
 capital = 321 #Tàlor (Cyprus)
 
 1444.1.1 = {

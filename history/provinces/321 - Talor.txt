@@ -1,8 +1,8 @@
 # 321 - Tàlor
 
-owner = TAL
-controller = TAL
-add_core = TAL
+owner = A03
+controller = A03
+add_core = A03
 add_core = CYP
 
 culture = taloran

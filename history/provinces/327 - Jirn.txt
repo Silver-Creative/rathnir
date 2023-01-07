@@ -1,8 +1,8 @@
 # 327 - Jirn
 
-owner = ANO
-controller = ANO
-add_core = ANO
+owner = A02
+controller = A02
+add_core = A02
 add_core = RAM
 
 culture = anoshphite

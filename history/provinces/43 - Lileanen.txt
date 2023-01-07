@@ -1,8 +1,8 @@
 # 43 - Lileanen
 
-owner = ESC
-controller = ESC
-add_core = ESC
+owner = N00
+controller = N00
+add_core = N00
 add_core = TEU
 
 culture = escharii
