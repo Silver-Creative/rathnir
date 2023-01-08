@@ -16,7 +16,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 2
 
-trade_goods = iron
+trade_goods = cheese #iron
 center_of_trade = 2
 
 is_city = yes
