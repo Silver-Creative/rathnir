@@ -39,6 +39,8 @@ audalad_monarchy = {
 		government = monarchy
 		culture_group = audalad_group
 		NOT = { tag = A00 } #Yimmu-Audal
+		NOT = { culture = theioniki }
+		NOT = { culture = anoshphite }
 	}
 }
 

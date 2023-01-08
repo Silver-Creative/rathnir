@@ -36,6 +36,8 @@
  building_wharf:0 "Naval Equipment Manufactory"
  workshop:0 "Workshop"
  building_quarry:0 "Quarry"
+ building_road_network:0 "Road Network"
+ building_canal_system:0 "Canal System"
  #Buildings Short
  admiralty_short:0 "Admiralty"
  artisan_workshop_short:0 "Artisans Workshop"
@@ -71,7 +73,10 @@
  weapons_short:0 "Weapons"
  wharf_short:0 "Naval Equipment"
  workshop_short:0 "Workshop"
- quarry_short:0 "Quarry"
+ quarry_short:0 "Quarry" #Rathnir
+ road_system_short:0 "Road System" #Rathnir
+ canal_system_short:0 "Canal System" #Rathnir
+
  #Build Actions
  build_refinery_title:0 "Build Refinery in $PROVINCENAME$"
  build_refinery_desc:0 "$PROVINCENAME$ is perfect for building a refinery, the province's economy would benefit greatly from building one."
@@ -93,5 +98,14 @@
  build_stock_exchange_desc:0 "World Trade is becoming evermore interlinked but we have not yet embraced Global Trade as an institution. $PROVINCENAME$ is ideal for building a Stock Exchange as our economy would benefit greatly from building one there."
  build_university_title:0 "Build University in $PROVINCENAME$"
  build_university_desc:0 "The Enligthenment movement is spreading across the world but we have yet to embrace it. To enhance our learning we should endow $PROVINCENAME$ with a university."
- build_quarry_desc:0 "Build Quarry in $PROVINCENAME$"
+ build_quarry_title:0 "Build Quarry in $PROVINCENAME$"
  build_quarry_desc:0 "With the advent of redpower and the rebirth of magic, redstone and lapis lazuli have become very valuable in Rathnir's markets. To profit from $PROVINCENAME$'s abundance in these resources, we should construct a Quarry."
+ build_road_system_title:0 "Build Road Network in $PROVINCENAME$"
+ build_road_system_desc:0 "To improve transportation and increase trade across the lands of $PROVINCENAME$, we need to construct a Road Network."
+ build_canal_system_title:0 "Build Canal System in $PROVINCENAME$"
+ build_canal_system_desc:0 "Recent developments in the art of shipmaking and navigating have made it possible for canals to be widely used as a means of traversing our lands. $PROVINCENAME# is ideal for building a Canal System as our economy would benefit greatly from building one there."
+
+ building_road_network:0 "Road Network"
+ building_road_network_desc:0 "Must not have §YCanal System§!.\n"
+ building_canal_system:0 "Canal System"
+ building_canal_system_desc:0 "Must not have §YRoad Network§!.\n"
