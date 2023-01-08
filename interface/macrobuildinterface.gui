@@ -1235,13 +1235,13 @@ guiTypes = {
 
 		checkboxType = {
 			name = "build_furnace"
-			position = { x = 9 y = 487 } # x = 269 y = 420
+			position = { x = 9 y = 490 } # x = 269 y = 420
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "furnace_cost"
-			position = {x = 9 y = 537 } # x = 269 y = 470
+			position = {x = 9 y = 540 } # x = 269 y = 470
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
