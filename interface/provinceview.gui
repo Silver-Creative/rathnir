@@ -5802,7 +5802,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -5818,7 +5818,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -5840,7 +5840,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -5851,13 +5851,13 @@ guiTypes = {
 
 		iconType = {
 			name = "government_banner"
-			position = { x = 188 y = 0 }
+			position = { x = 188 y = 0 } # x = 168
 			spriteType = "GFX_banner_right_3"
 		}
 
 		instantTextBoxType={
 			name = "title_government"
-			position = {x = 240 y = 9 }
+			position = { x = 240 y = 9 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 120
@@ -5880,12 +5880,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "town_hall_cost"
-			position = {x = 268 y = 82 }
+			position = { x = 268 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -5896,12 +5896,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "courthouse_cost"
-			position = {x = 216 y = 82 }
+			position = { x = 216 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -5918,12 +5918,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "university_cost"
-			position = {x = 320 y = 82 }
+			position = {x = 320 y = 82 } # x = 320
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 
@@ -5966,7 +5966,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -5982,7 +5982,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6004,7 +6004,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6020,7 +6020,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6037,7 +6037,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "title_production"
-			position = {x = 288 y = 106 }
+			position = { x = 288 y = 106 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 80
@@ -6048,7 +6048,7 @@ guiTypes = {
 		iconType ={
 			name ="production_icon"
 			spriteType = "GFX_macro_buildings_category_strip"
-			position = { x = 262 y = 100}
+			position = { x = 262 y = 100 }
 			frame = 4
 		}
 
@@ -6060,12 +6060,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "workshop_cost"
-			position = {x = 268 y = 179 }
+			position = { x = 268 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6076,12 +6076,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "counting_house_cost"
-			position = {x = 320 y = 179 }
+			position = { x = 320 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6130,7 +6130,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6146,7 +6146,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6168,7 +6168,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6184,7 +6184,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6201,7 +6201,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "title_taxation"
-			position = {x = 288 y = 203 }
+			position = { x = 288 y = 203 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 80
@@ -6224,12 +6224,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "temple_cost"
-			position = {x = 268 y = 276 }
+			position = { x = 268 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6240,12 +6240,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "cathedral_cost"
-			position = {x = 320 y = 276 }
+			position = { x = 320 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6294,7 +6294,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6310,7 +6310,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6332,7 +6332,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6354,7 +6354,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6401,7 +6401,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
@@ -6412,12 +6412,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "naval_battery_cost"
-			position = {x = 320 y = 372 }
+			position = { x = 320 y = 372 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		iconType = {
@@ -6432,7 +6432,7 @@ guiTypes = {
 		iconType = {
 			name = "manufactory_banner"
 			position = { x = 4 y = 388 }
-			spriteType = "GFX_banner_left_3"
+			spriteType = "GFX_banner_left_4"
 		}
 
 		instantTextBoxType={
@@ -6465,87 +6465,144 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
 			name = "build_ramparts"
-			position = { x = 61 y = 420 }
+			position = { x = 217 y = 322 } # x = 61 y = 420
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "ramparts_cost"
-			position = {x = 61 y = 470 }
+			position = {x = 217 y = 372 } # x = 61 y = 470
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
 			name = "build_impressment_offices"
-			position = { x = 113 y = 420 }
+			position = { x = 61 y = 420 } # x = 113
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "impressment_offices_cost"
-			position = {x = 113 y = 470 }
+			position = {x = 61 y = 470 } # x = 113
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
 			name = "build_state_house"
-			position = { x = 165 y = 420 }
+			position = { x = 113 y = 420 } # x = 165
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "state_house_cost"
-			position = {x = 165 y = 470 }
+			position = {x = 113 y = 470 } # x = 165
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000ï¿½"
+			text = "2000?"
 		}
 
 		checkboxType = {
 			name = "build_soldier_households"
-			position = { x = 217 y = 420 }
+			position = { x = 165 y = 420 } # x = 217
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "soldier_households_cost"
-			position = {x = 217 y = 470 }
+			position = {x = 165 y = 470 } # x = 217
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000Â¤"
+			text = "2000¤"
 		}
 
 		checkboxType = {
 			name = "build_furnace"
-			position = { x = 269 y = 420 }
+			position = { x = 217 y = 420 } # x = 269
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "furnace_cost"
-			position = {x = 269 y = 470 }
+			position = {x = 217 y = 470 } # x = 269
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000ï¿½"
+			text = "2000?"
+		}
+		
+		
+		#Rathnir
+		iconType = {
+			name = "transportation_banner"
+			position = { x = 240 y = 388 }
+			spriteType = "GFX_banner_right_2"
+		}
+
+		instantTextBoxType={
+			name = "title_transporation"
+			position = {x = 284 y = 397 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 160
+			maxHeight = 18
+			text = "TRANSPORTATION"
+		}
+
+		iconType ={
+			name = "transporation_icon"
+			spriteType = "GFX_macro_buildings_category_strip"
+			position = { x = 255 y = 391 }
+			frame = 10
+		}
+
+		checkboxType = {
+			name = "build_road_network"
+			position = { x = 268 y = 420 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "road_network_cost"
+			position = {x = 268 y = 470 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_canal_system"
+			position = { x = 320 y = 420 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "canal_system_cost"
+			position = { x = 320 y = 470 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
 		}
 
 	}
