@@ -342,6 +342,41 @@ coastal_defence = {
 	}
 }
 
+#Rathnir
+road_network = {
+    cost = 90
+    time = 12
+    build_trigger = {
+        AND = {
+            FROM = {
+                adm_tech = 3
+            }
+            NOT = { has_building = canal_system }
+        }
+    }
+    on_built = {
+        add_development_from_building = {
+            building = road_network
+            type = tax
+            value = 1
+        }
+    }
+    on_destroyed = {
+        remove_development_from_building = {
+            building = road_network
+            type = tax
+            value = 1
+        }
+    }
+    modifier = {
+        local_friendly_movement_speed = 0.2
+        province_trade_power_modifier = 0.2
+    }
+    ai_will_do = {
+        factor = 1.2
+    }
+}
+
 
 ################################################
 # Tier 2, 16th Century Buildings
@@ -669,6 +704,43 @@ naval_battery = {
 	ai_will_do = {
 		factor = 1
 	}
+}
+
+#Rathnir
+canal_system = {
+    cost = 180
+    time = 12
+    build_trigger = {
+        AND = {
+            FROM = {
+                dip_tech = 7
+		    }
+            NOT = { has_building = road_network }
+        }
+    }
+    on_built = {
+        add_development_from_building = {
+            building = canal_system
+            type = production
+            value = 1
+        }
+    }
+    on_destroyed = {
+        remove_development_from_building = {
+            building = canal_system
+            type = production
+            value = 1
+        }
+    }
+    modifier = {
+        trade_value_modifier = 0.1
+        local_development_cost = -0.05
+        allowed_num_of_buildings = 1
+    }
+    ai_will_do = {
+        factor = 1.2
+    }
+
 }
 
 ################################################
@@ -1544,6 +1616,7 @@ weapons = {
 	}
 }
 
+#Rathnir
 quarry = {
     manufactory = {
         redstone

@@ -61,6 +61,7 @@ technology = { #Medieval Administration
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
+    road_network = yes #Rathnir
 }
  
 technology = { #Temples

@@ -1031,42 +1031,42 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal"
+		name = "GFX_canal_system"
 		texturefile = "gfx//interface//buildings//latin_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_easterngfx"
+		name = "GFX_canal_system_easterngfx"
 		texturefile = "gfx//interface//buildings//eastern_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_asiangfx"
+		name = "GFX_canal_system_asiangfx"
 		texturefile = "gfx//interface//buildings//chinese_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_africangfx"
+		name = "GFX_canal_system_africangfx"
 		texturefile = "gfx//interface//buildings//african_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_indiangfx"
+		name = "GFX_canal_system_indiangfx"
 		texturefile = "gfx//interface//buildings//indian_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_muslimgfx"
+		name = "GFX_canal_system_muslimgfx"
 		texturefile = "gfx//interface//buildings//muslim_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_southamericagfx"
+		name = "GFX_canal_system_southamericagfx"
 		texturefile = "gfx//interface//buildings//southamerica_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_canal_northamericagfx"
+		name = "GFX_canal_system_northamericagfx"
 		texturefile = "gfx//interface//buildings//northamerica_canal.tga"
 		loadType = "INGAME"
 	}

@@ -124,6 +124,7 @@ technology = { #Naval Ambitions
 	range					= 115
 	impressment_offices 	= yes
 	naval_engagement_width = 10
+    canal_system = yes #Rathnir
 }
 
 technology  = { #Docks
