@@ -13,3 +13,19 @@ song = {
         }
     }
 }
+
+song = {
+    name = "dance_of_the_tercio"
+
+    chance = {
+        modifier = {
+            factor = 2
+            culture_group = sagaviri_group
+        }
+
+        modifier = {
+            factor = 0
+            is_at_war = yes
+        }
+    }
+}
