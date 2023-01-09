@@ -30,6 +30,13 @@
   dandelism_religion_desc:0 "I LOVE WAR"
   tossanism:0 "Tossanism"
   tossanism_religion_desc:0 "TT lol"
+ elven:0 "Elven"
+  twin_dragon:0 "Twin Dragon"
+  twin_dragon_religion_desc:0 "taosim"
+  ashuran_pantheon:0 "Ashuran Pantheon"
+  ashuran_pantheon_religion_desc:0 "oshotty"
+  asitir:0 "Asitir"
+  asitir_religion_desc:0 "mommy ewa"
   
  #Rebels
  hukar_sharud_rebels_demand:0 "Convert $COUNTRYNAME$"
@@ -115,3 +122,24 @@
  tossanism_rebels_name:0 "$RELIGION$ Zealots"
  tossanism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  tossanism_rebels_army:0 "$RELIGION$ Army"
+
+ twin_dragon_rebels_demand:0 "Convert $COUNTRYNAME$"
+ twin_dragon_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ twin_dragon_rebels_title:0 "Religious"
+ twin_dragon_rebels_name:0 "$RELIGION$ Zealots"
+ twin_dragon_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ twin_dragon_rebels_army:0 "$RELIGION$ Army"
+
+ ashuran_pantheon_rebels_demand:0 "Convert $COUNTRYNAME$"
+ ashuran_pantheon_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ ashuran_pantheon_rebels_title:0 "Religious"
+ ashuran_pantheon_rebels_name:0 "$RELIGION$ Zealots"
+ ashuran_pantheon_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ ashuran_pantheon_rebels_army:0 "$RELIGION$ Army"
+
+ asitir_rebels_demand:0 "Convert $COUNTRYNAME$"
+ asitir_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ asitir_rebels_title:0 "Religious"
+ asitir_rebels_name:0 "$RELIGION$ Zealots"
+ asitir_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ asitir_rebels_army:0 "$RELIGION$ Army"

@@ -187,4 +187,33 @@ niedene_group = {
 		
 	}
 }
+
+seraan_group = {
+	graphical_culture = muslimgfx
+
+	olaran = {
+
+	}
+
+	lirgalyn = {
+		primary = A21 #Lirgal
+
+		dynasty_names = {
+			Accero Ellan Deárinn
+		}
+
+	}
+
+	dynasty_names = {
+		Halsar Dandur Vasaian Mãe'taí
+
+		#Lost Noble Houses: Damalor Loriã
+	}
+	male_names = {
+		Cael Nitlós Kar Vopran Talanaas Cali Lai Tir Altor Fedre Authe Sjatyre Saraim Tali
+	}
+	female_names = {
+		Aldara Ellira Cali Ammara Moitiré Lairé Alea Dáido Selã Maimara Dana Authe Sjatyre Leryla Seréa Lynadara Lerá Néa Merine
+	}
+}
 	

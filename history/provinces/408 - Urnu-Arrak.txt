@@ -1,4 +1,4 @@
-#408 - Urnu-Arrak (Basra)
+#408 - Urnu-Arrak
 
 owner = A00
 controller = A00

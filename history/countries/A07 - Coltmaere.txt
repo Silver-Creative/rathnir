@@ -4,7 +4,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = maeretine
 religion = hukar_sharud
-technology_group = western
+technology_group = eastern
 capital = 163 #Maereta (Crete)
 
 1444.1.1 = {

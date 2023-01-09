@@ -1,0 +1,28 @@
+# 224 - Azethvir
+
+owner = CAS
+controller = CAS
+add_core = CAS
+
+culture = sironian
+religion = sakrelism
+capital = "The Red Citadel"
+
+hre = yes
+
+base_tax = 6
+base_production = 6
+base_manpower = 4
+
+trade_goods = wine
+center_of_trade = 2
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+extra_cost = 26
