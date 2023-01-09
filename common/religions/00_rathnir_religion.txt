@@ -41,6 +41,8 @@ jagdasian = {
 		heretic = { 
 		
 		}
+
+		uses_harmony = yes
 	}
 	
 	red_cult = {
@@ -74,6 +76,9 @@ jagdasian = {
 			HUKAR_SHARUD
 			ABYSS_MYSTICISM
 		}
+
+		doom = yes
+		declare_war_in_regency = yes
 	}
 	
 	abyss_mysticism = {
@@ -118,7 +123,7 @@ alteniquian = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 224 #Azethvir (Sevilha)
+	center_of_religion = 224 #Azethvir (Seville)
 
 	sakrelism = {
 		color = { 130 36 51 }
@@ -151,6 +156,14 @@ alteniquian = {
 		heretic = {
 			THEIOSISM
 		}
+
+		#holy_sites = {
+		#	224 #Azethvir (Seville)
+		#}
+
+		#blessings = {
+		#	??
+		#}
 	}
 	
 	theiosism = {

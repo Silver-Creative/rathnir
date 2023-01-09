@@ -97,14 +97,14 @@ sagaviri_group = {
 	thenian = {
 	
 	}
-	aldavian = {
+	adavian = {
 	
 	}
 	asturcian = {
 	
 	}
 	astyllean = {
-		primary = A40 #Astyllea
+		primary = A39 #Astyllea
 	
 	}
 	
