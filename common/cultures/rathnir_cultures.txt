@@ -188,6 +188,45 @@ niedene_group = {
 	}
 }
 
+talawan_group = {
+	graphical_culture = east_africangfx
+
+	old_talawan = {
+
+	}
+	red_talawan = {
+
+	}
+	alaay = {
+
+	}
+	voajus = {
+
+	}
+	redstoneborne = {
+
+	}
+	kaahirun = {
+
+	}
+	halfelf = {
+
+	}
+
+	dynasty_names = {
+
+	}
+
+	male_names = {
+
+	}
+
+	female_names = {
+		
+	}
+
+}
+
 seraan_group = {
 	graphical_culture = muslimgfx
 
