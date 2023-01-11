@@ -41,7 +41,3 @@ luac.out
 
 #dumb mac shit
 *.DS_Store
-
-descriptor.mod
-rathnir.mod
-*.mod
