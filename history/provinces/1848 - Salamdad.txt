@@ -6,7 +6,7 @@ add_core = A02
 add_core = KAR
 
 culture = anoshphite
-religion = hukar_sharud
+religion = theiosism
 capital = ""
 
 hre = no
