@@ -44,6 +44,56 @@ audalad_monarchy = {
 	}
 }
 
+theioniki_archonate = {
+	rank = {
+		1 = TETRARCHATE
+		2 = ARCHONATE
+		3 = ARCHONATE
+	}
+	
+	ruler_male = {
+		1 = TETRARCH
+		2 = ARCHON
+		3 = ARCHON
+	}
+	
+	ruler_female = {
+		1 = TETRARCHESS
+		2 = ARCHONESS
+		3 = ARCHONESS
+	}
+
+	trigger = {
+		government = theocracy
+		culture = theioniki
+	}
+}
+
+anoshphite_monarchy = {
+	rank = {
+		1 = SHYHENEY
+		2 = LUMINEREY
+		3 = ORISARENEY
+	}
+	
+	ruler_male = {
+		1 = SHYUH
+		2 = LUMIRUH
+		3 = ORISARUH
+	}
+	
+	ruler_female = {
+		1 = SHYAH
+		2 = LUMIRAH
+		3 = ORISARAH
+	}
+
+	trigger = {
+		government = monarchy
+		culture = anoshphite
+	}
+}
+
 sagaviri_archonate = {
 	rank = {
 		1 = SAGAVIRI_ARCHONATE
@@ -64,9 +114,33 @@ sagaviri_archonate = {
 	}
 
 	trigger = {
+		government = theocracy
+		culture_group = sagaviri_group
+	}
+}
+
+sagaviri_monarchy = {
+	rank = {
+		1 = DOUKRAT
+		2 = ANRAT
+		3 = ASHRIM
+	}
+	
+	ruler_male = {
+		1 = DOUKRE
+		2 = ANRE
+		3 = ASHIRE
+	}
+	
+	ruler_female = {
+		1 = DOUKRA
+		2 = ANRA
+		3 = ASHIRA
+	}
+
+	trigger = {
 		government = monarchy
 		culture_group = sagaviri_group
-		#NOT = { tag = COB }
 	}
 }
 

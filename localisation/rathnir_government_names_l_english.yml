@@ -8,7 +8,7 @@
  ORISHARA:0 "Orishara"
  LOSHARIM_KAIYID:0 "Losharim Kaiyid"
  
- #theioniki_monarchy
+ #theioniki_theocracy
  TETRARCHATE:0 "Tetrarchate"
  ARCHONATE:0 "Archonate"
  TETRARCH:0 "Tetrarch"
@@ -42,6 +42,17 @@
  HIEROPHANT:0 "Hierophant"
  SAGAVIRI_ARCHONESS:0 "Archoness"
  HIEROPHANTESS:0 "Hierophantess"
+
+ #sagaviri_monarchy
+ DOUKRAT:0 "Doukrat"
+ ANRAT:0 "Anrat"
+ ASHRIM:0 "Ashrim"
+ DOUKRE:0 "Doukre"
+ ANRE:0 "Anre"
+ ASHIRE:0 "Ashire"
+ DOUKRA:0 "Doukra"
+ ANRA:0 "Anra"
+ ASHIRA:0 "Ashira"
  
  #niedene_monarchy
  AROREI:0 "Arorei"

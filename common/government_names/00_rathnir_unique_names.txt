@@ -40,54 +40,6 @@ yimmu-audal = {
 	}
 }
 
-theioniki_monarchy = {
-	rank = {
-		1 = TETRARCHATE
-		2 = ARCHONATE
-		3 = ARCHONATE
-	}
-	
-	ruler_male = {
-		1 = TETRARCH
-		2 = ARCHON
-		3 = ARCHON
-	}
-	
-	ruler_female = {
-		1 = TETRARCHESS
-		2 = ARCHONESS
-		3 = ARCHONESS
-	}
-
-	trigger = {
-		culture = theioniki
-	}
-}
-
-anoshphite_monarchy = {
-	rank = {
-		1 = SHYHENEY
-		2 = LUMINEREY
-		3 = ORISARENEY
-	}
-	
-	ruler_male = {
-		1 = SHYUH
-		2 = LUMIRUH
-		3 = ORISARUH
-	}
-	
-	ruler_female = {
-		1 = SHYAH
-		2 = LUMIRAH
-		3 = ORISARAH
-	}
-
-	trigger = {
-		culture = anoshphite
-	}
-}
-
 theios-essukdal = {
 	rank = {
 		1 = DAHRSAT
