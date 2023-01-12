@@ -4,3 +4,4 @@ government_rank = 3
 primary_culture = astyllean
 technology_group = western
 capital = 408 #Urnu-Arrak
+national_focus = ADM

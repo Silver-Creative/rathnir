@@ -8,6 +8,7 @@ add_accepted_culture = gentarii
 religion = soleannen
 technology_group = western
 capital = 43 #Lileanen (Danzig)
+national_focus = MIL
 
 1444.1.1 = {
 	monarch = {

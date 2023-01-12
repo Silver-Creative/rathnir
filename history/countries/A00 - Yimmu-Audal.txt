@@ -10,7 +10,9 @@ technology_group = muslim
 historical_friend = A01 #Theiónikos
 historical_friend = A06 #Fuscinia
 historical_friend = A03 #Tàlor
+historical_friend = A10 #Sironia
 capital = 408 #Urnu-Arrak (Basra)
+national_focus = DIP
 
 1444.1.1 = {
 	monarch = {

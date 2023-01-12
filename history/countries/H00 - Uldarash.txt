@@ -6,6 +6,7 @@ primary_culture = red_talawan
 religion = asharu
 technology_group = east_african
 capital = 1212 #Hapatmitas (Zeila)
+national_focus = DIP
 
 1444.1.1 = {
 	monarch = {

@@ -7,6 +7,7 @@ religion = hukar_sharud
 technology_group = muslim
 historical_friend = A00 #Yimmu-Audal
 capital = 321 #Tàlor (Cyprus)
+national_focus = DIP
 
 1444.1.1 = {
 	monarch = {

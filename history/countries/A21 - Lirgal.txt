@@ -8,6 +8,7 @@ add_accepted_culture = lapidosan
 religion = asitir
 technology_group = western
 capital = 109 #Lirgal (Mantova)
+national_focus = ADM
 
 1444.1.1 = {
 	monarch = {

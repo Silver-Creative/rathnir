@@ -1,0 +1,5 @@
+vassal = {
+    first = A00 #Yimmu-Audal
+    second = A04 #Shiny
+    start_date = 1444.1.1
+}
