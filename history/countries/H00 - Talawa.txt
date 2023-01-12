@@ -1,0 +1,39 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = red_talawan
+religion = asharu
+technology_group = east_african
+capital = 1212 #Hapatmitas (Zeila)
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Iram"
+		dynasty = "Knight"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 6
+		mil = 4
+		culture = red_talawan
+		religion = noxism
+	}
+	add_ruler_personality = silver_tongue_personality
+    add_ruler_personality = charismatic_negotiator_personality
+	
+	queen = {
+		country_of_origin = H00
+		name = "Wurmbo"
+		dynasty = "Gote"
+		culture = red_talawan #goblino
+		religion = asharu
+		birth_date = 1440.10.17
+		death_date = 1820.6.8
+		adm = 6
+		dip = 3
+		mil = 0
+		female = yes
+	}
+	add_queen_personality = lawgiver_personality
+}

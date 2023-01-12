@@ -1,0 +1,105 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = africangfx
+
+color = { 127  0  0 }
+
+historical_idea_groups = {
+    influence_ideas
+	quantity_ideas
+	economic_ideas
+	administrative_ideas
+    innovativeness_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas		
+}
+
+historical_units = {
+	african_spearmen
+	african_abyssinian_light_cavalry
+	bantu_tribal_warfare
+	ethiopian_mountain_warfare
+	ethiopian_gunpowder_warfare
+	westernized_ethiopian
+	ethiopian_guerilla_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon
+}
+
+monarch_names = {
+
+	#Historical Uldarashi Leaders (Male)
+	"Dentro #0" = 10
+    "Wilusa #0" = 10
+    "Iram #0" = 10
+    "Willian #0" = 10
+
+	#Generic Uldarashi Names (Male)
+	"Taran #0" = 10
+    "Sanik #0" = 10
+    "Machiel #0" = 10
+    "Aloan #0" = 10
+    "Teke #0" = 10
+
+	#Generic Uldarashi Names (Female)
+	"Ogadeen #0" = -1
+    "Eyke #0" = -1
+
+    #Historical Uldarashi Leaders (Female)
+    "Wurmbo #0" = -1
+    "Nikephoros #0" = -1
+    "Alamu #0" = -1
+}
+
+leader_names = {
+	#Country Specific
+	"of Hapatmitas" "of Sanctuary" "of Lukka" "of Fornost" "of Mithusu" "of Zhaitker-Klend" "of Eraqat" "of Stoylisk" "of Kaahiru"
+	
+	#Province Neighbours
+	"of Arstedanna" "of Mimir's Pride" "of Azethvir" "of Ardat" "of Lumaire" "of Luxios" "of Yanren"
+	
+	#Country Neighbours
+	"of Soumere" "of Ardat-Mosul" "of Nunaje" "of Solisios" "of Lapidosa" "of Sironia"
+	
+	#Geographic Neighbours
+	"of Aldovir" "of Sorligste" "of Ummarnu" "of the Mesa" "of Talawa" 
+	
+	#Noble Families
+	Talewan Knight Oze 
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
+	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite "Young Prince" Zealous
+
+	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+	
+}
+
+army_names = {
+	"The Chosen" "Hassapa-çe-$PROVINCE$"
+}
+
+fleet_names = {
+	"The Red Sails" "Red Squadron" "Blue Squadron" "Green Squadron" "White Squadron"
+}

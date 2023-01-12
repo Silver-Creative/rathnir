@@ -21,6 +21,8 @@ A39 = "countries/Astyllea.txt"
 
 #Nieden
 N00 = "countries/Escharia.txt"
+N01 = "countries/Soleanna.txt"
 
 #Haven
-H00 = "countries/Uldarash.txt"
+H00 = "countries/Talawa.txt"
+H01 = "countries/Uldarash.txt"

@@ -34,7 +34,11 @@
  #Nieden
  N00:0 "Escharia"
  N00_ADJ:0 "Escharian"
+ N01:0 "Soleannan Empire"
+ N01_ADJ:0 "Soleannan"
 
  #Haven
- H00:0 "Uldarash"
- H00_ADJ:0 "Uldarashi"
+ H00:0 "Talawa"
+ H00_ADJ:0 "Talawan"
+ H01:0 "Uldarash"
+ H01_ADJ:0 "Uldarashi"

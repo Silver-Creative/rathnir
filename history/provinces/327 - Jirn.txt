@@ -18,6 +18,10 @@ base_manpower = 4
 trade_goods = obsidian #iron
 center_of_trade = 1
 
+latent_trade_goods = {
+	coal
+}
+
 is_city = yes
 fort_15th = yes
 
