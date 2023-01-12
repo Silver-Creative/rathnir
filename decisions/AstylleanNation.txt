@@ -18,7 +18,14 @@ country_decisions = {
 			#	culture = audalad
 			#}
 			#religion = theiosism
-			tag = A00
+			OR = {
+				culture_group = sagaviri_group
+				culture_group = audalad_group
+			}
+			OR = {
+				government_rank = 2
+				government_rank = 3
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

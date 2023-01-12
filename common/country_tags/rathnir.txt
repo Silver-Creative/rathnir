@@ -11,8 +11,11 @@ A06 = "countries/Fuscinia.txt"
 A07 = "countries/Coltmaere.txt"
 
 A09 = "countries/Theios-Essukdal.txt"
+A10 = "countries/Sironia.txt"
 
 A21 = "countries/Lirgal.txt"
+
+A25 = "countries/Aldovir.txt"
 
 A39 = "countries/Astyllea.txt"
 

@@ -24,7 +24,6 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Caicuria
 		}
-	
 	}
 	maeretine = {
 		primary = A07 #Coltmaere
@@ -32,7 +31,6 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
 		}
-	
 	}
 	taloran = {
 		primary = A03 #Tàlor
@@ -40,7 +38,6 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Rochelle Argenti Dynami
 		}
-	
 	}
 	theioniki = {
 		primary = A01 #Theiónikos
@@ -56,7 +53,6 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Caicuria Galus Amossi Keírikos "Orne'Valerin"
 		}
-	
 	}
 	shimmere = {
 		primary = A04 #Shiny
@@ -83,7 +79,11 @@ sagaviri_group = {
 	graphical_culture = easterngfx
 	
 	sironian = {
-		
+		primary = A10 #Sironia
+
+		dynasty_names = {
+			Caicuria Athisach Atherin
+		}
 	}
 	lapidosan = {
 		
@@ -105,7 +105,10 @@ sagaviri_group = {
 	}
 	astyllean = {
 		primary = A39 #Astyllea
-	
+
+		dynasty_names = {
+			Kair'vern
+		}
 	}
 	
 	dynasty_names = {
@@ -125,7 +128,7 @@ niedene_group = {
 	escharii = {
 		primary = N00 #Escharia
 		
-		dynasty = {
+		dynasty_names = {
 			"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
 			Pallas-Akerian "an Seqerie"
 		}
@@ -240,7 +243,6 @@ seraan_group = {
 		dynasty_names = {
 			Accero Ellan Deárinn
 		}
-
 	}
 
 	dynasty_names = {

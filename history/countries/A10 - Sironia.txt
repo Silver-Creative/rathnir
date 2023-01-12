@@ -1,0 +1,24 @@
+
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 2
+primary_culture = sironian
+religion = sakrelism
+technology_group = western
+historical_friend = A00 #Yimmu-Audal
+capital = 224 #Azethvir (Sevilla)
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Rithaur IV"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 5
+		mil = 3
+		culture = sironian
+		religion = sakrelism
+	}
+	add_ruler_personality = zealot_personality
+    add_ruler_personality = kind_hearted_personality
+}

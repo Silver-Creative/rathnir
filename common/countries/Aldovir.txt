@@ -3,31 +3,33 @@
 
 graphical_culture = westerngfx
 
-color = { 114  39  97 }
+color = { 130  36  51 }
 
 historical_idea_groups = {
-    administrative_ideas
+	religious_ideas
+	exploration_ideas
 	quantity_ideas
 	economic_ideas
-	diplomatic_ideas
-	expansion_ideas
+	influence_ideas
 	offensive_ideas
-	trade_ideas
-	quality_ideas		
+	aristocracy_ideas
+	spy_ideas		
 }
 
 historical_units = {
-	persian_footsoldier
-	persian_cavalry_charge
-	persian_shamshir
-	qizilbash_cavalry
-	tofongchis_musketeer
-	topchis_artillery
-	afsharid_reformed
-	afsharid_reformed_infantry
-	muslim_mass_infantry
-	muslim_dragoon
-	persian_rifle
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
 monarch_names = {
@@ -40,24 +42,8 @@ monarch_names = {
     "Tálos #0" = 10
     "Talanthas #0" = 10
     "Vorian #0" = 10
-	
-	#Historical Audalad Leaders (Male)
-	"Gray #0" = 10
-	"Stori #0" = 10
-	"Kaleb #0" = 10
-	"Hákon #0" = 10
-	"Blue #0" = 10
-	"Dexter #0" = 10
-	"Foxmunk #0" = 10
-	"Harbardr #0" = 10
-	"Centurion #0" = 10
-	"Toren #0" = 10
-	"Pontéos #0" = 10
-	"Brot #0" = 10
-	"Beagle #0" = 10
-	"Círandir #0" = 10
 
-    #Generic Aldoviri Names (Male)
+	#Generic Aldoviri Names (Male)
     "Aldrik #0" = 10
     "Alessandir #0" = 10
     "Anther #0" = 10
@@ -72,36 +58,7 @@ monarch_names = {
     "Sinthor #0" = 10
     "Ynaur #0" = 10
 
-	#Generic Audalad Names (Male)
-	"Auriliz #0" = 10 
-	"Daritumi #0" = 10 
-	"Nargashar #0" = 10 
-	"Lexadi #0" = 10 
-	"Hash #0" = 10 
-	"Suni #0" = 10 
-	"Utur #0" = 10 
-	"Ramadi #0" = 10 
-	"Odil #0" = 10 
-	"Naru #0" = 10 
-	"Igu #0" = 10
-	
-	#Historical Audalad Leaders (Female)
-	"Carpicious #0" = -1
-	"Dalatra #0" = -1
-	"Ghastly #0" = -1
-	"Adeline #0" = -1
-	"Natty #0" = -1
-	"Mouse #0" = -1
-	"Rosie #0" = -1
-
-	#Generic Audalad Names (Female)
-	"Seramida #0" = -1
-	"Ardamine #0" = -1 
-	"Ederai #0" = -1 
-	"Lerai #0" = -1
-	"Ifaeri #0" = -1
-
-    #Generic Aldoviri Names (Female)
+	#Generic Aldoviri Names (Female)
     "Annasa #0" = -1
     "Ansa #0" = -1
     "Arstenna #0" = -1
@@ -116,29 +73,23 @@ monarch_names = {
 	#Historical Aldoviri Leaders (Female)
     "Alessandra #0" -1
     "Subica #0" = -1
-	
 }
 
 leader_names = {
 	#Country Specific
-	"of Yimmu-Audal" "of Theiónikos" "of Anòshphéy" "of Azuria" "of Vanakunir" "of Coltmaere"
-    "of Aldovir" "of Lapidosa" "of Sironia" "of Adavia" "of Carn" "of Kronesia"
-
-    "of Urnu-Arrak" "of Tàlor" "of Jirn" "of Theiotokos" "of Maereta" "of Ayesinco" "of Amos"
-    "of Arstedanna" "of Azethvir" "of Mimir's Pride" "of Larokin" "of Lestria" "of Roscella" "of Lirgal"
+	"of Azethvir" "of Arstedanna" "of Evansyllo" "of Meidanna" "of Myrmark" "of Mimir's Pride" "of Roscella"
 	
 	#Province Neighbours
-	"of Hapatmitas" "of Corthaidh" "of Carvay" "of Carvay" "of Soléa" "of Dorasterrock" "of Lumaire"
+	"of Ayesinco" "of Nikhazi" "of Hapatmitas" "of Lumaire" "of Carvay" "of Eldal-Adadi" "of Dasir"
 	
 	#Country Neighbours
-	"of Ombria" "of Escharia" "of Uldarash" "of Sironia" "of Tortuga" "of Athazolant" "of Bardonia"
+	"of Audal" "of Theiónikos" "of Asturcia" "of Uldarash" "of Athazolant"
 	
 	#Geographic Neighbours
-	"of Alteniquia" "of Nieden" "of Vastallos" "of Ummarnu" "of Syltör" "of Sparwood"
+	"of Essukdal" "of Vastallos" "of Talawa"
 	
 	#Noble Families
-	Audalad "Maximos Caicuria" Galus Mosulia "Orne'Valerin" Rochelle Amossi 
-    "se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+	"se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
     Asherin Athisach Velrath Yramar Teranath Karilath Zerithan Talinthus Seirina Salári
 }
 
@@ -163,14 +114,12 @@ ship_names = {
 	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
 	Strength Dexterity Constitution Intelligence Wisdom Charisma
 	
-	#Specific Audalad
-	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
 }
 
 army_names = {
-	"Imperial Guild of War" "Army of $PROVINCE$"
+	"Sagaras Ammanór" "Ammanór síl $PROVINCE$"
 }
 
 fleet_names = {
-	"The Tyrian Fleet" "Red Squadron" "White Squadron" "Blue Squadron"
+	"Imperial Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
 }
