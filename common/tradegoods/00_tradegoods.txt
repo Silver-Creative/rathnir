@@ -2016,7 +2016,7 @@ silver = {
 }
 
 obsidian = {
-	color = { 0.10 0.10 0.20 }
+	color = { 82 15 106 }
 	modifier = {
 		shock_damage_received = -0.05
 		fire_damage_received = -0.05
