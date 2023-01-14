@@ -2008,7 +2008,7 @@ lapis_lazuli = {
 }
 
 silver = {
-	color = { 0.33 0.38 0.44 }
+	color = { 50 101 161 }
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
 		factor = 0
 	}
@@ -2072,7 +2072,7 @@ fruits = {
 }
 
 potions = {
-	color = { 0.90 0.60 0.00 }
+	color = { 0.99 0.60 0.80 }
 	modifier = {
 		reform_progress_growth = 0.10
 	}
