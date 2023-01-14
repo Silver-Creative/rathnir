@@ -5,7 +5,7 @@ controller = A07
 add_core = A07
 
 culture = maeretine
-religion = sakrelism
+religion = hukar_sharud
 capital = ""
 
 hre = no
