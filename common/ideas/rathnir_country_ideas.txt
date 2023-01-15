@@ -1,0 +1,51 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+#Coltmaere ideas
+A07_ideas = {
+	start = {
+		privateer_efficiency = 0.15
+		may_recruit_female_generals = yes
+	}
+
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = A07
+		}
+	}
+	free = yes		#will be added at load.
+	
+	A07_flexible_treaties = {
+		enemy_core_creation = 0.3
+	}
+	A07_a_yellow_memory = {
+		morale_damage_received = -0.05
+	}
+	A07_keshnev_trade_union = {
+	    trade_range_modifier = 0.5
+        trade_steering = 0.1
+	}
+	A07_legacy_of_the_witch-hunts = {
+		stability_cost_modifier = -0.1
+	}
+	A07_phagosian_ferries = {
+		movement_speed_in_fleet_modifier = 1
+		landing_penalty = -2
+	}
+	A07_hjuzairar = {
+		global_tax_modifier = 0.05 
+        nobles_loyalty_modifier = 0.1
+	}
+	A07_iceshapers = {
+		all_power_cost = -0.025
+	}
+}
