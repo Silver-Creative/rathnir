@@ -1,4 +1,14 @@
 song = {
+    name = "maintheme"
+
+    chance = {
+        modifier = {
+            factor = 0      # only played in mainscreen.
+        }
+    }
+}
+
+song = {
     name = "yimmies_in_lileanen"
 
     chance = {
