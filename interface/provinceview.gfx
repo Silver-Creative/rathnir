@@ -306,7 +306,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_province_view_religion"
-		texturefile = "gfx//interface//province_view_religion.dds"
+		texturefile = "gfx//interface//religions//province_view_religion.dds"
 		noOfFrames = 44 #Rathnir
 		loadType = "INGAME"
 	}
@@ -974,14 +974,14 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_resource_icon"
-		texturefile = "gfx//interface//resources.tga"
+		texturefile = "gfx//interface//tradegoods//resources.tga"
 		noOfFrames = 40 #32 for the base game, 40 for Rathnir
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_resource_icon_small"
-		texturefile = "gfx//interface//resources_small.dds"
+		texturefile = "gfx//interface//tradegoods//resources_small.dds"
 		noOfFrames = 40 #32 for the base game, 40 for Rathnir
 		loadType = "INGAME"
 	}
@@ -994,7 +994,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
-		texturefile = "gfx//interface//resources.tga"
+		texturefile = "gfx//interface//tradegoods//resources.tga"
 		noOfFrames = 40 #32 for the base game, 40 for Rathnir
 		loadType = "INGAME"
 		

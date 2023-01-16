@@ -1999,7 +1999,7 @@ lapis_lazuli = {
 		innovativeness_gain = 0.5
 	}
 	province = {
-		local_development_cost = -0.05
+		local_development_cost = -0.1
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
 		factor = 0
@@ -2008,7 +2008,7 @@ lapis_lazuli = {
 }
 
 silver = {
-	color = { 0.33 0.38 0.44 }
+	color = { 50 101 161 }
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
 		factor = 0
 	}
@@ -2016,7 +2016,7 @@ silver = {
 }
 
 obsidian = {
-	color = { 0.10 0.10 0.20 }
+	color = { 82 15 106 }
 	modifier = {
 		shock_damage_received = -0.05
 		fire_damage_received = -0.05
@@ -2072,7 +2072,7 @@ fruits = {
 }
 
 potions = {
-	color = { 0.90 0.60 0.00 }
+	color = { 0.99 0.60 0.80 }
 	modifier = {
 		reform_progress_growth = 0.10
 	}

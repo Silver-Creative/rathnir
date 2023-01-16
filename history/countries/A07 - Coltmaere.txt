@@ -5,7 +5,7 @@ government_rank = 1
 primary_culture = maeretine
 religion = hukar_sharud
 technology_group = eastern
-capital = 163 #Maereta (Crete)
+capital = 126 #Maereta (Malta)
 national_focus = MIL
 
 1444.1.1 = {

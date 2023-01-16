@@ -6,7 +6,7 @@ primary_culture = fuscinian
 religion = hukar_sharud
 technology_group = muslim
 historical_friend = A00 #Yimmu-Audal
-capital = 356 #Dasir (Benghazi)
+capital = 411 #Urnu-Oyori (Mosul)
 national_focus = MIL
 
 1444.1.1 = {

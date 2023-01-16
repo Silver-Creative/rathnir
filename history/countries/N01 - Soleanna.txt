@@ -1,0 +1,11 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = escharii
+add_accepted_culture = solarii
+add_accepted_culture = gentarii
+religion = soleannen
+technology_group = western
+capital = 43 #Lileanen (Danzig)
+national_focus = MIL

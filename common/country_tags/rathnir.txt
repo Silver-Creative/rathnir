@@ -6,7 +6,7 @@ A01 = "countries/Theionikos.txt"
 A02 = "countries/Anoshphey.txt"
 A03 = "countries/Talor.txt"
 A04 = "countries/Shiny.txt"
-
+A05 = "countries/Grizzlybear.txt"
 A06 = "countries/Fuscinia.txt"
 A07 = "countries/Coltmaere.txt"
 
@@ -21,6 +21,8 @@ A39 = "countries/Astyllea.txt"
 
 #Nieden
 N00 = "countries/Escharia.txt"
+N01 = "countries/Soleanna.txt"
 
 #Haven
-H00 = "countries/Uldarash.txt"
+H00 = "countries/Talawa.txt"
+H01 = "countries/Uldarash.txt"
