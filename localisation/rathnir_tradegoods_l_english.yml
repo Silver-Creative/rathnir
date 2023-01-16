@@ -1,7 +1,7 @@
 ﻿l_english:
  #Rathnir Resources
  redstone:0 "Redstone"
- redstoneDESC:0 "TODO add redstone description"
+ redstoneDESC:0 "Redstone dust is a mineral that can transmit redstone power. It is also used in potion brewing and road building for speed qualities that the mineral provides"
  lapis_lazuli:0 "Lapis Lazuli"
  lapis_lazuliDESC:0 "TODO add lapis description"
  silver:0 "Silver"
