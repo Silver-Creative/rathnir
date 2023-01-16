@@ -31,7 +31,20 @@ A02_ideas = {
         cavalry_power = 0.15
         cavalry_cost = -0.25
     }
-    A02_
+    A02_many-colored_smiles_and_tears = {
+		num_accepted_cultures = 2
+		same_culture_advisor_cost = -0.10
+		manpower_in_accepted_culture_provinces = 0.10
+	}
+	A02_potters_of_the_earth = {
+		build_cost = -0.75
+		development_cost = -0.75
+	}
+	A02_the_walls_of_prisma = {
+		global_defender_dice_roll_bonus = 1
+		fort_maintenance_modifier = -0.10
+	}
+	
 }
 
 #Coltmaere ideas
