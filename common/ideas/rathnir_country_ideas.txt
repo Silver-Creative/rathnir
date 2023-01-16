@@ -6,6 +6,34 @@
 
 ### Nation specific idea groups
 
+#Anòshphéy ideas
+A02_ideas = {
+    start = {
+        construction_cost = -0.1
+        all_estate_loyalty_equilibrium = 0.05
+    }
+
+    bonus = {
+        technology_cost = -0.5
+    }
+
+    trigger = {
+        OR = {
+            tag = A02 #Anòshphéy
+        }
+    }
+    free = yes		#will be added at load.
+
+    A02_jirnite_steel = {
+        global_trade_goods_size_modifier = 0.05
+    }
+    A02_knights_of_anoshphey = {
+        cavalry_power = 0.15
+        cavalry_cost = -0.25
+    }
+    A02_
+}
+
 #Coltmaere ideas
 A07_ideas = {
 	start = {
@@ -19,7 +47,7 @@ A07_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = A07
+			tag = A07 #Coltmaere
 		}
 	}
 	free = yes		#will be added at load.
