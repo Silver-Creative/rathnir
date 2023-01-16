@@ -71,7 +71,6 @@ audalad_group = {
 	}
 	female_names = {
 		Seramida Ardamine Ederai Lerai Ifaeri
-		
 	}
 }
 

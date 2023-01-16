@@ -1,4 +1,9 @@
 music = {
+    name = "maintheme"
+    file = "maintheme.ogg"
+}
+
+music = {
     name = "yimmies_in_lileanen"
     file = "yimmies_in_lileanen.ogg"
 }
