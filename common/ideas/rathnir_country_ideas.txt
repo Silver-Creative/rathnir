@@ -9,12 +9,12 @@
 #Anòshphéy ideas
 A02_ideas = {
     start = {
-        construction_cost = -0.1
+        build_cost = -0.1
         all_estate_loyalty_equilibrium = 0.05
     }
 
     bonus = {
-        technology_cost = -0.5
+        technology_cost = -0.05
     }
 
     trigger = {
@@ -36,15 +36,25 @@ A02_ideas = {
 		same_culture_advisor_cost = -0.10
 		manpower_in_accepted_culture_provinces = 0.10
 	}
-	A02_potters_of_the_earth = {
-		build_cost = -0.75
-		development_cost = -0.75
+	A02_even_the_very_earth_bends_to_the_shyhe = {
+		build_cost = -0.075
+		development_cost = -0.075
 	}
 	A02_the_walls_of_prisma = {
 		global_defender_dice_roll_bonus = 1
 		fort_maintenance_modifier = -0.10
 	}
-	
+	A02_yhure = {
+		recover_army_morale_speed = 0.05
+	}
+	A02_the_shyhes_court = {
+		no_stability_loss_on_monarch_death = yes
+		legitimacy = 0.5
+		republican_tradition = 0.5
+		devotion = 0.5
+		horde_unity = 0.5
+		meritocracy = 0.5
+	}
 }
 
 #Coltmaere ideas

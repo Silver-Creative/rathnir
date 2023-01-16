@@ -1,4 +1,23 @@
 ﻿l_english:
+ #A02 - Anòshphéy
+ A02_ideas:0 "Anòshphite Ideas"
+ A02_ideas_start:0 "Anòshphite Traditions"
+ A02_ideas_bonus:0 "Anòshphite Ambition"
+ A02_jirnite_steel:0 "Jirnite Steel"
+ A02_jirnite_steel_desc:0 "..."
+ A02_knights_of_anoshphey:0 "The Knights of Anòshphéy"
+ A02_knights_of_anoshphey_desc:0 "..."
+ A02_many-colored_smiles_and_tears:0 "Many-Colored Smiles and Tears"
+ A02_many-colored_smiles_and_tears_desc:0 "..."
+ A02_even_the_very_earth_bends_to_the_shyhe:0 "Even the Very Earth Bends Before the Shyhe"
+ A02_even_the_very_earth_bends_to_the_shyhe_desc:0 "..."
+ A02_the_walls_of_prisma:0 "The Walls of Prisma"
+ A02_the_walls_of_prisma_desc:0 "..."
+ A02_yhure:0 "Yhuré"
+ A02_yhure_desc:0 "..."
+ A02_the_shyhes_court:0 "The Shyhe's Court"
+ A02_the_shyhes_court_desc:0 "..."
+
  #A07 - Coltmaere
  A07_ideas:0 "Coltmaeran Ideas"
  A07_ideas_start:0 "Coltmaeran Traditions"
