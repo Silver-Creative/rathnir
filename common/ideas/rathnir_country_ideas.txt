@@ -100,3 +100,93 @@ A07_ideas = {
 		all_power_cost = -0.025
 	}
 }
+
+#Sironian ideas
+A10_ideas = {
+	start = {
+		missionaries = 1
+		religious_unity = 0.25
+	}
+
+	bonus = {
+		extra_manpower_at_religious_war = yes
+	}
+
+	trigger = {
+		OR = {
+			tag = A10 #Sironia
+		}
+	}
+	free = yes		#will be added at load.
+
+	A10_closest_unto_heaven = {
+		global_missionary_strength = 0.01
+		church_loyalty_modifier = 0.1
+	}
+	A10_love_is_fire_that_burns_unseen = {
+		diplomatic_reputation = 1
+	}
+	A10_blood_of_temion = {
+		land_morale = 0.1
+		hostile_attrition = 1.0
+	}
+	A10_in_the_prophets_image = {
+		establish_order_cost = -0.25
+	}
+	A10_the_heir_of_flames = {
+		unjustified_demands = -0.15
+		war_exhaustion = -0.02
+	}
+	A10_one_under_the_archon = {
+		max_absolutism = 10
+	}
+	A10_gunnery_at_kalasirol = {
+		fire_damage = 10
+		movement_speed = 0.05
+	}
+}
+
+#Escharian Ideas
+N00_ideas = {
+	start = {
+		discipline = 0.05
+		tolerance_own = 3
+	}
+
+	bonus = {
+		range = 0.25
+		global_colonial_growth = 15
+	}
+
+	N00_resettling_niedea = {
+		manpower_in_culture_group_provinces = 0.125
+		development_cost = -0.1
+	}
+	N00_restore_the_cardinal = {
+		papal_influence = 1
+		global_missionary_strength = 0.02
+	}
+	N00_imperial_legacy = {
+		land_morale = 0.1
+		naval_morale = 0.1
+	}
+	N00_escharian_renaissance = {
+		idea_cost = -0.1
+	}
+	N00_empire_of_the_niedene = {
+		governing_capacity_modifier = 0.3
+		legitimacy = 0.5
+		republican_tradition = 0.5
+		devotion = 0.5
+		horde_unity = 0.5
+		meritocracy = 0.5
+	}
+	N00_irastli_reform = {
+		global_tax_modifier = 0.1
+		nobles_loyalty_modifier = 0.1
+	}
+	N00_asai = {
+		max_absolutism = 15
+		global_colonial_growth = 15
+	}
+}
