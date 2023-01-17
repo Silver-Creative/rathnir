@@ -3,7 +3,7 @@
 
 graphical_culture = westerngfx
 
-color = { 130  36  51 }
+color = { 135  206  235 } #87ceeb
 
 historical_idea_groups = {
     #r
@@ -15,7 +15,7 @@ monarch_names = {
 }
 
 leader_names = {
-    #e
+    #dark
 }
 
 ship_names = {
@@ -29,3 +29,7 @@ army_names = {
 fleet_names = {
 	"Lotus Squadron" "Lotus Fleet" "Fleet of $PROVINCE$"
 }
+
+
+#has_meritocracy = yes
+#assimilation_cultures ?
