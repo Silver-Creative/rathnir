@@ -11,8 +11,9 @@ tags={
 	"Religion"
 	"Expansion"
 }
-name="Rathnir-LocalFork"
+name="Tales of Rathnir"
 replace_path="gfx/loadingscreens"
 replace_path="history/provinces"
 supported_version="1.34.5"
+picture="thumbnail.png"
 path="mod/rathnir-main"
