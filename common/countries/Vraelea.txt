@@ -1,0 +1,35 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 135  206  235 } #87ceeb
+
+historical_idea_groups = {
+    #r
+}
+
+monarch_names = {
+
+    #Historical Audalad Leaders (Male)
+}
+
+leader_names = {
+    #dark
+}
+
+ship_names = {
+    #e
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Lotus Squadron" "Lotus Fleet" "Fleet of $PROVINCE$"
+}
+
+
+#has_meritocracy = yes
+#assimilation_cultures ?

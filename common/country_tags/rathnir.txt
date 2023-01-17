@@ -1,6 +1,6 @@
 # Tales of Rathnir
 
-#Alteniquia
+#Alteniquia - Axx/Bxx
 A00 = "countries/Yimmu-Audal.txt"
 A01 = "countries/Theionikos.txt"
 A02 = "countries/Anoshphey.txt"
@@ -19,10 +19,28 @@ A25 = "countries/Aldovir.txt"
 
 A39 = "countries/Astyllea.txt"
 
-#Nieden
+#The North - Fxx/Gxx
+
+#Haven - Hxx/Ixx
+H00 = "countries/Talawa.txt"
+H01 = "countries/Uldarash.txt"
+
+#Akan'nash - Kxx/Jxx
+
+#Sparwood - Lxx/Mxx
+L00 = "countries/Vraelea.txt"
+#L01 = "countries/Lotus Empire.txt"
+
+#Nieden (except SC) - Nxx/Oxx
 N00 = "countries/Escharia.txt"
 N01 = "countries/Soleanna.txt"
 
-#Haven
-H00 = "countries/Talawa.txt"
-H01 = "countries/Uldarash.txt"
+#Plagos - Pxx/Qxx
+
+#Sorligste - Sxx/Txx
+
+#Ummarnu - Uxx/Vxx
+
+#Cymru (Cibor) - Wxx/Xxx
+
+#Syltör - Yxx/Zss
