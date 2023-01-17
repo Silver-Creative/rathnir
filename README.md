@@ -21,12 +21,12 @@ To add this build to your modlist, go to the following directory:
 Documents/Paradox Interactive/Europa Universalis 4/mods
 ```
 
-and paste in the zipped build file. Then, unzip it and pull the "rathnir.mod" file out onto the mods folder. If necessary, rename the build folder to "rathnir" so as to match the .mod file.
+and paste in the zipped build file. Then, unzip it and pull the "descriptor.mod" file out onto the mods folder. If necessary, rename the .mod file to "rathnir-main.mod" so as to match the folder.
 
-At this point, you should have at least two things in your mods folder:
-* the "**rathnir**" folder;
-* the "**rathnir.mod**" file;
+At this point, you should have at least two things in your /mod folder:
+* the "**rathnir-main**" folder;
+* the "**rathnir-main.mod**" file;
 
 ### Launching EU4
 
-If everything checks out, delete the .zip file and start up EU4. When modifying a playset, you should now see an icon-less "Rathnir" mod pop up. Add it to your playset, switch to that playset and hit **Play**! 
+If everything checks out, delete the .zip file and start up EU4. When modifying a playset, you should now see an icon-less "Rathnir-LocalFork" mod pop up. Add it to your playset, switch to that playset and hit **Play**! 
