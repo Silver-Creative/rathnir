@@ -9,6 +9,10 @@ historical_idea_groups = {
     #r
 }
 
+historical_units = {
+    #e
+}
+
 monarch_names = {
 
     #Historical Audalad Leaders (Male)
@@ -33,3 +37,41 @@ fleet_names = {
 
 #has_meritocracy = yes
 #assimilation_cultures ?
+#war_exhaustion = -0.10
+#free_leader_pool = 1
+#available_province_loot = 0.15
+#may_recruit_female_generals = yes
+#military_tactics = 0.25
+#manpower_in_accepted_culture_provinces = 0.50
+#global_defender_dice_roll_bonus = 2
+#own_territory_dice_roll_bonus = 1
+#attack_bonus_in_capital_terrain = yes
+#has_banners = yes (what is this?)
+#global_ship_cost = 0.2
+#flagship_cost = -0.3
+#diplomats = 2
+#can_fabricate_for_vassals = yes
+#global_prosperity_growth = 0.1
+#build_time = 0.1
+#prestige = 0.5
+#prestige_decay = -0.01
+#national_focus_years = 1
+#meritocracy = 1
+#reelection_cost = -1 #insane modifier
+#relation_with_other_culture = 5
+#promote_culture_cost = 0.1
+#allow_client_states = yes
+#
+
+#Espionage
+#spy_offence = 0.2 #maybe redundant
+#discovered_relations_impact = -0.2
+#rebel_support_efficiency = 0.1
+
+#Religion
+#can_not_build_missionaries = yes
+
+#Colonisation
+#native_uprising_chance = -0.25
+#may_explore = yes
+#auto_explore_adjacent_to_colony = yes
