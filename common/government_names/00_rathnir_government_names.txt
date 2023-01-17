@@ -152,14 +152,14 @@ niedene_monarchy = {
 	}
 	
 	ruler_male = {
-		1 = AHROKAN
-		2 = AKEREI
+		1 = AROQAN
+		2 = AQEREI
 		3 = IKSARE
 	}
 	
 	ruler_female = {
-		1 = AHROKIN
-		2 = AKERIN
+		1 = AROQAN
+		2 = AQERIN
 		3 = IKSARIN
 	}
 	

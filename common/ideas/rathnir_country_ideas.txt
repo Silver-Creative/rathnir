@@ -141,7 +141,7 @@ A10_ideas = {
 		max_absolutism = 10
 	}
 	A10_gunnery_at_kalasirol = {
-		fire_damage = 10
+		fire_damage = 0.1
 		movement_speed = 0.05
 	}
 }
