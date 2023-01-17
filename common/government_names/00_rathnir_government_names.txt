@@ -147,8 +147,8 @@ sagaviri_monarchy = {
 niedene_monarchy = {
 	rank = {
 		1 = AROREI
-		2 = ERRASTERREI
-		3 = IRASTEREI
+		2 = ERASTERREI
+		3 = IRASTERREI
 	}
 	
 	ruler_male = {
