@@ -1,5 +1,5 @@
 ﻿l_english:
- #Alteniquia
+#Alteniquia
  A00:0 "Yimmu-Audal"
  A00_ADJ:0 "Audalad"
  A01:0 "Theiónikos"
@@ -30,15 +30,35 @@
 
  A39:0 "Empire of Astyllea"
  A39_ADJ:0 "Astyllean"
+
+#The North - Fxx/Gxx
+
+#Haven
+ H00:0 "Talawa"
+ H00_ADJ:0 "Talawan"
+ H01:0 "Uldarash"
+ H01_ADJ:0 "Uldarashi"
+
+#Akan'nash - Kxx/Jxx
  
- #Nieden
+#Sparwood
+ L00:0 "Vraelea"
+ L00_ADJ:0 "Vraelean"
+ #L01:0 "Lotus Empire"
+ #L01_ADJ:0 "Vraelean"
+
+#Nieden
  N00:0 "Escharia"
  N00_ADJ:0 "Escharian"
  N01:0 "Soleannan Empire"
  N01_ADJ:0 "Soleannan"
 
- #Haven
- H00:0 "Talawa"
- H00_ADJ:0 "Talawan"
- H01:0 "Uldarash"
- H01_ADJ:0 "Uldarashi"
+#Plagos - Pxx/Qxx
+
+#Sorligste - Sxx/Txx
+
+#Ummarnu - Uxx/Vxx
+
+#Cymru (Cibor) - Wxx/Xxx
+
+#Syltör - Yxx/Zss

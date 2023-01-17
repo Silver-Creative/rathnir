@@ -28,8 +28,8 @@ H01 = "countries/Uldarash.txt"
 #Akan'nash - Kxx/Jxx
 
 #Sparwood - Lxx/Mxx
-L00 = "countries/Lotus Empire.txt"
-L01 = "countries/Vraelea.txt"
+L00 = "countries/Vraelea.txt"
+#L01 = "countries/Lotus Empire.txt"
 
 #Nieden (except SC) - Nxx/Oxx
 N00 = "countries/Escharia.txt"
@@ -39,7 +39,7 @@ N01 = "countries/Soleanna.txt"
 
 #Sorligste - Sxx/Txx
 
-#Ummarnu- Uxx/Vxx
+#Ummarnu - Uxx/Vxx
 
 #Cymru (Cibor) - Wxx/Xxx
 
