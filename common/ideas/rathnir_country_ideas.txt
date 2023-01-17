@@ -158,6 +158,13 @@ N00_ideas = {
 		global_colonial_growth = 15
 	}
 
+	trigger = {
+		OR = {
+			tag = N00 #Escharia
+		}
+	}
+	free = yes		#will be added at load.
+
 	N00_resettling_niedea = {
 		manpower_in_culture_group_provinces = 0.125
 		development_cost = -0.1
