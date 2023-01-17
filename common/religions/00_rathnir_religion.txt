@@ -52,14 +52,14 @@ jagdasian = {
 			hukar_sharud
 		}
 		country = {
-			local_monthly_devastation = 0.05
+			global_monthly_devastation = 0.05
 			land_morale = 0.2
 		}
 		country_as_secondary = {
-			local_monthly_devastation = 0.05
+			global_monthly_devastation = 0.05
 		}
 		province = {
-			local_unrest = -2
+			local_unrest = 2
 		}
 
 		on_convert = {
@@ -77,7 +77,6 @@ jagdasian = {
 			ABYSS_MYSTICISM
 		}
 
-		doom = yes
 		declare_war_in_regency = yes
 	}
 	
