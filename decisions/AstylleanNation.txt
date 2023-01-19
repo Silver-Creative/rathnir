@@ -8,16 +8,11 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			#OR = {
-			#	is_free_or_tributary_trigger = yes
-			#	ai = no
-			#}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = A39 }
-			#OR = {
-			#	culture = theionikan
-			#	culture = audalad
-			#}
-			#religion = theiosism
 			OR = {
 				culture_group = sagaviri_group
 				culture_group = audalad_group
@@ -73,7 +68,6 @@ country_decisions = {
 			}
 			hidden_effect = { restore_country_name = yes }
 			change_tag = A39
-            change_primary_culture = astyllean
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

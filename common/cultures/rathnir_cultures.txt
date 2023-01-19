@@ -102,13 +102,6 @@ sagaviri_group = {
 	asturcian = {
 	
 	}
-	astyllean = {
-		primary = A39 #Astyllea
-
-		dynasty_names = {
-			Kair'vern
-		}
-	}
 	
 	dynasty_names = {
 		
