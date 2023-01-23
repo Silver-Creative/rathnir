@@ -1,0 +1,79 @@
+as_laborious_as_iniron = {
+	is_blessing = yes
+
+	modifier = {
+		build_cost = -0.15
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+as_gentle_as_asala = {
+	is_blessing = yes
+
+	modifier = {
+		trade_goods_size_modifier = 0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+as_learned_as_ataron = {
+	is_blessing = yes
+
+	modifier = {
+		idea_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+as_lawful_as_temion = {
+	is_blessing = yes
+
+	modifier = {
+		global_autonomy = -0.075
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+prepare_for_the_fifth_son = {
+	is_blessing = yes
+
+	modifier = {
+		army_tradition = 0.5
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+sever_all_from_darkness_hold = {
+	is_blessing = yes
+
+	modifier = {
+		global_missionary_strength = 0.015
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+nurture_the_unwavering_flame = {
+	is_blessing = yes
+
+	modifier = {
+		global_unrest = -1
+        hostile_attrition = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+

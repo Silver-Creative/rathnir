@@ -142,6 +142,26 @@ alteniquian = {
 			local_missionary_strength = -0.01
 		}
 
+		holy_sites = {
+			224 #Azethvir (Seville) - Sanctum of the Judge
+			216 #Lapidovir (Salamanca) - Sanctum of the Smith
+			213 #Roscella/Asalath (Barcelona) - Sanctum of the Mother
+			210 #Athazolant (Navarra) - Sanctum of the Scholar
+			101 #Asturcia (Genoa) - Grand Temple of the North
+		 	341 #Lumaire (Tunis) - Grand Temple of the South
+			112 #Serafini (Venice) - Grand Temple of the East
+		}
+
+		blessings = {
+			as_laborious_as_iniron
+			as_gentle_as_asala
+			as_learned_as_ataron
+			as_lawful_as_temion
+			prepare_for_the_fifth_son
+			sever_all_from_darkness_hold
+			nurture_the_unwavering_flame
+		}
+
 		on_convert = {
 			change_religion = sakrelism
 			add_prestige = -100
@@ -156,13 +176,6 @@ alteniquian = {
 			THEIOSISM
 		}
 
-		#holy_sites = {
-		#	224 #Azethvir (Seville)
-		#}
-
-		#blessings = {
-		#	??
-		#}
 	}
 	
 	theiosism = {
@@ -177,6 +190,12 @@ alteniquian = {
 		}
 		country_as_secondary = {
 			local_missionary_strength = -0.02
+		}
+
+		allow_female_defenders_of_the_faith = yes
+
+		blessings = {
+			
 		}
 
 		on_convert = {
