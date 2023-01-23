@@ -76,3 +76,27 @@ theios-essukdal = {
 	}
 }
 
+lirgal = {
+	rank = {
+		1 = AGALARUM
+		2 = EDAILARUM
+		3 = VALER
+	}
+	
+	ruler_male = {
+		1 = TAIVAREDAI
+		2 = LYREDAI
+		3 = VALYRE
+	}
+	
+	ruler_female = {
+		1 = TAIVAREDAI
+		2 = LYREDAI
+		3 = VALYRE
+	}
+
+	trigger = {
+		tag = A21 #Lirgal
+	}
+}
+
