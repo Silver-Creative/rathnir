@@ -1,4 +1,23 @@
 ﻿l_english:
+ #A00 - Yimmu-Audal
+ A00_ideas:0 "Audalad Ideas"
+ A00_ideas_start:0 "Audalad Traditions"
+ A00_ideas_bonus:0 "Audalad Ambition"
+ A00_council_of_elders:0 "Council of Elders"
+ A00_council_of_elders_desc:0 "When we began to spread our wings over Rathnir, it became obvious that our old Jagdasian provincial system would fail. Instead, we have devised a system in which the eldest- and thus wisest- member of each town will act as a courier between us and our far-flung provinces. Their pride lets us pay them less, if nothing else."
+ A00_bandit_captain_recruitment:0 "Bandit Captain Recruitment"
+ A00_bandit_captain_recruitment_desc:0 "Bandits plagued us in our early days in Rathnir. Most nations developed some sort of militia to fend them off, but where they saw an enemy we saw an opportunity. By integrating bandit captains into our chain of command, we pacify our enemies and turn them into our allies. So what if it makes the people uneasy?"
+ A00_establish_the_urdussad:0 "Establish the Urdussad"
+ A00_establish_the_urdussad_desc:0 "Yimmu-Audal has always known religious freedom, even in during the occupation. However, as religions grow more complex and centralized, we have decided to create a council of loyal priests in our realm to lead their flocks within Yimmu-Audal, as to reduce foreign influence."
+ A00_lily_fleet:0 "Lily Fleet"
+ A00_lily_fleet_desc:0 "Despite our maritime nature in Jagdas, we had all but abandoned naval affairs once we began our more continental empire here on Rathnir. With the capture of the Lily Fleet from the Escharians, though, a new zeal for naval dominance has found us."
+ A00_horse_reacquisition:0 "Horse Reacquisition"
+ A00_horse_reacquisition_desc:0 "Horses are an invaluable resource. Messengers, beasts of burden, cavalry, their uses are everywhere and obvious. Let us nationalize them all, so as to ensure we and we alone decide where they are used."
+ A00_the_glory_of_urnu-arrak:0 "The Glory of Urnu-Arrak"
+ A00_the_glory_of_urnu-arrak_desc:0 "There is no city greater than Urnu-Arrak. The Silver Citadel lies tarnished, Lileanen flooded, Hapatmitas a ghost town, Dorasterrock's markets bare, and Aezenfjord more a nature reserve than a settlement. Urnu, however, stands as splendid as ever. Let us allocate more of our workforce to make it even more grand."
+ A00_cutting_tongue:0 "Cutting Tongue"
+ A00_cutting_tongue_desc:0 "All rulers fear an Audalad diplomat, for there are none whose tongues are quicker or more cutting. For every lash of their tongue, it is said that ten thousand wounds are placed upon your reputation."
+
  #A02 - Anòshphéy
  A02_ideas:0 "Anòshphite Ideas"
  A02_ideas_start:0 "Anòshphite Traditions"

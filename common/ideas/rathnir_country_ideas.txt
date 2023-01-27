@@ -6,6 +6,50 @@
 
 ### Nation specific idea groups
 
+#Yimmu-Audal ideas
+A00_ideas = {
+	start = {
+		prestige_decay = -0.05
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+        num_accepted_cultures = 2
+    }
+
+    trigger = {
+        OR = {
+            tag = A00 #Anòshphéy
+        }
+    }
+    free = yes		#will be added at load.
+
+	A00_council_of_elders = {
+		advisor_cost = -0.15
+	}
+	A00_bandit_captain_recruitment = {
+		merc_maintenance_modifier = -0.50
+	}
+	A00_establish_the_urdussad = {
+		religious_unity = 0.25
+	}
+	A00_lily_fleet = {
+		capture_ship_chance = 0.3
+		galley_power = 0.2
+	}
+	A00_horse_reacquisition = {
+		cavalry_cost = -0.20
+		cavalry_power = 0.05
+	}
+	A00_the_glory_of_urnu-arrak = {
+		great_project_upgrade_cost = -0.20
+		center_of_trade_upgrade_cost = -0.20
+	}
+	A00_cutting_tongue = {
+		power_projection_from_insults = 1
+	}
+}
+
 #Anòshphéy ideas
 A02_ideas = {
     start = {
