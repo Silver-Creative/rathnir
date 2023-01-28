@@ -10,6 +10,14 @@
  GOLDDEPLETED_LOG:0 "Precious Minerals mine depleted in $PROV$."
  GOLD_INCOME:0 "Precious Minerals Income"
  PROV_PROD_GOLD:0 "From Precious Minerals:"
- producing_wine_and_grain_tt:0 "Production of §YGrain§!: §G+75.0%§!\nProduction of §YWine§!: §G+50.0%§!\nProduction of §YBeer§!: §G+50.0%§!"
+ HAVE_GOLD_INCOME_LESS_THAN:0 "Precious metals income less than "
+ HAVE_GOLD_INCOME_MORE_THAN:0 "Precious metals income at least "
+ CV_INFLATION_YEARLY_CHANGE_EXTRAS:0 "Inflation changes by $INFLATION|-2$§!%§W/year. It is increased by $GOLD|Y$ from our reliance on gold and silver mines, and the yearly base increase is $YEAR|Y$, while our advisors, buildings and ideas reduce it by $REDUCTION|Y$ per year."
+ CV_INFLATION_YEARLY_CHANGE:0 "Inflation changes by $INFLATION|-2$§!%§W/year. It is increased by $GOLD|Y$ from our reliance on gold and silver mines, while our advisors, buildings and ideas reduce it by $REDUCTION|Y$ per year."
+ NO_GOLD_PRODUCING_PROVINCES:0 "We have no provinces that are producing precious metals."
+ GOLD_PRODUCING_PROVINCES:0 "The following provinces are producing precious metals: $LIST$"
+ MACRO_MANUFACTORY_IN_GOLD_PROVINCES:0 "Cannot construct Manufactory in precious metals provinces."
  
+ producing_wine_and_grain_tt:0 "Production of §YGrain§!: §G+75.0%§!\nProduction of §YWine§!: §G+50.0%§!\nProduction of §YBeer§!: §G+50.0%§!"
+
  TRANSPORTATION:0 "Transportation"
