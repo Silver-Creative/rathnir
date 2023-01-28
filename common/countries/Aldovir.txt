@@ -121,5 +121,5 @@ army_names = {
 }
 
 fleet_names = {
-	"Imperial Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+	"Imperial Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron" "Black Squadron"
 }
