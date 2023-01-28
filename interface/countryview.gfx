@@ -177,7 +177,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_religion"
 		texturefile = "gfx//interface//religions//icon_religion.dds"
-		noOfFrames = 44	#Rathnir
+		noOfFrames = 46	#Rathnir
 ###		loadType = "INGAME"
 
 	}
@@ -185,13 +185,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_country_icon_religion"
 		texturefile = "gfx//interface//religions//country_icon_religion.dds"
-		noOfFrames = 44	#Rathnir
+		noOfFrames = 46	#Rathnir
 	}
 
 	spriteType = {
 		name = "GFX_icon_religion_small"
 		texturefile = "gfx//interface//religions//icon_religion_small.dds"
-		noOfFrames = 44	#Rathnir
+		noOfFrames = 46	#Rathnir
 		loadType = "INGAME"
 	}
 

@@ -146,7 +146,7 @@ alteniquian = {
 			224 #Azethvir (Seville) - Sanctum of the Judge
 			216 #Lapidovir (Salamanca) - Sanctum of the Smith
 			213 #Roscella/Asalath (Barcelona) - Sanctum of the Mother
-			210 #Athazolant (Navarra) - Sanctum of the Scholar
+			151 #Athazolant (Constantinople) - Sanctum of the Scholar
 			101 #Asturcia (Genoa) - Grand Temple of the North
 		 	341 #Lumaire (Tunis) - Grand Temple of the South
 			112 #Serafini (Venice) - Grand Temple of the East
@@ -215,6 +215,67 @@ alteniquian = {
 	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_alteniquian
+
+	monathism = {
+		color = { 132 41 126 }
+		icon = 45
+		allowed_conversion = {
+		}
+		country = {
+			diplomatic_reputation = 1
+			ship_power_propagation = 0.1
+		}
+		country_as_secondary = {
+			ship_power_propagation = 0.1
+		}
+
+		on_convert = {
+			change_religion = monathism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		#anglican shit
+
+		heretic = {
+			SAKRELISM
+			THEIOSISM
+		}
+	}
+
+	zentivar = {
+		color = { 232 0 0 }
+		icon = 46
+		allowed_conversion = {
+		}
+		country = {
+			development_cost = -0.1
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+
+		on_convert = {
+			change_religion = zentivar
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+			SAKRELISM
+			THEIOSISM
+			MONATHISM
+		}
+	}
 }
 
 niedene = {
