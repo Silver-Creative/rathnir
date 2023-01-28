@@ -3,13 +3,13 @@
 
 graphical_culture = westerngfx
 
-color = { 130  36  51 }
+color = { 69  167  176 }
 
 historical_idea_groups = {
-	religious_ideas
-	exploration_ideas
-	quantity_ideas
 	economic_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
 	influence_ideas
 	offensive_ideas
 	aristocracy_ideas
@@ -34,45 +34,54 @@ historical_units = {
 
 monarch_names = {
 
-	#Historical Sironian Leaders (Male)
+	#Historical Lapidoviri Leaders (Male)
 	"Rithaur #0" = 10
-	"Uthr #0" = 10
-	"Ythar #0" = 10
+	"Artorinn #0" = 10
+    "Tálos #0" = 10
+    "Talanthas #0" = 10
+    "Vorian #0" = 10
 
-	#Generic Sagaviri Names (Male)
-    "Anther #0" = 10
-    "Antrinn #0" = 10
-    "Karil #0" = 10
+    #Generic Lapidoviri Names (Male)
+    "Aldrik #0" = 10
+    "Alessandir #0" = 10
+    "Arstenn #0" = 10
+    "Iakes #0" = 10
+    "Outher #0" = 10
     "Therenn #0" = 10
     "Theres #0" = 10
     "Sinaur #0" = 10
     "Sinthor #0" = 10
     "Ynaur #0" = 10
 
-	#Generic Sagaviri Names (Female)
-    "Annasa #0" = -1
+	#Generic Lapidoviri Names (Female)
     "Ansa #0" = -1
-    "Avril #0" = -1
+    "Arstenna #0" = -1
+    "Artorianna" #0" = -1
     "Kara #0" = -1
-    "Sinsa #0" = -1
+    "Maira #0" = -1
+    "Sinna #0" = -1
     "Yna #0" = -1
+	
+	#Historical Aldoviri Leaders (Female)
+    "Alessandra #0" -1
+    "Subica #0" = -1
 }
 
 leader_names = {
 	#Country Specific
-	"of Azethvir" "of Asourtherak" "of Asaláth" "of Makétverga" "of Levilirán" "of Ytharash" "of Meidanna"
+	"of Arstedanna" "of Krisanarra" "of Eryrith" "of Kair'vern" "of Artorianna" "of Ytharash"
 	
 	#Province Neighbours
-	"of Arstedanna" "of Lapidosa" "of Mimir's Pride" "of Roscella" "of Aleria" "of Evansyllo" "of Ayesinco"
+	"of Azethvir" "of Assourtherak" "of Mimir's Pride" "of Roscella" "of Aleria" "of Evansyllo" "of Hapatmitas"
 	
 	#Country Neighbours
-	"of Reyllea" "of Thýr" "of Carvay" "of Theiónikos" "of Audal" "of Asturcia"
+	"of Reyllea" "of Thýr" "of Uldarash" "of Solisios" "of Sironia" "of Qeshbago"
 	
 	#Geographic Neighbours
 	"of Essukdal" "of Vastallos" "of Talawa"
 	
 	#Noble Families
-	Caicuria Athisach Asherin
+	"se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
 }
 
 ship_names = {
@@ -99,9 +108,9 @@ ship_names = {
 }
 
 army_names = {
-	"Lirnas Ammanór" "Ammanór síl $PROVINCE$"
+	"Lapitas Ammanór" "Ammanór síl $PROVINCE$"
 }
 
 fleet_names = {
-	"Red Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+	"Lapis Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
 }
