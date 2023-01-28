@@ -1,0 +1,23 @@
+
+government = republic
+add_government_reform = free_city
+government_rank = 1
+primary_culture = taloran
+religion = zentivar
+technology_group = western
+capital = 151 #Athazolant (Constantinople)
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Athaz the Traveller"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 5
+		mil = 2
+		culture = sironian
+		religion = sakrelism
+	}
+	add_ruler_personality = immortal_personality
+    add_ruler_personality = midas_touched_personality
+}
