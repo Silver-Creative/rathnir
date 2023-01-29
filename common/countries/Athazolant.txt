@@ -34,12 +34,33 @@ historical_units = {
 
 monarch_names = {
 
-    "Athaz #0" = 10
+	#Generic Zentivar Names (Male)
+    "Arthozh #0" = 10
+	"Atihm #0" = 10
+	"Ayuhndab #0" = 10
+	"Ilahmehdir #0" = 10
+	"Kahlson #0" = 10
+	"Kehlenav #0" = 10
+	"Levitsuh #0" = 10
+	"Mihdib #0" = 10
+	"Priyatimat #0" = 10
+	"Rihndera #0" = 10
+	"Vahtah #0" = 10
+	"Varn #0" = 10
+
+	#Generic Zentivar Names (Female)
+	"Ilah #0" = -1
+	"Gaiyal #0" = -1
+	"Krayeg #0" = -1
+	"Priya #0" = -1
+	"Sheya #0" = -1
+	"Sholanoh #0" = -1
+
 }
 
 leader_names = {
 	#Country Specific
-	"the Traveller"
+	"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
 }
 
 ship_names = {

@@ -18,6 +18,25 @@
  A00_cutting_tongue:0 "Cutting Tongue"
  A00_cutting_tongue_desc:0 "All rulers fear an Audalad diplomat, for there are none whose tongues are quicker or more cutting. For every lash of their tongue, it is said that ten thousand wounds are placed upon your reputation."
 
+ #A01 - Theiónikos
+ A01_ideas:0 "Theióniki Ideas"
+ A01_ideas_start:0 "Theióniki Traditions"
+ A01_ideas_bonus:0 "Theióniki Ambition"
+ A01_ecumenical_primacy:0 "Ecumenical Primacy"
+ A01_ecumenical_primacy_desc:0 "..."
+ A01_trading_in_the_ombra_gulf:0 "Trading in the Ombra Gulf"
+ A01_trading_in_the_ombra_gulf_desc:0 "..."
+ A01_desert_warfare:0 "Desert Warfare"
+ A01_desert_warfare_desc:0 "..."
+ A01_host_the_swordgames:0 "Host the Swordgames"
+ A01_host_the_swordgames_desc:0 "..."
+ A01_the_quarry_of_gebel:0 "The Quarry of Gebel"
+ A01_the_quarry_of_gebel_desc:0 "..."
+ A01_riders_across_the_dunes:0 "Riders across the Dunes"
+ A01_riders_across_the_dunes_desc:0 "..."
+ A01_bulwark_against_the_sandstorms:0 "Bulwark against the Sandstorms"
+ A01_bulwark_against_the_sandstorms_desc:0 "..."
+
  #A02 - Anòshphéy
  A02_ideas:0 "Anòshphite Ideas"
  A02_ideas_start:0 "Anòshphite Traditions"
@@ -36,6 +55,25 @@
  A02_yhure_desc:0 "..."
  A02_the_shyhes_court:0 "The Shyhe's Court"
  A02_the_shyhes_court_desc:0 "..."
+
+ #A05 - Grizzlybear
+ A05_ideas:0 "Grizzlybear Ideas"
+ A05_ideas_start:0 "Grizzlybear Traditions"
+ A05_ideas_bonus:0 "Grizzlybear Ambition"
+ A05_easily_distracted:0 "Easily Distracted"
+ A05_easily_distracted_desc:0 "..."
+ A05_the_bar_valley:0 "The Bar's Valley"
+ A05_the_bar_valley_desc:0 "..."
+ A05_exercises_in_futility:0 "\"Exercises in Futility\""
+ A05_exercises_in_futility_desc:0 "..."
+ A05_center_of_the_world:0 "Center of the World"
+ A05_center_of_the_world_desc:0 "..."
+ A05_obliviously_innocent:0 "Obliviously Innocent"
+ A05_obliviously_innocent_desc:0 "..."
+ A05_working_cannons:0 "\"Working\" Cannons"
+ A05_working_cannons_desc:0 "..."
+ A05_schemes_of_the_lesser_bars:0 "Schemes of the Lesser Bars"
+ A05_schemes_of_the_lesser_bars_desc:0 "..."
 
  #A07 - Coltmaere
  A07_ideas:0 "Coltmaeran Ideas"
