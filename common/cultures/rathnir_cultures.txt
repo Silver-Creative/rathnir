@@ -114,6 +114,14 @@ sagaviri_group = {
 	}
 }
 
+viratanic_group = {
+	graphical_culture = easterngfx
+
+	viratanic = {
+		primary = A14 #Athazolant
+	}
+}
+
 niedene_group = {
 	graphical_culture = westerngfx
 	

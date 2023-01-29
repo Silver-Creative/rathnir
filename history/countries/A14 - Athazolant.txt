@@ -2,7 +2,7 @@
 government = republic
 add_government_reform = free_city
 government_rank = 1
-primary_culture = taloran
+primary_culture = viratanic
 religion = zentivar
 technology_group = western
 capital = 151 #Athazolant (Constantinople)
