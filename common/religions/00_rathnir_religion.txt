@@ -766,7 +766,7 @@ elven = {
 	harmonized_modifier = harmonized_elven
 }
 
-sparwoodite = {
+luthic = {
 	can_form_personal_unions = yes
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33 # default == 0
