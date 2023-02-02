@@ -268,4 +268,40 @@ seraan_group = {
 		Aldara Ellira Cali Ammara Moitiré Lairé Alea Dáido Selã Maimara Dana Authe Sjatyre Leryla Seréa Lynadara Lerá Néa Merine
 	}
 }
+
+saryani_group = {
+	graphical_culture = muslimgfx
+
+	auraic = {
+		primary = B00 #An-Saryan
+
+	}
+
+	assuqi = {
+
+	}
+
+	maanit = {
+
+	}
+}
+
+luthic_group = {
+
+	graphical_culture = westerngfx
+
+	reyllean = {
+		primary = A12 #Reyllea
+
+	}
+	serafinian = {
+
+	}
+	chimunic = {
+
+	}
+	leythian = {
+
+	}
+}
 	
