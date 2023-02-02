@@ -1,0 +1,151 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 44  31  48 }  #Lighter: { 204  168  108 }
+
+historical_idea_groups = {
+    defensive_ideas
+    spy_ideas
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	economic_ideas
+	influence_ideas
+	offensive_ideas		
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+
+	#Generic ?aryani Names (Male)
+	"Azaan #0" = 10
+    "Aqûn #0" = 10
+    "Aquztam #0" = 10
+    "Araad #0" = 10
+    "A?an #0" = 10
+    "Alôr #0" = 10
+    "Ambin #0" = 10
+    "Barsaan #0" = 10
+    "Baarim #0" = 10
+    "Bôbazûr #0" = 10
+    "Dartan #0" = 10
+    "Dartazûr #0" = 10
+    "Dazim #0" = 10
+    "Eqaar #0" = 10
+    "Giataz #0" = 10
+    "Hûran #0" = 10
+    "Irlaam #0" = 10
+    "Itaz #0" = 10
+    "Isqates #0" = 10
+    "Kalib #0" = 10
+    "Kapiir #0" = 10
+    "Laz #0" = 10
+    "Lamir #0" = 10
+    "Naram #0" = 10
+    "Nazantûr #0" = 10
+    "Maniz #0" = 10
+    "Marân #0" = 10
+    "Oriaan #0" = 10
+    "Razod #0" = 10
+    "Saantûr #0" = 10
+    "Salmiiz #0" = 10
+    "Teâqon #0" = 10
+    "Tirmûdan #0" = 10
+    "Qiran #0" = 10
+    "Qir'matai #0" = 10
+    "Zaarim #0" = 10
+    "Zarmud #0" = 10
+
+    #Generic ?aryani Names (Female)
+	"Aanqara #0" = -1
+    "Amaara #0" = -1
+    "Alirou #0" = -1
+    "Armiya #0" = -1
+    "Baêlla #0" = -1
+    "Bamiah #0" = -1
+    "Dehya #0" = -1
+    "Dartana #0" = -1
+    "Eqalla #0" = -1
+    "Elisah #0" = -1
+    "Emmina #0" = -1
+    "Fatiah #0" = -1
+    "Garmiah #0" = -1
+    "I?tarah #0" = -1
+    "Iltana #0" = -1
+    "Imirou #0" = -1
+    "Leiya #0" = -1
+    "Laiyana #0" = -1
+    "Maqanna #0" = -1
+    "Madanah #0" = -1
+    "Nefriyah #0" = -1
+    "Nesrina #0" = -1
+    "Nelattah #0" = -1
+    "Qalamaiya #0" = -1    
+    "Qamiyah #0" = -1
+    "Omiyna #0" = -1
+    "?iyreen #0" = -1
+    "?iradda #0" = -1
+    "Samaara #0" = -1
+    "Saarou #0" = -1
+    "Siimah #0" = -1
+    "Zamaara #0" = -1
+    "Zaqaara #0" = -1
+}
+
+leader_names = {
+	
+	#Surnames
+    "Qaralah" "Majiya" "Aarmanda?" "Qaliantaar" "Zamaar" "Atlaan" "Belantûr"
+
+    #Province-based
+    "sûr Qar'qira" "sûr Ar-Sinqur" "sûr Zir-Qalman" "sûr Siq-Aqai" "sûr Saval-Qaarim" "sûr Gebbel"
+	
+	#Noble Families
+	"Qaalus" "Zir'falaan" "Savalir" "sûr Ân-Audalus" "sûr Ân-Ge?em"
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
+	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite "Young Prince" Zealous
+
+	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+	
+}
+
+army_names = {
+	"Goldenborne" "Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"The Violet Armada" "Red Squadron" "Green Squadron" "Blue Squadron" "Yellow Squadron"
+}
