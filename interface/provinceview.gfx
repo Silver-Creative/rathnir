@@ -307,7 +307,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_view_religion"
 		texturefile = "gfx//interface//religions//province_view_religion.dds"
-		noOfFrames = 46 #Rathnir
+		noOfFrames = 47 #Rathnir
 		loadType = "INGAME"
 	}
 	spriteType = {
