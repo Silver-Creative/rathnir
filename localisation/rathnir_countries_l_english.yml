@@ -16,16 +16,19 @@
  A06_ADJ:0 "Fuscinian"
  A07:0 "Coltmaere"
  A07_ADJ:0 "Coltmaeran"
-
+ A08:0 "Azuria"
+ A08_ADJ:0 "Azurian"
  A09:0 "Theios-Essukdal"
  A09_ADJ:0 "Essukdalad"
  A10:0 "Sironia"
  A10_ADJ:0 "Sironian"
  A11:0 "Lapidosa"
  A11_ADJ:0 "Lapidosan"
+ A12:0 "Reyllea"
+ A12_ADJ:0 "Reyllean"
 
  A14:0 "Athazolant"
- A14_ADJ:0 "Athazolantene"
+ A14_ADJ:0 "Athazolantine"
  
  A21:0 "Lirgal"
  A21_ADJ:0 "Lirgalyn"
@@ -35,6 +38,9 @@
 
  A39:0 "Empire of Astyllea"
  A39_ADJ:0 "Astyllean"
+
+ B00:0 "An-Šaryan"
+ B00_ADJ:0 "Šaryani"
 
 #The North - Fxx/Gxx
 
