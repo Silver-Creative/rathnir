@@ -147,9 +147,9 @@ alteniquian = {
 			216 #Lapidovir (Salamanca) - Sanctum of the Smith
 			213 #Roscella/Asalath (Barcelona) - Sanctum of the Mother
 			151 #Athazolant (Constantinople) - Sanctum of the Scholar
-			101 #Asturcia (Genoa) - Grand Temple of the North
+			2980 #Asturcia (Lucca) - Grand Temple of the North
 		 	341 #Lumaire (Tunis) - Grand Temple of the South
-			112 #Serafini (Venice) - Grand Temple of the East
+			101 #Serafini (Genoa) - Grand Temple of the East
 		}
 
 		blessings = {
@@ -764,4 +764,48 @@ elven = {
 	
 	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_elven
+}
+
+sparwoodite = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 101 #Serafini (Genoa)
+
+	eternal_flame = {
+		color = { 255 201 14 }
+		icon = 47
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_own = 1
+			recover_army_morale_speed = 0.10
+		}
+		country_as_secondary = {
+			recover_army_morale_speed = 0.10
+		}
+		province = {
+			local_manpower_modifier = 0.10
+		}
+
+		on_convert = {
+			change_religion = eternal_flame
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+
+		}
+	}
+
 }

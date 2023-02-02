@@ -65,6 +65,9 @@
    ashuran_pantheon_religion_desc:0 "oshotty"
   asitir:0 "Asitir"
    asitir_religion_desc:0 ":skull:"
+ sparwoodite:0 "Sparwoodite"
+  eternal_flame:0 "Eternal Flame"
+   eternal_flame_religion_desc:0 "amaury"
   
  #Rebels
  hukar_sharud_rebels_demand:0 "Convert $COUNTRYNAME$"
@@ -185,3 +188,10 @@
  asitir_rebels_name:0 "$RELIGION$ Zealots"
  asitir_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  asitir_rebels_army:0 "$RELIGION$ Army"
+
+ eternal_flame_rebels_demand:0 "Convert $COUNTRYNAME$"
+ eternal_flame_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ eternal_flame_rebels_title:0 "Religious"
+ eternal_flame_rebels_name:0 "$RELIGION$ Zealots"
+ eternal_flame_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ eternal_flame_rebels_army:0 "$RELIGION$ Army"
