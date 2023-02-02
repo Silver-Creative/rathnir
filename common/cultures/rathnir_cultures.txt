@@ -218,7 +218,11 @@ talawan_group = {
 
 	}
 	redstoneborne = {
+		primary = H22 #Sanctuary
 
+		dynasty_names = {
+			"Von Ank"
+		}
 	}
 	kaahirun = {
 
@@ -228,15 +232,15 @@ talawan_group = {
 	}
 
 	dynasty_names = {
-
+		Talewan Knight Lehad Nepidsu
 	}
 
 	male_names = {
-
+		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz
 	}
 
 	female_names = {
-		
+		Ogadeen Wurmbo Aruna
 	}
 
 }
@@ -304,4 +308,39 @@ luthic_group = {
 
 	}
 }
-	
+
+arcadian_group = {
+	graphical_culture = polynesiangfx
+
+	astanan = {
+		primary = A43 #Astana
+		
+		dynasty_names = {
+			Loulouna "Twin-Leaf" Jusepp
+		}
+	}
+	denthrosi = {
+		primary = A46 #Denthros
+
+		dynasty_names = {
+			Valhorn "Twin-Leaf"
+		}
+	}
+	kawalapuan = {
+		primary = A07 #Kawalapua
+
+		dynasty_names = {
+			Pantha Santha
+		}
+	}
+
+	dynasty_names = {
+		Valhorn "Twin-Leaf" Pantha Firnbolg Vishji
+	}
+	male_names = {
+		Spriggann Frogthir Ginoong Jaxx
+	}
+	female_names = {
+		Elthia Samantha Vygu
+	}
+}	
