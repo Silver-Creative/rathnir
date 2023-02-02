@@ -114,6 +114,25 @@ sagaviri_group = {
 	}
 }
 
+viratanic_group = {
+	graphical_culture = easterngfx
+
+	viratanic = {
+		primary = A14 #Athazolant
+	}
+
+	dynasty_names = {
+		"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
+	}
+	male_names = {
+		Arthozh Atihm Ayuhndab Ilahmehdir Kahlson Kehlenav Levitsuh Mihdib
+		Priyatimat Rihndera Vahtah Varn
+	}
+	female_names = {
+		Ilah Gaiyal Krayeg Priya Sheya Sholanoh
+	}
+}
+
 niedene_group = {
 	graphical_culture = westerngfx
 	
@@ -199,7 +218,11 @@ talawan_group = {
 
 	}
 	redstoneborne = {
+		primary = H22 #Sanctuary
 
+		dynasty_names = {
+			"Von Ank"
+		}
 	}
 	kaahirun = {
 
@@ -209,15 +232,15 @@ talawan_group = {
 	}
 
 	dynasty_names = {
-
+		Talewan Knight Lehad Nepidsu
 	}
 
 	male_names = {
-
+		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz Teke
 	}
 
 	female_names = {
-		
+		Ogadeen Wurmbo Aruna
 	}
 
 }
@@ -249,4 +272,75 @@ seraan_group = {
 		Aldara Ellira Cali Ammara Moitiré Lairé Alea Dáido Selã Maimara Dana Authe Sjatyre Leryla Seréa Lynadara Lerá Néa Merine
 	}
 }
-	
+
+saryani_group = {
+	graphical_culture = muslimgfx
+
+	auraic = {
+		primary = B00 #An-Saryan
+
+	}
+
+	assuqi = {
+
+	}
+
+	maanit = {
+
+	}
+}
+
+luthic_group = {
+
+	graphical_culture = westerngfx
+
+	reyllean = {
+		primary = A12 #Reyllea
+
+	}
+	serafinian = {
+
+	}
+	chimunic = {
+
+	}
+	leythian = {
+
+	}
+}
+
+arcadian_group = {
+	graphical_culture = polynesiangfx
+
+	astanan = {
+		primary = A43 #Astana
+		
+		dynasty_names = {
+			Loulouna "Twin-Leaf" Jusepp
+		}
+	}
+	denthrosi = {
+		primary = A46 #Denthros
+
+		dynasty_names = {
+			Valhorn "Twin-Leaf"
+		}
+	}
+	kawalapuan = {
+		primary = A07 #Kawalapua
+
+		dynasty_names = {
+			Pantha Santha
+		}
+	}
+
+	dynasty_names = {
+		Valhorn "Twin-Leaf" Pantha Firnbolg Vishji
+	}
+	male_names = {
+		Spriggann Frogthir Ginoong Jaxx
+	}
+	female_names = {
+		Elthia Samantha Vygu
+	}
+}	
