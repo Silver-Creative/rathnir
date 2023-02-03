@@ -1,0 +1,26 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = reyllean
+add_accepted_culture = raellite
+religion = eternal_flame
+technology_group = western
+historical_rival = A10 #Sironia
+capital = 213 #Evansyllo (Barcelona)
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Amaury"
+		dynasty = "de Reyllea"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 2
+		mil = 4
+		culture = reyllean
+		religion = eternal_flame
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = conqueror_personality
+}

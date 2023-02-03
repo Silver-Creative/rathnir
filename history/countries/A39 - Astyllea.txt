@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 3
-primary_culture = astyllean
+primary_culture = sironian
 technology_group = western
 capital = 408 #Urnu-Arrak
 national_focus = ADM

@@ -147,9 +147,9 @@ alteniquian = {
 			216 #Lapidovir (Salamanca) - Sanctum of the Smith
 			213 #Roscella/Asalath (Barcelona) - Sanctum of the Mother
 			151 #Athazolant (Constantinople) - Sanctum of the Scholar
-			101 #Asturcia (Genoa) - Grand Temple of the North
+			2980 #Asturcia (Lucca) - Grand Temple of the North
 		 	341 #Lumaire (Tunis) - Grand Temple of the South
-			112 #Serafini (Venice) - Grand Temple of the East
+			101 #Serafini (Genoa) - Grand Temple of the East
 		}
 
 		blessings = {
@@ -194,8 +194,107 @@ alteniquian = {
 
 		allow_female_defenders_of_the_faith = yes
 
-		blessings = {
+		has_patriarchs = yes
+
+		orthodox_icons = {
+			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
 			
+			hanach = {		#Hanach, Mother of Mankind
+				tolerance_heathen = 2
+				religious_unity = 0.25
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			treiur = {		#Treiur, Angel of War
+				shock_damage = 0.15
+				recover_army_morale_speed = 0.15
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			asria = {		#Asria, Angel of Nature
+				global_trade_goods_size_modifier = 0.05
+				global_monthly_devastation = -0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			wullan = {		#Wullan, Angel of Light
+				global_missionary_strength = 0.02
+				stability_cost_modifier = -0.15
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			garath = {		#Garath, Angel of Knowledge
+				idea_cost = -0.1
+				institution_spread_from_true_faith = 0.15
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			turin = {		#Turin, Angel of Justice
+				unjustified_demands = -0.15
+				ae_impact = -0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			reina = {		#Reina, Angel of the Wild
+				shock_damage_received = -0.10
+				defensiveness = 0.10
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			monath = {		#Monáth, Angel of Holy War and Penance
+				land_morale = 0.1
+				war_exhaustion = -0.02
+
+				allow = {
+					has_global_flag = monathism_integrated
+				}
+				ai_will_do = {
+					factor = 1
+				}
+
+			}
 		}
 
 		on_convert = {
@@ -665,4 +764,48 @@ elven = {
 	
 	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_elven
+}
+
+luthic = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 101 #Serafini (Genoa)
+
+	eternal_flame = {
+		color = { 255 201 14 }
+		icon = 47
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_own = 1
+			recover_army_morale_speed = 0.10
+		}
+		country_as_secondary = {
+			recover_army_morale_speed = 0.10
+		}
+		province = {
+			local_manpower_modifier = 0.10
+		}
+
+		on_convert = {
+			change_religion = eternal_flame
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+
+		}
+	}
+
 }

@@ -3,7 +3,7 @@
   audalad:0 "Audalad"
   fuscinian:0 "Fuscinian"
   maeretine:0 "Maeretine"
-  taloran:0 "Tàloran"
+  taloran:0 "Táloran"
   theioniki:0 "Theióniki"
   anoshphite:0 "Anòshphite"
   shimmere:0 "Shimmere"
@@ -43,3 +43,12 @@
  seraan_group:0 "Seraan" #Seraan Group
   olaran:0 "Olarãn"
   lirgalyn:0 "Lirgalyn"
+ luthic_group:0 "Luthic" #Luthic Group
+  reyllean:0 "Reyllean"
+  serafinian:0 "Serafinian"
+  chimunic:0 "Chimunic"
+  leythian:0 "Leythian"
+ saryani_group:0 "Šaryani" #Šaryani Group
+  auraic:0 "Auraic"
+  assuqi:0 "Assuqi"
+  maanit:0 "Maanit"

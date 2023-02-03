@@ -6,6 +6,7 @@ primary_culture = sironian
 religion = sakrelism
 technology_group = western
 historical_friend = A00 #Yimmu-Audal
+historical_rival = A12 #Reyllea
 capital = 224 #Azethvir (Sevilla)
 national_focus = ADM
 

@@ -120,6 +120,17 @@ viratanic_group = {
 	viratanic = {
 		primary = A14 #Athazolant
 	}
+
+	dynasty_names = {
+		"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
+	}
+	male_names = {
+		Arthozh Atihm Ayuhndab Ilahmehdir Kahlson Kehlenav Levitsuh Mihdib
+		Priyatimat Rihndera Vahtah Varn
+	}
+	female_names = {
+		Ilah Gaiyal Krayeg Priya Sheya Sholanoh
+	}
 }
 
 niedene_group = {
@@ -255,6 +266,42 @@ seraan_group = {
 	}
 	female_names = {
 		Aldara Ellira Cali Ammara Moitiré Lairé Alea Dáido Selã Maimara Dana Authe Sjatyre Leryla Seréa Lynadara Lerá Néa Merine
+	}
+}
+
+saryani_group = {
+	graphical_culture = muslimgfx
+
+	auraic = {
+		primary = B00 #An-Saryan
+
+	}
+
+	assuqi = {
+
+	}
+
+	maanit = {
+
+	}
+}
+
+luthic_group = {
+
+	graphical_culture = westerngfx
+
+	reyllean = {
+		primary = A12 #Reyllea
+
+	}
+	serafinian = {
+
+	}
+	chimunic = {
+
+	}
+	leythian = {
+
 	}
 }
 	

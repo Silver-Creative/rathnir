@@ -3,15 +3,15 @@
 
 graphical_culture = westerngfx
 
-color = { 232  0  0 }
+color = { 2  45  54 }
 
 historical_idea_groups = {
-	religious_ideas
-	exploration_ideas
 	quantity_ideas
 	economic_ideas
+	diplomatic_ideas
 	influence_ideas
-	offensive_ideas
+	defensive_ideas
+	trade_ideas
 	aristocracy_ideas
 	spy_ideas		
 }
@@ -34,33 +34,49 @@ historical_units = {
 
 monarch_names = {
 
-	#Generic Zentivar Names (Male)
-    "Arthozh #0" = 10
-	"Atihm #0" = 10
-	"Ayuhndab #0" = 10
-	"Ilahmehdir #0" = 10
-	"Kahlson #0" = 10
-	"Kehlenav #0" = 10
-	"Levitsuh #0" = 10
-	"Mihdib #0" = 10
-	"Priyatimat #0" = 10
-	"Rihndera #0" = 10
-	"Vahtah #0" = 10
-	"Varn #0" = 10
+	#Historical Reyllean Leaders (Male)
+	"Amaury #0" = 10
 
-	#Generic Zentivar Names (Female)
-	"Ilah #0" = -1
-	"Gaiyal #0" = -1
-	"Krayeg #0" = -1
-	"Priya #0" = -1
-	"Sheya #0" = -1
-	"Sholanoh #0" = -1
+    #Generic Reyllean Names (Male)
+    "Adenand #0" = 10
+    "Amator #0" = 10
+    "Balderic #0" = 10
+    "Berengard #0" = 10
+    "Calenfroy #0" = 10
+    "Hildebrand #0" = 10
+    "Hubert #0" = 10
+    "Lothaire #0" = 10
+    "Saltïr #0" = 10
+    "Sicfroy #0" = 10
+    "Sicmonde #0" = 10
+    "Thegan #0" = 10
+    "Theodon #0 = 10
+    "Valrios #0" = 10
 
+	#Generic Reyllean Names (Female)
+    "Aude #0" = -1
+    "Authalia #0" = -1
+    "Emmecin #0" = -1
+    "Enna #0" = -1
+    "Flaueranna" #0" = -1
+    "Foy #0" = -1
+    "Sansa #0" = -1
+    "Ramatilda #0" = -1
+	
+	#Historical Reyllean Leaders (Female)
+    "Kartinna #0" -1
 }
 
 leader_names = {
 	#Country Specific
-	"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
+	"de Reyllea" "de Roscella" "de Meydan" "d'Ilivian" "d'Aubusson" "d'Aurillac"
+    "de Casulogne" "de Silfian"
+	
+	#Surnames
+	Ludgar Ermegardant Raemi Adalbert Vaefar "de Cyr" Audoen Theodon Isburc Baavant
+	
+	#Noble Families
+	"d'Ardenay"
 }
 
 ship_names = {
@@ -87,9 +103,9 @@ ship_names = {
 }
 
 army_names = {
-	"Red City Guard" "Army of $PROVINCE$"
+	"Armée de Reyllea" "Armée de $PROVINCE$"
 }
 
 fleet_names = {
-	"Red Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+	"Flotte de l'Astilléen" "Escadron Vermilloné" "Escadron Viridiené" "Escadron d'Ór" "Escadron Azuré"
 }

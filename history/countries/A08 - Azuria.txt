@@ -1,0 +1,24 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = audalad
+religion = hukar_sharud
+technology_group = muslim
+capital = 331 #The Last Bastion (Erzurum)
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Hawker"
+		dynasty = "of Azuria"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 2
+		mil = 6
+		culture = azurian
+		religion = red_cult
+    }
+	add_ruler_personality = sinner_personality
+	add_ruler_personality = inspiring_leader_personality
+}

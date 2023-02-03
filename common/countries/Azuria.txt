@@ -1,66 +1,74 @@
 
 #Country Name: Please see filename.
 
-graphical_culture = westerngfx
+graphical_culture = muslimgfx
 
-color = { 232  0  0 }
+color = { 84  47  23 }
 
 historical_idea_groups = {
-	religious_ideas
+	humanist_ideas
+	diplomatic_ideas
+	expansion_ideas
+	quality_ideas
+	administrative_ideas
 	exploration_ideas
-	quantity_ideas
-	economic_ideas
-	influence_ideas
-	offensive_ideas
-	aristocracy_ideas
+	defensive_ideas
 	spy_ideas		
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	spanish_tercio
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
 }
 
 monarch_names = {
 
-	#Generic Zentivar Names (Male)
-    "Arthozh #0" = 10
-	"Atihm #0" = 10
-	"Ayuhndab #0" = 10
-	"Ilahmehdir #0" = 10
-	"Kahlson #0" = 10
-	"Kehlenav #0" = 10
-	"Levitsuh #0" = 10
-	"Mihdib #0" = 10
-	"Priyatimat #0" = 10
-	"Rihndera #0" = 10
-	"Vahtah #0" = 10
-	"Varn #0" = 10
+	#Generic Audalad Names (Male)
+	"Auriliz #0" = 10 
+	"Daritumi #0" = 10 
+	"Nargashar #0" = 10 
+	"Lexadi #0" = 10 
+	"Hash #0" = 10 
+	"Suni #0" = 10 
+	"Utur #0" = 10 
+	"Ramadi #0" = 10 
+	"Odil #0" = 10 
+	"Naru #0" = 10 
+	"Igu #0" = 10
 
-	#Generic Zentivar Names (Female)
-	"Ilah #0" = -1
-	"Gaiyal #0" = -1
-	"Krayeg #0" = -1
-	"Priya #0" = -1
-	"Sheya #0" = -1
-	"Sholanoh #0" = -1
-
+	#Generic Audalad Names (Female)
+	"Seramida #0" = -1
+	"Ardamine #0" = -1 
+	"Ederai #0" = -1 
+	"Lerai #0" = -1
+	"Ifaeri #0" = -1
+	
 }
 
 leader_names = {
 	#Country Specific
-	"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
+	"of Audal" "of Urnu-Arrak" "of Amos" "of Eldal-Adadi" "of Pyriad" "of Urnu-Oyori" "of Dasir"
+	
+	#Province Neighbours
+	"of Jirn" "of the Last Bastion" "of Lestria" "of Carvay" "of Yirenes" "of Ersetu" "of Ayesinco"
+	
+	#Country Neighbours
+	"of Anòshphéy" "of Theiónikos" "of Tàlor" "of Azuria" "of Reyllea" "of Sironia"
+	
+	#Geographic Neighbours
+	"of Aldovir" "of Vastallos" "of Shiny" "of Wyngale" "of Coltmaere" 
+	
+	#Noble Families
+	Audalad
 }
 
 ship_names = {
@@ -84,12 +92,14 @@ ship_names = {
 	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
 	Strength Dexterity Constitution Intelligence Wisdom Charisma
 	
+	#Specific Audalad
+	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
 }
 
 army_names = {
-	"Red City Guard" "Army of $PROVINCE$"
+	"Azuriad Darae" "Army of $PROVINCE$"
 }
 
 fleet_names = {
-	"Red Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+	"Murkwater Sails" "Red Squadron" "Green Squadron" "Blue Squadron" "Yellow Squadron"
 }

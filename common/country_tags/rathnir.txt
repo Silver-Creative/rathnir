@@ -9,10 +9,11 @@ A04 = "countries/Shiny.txt"
 A05 = "countries/Grizzlybear.txt"
 A06 = "countries/Fuscinia.txt"
 A07 = "countries/Coltmaere.txt"
-
+A08 = "countries/Azuria.txt"
 A09 = "countries/Theios-Essukdal.txt"
 A10 = "countries/Sironia.txt"
 A11 = "countries/Lapidosa.txt"
+A12 = "countries/Reyllea.txt"
 
 A14 = "countries/Athazolant.txt"
 
@@ -21,6 +22,8 @@ A21 = "countries/Lirgal.txt"
 A25 = "countries/Aldovir.txt"
 
 A39 = "countries/Astyllea.txt"
+
+B00 = "countries/An-Saryan.txt"
 
 #The North - Fxx/Gxx
 
