@@ -1,7 +1,7 @@
 # Tales of Rathnir
 
 #Alteniquia - Axx/Bxx
-A00 = "countries/Yimmu-Audal.txt"
+A00 = "countries/Audal.txt"
 A01 = "countries/Theionikos.txt"
 A02 = "countries/Anoshphey.txt"
 A03 = "countries/Talor.txt"

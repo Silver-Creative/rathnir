@@ -27,11 +27,15 @@
   gentarii:0 "Gentarii"
   lausarii:0 "Lausarii"
   anesarii:0 "Anesarii"
-  mimarii:0 "Mimarii"
-  sylerii:0 "Sylerii"
   annuvii:0 "Annuvii"
-  vendarii:0 "Vendarii"
+  delvarii:0 "Delvarii"
   floramii:0 "Floramii"
+ vastallosi_group:0 "Vastallosi" #Vastallosi Group
+  carvayan:0 "Carvayan"
+  stenstan:0 "Stenstan"
+  kawalapuan:0 "Kawalapuan"
+  knossian:0 "Knossian"
+  denthrosi:0 "Denthrosi"
  talawan_group:0 "Talawan" #Talawan Group
   old_talawan:0 "Old Talawan"
   red_talawan:0 "Red Talawan"

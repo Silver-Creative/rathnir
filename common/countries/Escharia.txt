@@ -39,7 +39,6 @@ monarch_names = {
 	"Auberon #0" = 10
 	"Severie Arminius #0" = 10
 	"Valerian Iuris #0" = 10
-	"Hadrian #0" = 10
 	"Orzren Auralas #0" = 10
 	"Avensur #0" = 10
 	"Nive #0" = 10
@@ -59,17 +58,17 @@ monarch_names = {
 	"Numethos #0" = 10
 	
 	#Generic Niedene Names (Female)
-	"Illia #0" = -1
 	"Erissia #0" = -1
 	"Akesrie #0" = -1
 	"Etienne #0" = -1
 	"Irabella #0" = -1
+	"Auria #0" = -1
 	
 	#Historical Escharian Leaders (Female)
+	"Illia #0" = -1
 	"Debi #0" = -1
 	"Veriss #0" = -1
 	"Etienne Irabella #0" = -1
-	"Auria #0" = -1
 	
 }
 
@@ -84,8 +83,8 @@ leader_names = {
 	"de Annun" "de Arj'entor" "de Reikara"
 	
 	#Noble Families
-	"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
-	Pallas-Akerian "an Seqerie"
+	"an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar"
+	Pallas-Akerian Chaureste
 }
 
 ship_names = {

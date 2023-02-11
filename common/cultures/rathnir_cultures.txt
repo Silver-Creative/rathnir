@@ -17,12 +17,28 @@ audalad_group = {
 		dynasty_names = {
 			Audalad "Maximos Caicuria" Mosulia "Orne'Valerin" Rochelle Amossi
 		}
+
+		male_names = {
+			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
+		}
 	}
 	fuscinian = {
 		primary = A06 #Fuscinia
 
 		dynasty_names = {
 			Audalad Caicuria
+		}
+
+		male_names = {
+			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
 		}
 	}
 	maeretine = {
@@ -31,12 +47,28 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
 		}
+
+		male_names = {
+			Kassan Ean Osunar Halon Huran Rios Altan Aphrin Erevan Jan Voline Evedjzai Vaelzjai Okaue
+		}
+
+		female_names = {
+			Mera Evalae Robyn Cecilia Roza Ilsania Altana Katrina Talasana Morgan Voline Evedjzai Vaelzjai Okaue
+		}
 	}
 	taloran = {
 		primary = A03 #Tàlor
 
 		dynasty_names = {
 			Audalad Rochelle Argenti Dynami
+		}
+
+		male_names = {
+			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
 		}
 	}
 	theioniki = {
@@ -45,13 +77,35 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Caicuria Galus Amossi Keírikos
 		}
-	
+
+		male_names = {
+			Hákon "Bób Pullus" Xérxes Círandir
+			Adónis Belísaros Érbor Décimus Cáecil Káloman Átticus "Attálios Pórtu" Félicus Nárthedir
+		}
+
+		female_names = {
+			Pártha Dióni Altáni Héla Aélia Felícia
+		}
 	}
 	anoshphite = {
 		primary = A02 #Anòshphéy
 		
 		dynasty_names = {
 			Audalad Caicuria Galus Amossi Keírikos "Orne'Valerin"
+		}
+
+		male_names = {
+			Senekín Yìrs Anòkín Ylor Carrù Éather Lúnkín Éan Pontéos Nyles
+			Lé Éathùr Nylùs Ylùr Aléuos Pontúos Uséri Aulézhlùr Ùrallùh Mirùn
+			Pálcèrù Éllùn Senùkin Sìrllyhnù Jeùnvìl Théissù Érisséon Míeng Vìttérikùs
+			Ùldrokù Ponntìrù Ònmùn Éirùs Torùn
+		}
+
+		female_names = {
+			Érissia Uldroka Elenor Ahrín
+			Yìrra Lúnka Éanna Carrà Léa Éatherra Nyláh Ylày Alérràh Pontéas Uséràh Aulézhlàr
+			Anòkà Ùralléah Miráin Pálcèra Éllaníra Senakín Sìrillyhnà Jeanvìl Théissà Érissa
+			Míang Vìttérikàs Ùldrokàh Ponntìrà Ònminà Éiràs Toràna
 		}
 	}
 	shimmere = {
@@ -60,17 +114,15 @@ audalad_group = {
 		dynasty_names = {
 			Audalad Caicuria
 		}
-	}
-	
 
-	dynasty_names = {
-		Audalad Caicuria
-	}
-	male_names = {
-		Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
-	}
-	female_names = {
-		Seramida Ardamine Ederai Lerai Ifaeri
+		male_names = {
+			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
+		}
+
 	}
 }
 
@@ -83,9 +135,32 @@ sagaviri_group = {
 		dynasty_names = {
 			Caicuria Athisach Atherin
 		}
+
+		male_names = {
+			Rithaur Uthr Ythar
+			Anther Antrinn Karil Therenn Theres Sinaur Sinthor Ynaur
+		}
+
+		female_names = {
+			Annasa Ansa Avril Kara Sinsa Yna
+		}
 	}
 	lapidosan = {
+		primary = A11 #Lapidosa
 		
+		dynasty_names = {
+			"se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+		}
+
+		male_names = {
+			Rithaur Artorinn Tálos Talanthas Vorian
+			Aldrik Alessandir Arstenn Iakes Outher Therenn Theres Sinaur Sinthor Ynaur
+		}
+
+		female_names = {
+			Alessandra Subica
+			Anda Arstenna Artorianna Kara Maira Sinna Yna
+		}
 	}
 	kaithrati = {
 	
@@ -101,16 +176,6 @@ sagaviri_group = {
 	}
 	asturcian = {
 	
-	}
-	
-	dynasty_names = {
-		
-	}
-	male_names = {
-		
-	}
-	female_names = {
-		
 	}
 }
 
@@ -140,8 +205,8 @@ niedene_group = {
 		primary = N00 #Escharia
 		
 		dynasty_names = {
-			"an Aeszerii" "an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar" "an Astaseul"
-			Pallas-Akerian "an Seqerie"
+			"an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar"
+			Pallas-Akerian
 		}
 	
 	}
@@ -149,7 +214,7 @@ niedene_group = {
 	
 	}
 	kaseii = {
-	
+
 	}
 	serrenese = {
 	
@@ -169,16 +234,10 @@ niedene_group = {
 	anesarii = {
 	
 	}
-	mimarii = {
-	
-	}
-	sylerii = {
-	
-	}
 	annuvii = {
 	
 	}
-	vendarii = {
+	delvarii = {
 	
 	}
 	floramii = {
@@ -189,7 +248,9 @@ niedene_group = {
 		"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
 		"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
 		"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
-		"dai Lostesrei" "dai Delgrenzvar" "dai Annuvin" "dai Attori"
+		"dai Delgrenzvar" "dai Annuvin" "dai Attori"
+
+		"Chaureste" 
 	
 		"de Escharien" "de Suderen" "de Soleanna" "de Vale'du'nor" "de Varmerien" "de Iremith"
 		"de Annun" "de Arj'entor" "de Reikara"
@@ -199,6 +260,24 @@ niedene_group = {
 	}
 	female_names = {
 		
+	}
+}
+
+vastallosi_group = {
+	carvayan = {
+
+	}
+	stenstan = {
+
+	}
+	kawalapuan = {
+
+	}
+	knossian = {
+		
+	}
+	denthrosi = {
+
 	}
 }
 
