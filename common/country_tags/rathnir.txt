@@ -23,8 +23,6 @@ A25 = "countries/Aldovir.txt"
 
 A39 = "countries/Astyllea.txt"
 
-B00 = "countries/An-Saryan.txt"
-
 #The North - Fxx/Gxx
 
 #Haven - Hxx/Ixx
