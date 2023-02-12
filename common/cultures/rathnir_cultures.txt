@@ -348,23 +348,6 @@ seraan_group = {
 	}
 }
 
-saryani_group = {
-	graphical_culture = muslimgfx
-
-	auraic = {
-		primary = B00 #An-Saryan
-
-	}
-
-	assuqi = {
-
-	}
-
-	maanit = {
-
-	}
-}
-
 luthic_group = {
 
 	graphical_culture = westerngfx
