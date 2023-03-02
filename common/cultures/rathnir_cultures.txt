@@ -343,4 +343,89 @@ arcadian_group = {
 	female_names = {
 		Elthia Samantha Vygu
 	}
-}	
+}
+
+ombran = {
+	graphical_culture = westerngfx
+
+	carvaian = {
+		primary = A27 #Carvay
+
+		dynasty_names = {
+			Durradayne Mezaria
+		}
+	}
+
+	sinatran = {
+		primary = A43 #Sioc
+
+		dynasty_names = {
+			Wacko
+		}
+	}
+
+	stenstan = {
+		primary = A31 #Stenstan
+	}
+
+	dracadian = {
+		primary = #A29 #Dracade
+
+		dynasty_names = {
+			Ricky Ramo "de Ethymios" Salamundi Martellus
+		}
+	}
+
+	dynasty_names = {
+		Durradayne Yolcotl Glynrel
+	}
+	male_names = {
+		Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
+	}
+	female_names = {
+		Savii Vulpur Ekko Frostina
+	}
+}
+
+vastallosi_group = {
+	graphical_culture = andeangfx
+
+	masgar = {
+		primary = A62 #Masgar
+
+	}
+	illyrix = {
+		primary = A42 #Illyrix
+
+	}
+	trondan = {
+		primary = A57 #Tronda
+
+	}
+	mamaco = {
+		primary = A60 #Mamaco
+
+	}
+
+	vrolgar = { 
+		primary = A34 #Trollgard
+
+	}
+	knossian = {
+		primary = A30 #Neos-Knossos
+
+		dynasty_names = {
+			Pantha Santha
+		}
+	}
+	dynasty_names = {
+		Konung "??palazNui" Vagranti "af Kronborg" 
+	}
+	male_names = {
+		Jay Sverion
+	}
+	female_names = {
+		Kori Delta Ka Asi
+	}
+}
+
