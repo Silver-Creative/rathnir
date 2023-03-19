@@ -429,3 +429,76 @@ vastallosi_group = {
 	}
 }
 
+brothian = {
+	graphical_culture = westerngfx
+
+	high_ryzani = {
+		primary = SO4 #Tossagrad
+
+		dynasty_names = {
+			Tossovich Aasimar Zefrivov Eckbert Korol
+		}
+	}
+
+	low_ryzani = {
+		primary = SO8 #Balreska
+
+		dynasty_names = {
+			Lykeris Tossova
+		}
+	}
+
+	west_ryzani = {
+		primary = S16 #Volkore
+
+		dynasty_names = {
+			Sigrun Azurov Meklevich
+		}
+	}
+
+	deutzani = {
+		primary = S13 #Deutzan
+
+		dynasty_names = {
+			Lykeris
+		}
+	}
+
+	vologdan = {
+		primary = #S15 #Vologda
+
+		dynasty_names = {
+			Fardhac Toldar
+		}
+	}
+
+	olthiac = {
+		primary = #S20 #Remtal
+
+		dynasty_names = {
+			Liberium Tise Murskanlo
+		}
+	}
+
+	plains_bardonian = {
+		primary = #SO3 #Bardonia
+
+		dynasty_names = {
+			Dandelion Mediki Aelarion Mechichi
+		}
+	}
+
+	fluentan = {
+		primary = #S50 #Fluenta
+	}
+
+	dynasty_names = {
+		Shan Tossovich Khamen Aveleskei Burrow Yazovich Chernik Kovalsky Meklevich Zukolov Ariti
+	}
+	male_names = {
+		Slout Ivano Dinesk Josbar Eirik Athos Peteroff Petra "Bjorn Rex" Bronvic Kino Nikolai Carpzov Darrow Ignati Jacob Mocoslav Hiar Stanislav Ralphie Talvin Nikoloks Capna Merodach
+	}
+	female_names = {
+		Elle Shan Anastasia Ibris Isabella Germathual Falyn Hees Alyansis Ceibi Cyna Celine Krista Aya Cazovas
+	}
+}
