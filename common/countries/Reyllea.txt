@@ -50,7 +50,7 @@ monarch_names = {
     "Sicfroy #0" = 10
     "Sicmonde #0" = 10
     "Thegan #0" = 10
-    "Theodon #0 = 10
+    "Theodon #0" = 10
     "Valrios #0" = 10
 
 	#Generic Reyllean Names (Female)
