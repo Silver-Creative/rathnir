@@ -56,7 +56,7 @@ monarch_names = {
 	#Generic Lapidoviri Names (Female)
     "Ansa #0" = -1
     "Arstenna #0" = -1
-    "Artorianna" #0" = -1
+    "Artorianna #0" = -1
     "Kara #0" = -1
     "Maira #0" = -1
     "Sinna #0" = -1

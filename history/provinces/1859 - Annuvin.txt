@@ -4,7 +4,7 @@ owner = N00
 controller = N00
 add_core = N00
 
-culture = vendarii
+culture = gentarii
 religion = soleannen
 capital = ""
 
