@@ -595,4 +595,87 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_dujiangyan.dds"
 	}
 
+		### DOMINATION  ####
+
+	spriteType = {
+		name = "GFX_great_project_aljaferia_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_aljaferia_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_divrigi_hospital_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_divrigi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_edinburgh_castle"	
+		texturefile = "gfx//interface//great_projects//great_project_Edinburgh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_1"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_2"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_3"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_4"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_imperial_city_kyoto"	
+		texturefile = "gfx//interface//great_projects//great_project_kyoto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_palace_of_the_popes"	
+		texturefile = "gfx//interface//great_projects//great_project_pope_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_st_basil_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_stbasil_cathedral.dds"
+	}
+
+	#Rathnir
+	spriteType = {
+		name = "GFX_great_project_urtu_lugalad"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_urtu_lugalad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_red_temple"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_red_temple.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_sky_pillars"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_sky_pillars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_jirnsteel_foundry"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_jirnsteel_foundry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_tower_of_memories"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_tower_of_memories.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_sanctum_of_theiotokos"
+		texturefile = "gfx//interface//great_projects//rathnir//great_project_sanctum_of_theiotokos.dds"
+	}
+
 }

@@ -171,30 +171,35 @@ sagaviri_group = {
 	thyrian = {
 	
 	}
+	jeghosi = {
+
+	}
+	sivakuniri = {
+
+	}
+	vanakuniri = {
+
+	}
 	raellite = {
 	
 	}
 	asturcian = {
 	
 	}
-}
-
-viratanic_group = {
-	graphical_culture = easterngfx
-
 	viratanic = {
 		primary = A14 #Athazolant
-	}
 
-	dynasty_names = {
+		dynasty_names = {
 		"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
-	}
-	male_names = {
-		Arthozh Atihm Ayuhndab Ilahmehdir Kahlson Kehlenav Levitsuh Mihdib
-		Priyatimat Rihndera Vahtah Varn
-	}
-	female_names = {
-		Ilah Gaiyal Krayeg Priya Sheya Sholanoh
+		}
+		male_names = {
+			Arthozh Atihm Ayuhndab Ilahmehdir Kahlson Kehlenav Levitsuh Mihdib
+			Priyatimat Rihndera Vahtah Varn
+		}
+		female_names = {
+			Ilah Gaiyal Krayeg Priya Sheya Sholanoh
+		}
+
 	}
 }
 
@@ -364,6 +369,9 @@ luthic_group = {
 	}
 	leythian = {
 
+	}
+	carnian = {
+		
 	}
 }
 	

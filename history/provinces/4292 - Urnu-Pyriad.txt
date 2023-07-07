@@ -2,7 +2,7 @@
 
 owner = A06
 controller = A06
-add_core = A00
+add_core = A06
 add_core = AKK
 
 culture = fuscinian

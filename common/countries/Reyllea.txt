@@ -3,7 +3,7 @@
 
 graphical_culture = westerngfx
 
-color = { 2  45  54 }
+color = { 2  46  54 }
 
 historical_idea_groups = {
 	quantity_ideas
@@ -52,6 +52,8 @@ monarch_names = {
     "Thegan #0" = 10
     "Theodon #0" = 10
     "Valrios #0" = 10
+	"Gaspard #0" = 10
+	"Arsène #0" = 10
 
 	#Generic Reyllean Names (Female)
     "Aude #0" = -1

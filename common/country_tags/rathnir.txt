@@ -23,6 +23,8 @@ A25 = "countries/Aldovir.txt"
 
 A39 = "countries/Astyllea.txt"
 
+A41 = "countries/Yimmu-Audal.txt"
+
 #The North - Fxx/Gxx
 
 #Haven - Hxx/Ixx
@@ -47,4 +49,4 @@ N01 = "countries/Soleanna.txt"
 
 #Cymru (Cibor) - Wxx/Xxx
 
-#Syltör - Yxx/Zss
+#Syltï¿½r - Yxx/Zss
