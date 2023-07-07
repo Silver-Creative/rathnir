@@ -5,6 +5,7 @@
 # Base resources
 grain = { base_price = 2.5 }
 wine = { base_price = 2.5 }
+beer = { base_price = 2.5 }
 wool = { base_price = 2.5 }
 cloth = { base_price = 3 }
 fish = { base_price = 2.5 }
@@ -16,6 +17,8 @@ incense = { base_price = 2.5 }
 ice = { base_price = 2 }
 cheese = { base_price = 2.5 }
 fruits = { base_price = 2.5 }
+lumber = { base_price = 2 }
+horses = { base_price = 2.5 }
 
 # Metals and Ores
 copper = { base_price = 3 }

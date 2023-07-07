@@ -13,9 +13,11 @@
   kaithrati:0 "Kaithrati"
   myrish:0 "Mýrish"
   thyrian:0 "Thýrian"
+  jeghosi:0 "Jeghosi"
+  sivakuniri:0 "Sivakuniri"
+  vanakuniri:0 "Vanakuniri"
   raellite:0 "Raêllite"
   asturcian:0 "Asturcian"
- viratanic_group:0 "Viratanic" #Viratanic Group
   viratanic:0 "Viratanic"
  niedene_group:0 "Niedene" #Niedene Group
   escharii:0 "Escharii"
@@ -53,3 +55,4 @@
   serafinian:0 "Serafinian"
   chimunic:0 "Chimunic"
   leythian:0 "Leythian"
+  carnian:0 "Carnian"

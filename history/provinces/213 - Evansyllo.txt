@@ -5,7 +5,7 @@ controller = A12
 add_core = A12
 
 culture = reyllean
-religion = eternal_flame
+religion = etherflame
 capital = ""
 
 hre = no
