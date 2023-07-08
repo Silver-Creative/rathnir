@@ -203,25 +203,6 @@ sagaviri_group = {
 	}
 }
 
-viratanic_group = {
-	graphical_culture = easterngfx
-
-	viratanic = {
-		primary = A14 #Athazolant
-	}
-
-	dynasty_names = {
-		"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
-	}
-	male_names = {
-		Arthozh Atihm Ayuhndab Ilahmehdir Kahlson Kehlenav Levitsuh Mihdib
-		Priyatimat Rihndera Vahtah Varn
-	}
-	female_names = {
-		Ilah Gaiyal Krayeg Priya Sheya Sholanoh
-	}
-}
-
 niedene_group = {
 	graphical_culture = westerngfx
 	
@@ -287,21 +268,87 @@ niedene_group = {
 	}
 }
 
-vastallosi_group = {
+ombrian_group = {
+	graphical_culture = westerngfx
+
 	carvayan = {
+		#primary = A27 #Carvay
 
+		dynasty_names = {
+			Durradayne Mezaria
+		}
 	}
+
+	siocan = {
+		#primary = A43 #Sioc
+
+		dynasty_names = {
+			Wacko
+		}
+	}
+
 	stenstan = {
+		#primary = A31 #Stensta
+	}
+
+	dracadian = {
+		#primary = #A29 #Dracade
+
+		dynasty_names = {
+			Ricky Ramo "de Ethymios" Salamundi Martellus
+		}
+	}
+
+	dynasty_names = {
+		Durradayne Yolcotl Glynrel
+	}
+	male_names = {
+		Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
+	}
+	female_names = {
+		Savii Vulpur Ekko Frostina
+	}
+}
+
+vastallosi_group = {
+	graphical_culture = andeangfx
+
+	masgar = {
+		#primary = A62 #Masgar
 
 	}
-	kawalapuan = {
+	illyrix = {
+		#primary = A42 #Illyrix
+
+	}
+	trondan = {
+		#primary = A57 #Tronda
+
+	}
+	mamaco = {
+		#primary = A60 #Mamaco
+
+	}
+
+	vrolgar = { 
+		#primary = A34 #Trollgard
 
 	}
 	knossian = {
-		
-	}
-	denthrosi = {
+		#primary = A30 #Neos-Knossos
 
+		dynasty_names = {
+			Pantha Santha
+		}
+	}
+	dynasty_names = {
+		Konung "??palazNui" Vagranti "af Kronborg" 
+	}
+	male_names = {
+		Jay Sverion
+	}
+	female_names = {
+		Kori Delta Ka Asi
 	}
 }
 
@@ -321,7 +368,7 @@ talawan_group = {
 
 	}
 	redstoneborne = {
-		primary = H22 #Sanctuary
+		#primary = H22 #Sanctuary
 
 		dynasty_names = {
 			"Von Ank"
@@ -411,27 +458,30 @@ luthic_group = {
 	leythian = {
 
 	}
+	carnian = {
+
+	}
 }
 
 arcadian_group = {
 	graphical_culture = polynesiangfx
 
-	astanan = {
-		primary = A43 #Astana
+	agrianan = {
+		#primary = A43 #Agrianan
 		
 		dynasty_names = {
 			Loulouna "Twin-Leaf" Jusepp
 		}
 	}
 	denthrosi = {
-		primary = A46 #Denthros
+		#primary = A46 #Denthros
 
 		dynasty_names = {
 			Valhorn "Twin-Leaf"
 		}
 	}
 	kawalapuan = {
-		primary = A07 #Kawalapua
+		#primary = A07 #Kawalapua
 
 		dynasty_names = {
 			Pantha Santha
@@ -449,95 +499,11 @@ arcadian_group = {
 	}
 }
 
-ombran = {
-	graphical_culture = westerngfx
-
-	carvaian = {
-		primary = A27 #Carvay
-
-		dynasty_names = {
-			Durradayne Mezaria
-		}
-	}
-
-	sinatran = {
-		primary = A43 #Sioc
-
-		dynasty_names = {
-			Wacko
-		}
-	}
-
-	stenstan = {
-		primary = A31 #Stenstan
-	}
-
-	dracadian = {
-		primary = #A29 #Dracade
-
-		dynasty_names = {
-			Ricky Ramo "de Ethymios" Salamundi Martellus
-		}
-	}
-
-	dynasty_names = {
-		Durradayne Yolcotl Glynrel
-	}
-	male_names = {
-		Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
-	}
-	female_names = {
-		Savii Vulpur Ekko Frostina
-	}
-}
-
-vastallosi_group = {
-	graphical_culture = andeangfx
-
-	masgar = {
-		primary = A62 #Masgar
-
-	}
-	illyrix = {
-		primary = A42 #Illyrix
-
-	}
-	trondan = {
-		primary = A57 #Tronda
-
-	}
-	mamaco = {
-		primary = A60 #Mamaco
-
-	}
-
-	vrolgar = { 
-		primary = A34 #Trollgard
-
-	}
-	knossian = {
-		primary = A30 #Neos-Knossos
-
-		dynasty_names = {
-			Pantha Santha
-		}
-	}
-	dynasty_names = {
-		Konung "??palazNui" Vagranti "af Kronborg" 
-	}
-	male_names = {
-		Jay Sverion
-	}
-	female_names = {
-		Kori Delta Ka Asi
-	}
-}
-
 brothian = {
 	graphical_culture = westerngfx
 
 	high_ryzani = {
-		primary = SO4 #Tossagrad
+		#primary = SO4 #Tossagrad
 
 		dynasty_names = {
 			Tossovich Aasimar Zefrivov Eckbert Korol
@@ -545,7 +511,7 @@ brothian = {
 	}
 
 	low_ryzani = {
-		primary = SO8 #Balreska
+		#primary = SO8 #Balreska
 
 		dynasty_names = {
 			Lykeris Tossova
@@ -553,7 +519,7 @@ brothian = {
 	}
 
 	west_ryzani = {
-		primary = S16 #Volkore
+		#primary = S16 #Volkore
 
 		dynasty_names = {
 			Sigrun Azurov Meklevich
@@ -561,7 +527,7 @@ brothian = {
 	}
 
 	deutzani = {
-		primary = S13 #Deutzan
+		#primary = S13 #Deutzan
 
 		dynasty_names = {
 			Lykeris
@@ -569,7 +535,7 @@ brothian = {
 	}
 
 	vologdan = {
-		primary = #S15 #Vologda
+		#primary = #S15 #Vologda
 
 		dynasty_names = {
 			Fardhac Toldar
@@ -577,7 +543,7 @@ brothian = {
 	}
 
 	olthiac = {
-		primary = #S20 #Remtal
+		#primary = #S20 #Remtal
 
 		dynasty_names = {
 			Liberium Tise Murskanlo
@@ -585,15 +551,16 @@ brothian = {
 	}
 
 	plains_bardonian = {
-		primary = #SO3 #Bardonia
+		#primary = #SO3 #Bardonia
 
 		dynasty_names = {
 			Dandelion Mediki Aelarion Mechichi
 		}
 	}
 
+	#???
 	fluentan = {
-		primary = #S50 #Fluenta
+		#primary = #S50 #Fluenta
 	}
 
 	dynasty_names = {
@@ -604,11 +571,6 @@ brothian = {
 	}
 	female_names = {
 		Elle Shan Anastasia Ibris Isabella Germathual Falyn Hees Alyansis Ceibi Cyna Celine Krista Aya Cazovas
-	}
-}
-
-	carnian = {
-		
 	}
 }
 	
