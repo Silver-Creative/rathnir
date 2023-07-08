@@ -1983,7 +1983,7 @@ unknown = {
 redstone = {
     color = { 155 0 24 }
 	modifier = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	province = {
 		allowed_num_of_buildings = 1
@@ -2078,6 +2078,45 @@ potions = {
 	}
 	province = {
 		province_trade_power_modifier = 0.10
+	}
+	chance = {		# Whenever we add uncolonized provinces, add this in vv
+		factor = 0
+	}
+}
+
+lumber = {
+	color = { 0.20 0.10 0.05 }
+	modifier = {
+		build_cost = -0.10
+	}
+	province = {
+		local_build_cost = -0.20
+	}
+	chance = {		# Whenever we add uncolonized provinces, add this in vv
+		factor = 0
+	}
+}
+
+horses = {
+	color = { 0.50 0.60 0.35 }
+	modifier = {
+		cavalry_power = 0.15
+	}
+	province = {
+		local_friendly_movement_speed = 0.25
+	}
+	chance = {		# Whenever we add uncolonized provinces, add this in vv
+		factor = 0
+	}
+}
+
+beer = {
+	color = { 0.90 0.60 0.00 }
+	modifier = {
+		land_morale = 0.1
+	}
+	province = {
+		local_years_of_nationalism = -3
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
 		factor = 0

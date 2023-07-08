@@ -34,12 +34,12 @@ monarch_names = {
 
 	#Historical Audalad Leaders (Male)
 	"Gray #0" = 10
-	"Stori #0" = 10
+	"Narahashu #0" = 10
 	"Kaleb #0" = 10
 	"Hákon #0" = 10
 	"Blue #0" = 10
-	"Dexter #0" = 10
-	"Foxmunk #0" = 10
+	"Hawker #0" = 10
+	"Fox #0" = 10
 	"Harbardr #0" = 10
 	"Centurion #0" = 10
 	"Toren #0" = 10

@@ -3,7 +3,7 @@
 
 graphical_culture = westerngfx
 
-color = { 114  39  97 }
+color = { 99  3  48 }
 
 historical_idea_groups = {
     administrative_ideas
@@ -105,7 +105,7 @@ monarch_names = {
     "Annasa #0" = -1
     "Ansa #0" = -1
     "Arstenna #0" = -1
-    "Artorianna" #0" = -1
+    "Artorianna #0" = -1
     "Avril #0" = -1
     "Kara #0" = -1
     "Maira #0" = -1
@@ -114,7 +114,7 @@ monarch_names = {
     "Yna #0" = -1
 	
 	#Historical Aldoviri Leaders (Female)
-    "Alessandra #0" -1
+    "Alessandra #0" = -1
     "Subica #0" = -1
 	
 }
@@ -145,20 +145,32 @@ leader_names = {
 ship_names = {
 	#Generic Rathniri
 	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
-	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood" Captain Centurion Coronation Courage Crocodile Crown
-	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess Eagle Elephant Excellent Exchange Expedition Experiment
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
 	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
-	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide "Half Moon" Hare Harpy Hawke Hazardous Heart
-	Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible "Less Bark" "Less Pinnace" "Less Zebra"
-	Lively Lizard Lion Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark" Ocean 
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
 	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
 	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
 	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
 	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
-	Unicorn Union Unity Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
-	Warrior Warspite "Young Prince" Zealous
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
 
-	Survey Surveillance Cow Ox Bird Hawk Sovereign Emperor Count Lord Baron
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
 
 	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
 	Strength Dexterity Constitution Intelligence Wisdom Charisma

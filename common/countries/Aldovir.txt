@@ -62,7 +62,7 @@ monarch_names = {
     "Annasa #0" = -1
     "Ansa #0" = -1
     "Arstenna #0" = -1
-    "Artorianna" #0" = -1
+    "Artorianna #0" = -1
     "Avril #0" = -1
     "Kara #0" = -1
     "Maira #0" = -1
@@ -71,7 +71,7 @@ monarch_names = {
     "Yna #0" = -1
 	
 	#Historical Aldoviri Leaders (Female)
-    "Alessandra #0" -1
+    "Alessandra #0" = -1
     "Subica #0" = -1
 }
 
@@ -121,5 +121,5 @@ army_names = {
 }
 
 fleet_names = {
-	"Imperial Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+	"Imperial Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron" "Black Squadron"
 }

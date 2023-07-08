@@ -6,7 +6,7 @@ add_core = A03
 add_core = CYP
 
 culture = taloran
-religion = hukar_sharud
+religion = monathism
 capital = ""
 
 hre = no

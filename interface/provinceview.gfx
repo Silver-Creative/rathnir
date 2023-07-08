@@ -307,7 +307,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_view_religion"
 		texturefile = "gfx//interface//religions//province_view_religion.dds"
-		noOfFrames = 46 #Rathnir
+		noOfFrames = 47 #Rathnir
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -975,14 +975,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resource_icon"
 		texturefile = "gfx//interface//tradegoods//resources.tga"
-		noOfFrames = 40 #32 for the base game, 40 for Rathnir
+		noOfFrames = 43 #32 for the base game, 43 for Rathnir
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_resource_icon_small"
 		texturefile = "gfx//interface//tradegoods//resources_small.dds"
-		noOfFrames = 40 #32 for the base game, 40 for Rathnir
+		noOfFrames = 43 #32 for the base game, 43 for Rathnir
 		loadType = "INGAME"
 	}
 
@@ -995,7 +995,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//tradegoods//resources.tga"
-		noOfFrames = 40 #32 for the base game, 40 for Rathnir
+		noOfFrames = 43 #32 for the base game, 43 for Rathnir
 		loadType = "INGAME"
 		
 		alwaystransparent = yes
