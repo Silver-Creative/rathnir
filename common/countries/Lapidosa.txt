@@ -63,7 +63,7 @@ monarch_names = {
     "Yna #0" = -1
 	
 	#Historical Aldoviri Leaders (Female)
-    "Alessandra #0" -1
+    "Alessandra #0" = -1
     "Subica #0" = -1
 }
 
