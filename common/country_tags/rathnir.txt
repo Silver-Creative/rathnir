@@ -1,6 +1,6 @@
 # Tales of Rathnir
 
-#Alteniquia - Axx/Bxx
+#Alteniquia - Axx/Bxx (No tag limit restriction)
 A00 = "countries/Audal.txt"
 A01 = "countries/Theionikos.txt"
 A02 = "countries/Anoshphey.txt"
@@ -25,28 +25,28 @@ A39 = "countries/Astyllea.txt"
 
 A41 = "countries/Yimmu-Audal.txt"
 
-#The North - Fxx/Gxx
-
-#Haven - Hxx/Ixx
-H00 = "countries/Talawa.txt"
-H01 = "countries/Uldarash.txt"
-
-#Akan'nash - Kxx/Jxx
-
-#Sparwood - Lxx/Mxx
-L00 = "countries/Vraelea.txt"
-#L01 = "countries/Lotus Empire.txt"
-
-#Nieden (except SC) - Nxx/Oxx
+#Nieden (except SC) - Nxx/Oxx (Lowest possible tag starting with O is O10)
 N00 = "countries/Escharia.txt"
 N01 = "countries/Soleanna.txt"
 
-#Plagos - Pxx/Qxx
+#Sparwood - Lxx/Mxx (No tag limit restriction)
+L00 = "countries/Vraelea.txt"
+#L01 = "countries/Lotus Empire.txt"
 
-#Sorligste - Sxx/Txx
+#Sýltör - Yxx/Zss (No tag limit restriction)
 
-#Ummarnu - Uxx/Vxx
+#The North - Fxx/Gxx (Lowest possible tag starting with F is F20)
 
-#Cymru (Cibor) - Wxx/Xxx
+#Ummarnu - Uxx/Vxx (No tag limit restriction)
 
-#Syltï¿½r - Yxx/Zss
+#Haven - Hxx/Ixx (No tag limit restriction)
+H00 = "countries/Talawa.txt"
+H01 = "countries/Uldarash.txt"
+
+#Sorligste - Sxx/Txx - (Lowest tag possible starting with S is S10; Lowest tag possible starting with E is E50)
+
+#Plagos - Pxx/Qxx (No tag limit restriction)
+
+#Valdreach - Wxx/Xxx (No tag limit restriction)
+
+#Akan'nash - Rxx/Jxx (No tag limit restriction)
