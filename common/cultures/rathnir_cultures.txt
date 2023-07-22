@@ -281,6 +281,26 @@ vastallosi_group = {
 	}
 }
 
+ardatian_group = {
+	graphical_culture = muslimgfx
+	
+	ardatian = {
+		primary = U17 #Ardat
+	}
+
+	dynasty_names = {
+		Azael Navanskli Navaska Mosulia Mako Kemal Khopesh "of Tissu" Ramajan Nasser
+	}
+
+	male_names = {
+		Sas Sasan Cyrus Cyr Cesar Altair Fabian Ismael Dain
+	}
+
+	female_names = {
+		Dalatra Isali "Xylapax bin" Tasha Aura Rosajad
+	}
+}
+
 talawan_group = {
 	graphical_culture = east_africangfx
 
@@ -315,11 +335,11 @@ talawan_group = {
 	}
 
 	male_names = {
-		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz
+		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz Bosori
 	}
 
 	female_names = {
-		Ogadeen Wurmbo Aruna
+		Ogadeen Wurmbo Aruna Joan Yanni
 	}
 
 }
