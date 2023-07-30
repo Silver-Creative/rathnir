@@ -1,0 +1,177 @@
+
+###CULTS###
+
+junior_yemoja_cult = {
+	naval_maintenance_modifier = -0.075
+	religion = yes
+}
+
+junior_roog_cult = {
+	land_attrition = -0.075
+	religion = yes
+}
+
+junior_nyame_cult = {
+	diplomatic_reputation = 0.5
+	religion = yes
+}
+
+junior_cwezi_cult = {
+	improve_relation_modifier = 0.1
+	religion = yes
+}
+
+junior_central_african_ancestor_cult = {
+	tolerance_own = 1
+	religion = yes
+}
+
+junior_mwari_cult = {
+	discipline = 0.0125
+	religion = yes
+}
+
+junior_enkai_cult = {
+	manpower_recovery_speed = 0.075
+	religion = yes
+}
+
+junior_waaq_cult = {
+	global_unrest = -1
+	religion = yes
+}
+
+junior_zanahary_cult = {
+	war_exhaustion = -0.03
+	religion = yes
+}
+
+junior_christianity_cult = {
+	global_own_trade_power = 0.125
+	religion = yes
+}
+
+junior_islam_cult = {
+	global_institution_spread = 0.05
+	religion = yes
+}
+
+junior_buddhism_cult = {
+	development_cost = -0.05
+	religion = yes
+}
+
+junior_dharmic_cult = {
+	global_trade_goods_size_modifier = 0.05
+	religion = yes
+}
+
+junior_south_central_american_cult = {
+	land_morale = 0.05
+	religion = yes
+}
+
+junior_norse_cult = {
+	tolerance_heathen = 1
+	religion = yes
+}
+
+junior_jewish_cult = {
+	advisor_cost = -0.05
+	religion = yes
+}
+
+junior_zoroastrian_cult = {
+	merchants = 1
+	religion = yes
+}
+
+primary_yemoja_cult = {
+	naval_maintenance_modifier = -0.15
+	religion = yes
+}
+
+primary_roog_cult = {
+	land_attrition = -0.15
+	religion = yes
+}
+
+primary_nyame_cult = {
+	diplomatic_reputation = 1
+	religion = yes
+}
+
+primary_cwezi_cult = {
+	improve_relation_modifier = 0.2
+	religion = yes
+}
+
+primary_central_african_ancestor_cult = {
+	tolerance_own = 2
+	religion = yes
+}
+
+primary_mwari_cult = {
+	discipline = 0.025
+	religion = yes
+}
+
+primary_enkai_cult = {
+	manpower_recovery_speed = 0.15
+	religion = yes
+}
+
+primary_waaq_cult = {
+	global_unrest = -2
+	religion = yes
+}
+
+primary_zanahary_cult = {
+	war_exhaustion = -0.05
+	religion = yes
+}
+
+primary_christianity_cult = {
+	global_own_trade_power = 0.25
+	religion = yes
+}
+
+primary_islam_cult = {
+	global_institution_spread = 0.1
+	religion = yes
+}
+
+primary_buddhism_cult = {
+	development_cost = -0.1
+	religion = yes
+}
+
+primary_dharmic_cult = {
+	global_trade_goods_size_modifier = 0.1
+	religion = yes
+}
+
+primary_south_central_american_cult = {
+	land_morale = 0.05
+	religion = yes
+}
+
+primary_norse_cult = {
+	tolerance_heathen = 2
+	religion = yes
+}
+
+primary_jewish_cult = {
+	advisor_cost = -0.1
+	religion = yes
+}
+
+primary_zoroastrian_cult = {
+	merchants = 2
+	religion = yes
+}
+
+swapped_primary_cult = {
+	stability_cost_modifier = 0.1
+	global_unrest = 1
+}

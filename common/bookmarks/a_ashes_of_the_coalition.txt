@@ -1,0 +1,14 @@
+bookmark = {
+
+    name = "ASHES_OF_THE_COALITION_NAME"
+    desc = "ASHES_OF_THE_COALITION_DESC"
+    date = 1444.1.1
+
+    center = 1
+    default = yes
+
+    country = A00
+
+    easy_country = A00
+    
+}

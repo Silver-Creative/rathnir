@@ -4,9 +4,9 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = shimmere
 religion = hukar_sharud
-technology_group = muslim
+technology_group = tech_alteniquian
 historical_friend = A00 #Yimmu-Audal
-capital = 396 #Swal'awz (Awal)
+capital = 53 #Swal'awz
 national_focus = ADM
 
 1444.1.1 = {

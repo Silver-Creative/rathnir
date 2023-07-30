@@ -11,7 +11,7 @@ jagdasian = {
 
 	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 408 #Urnu-Arrak (Basra)
+	center_of_religion = 70 #Urnu-Arrak
 
 	hukar_sharud = {
 		color = { 240 182 0 }
@@ -39,7 +39,7 @@ jagdasian = {
 		}
 
 		heretic = { 
-		
+			
 		}
 
 		uses_harmony = yes
@@ -75,6 +75,7 @@ jagdasian = {
 		heretic = { 
 			HUKAR_SHARUD
 			ABYSS_MYSTICISM
+			ZENTIVAR
 		}
 
 		declare_war_in_regency = yes
@@ -107,6 +108,37 @@ jagdasian = {
 		heretic = { 
 			RED_CULT
 			HUKAR_SHARUD
+			ZENTIVAR
+		}
+	}
+
+	zentivar = {
+		color = { 232 0 0 }
+		icon = 46
+		allowed_conversion = { }
+
+		country = {
+			development_cost = -0.1
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+
+		on_convert = {
+			change_religion = zentivar
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+			HUKAR_SHARUD
+			RED_CULT
+			ABYSS_MYSTICISM
 		}
 	}
 	
@@ -122,7 +154,7 @@ alteniquian = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 224 #Azethvir (Seville)
+	center_of_religion = 244 #Azethvir
 
 	sakrelism = {
 		color = { 130 36 51 }
@@ -143,13 +175,13 @@ alteniquian = {
 		}
 
 		holy_sites = {
-			224 #Azethvir (Seville) - Sanctum of the Judge
-			216 #Lapidovir (Salamanca) - Sanctum of the Smith
-			220 #Roscella (Valencia) - Sanctum of the Mother
-			151 #Athazolant (Constantinople) - Sanctum of the Scholar
-			2980 #Asturcia (Lucca) - Grand Temple of the North
-		 	341 #Lumaire (Tunis) - Grand Temple of the South
-			101 #Serafini (Genoa) - Grand Temple of the East
+			244 #Azethvir - Sanctum of the Judge
+			257 #Lapidovir - Sanctum of the Smith
+			215 #Roscella - Sanctum of the Mother
+			285 #Athazolant - Sanctum of the Scholar
+			325 #Asturcia - Grand Temple of the North
+		 	279 #Lumaire (NOT ADDED YET, temp. replaced by Levýatanna) - Grand Temple of the South
+			673 #Serafini - Grand Temple of the East
 		}
 
 		blessings = {
@@ -174,8 +206,8 @@ alteniquian = {
 
 		heretic = {
 			THEIOSISM
-			MONATHISM
 			ETHERFLAME
+			AEGMERISM
 		}
 
 	}
@@ -311,74 +343,8 @@ alteniquian = {
 
 		heretic = { 
 			SAKRELISM
-			MONATHISM
 			ETHERFLAME
-		}
-	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_alteniquian
-
-	#Unused
-	monathism = {
-		color = { 132 41 126 }
-		icon = 45
-		allowed_conversion = { }
-
-		country = {
-			diplomatic_reputation = 1
-			ship_power_propagation = 0.1
-		}
-		country_as_secondary = {
-			ship_power_propagation = 0.1
-		}
-
-		on_convert = {
-			change_religion = monathism
-			add_prestige = -100
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-		#anglican shit
-
-		heretic = {
-			SAKRELISM
-			THEIOSISM
-			ETHERFLAME
-		}
-	}
-
-	zentivar = {
-		color = { 232 0 0 }
-		icon = 46
-		allowed_conversion = { }
-
-		country = {
-			development_cost = -0.1
-			global_unrest = -2
-		}
-		country_as_secondary = {
-			global_unrest = -2
-		}
-
-		on_convert = {
-			change_religion = zentivar
-			add_prestige = -100
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-		heretic = {
-			SAKRELISM
-			THEIOSISM
-			MONATHISM
+			AEGMERISM
 		}
 	}
 
@@ -411,9 +377,45 @@ alteniquian = {
 		heretic = {
 			SAKRELISM
 			THEIOSISM
-			MONATHISM
+			AEGMERISM
 		}
 	}
+
+	aegmerism = {
+		color = { 100 149 237 }
+		icon = 53
+		allowed_conversion = { }
+
+		country = {
+			tolerance_own = 1
+			recover_army_morale_speed = 0.10
+		}
+		country_as_secondary = {
+			recover_army_morale_speed = 0.10
+		}
+		province = {
+			local_manpower_modifier = 0.10
+		}
+
+		on_convert = {
+			change_religion = aegmerism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = {
+			SAKRELISM
+			THEIOSISM
+			ETHERFLAME
+		}
+	}
+
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_alteniquian
 }
 
 niedene = {
@@ -424,7 +426,7 @@ niedene = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 1878 #Soleanna (Aachen)
+	center_of_religion = 618 #Ascension
 
 	soleannen = {
 		color = { 255 236 114 }
@@ -502,7 +504,7 @@ talawan = {
 
 	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 1224 #Lukka (Gonder)
+	center_of_religion = 651 #Lukka (NOT ADDED YET, temp. replaced by Eluraesin)
 
 	asharu = {
 		color = { 153 0 0 }
@@ -579,7 +581,7 @@ northern = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 1858 #Sovdal (Stettin)
+	center_of_religion = 652 #Sovdal (NOT ADDED YET, temp. replaced by Northern Reach)
 
 	noxism = {
 		color = { 205 217 191 }
@@ -624,7 +626,7 @@ brothian = {
 
 	ai_will_propagate_through_trade = no # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 295 #Tossagrad (Moscow)
+	center_of_religion = 653 #Tossagrad (NOT ADDED YET, temp. replaced by Konth)
 
 	dandelism = {
 		color = { 0 154 22 }
@@ -704,7 +706,7 @@ elven = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 684 #Lhûmar (Hangzhou)
+	center_of_religion = 654 #Lhûmar (NOT ADDED YET, temp. replaced by Thinking Palace)
 
 	twin_dragon = {
 		color = { 214 229 140 }
@@ -805,14 +807,142 @@ elven = {
 	harmonized_modifier = harmonized_elven
 }
 
-#luthic = {
-#	can_form_personal_unions = yes
-#	defender_of_faith = yes
-#	flags_with_emblem_percentage = 33 # default == 0
-#	flag_emblem_index_range = { 1 57 }
-#
-#	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
-#
-#	center_of_religion = 101 #Serafini (Genoa)
-#
-#}
+feybound = {
+	can_form_personal_unions = no
+	defender_of_faith = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 380 #Sioc
+
+	sanderosa = {
+		color = { 46 148 42 }
+		icon = 49
+		allowed_conversion = {
+			
+		}
+		country = {
+			tolerance_own = 1 #REDO
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1 #REDO
+		}
+
+		on_convert = {
+			change_religion = vastallosi
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+	}
+
+	willowpact = {
+		color = { 0 114 187 }
+		icon = 52
+		allowed_conversion = {
+			
+		}
+		country = {
+			attack_bonus_in_capital_terrain = 2
+			land_attrition = -0.10
+			liberty_desire = -25
+		}
+		country_as_secondary = {
+			land_attrition = -0.10
+		}
+		province = {
+			local_monthly_devastation = -0.1
+		}
+
+		on_convert = {
+			change_religion = willowpact
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+	}
+	
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_feybound
+}
+
+ummarnan = {
+	can_form_personal_unions = no
+	defender_of_faith = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 366 #Tlahatl (NOT ADDED YET, temp. replaced by Waahi)
+
+	ardat_lily = {
+		color = { 132 41 126 }
+		icon = 48
+		allowed_conversion = {
+			
+		}
+		country = {
+			tolerance_own = 1 #REDO
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1 #REDO
+		}
+
+		on_convert = {
+			change_religion = ardat_lily
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			CARDINALISM
+		}
+	}
+	
+	cardinalism = {
+		color = { 213 185 97 }
+		icon = 50
+		allowed_conversion = {
+			
+		}
+		country = {
+			global_tax_modifier = 0.1 #REDO
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.1 #REDO
+		}
+		province = {
+			local_missionary_strength = -0.01 #REDO
+		}
+
+		on_convert = {
+			change_religion = cardinalism
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			ARDAT_LILY
+		}
+	}
+	
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_ummarnan
+}

@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = audalad
+add_accepted_culture = theioniki
+add_accepted_culture = anoshphite
+religion = hukar_sharud
+technology_group = tech_alteniquian
+historical_friend = A01 #Theiónikos
+historical_friend = A06 #Fuscinia
+historical_friend = A03 #Tàlor
+historical_friend = A10 #Sironia
+capital = 70 #Urnu-Arrak
+national_focus = DIP

@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = denthrosi
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 378 #Veridon
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Demos Qaruxei"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 2
+		mil = 6
+		culture = denthrosi
+		religion = sanderosa
+        female = yes
+	}
+}

@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = lausarii
+religion = soleannen
+technology_group = tech_niedene
+historical_rival = A01 #Theiónikos
+capital = 187 #Duskanos
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Hakónos"
+        dynasty = "Fareni"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 4
+		mil = 1
+		culture = lausarii
+		religion = soleannen
+	}
+}

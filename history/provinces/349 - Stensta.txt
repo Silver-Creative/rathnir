@@ -1,0 +1,26 @@
+# 349 - Stensta
+
+owner = B07
+controller = B07
+add_core = B07
+
+culture = stenstan
+religion = sanderosa
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 2
+
+trade_goods = gold
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

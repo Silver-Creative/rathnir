@@ -1,0 +1,21 @@
+
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = kaithrati
+religion = sakrelism
+technology_group = tech_alteniquian
+capital = 316 #Kaithrat
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Velaur of Kolossata"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 4
+		mil = 1
+		culture = kaithrati
+		religion = sakrelism
+	}
+}

@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+primary_culture = viratanic
+religion = zentivar
+technology_group = tech_alteniquian
+capital = 285 #Athazolant
+national_focus = ADM

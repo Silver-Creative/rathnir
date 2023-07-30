@@ -2,10 +2,11 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = audalad
+primary_culture = azurian
+add_accepted_culture = grandati
 religion = red_cult
-technology_group = muslim
-capital = 331 #The Last Bastion (Erzurum)
+technology_group = tech_alteniquian
+capital = 74 #The Last Bastion
 national_focus = DIP
 
 1444.1.1 = {

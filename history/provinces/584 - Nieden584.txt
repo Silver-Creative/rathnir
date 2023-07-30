@@ -1,0 +1,22 @@
+# 584 - Nieden584
+
+culture = neurunic
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = wool
+
+is_city = no
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

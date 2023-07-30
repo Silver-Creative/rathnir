@@ -1,0 +1,27 @@
+# 257 - Myrmark
+
+owner = A31
+controller = A31
+add_core = A31
+
+culture = myyraa
+religion = willowpact
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 6
+
+trade_goods = iron
+center_of_trade = 1
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

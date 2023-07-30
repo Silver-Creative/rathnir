@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = tyrian
+religion = sakrelism
+technology_group = tech_alteniquian
+capital = 271 #Sakothýr
+national_focus = MIL

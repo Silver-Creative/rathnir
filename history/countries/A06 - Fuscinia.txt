@@ -2,11 +2,11 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = fuscinian
+primary_culture = abarillic
 religion = hukar_sharud
-technology_group = muslim
+technology_group = tech_alteniquian
 historical_friend = A00 #Yimmu-Audal
-capital = 411 #Urnu-Oyori (Mosul)
+capital = 135 #Nikhazi
 national_focus = MIL
 
 1444.1.1 = {

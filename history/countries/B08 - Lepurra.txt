@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = stenstan
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 351 #Lepurra
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Neper Savii"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 4
+		mil = 1
+		culture = stenstan
+		religion = sanderosa
+	}
+}

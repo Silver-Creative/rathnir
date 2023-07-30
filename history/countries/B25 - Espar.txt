@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = denthrosi
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 372 #Espar
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Demos Esparrei"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 2
+		mil = 3
+		culture = denthrosi
+		religion = sanderosa
+        female = yes
+	}
+}

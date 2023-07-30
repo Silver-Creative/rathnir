@@ -3,8 +3,7 @@ monarch_power = DIP
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
 	trade_efficiency = 0.2
-
-
+	monthly_russian_modernization = 0.05
 	yearly_corruption = -0.05
 }
 
@@ -124,7 +123,7 @@ technology = { #Naval Ambitions
 	range					= 115
 	impressment_offices 	= yes
 	naval_engagement_width = 10
-    canal_system = yes #Rathnir
+	canal_system = yes #Rathnir
 }
 
 technology  = { #Docks

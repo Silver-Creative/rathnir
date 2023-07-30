@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = reyllean
+add_accepted_culture = raellite
+religion = etherflame
+technology_group = tech_luthic
+historical_rival = A10 #Sironia
+capital = 222 #Praestènne
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "de la Praèçe"
+		birth_date = 1401.7.3
+		adm = 1
+		dip = 3
+		mil = 6
+		culture = reyllean
+		religion = etherflame
+	}
+}

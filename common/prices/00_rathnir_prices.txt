@@ -44,7 +44,7 @@ tropical_wood = { base_price = 2 }
 
 # Elven Resources
 tea = { base_price = 2 }
-chinaware = { base_price = 3 } # renamed to Porcelain
+chinaware = { base_price = 3 } #renamed to Porcelain
 
 #Rare Resources
 glass = { base_price = 3 }

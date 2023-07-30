@@ -1,0 +1,27 @@
+# 117 - Ederai-Elnam
+
+owner = A00
+controller = A00
+add_core = A00
+
+culture = adadid
+religion = hukar_sharud
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 2
+
+trade_goods = redstone
+center_of_trade = 1
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

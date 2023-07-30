@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = tyyraa
+religion = willowpact
+technology_group = tech_alteniquian
+capital = 765 #Salacar
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Zinaýr"
+		dynasty = "Aqra'sor"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 3
+		mil = 2
+		culture = tyyraa
+		religion = willowpact
+	}
+}

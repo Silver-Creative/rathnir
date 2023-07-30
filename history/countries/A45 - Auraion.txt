@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = lausarii
+religion = soleannen
+technology_group = tech_niedene
+historical_rival = A01 #Theiónikos
+capital = 184 #Eltur-Shummar
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Esaros"
+        dynasty = "Asterin"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 3
+		mil = 6
+		culture = lausarii
+		religion = soleannen
+	}
+}

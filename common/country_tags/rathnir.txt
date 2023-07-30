@@ -1,5 +1,10 @@
 # Tales of Rathnir
 
+# Special countries..
+REB = "countries/Rebels.txt"
+PIR = "countries/Pirates.txt"
+NAT = "countries/Natives.txt"
+
 #Alteniquia - Axx/Bxx (No tag limit restriction)
 A00 = "countries/Audal.txt"
 A01 = "countries/Theionikos.txt"
@@ -14,28 +19,95 @@ A09 = "countries/Theios-Essukdal.txt"
 A10 = "countries/Sironia.txt"
 A11 = "countries/Lapidosa.txt"
 A12 = "countries/Reyllea.txt"
-
+A13 = "countries/Tyrmark.txt"
 A14 = "countries/Athazolant.txt"
-
+A15 = "countries/Viratayn.txt"
+A16 = "countries/Mimir's Pride.txt"
+A17 = "countries/Kaithrat.txt"
+A18 = "countries/Vanakunir.txt"
+A19 = "countries/Ashor.txt"
+A20 = "countries/Myrmark.txt"
 A21 = "countries/Lirgal.txt"
+A22 = "countries/Carn.txt"
+A23 = "countries/Sveppareyja.txt"
+A24 = "countries/Volstronn.txt"
+A25 = "countries/Sivakunir.txt"
+A26 = "countries/Lo'myyr.txt"
+A27 = "countries/Lo'tyyr.txt"
+A28 = "countries/Qhayr.txt"
+A29 = "countries/Waa'manyr.txt"
+A30 = "countries/Mhaydaa.txt"
+A31 = "countries/Mhyr.txt"
+A32 = "countries/Thyr.txt"
+A33 = "countries/Soeriaa.txt"
+A34 = "countries/Noryanam.txt"
+A35 = "countries/Soryanam.txt"
+A36 = "countries/Eanam.txt"
+A37 = "countries/Iyoqanaa.txt"
+A38 = "countries/Ayaloquur.txt"
+A39 = "countries/Tyrian League.txt"
+A40 = "countries/Ilivian.txt"
+A41 = "countries/Praece.txt"
+A42 = "countries/Rodea.txt"
+A43 = "countries/Argvennes.txt"
+A44 = "countries/Farene.txt"
+A45 = "countries/Auraion.txt"
+A46 = "countries/Maridathis.txt"
+A47 = "countries/Selakrisa.txt"
+A48 = "countries/Kiasta.txt"
+A49 = "countries/Akrisamos.txt"
+A50 = "countries/Lausaria.txt"
+A51 = "countries/Saimara.txt"
+A52 = "countries/Apasiril.txt"
+A53 = "countries/Stomeste.txt"
+A54 = "countries/Useri.txt"
 
-A25 = "countries/Aldovir.txt"
+A95 = "countries/Aldovir.txt"
+#A96 = "countries/Sagavir.txt"
+A97 = "countries/Yimmu-Audal.txt"
+#A98 = "countries/Anneikos.txt"
+A99 = "countries/Astyllea.txt"
 
-A39 = "countries/Astyllea.txt"
-
-A41 = "countries/Yimmu-Audal.txt"
+B00 = "countries/Carvay.txt"
+B01 = "countries/Ravenus.txt"
+B02 = "countries/Asturcia.txt"
+B03 = "countries/Valteysia.txt"
+B04 = "countries/Verroryia.txt"
+B05 = "countries/Griffinview.txt"
+B06 = "countries/Dracade.txt"
+B07 = "countries/Stensta.txt"
+B08 = "countries/Lepurra.txt"
+B09 = "countries/Knossos.txt"
+B10 = "countries/Trollgard.txt"
+B11 = "countries/Donsktopt.txt"
+B12 = "countries/Illyrix.txt"
+B13 = "countries/Selintragou.txt"
+B14 = "countries/Masgar.txt"
+B15 = "countries/Tronda.txt"
+B16 = "countries/Mennzag.txt"
+B17 = "countries/Mamaco.txt"
+B18 = "countries/Qamigava.txt"
+B19 = "countries/Sioc.txt"
+B20 = "countries/Atlahua.txt"
+B21 = "countries/Agriana.txt"
+B22 = "countries/Praesidia.txt"
+B23 = "countries/Kawalapua.txt"
+B24 = "countries/Killingmack.txt"
+B25 = "countries/Espar.txt"
+B26 = "countries/Qaruxia.txt"
+B27 = "countries/Vastallosi League.txt"
 
 #Nieden (except SC) - Nxx/Oxx (Lowest possible tag starting with O is O10)
 N00 = "countries/Escharia.txt"
 N01 = "countries/Soleanna.txt"
 
 #Sparwood - Lxx/Mxx (No tag limit restriction)
-L00 = "countries/Vraelea.txt"
+#L00 = "countries/Vraelea.txt"
 #L01 = "countries/Lotus Empire.txt"
 
 #Sýltör - Yxx/Zss (No tag limit restriction)
 
-#The North - Fxx/Gxx (Lowest possible tag starting with F is F20)
+#The North - Gxx/Fxx (Lowest possible tag starting with F is F20)
 
 #Ummarnu - Uxx/Vxx (No tag limit restriction)
 
@@ -43,7 +115,7 @@ L00 = "countries/Vraelea.txt"
 H00 = "countries/Talawa.txt"
 H01 = "countries/Uldarash.txt"
 
-#Sorligste - Sxx/Txx - (Lowest tag possible starting with S is S10; Lowest tag possible starting with E is E50)
+#Sorligste - Txx/Sxx - (Lowest tag possible starting with S is S10)
 
 #Plagos - Pxx/Qxx (No tag limit restriction)
 

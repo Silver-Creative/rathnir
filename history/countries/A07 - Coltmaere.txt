@@ -3,9 +3,9 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = maeretine
-religion = hukar_sharud
-technology_group = eastern
-capital = 126 #Maereta (Malta)
+religion = dandelism
+technology_group = tech_alteniquian
+capital = 181 #Maereta
 national_focus = MIL
 
 1444.1.1 = {

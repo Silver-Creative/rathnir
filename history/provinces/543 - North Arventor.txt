@@ -1,0 +1,26 @@
+# 543 - North Arventor
+
+owner = O03
+controller = O03
+add_core = O03
+
+culture = gentarii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = incense
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

@@ -1,0 +1,26 @@
+# 1315 - Akaramash
+
+owner = A10
+controller = A10
+add_core = A10
+
+culture = sironian
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wine
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

@@ -1,0 +1,4 @@
+#Audal
+A00 = {
+    always = no
+}

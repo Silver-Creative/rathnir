@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = myyraa
+religion = willowpact
+technology_group = tech_alteniquian
+capital = 255 #Gerianarsh
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Antr"
+		dynasty = "vaal er-Qaeriaa"
+		birth_date = 1401.7.3
+		adm = 1
+		dip = 1
+		mil = 3
+		culture = myyraa
+		religion = willowpact
+	}
+	add_ruler_personality = bold_fighter_personality
+}

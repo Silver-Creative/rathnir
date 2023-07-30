@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = vanakuniri
+religion = sakrelism
+technology_group = tech_alteniquian
+historical_friend = A10 #Sironia
+capital = 322 #Larokin
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Skinny"
+		dynasty = "sae Lýrianna"
+		birth_date = 1401.7.3
+		adm = 6
+		dip = 6
+		mil = 6
+		culture = vanakuniri
+		religion = sakrelism
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = conqueror_personality
+}

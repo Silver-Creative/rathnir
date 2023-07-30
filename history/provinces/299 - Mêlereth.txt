@@ -1,0 +1,26 @@
+# 299 - Mêlereth
+
+owner = A17
+controller = A17
+add_core = A17
+
+culture = kaithrati
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = fish
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

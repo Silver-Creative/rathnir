@@ -12,3 +12,8 @@ music = {
     name = "dance_of_the_tercio"
     file = "dance_of_the_tercio.ogg"
 }
+
+music = {
+	name = "bloom_of_the_dandelions_minor"
+	file = "bloom_of_the_dandelions_minor.ogg"
+}

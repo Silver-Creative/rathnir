@@ -1,0 +1,45 @@
+# Harmonizing religions
+harmonized_jagdasian = {
+	global_trade_goods_size_modifier = 0.025
+	religion = yes
+}
+
+harmonized_alteniquian = {
+	land_morale = 0.05
+	religion = yes
+}
+
+harmonized_niedene = {
+	stability_cost_modifier = -0.1
+	religion = yes
+}
+
+harmonized_talawan = {
+    vassal_forcelimit_bonus = 0.25
+    religion = yes
+}
+
+harmonized_northern = {
+    global_tax_modifier = 0.05
+    religion = yes
+}
+
+harmonized_brothian = {
+    infantry_power = 0.05
+    religion = yes
+}
+
+harmonized_elven = {
+    idea_cost = -0.05
+    religion = yes
+}
+
+harmonized_feybound = {
+    land_attrition = -0.1
+    religion = yes
+}
+
+harmonized_ummarnan = {
+    global_colonial_growth = 15
+    religion = yes
+}

@@ -347,12 +347,7 @@ road_network = {
     cost = 90
     time = 12
     build_trigger = {
-        AND = {
-            FROM = {
-                adm_tech = 3
-            }
-            NOT = { has_building = canal_system }
-        }
+        NOT = { has_building = canal_system }
     }
     on_built = {
         add_development_from_building = {
@@ -711,12 +706,7 @@ canal_system = {
     cost = 180
     time = 12
     build_trigger = {
-        AND = {
-            FROM = {
-                dip_tech = 7
-		    }
-            NOT = { has_building = road_network }
-        }
+        NOT = { has_building = road_network }
     }
     on_built = {
         add_development_from_building = {

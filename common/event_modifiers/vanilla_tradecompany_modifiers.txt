@@ -1,0 +1,26 @@
+##################################################
+# Trade Companies
+##################################################
+
+trade_company_annoyed = {
+	local_unrest = 3
+	province_trade_power_modifier = -0.25
+}
+
+trade_company_upset = {
+	local_unrest = 5
+	province_trade_power_modifier = -0.5
+}
+
+trade_company_greatly_upset = {
+	local_unrest = 10
+	province_trade_power_modifier = -0.75
+}
+
+trade_company_boom = {
+	trade_efficiency = 0.1
+}
+
+trade_company_trouble = {
+	trade_efficiency = -0.1
+}

@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = myyraa
+religion = willowpact
+technology_group = tech_alteniquian
+capital = 262 #Meydan
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Qalaanq"
+		dynasty = "Yvotein"
+		birth_date = 1401.7.3
+		adm = 0
+		dip = 0
+		mil = 6
+		culture = myyraa
+		religion = willowpact
+	}
+	add_ruler_personality = bold_fighter_personality
+    add_ruler_personality = inspiring_leader_personality
+}

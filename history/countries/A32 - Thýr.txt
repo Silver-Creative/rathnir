@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = tyyraa
+religion = willowpact
+technology_group = tech_alteniquian
+historical_friend = A31 #Mhýr
+historical_rival = A10 #Sironia
+historical_rival = A11 #Lapidosa
+capital = 263 #Greatdens
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Aavrylla"
+		dynasty = "Azanaal"
+		birth_date = 1401.7.3
+		adm = 1
+		dip = 3
+		mil = 4
+		culture = tyyraa
+		religion = willowpact
+        female = yes
+	}
+	add_ruler_personality = bold_fighter_personality
+    add_ruler_personality = inspiring_leader_personality
+    add_ruler_personality = benevolent_personality
+}

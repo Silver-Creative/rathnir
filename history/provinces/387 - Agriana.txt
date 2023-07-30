@@ -1,0 +1,26 @@
+# 387 - Agriana
+
+owner = B21
+controller = B21
+add_core = B21
+
+culture = denthrosi
+religion = sanderosa
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = wool
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

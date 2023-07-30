@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = denthrosi
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 387 #Agriana
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Íllio Three-Leaf"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 3
+		mil = 2
+		culture = denthrosi
+		religion = sanderosa
+	}
+}

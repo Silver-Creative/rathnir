@@ -6,7 +6,7 @@
 
 ### Nation specific idea groups
 
-#Yimmu-Audal ideas
+#Audal ideas
 A00_ideas = {
 	start = {
 		prestige_decay = -0.05
@@ -87,7 +87,7 @@ A01_ideas = {
 		 production_efficiency = 0.1
 	}
 	A01_riders_across_the_dunes = {
-		attack_bonus_in_capital_terrain = yes
+		attack_bonus_in_capital_terrain = 1
 		shock_damage = 0.10
 	}
 	A01_bulwark_against_the_sandstorms = {
@@ -144,6 +144,48 @@ A02_ideas = {
 		devotion = 0.5
 		horde_unity = 0.5
 		meritocracy = 0.5
+	}
+}
+
+#Tálor ideas
+A03_ideas = {
+	start = {
+		naval_maintenance_modifier = -0.25
+		naval_forcelimit_modifier = 0.25
+	}
+
+	bonus = {
+		global_ship_trade_power = 0.2
+	}
+
+	trigger = {
+        OR = {
+            tag = A03 #Tálor
+        }
+    }
+    free = yes		#will be added at load.
+
+	A03_for_monath = {
+		yearly_patriarch_authority = 0.5
+	}
+	A03_noblesse_oblige = {
+		nobles_loyalty_modifier = 0.1
+		nobles_influence_modifier = -0.1
+	}
+	A03_supreme_engineers = {
+		great_project_upgrade_cost = -0.2
+	}
+	A03_masters_of_the_astyllean = {
+		galley_power = 0.2
+	}
+	A03_new_ordinances = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	A03_new_ordinators = {
+		merchants = 1
+	}
+	A03_aurdiann_mead = {
+		global_unrest = -1
 	}
 }
 

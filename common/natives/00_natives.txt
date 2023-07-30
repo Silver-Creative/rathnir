@@ -1,0 +1,11 @@
+filthy_escharians = {
+	graphical_culture = inuitgfx
+	color = { 0 255  255 }
+	icon = 4
+	
+	unit = native_indian_archer
+	
+	provinces = {
+		49
+	}
+}

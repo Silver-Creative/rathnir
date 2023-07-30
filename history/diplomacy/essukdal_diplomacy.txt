@@ -1,0 +1,35 @@
+vassal = {
+    first = A00 #Yimmu-Audal
+    second = A04 #Shiny
+    start_date = 1444.1.1
+}
+
+alliance = {
+    first = A00 #Yimmu-Audal
+    second = A06 #Fuscinia
+    start_date = 1444.1.1
+}
+
+march = {
+    first = A01 #Theiónikos
+    second = A51 #Saimara
+    start_date = 1444.1.1
+}
+
+march = {
+    first = A01 #Theiónikos
+    second = A52 #Apasiril
+    start_date = 1444.1.1
+}
+
+march = {
+    first = A01 #Theiónikos
+    second = A53 #Stomeste
+    start_date = 1444.1.1
+}
+
+march = {
+    first = A01 #Theiónikos
+    second = A54 #Useri
+    start_date = 1444.1.1
+}

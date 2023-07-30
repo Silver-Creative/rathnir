@@ -1,0 +1,22 @@
+# 408 - Orraen
+
+culture = reikarii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = naval_supplies
+
+is_city = no
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

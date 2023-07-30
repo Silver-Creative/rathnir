@@ -1,0 +1,101 @@
+
+##################################################
+# Colonial Nations
+##################################################
+
+smuggling_of_grain = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_wine = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_wool = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_cloth = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_fish = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_fur = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_salt = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_naval_supplies = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_copper = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_iron = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_ivory = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_tea = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_chinaware = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_spices = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_coffee = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_cotton = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_sugar = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_tobacco = {
+	global_tax_modifier = -0.05
+}
+
+smuggling_of_cocoa = {
+	global_tax_modifier = -0.05
+}
+
+the_proclamation_of_year_timer = {
+}
+
+restricted_colonial_expansion = {
+	global_colonial_growth = -10
+}
+
+revolutionary_spirit = {
+	land_forcelimit_modifier = 0.25
+}
+
+penal_colony = {
+	local_colonial_growth = 10
+	local_unrest = 3
+}
+
+hub_of_orinoco_trade = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}

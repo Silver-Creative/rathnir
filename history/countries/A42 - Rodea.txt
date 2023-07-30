@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = rodean
+add_accepted_culture = reyllean
+religion = etherflame
+technology_group = tech_luthic
+historical_rival = A10 #Sironia
+capital = 210 #Rodéa
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Arcennes"
+		dynasty = "de la Rochelle"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 3
+		mil = 2
+		culture = rodean
+		religion = etherflame
+	}
+}

@@ -45,7 +45,7 @@ monarch_names = {
 	"Toren #0" = 10
 	"Pontéos #0" = 10
 	"Brot #0" = 10
-	"Beagle #0" = 10
+	"Aureus #0" = 10
 	"Círandir #0" = 10
 
 	#Generic Audalad Names (Male)

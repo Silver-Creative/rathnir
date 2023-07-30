@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = masgar
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 339 #Tal-Muntanji
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Aetyro de Maraii"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 3
+		mil = 4
+		culture = masgar
+		religion = sanderosa
+	}
+}

@@ -1,0 +1,27 @@
+# 316 - Kaithrat
+
+owner = A17
+controller = A17
+add_core = A17
+
+culture = kaithrati
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = salt
+center_of_trade = 1
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

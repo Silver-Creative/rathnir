@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 2
+primary_culture = asturcian
+religion = sakrelism
+technology_group = tech_vastallosi
+capital = 325 #Asturcia
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Sinsa sae Kair'vern"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 1
+		mil = 2
+		culture = asturcian
+		religion = sakrelism
+        female = yes
+	}
+}

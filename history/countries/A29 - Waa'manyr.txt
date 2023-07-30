@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = myyraa
+religion = willowpact
+technology_group = tech_alteniquian
+capital = 258 #Karnalóth
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Iyaac"
+		dynasty = "vaal er-Mandûl"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 1
+		mil = 4
+		culture = myyraa
+		religion = willowpact
+	}
+	add_ruler_personality = bold_fighter_personality
+}

@@ -3,10 +3,10 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = taloran
-religion = monathism
-technology_group = muslim
+religion = theiosism
+technology_group = tech_alteniquian
 historical_friend = A00 #Yimmu-Audal
-capital = 321 #Tàlor (Cyprus)
+capital = 292 #Tàlor
 national_focus = DIP
 
 1444.1.1 = {

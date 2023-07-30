@@ -1,0 +1,27 @@
+# 181 - Maereta
+
+owner = A07
+controller = A07
+add_core = A07
+
+culture = maeretine
+religion = dandelism
+capital = ""
+
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = cloth
+center_of_trade = 1
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

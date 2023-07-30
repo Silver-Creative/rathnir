@@ -1,0 +1,7 @@
+is_tag_with_plural_name_trigger = {
+	OR = {
+		tag = B12 #Illyrix
+		tag = B14 #Masgar
+		tag = B17 #Mamaco
+	}
+}

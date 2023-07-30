@@ -39,3 +39,14 @@ song = {
         }
     }
 }
+
+song = {
+    name = "bloom_of_the_dandelions_minor"
+
+    chance = {
+        modifier = {
+            factor = 10
+            is_at_war = yes
+        }
+    }
+}

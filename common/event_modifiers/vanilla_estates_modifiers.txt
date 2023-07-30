@@ -1,0 +1,245 @@
+
+#Estates
+only_noble_officers = {
+	army_tradition = -1
+}
+
+amir_dominance = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
+}
+
+noble_power_elective_monarchy = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
+}
+
+noble_power_monarchy = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
+}
+
+serf_desertion = {
+	development_cost = 0.15
+	global_tax_modifier = -0.1
+	cavalry_cost = 0.1
+}
+
+gentry_dominance = {
+	imperial_authority = -0.05 #(currently replaced by direct hit when disaster triggers)
+	meritocracy = -1
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
+}
+
+heathen_taxes_abolished = {
+	global_tax_modifier = -0.25
+}
+
+dhimmi_administrators = {
+	advisor_cost = -0.15
+	advisor_pool = 1
+}
+
+elaborate_court_ceremonies = {
+	advisor_pool = 1
+	prestige = 0.5
+	global_tax_modifier = -0.10
+}
+
+disloyal_noble_officers = {
+	army_tradition = -1
+}
+
+noble_minister = {
+	diplomatic_upkeep = 1
+}
+
+burgher_minister = {
+	global_trade_power = 0.1
+}
+
+church_minister = {
+	global_autonomy = -0.03
+}
+
+dhimmi_minister = {
+	tolerance_heathen = 1
+}
+
+nobility_sumptuary_restrictions = {
+	trade_efficiency = -0.1
+}
+
+burgher_favorable_trade_laws = {
+	trade_efficiency = 0.1
+}
+
+burgher_unfavorable_trade_laws = {
+	trade_efficiency = -0.1
+}
+
+unsanitary_suburbs = {
+	local_development_cost = 0.15
+	local_unrest = 4
+}
+
+new_men = {
+	advisor_cost = -0.15
+}
+
+conflict_within_city = {
+	local_unrest = 8
+}
+
+thankful_guilds = {
+	local_unrest = -2
+	local_tax_modifier = 0.15
+}
+
+held_back_commoners = {
+	global_trade_power = -0.05
+}
+
+religious_court_life = {
+	stability_cost_modifier = 0.15
+}
+
+missionary_syncretism = {
+	global_missionary_strength = 0.01
+}
+
+campaign_against_syncretism = {
+	tolerance_own = 1
+}
+
+cossack_settlers = {
+	global_colonial_growth = 10
+	colonist_placement_chance = 0.05
+}
+
+new_world_company = {
+	range = 0.1
+}
+
+new_world_missions = {
+	native_uprising_chance = -0.5
+	native_assimilation = 0.5
+}
+
+dhimmi_nobles = {
+	free_leader_pool = 1
+}
+
+no_tribal_leaders = {
+	free_leader_pool = -1
+}
+
+armed_cossacks = {
+	land_maintenance_modifier = -0.1
+	is_cossack_modifier = yes
+}
+
+estate_nobles_cawa_peace_keepers_modifier = {
+	land_maintenance_modifier = -0.15
+	global_rebel_suppression_efficiency = 0.25
+	drill_gain_modifier = 0.25
+	is_cawa_modifier = yes
+}
+
+estate_nobles_cawa_offensive_fighters_modifier = {
+	discipline = 0.025
+	recover_army_morale_speed = 0.1
+	reinforce_cost_modifier = 0.25
+	is_cawa_modifier = yes
+}
+
+
+#Province modifiers
+estate_burghers_forest_expansion_forest = {
+	local_development_cost = -0.15
+}
+
+estate_burghers_forest_expansion_woods = {
+	local_development_cost = -0.10
+}
+
+estate_burghers_mountain_expansion_mountains = {
+	local_development_cost = -0.175
+}
+
+estate_burghers_mountain_expansion_highlands = {
+	local_development_cost = -0.10
+}
+
+estate_burghers_mountain_expansion_hills = {
+	local_development_cost = -0.125
+}
+
+estate_nobles_religious_conscription_cathedral = {
+	religion = yes
+	local_manpower_modifier = 0.33
+}
+
+estate_nobles_religious_conscription_temple = {
+	religion = yes
+	local_manpower_modifier = 0.15
+}
+
+estate_nobles_leidang_elite_conscription_mod = {
+	discipline = 0.05
+	is_marine_modifier = yes
+}
+
+estate_nobles_leidang_mass_conscription_mod = {
+	land_maintenance_modifier = -0.1
+	is_marine_modifier = yes
+}
+
+#Province modifier
+estate_burghers_control_over_gold_mine = {
+	trade_goods_size_modifier = -0.15
+}
+
+estate_burghers_hydraulic_rights_desert = {
+	local_development_cost = -0.25
+}
+
+estate_burghers_hydraulic_rights_coastal_desert = {
+	local_development_cost = -0.175
+}
+
+estate_burghers_hydraulic_rights_steppes = {
+	local_development_cost = -0.1
+}
+
+estate_burghers_hydraulic_rights_savanna = {
+	local_development_cost = -0.075
+}
+
+estate_nobles_neighbor_raids_fort = {
+	picture = "local_monthly_devastation"
+}
+
+#Province modifier
+estate_church_united_faith_and_culture = {
+	religion = yes
+	local_unrest = -1
+	local_tax_modifier = 0.1
+	local_production_efficiency = 0.1
+	local_manpower_modifier = 0.1
+}
+
+#Province modifier
+estate_church_false_culture = {
+	local_unrest = 3
+	local_culture_conversion_cost = -0.1
+	picture = "global_unrest_opposite"
+}

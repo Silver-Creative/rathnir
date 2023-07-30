@@ -1,0 +1,26 @@
+# 229 - Liccendas
+
+owner = A12
+controller = A12
+add_core = A12
+
+culture = reyllean
+religion = etherflame
+capital = ""
+
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = fur
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

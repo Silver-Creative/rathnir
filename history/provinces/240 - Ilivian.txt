@@ -1,0 +1,27 @@
+# 240 - Ilivian
+
+owner = A40
+controller = A40
+add_core = A40
+
+culture = sironian
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = paper
+center_of_trade = 1
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

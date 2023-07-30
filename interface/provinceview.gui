@@ -1,5 +1,194 @@
 guiTypes = {
+	
+	#Janissaries
+	windowType = {
+		name = "janissaries_state_view"
+		backGround=""
+		position = { x = 0 y = 0 }
+		size = { x = 390 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
 
+		guiButtonType = {
+			name ="create_janissaries_button"
+			quadTextureSprite = "button_type_8"
+			buttonFont = "vic_18"
+			buttonText = "CREATE_JANISSARIES_BUTTON"
+
+			position = { x = 18 y = 0 }
+		}
+	}
+	
+	# Ottoman Pasha
+	windowType = {
+		name = "pasha_state_view"
+		backGround=""
+		position = { x = 0 y = 0 }
+		size = { x = 390 y = 50 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "pasha_bg"
+			spriteType = "GFX_patriarchy_slot"
+			position = { x = 0 y = 0 }
+		}
+
+		guiButtonType = {
+			name ="add_pasha_button"
+			quadTextureSprite = "button_type_8"
+			buttonFont = "vic_18"
+			buttonText = "ADD_PASHA_BUTTON"
+
+			position = { x = 18 y = 8 }
+		}
+
+		iconType =
+		{
+			name = "add_pasha"
+			spriteType = "GFX_pasha_icon"
+			position = { x = 222 y = 7 }
+		}
+	}
+	
+	# Orthodox Patriarch
+	windowType = {
+		name = "patriarch_state_view"
+		backGround=""
+		position = { x = 0 y = 0 }
+		size = { x = 390 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+	
+		iconType = {
+			name = "patriarch_bg"
+			spriteType = "GFX_patriarchy_slot"
+			position = { x = 0 y = 0 }
+		}
+
+		guiButtonType = {
+			name ="consecrate_patriarch_button"
+			quadTextureSprite = "button_type_8"
+			buttonFont = "vic_18"
+			buttonText = "CONSECRATE_BUTTON"
+
+			position = { x = 18 y = 8 }
+		}
+
+		iconType =
+		{
+			name = "consecrate_patriarch"
+			spriteType = "GFX_patriarch_icon"
+			position = { x = 222 y = 7 }
+		}
+	}
+	
+	# Manchu banners
+	windowType = {
+		name = "banners_state_view"
+		backGround=""
+		position = { x = 0 y = 0 }
+		size = { x = 390 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+
+		iconType = {
+			name = "banner_bg"
+			spriteType = "GFX_banners_slot"
+			position = { x = 0 y = 0 }
+		}
+
+		guiButtonType = {
+			name ="raise_banners_button"
+			quadTextureSprite = "button_type_4"
+			buttonFont = "vic_18"
+			buttonText = "RAISE_MANCHU_BANNERS"
+
+			position = { x = 12 y = 8 }
+		}
+
+		iconType =
+		{
+			name = "manchu_banner"
+			spriteType = "GFX_amount_of_banners"
+			position = { x = 238 y = -3 }
+			scale = 0.85
+		}
+
+		instantTextBoxType = {
+			name = "banner_number"
+			position = { x = 290 y = 12 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 2 y = 2}
+			text = "x of y"
+			maxWidth = 100
+			maxHeight = 20
+			format = right
+		}
+	}
+	
+	# Cawa
+	windowType = {
+		name = "cawa_state_view"
+		backGround=""
+		position = { x = 0 y = 0 }
+		size = { x = 390 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		
+		iconType = {
+			name = "cawa_bg"
+			spriteType = "GFX_cawa_slot"
+			position = { x = 0 y = 0 }
+		}
+
+		guiButtonType = {
+			name ="raise_cawa_button"
+			quadTextureSprite = "button_type_4"
+			buttonFont = "vic_18"
+			buttonText = "CREATECAWA"
+
+			position = { x = 12 y = 8 }
+		}
+
+		iconType =
+		{
+			name = "cawa_icon"
+			spriteType = "GFX_amount_of_cawa"
+			position = { x = 238 y = -3 }
+			scale = 0.85
+		}
+
+		instantTextBoxType = {
+			name = "cawa_number"
+			position = { x = 290 y = 12 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = { x = 2 y = 2 }
+			text = "x of y"
+			maxWidth = 100
+			maxHeight = 20
+			format = right
+		}
+
+	}
+	
 	#For adjusting the vertical position of the edicts list
 	positionType = {
 		name ="edicts_position"
@@ -240,6 +429,13 @@ guiTypes = {
 			{
 				name = "add_parliament"
 				quadTextureSprite = "GFX_add_parliament_icon"
+				position = { x = 73 y = 1 }
+			}
+
+			guiButtonType =
+			{
+				name = "remove_parliament"
+				quadTextureSprite = "GFX_remove_parliament_icon"
 				position = { x = 73 y = 1 }
 			}
 
@@ -2625,159 +2821,15 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 			}
 
-
-			# Manchu banners
-			iconType = {
-				name = "banner_bg"
-				spriteType = "GFX_banners_slot"
-				position = { x = 12 y = 419 }
-			}
-
-			guiButtonType = {
-				name ="raise_banners_button"
-				quadTextureSprite = "button_type_4"
-				buttonFont = "vic_18"
-				buttonText = "RAISE_MANCHU_BANNERS"
-
-				position = { x = 24 y = 427 }
-			}
-
-			iconType =
-			{
-				name = "manchu_banner"
-				spriteType = "GFX_amount_of_banners"
-				position = { x = 250 y = 416 }
-				scale = 0.85
-			}
-
-			instantTextBoxType = {
-				name = "banner_number"
-				position = { x = 302 y = 431 }
-				textureFile = ""
-				font = "vic_22"
-				borderSize = {x = 2 y = 2}
-				text = "x of y"
-				maxWidth = 100
-				maxHeight = 20
-				format = right
-			}
-
-
-			# Cawa
-			iconType = {
-				name = "cawa_bg"
-				spriteType = "GFX_cawa_slot"
-				position = { x = 12 y = 419 }
-			}
-
-			guiButtonType = {
-				name ="raise_cawa_button"
-				quadTextureSprite = "button_type_4"
-				buttonFont = "vic_18"
-				buttonText = "CREATECAWA"
-
-				position = { x = 24 y = 427 }
-			}
-
-			iconType =
-			{
-				name = "cawa_icon"
-				spriteType = "GFX_amount_of_cawa"
-				position = { x = 250 y = 416 }
-				scale = 0.85
-			}
-
-			instantTextBoxType = {
-				name = "cawa_number"
-				position = { x = 302 y = 431 }
-				textureFile = ""
-				font = "vic_22"
-				borderSize = {x = 2 y = 2}
-				text = "x of y"
-				maxWidth = 100
-				maxHeight = 20
-				format = right
-			}
-
-
-			# Orthodox Patriarch - TODO
-			iconType = {
-				name = "patriarch_bg"
-				spriteType = "GFX_patriarchy_slot"
-				position = { x = 12 y = 419 }
-			}
-
-			guiButtonType = {
-				name ="consecrate_patriarch_button"
-				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
-				buttonText = "CONSECRATE_BUTTON"
-
-				position = { x = 30 y = 427 }
-			}
-
-			iconType =
-			{
-				name = "consecrate_patriarch"
-				spriteType = "GFX_patriarch_icon"
-				position = { x = 234 y = 426 }
-			}
-
-			# Ottoman Pasha
-			iconType = {
-				name = "pasha_bg"
-				spriteType = "GFX_patriarchy_slot"
-				position = { x = 12 y = 419 }
-			}
-
-			guiButtonType = {
-				name ="add_pasha_button"
-				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
-				buttonText = "ADD_PASHA_BUTTON"
-
-				position = { x = 30 y = 427 }
-			}
-
-			iconType =
-			{
-				name = "add_pasha"
-				spriteType = "GFX_pasha_icon"
-				position = { x = 234 y = 426 }
-			}
-
-			guiButtonType = {
-				name ="create_janissaries_button"
-				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
-				buttonText = "CREATE_JANISSARIES_BUTTON"
-
-				position = { x = 283 y = 427 }
-			}
-
-			windowType = {
-				name = "investment_offset"
-				backGround=""
-				position = { x=12 y=419 }
-				if_resolution = {
-					max_height = 800
-					size= { x=458 y=150 }
-				}
-				if_resolution = {
-					max_height = 1047
-					min_height = 801
-					size = { x=458 y=230}
-				}
-				if_resolution = {
-					min_height = 1048
-					size = { x=458 y=240}
-				}
-				dontRender = ""
-				horizontalBorder= ""
-				verticalBorder= ""
-				fullScreen = no
-				moveable = 0
+			smoothListboxType = {
+				name = "stateviews_listbox"
+				backGround = ""
+				position = { x = 12 y = 420 }
+				size = { x = 458 y = 300 }
 				Orientation = "UPPER_LEFT"
+				horizontal = 0
+				scrollbartype = "standardlistbox_slider"
+				borderSize = { x = 0 y = 0 }
 			}
 		}
 
@@ -5802,7 +5854,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -5818,7 +5870,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -5840,7 +5892,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -5851,13 +5903,13 @@ guiTypes = {
 
 		iconType = {
 			name = "government_banner"
-			position = { x = 188 y = 0 } # x = 168
+			position = { x = 188 y = 0 }
 			spriteType = "GFX_banner_right_3"
 		}
 
 		instantTextBoxType={
 			name = "title_government"
-			position = { x = 240 y = 9 }
+			position = {x = 240 y = 9 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 120
@@ -5880,12 +5932,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "town_hall_cost"
-			position = { x = 268 y = 82 }
+			position = {x = 268 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -5896,12 +5948,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "courthouse_cost"
-			position = { x = 216 y = 82 }
+			position = {x = 216 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -5918,12 +5970,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "university_cost"
-			position = {x = 320 y = 82 } # x = 320
+			position = {x = 320 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 
@@ -5966,7 +6018,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -5982,7 +6034,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6004,7 +6056,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6020,7 +6072,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6037,7 +6089,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "title_production"
-			position = { x = 288 y = 106 }
+			position = {x = 288 y = 106 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 80
@@ -6048,7 +6100,7 @@ guiTypes = {
 		iconType ={
 			name ="production_icon"
 			spriteType = "GFX_macro_buildings_category_strip"
-			position = { x = 262 y = 100 }
+			position = { x = 262 y = 100}
 			frame = 4
 		}
 
@@ -6060,12 +6112,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "workshop_cost"
-			position = { x = 268 y = 179 }
+			position = {x = 268 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6076,12 +6128,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "counting_house_cost"
-			position = { x = 320 y = 179 }
+			position = {x = 320 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6130,7 +6182,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6146,7 +6198,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6168,7 +6220,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6184,7 +6236,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6201,7 +6253,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "title_taxation"
-			position = { x = 288 y = 203 }
+			position = {x = 288 y = 203 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 80
@@ -6224,12 +6276,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "temple_cost"
-			position = { x = 268 y = 276 }
+			position = {x = 268 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6240,12 +6292,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "cathedral_cost"
-			position = { x = 320 y = 276 }
+			position = {x = 320 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6294,7 +6346,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6310,7 +6362,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6332,7 +6384,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6354,7 +6406,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6401,7 +6453,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
@@ -6412,12 +6464,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "naval_battery_cost"
-			position = { x = 320 y = 372 }
+			position = {x = 320 y = 372 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		iconType = {
@@ -6432,7 +6484,7 @@ guiTypes = {
 		iconType = {
 			name = "manufactory_banner"
 			position = { x = 4 y = 388 }
-			spriteType = "GFX_banner_left_4"
+			spriteType = "GFX_banner_left_3"
 		}
 
 		instantTextBoxType={
@@ -6465,144 +6517,87 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
 			name = "build_ramparts"
-			position = { x = 217 y = 322 } # x = 61 y = 420
+			position = { x = 61 y = 420 }
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "ramparts_cost"
-			position = {x = 217 y = 372 } # x = 61 y = 470
+			position = {x = 61 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
 			name = "build_impressment_offices"
-			position = { x = 61 y = 420 } # x = 113
+			position = { x = 113 y = 420 }
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "impressment_offices_cost"
-			position = {x = 61 y = 470 } # x = 113
+			position = {x = 113 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
 			name = "build_state_house"
-			position = { x = 113 y = 420 } # x = 165
+			position = { x = 165 y = 420 }
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "state_house_cost"
-			position = {x = 113 y = 470 } # x = 165
+			position = {x = 165 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000?"
+			text = "2000ï¿½"
 		}
 
 		checkboxType = {
 			name = "build_soldier_households"
-			position = { x = 165 y = 420 } # x = 217
+			position = { x = 217 y = 420 }
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "soldier_households_cost"
-			position = {x = 165 y = 470 } # x = 217
+			position = {x = 217 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000Â¤"
 		}
 
 		checkboxType = {
 			name = "build_furnace"
-			position = { x = 217 y = 420 } # x = 269
+			position = { x = 269 y = 420 }
 			quadTextureSprite = "GFX_furnace"
 		}
 
 		instantTextBoxType={
 			name = "furnace_cost"
-			position = {x = 217 y = 470 } # x = 269
+			position = {x = 269 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000?"
-		}
-		
-		
-		#Rathnir
-		iconType = {
-			name = "transportation_banner"
-			position = { x = 240 y = 388 }
-			spriteType = "GFX_banner_right_2"
-		}
-
-		instantTextBoxType={
-			name = "title_transporation"
-			position = {x = 284 y = 397 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 160
-			maxHeight = 18
-			text = "TRANSPORTATION"
-		}
-
-		iconType ={
-			name = "transporation_icon"
-			spriteType = "GFX_macro_buildings_category_strip"
-			position = { x = 255 y = 391 }
-			frame = 10
-		}
-
-		checkboxType = {
-			name = "build_road_network"
-			position = { x = 268 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-
-		instantTextBoxType={
-			name = "road_network_cost"
-			position = {x = 268 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"
-		}
-
-		checkboxType = {
-			name = "build_canal_system"
-			position = { x = 320 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-
-		instantTextBoxType={
-			name = "canal_system_cost"
-			position = { x = 320 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"
+			text = "2000ï¿½"
 		}
 
 	}

@@ -1,0 +1,174 @@
+
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+
+# Groups must be defined BEFORE tables.
+
+#Nation Designer Cost is set to match triggers for starting institutions.
+
+groups = {
+	tech_alteniquian = {	
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					AND = {
+                        continent = alteniquia
+                        NOT = { superregion = vastallos_superregion }
+                    }
+				}
+			}
+			value = 75
+		}
+	}
+    tech_luthic = {
+        start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+                        region = high_luthea_region
+                        region = hithray_region
+                        region = kietres_region
+                    }
+				}
+			}
+			value = 75
+		}
+    }
+    tech_vastallosi = {
+        start_level = 3
+        start_cost_modifier = 0.25
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    superregion = vastallos_superregion
+                }
+            }
+            value = 75
+        }
+    }
+    tech_niedene = {
+        start_level = 3
+        start_cost_modifier = 0.2
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    continent = nieden
+                }
+            }
+            value = 75
+        }
+    }
+    tech_vraelean = {
+        start_level = 3
+        start_cost_modifier = 0
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    region = vraelea_region
+                }
+            }
+            value = 75
+        }
+    }
+    tech_brothian = {
+        start_level = 3
+        start_cost_modifier = 0
+        nation_designer_cost = {
+            trigger = {
+                culture_group = brothian_group
+            }
+            value = 75
+        }
+    }
+    tech_ummarnan = {
+        start_level = 3
+        start_cost_modifier = 0.2
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    continent = ummarnu
+                }
+            }
+            value = 75
+        }
+    }
+    tech_ardatian = {
+        start_level = 3
+        start_cost_modifier = 0.2
+        nation_designer_cost = {
+            trigger = {
+                culture_group = ardatian_group
+            }
+            value = 75
+        }
+    }
+    tech_andornian = {
+        start_level = 3
+        start_cost_modifier = 0.2
+        nation_designer_cost = {
+            trigger = {
+                culture_group = andornian_group
+            }
+            value = 75
+        }
+    }
+    tech_nandori = {
+        start_level = 3
+        start_cost_modifier = 0.3
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    superregion = nandor_superregion
+                }
+            }
+            value = 75
+        }
+    }
+    tech_northern = {
+        start_level = 3
+        start_cost_modifier = 0
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    continent = the_north
+                }
+            }
+            value = 75
+        }
+    }
+    tech_plagosi = {
+        start_level = 3
+        start_cost_modifier = 0.3
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    continent = plagos
+                }
+            }
+            value = 75
+        }
+    }
+    tech_barbaric = {
+        start_level = 3
+        start_cost_modifier = 0.5
+        nation_designer_cost = {
+            trigger = {
+                capital_scope = {
+                    continent = haven
+                }
+            }
+            value = 75
+        }
+    }
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

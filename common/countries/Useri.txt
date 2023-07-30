@@ -1,0 +1,178 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 211  36  71 }
+
+historical_idea_groups = {
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	aristocracy_ideas
+	trade_ideas
+	humanist_ideas
+	influence_ideas		
+}
+
+historical_units = {
+	ottoman_yaya
+	ottoman_musellem
+	ottoman_azab
+	ottoman_timariot
+	ottoman_janissary
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+
+	#Historical Anòshphite Leaders (Male)
+	"Senekín #0" = 10
+	"Yìrs #0" = 10
+	"Anòkín #0" = 10
+	"Ylor #0" = 10
+	"Carrù #0" = 10
+	"Éather #0" = 10
+	"Lúnkín #0" = 10
+	"Éan #0" = 10
+	"Pontéos #0" = 10
+	"Nyles #0" = 10
+	
+	#Generic Anòshphite Names (Male)
+	"Lé #0" = 10
+	"Éathùr #0" = 10
+	"Nylùs #0" = 10
+	"Ylùr #0" = 10
+	"Aléuos #0" = 10
+	"Pontúos #0" = 10
+	"Uséri #0" = 10
+	"Aulézhlùr #0" = 10
+	"Ùrallùh #0" = 10
+	"Mirùn #0" = 10
+	"Pálcèrù #0" = 10
+	"Éllùn #0" = 10
+	"Senùkin #0" = 10
+	"Sìrllyhnù #0" = 10
+	"Jeùnvìl #0" = 10
+	"Théissù #0" = 10
+	"Érisséon #0" = 10
+	"Míeng #0" = 10
+	"Vìttérikùs #0" = 10
+	"Ùldrokù #0" = 10
+	"Ponntìrù #0" = 10
+	"Ònmùn #0" = 10
+	"Éirùs #0" = 10
+	"Torùn #0" = 10
+	
+	#Generic Anòshphite Names (Female)
+	"Yìrra #0" = -1
+	"Lúnka #0" = -1
+	"Éanna #0" = -1
+	"Carrà #0" = -1
+	"Léa #0" = -1
+	"Éatherra #0" = -1
+	"Nyláh #0" = -1
+	"Ylày #0" = -1
+	"Alérràh #0" = -1
+	"Pontéas #0" = -1
+	"Uséràh #0" = -1
+	"Aulézhlàr #0" = -1
+	"Anòkà #0" = -1
+	"Ùralléah #0" = -1
+	"Miráin #0" = -1
+	"Pálcèra #0" = -1
+	"Éllaníra #0" = -1
+	"Senakín #0" = -1
+	"Sìrillyhnà #0" = -1
+	"Jeanvìl #0" = -1
+	"Théissà #0" = -1
+	"Érissa #0" = -1
+	"Míang #0" = -1
+	"Vìttérikàs #0" = -1
+	"Ùldrokàh #0" = -1
+	"Ponntìrà #0" = -1
+	"Ònminà #0" = -1
+	"Éiràs #0" = -1
+	"Toràna #0" = -1
+	
+	#Historical Anòshphite Leaders (Female)
+	"Érissia #0" = -1
+	"Uldroka #0" = -1
+	"Elenor #0" = -1
+	"Ahrín #0" = -1
+	
+}
+
+leader_names = {
+	#Country Specific
+	"of Anòshphéy" "of Jirn" "of Fairavon" "of Siroba" "of Ersetu" "of Prisma" "of Swal-Awz" "of Konushom" "of Ashmore" "of Marletto"
+	
+	#Province Neighbours
+	"of Amos" "of Urnu-Arrak" "of Shiny" "of Zir-Olman" "of Theiotokos" "of Ayesinco"
+	
+	#Country Neighbours
+	"of Theiónikos" "of Audal" "of Argentor" "of Gentaria" "of Escharia" "of Azuria"
+	
+	#Geographic Neighbours
+	"of Essukdal" "of Nieden" "of the Pearls" "of Suderen" "of Gentumar"
+	
+	#Noble Families
+	Caicuria Senekín Éría Carro'éather Bravníl Caicuria'Reris Orne'Valerin 
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
+
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+	
+	#Specific Audalad
+	Gidesh Amos Ifaerim "The Hukar" "The Crowmother" "Swal Awz" "The Petra" "The Sealion" "The Rhino" "The Glory" "The Ark" "The Flame" "The Winston" "The Bounty" "The Vengeance" "The Harpy"
+}
+
+army_names = {
+	"Knights of Anòshphéy" "Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of Pearls" "Red Squadron" "White Squadron" "Blue Squadron"
+}

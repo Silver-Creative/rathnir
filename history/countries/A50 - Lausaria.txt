@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = lausarii
+religion = soleannen
+technology_group = tech_niedene
+historical_rival = A01 #Theiónikos
+capital = 184 #Eltur-Shummar
+national_focus = MIL

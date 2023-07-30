@@ -1,0 +1,23 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = idan-ridu
+religion = theiosism
+technology_group = tech_alteniquian
+capital = 14 #Èrsetu
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Sibash"
+		dynasty = "Haban-Bevk"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 2
+		mil = 3
+		culture = idan-ridu
+		religion = theiosism
+	}
+	add_ruler_personality = calm_personality
+}

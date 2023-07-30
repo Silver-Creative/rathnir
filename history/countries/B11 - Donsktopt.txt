@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = knossian
+religion = noxism
+technology_group = tech_vastallosi
+capital = 357 #Donsktopt
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Karlo Saedisso"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 4
+		mil = 1
+		culture = knossian
+		religion = noxism
+	}
+}

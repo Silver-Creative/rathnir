@@ -1,0 +1,64 @@
+# Natives Encountering our Colonies
+province_event = {
+	id = 3071
+	title = "EVTNAME3071" 
+	desc = "EVTDESC3071"
+	picture = NATIVES_eventPicture
+	
+	trigger = {
+		NOT = { has_dlc = "The Cossacks" }
+		native_size = 3
+		owner = {
+			NOT = { has_country_flag = NF_colony }
+		}
+		OR = {
+			continent = north_america
+			continent = south_america
+			continent = new_world
+		}
+		is_colony = yes
+	}
+	
+	mean_time_to_happen = {
+		months	= 1
+	}
+	
+	goto = ROOT
+	
+	option = {
+		name = "EVTOPTA3071" # Kill the Savages
+		ai_chance = { factor = 40 }
+		owner = {
+			set_country_flag = NF_colony
+			set_country_flag = NF_ruthless
+		}
+		add_colonysize = 200
+		change_native_size = -3
+		custom_tooltip = native_ruthless_tt
+	}
+	option = {
+		name = "EVTOPTB3071" # Trade with them.
+		ai_chance = { factor = 20 }
+		owner = {
+			add_treasury = 50
+			set_country_flag = NF_colony
+			set_country_flag = NF_trader
+		}
+		add_base_tax = 1
+		custom_tooltip = native_trader_tt
+	}	
+	option = {
+		name = "EVTOPTC3071" # Understand their ways
+		ai_chance = { factor = 20 }
+		owner = {
+			add_prestige = 5
+			set_country_flag = NF_colony
+			set_country_flag = NF_peacenik		
+		}
+		add_province_modifier = {
+			name = colonial_accommodation_mod
+			duration = 3650
+		}
+		custom_tooltip = native_peace_tt
+	}	
+}

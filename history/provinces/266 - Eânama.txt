@@ -1,0 +1,26 @@
+# 266 - Eânama
+
+owner = A36
+controller = A36
+add_core = A36
+
+culture = tyyraa
+religion = willowpact
+capital = ""
+
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

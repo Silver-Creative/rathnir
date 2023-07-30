@@ -1,0 +1,650 @@
+########################################
+# ADVISOR TRIGGERS
+########################################
+
+has_mil_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_tooltip
+		OR = {
+			advisor = army_organiser
+			advisor = army_reformer
+			advisor = commandant
+			advisor = grand_captain
+			advisor = recruitmaster
+			advisor = fortification_expert
+			advisor = quartermaster
+		}
+	}
+}
+
+has_mil_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_2_tooltip
+		OR = {
+			army_organiser = 2
+			army_reformer = 2
+			commandant = 2
+			grand_captain = 2
+			recruitmaster = 2
+			fortification_expert = 2
+			quartermaster = 2
+		}
+	}
+}
+
+has_mil_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_3_tooltip
+		OR = {
+			army_organiser = 3
+			army_reformer = 3
+			commandant = 3
+			grand_captain = 3
+			recruitmaster = 3
+			fortification_expert = 3
+			quartermaster = 3
+		}
+	}
+}
+
+has_adm_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_tooltip
+		OR = {
+			advisor = treasurer
+			advisor = philosopher
+			advisor = artist
+			advisor = theologian
+			advisor = master_of_mint
+			advisor = inquisitor
+			advisor = natural_scientist
+		}
+	}
+}
+
+has_adm_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_2_tooltip
+		OR = {
+			treasurer = 2
+			philosopher = 2
+			artist = 2
+			theologian = 2
+			master_of_mint = 2
+			inquisitor = 2
+			natural_scientist = 2
+		}
+	}
+}
+
+has_adm_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_3_tooltip
+		OR = {
+			treasurer = 3
+			philosopher = 3
+			artist = 3
+			 theologian = 3
+			master_of_mint = 3
+			inquisitor = 3
+			natural_scientist = 3
+		}
+	}
+}
+
+has_dip_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_tooltip
+		OR = {
+			advisor = statesman
+			advisor = diplomat
+			advisor = naval_reformer
+			advisor = trader
+			advisor = colonial_governor
+			advisor = navigator
+			advisor = spymaster
+		}
+	}
+}
+
+has_dip_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_2_tooltip
+		OR = {
+			statesman = 2
+			diplomat = 2
+			naval_reformer = 2
+			trader = 2
+			colonial_governor = 2
+			navigator = 2
+			spymaster = 2
+		}
+	}
+}
+
+has_dip_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_3_tooltip
+		OR = {
+			statesman = 3
+			diplomat = 3
+			naval_reformer = 3
+			trader = 3
+			colonial_governor = 3
+			navigator = 3
+			spymaster = 3
+		}
+	}
+}
+
+########################################
+# RULING FAMILY PERSONALITY TRIGGERS
+########################################
+
+### RULER PERSONALITY TRIGGERS (requires "Right of Man")
+ruler_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		ruler_has_personality = just_personality
+		ruler_has_personality = righteous_personality
+		ruler_has_personality = tolerant_personality
+		ruler_has_personality = free_thinker_personality
+		ruler_has_personality = calm_personality
+		ruler_has_personality = zealot_personality
+		ruler_has_personality = pious_personality
+		ruler_has_personality = lawgiver_personality
+		ruler_has_personality = midas_touched_personality
+		ruler_has_personality = incorruptible_personality
+		ruler_has_personality = architectural_visionary_personality
+		ruler_has_personality = scholar_personality
+		ruler_has_personality = reformist_personality
+	}
+}
+
+ruler_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = careful_personality
+		ruler_has_personality = entrepreneur_personality
+		ruler_has_personality = industrious_personality
+		ruler_has_personality = expansionist_personality
+		ruler_has_personality = navigator_personality
+		ruler_has_personality = well_connected_personality
+		ruler_has_personality = secretive_personality
+		ruler_has_personality = intricate_web_weaver_personality
+		ruler_has_personality = benevolent_personality
+		ruler_has_personality = charismatic_negotiator_personality
+		ruler_has_personality = silver_tongue_personality
+	}
+}
+
+ruler_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = bold_fighter_personality
+		ruler_has_personality = tactical_genius_personality
+		ruler_has_personality = fierce_negotiator_personality
+		ruler_has_personality = conqueror_personality
+		ruler_has_personality = strict_personality
+		ruler_has_personality = inspiring_leader_personality
+		ruler_has_personality = martial_educator_personality
+		ruler_has_personality = kind_hearted_personality
+		ruler_has_personality = legendary_pirate_personality
+	}
+}
+
+ruler_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = embezzler_personality
+		ruler_has_personality = sinner_personality
+		ruler_has_personality = greedy_personality
+		ruler_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+ruler_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		ruler_has_personality = drunkard_personality
+		ruler_has_personality = babbling_buffoon_personality
+		ruler_has_personality = cruel_personality
+		ruler_has_personality = naive_personality
+		ruler_has_personality = malevolent_personality
+		ruler_has_personality = loose_lips_personality
+	}
+}
+
+ruler_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	ruler_has_personality = craven_personality
+	#}
+}
+
+
+### HEIR PERSONALITY TRIGGERS (requires "Right of Man")
+heir_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		heir_has_personality = just_personality
+		heir_has_personality = righteous_personality
+		heir_has_personality = tolerant_personality
+		heir_has_personality = free_thinker_personality
+		heir_has_personality = calm_personality
+		heir_has_personality = zealot_personality
+		heir_has_personality = pious_personality
+		heir_has_personality = lawgiver_personality
+		heir_has_personality = midas_touched_personality
+		heir_has_personality = incorruptible_personality
+		heir_has_personality = architectural_visionary_personality
+		heir_has_personality = scholar_personality
+		heir_has_personality = reformist_personality
+	}
+}
+
+heir_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = careful_personality
+		heir_has_personality = entrepreneur_personality
+		heir_has_personality = industrious_personality
+		heir_has_personality = expansionist_personality
+		heir_has_personality = navigator_personality
+		heir_has_personality = well_connected_personality
+		heir_has_personality = secretive_personality
+		heir_has_personality = intricate_web_weaver_personality
+		heir_has_personality = benevolent_personality
+		heir_has_personality = charismatic_negotiator_personality
+		heir_has_personality = silver_tongue_personality
+
+	}
+}
+
+heir_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = bold_fighter_personality
+		heir_has_personality = tactical_genius_personality
+		heir_has_personality = fierce_negotiator_personality
+		heir_has_personality = conqueror_personality
+		heir_has_personality = strict_personality
+		heir_has_personality = inspiring_leader_personality
+		heir_has_personality = martial_educator_personality
+		heir_has_personality = kind_hearted_personality
+		heir_has_personality = legendary_pirate_personality
+	}
+}
+
+heir_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = embezzler_personality
+		heir_has_personality = sinner_personality
+		heir_has_personality = greedy_personality
+		heir_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+heir_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		heir_has_personality = drunkard_personality
+		heir_has_personality = babbling_buffoon_personality
+		heir_has_personality = cruel_personality
+		heir_has_personality = naive_personality
+		heir_has_personality = malevolent_personality
+		heir_has_personality = loose_lips_personality
+	}
+}
+
+heir_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	heir_has_personality = craven_personality
+	#}
+}
+
+
+### CONSORT PERSONALITY TRIGGERS (requires "Right of Man")
+consort_has_good_adm_personality = {
+	has_dlc = "Rights of Man"
+	OR = {
+		consort_has_personality = just_personality
+		consort_has_personality = righteous_personality
+		consort_has_personality = tolerant_personality
+		consort_has_personality = free_thinker_personality
+		consort_has_personality = calm_personality
+		consort_has_personality = zealot_personality
+		consort_has_personality = pious_personality
+		consort_has_personality = lawgiver_personality
+		consort_has_personality = midas_touched_personality
+		consort_has_personality = incorruptible_personality
+		consort_has_personality = architectural_visionary_personality
+		consort_has_personality = scholar_personality
+		consort_has_personality = reformist_personality
+	}
+}
+
+consort_has_good_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = careful_personality
+		consort_has_personality = entrepreneur_personality
+		consort_has_personality = industrious_personality
+		consort_has_personality = expansionist_personality
+		consort_has_personality = navigator_personality
+		consort_has_personality = well_connected_personality
+		consort_has_personality = secretive_personality
+		consort_has_personality = intricate_web_weaver_personality
+		consort_has_personality = benevolent_personality
+		consort_has_personality = charismatic_negotiator_personality
+		consort_has_personality = silver_tongue_personality
+
+	}
+}
+
+consort_has_good_mil_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = bold_fighter_personality
+		consort_has_personality = tactical_genius_personality
+		consort_has_personality = fierce_negotiator_personality
+		consort_has_personality = conqueror_personality
+		consort_has_personality = strict_personality
+		consort_has_personality = inspiring_leader_personality
+		consort_has_personality = martial_educator_personality
+		consort_has_personality = kind_hearted_personality
+		consort_has_personality = legendary_pirate_personality
+	}
+}
+
+consort_has_bad_adm_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = embezzler_personality
+		consort_has_personality = sinner_personality
+		consort_has_personality = greedy_personality
+		consort_has_personality = obsessive_perfectionist_personality
+	}
+}
+
+consort_has_bad_dip_personality = {
+	has_dlc = "Rights of Man" 
+	OR = {
+		consort_has_personality = drunkard_personality
+		consort_has_personality = babbling_buffoon_personality
+		consort_has_personality = cruel_personality
+		consort_has_personality = naive_personality
+		consort_has_personality = malevolent_personality
+		consort_has_personality = loose_lips_personality
+	}
+}
+
+consort_has_bad_mil_personality = {
+	has_dlc = "Rights of Man" 
+	#OR = {
+	consort_has_personality = craven_personality
+	#}
+}
+
+########################################
+# RULING FAMILY STATS TRIGGERS
+########################################
+
+#(country scope)
+ruler_total_stats = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = ruler_total_stats_$stats$
+		export_to_variable = {
+			variable_name = ruler_adm
+			value = ADM
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = ruler_dip
+			value = DIP
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = ruler_mil
+			value = MIL
+			who = ROOT
+		}
+		change_variable = {
+			which = ruler_adm
+			which = ruler_dip
+		}
+		change_variable = {
+			which = ruler_adm
+			which = ruler_mil
+		}
+		check_variable = {
+			which = ruler_adm
+			value = $stats$
+		}
+	}
+}
+
+ruler_total_stats_target = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = $custom_tooltip$
+		export_to_variable = {
+			variable_name = ruler_adm
+			value = ADM
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = ruler_dip
+			value = DIP
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = ruler_mil
+			value = MIL
+			who = $who$
+		}
+		change_variable = {
+			which = ruler_adm
+			which = ruler_dip
+		}
+		change_variable = {
+			which = ruler_adm
+			which = ruler_mil
+		}
+		check_variable = {
+			which = ruler_adm
+			value = $stats$
+		}
+	}
+}
+
+heir_total_stats = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = heir_total_stats_$stats$
+		export_to_variable = {
+			variable_name = heir_adm_var
+			value = heir_adm
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = heir_dip_var
+			value = heir_dip
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = heir_mil_var
+			value = heir_mil
+			who = ROOT
+		}
+		change_variable = {
+			which = heir_adm_var
+			which = heir_dip_var
+		}
+		change_variable = {
+			which = heir_adm_var
+			which = heir_mil_var
+		}
+		check_variable = {
+			which = heir_adm_var
+			value = $stats$
+		}
+	}
+}
+
+heir_total_stats_target = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = $custom_tooltip$
+		export_to_variable = {
+			variable_name = heir_adm_var
+			value = heir_adm
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = heir_dip_var
+			value = heir_dip
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = heir_mil_var
+			value = heir_mil
+			who = $who$
+		}
+		change_variable = {
+			which = heir_adm_var
+			which = heir_dip_var
+		}
+		change_variable = {
+			which = heir_adm_var
+			which = heir_mil_var
+		}
+		check_variable = {
+			which = heir_adm_var
+			value = $stats$
+		}
+	}
+}
+
+consort_total_stats = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = consort_total_stats_$stats$
+		export_to_variable = {
+			variable_name = consort_adm_var
+			value = consort_adm
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = consort_dip_var
+			value = consort_dip
+			who = ROOT
+		}
+		export_to_variable = {
+			variable_name = consort_mil_var
+			value = consort_mil
+			who = ROOT
+		}
+		change_variable = {
+			which = consort_adm_var
+			which = consort_dip_var
+		}
+		change_variable = {
+			which = consort_adm_var
+			which = consort_mil_var
+		}
+		check_variable = {
+			which = consort_adm_var
+			value = $stats$
+		}
+	}
+}
+
+consort_total_stats_target = {
+	variable_arithmetic_trigger = {
+		custom_tooltip = $custom_tooltip$
+		export_to_variable = {
+			variable_name = consort_adm_var
+			value = consort_adm
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = consort_dip_var
+			value = consort_dip
+			who = $who$
+		}
+		export_to_variable = {
+			variable_name = consort_mil_var
+			value = consort_mil
+			who = $who$
+		}
+		change_variable = {
+			which = consort_adm_var
+			which = consort_dip_var
+		}
+		change_variable = {
+			which = consort_adm_var
+			which = consort_mil_var
+		}
+		check_variable = {
+			which = consort_adm_var
+			value = $stats$
+		}
+	}
+}
+
+num_of_ruler_traits = {
+	calc_true_if = {
+		desc = num_of_ruler_traits_tt
+		ruler_has_personality = just_personality
+		ruler_has_personality = righteous_personality
+		ruler_has_personality = tolerant_personality
+		ruler_has_personality = kind_hearted_personality
+		ruler_has_personality = free_thinker_personality
+		ruler_has_personality = well_connected_personality
+		ruler_has_personality = calm_personality
+		ruler_has_personality = careful_personality
+		ruler_has_personality = secretive_personality
+		ruler_has_personality = intricate_web_weaver_personality
+		ruler_has_personality = fertile_personality
+		ruler_has_personality = well_advised_personality
+		ruler_has_personality = benevolent_personality
+		ruler_has_personality = zealot_personality 
+		ruler_has_personality = pious_personality
+		ruler_has_personality = lawgiver_personality
+		ruler_has_personality = midas_touched_personality
+		ruler_has_personality = incorruptible_personality
+		ruler_has_personality = architectural_visionary_personality
+		ruler_has_personality = scholar_personality
+		ruler_has_personality = entrepreneur_personality
+		ruler_has_personality = industrious_personality
+		ruler_has_personality = expansionist_personality
+		ruler_has_personality = charismatic_negotiator_personality
+		ruler_has_personality = silver_tongue_personality
+		ruler_has_personality = conqueror_personality
+		ruler_has_personality = tactical_genius_personality
+		ruler_has_personality = bold_fighter_personality
+		ruler_has_personality = strict_personality
+		ruler_has_personality = inspiring_leader_personality
+		ruler_has_personality = martial_educator_personality
+		ruler_has_personality = navigator_personality
+		ruler_has_personality = fierce_negotiator_personality
+		ruler_has_personality = babbling_buffoon_personality
+		ruler_has_personality = embezzler_personality
+		ruler_has_personality = infertile_personality
+		ruler_has_personality = drunkard_personality
+		ruler_has_personality = sinner_personality
+		ruler_has_personality = greedy_personality
+		ruler_has_personality = cruel_personality
+		ruler_has_personality = naive_personality
+		ruler_has_personality = craven_personality
+		ruler_has_personality = loose_lips_personality
+		ruler_has_personality = obsessive_perfectionist_personality
+		ruler_has_personality = malevolent_personality
+		ruler_has_personality = immortal_personality
+		ruler_has_personality = legendary_pirate_personality
+		ruler_has_personality = reformist_personality
+		ruler_has_personality = legendary_conqueror_personality
+		ruler_has_personality = great_engineer_personality
+		ruler_has_personality = patron_of_arts_personality
+		amount = $amount$
+	}
+}

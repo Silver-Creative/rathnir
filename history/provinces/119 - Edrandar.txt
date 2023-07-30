@@ -1,0 +1,26 @@
+# 119 - Edrandar
+
+owner = A00
+controller = A00
+add_core = A00
+
+culture = adadid
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

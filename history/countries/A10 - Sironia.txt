@@ -4,10 +4,11 @@ add_government_reform = leading_clergy_reform
 government_rank = 2
 primary_culture = sironian
 religion = sakrelism
-technology_group = western
+technology_group = tech_alteniquian
 historical_friend = A00 #Yimmu-Audal
+historical_friend = A18 #Vanakunir
 historical_rival = A12 #Reyllea
-capital = 224 #Azethvir (Sevilla)
+capital = 244 #Azethvir
 national_focus = ADM
 
 1444.1.1 = {

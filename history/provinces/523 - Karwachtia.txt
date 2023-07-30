@@ -1,0 +1,22 @@
+# 523 - Karwachtia
+
+culture = locetii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = gems
+
+is_city = no
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

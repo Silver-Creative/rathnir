@@ -4,9 +4,9 @@ add_government_reform = leading_clergy_reform
 government_rank = 2
 primary_culture = theioniki
 religion = theiosism
-technology_group = muslim
-historical_friend = A00 #Yimmu-Audal
-capital = 382 #Theiotokos (Damascus)
+technology_group = tech_alteniquian
+historical_rival = A00 #Yimmu-Audal
+capital = 161 #Theiotokos
 national_focus = ADM
 
 1444.1.1 = {

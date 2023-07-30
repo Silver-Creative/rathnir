@@ -1,0 +1,123 @@
+
+# Exploration Events
+drunken_explorer = {
+	prestige = -0.25
+}
+
+# Seven Cities
+sce_search_eldorado = {
+	prestige = 0.25
+}
+sce_search_fountainofyouth = {
+	prestige = 0.25
+}
+sce_search_cibola = {
+	prestige = 0.25
+}
+sce_search_cityofcaesars = {
+	prestige = 0.25
+}
+sce_search_sierradelaplata = {
+	prestige = 0.25
+}
+sce_search_norumbega = {
+	prestige = 0.25
+}
+sce_search_saguenay = {
+	prestige = 0.25
+}
+sce_search_quivira = {
+	prestige = 0.25
+}
+el_dorado_mod = {
+	trade_goods_size_modifier = 0.5
+	local_development_cost = -0.2
+	local_unrest = -3
+}
+sce_life_water = {
+	local_build_cost = -0.5
+	local_colonial_growth = 30
+	local_unrest = -3
+	local_tax_modifier = 0.25
+}
+sce_cibola_silver = {
+	global_tax_income = 5
+}
+sce_sierradelaplata_quartz = {
+	local_tax_modifier = 0.5
+	local_institution_spread = 1
+	local_development_cost = -0.2
+}
+sce_golden_cups = {
+	local_production_efficiency = 0.25
+	local_tax_modifier = 0.25
+	local_build_cost = -0.5
+	local_development_cost = -0.2
+}
+sce_norumbega_abandoned = {
+	local_development_cost = -0.2
+	province_trade_power_modifier = 0.5
+	trade_goods_size_modifier = 0.5
+}
+sce_saguenay_abandoned = {
+	trade_goods_size_modifier = 0.25
+	province_trade_power_modifier = 0.25
+	local_development_cost = -0.2
+}
+sce_city_of_caesars = {
+	province_trade_power_modifier = 1
+	trade_goods_size_modifier = 0.5
+	local_development_cost = -0.2
+}
+sce_quivira = {
+	prestige = 0.5
+	global_tax_income = 10
+}
+sce_sacagawea = {
+	land_morale = 0.05
+	reinforce_speed = 0.05
+}
+sce_lost_woods = {
+	local_hostile_movement_speed = -0.5
+}
+sce_lost_woods_tooltip = {
+	local_hostile_movement_speed = -0.5
+}
+sce_shortcut = {
+	local_hostile_movement_speed = 0.33
+}
+sce_shortcut_tooltip = {
+	local_hostile_movement_speed = 0.33
+}
+sce_jeanne_baret = {
+	land_morale = 0.05
+}
+sce_poison_rock = {
+	local_hostile_movement_speed = -0.5
+}
+sce_poison_rock_tooltip = {
+	local_hostile_movement_speed = -0.5
+}
+sce_cart_peddler_stopped = {
+	global_spy_defence = 0.1
+}
+sce_cart_peddler_killed = {
+	spy_offence = 0.1
+}
+sce_new_domains = {
+	global_colonial_growth = 10
+}
+sce_mounds = {
+	local_hostile_movement_speed = -0.5
+}
+sce_monster_lake = {
+	local_hostile_movement_speed = -0.5
+}
+
+sce_mutiny_timer = { }
+sce_estevanico_timer = { }
+sce_poison_rock_timer = { }
+sce_lost_woods_timer = { }
+sce_shortcut_timer = { }
+sce_mounds_timer = { }
+sce_monster_lake_timer = { }

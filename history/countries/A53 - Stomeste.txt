@@ -1,0 +1,40 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = anoshphite
+add_accepted_culture = anesarii
+religion = theiosism
+technology_group = tech_alteniquian
+capital = 1294 #Errèbos
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Lunkin"
+		dynasty = "Bravníl"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 0
+		mil = 2
+		culture = anesarii
+		religion = theiosism
+	}
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = babbling_buffoon_personality
+	
+	queen = {
+		country_of_origin = A02
+		name = "Sheepy"
+		dynasty = "au Oviabao"
+		culture = anoshphite
+		religion = theiosism
+		birth_date = 1440.10.17
+		death_date = 1820.6.8
+		female = yes
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_queen_personality = kind_hearted_personality
+}

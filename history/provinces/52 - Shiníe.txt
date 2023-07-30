@@ -1,0 +1,27 @@
+# 52 - Shiníe
+
+owner = A04
+controller = A04
+add_core = A04
+
+culture = shimmere
+religion = hukar_sharud
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = gems
+center_of_trade = 1
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

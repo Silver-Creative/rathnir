@@ -1,0 +1,26 @@
+# 137 - Kerasoat
+
+owner = A06
+controller = A06
+add_core = A06
+
+culture = fuscinian
+religion = hukar_sharud
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

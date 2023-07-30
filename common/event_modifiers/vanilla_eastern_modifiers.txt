@@ -1,0 +1,138 @@
+### EU3: ROTW ###
+powerful_noble = {
+	local_manpower_modifier = -0.5
+	local_tax_modifier = -0.5
+}
+
+mount_fuji_fail = {
+	prestige = -1
+}
+
+new_temple = {
+	prestige = 0.5
+}
+
+sword_hunter = {
+	prestige = 0.5
+}
+
+ninjas = {
+	spy_offence = 0.5
+	global_spy_defence = 0.5
+}
+
+
+western_embassy_mission = {
+	adm_tech_cost_modifier = -0.05
+	dip_tech_cost_modifier = -0.05
+	mil_tech_cost_modifier = -0.05
+}
+
+local_christian_mission = {
+	local_unrest = 4
+	adm_tech_cost_modifier = -0.03
+}
+
+a_batch_of_western_muskets = {
+	discipline = 0.05
+	mil_tech_cost_modifier = -0.1
+}
+
+karesansui_garden = {
+	prestige = 0.5
+	local_unrest = -1
+}
+
+sakoku_law = {
+	global_missionary_strength = 0.01
+	global_institution_spread = -0.15
+	tolerance_heathen = -2
+}
+
+sankin_kotai_daimyo = {
+	global_tax_modifier = -0.10
+	global_manpower_modifier = -0.10
+}
+
+sankin_kotai_modifier = {
+	global_tax_modifier = 0.2
+	global_manpower_modifier = 0.2
+}
+
+western_trade = {
+	global_missionary_strength = -0.05
+	mil_tech_cost_modifier = -0.05
+	prestige = -1
+}
+
+#Korean modifiers
+state_council = {
+	adm_tech_cost_modifier = -0.05
+}
+
+hall_of_worthies = {
+	prestige = 0.5
+}
+
+sinmun_office = {
+	stability_cost_modifier = -0.05
+	global_unrest = -1
+}
+
+hopae_system = {
+	global_tax_modifier = 0.1
+	global_manpower_modifier = 0.1
+}
+
+sojunghwa = {
+	development_cost = -0.05
+	monthly_splendor = 2
+}
+
+hangeul_alphabet = {
+	technology_cost = -0.1
+	global_unrest = 1
+}
+
+tripitaka_koreana = {
+	harmonization_speed = 0.1
+	yearly_karma_decay = 0.01
+	monthly_splendor = 1
+	institution_growth = 3
+}
+
+tripitaka_koreana_defenses = {
+	fort_level = 1
+	local_defensiveness = 0.15
+}
+
+hangeul_alphabet_revoked = {
+	technology_cost = 0.05
+	global_unrest = -1
+}
+
+the_righteous_army = {
+	global_tax_modifier = -0.1
+	land_morale = 0.1
+	hostile_attrition = 3
+	max_hostile_attrition = 3
+}
+
+the_righteous_army_cd = {}
+
+sinmun_office_rejected = {
+	global_unrest = 2
+}
+
+manchu_alphabet = {
+	adm_tech_cost_modifier = -0.05
+}
+
+the_forbidden_city = {
+	stability_cost_modifier = -0.1
+	prestige = 0.5
+}
+
+no_perfectionism_focus = {
+	yearly_corruption = 0.5
+}

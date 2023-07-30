@@ -126,6 +126,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_remove_parliament_icon"
+		texturefile = "gfx/interface/remove_parliament_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_have_parliament_icon"
 		texturefile = "gfx/interface/have_parliament_icon.dds"
 	}
@@ -304,10 +309,11 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+    #Rathnir
 	spriteType = {
 		name = "GFX_province_view_religion"
 		texturefile = "gfx//interface//religions//province_view_religion.dds"
-		noOfFrames = 47 #Rathnir
+		noOfFrames = 53 #29
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -972,17 +978,19 @@ spriteTypes = {
 		noOfFrames = 6
 	}
 
+	#Rathnir
 	spriteType = {
 		name = "GFX_resource_icon"
 		texturefile = "gfx//interface//tradegoods//resources.tga"
-		noOfFrames = 43 #32 for the base game, 43 for Rathnir
+		noOfFrames = 43 #32
 		loadType = "INGAME"
 	}
 	
+	#Rathnir
 	spriteType = {
 		name = "GFX_resource_icon_small"
 		texturefile = "gfx//interface//tradegoods//resources_small.dds"
-		noOfFrames = 43 #32 for the base game, 43 for Rathnir
+		noOfFrames = 43 #32
 		loadType = "INGAME"
 	}
 
@@ -992,10 +1000,11 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
+	#Rathnir
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//tradegoods//resources.tga"
-		noOfFrames = 43 #32 for the base game, 43 for Rathnir
+		noOfFrames = 43 #32
 		loadType = "INGAME"
 		
 		alwaystransparent = yes
@@ -1428,4 +1437,5 @@ spriteTypes = {
 		name = "GFX_autonomy_increased"
 		texturefile = "gfx/interface/ideas_EU4/autonomy_increased.dds"
 	}
+
 }

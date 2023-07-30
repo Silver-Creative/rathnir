@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = myrish
+religion = sakrelism
+technology_group = tech_alteniquian
+historical_friend = A10 #Sironia
+capital = 257 #Myrmark
+national_focus = MIL

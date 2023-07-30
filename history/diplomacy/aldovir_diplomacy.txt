@@ -1,0 +1,109 @@
+# Mhyr swarm
+
+vassal = {
+    first = A31 #Mhýr
+    second = A28 #Qhaýr
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A31 #Mhýr
+    second = A29 #Waa'manýr
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A31 #Mhýr
+    second = A30 #Mhaydaa
+    start_date = 1444.1.1
+}
+
+# Thyr swarm
+
+vassal = {
+    first = A32 #Thýr
+    second = A33 #Soëriaa
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A32 #Thýr
+    second = A34 #Noryanam
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A32 #Thýr
+    second = A35 #Soryanam
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A32 #Thýr
+    second = A36 #Eânam
+    start_date = 1444.1.1
+}
+
+vassal = {
+    first = A32 #Thýr
+    second = A37 #Iyoqanaa
+    start_date = 1444.1.1
+}
+
+# Reyllean vassals
+
+march = {
+    first = A12 #Reyllea
+    second = A22 #Carn
+    start_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = appanage
+    first = A12 #Reyllea
+    second = A40 #Ilivian
+    start_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = appanage
+    first = A12 #Reyllea
+    second = A41 #Praèçe
+    start_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = appanage
+    first = A12 #Reyllea
+    second = A42 #Rodéa
+    start_date = 1444.1.1
+}
+
+dependency = {
+    subject_type = appanage
+    first = A12 #Reyllea
+    second = A43 #Argvennes
+    start_date = 1444.1.1
+}
+
+# Lapidosan vassalization of Volstrónn
+
+march = {
+    first = A11 #Lapidosa
+    second = A24 #Volstrónn
+    start_date = 1444.1.1
+}
+
+# Sakrelist alliances
+
+alliance = {
+    first = A10 #Sironia
+    second = A11 #Lapidosa
+    start_date = 1444.1.1
+}
+
+march = {
+    first = A10 #Sironia
+    second = A18 #Vanakunir
+    start_date = 1444.1.1
+}

@@ -1,0 +1,430 @@
+
+########################################
+# MANUFACTORY TRIGGERS
+########################################
+
+has_manufactory_trigger = { #Province Scope
+	custom_trigger_tooltip = {
+		tooltip = has_manufactory_trigger_tooltip
+		OR = {
+			has_building = wharf
+			has_building = weapons
+			has_building = textile
+			has_building = tradecompany
+			has_building = farm_estate
+			has_building = mills
+			has_building = furnace
+			has_building = plantations
+			has_building = ramparts
+			has_building = soldier_households
+			has_building = impressment_offices
+			has_building = state_house
+		}
+	}
+}
+
+#Use this one if you want it to say which manufactory has to be built
+# Does not include 1.30 manufactories
+has_manufactory_no_custom_tooltip_trigger = { #Province Scope
+	if = {
+		limit = {
+			OR = {
+				trade_goods = naval_supplies
+				trade_goods = fish
+				trade_goods = salt
+			}
+		}
+		has_building = wharf
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
+		}
+		has_building = weapons
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = wool
+				trade_goods = cloth
+				trade_goods = silk
+				trade_goods = dyes
+			}
+		}
+		has_building = textile
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = ivory
+				trade_goods = slaves
+				trade_goods = spices
+				trade_goods = cloves
+				trade_goods = fur
+				trade_goods = incense
+			}
+		}
+		has_building = tradecompany
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = grain
+				trade_goods = livestock
+				trade_goods = wine
+			}
+		}
+		has_building = farm_estate
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = paper
+				trade_goods = gems
+				trade_goods = tropical_wood
+				trade_goods = glass
+				trade_goods = chinaware
+			}
+		}
+		has_building = mills
+	}
+	else_if = {
+		limit = {
+			trade_goods = coal
+		}
+		has_building = furnace
+	}
+	else = {
+		has_building = plantations
+	}
+}
+
+has_no_manufactory_trigger = { #Province Scope
+	NOT = { has_building = wharf }
+	NOT = { has_building = weapons }
+	NOT = { has_building = textile }
+	NOT = { has_building = tradecompany }
+	NOT = { has_building = farm_estate }
+	NOT = { has_building = mills }
+	NOT = { has_building = plantations }
+	NOT = { has_building = furnace }
+	NOT = { has_building = ramparts }
+	NOT = { has_building = soldier_households }
+	NOT = { has_building = impressment_offices }
+	NOT = { has_building = state_house }
+}
+
+# Does not include new manufactories - they don't fit for the purposes of this trigger
+root_can_build_manufactory_here_trigger = {
+    has_no_manufactory_trigger = yes
+    num_free_building_slots = 1
+	OR = {
+		AND = {
+            OR = {
+                trade_goods = naval_supplies
+                trade_goods = fish
+                trade_goods = salt
+            }
+			ROOT = { dip_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = copper
+                trade_goods = iron
+            }
+			ROOT = { mil_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = wool
+                trade_goods = cloth
+                trade_goods = silk
+                trade_goods = dyes
+            }
+			ROOT = { adm_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = coffee
+                trade_goods = cotton
+                trade_goods = sugar
+                trade_goods = tobacco
+                trade_goods = tea
+                trade_goods = cocoa
+            }
+			ROOT = { adm_tech = 14 }
+		}
+		AND = {
+            OR = {
+                trade_goods = ivory
+                trade_goods = slaves
+                trade_goods = spices
+                trade_goods = cloves
+                trade_goods = fur
+                trade_goods = incense
+            }
+			ROOT = { dip_tech = 14 }
+		}
+		AND = {
+            OR = {
+                trade_goods = grain
+                trade_goods = livestock
+                trade_goods = wine
+            }
+			ROOT = { adm_tech = 6 }
+		}
+		AND = {
+            OR = {
+                trade_goods = paper
+                trade_goods = gems
+                trade_goods = tropical_wood
+                trade_goods = glass
+                trade_goods = chinaware
+            }
+			ROOT = { adm_tech = 16 }
+		}
+		AND = {
+            trade_goods = coal
+			ROOT = { adm_tech = 21 }
+		}
+	}
+}
+
+
+########################################
+# NON-MANUFACTORY BUILDING TRIGGERS
+########################################
+
+has_tax_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_tax_building_trigger_tt
+		OR = {
+			has_building = temple
+			has_building = cathedral
+		}
+	}
+}
+
+has_trade_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_trade_building_trigger_tt
+		OR = {
+			has_building = marketplace
+			has_building = trade_depot
+			has_building = stock_exchange
+		}
+	}
+}
+
+has_production_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_production_building_trigger_tt
+		OR = {
+			has_building = workshop
+			has_building = counting_house
+		}
+	}
+}
+
+has_manpower_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_manpower_building_trigger_tt
+		OR = {
+			has_building = barracks
+			has_building = training_fields
+		}
+	}
+}
+
+has_shipyard_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_shipyard_building_trigger_tt
+		OR = {
+			has_building = shipyard
+			has_building = grand_shipyard
+		}
+	}
+}
+
+has_dock_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_dock_building_trigger_tt
+		OR = {
+			has_building = dock
+			has_building = drydock
+		}
+	}
+}
+
+has_forcelimit_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_forcelimit_building_trigger_tt
+		OR = {
+			has_building = regimental_camp
+			has_building = conscription_center
+		}
+	}
+}
+
+has_courthouse_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_courthouse_building_trigger_tt
+		OR = {	
+			has_building = courthouse
+			has_building = town_hall
+		}
+	}
+}
+
+has_fort_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_fort_building_trigger_tt
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+}
+
+has_coast_defense_building_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_coast_defense_building_trigger_tt
+		OR = {
+			has_building = coastal_defence
+			has_building = naval_battery
+		}
+	}
+}
+
+########################################
+# DEVELOPMENT FROM BUILDING TRIGGERS
+########################################
+
+gained_development_from_building = {
+	has_province_flag = built_dev_$building$
+}
+gained_dev_from_eco_building = {
+	has_province_flag = built_eco_dev_$building$
+}
+
+gained_development_from_any_building = {
+	OR = {
+		has_province_flag = built_dev_marketplace
+		has_province_flag = built_dev_workshop
+		has_province_flag = built_dev_temple
+		has_province_flag = built_dev_barracks
+		has_province_flag = built_dev_shipyard
+		has_province_flag = built_dev_courthouse
+		has_province_flag = built_dev_dock
+		has_province_flag = built_dev_regimental_camp
+		has_province_flag = built_dev_cathedral
+		has_province_flag = built_dev_university
+		has_province_flag = built_dev_trade_depot
+		has_province_flag = built_dev_grand_shipyard
+		has_province_flag = built_dev_training_fields
+		has_province_flag = built_dev_stock_exchange
+		has_province_flag = built_dev_counting_house
+		has_province_flag = built_dev_town_hall
+		has_province_flag = built_dev_drydock
+		has_province_flag = built_dev_conscription_center
+		has_province_flag = built_dev_manufactory
+	}
+}
+
+########################################
+# UP-TO-DATE BUILDING TRIGGERS
+########################################
+#Has current fort level
+province_has_current_tech_fort_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = province_has_current_tech_fort_trigger_tt
+		if = {
+			limit = {
+				owner = {
+					NOT = { mil_tech = 14 }
+				}
+			}
+			OR = {
+				has_building = fort_15th
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					AND = {
+						mil_tech = 14
+						NOT = { mil_tech = 19 }
+					}
+				}
+			}
+			OR = {
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					AND = {
+						mil_tech = 19
+						NOT = { mil_tech = 24 }
+					}
+				}
+			}
+			OR = {
+				has_building = fort_17th
+				has_building = fort_18th
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					mil_tech = 24
+				}
+			}
+			has_building = fort_18th
+		}
+	}
+}
+
+province_has_current_tech_trade_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = province_has_current_tech_trade_trigger_tt
+		if = {
+			limit = {
+				owner = {
+					NOT = { dip_tech = 17 }
+				}
+			}
+			has_building = marketplace
+		}
+		else_if = {
+			limit = {
+				owner = {
+					AND = {
+						dip_tech = 17
+						NOT = { dip_tech = 22 }
+					}
+				}
+			}
+			has_building = trade_depot
+		}
+		else_if = {
+			limit = {
+				owner = {
+					dip_tech = 22
+				}
+			}
+			has_building = stock_exchange
+		}
+	}
+}

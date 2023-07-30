@@ -1,0 +1,23 @@
+# 553 - Jatswyn
+
+culture = wyngalan
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = fish
+center_of_trade = 1
+
+is_city = no
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

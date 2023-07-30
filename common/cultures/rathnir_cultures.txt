@@ -19,22 +19,78 @@ audalad_group = {
 		}
 
 		male_names = {
-			H√°kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			H·kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
 			Seramida Ardamine Ederai Lerai Ifaeri
 		}
 	}
-	fuscinian = {
-		primary = A06 #Fuscinia
+	adadid = {
 
 		dynasty_names = {
 			Audalad Caicuria
 		}
 
 		male_names = {
-			H√°kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			H·kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
+		}
+	}
+	azurian = {
+
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
+		}
+	}
+	grandati = {
+
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
+		}
+	}
+	huronad = {
+
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
+		}
+	}
+	abarillic = {
+		#primary = A06 #Fuscinia
+
+		dynasty_names = {
+			Audalad Caicuria
+		}
+
+		male_names = {
+			H·kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -42,7 +98,7 @@ audalad_group = {
 		}
 	}
 	maeretine = {
-		primary = A07 #Coltmaere
+		#primary = A07 #Coltmaere
 
 		dynasty_names = {
 			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
@@ -57,14 +113,14 @@ audalad_group = {
 		}
 	}
 	taloran = {
-		primary = A03 #T√†lor
+		#primary = A03 #T‡lor
 
 		dynasty_names = {
 			Audalad Rochelle Argenti Dynami
 		}
 
 		male_names = {
-			H√°kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			H·kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -72,57 +128,98 @@ audalad_group = {
 		}
 	}
 	theioniki = {
-		primary = A01 #Thei√≥nikos
+		#primary = A01 #TheiÛnikos
 		
 		dynasty_names = {
-			Audalad Caicuria Galus Amossi Ke√≠rikos
+			Audalad Caicuria Galus Amossi KeÌrikos
 		}
 
 		male_names = {
-			H√°kon "B√≥b Pullus" X√©rxes C√≠randir
-			Ad√≥nis Bel√≠saros √ârbor D√©cimus C√°ecil K√°loman √Åtticus "Att√°lios P√≥rtu" F√©licus N√°rthedir
+			H·kon "BÛb Pullus" XÈrxes CÌrandir
+			AdÛnis BelÌsaros …rbor DÈcimus C·ecil K·loman ¡tticus "Att·lios PÛrtu" FÈlicus N·rthedir
 		}
 
 		female_names = {
-			P√°rtha Di√≥ni Alt√°ni H√©la A√©lia Fel√≠cia
+			P·rtha DiÛni Alt·ni HÈla AÈlia FelÌcia
+		}
+	}
+	gebelish = {
+
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
+		}
+	}
+	ayesincan = {
+
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
 		}
 	}
 	anoshphite = {
-		primary = A02 #An√≤shph√©y
+		#primary = A02 #AnÚshphÈy
 		
 		dynasty_names = {
-			Audalad Caicuria Galus Amossi Ke√≠rikos "Orne'Valerin"
+			Audalad Caicuria Galus Amossi KeÌrikos "Orne'Valerin"
 		}
 
 		male_names = {
-			Senek√≠n Y√¨rs An√≤k√≠n Ylor Carr√π √âather L√∫nk√≠n √âan Pont√©os Nyles
-			L√© √âath√πr Nyl√πs Yl√πr Al√©uos Pont√∫os Us√©ri Aul√©zhl√πr √ôrall√πh Mir√πn
-			P√°lc√®r√π √âll√πn Sen√πkin S√¨rllyhn√π Je√πnv√¨l Th√©iss√π √âriss√©on M√≠eng V√¨tt√©rik√πs
-			√ôldrok√π Ponnt√¨r√π √ínm√πn √âir√πs Tor√πn
+			SenekÌn YÏrs AnÚkÌn Ylor Carr˘ …ather L˙nkÌn …an PontÈos Nyles
+			LÈ …ath˘r Nyl˘s Yl˘r AlÈuos Pont˙os UsÈri AulÈzhl˘r Ÿrall˘h Mir˘n
+			P·lcËr˘ …ll˘n Sen˘kin SÏrllyhn˘ Je˘nvÏl ThÈiss˘ …rissÈon MÌeng VÏttÈrik˘s
+			Ÿldrok˘ PonntÏr˘ “nm˘n …ir˘s Tor˘n
 		}
 
 		female_names = {
-			√ârissia Uldroka Elenor Ahr√≠n
-			Y√¨rra L√∫nka √âanna Carr√† L√©a √âatherra Nyl√°h Yl√†y Al√©rr√†h Pont√©as Us√©r√†h Aul√©zhl√†r
-			An√≤k√† √ôrall√©ah Mir√°in P√°lc√®ra √âllan√≠ra Senak√≠n S√¨rillyhn√† Jeanv√¨l Th√©iss√† √ârissa
-			M√≠ang V√¨tt√©rik√†s √ôldrok√†h Ponnt√¨r√† √ínmin√† √âir√†s Tor√†na
+			…rissia Uldroka Elenor AhrÌn
+			YÏrra L˙nka …anna Carr‡ LÈa …atherra Nyl·h Yl‡y AlÈrr‡h PontÈas UsÈr‡h AulÈzhl‡r
+			AnÚk‡ ŸrallÈah Mir·in P·lcËra …llanÌra SenakÌn SÏrillyhn‡ JeanvÏl ThÈiss‡ …rissa
+			MÌang VÏttÈrik‡s Ÿldrok‡h PonntÏr‡ “nmin‡ …ir‡s Tor‡na
 		}
 	}
 	shimmere = {
-		primary = A04 #Shiny
+		#primary = A04 #Shiny
 
 		dynasty_names = {
 			Audalad Caicuria
 		}
 
 		male_names = {
-			H√°kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			H·kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
 			Seramida Ardamine Ederai Lerai Ifaeri
 		}
+	}
+	brunid = {
 
+		dynasty_names = {
+
+		}
+
+		male_names = {
+
+		}
+
+		female_names = {
+
+		}
 	}
 }
 
@@ -130,7 +227,7 @@ sagaviri_group = {
 	graphical_culture = easterngfx
 	
 	sironian = {
-		primary = A10 #Sironia
+		#primary = A10 #Sironia
 
 		dynasty_names = {
 			Caicuria Athisach Atherin
@@ -146,14 +243,14 @@ sagaviri_group = {
 		}
 	}
 	lapidosan = {
-		primary = A11 #Lapidosa
+		#primary = A11 #Lapidosa
 		
 		dynasty_names = {
-			"se Kair'vern" "se Livel√≠n" Val√©rinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+			"se Kair'vern" "se LivelÌn" ValÈrinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
 		}
 
 		male_names = {
-			Rithaur Artorinn T√°los Talanthas Vorian
+			Rithaur Artorinn T·los Talanthas Vorian
 			Aldrik Alessandir Arstenn Iakes Outher Therenn Theres Sinaur Sinthor Ynaur
 		}
 
@@ -168,7 +265,7 @@ sagaviri_group = {
 	myrish = {
 		
 	}
-	thyrian = {
+	tyrian = {
 	
 	}
 	jeghosi = {
@@ -183,11 +280,11 @@ sagaviri_group = {
 	raellite = {
 	
 	}
-	asturcian = {
-	
+	sagaviri_asturcian = {
+		
 	}
 	viratanic = {
-		primary = A14 #Athazolant
+		#primary = A14 #Athazolant
 
 		dynasty_names = {
 		"of Athazolant" "of Viratayn" "of Aten" "of Teldikal" "of Hraam"
@@ -199,15 +296,17 @@ sagaviri_group = {
 		female_names = {
 			Ilah Gaiyal Krayeg Priya Sheya Sholanoh
 		}
-
+	}
+	fuscinian = {
+		
 	}
 }
 
 niedene_group = {
 	graphical_culture = westerngfx
 	
-	escharii = {
-		primary = N00 #Escharia
+	escharii_new = {
+		#primary = N00 #Escharia
 		
 		dynasty_names = {
 			"an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar"
@@ -215,38 +314,44 @@ niedene_group = {
 		}
 	
 	}
-	solarii = {
+	solerii_new = {
 	
 	}
-	kaseii = {
+	locetii_new = {
 
 	}
-	serrenese = {
-	
+	kaseii_new = {
+
 	}
-	varmerii = {
-	
+	serrenii_new = {
+
 	}
-	reikarii = {
-	
+	kietrii_new = {
+
 	}
-	gentarii = {
-	
+	thadii_new = {
+
 	}
-	lausarii = {
-	
+	reikarii_new = {
+
 	}
-	anesarii = {
-	
+	gentarii_new = {
+
 	}
-	annuvii = {
-	
+	lausarii_new = {
+
 	}
-	delvarii = {
-	
+	anesarii_new = {
+
 	}
-	floramii = {
-	
+	sylerii_new = {
+
+	}
+	wyngalan_new = {
+
+	}
+	neurunic_new = {
+
 	}
 	
 	dynasty_names = {
@@ -268,8 +373,95 @@ niedene_group = {
 	}
 }
 
-ombrian_group = {
+varmerii_group = {
 	graphical_culture = westerngfx
+
+	thadii = {
+
+	}
+	reikarii = {
+
+	}
+	gentarii = {
+
+	}
+
+	dynasty_names = {
+		
+	}
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+}
+
+asterii_group = {
+	graphical_culture = westerngfx
+
+	escharii = {
+
+	}
+	solerii = {
+
+	}
+	locetii = {
+
+	}
+	kaseii = {
+
+	}
+	serrenii = {
+
+	}
+	kietrii = {
+
+	}
+	wyngalan = {
+
+	}
+	neurunic = {
+
+	}
+
+	dynasty_names = {
+		
+	}
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+}
+
+suthrii_group = {
+	graphical_culture = westerngfx
+
+	lausarii = {
+
+	}
+	anesarii = {
+
+	}
+	sylerii = {
+
+	}
+
+	dynasty_names = {
+		
+	}
+	male_names = {
+		
+	}
+	female_names = {
+		
+	}
+}
+
+vastallosi_group = {
+	graphical_culture = andeangfx
 
 	carvayan = {
 		#primary = A27 #Carvay
@@ -278,77 +470,101 @@ ombrian_group = {
 			Durradayne Mezaria
 		}
 	}
-
-	siocan = {
-		#primary = A43 #Sioc
-
+	denthrosi = {
 		dynasty_names = {
-			Wacko
+			Wacko Loulouna "Twin-Leaf" Jusepp Valhorn "Twin-Leaf" Vishji
+		}
+		male_names = {
+			Spriggann Frogthir Ginoong Jaxx
+		}
+		female_names = {
+			Elthia Samantha Vygu
 		}
 	}
-
-	stenstan = {
-		#primary = A31 #Stensta
-	}
-
 	dracadian = {
 		#primary = #A29 #Dracade
 
 		dynasty_names = {
-			Ricky Ramo "de Ethymios" Salamundi Martellus
+			Ramo "de Ethymios" Salamundi Martellus
 		}
 	}
-
-	dynasty_names = {
-		Durradayne Yolcotl Glynrel
+	stenstan = {
+		#primary = A31 #Stensta
 	}
-	male_names = {
-		Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
-	}
-	female_names = {
-		Savii Vulpur Ekko Frostina
-	}
-}
-
-vastallosi_group = {
-	graphical_culture = andeangfx
-
 	masgar = {
 		#primary = A62 #Masgar
-
-	}
-	illyrix = {
-		#primary = A42 #Illyrix
-
-	}
-	trondan = {
-		#primary = A57 #Tronda
-
-	}
-	mamaco = {
-		#primary = A60 #Mamaco
-
-	}
-
-	vrolgar = { 
-		#primary = A34 #Trollgard
-
 	}
 	knossian = {
 		#primary = A30 #Neos-Knossos
 
 		dynasty_names = {
+			Pantha Santha Glynrel
+		}
+	}
+	kawalapuan = {
+		#primary = A32 #Kawalapua
+
+		dynasty_names = {
 			Pantha Santha
 		}
 	}
+	asturcian = {
+		primary = B02
+	
+	}
+
 	dynasty_names = {
-		Konung "??palazNui" Vagranti "af Kronborg" 
+		Konung "??palazNui" Vagranti "af Kronborg" Yolcotl
 	}
 	male_names = {
-		Jay Sverion
+		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
 	}
 	female_names = {
-		Kori Delta Ka Asi
+		Kori Delta Ka Asi Savii Vulpur Ekko Frostina
+	}
+}
+
+high_luthic_group = {
+	graphical_culture = westerngfx
+
+	serafian = {
+
+	}
+	hostic = {
+
+	}
+	hithrayan = {
+
+	}
+	arbalonic = {
+
+	}
+	sorradic = {
+
+	}
+	chimunic = {
+
+	}
+}
+
+low_luthic_group = {
+	graphical_culture = westerngfx
+
+	akratian = {
+
+	}
+	leythian = {
+
+	}
+	reyllean = {
+		#primary = A12 #Reyllea
+
+	}
+	carnian = {
+
+	}
+	rodean = {
+
 	}
 }
 
@@ -375,6 +591,9 @@ talawan_group = {
 		}
 	}
 	kaahirun = {
+
+	}
+	fuciwan = {
 
 	}
 	halfelf = {
@@ -406,100 +625,70 @@ seraan_group = {
 		primary = A21 #Lirgal
 
 		dynasty_names = {
-			Accero Ellan De√°rinn
+			Accero Ellan De·rinn
 		}
 	}
 
 	dynasty_names = {
-		Halsar Dandur Vasaian M√£e'ta√≠
+		Halsar Dandur Vasaian M„e'taÌ
 
-		#Lost Noble Houses: Damalor Lori√£
+		#Lost Noble Houses: Damalor Lori„
 	}
 	male_names = {
-		Cael Nitl√≥s Kar Vopran Talanaas Cali Lai Tir Altor Fedre Authe Sjatyre Saraim Tali
+		Cael NitlÛs Kar Vopran Talanaas Cali Lai Tir Altor Fedre Authe Sjatyre Saraim Tali
 	}
 	female_names = {
-		Aldara Ellira Cali Ammara Moitir√© Lair√© Alea D√°ido Sel√£ Maimara Dana Authe Sjatyre Leryla Ser√©a Lynadara Ler√° N√©a Merine
+		Aldara Ellira Cali Ammara MoitirÈ LairÈ Alea D·ido Sel„ Maimara Dana Authe Sjatyre Leryla SerÈa Lynadara Ler· NÈa Merine
 	}
 }
 
-saryani_group = {
-	graphical_culture = muslimgfx
-
-	auraic = {
-		primary = B00 #An-Saryan
-
-	}
-
-	assuqi = {
-
-	}
-
-	maanit = {
-
-	}
-}
-
-
-luthic_group = {
-
+ertale_group = {
 	graphical_culture = westerngfx
 
-	reyllean = {
-		primary = A12 #Reyllea
+	vraelean = {
 
 	}
-	serafinian = {
+	woltanje = {
 
-	}
-	chimunic = {
-
-	}
-	leythian = {
-
-	}
-	carnian = {
-
-	}
-}
-
-arcadian_group = {
-	graphical_culture = polynesiangfx
-
-	agrianan = {
-		#primary = A43 #Agrianan
-		
-		dynasty_names = {
-			Loulouna "Twin-Leaf" Jusepp
-		}
-	}
-	denthrosi = {
-		#primary = A46 #Denthros
-
-		dynasty_names = {
-			Valhorn "Twin-Leaf"
-		}
-	}
-	kawalapuan = {
-		#primary = A07 #Kawalapua
-
-		dynasty_names = {
-			Pantha Santha
-		}
 	}
 
 	dynasty_names = {
-		Valhorn "Twin-Leaf" Pantha Firnbolg Vishji
+
 	}
 	male_names = {
-		Spriggann Frogthir Ginoong Jaxx
+
 	}
 	female_names = {
-		Elthia Samantha Vygu
+
 	}
 }
 
-brothian = {
+mireman_group = {
+	graphical_culture = polynesiangfx
+
+	myyraa = {
+
+	}
+	tyyraa = {
+
+	}
+	svepparaa = {
+
+	}
+}
+
+dwarven_group = {
+	graphical_culture = easterngfx
+
+	kutnubad_dwarf = {
+
+	}
+	sea_dwarf = {
+
+	}
+}
+
+brothian_group = {
 	graphical_culture = westerngfx
 
 	high_ryzani = {
@@ -550,17 +739,12 @@ brothian = {
 		}
 	}
 
-	plains_bardonian = {
+	bardonian = {
 		#primary = #SO3 #Bardonia
 
 		dynasty_names = {
 			Dandelion Mediki Aelarion Mechichi
 		}
-	}
-
-	#???
-	fluentan = {
-		#primary = #S50 #Fluenta
 	}
 
 	dynasty_names = {
@@ -571,6 +755,47 @@ brothian = {
 	}
 	female_names = {
 		Elle Shan Anastasia Ibris Isabella Germathual Falyn Hees Alyansis Ceibi Cyna Celine Krista Aya Cazovas
+	}
+}
+
+ardatian_group = {
+	graphical_culture = muslimgfx
+
+	ardatian = {
+		#primary = U17 #Ardat
+	}
+
+	dynasty_names = {
+		Azael Navanskli Navaska Mosulia Mako Kemal Khopesh "of Tissu" Ramajan Nasser
+	}
+
+	male_names = {
+		Sas Sasan Cyrus Cyr Cesar Altair Fabian Ismael Dain
+	}
+
+	female_names = {
+		Dalatra Isali "Xylapax bin" Tasha Aura Rosajad
+	}
+}
+
+anoshphite_group = {
+	graphical_culture = turkishgfx
+
+	idan-ridu = {
+		primary = A51
+	}
+	caedan = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
 	}
 }
 	

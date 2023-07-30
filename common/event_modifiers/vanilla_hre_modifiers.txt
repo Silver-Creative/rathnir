@@ -1,0 +1,22 @@
+#HRE modifiers
+primas_germaniae = {
+	prestige = 0.5
+	diplomatic_reputation = 1
+}
+
+legatus_natus = {
+	prestige = 0.5
+	papal_influence = 1
+	#Not religion = yes as it's revoked via event.
+}
+
+fort_in_disrepair = {
+	local_defensiveness = -0.5
+}
+
+unlawful_territory = {
+	local_manpower_modifier = -0.5
+	local_unrest = 10
+	local_tax_modifier = -0.33
+	local_autonomy = 0.1
+}

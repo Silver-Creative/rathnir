@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = lausarii
+religion = soleannen
+technology_group = tech_niedene
+historical_rival = A01 #Theiónikos
+capital = 176 #Selak
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Valdris"
+        dynasty = "Selakrisi"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 6
+		mil = 4
+		culture = lausarii
+		religion = soleannen
+	}
+}

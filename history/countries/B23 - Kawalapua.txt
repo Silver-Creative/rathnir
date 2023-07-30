@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = kawalapuan
+religion = cardinalism
+technology_group = tech_vastallosi
+capital = 366 #Waahi
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Jusepp Jusepp"
+		birth_date = 1401.7.3
+		adm = 6
+		dip = 4
+		mil = 4
+		culture = kawalapuan
+		religion = cardinalism
+	}
+}

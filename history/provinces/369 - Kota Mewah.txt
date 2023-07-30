@@ -1,0 +1,26 @@
+# 369 - Kota Mewah
+
+owner = B23
+controller = B23
+add_core = B23
+
+culture = kawalapuan
+religion = cardinalism
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = tropical_wood
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

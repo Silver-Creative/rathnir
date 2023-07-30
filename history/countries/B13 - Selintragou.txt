@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = knossian
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 358 #Selintragou
+national_focus = DIP

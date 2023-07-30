@@ -1,0 +1,21 @@
+
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = sivakuniri
+religion = sakrelism
+technology_group = tech_alteniquian
+capital = 279 #Levýatanna
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Kalarann s'Ater"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 2
+		mil = 1
+		culture = sivakuniri
+		religion = sakrelism
+	}
+}

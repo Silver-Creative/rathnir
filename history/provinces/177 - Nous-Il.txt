@@ -1,0 +1,26 @@
+# 177 - Nous-Il
+
+owner = A46
+controller = A46
+add_core = A46
+
+culture = lausarii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+trade_goods = fish
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

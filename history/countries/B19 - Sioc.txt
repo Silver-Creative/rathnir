@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = denthrosi
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 380 #Sioc
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Lanzo Sioccei"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 3
+		mil = 1
+		culture = denthrosi
+		religion = sanderosa
+	}
+}

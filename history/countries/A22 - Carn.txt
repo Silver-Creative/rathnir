@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = carnian
+religion = aegmerism
+technology_group = tech_luthic
+historical_rival = A10 #Sironia
+capital = 749 #Lestria
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Kerplis Everthorne"
+		dynasty = "Elernel"
+		birth_date = 1401.7.3
+		adm = 4
+		dip = 4
+		mil = 3
+		culture = carnian
+		religion = aegmerism
+	}
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = inspiring_leader_personality
+}

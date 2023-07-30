@@ -1,0 +1,195 @@
+
+# For specific combinations of culture, religion and other such triggers
+# Will pick the first valid one it finds in list
+
+#Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
+
+audalad_monarchy = {
+	rank = {
+		1 = DAHRSAT
+		2 = GIDESAT
+		3 = SHARRULAT
+	}
+	
+	ruler_male = {
+		1 = DAHRSU
+		2 = GIDESH
+		3 = SHARRULAR
+	}
+	
+	ruler_female = {
+		1 = DAHRSU
+		2 = GIDESH
+		3 = SHARRULAR
+	}
+	
+	heir_male = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+	
+	heir_female = {
+		1 = LOSHARIM_KAIYID
+		2 = LOSHARIM_KAIYID
+		3 = LOSHARIM_KAIYID
+	}
+
+	trigger = {
+		government = monarchy
+		culture_group = audalad_group
+		NOT = { tag = A00 } #Audal
+		NOT = { tag = A97 } #Yimmu-Audal
+		NOT = { culture = theioniki }
+		NOT = { culture = anoshphite }
+	}
+}
+
+theioniki_archonate = {
+	rank = {
+		1 = TETRARCHATE
+		2 = ARCHONATE
+		3 = ARCHONATE
+	}
+	
+	ruler_male = {
+		1 = TETRARCH
+		2 = ARCHON
+		3 = ARCHON
+	}
+	
+	ruler_female = {
+		1 = TETRARCHESS
+		2 = ARCHONESS
+		3 = ARCHONESS
+	}
+
+	trigger = {
+		government = theocracy
+		culture = theioniki
+	}
+}
+
+anoshphite_monarchy = {
+	rank = {
+		1 = SHYHENEY
+		2 = LUMINEREY
+		3 = ORISARENEY
+	}
+	
+	ruler_male = {
+		1 = SHYUH
+		2 = LUMIRUH
+		3 = ORISARUH
+	}
+	
+	ruler_female = {
+		1 = SHYAH
+		2 = LUMIRAH
+		3 = ORISARAH
+	}
+
+	trigger = {
+		government = monarchy
+		culture = anoshphite
+	}
+}
+
+sagaviri_archonate = {
+	rank = {
+		1 = SAGAVIRI_ARCHONATE
+		2 = SAGAVIRI_ARCHONATE
+		3 = GRAND_ARCHONATE
+	}
+	
+	ruler_male = {
+		1 = SAGAVIRI_ARCHON
+		2 = SAGAVIRI_ARCHON
+		3 = HIEROPHANT
+	}
+	
+	ruler_female = {
+		1 = SAGAVIRI_ARCHONESS
+		2 = SAGAVIRI_ARCHONESS
+		3 = HIEROPHANTESS
+	}
+
+	trigger = {
+		government = theocracy
+		culture_group = sagaviri_group
+	}
+}
+
+sagaviri_monarchy = {
+	rank = {
+		1 = DOUKRAT
+		2 = ANRAT
+		3 = ASHRIM
+	}
+	
+	ruler_male = {
+		1 = DOUKRE
+		2 = ANRE
+		3 = ASHIRE
+	}
+	
+	ruler_female = {
+		1 = DOUKRA
+		2 = ANRA
+		3 = ASHIRA
+	}
+
+	trigger = {
+		government = monarchy
+		culture_group = sagaviri_group
+	}
+}
+
+niedene_monarchy = {
+	rank = {
+		1 = AROREI
+		2 = ERASTERREI
+		3 = IRASTERREI
+	}
+	
+	ruler_male = {
+		1 = AROQAN
+		2 = AQEREI
+		3 = IKSARE
+	}
+	
+	ruler_female = {
+		1 = AROQAN
+		2 = AQERIN
+		3 = IKSARIN
+	}
+	
+	consort_male = {
+		1 = IMAERE
+		2 = IMAERE
+		3 = IMAERE
+	}
+	
+	consort_female = {
+		1 = IMAERE
+		2 = IMAERE
+		3 = IMAERE
+	}
+	
+	heir_male = {
+		1 = ERJIL
+		2 = OSHI
+		3 = EROJI
+	}
+	
+	heir_female = {
+		1 = ERJIL
+		2 = OSHI
+		3 = EROJI
+	}
+
+	trigger = {
+		culture_group = niedene_group
+		#NOT = { tag = COB }
+	}
+}

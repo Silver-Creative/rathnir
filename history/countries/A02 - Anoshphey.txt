@@ -5,8 +5,8 @@ government_rank = 1
 primary_culture = anoshphite
 add_accepted_culture = anesarii
 religion = theiosism
-technology_group = muslim
-capital = 327 #Jirn (Adena)
+technology_group = tech_alteniquian
+capital = 42 #Siroba    #2 #Jirn
 national_focus = ADM
 
 1444.1.1 = {

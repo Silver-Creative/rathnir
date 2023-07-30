@@ -4,7 +4,7 @@
 
 # Urtu Lugalad (Audal)
 urtu_lugalad = {
-    start = 408 #Urnu-Arrak (Basra)
+    start = 67 #Utal-Lugalad
     date = 1.01.01
     time = { months = 0 }
 
@@ -97,7 +97,7 @@ urtu_lugalad = {
 
 # Red Temple (Audal)
 red_temple = {
-    start = 408 #Urnu-Arrak (Basra)
+    start = 70 #Urnu-Arrak
     date = 1.01.01
     time = { months = 0 }
 
@@ -211,7 +211,7 @@ red_temple = {
 
 # The Sky Pillars (Audal)
 sky_pillars = {
-    start = 408 #Urnu-Arrak (Basra)
+    start = 69 #Tarad-Elarae
     date = 1.01.01
     time = { months = 0 }
 
@@ -226,14 +226,14 @@ sky_pillars = {
 
     can_use_modifiers_trigger = {
 		owner = {
-			culture_group = audalad
+			culture_group = audalad_group
 		}
 		province_is_or_accepts_culture = yes
 	}
 
     can_upgrade_trigger = {
 		owner = {
-			culture_group = audalad
+			culture_group = audalad_group
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -343,7 +343,7 @@ sky_pillars = {
 
 # Jirnsteel Foundry (Anòshphéy)
 jirnsteel_foundry = {
-    start = 327 #Jirn (Adana)
+    start = 2 #Jirn
     date = 1.01.01
     time = { months = 0 }
 
@@ -445,7 +445,7 @@ jirnsteel_foundry = {
 
 # Tower of Memories (Anòshphéy)
 tower_of_memories = {
-    start = 323 #Mahinor (??)
+    start = 27 #Mahinor (Noín Lithrànòr)
     date = 1.01.01
     time = { months = 0 }
 
@@ -542,7 +542,7 @@ tower_of_memories = {
 
 # Sanctum of Theiotokos (Theionikos)
 sanctum_of_theiotokos = {
-    start = 382 #Theiotokos (Damascus)
+    start = 161 #Theiotokos
     date = 1.01.01
     time = { months = 0 }
 

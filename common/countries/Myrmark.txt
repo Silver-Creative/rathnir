@@ -1,0 +1,127 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 5  171  147 }
+
+historical_idea_groups = {
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	influence_ideas
+	offensive_ideas
+	aristocracy_ideas
+	spy_ideas		
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	#Historical Lapidoviri Leaders (Male)
+	"Rithaur #0" = 10
+	"Artorinn #0" = 10
+    "Tálos #0" = 10
+    "Talanthas #0" = 10
+    "Vorian #0" = 10
+
+    #Generic Lapidoviri Names (Male)
+    "Aldrik #0" = 10
+    "Alessandir #0" = 10
+    "Arstenn #0" = 10
+    "Iakes #0" = 10
+    "Outher #0" = 10
+    "Therenn #0" = 10
+    "Theres #0" = 10
+    "Sinaur #0" = 10
+    "Sinthor #0" = 10
+    "Ynaur #0" = 10
+
+	#Generic Lapidoviri Names (Female)
+    "Ansa #0" = -1
+    "Arstenna #0" = -1
+    "Artorianna #0" = -1
+    "Kara #0" = -1
+    "Maira #0" = -1
+    "Sinna #0" = -1
+    "Yna #0" = -1
+	
+	#Historical Aldoviri Leaders (Female)
+    "Alessandra #0" = -1
+    "Subica #0" = -1
+}
+
+leader_names = {
+	#Country Specific
+	"of Arstedanna" "of Krisanarra" "of Eryrith" "of Kair'vern" "of Artorianna" "of Ytharash"
+	
+	#Province Neighbours
+	"of Azethvir" "of Assourtherak" "of Mimir's Pride" "of Roscella" "of Aleria" "of Evansyllo" "of Hapatmitas"
+	
+	#Country Neighbours
+	"of Reyllea" "of Thýr" "of Uldarash" "of Solisios" "of Sironia" "of Qeshbago"
+	
+	#Geographic Neighbours
+	"of Essukdal" "of Vastallos" "of Talawa"
+	
+	#Noble Families
+	"se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
+
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+}
+
+army_names = {
+	"Lapitas Ammanór" "Ammanór síl $PROVINCE$"
+}
+
+fleet_names = {
+	"Lapis Fleet" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+}

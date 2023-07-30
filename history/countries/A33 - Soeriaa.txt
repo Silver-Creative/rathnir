@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = tyyraa
+religion = willowpact
+technology_group = tech_alteniquian
+capital = 306 #Crýparsa
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Thryr"
+		dynasty = "vaal er-Soeriaa"
+		birth_date = 1401.7.3
+		adm = 1
+		dip = 1
+		mil = 3
+		culture = tyyraa
+		religion = willowpact
+	}
+	add_ruler_personality = bold_fighter_personality
+}

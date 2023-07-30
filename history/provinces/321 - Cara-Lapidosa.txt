@@ -1,0 +1,26 @@
+# 321 - Cara-Lapidosa
+
+owner = A11
+controller = A11
+add_core = A11
+
+culture = lapidosan
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 5
+
+trade_goods = gold
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

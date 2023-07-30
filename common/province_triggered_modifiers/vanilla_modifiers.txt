@@ -1,0 +1,142 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+#test_modifier = {
+#	potential = {
+#		always = yes
+#	}
+#
+#	trigger = {
+#		owner = {
+#			stability = 0
+#		}
+#	}
+#
+#	local_build_cost = 0.05	
+#	
+#	#Province scope
+#	on_activation = {
+#	
+#	}
+#	
+#	on_deactivation = {
+#	
+#	}
+#	
+#}
+
+religious_center = {
+	potential = {
+	}
+	
+	#viewer = {
+	#}
+	
+	trigger = {
+		if = {
+			limit = {
+				province_id = 70 #Urnu-Arrak
+			}
+			religion = hukar_sharud
+		}
+		else_if = {
+			limit = {
+				province_id = 70 #Urnu-Arrak
+			}
+			religion_group = red_cult
+		}
+		else_if = {
+			limit = {
+				province_id = 244 #Azethvir
+			}
+			religion = sakrelism
+		}
+		else_if = {
+			limit = {
+				province_id = 161 #Theiotokos
+			}
+			religion = theiosism
+		}
+		else_if = {
+			limit = {
+				province_id = 285 #Athazolant
+			}
+			religion = zentivar
+		}
+		else_if = {
+			limit = {
+				province_id = 715 #Serafini
+			}
+			religion = etherflame
+		}
+		else_if = {
+			limit = {
+				province_id = 749 #Lestria
+			}
+			religion = aegmerism
+		}
+		else_if = {
+			limit = {
+				province_id = 601 #Lileanen
+			}
+			religion = soleannen
+		}
+		else_if = {
+			limit = {
+				province_id = 574 #Locet (TEMP)
+			}
+			religion = soleviel
+		}
+	}
+
+	local_missionary_strength = -0.05
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+# Perpetual Diet
+perpetual_diet = {
+	potential = {
+	}
+	
+	trigger = {
+		owner = {
+			is_part_of_hre = yes
+		}
+		controller = {
+			OR = {
+				is_part_of_hre = yes
+				NOT = { war_with = emperor }
+			}
+		}
+	}
+
+	prestige = 0.5
+	local_development_cost = -0.05
+	is_imperial_modifier = yes
+
+	on_activation = {
+		emperor = {
+			remove_country_modifier = diet_occupied
+		}
+	}
+	
+	on_deactivation = {
+		emperor = {
+			add_country_modifier = { name = diet_occupied duration = -1 }
+		}
+	}
+}

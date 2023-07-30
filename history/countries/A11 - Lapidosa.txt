@@ -4,8 +4,8 @@ add_government_reform = oligarchy_reform
 government_rank = 2
 primary_culture = lapidosan
 religion = sakrelism
-technology_group = western
-capital = 216 #Lapidovir (Salamanca)
+technology_group = tech_alteniquian
+capital = 321 #Cara-Lapidosa
 national_focus = ADM
 
 1444.1.1 = {

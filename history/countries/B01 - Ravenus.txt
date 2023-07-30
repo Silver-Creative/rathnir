@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = carvayan
+religion = sanderosa
+technology_group = tech_vastallosi
+capital = 332 #Porte Ravenus
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Kyvallo Ravennei"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 3
+		mil = 1
+		culture = carvayan
+		religion = theiosism
+	}
+}

@@ -1,0 +1,21 @@
+
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+primary_culture = tyrian
+religion = sakrelism
+technology_group = tech_alteniquian
+capital = 273 #Mimir's Pride
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Althred se Masaýrre"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 2
+		mil = 1
+		culture = tyrian
+		religion = sakrelism
+	}
+}

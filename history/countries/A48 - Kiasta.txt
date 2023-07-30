@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = lausarii
+religion = soleannen
+technology_group = tech_niedene
+historical_rival = A01 #Theiónikos
+capital = 171 #Kiasta
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Arminos"
+        dynasty = "Kíastinos"
+		birth_date = 1401.7.3
+		adm = 6
+		dip = 2
+		mil = 3
+		culture = lausarii
+		religion = soleannen
+	}
+}

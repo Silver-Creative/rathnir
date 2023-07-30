@@ -1,0 +1,27 @@
+# 343 - Birge
+
+owner = B12
+controller = B12
+add_core = B12
+
+culture = knossian
+religion = sanderosa
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 6
+base_manpower = 3
+
+trade_goods = naval_supplies
+center_of_trade = 1
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

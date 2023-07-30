@@ -1,0 +1,26 @@
+# 140 - Yelado
+
+owner = A06
+controller = A06
+add_core = A06
+
+culture = fuciwan
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = iron
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

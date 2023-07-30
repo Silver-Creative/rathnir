@@ -1,0 +1,71 @@
+##################################################
+# Sikh Gurus
+##################################################
+
+guru_angad = {
+	technology_cost = -0.05
+	religion = yes
+}
+
+guru_amar_das = {
+	global_missionary_strength = 0.02
+	global_unrest = -2
+	religion = yes
+}
+
+guru_ram_das = {
+	stability_cost_modifier = -0.1
+	religion = yes
+}
+
+guru_arjan = {
+	dip_tech_cost_modifier = -0.05
+	religion = yes
+}
+
+guru_hargobind = {
+	discipline = 0.05
+	religion = yes
+}
+
+guru_har_rai = {
+	diplomatic_reputation = 1
+	religion = yes
+}
+
+guru_har_krishan = {
+	tolerance_own = 2
+	diplomatic_reputation = -1
+	religion = yes
+}
+
+guru_tegh_bahadur = {
+	tolerance_heretic = 4
+	religion = yes
+}
+
+guru_gobind_singh = {
+	discipline = 0.05
+	religious_unity = 0.2
+	religion = yes
+}
+
+guru_granth_sahib_spread = {
+	missionaries = 1
+	state_maintenance_modifier = -0.15
+	religion = yes
+}
+
+guru_granth_sahib_military = {
+	drill_gain_modifier = 0.5
+	drill_decay_modifier = -0.25
+	religion = yes
+}
+
+# Sikh Missionary Decision
+
+saving_the_burning_world = {
+	global_missionary_strength = 0.03
+	tolerance_heretic = -1
+	religion = yes
+}

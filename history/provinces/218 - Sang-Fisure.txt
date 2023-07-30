@@ -1,0 +1,27 @@
+# 218 - Sang-Fisure
+
+owner = A12
+controller = A12
+add_core = A12
+
+culture = reyllean
+religion = etherflame
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = wine
+center_of_trade = 1
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

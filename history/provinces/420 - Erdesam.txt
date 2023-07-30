@@ -1,0 +1,26 @@
+# 420 - Erdesam
+
+owner = O10
+controller = O10
+add_core = O10
+
+culture = reikarii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = fish
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
