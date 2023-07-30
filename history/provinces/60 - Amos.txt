@@ -1,0 +1,27 @@
+# 60 - Amos
+
+owner = A00
+controller = A00
+add_core = A00
+
+culture = audalad
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 4
+
+trade_goods = lapis_lazuli
+center_of_trade = 2
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

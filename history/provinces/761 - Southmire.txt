@@ -1,0 +1,26 @@
+# 761 - Southmire
+
+owner = A32
+controller = A32
+add_core = A32
+
+culture = tyyraa
+religion = willowpact
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = iron
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

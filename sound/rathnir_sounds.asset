@@ -1,0 +1,93 @@
+############################################
+####           RELIGIONS                ####
+############################################
+
+sound = {
+	name = religion_hukar_sharud
+	file = "tab_religion_kemetic.wav"
+}
+
+sound = {
+	name = start_convert_hukar_sharud
+	file = "start_conversion_muslim_shiite.wav"
+}
+
+sound = {
+	name = religion_sakrelism
+	file = "tab_religion_sakrelism.wav"
+}
+
+sound = {
+	name = start_convert_sakrelism
+	file = "start_conversion_sakrelism.wav"
+}
+
+sound = {
+	name = religion_theiosism
+	file = "tab_religion_theiosism.wav"
+}
+
+sound = {
+	name = start_convert_theiosism
+	file = "start_conversion_theiosism.wav"
+}
+
+sound = {
+	name = religion_etherflame
+	file = "tab_religion_christian.wav"
+}
+
+sound = {
+	name = start_convert_etherflame
+	file = "start_conversion_zoroastrian.wav"
+}
+
+sound = {
+	name = religion_soleannen
+	file = "start_conversion_eastern_shinto.wav"
+}
+
+sound = {
+	name = start_convert_soleannen
+	file = "start_conversion_eastern_confucianism.wav"
+}
+
+sound = {
+	name = religion_soleviel
+	file = "tab_religion_soleviel.wav"
+}
+
+sound = {
+	name = start_convert_soleviel
+	file = "start_conversion_soleviel.wav"
+}
+
+sound = {
+	name = religion_sanderosa
+	file = "tab_religion_pagan.wav"
+}
+
+sound = {
+	name = start_convert_sanderosa
+	file = "start_conversion_pagan_animism.wav"
+}
+
+sound = {
+	name = religion_twin_dragon
+	file = "tab_religion_twin_dragon.wav"
+}
+
+sound = {
+	name = start_convert_twin_dragon
+	file = "start_conversion_twin_dragon.wav"
+}
+
+sound = {
+	name = religion_ashuran_pantheon
+	file = "tab_religion_ashuran_pantheon.wav"
+}
+
+sound = {
+	name = start_convert_ashuran_pantheon
+	file = "start_conversion_ashuran_pantheon.wav"
+}

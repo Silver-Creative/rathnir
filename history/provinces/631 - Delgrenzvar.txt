@@ -1,0 +1,26 @@
+# 631 - Delgrenzvar
+
+owner = O11
+controller = O11
+add_core = O11
+
+culture = serrenii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = wine
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

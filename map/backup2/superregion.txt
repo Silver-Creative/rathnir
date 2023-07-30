@@ -1,0 +1,208 @@
+# A region can only belong to one super region.
+# Regions need to show up in a specific order for the colours to be right. When inserting a new superregion, either put them at the bottom or swap out an empty one and move that to the bottom of the file.
+
+########################################
+# LAND SUPERREGIONS                    #
+########################################
+
+### Alteniquia
+
+essukdal_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	anoshphey_region
+	audal_region
+	azuria_region
+	theionikos_region
+}
+
+aldovir_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	raell_region
+	sironia_region
+	lapidosa_region
+	beyond_the_marshes_region
+	talor_region
+}
+
+vastallos_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	inner_vastallos_region
+	outer_vastallos_region
+	arm_of_vastallos_region
+}
+
+### Nieden
+
+varmerien_superregion = {
+	egalia_region
+	raykara_region
+	khuzdurin_region
+}
+
+asterien_superregion = {
+	argentor_region
+	escharia_region
+	suderen_region
+}
+
+### Sparwood
+
+western_sparwood_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	vraelea_region
+	hithray_region
+	kietres_region
+	high_luthea_region
+}
+
+### Ummarnu
+
+ummarnu_superregion = {
+
+}
+
+### Sýltör
+
+northern_syltor_superregion = {
+
+}
+
+nandor_superregion = {
+
+}
+
+########################################
+# SEA SUPERREGIONS                     #
+########################################
+
+alteniquian_seas_superregion = {
+	sea_of_pearls_region
+	astyllean_sea_region
+}
+
+rough_seas_superregion = {
+	western_rough_sea_region
+	eastern_rough_sea_region
+}
+
+cursed_sea_superregion = {
+	cursed_sea_region
+	eversummer_sea_region
+}
+
+sea_of_slaves_superregion = {
+	keshite_sea_region
+	sea_of_slaves_region
+	ombran_gulf_region
+}
+
+phagosian_sea_superregion = {
+	western_phagosian_sea_region
+	sea_of_galleons_region
+	eastern_phagosian_sea_region
+}
+
+northship_sea_superregion = {
+	sea_of_andorn_region
+	sea_of_petals_region
+	sea_of_bern_region
+}
+
+silver_sea_superregion = {
+	atardon_sea_region
+	silver_sea_region
+}
+
+eastern_seas_superregion = {
+	osterium_sea_region
+	#Add the Shattered Sea here whenever its out
+}
+
+### Extra
+
+new_world_superregion ={
+}
+
+# (Deprecated stuff so it doesnt crash)
+########################################
+# BASE GAME                            #
+########################################
+
+africa_superregion = {
+
+}
+
+india_superregion = {
+
+}
+
+
+china_superregion = {
+
+}
+
+europe_superregion = { #Western Europe
+
+}
+
+tartary_superregion = {
+	
+}
+
+far_east_superregion = {
+	
+}
+
+east_indies_superregion = {
+
+}
+
+central_america_superregion = {
+
+}
+
+near_east_superregion = {
+	
+}
+
+persia_superregion = {
+
+}
+
+# Sea super regions are used by AI to plan naval bases (it wants at least one fleet in each it has non-home presence if possible).
+
+west_american_sea_superregion = {
+
+}
+
+east_american_sea_superregion = {
+
+}
+
+north_european_sea_superregion = {
+	
+}
+
+south_european_sea_superregion = {
+
+}
+
+west_african_sea_superregion = {
+	
+}
+
+east_african_sea_superregion = {
+	
+}
+
+indian_pacific_sea_superregion = {
+	
+}
+
+north_pacific_sea_superregion = {
+	
+}

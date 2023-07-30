@@ -1,0 +1,26 @@
+# 74 - The Last Bastion
+
+owner = A08
+controller = A08
+add_core = A08
+
+culture = azurian
+religion = red_cult
+capital = ""
+
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 5
+
+trade_goods = salt
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

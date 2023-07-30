@@ -1,0 +1,68 @@
+﻿l_english:
+ ### Land Regions
+
+ #Alteniquia
+ anoshphey_region: "Anòshphéy"
+ audal_region: "Audal"
+ azuria_region: "Azuria"
+ theionikos_region: "Theiónikos"
+ raell_region: "Raêll"
+ sironia_region: "Sironia"
+ lapidosa_region: "Lapidosa"
+ beyond_the_marshes_region: "Beyond-the-Marshes"
+ talor_region: "Tálor"
+ inner_vastallos_region: "Inner Vastallos"
+ outer_vastallos_region: "Outer Vastallos"
+ arm_of_vastallos_region: "Arm of Vastallos"
+
+ #Nieden
+ egalia_region: "Egalia"
+ raykara_region: "Raykara"
+ khuzdurin_region: "Khuzdurin"
+ argentor_region: "Argentor"
+ escharia_region: "Escharia"
+ suderen_region: "Suderen"
+
+ #Sparwood
+ vraelea_region: "Vraelea"
+ hithray_region: "Hithray"
+ kietres_region: "Kietres"
+ high_luthea_region: "High Luthéa"
+
+ ### Sea Regions
+
+ #Alteniquian Seas
+ sea_of_pearls_region: "Sea of Pearls"
+ astyllean_sea_region: "Astyllean Sea"
+
+ #Rough Seas
+ western_rough_sea_region: "Western Rough Sea"
+ eastern_rough_sea_region: "Eastern Rough Sea"
+
+ #Cursed Sea
+ cursed_sea_region: "Cursed Sea"
+ eversummer_sea_region: "Eversummer Sea"
+
+ #Sea of Slaves
+ keshite_sea_region: "Keshite Sea"
+ sea_of_slaves_region: "Sea of Slaves"
+ ombran_gulf_region: "Ombran Gulf"
+
+ #Phagosian Sea
+ western_phagosian_sea_region: "Western Phagosian Sea"
+ eastern_phagosian_sea_region: "Eastern Phagosian Sea"
+ sea_of_galleons_region: "Sea of Galleons"
+
+ #Northship Sea
+ sea_of_andorn_region: "Sea of Andorn"
+ sea_of_petals_region: "Sea of Petals"
+ sea_of_bern_region: "Sea of Bern"
+
+ #Silver Sea
+ atardon_sea_region: "Atardon Sea"
+ silver_sea_region: "Silver Sea"
+ 
+ #Osterium Sea
+ osterium_sea_region: "Osterium Sea"
+
+  

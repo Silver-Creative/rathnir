@@ -1,0 +1,44 @@
+﻿l_english:
+ ########################################
+ # CONTINENTS                           #
+ ########################################
+ alteniquia: "Alteniquia"
+ nieden: "Nieden"
+ sparwood: "Sparwood"
+ syltor: "Sýltör"
+ the_north: "The North"
+ ummarnu: "Ummarnu"
+ haven: "Haven"
+ sorligste: "Sørligste"
+ valdreach: "Valdreach"
+ plagos: "Plagos"
+ akannash: "Akan'nash"
+
+ ########################################
+ # LAND SUPERREGIONS                    #
+ ########################################
+
+ ### Alteniquia
+ essukdal_superregion: "Essukdal"
+ aldovir_superregion: "Aldovir"
+ vastallos_superregion: "Vastallos"
+
+ ### Nieden
+ varmerien_superregion: "Varmerien"
+ asterien_superregion: "Asterien"
+
+ ### Sparwood
+ western_sparwood_superregion: "Western Sparwood"
+
+ ########################################
+ # SEA SUPERREGIONS                     #
+ ########################################
+
+ alteniquian_seas_superregion: "Alteniquian Seas"
+ rough_seas_superregion: "Rough Seas"
+ cursed_sea_superregion: "Cursed Sea"
+ sea_of_slaves_superregion: "Sea of Slaves"
+ phagosian_sea_superregion: "Phagosian Sea"
+ northship_sea_superregion: "Northship Sea"
+ silver_sea_superregion: "Silver Sea"
+ eastern_seas_superregion: "Eastern Seas"

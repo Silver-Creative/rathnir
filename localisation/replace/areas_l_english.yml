@@ -1,0 +1,363 @@
+﻿l_english:
+ ### Special Areas
+ debug_area: "Debug Area"
+
+ ### Sea Areas
+
+ #Sea of Pearls
+ anoshphite_coast_area: "Anoshphite Coast"
+ sea_of_soleanna_area: "Sea of Soleanna"
+ southern_sea_of_pearls_area: "Southern Sea of Pearls"
+ northern_audalad_coast_area: "Northern Audalad Coast"
+ grandati_sound_area: "Grandati Sound"
+ shiny_sea_area: "Shiny Sea"
+ serrenese_canal_area: "Serrenese Canal"
+ wyngale_marsh_area: "Wyngale Marsh"
+
+ #Astyllean Sea
+ serafinian_coast_area: "Serafinian Coast"
+ sea_of_talor_area: "Sea of Tálor"
+ gray_sea_area: "Gray Sea"
+ southern_audalad_coast_area: "Southern Audalad Coast"
+ sea_of_raell_area: "Sea of Raell"
+
+ #Western Rough Sea
+ sivan_sea_area: "Sivan Sea"
+ qadrogs_waters_area: "Qadrog's Waters"
+
+ #Eastern Rough Sea
+ bay_of_madinat_area: "Bay of Madinat"
+ sea_of_soumere_area: "Sea of Soumere"
+ western_blazewaters_area: "Western Blazewaters"
+ eastern_blazewaters_area: "Eastern Blazewaters"
+ karkaran_sea_area: "Karkaran Sea"
+ akratian_sound_area: "Akratian Sound"
+
+ #Cursed Sea
+ tortugan_sound_area: "Tortugan Sound"
+ sea_of_pahonja_area: "Sea of Pahonja"
+ coast_of_silvay_area: "Coast of Silvay"
+ hanzeian_sea_area: "Hanzeian Sea"
+ southern_emerald_sea_area: "Southern Emerald Sea"
+ northern_emerald_sea_area: "Northern Emerald Sea"
+ interdam_channel_area: "Interdam Channel"
+
+ #Eversummer Sea
+ western_eversummer_sea_area: "Western Eversummer Sea"
+ eastern_eversummer_sea_area: "Eastern Eversummer Sea"
+
+ #Keshite Sea
+ greatclaw_straits_area: "Greatclaw Straits"
+ borean_gulf_area: "Borean Gulf"
+ lapidosan_coast_area: "Lapidosan Coast"
+ eastern_keshite_sea_area: "Eastern Keshite Sea"
+ upper_sea_of_wilusa_area: "Upper Sea of Wilusa"
+ lower_sea_of_wilusa_area: "Lower Sea of Wilusa"
+ western_keshite_sea_area: "Western Keshite Sea"
+ gulf_of_aruna_area: "Gulf of Aruna"
+
+ #Sea of Slaves
+ ardatian_coast_area: "Ardatian Coast"
+ mare_caprechosa_area: "Mare Caprechosa"
+ sagaviri_reach_area: "Sagaviri Reach"
+
+ #Ombran Gulf
+ southern_ombran_gulf_area: "Southern Ombran Gulf"
+ northern_ombran_gulf_area: "Northern Ombran Gulf"
+
+ #Western Phagosian Sea
+ volandian_coast_area: "Volandian Coast"
+ vastallosi_coast_area: "Vastallosi Coast"
+ sea_of_costarion_area: "Sea of Costarion"
+ northern_huitcan_coast_area: "Northern Huitcan Coast"
+ southern_huitcan_coast_area: "Southern huitcan Coast"
+ inari_channel_area: "Inari Channel"
+ ashuran_straits_area: "Ashuran Straits"
+
+ #Eastern Phagosian Sea
+ southern_sea_of_coltmaere_area: "Southern Sea of Coltmaere"
+ egalian_coast_area: "Egalian Coast"
+ northern_sea_of_coltmaere_area: "Northern Sea of Coltmaere"
+ dandelion_sound_area: "Dandelion Sound"
+
+ #Sea of Galleons
+ sea_of_galleons_area: "Sea of Galleons"
+ ashuran_sea_area: "Ashuran Sea"
+ gulf_of_ryzan_area: "Gulf of Ryzan"
+
+ #Sea of Andorn
+ eastern_sea_of_andorn_area: "Eastern Sea of Andorn"
+ western_sea_of_andorn_area: "Western Sea of Andorn"
+
+ #Sea of Petals
+ sea_of_ryzan_area: "Sea of Ryzan"
+ yularan_sea_area: "Yularan Sea"
+ dandelion_sea_area: "Dandelion Sea"
+
+ #Sea of Bern
+ noxist_coast_area: "Noxist Coast"
+ deuric_sea_area: "Deuric Sea"
+ helmian_lakes_area: "Helmian Lakes"
+
+ #Duskwaters
+ western_duskwaters_area: "Western Duskwaters"
+ eastern_duskwaters_area: "Eastern Duskwaters"
+
+ #Atardon Sea
+ high_silver_sea_area: "High Silver Sea"
+ raykaran_coast_area: "Raykaran Coast"
+ niedene_gulf_area: "Niedene Gulf"
+
+ #Silver Sea
+ silver_sound_area: "Silver Sound"
+ sea_of_kings_area: "Sea of Kings"
+ western_palagean_sea_area: "Western Palagean Sea"
+ mizuchi_bay_area: "Mizuchi Bay"
+ eastern_palagean_sea_area: "Eastern Palagean Sea"
+ gulf_of_khorisal_area: "Gulf of Khorisal"
+ najer_straits_area: "Najer Straits"
+
+ #Osterium Sea
+ goldensea_area: "The Goldensea"
+ asteri_sea_area: "Asteri Sea"
+ sea_of_tessel_area: "Sea of Tessel"
+ serrenese_sea_area: "Serrenese Sea"
+ far_osterium_sea_area: "Far Osterium Sea"
+
+ ### Impassable Land Areas
+ anoshphey_impassable_area: "Anoshphite Wastelands"
+ audal_impassable_area: "Audalad Wastelands"
+ azuria_impassable_area: "Azurian Wastelands"
+ theionikos_impassable_area: "Theionikan Wastelands"
+ lapidosa_impassable_area: "Lapidosan Wastelands"
+ marshes_impassable_area: "Thyrian Wastelands"
+ khuzdurin_impassable_area: "Khuzdurite Wastelands"
+ argentor_impassable_area: "Argentori Wastelands"
+ kietres_impassable_area: "Kietran Wastelands"
+ vraelea_impassable_area: "Vraelean Wastelands"
+ high_luthea_impassable_area: "High Luthéan Wastelands"
+
+ ### Non-Impassable Land Areas
+
+ #Anòshphéy
+ inner_stomeste_area: "Inner Stomesté"
+ outer_stomeste_area: "Outer Stomesté"
+ virrente_area: "Virrenté"
+ inner_saimara_area: "Inner Sáimàra"
+ outer_saimara_area: "Outer Sáimàra"
+ oviabao_area: "Oviabao"
+ low_apasiril_area: "Low Àpasìril"
+ high_apasiril_area: "High Àpasìril"
+ kabuli_gap_area: "Kabuli Gap"
+ nysari_area: "Nysari"
+ sirobhay_area: "Sirobháy"
+ the_pearls_area: "The Pearls"
+
+ #Audal
+ geshem_area: "Geshem"
+ sukrath_area: "Sukrath"
+ urnu_arrak_area: "Urnu-Arrak"
+ alkomir_area: "Alkomir"
+ eldal_adadi_area: "Eldal-Adadi"
+ harbardal_area: "Harbardal"
+ wasusud_valley_area: "Wasusud Valley"
+ rosewoods_area: "The Rosewoods"
+ sage_coast_area: "Sage Coast"
+ fuscin_wastes_area: "Fuscin Wastes"
+ audalad_wastes_area: "Audalad Wastes"
+ lower_abayril_area: "Lower Abayril"
+ upper_abayril_area: "Upper Abayril"
+ yissuviad_area: "Yissuviad"
+ grizzlybear_area: "Grizzlybear"
+
+ #Azuria
+ hawkers_coast_area: "Hawker's Coast"
+ jadid_coast_area: "Jadid Coast"
+ grandett_area: "Grandett"
+ felnath_area: "Felnath"
+ yetlyra_area: "Yetlyra"
+
+ #Theiónikos
+ verinar_area: "Verinar"
+ arritas_area: "Arritas"
+ sands_of_hakon_area: "Sands of Hákon"
+ burned_coast_area: "Burned Coast"
+ kiasta_area: "Kiasta"
+ krisathis_area: "Krisathis"
+ coltmaere_area: "Coltmaere"
+ fareon_area: "Fareon"
+ aldnoa_area: "Aldnoa"
+ kingscourge_area: "Kingscourge"
+ gebelli_pass_area: "Gebelli Pass"
+ gebelli_march_area: "Gebelli March"
+ madrian_march_area: "Madrian March"
+
+ #Raell
+ rhodia_area: "Rhodia"
+ aleirre_area: "Aleirre"
+ ile_de_reyllea_area: "Île-de-Reyllea"
+ lower_ilivian_area: "Lower Ilivian"
+ couranie_area: "Couranie"
+ argvennes_area: "Argvennes"
+ meydanwoods_area: "Meydanwoods"
+
+ #Sironia
+ sironia_proper_area: "Sironia Proper"
+ sailbreaker_cape_area: "Sailbreaker Cape"
+ jeghosi_pass_area: "Jeghosi Pass"
+ jeghosi_plains_area: "Jeghosi Plains"
+ kaleamatha_area: "Kaleamatha"
+ western_varthalos_area: "Western Varthalos"
+ vanakunir_area: "Vanakunir"
+ galadonn_area: "Galadonn"
+
+ #Lapidosa
+ myrish_swamp_area: "Myrish Swamp"
+ western_kaithrat_area: "Western Kaithrat"
+ eastern_kaithrat_area: "Eastern Kaithrat"
+ witchwoods_area: "The Witchwoods"
+ naitor_area: "Naitor"
+ western_lapidovir_area: "Western Lapidovir"
+ eastern_lapidovir_area: "Eastern Lapidovir"
+ boreavir_area: "Boreavir"
+ verncost_area: "Verncóst"
+
+ #Beyond-the-Marshes
+ high_thyr_area: "High Thýr"
+ low_thyr_area: "Low Thýr"
+ redhills_area: "Redhills"
+ silverwoods_area: "Silverwoods"
+ mimirs_pride_area: "Mimir's Pride"
+ ashori_islands_area: "Ashori Islands"
+ sivakunir_area: "Sivakunir"
+ northern_viratayn_area: "Northern Viratayn"
+ southern_viratayn_area: "Southern Viratayn"
+ eastern_viratayn_area: "Eastern Viratayn"
+
+ #Tálor
+ western_astyllean_islands_area: "Western Astyllean Islands"
+ talor_area: "Tálor"
+ eastern_astyllean_islands_area: "Eastern Astyllean Islands"
+ twin_islands_area: "Twin Islands"
+
+ #Inner Vastallos
+ asturcia_area: "Asturcia"
+ valtesia_area: "Valtesia"
+ ravenus_area: "Ravenus"
+ mamacaoca_area: "Mamacaoca"
+ marchia_carvayana_area: "Marchia Carvayana"
+ carvay_area: "Carvay"
+ ombran_islands_area: "Ombran Islands"
+
+ #Outer Vastallos
+ masgar_area: "Masgar"
+ trollstrait_area: "Trollstrait"
+ dragonbay_area: "The Dragonbay"
+ stensta_area: "Stensta"
+ palaios_knossos_area: "Palaios Knossos"
+ neos_knossos_area: "Neos Knossos"
+ kawalapua_area: "Kawalapua"
+
+ #Arm of Vastallos
+ qaruxia_area: "Qaruxia"
+ killingmack_area: "Killingmack"
+ denthra_siocana_area: "Denthra Siocana"
+ denthra_agriana_area: "Denthra Agriana"
+
+ #Egalia
+ western_orranderlos_area: "Western Orranderlos"
+ aveker_basin_area: "Aveker Basin"
+ seltikan_area: "Seltikan"
+ rulagre_area: "Rulagre"
+ miasuran_area: "Miasuran"
+ eastern_orranderlos_area: "Eastern Orranderlos"
+ ahtesuran_area: "Ahtesuran"
+ amsor_hinterlands_area: "Amsor Hinterlands"
+ kallitz_hills_area: "Kallitz Hills"
+ dorrestan_march_area: "Dorrestan March"
+ gunurma_area: "Gunurma"
+
+ #Raykara
+ orraeoft_area: "Orraeoft"
+ orrem_area: "Orrem"
+ karati_area: "Karati"
+ marsea_area: "Marsea"
+ kalei_peninsula_area: "Kalei Peninsula"
+
+ #Khuzdurin
+ useri_area: "Uséri"
+ chaureste_ridge_area: "Chaureste Ridge"
+ bethenk_dum_area: "Beþenk-dum"
+ dhaz_borderlands_area: "Dhaz Borderlands"
+ revanov_area: "Revanov"
+
+ #Argentor
+ ocinua_area: "Ocinua"
+ thikul_area: "Thikul"
+ urduclu_area: "Urduclu"
+ aventahl_area: "Aventahl"
+ erranmitahl_area: "Erranmitahl"
+ kemmertarn_area: "Kemmertarn"
+ noredi_area: "Noredi"
+ entiatahl_area: "Entiatahl"
+ lusiren_range_area: "Lusiren Range"
+ intorlai_area: "Intorlai"
+ lusiren_mount_area: "Lusiren Mount"
+ pasyren_area: "Pasyren"
+ arelyre_fields_area: "Arelyre Fields"
+ virnele_highlands_area: "Virnele Highlands"
+ virnele_lowlands_area: "Virnele Lowlands"
+ wyngale_area: "Wyngale"
+ arikosan_forest_area: "Arikosan Forest"
+ niedene_valley_area: "Niedene Valley"
+
+ #Escharia
+ drakonia_area: "Drakonia"
+ jaw_of_locetia_area: "Jaw of Locetia"
+ ondas_zanval_area: "Ondas Zanval"
+ oce_zanval_area: "Oce Zanval"
+ vast_soralai_area: "Vast Soralai"
+ solaraelle_area: "Solaraelle"
+ auberon_vale_area: "Auberon Vale"
+ lileanen_area: "Lileanen"
+ tessel_area: "Tessel"
+ tairiede_area: "Tairiede"
+
+ #Suderen
+ solea_area: "Soléa"
+ vernimai_area: "Vernimai"
+ sirrlai_area: "Sirrlai"
+ ezusried_area: "Ezusried"
+ serrelai_area: "Serrelai"
+ delwyn_area: "Delwyn"
+ suderenval_area: "Suderenval"
+
+ #Vraelea
+ northern_vraelea_area: "Northern Vraelea"
+ central_vraelea_area: "Central Vraelea"
+ southern_vraelea_area: "Southern Vraelea"
+
+ #Hithray
+ asverian_floodlands_area: "Asverian Floodlands"
+ northern_tashnayil_area: "Northern Tash'nayil"
+ southern_tashnayil_area: "Southern Tash'nayil"
+ wet_tatonia_area: "Wet Tatonia"
+ dry_tatonia_area: "Dry Tatonia"
+
+ #Kietees
+ duskbluff_area: "Duskbluff"
+ dawnriver_area: "Dawnriver"
+ utumno_area: "Utumno"
+ kaheren_valley_area: "Kaheren Valley"
+ octavos_last_stand_area: "Octavo's Land Stand"
+
+ #High Luthéa
+ cortera_area: "Cortera"
+ naxola_area: "Naxola"
+ serafini_proper_area: "Serafini Proper"
+ chimune_area: "Chimune"
+ woltanja_area: "Woltanja"
+ arbalon_area: "Arbalon"
+ qilath_area: "Qilath"
+ neck_of_leyth_area: "Neck of Leyth"
+ 

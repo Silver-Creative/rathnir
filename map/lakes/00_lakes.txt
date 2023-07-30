@@ -1,0 +1,12 @@
+
+#I've commented those out until someone edits the heightmap to go along with it
+#Nashair Rocht 
+#lake = {
+#	triangle_strip = {
+#        3494 1355 
+#		3504 1373 
+#		3519 1345 
+#		3532 1355 
+#	}
+#	height = 21
+#}

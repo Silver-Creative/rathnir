@@ -1,0 +1,26 @@
+# 62 - The Barrel
+
+owner = A00
+controller = A00
+add_core = A00
+
+culture = audalad
+religion = red_cult
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 5
+
+trade_goods = potions
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

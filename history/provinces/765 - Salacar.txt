@@ -1,0 +1,26 @@
+# 765 - Salacar
+
+owner = A35
+controller = A35
+add_core = A35
+
+culture = tyrian
+religion = sakrelism
+capital = ""
+
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = naval_supplies
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
