@@ -1,10 +1,77 @@
-#Rumours of a Caravan
-#normal_or_historical_nations = yes
 
+#normal_or_historical_nations = yes
+#### RUMOURS OF THE SECOND CARAVAN ####
 country_event = {
 	id = lirgal_happs.1
-	title = "lirgal_happs.t.1"
-	desc = "lirgal_happs.d.1"
+	title = lirgal_happs.1.t
+	desc = lirgal_happs.1.d
+	picture = lirgalcool_eventPicture
+	fire_only_once = yes
+	trigger = {
+		NOT = { exists = A21 }
+		owns_core_province = 262
+		is_year = 1444
+		NOT = { is_year = 1650 }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				262 = {
+					set_province_flag = second_caravan
+				}
+			}
+			every_country = {
+				limit = {
+					ai = no 
+					NOT = { tag = ROOT }
+					continent = Alteniquia
+				}
+				country_event = { id = lirgal_happs.100 }
+			}
+		}
+
+	}
+
+	option = {
+			name = lirgal_happs.1.a
+			custom_tooltip = lirgal_happs.1.a.tt
+		}
+
+}
+
+country_event = {
+	id = lirgal_happs.100
+	title = lirgal_happs.1.t
+	desc = lirgal_happs.1.d
+	picture = lirgalcool_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		always = yes			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = lirgal_happs.2.a
+		custom_tooltip = lirgal_happs.2.a.tt
+	}
+}
+
+
+#### LIRGAL FORMS ####
+country_event = {
+	id = lirgal_happs.2
+	title = "lirgal_happs.t.2"
+	desc = "lirgal_happs.d.2"
 	picture = lirgalcool_eventPicture
 	
 	fire_only_once = yes
@@ -38,7 +105,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "lirgal_happs.1.a"
+		name = "lirgal_happs.2.a"
 		create_march = A21
 	}
 }
