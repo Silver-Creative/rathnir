@@ -29,7 +29,7 @@ country_event = {
 				limit = {
 					ai = no 
 					NOT = { tag = ROOT }
-					continent = Alteniquia
+					continent = alteniquia
 				}
 				country_event = { id = lirgal_happs.100 }
 			}
