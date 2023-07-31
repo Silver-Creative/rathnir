@@ -1,5 +1,5 @@
 country_decisions = {
-
+## GLORY TO ASITIR SAGAVIR AND ALL ITS PEOPLES ##
 	aldoviri_nation = {
 		major = yes
 		potential = {
