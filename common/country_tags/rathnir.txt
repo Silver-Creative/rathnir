@@ -27,7 +27,7 @@ A17 = "countries/Kaithrat.txt"
 A18 = "countries/Vanakunir.txt"
 A19 = "countries/Ashor.txt"
 A20 = "countries/Myrmark.txt"
-A21 = "countries/Lirgal.txt" #shit country lmao
+A21 = "countries/Lirgal.txt"
 A22 = "countries/Carn.txt"
 A23 = "countries/Sveppareyja.txt"
 A24 = "countries/Volstronn.txt"
@@ -105,7 +105,7 @@ N01 = "countries/Soleanna.txt"
 #L00 = "countries/Vraelea.txt"
 #L01 = "countries/Lotus Empire.txt"
 
-#Sýltör - Yxx/Zss (No tag limit restriction)
+#Sï¿½ltï¿½r - Yxx/Zss (No tag limit restriction)
 
 #The North - Gxx/Fxx (Lowest possible tag starting with F is F20)
 
