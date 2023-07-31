@@ -514,7 +514,7 @@ vastallosi_group = {
 	}
 
 	dynasty_names = {
-		Konung "??palazNui" Vagranti "af Kronborg" Yolcotl
+		Konung Vagranti "af Kronborg" Yolcotl 				#"??palazNui" wtf is this whiskey
 	}
 	male_names = {
 		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
@@ -609,7 +609,7 @@ talawan_group = {
 	}
 
 	female_names = {
-		Ogadeen Wurmbo Aruna
+		Ogadeen Wurmbo Aruna Joan Yanni
 	}
 
 }
@@ -770,11 +770,11 @@ ardatian_group = {
 	}
 
 	male_names = {
-		Sas Sasan Cyrus Cyr Cesar Altair Fabian Ismael Dain
+		Sas Sasan Cyrus Cyr Cesar Altair Fabian Ismael Dain Bosori Cus
 	}
 
 	female_names = {
-		Dalatra Isali "Xylapax bin" Tasha Aura Rosajad
+		Dalatra Isali "Xylapax bin" Tasha Aura Rosajad Manyira
 	}
 }
 
