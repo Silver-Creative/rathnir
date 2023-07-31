@@ -9,7 +9,7 @@
 #Audal ideas
 A00_ideas = {
 	start = {
-		prestige_decay = -0.05
+		prestige_decay = -0.01
 		diplomatic_reputation = 1
 	}
 
