@@ -1,5 +1,5 @@
 country_decisions = {
-
+## this was our little golden age ##
 	astyllean_nation = {
 		major = yes
 		potential = {
@@ -37,7 +37,7 @@ country_decisions = {
 				province_id = 408		# Urnu-Arrak
 				province_id = 382		# Theiotokos
 				province_id = 327		# Jirn
-                province_id = 321       # Tálor
+                province_id = 321       # Tï¿½lor
                 province_id = 224       # Azethvir
 			}
 			OR = {
@@ -53,7 +53,7 @@ country_decisions = {
 			owns_core_province = 327		# Jirn
 			owns_core_province = 382		# Theiotokos
 			owns_core_province = 408		# Urnu-Arrak
-            owns_core_province = 321        # Tálor
+            owns_core_province = 321        # Tï¿½lor
             owns_core_province = 224        # Azethvir
 			408 = {							# Urnu-Arrak
 				is_state = yes

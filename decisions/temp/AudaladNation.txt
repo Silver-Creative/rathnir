@@ -1,5 +1,5 @@
 country_decisions = {
-
+## i love mistic i love mistic best empress of astyllea ##
 	audalad_nation = {
 		major = yes
 		potential = {
