@@ -1,5 +1,5 @@
 country_decisions = {
-
+## GLORY TO ASITIR LAPIDOVIR AND ... i forgot the title of the lapidosan guy but LAPIDOSAN GUY SCORPION KING ##
 	aldoviri_nation = {
 		major = yes
 		potential = {
