@@ -49,7 +49,6 @@ country_event = {
 	title = lirgal_happs.1.t
 	desc = lirgal_happs.1.d
 	picture = lirgalcool_eventPicture
-	
 	is_triggered_only = yes
 
 	trigger = {
@@ -81,9 +80,14 @@ country_event = {
 		owns_core_province = 262
         is_year = 1450
         NOT = { is_year = 1650 }
+		if = {
+			262 = {
+				has_province_flag = second_caravan
+			}
+		}
 	}
 	mean_time_to_happen = {
-		months = 600
+		months = 2
 	}
 	immediate = {
 		hidden_effect = {
@@ -91,6 +95,9 @@ country_event = {
 				262 = {
 					add_core = A21
 				}
+				755 = {
+					add_core = A21
+				}	
 				release = A21
 				A21 = {
 					adopt_reform_progress = ROOT
