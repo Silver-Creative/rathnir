@@ -1,5 +1,5 @@
 country_decisions = {
-
+## more like essuckdal ##
 	essukdalad_nation = {
 		major = yes
 		potential = {
