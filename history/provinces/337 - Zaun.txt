@@ -1,10 +1,10 @@
-# 1377 - Costarion
+# 337 - Zaun
 
-owner = B09
-controller = B09
-add_core = B09
+owner = B16
+controller = B16
+add_core = B16
 
-culture = knossian
+culture = masgar
 religion = sanderosa
 capital = ""
 
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = gems
+trade_goods = livestock
 
 is_city = yes
 fort_15th = no

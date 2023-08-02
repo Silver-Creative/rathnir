@@ -335,7 +335,7 @@ province;red;green;blue;x;x
 334;229;91;91;Rumus;x
 335;216;86;86;Gretra;x
 336;204;81;81;Saios;x
-337;191;76;76;Pirtig;x
+337;191;76;76;Zaun;x
 338;179;216;86;Aston;x
 339;169;204;81;Patrija-Anatur;x
 340;158;191;76;Patrija-Vastur;x
@@ -366,7 +366,7 @@ province;red;green;blue;x;x
 365;140;99;42;Jeolban;x
 366;178;62;62;Waahi;x
 367;153;53;53;Nisia Gatas;x
-368;165;58;58;Venlora;x
+368;165;58;58;Zoúnkla;x
 369;191;66;66;Kota Mewah;x
 370;204;71;71;Chapeco;x
 371;216;75;75;Metekelo;x
@@ -1362,7 +1362,7 @@ province;red;green;blue;x;x
 1361;210;140;63;Ravenatta;x
 1362;216;150;63;Vioncarra;x
 1363;186;147;62;Tacanûma;x
-1364;190;132;56;Zaun;x
+1364;190;132;56;Pirtig;x
 1365;210;84;90;Casato;x
 1366;215;84;74;Voulonos Mensaggei;x
 1367;58;145;210;Keremanna;x
@@ -1375,7 +1375,7 @@ province;red;green;blue;x;x
 1374;255;204;44;Madinatta;x
 1375;255;119;112;Pedazzos;x
 1376;222;192;54;Eponia;x
-1377;239;207;158;Costarion;x
+1377;239;207;158;Venlora;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x

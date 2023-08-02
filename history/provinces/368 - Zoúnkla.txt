@@ -1,20 +1,20 @@
-# 337 - Pirtig
+# 368 - Zoúnkla
 
-owner = B16
-controller = B16
-add_core = B16
+owner = B23
+controller = B23
+add_core = B23
 
-culture = masgar
-religion = sanderosa
+culture = kawalapuan
+religion = cardinalism
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 
-trade_goods = livestock
+trade_goods = cocoa
 
 is_city = yes
 fort_15th = no

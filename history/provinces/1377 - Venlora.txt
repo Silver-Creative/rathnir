@@ -1,20 +1,20 @@
-# 368 - Venlora
+# 1377 - Venlora
 
-owner = B23
-controller = B23
-add_core = B23
+owner = B09
+controller = B09
+add_core = B09
 
-culture = kawalapuan
-religion = cardinalism
+culture = knossian
+religion = sanderosa
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
 
-trade_goods = cocoa
+trade_goods = gems
 
 is_city = yes
 fort_15th = no

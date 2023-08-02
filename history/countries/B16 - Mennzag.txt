@@ -9,7 +9,8 @@ national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Iloel de Maraii"
+		name = "Iloel"
+		dynasty = "de Maraii"
 		birth_date = 1401.7.3
 		adm = 1
 		dip = 2
