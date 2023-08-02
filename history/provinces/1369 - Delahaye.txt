@@ -1,10 +1,10 @@
-# 340 - Patrija
+# 1369 - Delahaye
 
-owner = B10
-controller = B10
-add_core = B10
+owner = B02
+controller = B02
+add_core = B02
 
-culture = knossian
+culture = asturcian
 religion = sanderosa
 capital = ""
 
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = cocoa
+trade_goods = fruits
 
 is_city = yes
 fort_15th = no

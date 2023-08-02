@@ -9,7 +9,8 @@ national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Inorico Reállos"
+		name = "Inorico"
+		dynasty = "Reállos"
 		birth_date = 1401.7.3
 		adm = 3
 		dip = 5

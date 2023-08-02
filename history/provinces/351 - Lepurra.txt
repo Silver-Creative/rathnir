@@ -1,20 +1,20 @@
-# 368 - Venlora
+# 351 - Lepurra
 
-owner = B23
-controller = B23
-add_core = B23
+owner = B08
+controller = B08
+add_core = B08
 
-culture = kawalapuan
-religion = cardinalism
+culture = masgar
+religion = sanderosa
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 3
+base_tax = 1
+base_production = 1
 base_manpower = 1
 
-trade_goods = cocoa
+trade_goods = lapis_lazuli
 
 is_city = yes
 fort_15th = no

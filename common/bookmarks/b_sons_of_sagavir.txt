@@ -1,0 +1,21 @@
+bookmark = {
+
+    name = "SONS_OF_SAGAVIR_NAME"
+    desc = "SONS_OF_SAGAVIR_DESC"
+    date = 1444.1.1
+
+    center = 262
+    default = no
+
+    country = A12
+    country = A11
+    country = A10
+    country = A39
+    country = A14
+    country = A31
+    country = A32
+
+    easy_country = A12
+    easy_country = A11
+    
+}

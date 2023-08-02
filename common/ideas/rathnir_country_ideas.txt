@@ -319,7 +319,93 @@ A10_ideas = {
 	}
 }
 
-#Escharian Ideas
+#Týrian League ideas
+A39_ideas = {
+	start = {
+		development_cost = -0.05
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+
+	trigger = {
+		OR = {
+			tag = A39 #Týrian League
+		}
+	}
+	free = yes		#will be added at load.
+
+	A39_indigenous_inhabitants = {
+		infantry_power = 0.1
+	}
+	A39_tyrian_minds = {
+		technology_cost = -0.1
+	}
+	A39_in_the_shadow_of_giants = {
+		manpower_recovery_speed = 0.1
+		defensiveness = 0.1
+	}
+	A39_skilled_in_the_arts = {
+		global_trade_power = 0.1
+		production_efficiency = 0.05
+	}
+	A39_terror_upon_the_sivan = {
+		galley_power = 0.1
+		privateer_efficiency = 0.1
+	}
+	A39_three_cities = {
+		improve_relation_modifier = 0.1
+		diplomats = 1
+	}
+	A39_devoted_to_sakrelith = {
+		tolerance_own = 2
+		missionaries = 1
+	}
+
+}
+
+#Knossian ideas
+B09_ideas = {
+    start = {
+        drill_gain_modifier = 0.50
+        land_maintenance_modifier  = -0.1    
+    }
+    bonus = {
+        discipline = 0.05
+    }
+
+    trigger = {
+        OR = {
+            tag = B09 #Knossos
+        }
+    }
+    free = yes        #will be added at load.
+
+    B09_knossian_pride = {
+        war_exhaustion  = -0.03
+    }
+    B09_place_in_sun = {
+        prestige_decay = -0.01 
+    }
+    B09_ephor = {
+        core_creation = -0.15
+    }
+    B09_rise = {
+        power_projection_from_insults = 1
+    }
+    B09_best_of_best = {
+        infantry_power = 0.1
+    }
+    B09_prophecy = {
+        missionary_maintenance_cost = -0.25
+    }
+    B09_orders = {
+        possible_condottieri = 1
+    }
+}
+
+#Escharian ideas
 N00_ideas = {
 	start = {
 		discipline = 0.05

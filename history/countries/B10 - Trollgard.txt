@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = knossian
 religion = sanderosa
 technology_group = tech_vastallosi
-capital = 344 #Kvitbyr
+capital = 1338 #Kronborg
 national_focus = MIL
 
 1444.1.1 = {

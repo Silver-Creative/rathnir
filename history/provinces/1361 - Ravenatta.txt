@@ -1,20 +1,20 @@
-# 324 - Dehlic Fields
+# 1361 - Ravenatta
 
-owner = B02
-controller = B02
-add_core = B02
+owner = B00
+controller = B00
+add_core = B00
 
-culture = asturcian
-religion = sakrelism
+culture = carvayan
+religion = theiosism
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 3
-base_manpower = 4
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-trade_goods = grain
+trade_goods = naval_supplies
 
 is_city = yes
 fort_15th = no

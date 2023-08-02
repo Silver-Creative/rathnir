@@ -5,7 +5,7 @@ controller = B11
 add_core = B11
 
 culture = knossian
-religion = sanderosa
+religion = noxism
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 9
 base_production = 9
 base_manpower = 5
 
-trade_goods = grain
+trade_goods = glass
 center_of_trade = 2
 
 is_city = yes

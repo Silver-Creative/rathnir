@@ -699,14 +699,4 @@ spriteTypes = {
 		noOfFrames = 3
 	}
 
-	### Rathnir
-	spriteType = {
-		name = "GFX_diplomacy_leadkatasa"
-		texturefile = "gfx//interface//diplomacy//icon_diplomacy_lead_katasa.dds"
-	}
-	spriteType = {
-		name = "GFX_diplomacy_amkatasa"
-		texturefile = "gfx//interface//diplomacy//icon_diplomacy_am_katasa.dds"
-	}
-
 }

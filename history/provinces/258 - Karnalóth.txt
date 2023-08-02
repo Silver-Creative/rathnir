@@ -2,7 +2,7 @@
 
 owner = A29
 controller = A29
-add_core = A10
+add_core = A29
 
 culture = myyraa
 religion = willowpact

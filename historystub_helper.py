@@ -35,7 +35,8 @@ religion_map = {
     "SparNative": "norse",
     "Tossanism": "tossanism",
     "Abyss Mysticism": "abyss_mysticism",
-    "Willowpact": "willowpact"
+    "Willowpact": "willowpact",
+    "Noxism": "noxism"
 }
 
 def f_remove_accents(old):

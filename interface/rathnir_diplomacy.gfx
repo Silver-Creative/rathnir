@@ -1,0 +1,16 @@
+spriteTypes = {
+    
+    ### ENOSERON
+    spriteType = {
+        name = "GFX_diplomacy_lead_enoseron"
+        texturefile = "gfx/interface/diplomacy/icon_diplomacy_lead_enoseron.dds"
+    }
+    spriteType = {
+        name = "GFX_diplomacy_am_enoseron"
+        texturefile = "gfx/interface/diplomacy/icon_diplomacy_am_enoseron.dds"
+    }
+    spriteType = {
+        name = "GFX_icon_enoseron"
+        texturefile = "gfx/interface/diplomacy/icon_enoseron.dds"
+    }
+}

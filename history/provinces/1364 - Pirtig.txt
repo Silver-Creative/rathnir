@@ -1,8 +1,8 @@
-# 351 - Lepus
+# 1364 - Pirtig
 
-owner = B08
-controller = B08
-add_core = B08
+owner = B14
+controller = B14
+add_core = B14
 
 culture = masgar
 religion = sanderosa
@@ -14,7 +14,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = lapis_lazuli
+trade_goods = sugar
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

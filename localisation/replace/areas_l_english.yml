@@ -242,25 +242,36 @@
 
  #Inner Vastallos
  asturcia_area: "Asturcia"
+ marchia_asturciana_area: "Marchia Asturciana"
+ verroryia_area: "Verroryia"
  valtesia_area: "Valtesia"
+ griffinview_area: "Griffinview"
  ravenus_area: "Ravenus"
  mamacaoca_area: "Mamacaoca"
+ mennzag_area: "Mennzág"
  marchia_carvayana_area: "Marchia Carvayana"
+ astaiosa_area: "Astaiosa"
  carvay_area: "Carvay"
+ qamigava_area: "Qâmigava"
  ombran_islands_area: "Ombran Islands"
 
  #Outer Vastallos
- masgar_area: "Masgar"
+ high_dracade_area: "High Dracade"
+ fruila_area: "Fruila"
  trollstrait_area: "Trollstrait"
  dragonbay_area: "The Dragonbay"
  stensta_area: "Stensta"
  palaios_knossos_area: "Palaios Knossos"
  neos_knossos_area: "Neos Knossos"
- kawalapua_area: "Kawalapua"
+ western_kawalapua_area: "Western Kawalapua"
+ eastern_kawalapua_area: "Eastern Kawalapua"
+ knossian_islands_area: "Knossian Islands"
 
  #Arm of Vastallos
+ denthra_esparra_area: "Denthra Esparra"
+ atlahua_area: "Atlahua"
  qaruxia_area: "Qaruxia"
- killingmack_area: "Killingmack"
+ denthra_gorcana_area: "Denthra Gorcana"
  denthra_siocana_area: "Denthra Siocana"
  denthra_agriana_area: "Denthra Agriana"
 

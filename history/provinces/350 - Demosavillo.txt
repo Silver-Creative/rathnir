@@ -1,8 +1,8 @@
 # 350 - Demosavillo
 
-owner = B07
-controller = B07
-add_core = B07
+owner = B08
+controller = B08
+add_core = B08
 
 culture = masgar
 religion = sanderosa

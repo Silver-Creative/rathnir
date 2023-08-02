@@ -1,20 +1,20 @@
-# 348 - Clukios
+# 1370 - Siavena
 
-owner = B07
-controller = B07
-add_core = B07
+owner = B02
+controller = B02
+add_core = B02
 
-culture = stenstan
+culture = asturcian
 religion = sanderosa
 capital = ""
 
 hre = no
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-trade_goods = grain
+trade_goods = wine
 
 is_city = yes
 fort_15th = no
