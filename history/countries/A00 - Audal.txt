@@ -1,4 +1,3 @@
-
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
@@ -7,8 +6,8 @@ add_accepted_culture = theioniki
 add_accepted_culture = anoshphite
 religion = hukar_sharud
 technology_group = tech_alteniquian
-historical_rival = A01 #Theiónikos
-historical_friend = A03 #Tàlor
+historical_rival = A01 #Theiï¿½nikos
+historical_friend = A03 #Tï¿½lor
 capital = 70 #Urnu-Arrak
 national_focus = DIP
 
