@@ -19,7 +19,7 @@ A00_ideas = {
 
     trigger = {
         OR = {
-            tag = A00 #Anòshphéy
+            tag = A00 #Anï¿½shphï¿½y
         }
     }
     free = yes		#will be added at load.
@@ -50,7 +50,7 @@ A00_ideas = {
 	}
 }
 
-#Theiónikos ideas
+#Theiï¿½nikos ideas
 A01_ideas = {
 	start = {
 		missionary_maintenance_cost = -0.2
@@ -63,7 +63,7 @@ A01_ideas = {
 
 	trigger = {
         OR = {
-            tag = A01 #Theiónikos
+            tag = A01 #Theiï¿½nikos
 			tag = A09 #Theios-Essukdal
         }
     }
@@ -96,7 +96,7 @@ A01_ideas = {
 
 }
 
-#Anòshphéy ideas
+#Anï¿½shphï¿½y ideas
 A02_ideas = {
     start = {
         build_cost = -0.1
@@ -109,7 +109,7 @@ A02_ideas = {
 
     trigger = {
         OR = {
-            tag = A02 #Anòshphéy
+            tag = A02 #Anï¿½shphï¿½y
         }
     }
     free = yes		#will be added at load.
@@ -147,7 +147,7 @@ A02_ideas = {
 	}
 }
 
-#Tálor ideas
+#Tï¿½lor ideas
 A03_ideas = {
 	start = {
 		naval_maintenance_modifier = -0.25
@@ -160,7 +160,7 @@ A03_ideas = {
 
 	trigger = {
         OR = {
-            tag = A03 #Tálor
+            tag = A03 #Tï¿½lor
         }
     }
     free = yes		#will be added at load.
@@ -319,7 +319,49 @@ A10_ideas = {
 	}
 }
 
-#Týrian League ideas
+#Lirgalyn ideas
+A21_ideas = {
+    start = {
+        global_trade_goods_size_modifier = 0.1
+        spy_offence = 0.2
+    }
+    
+    bonus = {
+        idea_cost = -0.025  
+    }
+    
+    trigger = {
+        tag = A21
+    }
+    free = yes
+    
+    a_brand_new_home = {
+        defensiveness = 0.1
+        land_morale = 0.1
+    }
+    masters_of_arcana = {
+        technology_cost = -0.1
+    }
+	    land_beloved_by_all = {
+         diplomatic_upkeep = 1
+    }
+    seraani_diplomacy = {
+        diplomatic_reputation = 1
+        prestige_decay = 0.01
+    }
+    busy_bee_like = {
+        build_time = -0.2    
+    }
+    benevolent_tyrants = {
+        liberty_desire = -10
+    }
+    lirgal_stands = {
+        discipline = 0.05
+        global_unrest = -1        
+    }
+}
+
+#Tï¿½rian League ideas
 A39_ideas = {
 	start = {
 		development_cost = -0.05
@@ -331,7 +373,7 @@ A39_ideas = {
 
 	trigger = {
 		OR = {
-			tag = A39 #Týrian League
+			tag = A39 #Tï¿½rian League
 		}
 	}
 	free = yes		#will be added at load.
