@@ -4,7 +4,7 @@ owner = B01
 controller = B01
 add_core = B01
 
-culture = asturcian
+culture = carvayan
 religion = sanderosa
 capital = ""
 

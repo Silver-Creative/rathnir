@@ -4,7 +4,7 @@ owner = B06
 controller = B06
 add_core = B06
 
-culture = stenzzan
+culture = stenstan
 religion = sanderosa
 capital = ""
 

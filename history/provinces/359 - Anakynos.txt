@@ -4,7 +4,7 @@ owner = B18
 controller = B18
 add_core = B18
 
-culture = knossian
+culture = masgar
 religion = sanderosa
 capital = ""
 

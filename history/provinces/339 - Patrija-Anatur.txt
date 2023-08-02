@@ -4,7 +4,7 @@ owner = B14
 controller = B14
 add_core = B14
 
-culture = knossian
+culture = masgar
 religion = sanderosa
 capital = ""
 
