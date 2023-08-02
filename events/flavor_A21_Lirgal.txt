@@ -9,13 +9,17 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		NOT = { exists = A21 }
-		owns_core_province = 262
-		is_year = 1444
-		NOT = { is_year = 1650 }
+		owns_or_subject_of = 262
+		OR = {
+			religion = sakrelism
+			religion = etherflame
+			religion = aegmerism
+			religion = theiosism
+		}
 	}
 	
 	mean_time_to_happen = {
-		days = 30
+		months = 6
 	}
 
 	immediate = {
@@ -70,18 +74,16 @@ country_event = {
 
 #### LIRGAL FORMS ####
 country_event = {
-	id = lirgal_happs.2
-	title = lirgal_happs.t.2
-	desc = lirgal_happs.d.2
+	id = lirgal_happs.201
+	title = lirgal_happs.t.201
+	desc = lirgal_happs.d.201
 	picture = lirgalcool_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
 		NOT = { exists = A21 }
-		owns_core_province = 262
-        is_year = 1450
-        NOT = { is_year = 1650 }
+		owns_or_subject_of = 262
 		if = {
 			262 = {
 				has_province_flag = second_caravan
@@ -89,32 +91,302 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 2
+		months = 10
 	}
 	immediate = {
 		hidden_effect = {
 			if = {
 				262 = {
 					add_core = A21
+					change_religion = asitir
+					change_culture = lirgalyn
+					clr_province_flag =  second_caravan
 				}
 				755 = {
 					add_core = A21
-				}	
-				release = A21
-				A21 = {
-					adopt_reform_progress = ROOT
-					capital_scope = {
-						build_to_forcelimit = {
-							infantry = 0.8
-							cavalry = 0.1
-						}
-					}
+					change_religion = asitir
+					change_culture = lirgalyn
+				}
+				753 = {
+					add_core = A21
+					change_religion = asitir
+					change_culture = lirgalyn
+				}
+				261 = {
+					change_religion = asitir
+					change_culture = lirgalyn
+				}
+				754 = {
+					change_religion = asitir
+					change_culture = lirgalyn
 				}
 			}
 		}
 	}
+
 	option = {
-		name = "lirgal_happs.2.a"
+		name = lirgal_happs.2.a
+		trigger = {
+			NOT = {
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = lirgal_happs.2.b
+		trigger = {
+			NOT = {
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
+		switch_tag = A21
+	}
+
+	option = {
+		name = lirgal_happs.2.c
+		trigger = {
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = lirgal_happs.2.d
+		trigger = {
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
+		switch_tag = A21
+	}
+
+	option = {
+		name = lirgal_happs.2.e
+		trigger = {
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
 		create_march = A21
 	}
+
+	option = {
+		name = lirgal_happs.2.f
+		trigger = {
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = { change_province_name = "Lirgal" }
+		release = A21
+		A21 = {
+			adopt_reform_progress = ROOT
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.1
+				}
+			}
+		}
+		create_march = A21
+		switch_tag = A21
+	}
+
+	option = {
+		name = lirgal_happs.2.g
+		trigger = {
+			AND = {
+				owns_or_subject_of = 755
+				owns_or_subject_of = 753
+			}
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				unrest = 2
+				separatists_target = A21
+				win = yes
+			}
+		}
+		755 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				separatists_target = A21
+			}
+		}
+		753 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				separatists_target = A21
+			}
+		}
+	}
+
+	option = {
+		name = lirgal_happs.2.g
+		trigger = {
+			AND = {
+				owns_or_subject_of = 753
+			}
+			OR ={
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		262 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				unrest = 2
+				separatists_target = A21
+				win = yes
+			}
+		}
+		753 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				separatists_target = A21
+			}
+		}
+		755 = {
+			set_province_flag = lirgal.demands.a
+		}
+	}
+
+	option = {
+		name = lirgal_happs.2.g
+		trigger = {
+			AND = {
+				owns_or_subject_of = 755
+			}
+			OR = {
+				manpower_percentage = 0.6
+				stability = 1
+			}
+		}
+		if = {
+			262 = {
+				spawn_rebels = {
+					size = 1
+					type = nationalist_rebels
+					culture = lirgalyn
+					religion = asitir
+					unrest = 2
+					separatists_target = A21
+					win = yes
+				}
+			}
+			755 = {
+				spawn_rebels = {
+					size = 1
+					type = nationalist_rebels
+					culture = lirgalyn
+					religion = asitir
+					separatists_target = A21
+				}
+			}
+			753 = { set_province_flag = lirgal_demands.b }
+		}
+	}
+
+	option = {
+		name = lirgal_happs.2.h
+		trigger = {
+			NOT = { owns_or_subject_of = 753 }
+			NOT = { owns_or_subject_of = 755 }
+		}
+		262 = {
+			spawn_rebels = {
+				size = 1
+				type = nationalist_rebels
+				culture = lirgalyn
+				religion = asitir
+				separatists_target = A21
+			}
+		}
+		755 = { set_province_flag = lirgal_demands.a }
+		753 = { set_province_flag = lirgal_demands.b }
+	}
 }
+

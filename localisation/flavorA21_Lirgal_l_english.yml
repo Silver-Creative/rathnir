@@ -3,4 +3,12 @@
  lirgal_happs.1.d: "Rumours of a caravan have travelled the countries of Alteniquia. Coming from the continent of Syltör, it seems to be made of a variety of peoples, all following a similar creed and faith. On their way, they have befriended and traded with all Alteniquians, but quickly left every city and town they passed through."
  lirgal_happs.1.a: "A most curious happening."
  lirgal_happs.1.a.tt: "The Second Seraan caravan travels through Alteniquia, hoping to find a new land to inhabit."
- 
+ lirgal_happs.t.201: "The demand of the Lirgalyn"
+ lirgal_happs.d.201: "Though..."
+ lirgal_happs.2.a: "weak release"
+ lirgal_happs.2.b: "weak switch"
+ lirgal_happs.2.c: "release"
+ lirgal_happs.2.d: "release switch"
+ lirgal_happs.2.e: "vassal"
+ lirgal_happs.2.f: "vassal switch"
+ lirgal_happs.2.g: "rebels"
