@@ -180,7 +180,7 @@ alteniquian = {
 			215 #Roscella - Sanctum of the Mother
 			285 #Athazolant - Sanctum of the Scholar
 			325 #Asturcia - Grand Temple of the North
-		 	279 #Lumaire (NOT ADDED YET, temp. replaced by Levýatanna) - Grand Temple of the South
+		 	279 #Lumaire (NOT ADDED YET, temp. replaced by Levï¿½atanna) - Grand Temple of the South
 			673 #Serafini - Grand Temple of the East
 		}
 
@@ -317,7 +317,7 @@ alteniquian = {
 				}
 			}
 
-			monath = {		#Monáth, Angel of Holy War and Penance
+			monath = {		#Monï¿½th, Angel of Holy War and Penance
 				land_morale = 0.1
 				war_exhaustion = -0.02
 
@@ -706,7 +706,7 @@ elven = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 654 #Lhûmar (NOT ADDED YET, temp. replaced by Thinking Palace)
+	center_of_religion = 654 #Lhï¿½mar (NOT ADDED YET, temp. replaced by Thinking Palace)
 
 	twin_dragon = {
 		color = { 214 229 140 }
@@ -850,7 +850,7 @@ feybound = {
 		country = {
 			attack_bonus_in_capital_terrain = 2
 			land_attrition = -0.10
-			liberty_desire = -25
+			liberty_desire = -100
 		}
 		country_as_secondary = {
 			land_attrition = -0.10

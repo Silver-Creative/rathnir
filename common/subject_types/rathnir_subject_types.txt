@@ -96,9 +96,9 @@ enoseron = {
 	seize_territory = no
 
 	# (enable)
-	contribute_to_capital = yes
+	contribute_to_capital = no
 	return_land = yes
-	conscript_general = yes
+	conscript_general = no
 	
 	### Modifiers:
 	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal

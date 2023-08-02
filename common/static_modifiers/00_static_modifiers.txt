@@ -2277,7 +2277,4 @@ enoseron_subject = {
 }
 
 enoseron_overlord = {
-	diplomatic_upkeep = -0.15
-	can_declare_war = no
-	global_tax_income = 0.25
 }
