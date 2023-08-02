@@ -1,25 +1,23 @@
 country_decisions = {
-## GLORY TO ASITIR LAPIDOVIR AND ... i forgot the title of the lapidosan guy but LAPIDOSAN GUY SCORPION KING ##
 	aldoviri_nation = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_aldovir_flag }
+			NOT = { exists = A95 }
+			NOT = { 
+				OR = {
+					culture_group = miremen_group
+					religion = willowpact
+				}
+			}
+			capital_scope = {
+				superregion = aldovir_superregion
+			}
+			is_colonial_nation = no
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			#OR = {
-			#	is_free_or_tributary_trigger = yes
-			#	ai = no
-			#}
-			NOT = { exists = A39 }
-			#OR = {
-			#	culture = theionikan
-			#	culture = audalad
-			#}
-			#religion = theiosism
-			culture_group = sagaviri_group
-			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
@@ -32,10 +30,12 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 231		# Artorianna
-				province_id = 227		# Arstedanna
-                province_id = 1749      # Asourtherak
-                province_id = 224       # Azethvir
+				province_id = 321		# Lapidovir
+				province_id = 271		# Sakothýr
+                province_id = 215       # Roscella
+                province_id = 244       # Azethvir
+				province_id = 219		# Evansyllo
+				province_id = 257		# Myrmark
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -47,20 +47,17 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 231		# Artorianna
-			owns_core_province = 227		# Arstedanna
-            owns_core_province = 1749       # Asourtherak
-            owns_core_province = 224        # Azethvir
-			227 = {							# Arstedanna
-				is_state = yes
-			}
-            224 = {							# Azethvir
-				is_state = yes
-			}
+			NOT = { exists = A95 }
+			owns_core_province = 321		# Lapidovir
+			owns_core_province = 271		# Sakothýr
+            owns_core_province = 215        # Roscella
+            owns_core_province = 244        # Azethvir
+			owns_core_province = 219		# Evansyllo
+			owns_core_province = 257		# Myrmark
 		}
 		effect = {
 			hidden_effect = { restore_country_name = yes }
-			change_tag = A25
+			change_tag = A95
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -69,11 +66,11 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			iberia_region = {
+			aldovir_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = A25
+				add_permanent_claim = A95
 			}
 			add_prestige = 25
 			add_country_modifier = {
@@ -81,20 +78,15 @@ country_decisions = {
 				duration = 7300
 			}
 			set_country_flag = formed_aldovir_flag
-			#if = {
-			#	limit = { 
-			#		has_custom_ideas = no
-			#		NOT = { has_idea_group = GBR_ideas }
-			#	}
-			#	country_event = { id = ideagroups.1 } #Swap Ideas
-			#}
+			if = {
+				limit = { 
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				is_at_war = yes
-			}
 		}
 		#ai_importance = 400
 	}
