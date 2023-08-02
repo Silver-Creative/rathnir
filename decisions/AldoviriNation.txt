@@ -50,11 +50,11 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 5
+			adm_tech = 7
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			NOT = { exists = A95 }
+			NOT = { exists = A95 } #Aldovir
 			owns_core_province = 321		# Lapidovir
 			owns_core_province = 271		# Sakothýr
             owns_core_province = 215        # Roscella
