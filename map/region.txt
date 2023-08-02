@@ -164,11 +164,15 @@ talor_region = {
 inner_vastallos_region = {
 	areas = {
 		asturcia_area
+		marchia_asturciana_area
+		verroryia_area
 		valtesia_area
+		griffinview_area
 		ravenus_area
 		mamacaoca_area
 		marchia_carvayana_area
 		carvay_area
+		qamigava_area
 
 		ombran_islands_area
 	}
@@ -176,20 +180,24 @@ inner_vastallos_region = {
 
 outer_vastallos_region = {
 	areas = {
-		masgar_area
+		high_dracade_area
+		fruila_area
 		trollstrait_area
 		dragonbay_area
 		stensta_area
 		palaios_knossos_area
 		neos_knossos_area
-		kawalapua_area
+		western_kawalapua_area
+		eastern_kawalapua_area
 	}
 }
 
 arm_of_vastallos_region = {
 	areas = {
+		denthra_esparra_area
+		atlahua_area
 		qaruxia_area
-		killingmack_area
+		denthra_gorcana_area
 		denthra_siocana_area
 		denthra_agriana_area
 	}
