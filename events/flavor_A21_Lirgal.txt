@@ -16,10 +16,12 @@ country_event = {
 			religion = aegmerism
 			religion = theiosism
 		}
+		is_year = 1460
+		NOT = { is_year = 1650 }
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 60
 	}
 
 	immediate = {
@@ -40,9 +42,7 @@ country_event = {
 				country_event = { id = lirgal_happs.100 }
 			}
 		}
-
 	}
-
 	option = {
 			name = lirgal_happs.1.a
 			custom_tooltip = lirgal_happs.1.a.tt
@@ -91,7 +91,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 10
+		months = 5
 	}
 	immediate = {
 		hidden_effect = {
@@ -133,6 +133,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+		753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -154,6 +166,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+		753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -176,6 +200,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+				753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -197,6 +233,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+				753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -219,6 +267,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+		753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -241,6 +301,18 @@ country_event = {
 			}
 		}
 		262 = { change_province_name = "Lirgal" }
+		753 = {
+			if = {
+				limit = { NOT = { owns = ROOT} }
+				set_province_flag = lirgal_demands.a
+			}
+		}
+		755 = {
+			if = {
+				limit = { NOT = { owns = ROOT } }
+				set_province_flag = lirgal_demands.b
+			}
+		}		
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
@@ -258,135 +330,49 @@ country_event = {
 	option = {
 		name = lirgal_happs.2.g
 		trigger = {
-			AND = {
-				owns_or_subject_of = 755
-				owns_or_subject_of = 753
-			}
-			OR ={
-				manpower_percentage = 0.6
-				stability = 1
-			}
-		}
-		262 = {
-			spawn_rebels = {
-				size = 1
-				type = nationalist_rebels
-				culture = lirgalyn
-				religion = asitir
-				unrest = 2
-				separatists_target = A21
-				win = yes
-			}
-		}
-		755 = {
-			spawn_rebels = {
-				size = 1
-				type = nationalist_rebels
-				culture = lirgalyn
-				religion = asitir
-				separatists_target = A21
-			}
-		}
-		753 = {
-			spawn_rebels = {
-				size = 1
-				type = nationalist_rebels
-				culture = lirgalyn
-				religion = asitir
-				separatists_target = A21
-			}
-		}
-	}
-
-	option = {
-		name = lirgal_happs.2.g
-		trigger = {
-			AND = {
-				owns_or_subject_of = 753
-			}
-			OR ={
-				manpower_percentage = 0.6
-				stability = 1
-			}
-		}
-		262 = {
-			spawn_rebels = {
-				size = 1
-				type = nationalist_rebels
-				culture = lirgalyn
-				religion = asitir
-				unrest = 2
-				separatists_target = A21
-				win = yes
-			}
-		}
-		753 = {
-			spawn_rebels = {
-				size = 1
-				type = nationalist_rebels
-				culture = lirgalyn
-				religion = asitir
-				separatists_target = A21
-			}
-		}
-		755 = {
-			set_province_flag = lirgal.demands.a
-		}
-	}
-
-	option = {
-		name = lirgal_happs.2.g
-		trigger = {
-			AND = {
-				owns_or_subject_of = 755
-			}
 			OR = {
 				manpower_percentage = 0.6
 				stability = 1
 			}
 		}
-		if = {
-			262 = {
-				spawn_rebels = {
-					size = 1
-					type = nationalist_rebels
-					culture = lirgalyn
-					religion = asitir
-					unrest = 2
-					separatists_target = A21
-					win = yes
-				}
-			}
-			755 = {
-				spawn_rebels = {
-					size = 1
-					type = nationalist_rebels
-					culture = lirgalyn
-					religion = asitir
-					separatists_target = A21
-				}
-			}
-			753 = { set_province_flag = lirgal_demands.b }
-		}
-	}
-
-	option = {
-		name = lirgal_happs.2.h
-		trigger = {
-			NOT = { owns_or_subject_of = 753 }
-			NOT = { owns_or_subject_of = 755 }
-		}
 		262 = {
 			spawn_rebels = {
-				size = 1
+				size = 2
 				type = nationalist_rebels
 				culture = lirgalyn
 				religion = asitir
+				unrest = 2
 				separatists_target = A21
+				win = yes
+			}
+			753 = {
+				if = {
+					limit = { country_or_subject_holds = ROOT }
+					spawn_rebels = {
+						size = 1
+						type = nationalist_rebels
+						culture = lirgalyn
+						religion = asitir
+						unrest = 2
+						separatists_target = A21
+					}
+				}
+				else = { set_province_flag = lirgal_demands.a }
+			}
+			755 = {
+				if = {
+					limit = { country_or_subject_holds = ROOT }
+					spawn_rebels = {
+						size = 1
+						type = nationalist_rebels
+						culture = lirgalyn
+						religion = asitir
+						unrest = 2
+						separatists_target = A21
+					}
+				}
+				else = { set_province_flag = lirgal_demands.b }
 			}
 		}
-		755 = { set_province_flag = lirgal_demands.a }
-		753 = { set_province_flag = lirgal_demands.b }
 	}
 }
-
