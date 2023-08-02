@@ -59,7 +59,7 @@ southern_audalad_coast_area = {
 }
 
 sea_of_raell_area = {
-	799 800 801 807
+	799 800 801 807 1327
 }
 
 #Western Rough Sea
@@ -195,7 +195,7 @@ volandian_coast_area = {
 }
 
 vastallosi_coast_area = {
-	939 940 941 942
+	939 940 941 942 1328
 }
 
 sea_of_costarion_area = {
@@ -732,27 +732,47 @@ twin_islands_area = {
 
 #Inner Vastallos (Vastallos, Alteniquia)
 asturcia_area = {
-	324 325 329 330
+	325 1370 1371 1372
+}
+
+marchia_asturciana_area = {
+	324 1369 1373
+}
+
+verroryia_area = {
+	329 330 1374
 }
 
 valtesia_area = {
-	326 327 328
+	326 1368
+}
+
+griffinview_area = {
+	327 328 1367
 }
 
 ravenus_area = {
-	331 332 333 334
+	331 332 333 334 1375
 }
 
 mamacaoca_area = {
-	335 336 337
+	335 336 1365
+}
+
+mennzag_area = {
+	337 338 339 1364 1366
 }
 
 marchia_carvayana_area = {
-	359 360 361 362
+	364 365 1356 1359
 }
 
 carvay_area = {
-	363 364 365 1292
+	362 363 1292 1357 1358
+}
+
+qamigava_area = {
+	359 360 361 1363
 }
 
 ombran_islands_area = {
@@ -760,49 +780,65 @@ ombran_islands_area = {
 }
 
 #Outer Vastallos (Vastallos, Alteniquia)
-masgar_area = {
-	338 339 340
+high_dracade_area = {
+	350 351 1335 1336
+}
+
+fruila_area = {
+	340 344 1338 1339 1340
 }
 
 trollstrait_area = {
-	341 342 343 344
+	341 342 343
 }
 
 dragonbay_area = {
-	345 346 347 348
+	345 346 348 1333 1334
 }
 
 stensta_area = {
-	349 350 351
+	347 349 1337
 }
 
 palaios_knossos_area = {
-	352 353 355 356
+	352 353 355 356 1341
 }
 
 neos_knossos_area = {
-	354 357 358
+	354 357 358 1342 1343
 }
 
-kawalapua_area = {
-	366 367 368 369 370 371
+western_kawalapua_area = {
+	366 367 368 1344 1345 1346
+}
+
+eastern_kawalapua_area = {
+	369 370 371 1347 1348 1349
 }
 
 #Arm of Vastallos (Vastallos, Alteniquia)
-qaruxia_area = {
-	372 373 374 375 376
+denthra_esparra_area = {
+	372 373
 }
 
-killingmack_area = {
-	377 378 379 751
+atlahua_area = {
+	374 375 376 1355
+}
+
+qaruxia_area = {
+	377 378 379 751 384
+}
+
+denthra_gorcana_area = {
+	381 382 1354
 }
 
 denthra_siocana_area = {
-	380 381 382 383
+	380 383 1353 1352
 }
 
 denthra_agriana_area = {
-	384 385 386 387
+	385 386 387 1350 1351
 }
 
 #Egalia (Varmerien, Nieden)

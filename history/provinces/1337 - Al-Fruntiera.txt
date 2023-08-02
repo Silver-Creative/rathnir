@@ -1,0 +1,26 @@
+# 1337 - Al-Fruntiera
+
+owner = B07
+controller = B07
+add_core = B07
+
+culture = stenzzan
+religion = sanderosa
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fruits
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

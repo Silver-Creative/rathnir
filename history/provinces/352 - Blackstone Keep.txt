@@ -1,0 +1,26 @@
+# 352 - Blackstone Keep
+
+owner = B09
+controller = B09
+add_core = B09
+
+culture = knossian
+religion = dandelism
+capital = ""
+
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = obsidian
+
+is_city = yes
+fort_15th = yes
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean

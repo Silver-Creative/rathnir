@@ -5,7 +5,7 @@ controller = B11
 add_core = B11
 
 culture = knossian
-religion = sanderosa
+religion = noxism
 capital = ""
 
 hre = no

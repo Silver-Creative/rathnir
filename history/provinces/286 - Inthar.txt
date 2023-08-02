@@ -17,7 +17,7 @@ base_manpower = 2
 trade_goods = grain
 
 is_city = yes
-fort_15th = no
+fort_15th = yes
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi
