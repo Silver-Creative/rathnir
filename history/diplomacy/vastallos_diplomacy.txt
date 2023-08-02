@@ -1,187 +1,187 @@
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B00 #Carvay
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B01 #Ravenus
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B02 #Asturcia
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B03 #Valteysia
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B04 #Verroryia
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B05 #Griffinview
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B06 #Dracade
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B07 #Stensta
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B08 #Lepurra
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B09 #Knossos
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B10 #Trollgard
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B11 #Donsktopt
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B12 #Illyrix
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B13 #Selintragou
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B14 #Masgar
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B15 #Tronda
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B16 #Mennzág
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B17 #Mamaco
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B18 #Qâmigava
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B19 #Sioc
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B20 #Atlahua
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B21 #Agriana
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B22 #Praesidia
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B23 #Kawalapua
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B24 #Killingmack
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B25 #Espar
     start_date = 1444.1.1
 }
 
 dependency = {
-    subject_type = katasa
+    subject_type = enoseron
     first = B27 #Arcadomana
     second = B26 #Qaruxia
     start_date = 1444.1.1

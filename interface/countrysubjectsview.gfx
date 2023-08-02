@@ -862,10 +862,4 @@ spriteTypes = {
 		texturefile = "gfx//interface//modify_subject_relationship.dds"
 	}
 
-	### Rathnir
-	spriteType = {
-		name = "GFX_subject_katasa"
-		texturefile = "gfx/interface/diplomacy/katasa_icon.dds"
-	}
-
 }

@@ -34,17 +34,17 @@
 # Forward declaring all subject types so they can refer to each other in triggers etc.
 
 ########################################
-# KATASA (Vastallosi League Member)    #
+# enoseron (Vastallosi League Member)    #
 ########################################
 
-katasa = {
+enoseron = {
     copy_from = vassal
     count = vassal
 
     ### Graphics:
-    sprite = GFX_icon_katasa
-    diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_katasa
-    diplomacy_subject_sprite = GFX_icon_dplomacy_am_katasa
+    sprite = GFX_icon_enoseron
+    diplomacy_overlord_sprite = GFX_diplomacy_lead_enoseron
+    diplomacy_subject_sprite = GFX_diplomacy_am_enoseron
 
     ### Properties:
     can_be_integrated = no
@@ -73,16 +73,16 @@ katasa = {
 	should_quit_wars_on_activation = yes
 
 	can_fight = {
-		same_overlord = katasa
+		same_overlord = enoseron
 	}
 	can_rival = {
-		same_overlord = katasa
+		same_overlord = enoseron
 	}
 	can_ally = {
-		same_overlord = katasa
+		same_overlord = enoseron
 	}
 	can_marry = {
-		same_overlord = katasa
+		same_overlord = enoseron
 	}
 	
 	### Subject Interactions:
@@ -104,9 +104,9 @@ katasa = {
 	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
 	modifier_subject = clear #Ditto
 	modifier_subject = {
-		modifier = katasa_subject
+		modifier = enoseron_subject
 	}
 	modifier_overlord = {
-		modifier = katasa_overlord
+		modifier = enoseron_overlord
 	}
 }
