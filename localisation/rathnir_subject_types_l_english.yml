@@ -1,7 +1,7 @@
 ﻿l_english:
- katasa: "Katasa"
- katasa_long_desc: "A Katasa, or Vastallosi State, is a member of the League of Vastallos, a powerful alliance bloc which has pledged to defend the lands of Vastallos against any foreign threats."
- katasa_is_our: "$NAME|Y$ is a Katasa of us."
- katasa_title: "Katasa"
- katasa_title_plural: "Katasi"
- is_katasa: "Is Katasa"
+ enoseron: "Enoseron"
+ enoseron_long_desc: "An Enoseron is a member of the League of Vastallos, a powerful region-wide alliance which has pledged to defend the lands of Vastallos against any foreign threats."
+ enoseron_is_our: "$NAME|Y$ is our Enoseron."
+ enoseron_title: "Enoseron"
+ enoseron_title_plural: "Enoseri"
+ is_enoseron: "Is Enoseron"
