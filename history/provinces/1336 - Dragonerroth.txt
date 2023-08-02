@@ -1,8 +1,8 @@
 # 1336 - Dragonerroth
 
-owner = B06
-controller = B06
-add_core = B06
+owner = B08
+controller = B08
+add_core = B08
 
 culture = stenzzan
 religion = sanderosa

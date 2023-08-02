@@ -1,8 +1,8 @@
 # 348 - The Forge
 
-owner = B07
-controller = B07
-add_core = B07
+owner = B06
+controller = B06
+add_core = B06
 
 culture = stenstan
 religion = sanderosa

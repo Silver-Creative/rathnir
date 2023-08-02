@@ -1,20 +1,20 @@
-# 348 - Clukios
+# 351 - Lepurra
 
-owner = B07
-controller = B07
-add_core = B07
+owner = B08
+controller = B08
+add_core = B08
 
-culture = stenstan
+culture = masgar
 religion = sanderosa
 capital = ""
 
 hre = no
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-trade_goods = grain
+trade_goods = lapis_lazuli
 
 is_city = yes
 fort_15th = no

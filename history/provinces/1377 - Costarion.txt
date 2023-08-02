@@ -1,23 +1,23 @@
-# 352 - Blackstone
+# 1377 - Costarion
 
 owner = B09
 controller = B09
 add_core = B09
 
 culture = knossian
-religion = dandelism
+religion = sanderosa
 capital = ""
 
 hre = no
 
-base_tax = 3
-base_production = 4
-base_manpower = 5
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-trade_goods = obsidian
+trade_goods = gems
 
 is_city = yes
-fort_15th = yes
+fort_15th = no
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi

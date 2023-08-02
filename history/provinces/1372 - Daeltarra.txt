@@ -1,8 +1,8 @@
 # 1372 - Daeltarra
 
-owner = B05
-controller = B05
-add_core = B05
+owner = B02
+controller = B02
+add_core = B02
 
 culture = asturcian
 religion = sanderosa

@@ -1,8 +1,8 @@
 # 1368 - Griffinwoods
 
-owner = B05
-controller = B05
-add_core = B05
+owner = B03
+controller = B03
+add_core = B03
 
 culture = asturcian
 religion = sanderosa

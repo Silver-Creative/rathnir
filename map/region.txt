@@ -171,6 +171,7 @@ inner_vastallos_region = {
 		ravenus_area
 		mamacaoca_area
 		marchia_carvayana_area
+		astaiosa_area
 		carvay_area
 		qamigava_area
 
@@ -182,6 +183,7 @@ outer_vastallos_region = {
 	areas = {
 		high_dracade_area
 		fruila_area
+		mennzag_area
 		trollstrait_area
 		dragonbay_area
 		stensta_area
@@ -189,6 +191,8 @@ outer_vastallos_region = {
 		neos_knossos_area
 		western_kawalapua_area
 		eastern_kawalapua_area
+
+		knossian_islands_area
 	}
 }
 

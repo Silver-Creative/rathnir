@@ -1,8 +1,8 @@
 # 1370 - Siavena
 
-owner = B03
-controller = B03
-add_core = B03
+owner = B02
+controller = B02
+add_core = B02
 
 culture = asturcian
 religion = sanderosa

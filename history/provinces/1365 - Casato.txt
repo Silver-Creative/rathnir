@@ -1,8 +1,8 @@
 # 1365 - Casato
 
-owner = B16
-controller = B16
-add_core = B16
+owner = B17
+controller = B17
+add_core = B17
 
 culture = masgar
 religion = sanderosa

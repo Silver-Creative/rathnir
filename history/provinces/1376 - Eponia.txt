@@ -1,10 +1,10 @@
-# 351 - Lepus
+# 1376 - Eponia
 
-owner = B08
-controller = B08
-add_core = B08
+owner = B09
+controller = B09
+add_core = B09
 
-culture = masgar
+culture = knossian
 religion = sanderosa
 capital = ""
 
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = lapis_lazuli
+trade_goods = fish
 
 is_city = yes
 fort_15th = no

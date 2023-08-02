@@ -349,7 +349,7 @@ province;red;green;blue;x;x
 348;229;94;57;The Forge;x
 349;216;89;54;Stensta;x
 350;178;71;44;Demosavillo;x
-351;193;77;48;Lepus;x
+351;193;77;48;Lepurra;x
 352;204;175;51;Blackstone Keep;x
 353;216;186;54;Vasiru;x
 354;255;223;63;Nalcopt;x
@@ -1374,6 +1374,8 @@ province;red;green;blue;x;x
 1373;52;93;158;Porta Kolianna;x
 1374;255;204;44;Madinatta;x
 1375;255;119;112;Pedazzos;x
+1376;222;192;54;Eponia;x
+1377;239;207;158;Costarion;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x
