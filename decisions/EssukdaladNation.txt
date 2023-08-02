@@ -1,18 +1,19 @@
 country_decisions = {
-	aldoviri_nation = {
+	essukdal_nation = {
 		major = yes
 		potential = {
-			NOT = { has_country_flag = formed_aldovir_flag }
-			NOT = { exists = A95 }
+			NOT = { has_country_flag = formed_theios_essukdal_flag }
+			NOT = { exists = A09 }
 			NOT = { 
 				OR = {
-					culture_group = miremen_group
-					religion = willowpact
+					tag = A96 #Sagavir
+                    tag = A99 #Astyllea
 				}
 			}
 			capital_scope = {
-				superregion = aldovir_superregion
+				superregion = essukdal_superregion
 			}
+            religion = theiosism
 			is_colonial_nation = no
 			OR = {
 				ai = no
@@ -30,34 +31,40 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 321		# Lapidovir
-				province_id = 271		# Sakothýr
-                province_id = 215       # Roscella
-                province_id = 244       # Azethvir
-				province_id = 219		# Evansyllo
-				province_id = 257		# Myrmark
+				province_id = 70		# Urnu-Arrak
+				province_id = 161		# Theiótokos
+                province_id = 2         # Jirn
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
+            NOT = {
+				ROOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 100
+						superregion = essukdal_superregion
+					}
+				}
+			}
 		}
 		allow = {
-			adm_tech = 5
+			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			NOT = { exists = A95 }
-			owns_core_province = 321		# Lapidovir
-			owns_core_province = 271		# Sakothýr
-            owns_core_province = 215        # Roscella
-            owns_core_province = 244        # Azethvir
-			owns_core_province = 219		# Evansyllo
-			owns_core_province = 257		# Myrmark
+			NOT = { exists = A09 }
+			owns_core_province = 70		    # Urnu-Arrak
+			owns_core_province = 161		# Theiótokos
+            owns_core_province = 2          # Jirn
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                value = 100
+                superregion = essukdal_superregion
+            }
 		}
 		effect = {
 			hidden_effect = { restore_country_name = yes }
-			change_tag = A95
+			change_tag = A09
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -70,14 +77,14 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = A95
+				add_permanent_claim = A09
 			}
 			add_prestige = 25
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			set_country_flag = formed_aldovir_flag
+			set_country_flag = formed_theios_essukdal_flag
 			if = {
 				limit = { 
 					has_custom_ideas = no

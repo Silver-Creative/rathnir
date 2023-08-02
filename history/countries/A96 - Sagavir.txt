@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = sironian
+religion = sakrelism
+technology_group = tech_alteniquian
+capital = 244 #Azethvir
+national_focus = ADM

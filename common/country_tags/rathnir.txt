@@ -63,7 +63,7 @@ A53 = "countries/Stomeste.txt"
 A54 = "countries/Useri.txt"
 
 A95 = "countries/Aldovir.txt"
-#A96 = "countries/Sagavir.txt"
+A96 = "countries/Sagavir.txt"
 A97 = "countries/Yimmu-Audal.txt"
 #A98 = "countries/Anneikos.txt"
 A99 = "countries/Astyllea.txt"
