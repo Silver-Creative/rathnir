@@ -8,7 +8,11 @@ bookmark = {
     default = yes
 
     country = A00
+    country = A01
+    country = B00
+    country = A10
 
     easy_country = A00
+    easy_country = B00
     
 }
