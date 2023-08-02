@@ -1,0 +1,10 @@
+﻿l_english:
+ ACHIEV_PREVIEW: "This decision only serves as a preview of your available achievements."
+ IS_IRONMAN: "£yes£ Is Ironman."
+ IS_NOT_IRONMAN: "£no£ Is not Ironman."
+
+ achievement_mappainting_title: "Achievement Available - §MMap Painting§!"
+ achievement_mappainting_desc: "This decision only serves as a preview of your available achievements."
+ MAPPAINTING_ACHIEVEMENT: "Achievement Available - §GMap Painting§!\n\nOwn every province.\n"
+ ACVE_MAPPAINTING_YES: "£yes£ Owns every province."
+ ACVE_MAPPAINTING_NO: "£no£ Does not own every province."

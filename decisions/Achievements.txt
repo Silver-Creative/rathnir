@@ -1,0 +1,100 @@
+country_decisions = {
+    achievement_mappainting = {
+        major = yes
+        color = { 237 169 52 }  #{ 255 187 0 }
+        potential = {
+            ai = no
+            NOT = { has_country_flag = achieved_map_painting }
+        }
+        provinces_to_highlight = {
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            OR = {
+                continent = alteniquia
+                continent = nieden
+                continent = sparwood
+                continent = the_north
+                continent = ummarnu
+                continent = haven
+                continent = sorligste
+                continent = valdreach
+                continent = plagos
+                continent = akannash
+            }
+        }
+        allow = {
+            custom_trigger_tooltip = {
+                tooltip = ACHIEV_PREVIEW
+                has_country_flag = take_achievement
+            }
+        }
+        effect = {
+            custom_tooltip = MAPPAINTING_ACHIEVEMENT
+            if = {
+                limit = {
+                    ironman = yes
+                }
+                custom_tooltip = IS_IRONMAN
+            }
+            else = {
+                custom_tooltip = IS_NOT_IRONMAN
+            }
+            if = {
+                limit = {
+                    alteniquia = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    nieden = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    sparwood = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    ummarnu = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    syltor = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    haven = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    plagos = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    the_north = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    sorligste = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    valdreach = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                    akannash = {
+                        type = all
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+                custom_tooltip = ACVE_MAPPAINTING_YES
+            }
+            else = {
+                custom_tooltip = ACVE_MAPPAINTING_NO
+            }
+            set_country_flag = achieved_map_painting
+        }
+        ai_will_do = {
+            factor = 0
+        }
+        ai_importance = 0
+    }
+}
