@@ -3,7 +3,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 28  31  123 }
+color = { 60  100 200 }
 
 historical_idea_groups = {
 	economic_ideas
@@ -49,6 +49,10 @@ monarch_names = {
     "Fedre #0" = 10
     "Authe #0" = 10
     "Sjatyre #0" = 10
+	"Kaimen #0" = 10
+	"Menelis #0" = 10
+	"Baeron #0" = 10
+	"Kalhem #0" = 10
 
     #Religious Asitir Names (Female)
     "Leryla #0" = -1
@@ -72,25 +76,28 @@ monarch_names = {
     "Dana #0" = -1
     "Authe #0" = -1
     "Sjatyre #0" = -1
+	"Kalair #0" = -1
+	"Melin #0" = -1
+	"Ardont #0" = -1
 
 
 }
 
 leader_names = {
 	#Country Specific
-	"of Lirgal" "of the Lunar City" "of Olarã"
+	"vaLirgal" "of the Lunar City" "of Olarã"
 	
 	#Province Neighbours
 	"of Lapidosa" "of Azethvir" "of Arstedanna" "of Myrmark" "of Evansyllo" "of Roscella"
 	
 	#Country Neighbours
-	"of Sironia" "of Reyllea" "of Adavia" "of Audal"
+	"of Sironia" "of Reyllea" "of Adavia" "of Audal" "of Carn"
 	
 	#Geographic Neighbours
 	"of Aldovir" "of Essukdal" "of Tàlor"
 	
 	#Noble Families
-	Accero Ellan Deárinn
+	Accero Ellan Deárinn Airan Malath
 }
 
 ship_names = {
@@ -128,7 +135,7 @@ ship_names = {
 }
 
 army_names = {
-	"Defenders of the Temple" "Army of $PROVINCE$"
+	"Defenders of the Temple" "Army of $PROVINCE$" "Guard of &PROVINCE&" "Orchid Batallion" "Defenders of the City" "Agalarum Lerirador"
 }
 
 fleet_names = {
