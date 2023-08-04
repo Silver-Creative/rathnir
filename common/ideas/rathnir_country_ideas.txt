@@ -459,7 +459,7 @@ B11_ideas = {
 
     trigger = {
         OR = {
-            tag = B09 #Knossos
+            tag = B11 #Donsktopt
         }
     }
     free = yes        #will be added at load.
