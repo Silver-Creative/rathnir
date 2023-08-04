@@ -169,6 +169,25 @@
  B09_prophecy_desc: "The peoples of Vastallos must be made aware of Dandelism's guidance and it's influence on our way of life and military practice now that Vastallos has been conquered. The Order will sponsor these Missionaries in their quest to show them the path."
  B09_orders: "The Orders"
  B09_orders_desc: "The Knossian Order has been making it clear over the past couple years that it wants to sell its services to nation around Rathnir for the highest bidder. We have nothing left to prove in Vastallos after affirming our grip on the "sub" continent."
+
+ #B11 - Donsktopt
+ B11_ideas: "Donsktopti Ideas"
+ B11_ideas_start: "Donsktopti Traditions"
+ B11_ideas_bonus: "Donsktopti Ambition"
+ B11_the_ancient_republic: "The Ancient Republic"
+ B11_the_ancient_republic_desc: "Donskopt is renown across Rathnir as one of the oldest known republics; a fact our people bare proudly and boast of eagerly. Even in our decline, the systems of our elder republic have proven inspiration to both soldiers and statesmen alike. It is this strong egalititarian tradition that binds our people, our spirit and our land together"
+ B11_hybrid_culture: "Hybrid Culture"
+ B11_hybrid_culture_desc: "Hybridization has been a slow, centuries' long project, as our nation has painstakingly sought to undo the cataclysmic result of our initial arrival in Vastallos. However, through this process we have gained a far greater understanding towards our fellow man, an understanding that has been ingrained into the very character of our state"
+ B11_dyvrechsal_education: "Dyvrechsal Education"
+ B11_dyvrechsal_education_desc: "It is no secret that our republic has a confusing relationship with the Noxist Dyvrechsal. In some instances, the church is weak and uninvolved. In others, we can see it wield absolutely uncontested power. One such area would be the education of our populace. Luckly, the Dyvrechsal has never taken this power lightly, and whilst some iterations of the Noxist church seek to suppress knowledge ours has always sought to uplift and understand"
+ B11_never_another_blackstone: "Never Another Blackstone"
+ B11_never_another_blackstone_desc: "All citizens have heard the story. It was the Siege of Blackstone that ended the Golden Age of Donsktopt and ever since our nation has been in decline. Our army, fractured and abandoned as it is, needs to be one that is mobile and quick to outflank enemies. The key to that, are quick, resourceful generals that won't just sit idly in a fortress-turned-tomb"
+ B11_soldiers_of_the_deur_rhyónne: "Soldiers of the Deur Rhyónne"
+ B11_soldiers_of_the_deur_rhyónne_desc: "In ancient times, before the eventual adoption of the Knossian Mercenaries as the primary army of Donsktopt, the Republic could call upon the Deur Rhyónne, an elite professional fighting force of limited numbers that would scream down the mountains peaks and rip out the throats of those who would dare threaten the peace and stability of our fair state. Though diminished in stature and standing, they continue to fuel our republic ever onwards"
+ B11_from_the_mountain_loins: "From the Mountain Loins"
+ B11_from_the_mountain_loins_desc: "Utop the highest point in Vastallos, Donsktopt has always been able to project power and influence down on the forests and jungles of the subcontinent. This has come from our people's unique ingenious view of the world and focus on internal growth. A nation of craftsmen, we have never been geared towards war, rather it has been the prerogative of our nation to use our wealth and innovativeness to tie our sphere of influence together"
+ B11_children_of_afton: "Children of Afton"
+ B11_children_of_afton_desc: "Whereas the plebians have always held us accountable through our republic, it is the Vudynn that holds us accountable through our faith. The balance between church and state has always been a hard one to maintain, however it is through the maintenance of this balance that our state has managed to obtain peace and prosperity. Naturally, this means that though we pride ourselves as more religiously tolerant that our peers, the country can never be allowed to fall into debauchery" 
  
  #N00 - Escharia
  N00_ideas: "Escharian Ideas"
