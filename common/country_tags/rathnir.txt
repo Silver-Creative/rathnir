@@ -122,3 +122,15 @@ H01 = "countries/Uldarash.txt"
 #Valdreach - Wxx/Xxx (No tag limit restriction)
 
 #Akan'nash - Rxx/Jxx (No tag limit restriction)
+
+#If you remove these tags the game crashes when you colonise
+
+#Balkans
+
+
+	
+#HRE
+
+THU	= "countries/Thuringia.txt"
+
+

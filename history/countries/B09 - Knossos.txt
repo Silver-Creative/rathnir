@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = knossian
 religion = dandelism
 technology_group = tech_vastallosi
-capital = 351 #Lepurra
+capital = 351 #blackstone keep
 national_focus = MIL
 
 1444.1.1 = {
@@ -17,5 +17,18 @@ national_focus = MIL
 		mil = 5
 		culture = knossian
 		religion = dandelism
+	}
+	heir = {
+		name = "Alesander"
+		dynasty = "Reállos"
+		birth_date = 1421.6.2
+		death_date = 1820.6.8
+		monarch_name = "Alesander II"
+		adm = 2
+		dip = 3
+		mil = 6
+		culture = knossian
+		religion = dandelism
+		claim = 95
 	}
 }

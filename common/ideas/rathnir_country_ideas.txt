@@ -447,6 +447,49 @@ B09_ideas = {
     }
 }
 
+#Donsktopt ideas
+B11_ideas = {
+    start = {
+      global_missionary_strength = 0.01
+	  improve_relation_modifier = 0.2   
+    }
+    bonus = {
+        diplomats = 1
+    }
+
+    trigger = {
+        OR = {
+            tag = B11 #Donsktopt
+        }
+    }
+    free = yes        #will be added at load.
+
+    B11_the_ancient_republic = {
+        recover_army_morale_speed = 0.0025
+		republican_tradition = 0.15
+    }
+    B11_hybrid_culture = {
+        num_accepted_cultures = 1 
+    }
+    B11_dyvrechsal_education = {
+        institution_spread_from_true_faith = 0.1
+		church_loyalty_modifier = 7.5
+    }
+    B11_never_another_blackstone = {
+        leader_land_manuever = 1
+    }
+    B11_soldiers_of_the_deur_rhyónne = {
+        yearly_army_professionalism = 0.003
+    }
+    B11_from_the_mountain_loins = {
+        liberty_desire_from_subject_development = -0.15
+		development_cost_modifier = -0.075
+    }
+    B11_children_of_afton = {
+        tolerance_own = 2
+    }
+}
+
 #Escharian ideas
 N00_ideas = {
 	start = {
