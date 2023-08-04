@@ -481,15 +481,12 @@ vastallosi_group = {
 			Elthia Samantha Vygu
 		}
 	}
-	dracadian = {
-		#primary = #A29 #Dracade
+	stenstan = {
+		#primary = A31 #Stensta
 
 		dynasty_names = {
 			Ramo "de Ethymios" Salamundi Martellus
 		}
-	}
-	stenstan = {
-		#primary = A31 #Stensta
 	}
 	masgar = {
 		#primary = A62 #Masgar
@@ -498,7 +495,7 @@ vastallosi_group = {
 		#primary = A30 #Neos-Knossos
 
 		dynasty_names = {
-			Pantha Santha Glynrel
+			Glynrel Siedhission Alsvartsson Vilhjalmsson		#because Donsktopt and Trollgard are in the Knossian group, these very non-greek names are here
 		}
 	}
 	kawalapuan = {
@@ -510,17 +507,20 @@ vastallosi_group = {
 	}
 	asturcian = {
 		primary = B02
-	
+
+		dynasty_names = {
+			Ramio
+		}
 	}
 
 	dynasty_names = {
 		Konung Vagranti "af Kronborg" Yolcotl 				#"??palazNui" wtf is this whiskey
 	}
 	male_names = {
-		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael
+		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael Johann Tolkr Harvard Gudbrand Cyramus
 	}
 	female_names = {
-		Kori Delta Ka Asi Savii Vulpur Ekko Frostina
+		Kori Delta Ka Asi Savii Vulpur Ekko Frostina Sunquyuq
 	}
 }
 
