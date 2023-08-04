@@ -842,36 +842,6 @@ battle_cult_spreading_effect = {
 	}
 }
 
-crimean_succession_effect = {
-	if = {
-		limit = {
-			tag = CRI
-			NOT = { has_global_flag = death_of_haji_giray } #Also set in history.
-			exists = TUR
-			is_subject = no
-			TUR = {
-				num_of_cities = ROOT
-				is_subject = no
-				num_of_ports = 1
-			}
-		}
-		country_event = { id = flavor_cri.1 } #Death of Haji Giray
-	}
-	if = {
-		limit = {
-			tag = CRI
-			NOT = { has_global_flag = death_of_haji_giray } #Also set in history.
-			OR = {
-				NOT = { exists = TUR }
-				is_subject = yes
-				TUR = { NOT = { num_of_cities = ROOT } }
-				TUR = { is_subject = yes }
-				TUR = { NOT = { num_of_ports = 1 } }
-			}
-		}
-		set_global_flag = death_of_haji_giray
-	}
-}
 
 slesvig_question_effect = {
 	if = {

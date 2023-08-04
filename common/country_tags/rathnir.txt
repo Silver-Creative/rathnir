@@ -126,10 +126,8 @@ H01 = "countries/Uldarash.txt"
 #If you remove these tags the game crashes when you colonise
 
 #Balkans
-TUR	= "countries/Ottomans.txt"
 
-#France 
-FRA	= "countries/France.txt"
+
 	
 #HRE
 
