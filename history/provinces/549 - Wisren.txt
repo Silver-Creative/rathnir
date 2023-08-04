@@ -1,8 +1,8 @@
 # 549 - Wisren
 
-owner = O04
-controller = O04
-add_core = O04
+owner = O14
+controller = O14
+add_core = O14
 
 culture = wyngalan
 religion = soleannen

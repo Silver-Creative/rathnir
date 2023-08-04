@@ -1,0 +1,124 @@
+#normal_or_historical_nations = yes
+#### Knossos Sparring ####
+namespace = knossos_sparring
+country_event = {
+    id = knossos_sparring.2
+    title = knossos_sparring.2.t
+    desc = knossos_sparring.2.d
+    picture = lirgalcool_eventPicture
+    #fire_only_once = yes
+    trigger = {
+        tag = B11
+        NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    immediate = {
+        set_country_flag = THIS_EVENT_FIRED_FOR_ME
+    }
+    option = {
+        name = knossos_sparring.2.a
+        custom_tooltip = knossos_sparring.2.a.tt
+        B09 = {
+            country_event = { id = knossos_sparring.5 }
+        }
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    ai = no 
+                    NOT = { 
+                        OR = {
+                            tag = B11 
+                            tag = B09
+                        }
+                    }   
+                    capital_scope = {
+                        continent = alteniquia
+                    }
+                }
+                country_event = { id = knossos_sparring.4 }
+            }
+        }
+    }
+    option = {
+        name = knossos_sparring.2.b
+        custom_tooltip = knossos_sparring.2.b.tt
+        trigger = {
+            ai = no
+        }
+    }
+}
+country_event = {
+    id = knossos_sparring.5
+    title = knossos_sparring.5.t
+    desc = knossos_sparring.5.d
+    picture = lirgalcool_eventPicture
+    is_triggered_only = yes
+
+    option = {
+        name = knossos_sparring.5.a
+        custom_tooltip = knossos_sparring.5.a.tt
+        hidden_effect = {
+            B09 = {
+                country_event = { id = knossos_sparring.3 } 
+            }
+        }
+    }
+    option = {
+        name = knossos_sparring.5.b
+        custom_tooltip = knossos_sparring.5.b.tt
+        trigger = {
+            ai = no
+        }
+        B11 = {
+            country_event = { id = knossos_sparring.6 }
+        }
+    }
+}
+country_event = {
+    id = knossos_sparring.3
+    title = knossos_sparring.3.t
+    desc = knossos_sparring.3.d
+    picture = lirgalcool_eventPicture
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = knossos_sparring.3.a
+        custom_tooltip = knossos_sparring.3.a.tt
+        kill_ruler = yes
+        neos_knossos_area = {
+                add_core = ROOT
+            }
+        B09 = {
+        declare_war_with_cb = {
+            who = B11
+            casus_belli = cb_annex
+            }
+        }
+    }
+}
+country_event = {
+    id = knossos_sparring.6
+    title = knossos_sparring.6.t
+    desc = knossos_sparring.6.d
+    picture = lirgalcool_eventPicture
+    is_triggered_only = yes
+
+    option = {
+        name = knossos_sparring.6.a
+        custom_tooltip = knossos_sparring.6.a.tt
+    }
+}
+country_event = {
+    id = knossos_sparring.4
+    title = knossos_sparring.4.t
+    desc = knossos_sparring.4.d
+    picture = lirgalcool_eventPicture
+    is_triggered_only = yes
+
+    option = {
+        name = knossos_sparring.4.a
+    }
+}

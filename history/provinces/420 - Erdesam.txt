@@ -1,8 +1,8 @@
 # 420 - Erdesam
 
-owner = O10
-controller = O10
-add_core = O10
+owner = O20
+controller = O20
+add_core = O20
 
 culture = reikarii
 religion = soleannen

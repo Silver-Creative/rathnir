@@ -1,8 +1,8 @@
 # 11 - Isemémàer
 
-owner = A02
-controller = A02
-add_core = A02
+owner = A51
+controller = A51
+add_core = A51
 
 culture = idan-ridu
 religion = theiosism

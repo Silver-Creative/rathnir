@@ -1,8 +1,8 @@
 # 1296 - Nòs
 
-owner = A02
-controller = A02
-add_core = A02
+owner = A54
+controller = A54
+add_core = A54
 
 culture = anesarii
 religion = soleannen

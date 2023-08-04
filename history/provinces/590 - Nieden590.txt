@@ -1,8 +1,8 @@
 # 590 - Nieden590
 
-owner = O06
-controller = O06
-add_core = O06
+owner = O16
+controller = O16
+add_core = O16
 
 culture = solerii
 religion = soleannen

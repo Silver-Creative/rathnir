@@ -3,7 +3,6 @@
 owner = A00
 controller = A00
 add_core = A00
-add_core = A02
 
 culture = anoshphite
 religion = hukar_sharud

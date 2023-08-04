@@ -1,8 +1,8 @@
 # 27 - Noín Lithrànòr
 
-owner = A02
-controller = A02
-add_core = A02
+owner = A52
+controller = A52
+add_core = A52
 
 culture = idan-ridu
 religion = theiosism

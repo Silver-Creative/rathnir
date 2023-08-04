@@ -1,8 +1,8 @@
 # 538 - Dorostadt
 
-owner = O02
-controller = O02
-add_core = O02
+owner = O12
+controller = O12
+add_core = O12
 
 culture = kaseii
 religion = soleannen

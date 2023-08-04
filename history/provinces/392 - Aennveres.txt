@@ -1,8 +1,8 @@
 # 392 - Aennveres
 
-owner = O08
-controller = O08
-add_core = O08
+owner = O18
+controller = O18
+add_core = O18
 
 culture = thadii
 religion = soleannen

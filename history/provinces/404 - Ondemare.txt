@@ -1,8 +1,8 @@
 # 404 - Ondemare
 
-owner = O05
-controller = O05
-add_core = O05
+owner = O15
+controller = O15
+add_core = O15
 
 culture = thadii
 religion = soleannen

@@ -1,8 +1,8 @@
 # 631 - Delgrenzvar
 
-owner = O11
-controller = O11
-add_core = O11
+owner = O21
+controller = O21
+add_core = O21
 
 culture = serrenii
 religion = soleannen

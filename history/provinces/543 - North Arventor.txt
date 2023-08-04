@@ -1,8 +1,8 @@
 # 543 - North Arventor
 
-owner = O03
-controller = O03
-add_core = O03
+owner = O13
+controller = O13
+add_core = O13
 
 culture = gentarii
 religion = soleannen

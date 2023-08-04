@@ -1,8 +1,8 @@
 # 579 - Nieden579
 
-owner = O01
-controller = O01
-add_core = O01
+owner = O11
+controller = O11
+add_core = O11
 
 culture = escharii
 religion = soleannen

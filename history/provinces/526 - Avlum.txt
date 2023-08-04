@@ -1,8 +1,8 @@
 # 526 - Avlum
 
-owner = O00
-controller = O00
-add_core = O00
+owner = O10
+controller = O10
+add_core = O10
 
 culture = locetii
 religion = soleannen

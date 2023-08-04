@@ -1,8 +1,8 @@
 # 572 - Nieden572
 
-owner = O07
-controller = O07
-add_core = O07
+owner = O17
+controller = O17
+add_core = O17
 
 culture = locetii
 religion = soleannen

@@ -1,8 +1,8 @@
 # 611 - Nieden611
 
-owner = O13
-controller = O13
-add_core = O13
+owner = O23
+controller = O23
+add_core = O23
 
 culture = escharii
 religion = soleannen

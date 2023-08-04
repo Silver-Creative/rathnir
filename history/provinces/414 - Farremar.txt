@@ -1,8 +1,8 @@
 # 414 - Farremar
 
-owner = O09
-controller = O09
-add_core = O09
+owner = O19
+controller = O19
+add_core = O19
 
 culture = reikarii
 religion = soleannen

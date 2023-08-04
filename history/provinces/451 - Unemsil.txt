@@ -1,8 +1,8 @@
 # 451 - Unemsil
 
-owner = O12
-controller = O12
-add_core = O12
+owner = O22
+controller = O22
+add_core = O22
 
 culture = gentarii
 religion = soleannen
