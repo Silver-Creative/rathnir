@@ -123,6 +123,8 @@ H01 = "countries/Uldarash.txt"
 
 #Akan'nash - Rxx/Jxx (No tag limit restriction)
 
+#If you remove these tags the game crashes when you colonise
+
 #Balkans
 TUR	= "countries/Ottomans.txt"
 
