@@ -1,9 +1,4 @@
 # Harmonizing religions
-harmonized_jagdasian = {
-	global_trade_goods_size_modifier = 0.025
-	religion = yes
-}
-
 harmonized_alteniquian = {
 	land_morale = 0.05
 	religion = yes
@@ -41,5 +36,20 @@ harmonized_feybound = {
 
 harmonized_ummarnan = {
     global_colonial_growth = 15
+    religion = yes
+}
+
+harmonized_red_cult = {
+    morale_damage = 0.025
+    religion = yes
+}
+
+harmonized_abyss_mysticism = {
+    idea_cost = -0.075
+    religion = yes
+}
+
+harmonized_zentivar = {
+    development_cost = -0.1
     religion = yes
 }
