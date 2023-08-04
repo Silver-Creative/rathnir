@@ -987,29 +987,6 @@ hab_remove_mission_mods_if_not_emperor_effect = {
 	}
 }
 
-thu_remain_von_wettin_effect = {
-	if = {
-		limit = {
-			tag = THU
-			NOT = { is_year = 1520 }
-			NOT = { dynasty = "von Wettin" }
-			is_in_war = {
-				attacker_leader = root
-				defenders = SAX
-				casus_belli = cb_independence_war
-			}
-			SAX = {
-				government = monarchy
-				dynasty = "von Wettin"
-			}
-		}
-		define_ruler = {
-			dynasty = "von Wettin"
-		}
-	#			country_event = { id = flavor_sax.4 days = 1 }
-	}
-}
-
 ladislaus_postumus_heir_died_effect = {
 	if = {
 		limit = {

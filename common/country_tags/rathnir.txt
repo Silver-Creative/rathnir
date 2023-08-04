@@ -122,3 +122,15 @@ H01 = "countries/Uldarash.txt"
 #Valdreach - Wxx/Xxx (No tag limit restriction)
 
 #Akan'nash - Rxx/Jxx (No tag limit restriction)
+
+#Balkans
+TUR	= "countries/Ottomans.txt"
+
+#France 
+FRA	= "countries/France.txt"
+	
+#HRE
+
+THU	= "countries/Thuringia.txt"
+
+
