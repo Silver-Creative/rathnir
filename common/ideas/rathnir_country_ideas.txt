@@ -450,11 +450,11 @@ B09_ideas = {
 #Donsktopt ideas
 B11_ideas = {
     start = {
-        drill_gain_modifier = 0.50
-        land_maintenance_modifier  = -0.1    
+      global_missionary_strength = 0.01
+	  improve_relation_modifier = 0.2   
     }
     bonus = {
-        discipline = 0.05
+        diplomats = 1
     }
 
     trigger = {
