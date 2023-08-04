@@ -38,8 +38,8 @@ jagdasian = {
 			}
 		}
 
-		heretic = { 
-			
+		heretic = {
+			RED_CULT
 		}
 
 		uses_harmony = yes
@@ -79,6 +79,7 @@ jagdasian = {
 		}
 
 		declare_war_in_regency = yes
+		harmonized_modifier = harmonized_red_cult
 	}
 	
 	abyss_mysticism = {
@@ -110,6 +111,7 @@ jagdasian = {
 			HUKAR_SHARUD
 			ZENTIVAR
 		}
+		harmonized_modifier = harmonized_abyss_mysticism
 	}
 
 	zentivar = {
@@ -140,10 +142,10 @@ jagdasian = {
 			RED_CULT
 			ABYSS_MYSTICISM
 		}
+		harmonized_modifier = harmonized_zentivar
 	}
 	
 	crusade_name = HOLY_WAR
-	harmonized_modifier = harmonized_jagdasian #FIX THIS
 }
 
 alteniquian = {
@@ -802,7 +804,8 @@ elven = {
 			ASHURAN_PANTHEON
 		}
 	}
-	
+	misguided_heretic = yes
+
 	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_elven
 }
