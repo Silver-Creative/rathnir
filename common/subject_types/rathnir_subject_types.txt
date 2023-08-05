@@ -87,7 +87,8 @@ enoseron = {
 	
 	### Subject Interactions:
 	# (disable)
-	scutage = yes
+	scutage = no
+	divert_trade = no
 	grant_core_claim = yes
 	grant_province = yes
 	place_relative_on_throne = no
