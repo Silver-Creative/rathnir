@@ -105,7 +105,7 @@ N01 = "countries/Soleanna.txt"
 #L00 = "countries/Vraelea.txt"
 #L01 = "countries/Lotus Empire.txt"
 
-#Sï¿½ltï¿½r - Yxx/Zss (No tag limit restriction)
+#Sýltör - Yxx/Zss (No tag limit restriction)
 
 #The North - Gxx/Fxx (Lowest possible tag starting with F is F20)
 

@@ -50,7 +50,7 @@ A00_ideas = {
 	}
 }
 
-#Theiï¿½nikos ideas
+#Theiónikos ideas
 A01_ideas = {
 	start = {
 		missionary_maintenance_cost = -0.2
@@ -96,7 +96,7 @@ A01_ideas = {
 
 }
 
-#Anï¿½shphï¿½y ideas
+#Anòshphéy ideas
 A02_ideas = {
     start = {
         build_cost = -0.1
@@ -147,7 +147,7 @@ A02_ideas = {
 	}
 }
 
-#Tï¿½lor ideas
+#Tálor ideas
 A03_ideas = {
 	start = {
 		naval_maintenance_modifier = -0.25
@@ -335,33 +335,33 @@ A21_ideas = {
     }
     free = yes
     
-    a_brand_new_home = {
+    A21_a_brand_new_home = {
         defensiveness = 0.1
         land_morale = 0.1
     }
-    masters_of_arcana = {
+    A21_masters_of_arcana = {
         technology_cost = -0.1
     }
-	    land_beloved_by_all = {
+	A21_land_beloved_by_all = {
          diplomatic_upkeep = 1
     }
-    seraani_diplomacy = {
+    A21_seraani_diplomacy = {
         diplomatic_reputation = 1
         prestige_decay = 0.01
     }
-    busy_bee_like = {
+    A21_busy_bee_like = {
         build_time = -0.2    
     }
-    benevolent_tyrants = {
+    A21_benevolent_tyrants = {
         liberty_desire = -10
     }
-    lirgal_stands = {
+    A21_lirgal_stands = {
         discipline = 0.05
         global_unrest = -1        
     }
 }
 
-#Tyrian League ideas
+#Týrian League ideas
 A39_ideas = {
 	start = {
 		development_cost = -0.05
@@ -373,7 +373,7 @@ A39_ideas = {
 
 	trigger = {
 		OR = {
-			tag = A39 #Tï¿½rian League
+			tag = A39 #Týrian League
 		}
 	}
 	free = yes		#will be added at load.
