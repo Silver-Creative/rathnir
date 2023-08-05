@@ -34,8 +34,11 @@ historical_units = {
 
 monarch_names = {
 
-	#Historical Reyllean Leaders (Male)
-	"Amaury #0" = 10
+	#Historical Carnian Leaders
+	"Raeleas #0" = 3 
+	"Allantus #0" = 3
+	"Cremineus #0" = 3
+	"Lircinius #0" = 3
 
     #Generic Reyllean Names (Male)
     "Adenand #0" = 10
@@ -65,8 +68,72 @@ monarch_names = {
     "Sansa #0" = -1
     "Ramatilda #0" = -1
 	
-	#Historical Reyllean Leaders (Female)
-    "Kartinna #0" = -1
+	#Carnian names (gender neutral)
+	"Locarios #0" = 10
+	"Síellen #0" = 10
+	"Caeliss #0" = 10
+	"Tallor #0" = 10
+	"Goellen #0" = 10
+	"Loevereus #0" = 10
+	"Morrn #0" = 10
+	"Daria #0" = 10
+	"Issenés #0" = 10
+	"Sílcaios #0" = 10
+	"Allestias #0" = 10
+	"Roteinios #0" = 10
+	"Creminius #0" = 10
+	"Aeronos #0" = 10
+	"Alveneas # 0" = 10
+	"Éestés #0" = 10
+	"Haeron #0" = 10
+	"Jervicos #0" = 10
+	"Maellen #0" = 10
+	"Rhediés #0" = 10
+	"Lascinnius #0" = 10
+	"Niceros #0" = 10
+	"Auericos #0" = 10
+	"Travinius #0" = 10
+	"Lévés #0" = 10
+	"Angueries #0" = 10
+	"Goeln #0" = 10
+	"Noevriés #0" = 10
+	"Cevrineos #0" = 10
+	"Sallás #0" = 10
+	"Naerellia #0" = 10
+	"Tacris #0" = 10
+
+	"Locarios #0" = -1
+	"Síellen #0" = -1
+	"Caeliss #0" = -1
+	"Tallor #0" = -1
+	"Goellen #0" = -1
+	"Loevereus #0" = -1
+	"Morrn #0" = -1
+	"Daria #0" = -1
+	"Issenés #0" = -1
+	"Sílcaios #0" = -1
+	"Allestias #0" = -1
+	"Roteinios #0" = -1
+	"Creminius #0" = -1
+	"Aeronos #0" = -1
+	"Alveneas #0" = -1
+	"Éestés #0" = -1
+	"Haeron #0" = -1
+	"Jervicos #0" = -1
+	"Maellen #0" = -1
+	"Rhediés #0" = -1
+	"Lascinnius #0" = -1
+	"Niceros #0" = -1
+	"Auericos #0" = -1
+	"Travinius #0" = -1
+	"Lévés #0" = -1
+	"Angueries #0" = -1
+	"Goeln #0" = -1
+	"Noevriés #0" = -1
+	"Cevrineos #0" = -1
+	"Sallás #0" = -1
+	"Naerellia #0" = -1
+	"Tacris #0" = -1		
 }
 
 leader_names = {
