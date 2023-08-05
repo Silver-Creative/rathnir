@@ -1289,7 +1289,7 @@ civic_republicanism_government = {
 	duration = 5
 }
 
-### RATHNIR
+### RATHNIR - Tier 1
 
 vastallosi_league_reform = {
 	icon = "parliament"

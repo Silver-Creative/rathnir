@@ -4295,6 +4295,11 @@ norwegian_parliamentary_monarchy = {
 	}
 }
 
+### RATHNIR - Tier 1
+#niedene_remnant_reform = {
+#
+#}
+
 #Hereditary vs Nobility
 enforce_privileges_reform = {
 	icon = "people_walking"
