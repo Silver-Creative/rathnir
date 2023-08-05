@@ -489,6 +489,44 @@ B11_ideas = {
         tolerance_own = 2
     }
 }
+#B00 Carvay
+B00_ideas = {
+    start = {
+        production_efficiency = 0.1
+        global_trade_power = 0.15    
+    }
+    bonus = {
+        all_power_cost  = -0.05
+    }
+    trigger = {
+        OR = {
+            tag = B00 #Carvay
+        }
+    }
+    free = yes        #will be added at load.
+
+    B00_ombrian_fleet = {
+        naval_forcelimit_modifier = 0.25
+    }
+    B00_organization_of_the_people = {
+        reinforce_speed = 0.15 
+    }
+    B00_siege_tactics = {
+        siege_blockade_progress = 1
+    }
+    B00_doge = {
+        reelection_cost = -0.15
+    }
+    B00_control_trade = {
+        global_ship_trade_power = 0.2
+    }
+    B00_improve_beurocracy = {
+        advisor_cost = -0.15
+    }
+    B00_protecting_the_gulf = {
+        naval_tradition_from_trade = 0.50
+    }
+}
 
 #Escharian ideas
 N00_ideas = {
