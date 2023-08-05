@@ -1,0 +1,53 @@
+#normal_or_historical_nations = yes
+#### Donsktopt v. Knossos Primer ####
+namespace = donsktopt_primer
+country_event = {
+    id = donsktopt_primer.1
+    title = donsktopt_primer.1.t
+    desc = donsktopt_primer.1.d
+    picture = ANGRY_MOB_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = B11
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    immediate = {
+		add_army_professionalism = -0.05
+		add_country_modifier = {
+			name = bad_discipline
+			duration = 1121
+		}
+    }
+    option = {
+        name = donsktopt_primer.1.a
+        custom_tooltip = donsktopt_primer.1.a.tt
+    }
+}
+country_event = {
+	id = donsktopt_primer.2
+    title = donsktopt_primer.2.t
+    desc = donsktopt_primer.2.d
+    picture = ANGRY_MOB_eventPicture
+    #fire_only_once = yes
+    trigger = {
+        capital_scope = {
+			superregion = vastallos_superregion
+		}
+		NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
+		NOT = {
+			tag = B11
+		}
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    immediate = {
+		set_country_flag = THIS_EVENT_FIRED_FOR_ME
+		}
+    option = {
+        name = donsktopt_primer.2.a
+        custom_tooltip = donsktopt_primer.2.a.tt
+    }
+}
