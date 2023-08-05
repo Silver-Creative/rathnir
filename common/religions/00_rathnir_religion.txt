@@ -841,6 +841,10 @@ feybound = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
+
+			heretic = {
+				WILLOWPACT
+			}
 		}
 	}
 
@@ -869,6 +873,10 @@ feybound = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
+			}
+			
+			heretic = {
+				SANDEROSA
 			}
 		}
 	}

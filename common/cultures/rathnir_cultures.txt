@@ -783,6 +783,26 @@ anoshphite_group = {
 
 	idan-ridu = {
 		primary = A51
+
+		dynasty_names = {
+			Qisim-tashkhand Haban-bevk Scandus-mian Kang-zak Monshil-nak
+			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand
+		}
+
+		male_names = {
+			Talla Asselli Rimuun Yazikk Sibash Hassan Yarokk
+			Gezuus Ekur Siyoi Zhawwer Loyer Jánchuw Rewwokh 
+			Annun Gábim Buxu Mazai Numun Bartu Khulan Oghul
+			Tayang Osol Bhakto Batu Maral Tsering Yalin Altan
+			Surat Bogen Nasiv Jiba Qad Ubara Shakha Maryám
+		}
+
+		female_names = {
+			Inild Yesui Talla Asselli Rimuun Gezuus Ekur Siyoi
+			Loyer Gábim Buxu Mazai Numun Suke Khulan Yeke
+			Baidu Kara Yesui Juma Kareh Gheni Nasiv Jiba
+			Qad Ubara Shakha Maryám
+		}
 	}
 	caedan = {
 

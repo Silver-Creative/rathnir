@@ -193,3 +193,28 @@ niedene_monarchy = {
 		#NOT = { tag = COB }
 	}
 }
+
+idani_monarchy = {
+	rank = {
+		1 = BEKHTI
+		2 = SHAKHTI
+		3 = KHOGEKHTI
+	}
+	
+	ruler_male = {
+		1 = BEKH
+		2 = SHAH
+		3 = KHOGEN
+	}
+	
+	ruler_female = {
+		1 = BEKH
+		2 = SHAH
+		3 = KHOGEN
+	}
+
+	trigger = {
+		government = monarchy
+		culture = idan-ridu
+	}
+}
