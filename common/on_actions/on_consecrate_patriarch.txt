@@ -1,0 +1,20 @@
+# province
+on_consecrate_patriarch = {
+	if = {
+		limit = {
+			owner = {
+				has_country_flag = has_improved_consecration
+			}
+		}
+		every_province_in_state = {
+			limit = {
+				has_state_patriach = yes
+			}
+			add_province_modifier = {
+				name = consecrated_ground
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+}

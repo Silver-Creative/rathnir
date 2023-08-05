@@ -1,0 +1,14 @@
+on_successive_emperor = {
+	emperor = {
+		save_global_event_target_as = Emperor
+	}
+	if = {
+		limit = {
+			has_government_attribute = has_ruler_election
+		}
+		set_country_flag = has_internal_election_first
+	}
+	events = {
+		900
+	}
+}

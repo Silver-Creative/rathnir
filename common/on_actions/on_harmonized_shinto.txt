@@ -1,0 +1,4 @@
+on_harmonized_shinto = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+}

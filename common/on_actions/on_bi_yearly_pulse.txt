@@ -1,0 +1,218 @@
+on_bi_yearly_pulse = {
+	events = {
+		center_of_revolution.2950
+		center_of_revolution.3000
+	}
+	random_events = {
+
+		#Culture and Religion Events
+		125 = culture_religion_events.1
+		125 = culture_religion_events.3
+		125 = culture_religion_events.4
+		125 = culture_religion_events.5
+		125 = culture_religion_events.6
+		125 = culture_religion_events.7
+		125 = culture_religion_events.8
+		125 = culture_religion_events.9
+		125 = culture_religion_events.10
+		125 = culture_religion_events.11
+		125 = culture_religion_events.12
+		125 = culture_religion_events.13
+		125 = culture_religion_events.14
+		125 = culture_religion_events.15
+		125 = culture_religion_events.16
+		100 = culture_religion_events.17
+		125 = culture_religion_events.18
+		125 = culture_religion_events.19
+		125 = culture_religion_events.20
+		175 = culture_religion_events.21
+		125 = culture_religion_events.22
+		125 = culture_religion_events.23
+
+		# Old Centralisation/Decentralisation
+		100 = 806
+
+		# Mercantilism
+		100 = 6326
+		100 = 6327
+		100 = 6328
+		100 = 6329
+
+		# Trade Specific
+		100 = trade.1
+		100 = trade.2
+		100 = trade.3
+		100 = trade.4
+		100 = trade.5
+		100 = trade.6
+		100 = trade.7
+		100 = trade.8
+		100 = trade.9
+		100 = trade.10
+		100 = trade.11
+		100 = trade.12
+
+		# Tradegoods events
+		100 = 6418
+		100 = 6419
+		100 = 6420
+		100 = 6421
+		100 = 6422
+		100 = 6423
+		100 = 6424
+		100 = 6425
+		100 = 6426
+		100 = 6427
+		100 = 6428
+		100 = 6429
+		100 = 6431
+		100 = 6432
+		100 = 6433
+		100 = 6434
+
+		# Refoms, when having parliaments.
+		100 = reforms.1
+		100 = reforms.2
+		100 = reforms.3
+		100 = reforms.4
+
+		100 = randomeventsstapehordes.1
+		100 = randomeventsstapehordes.2
+		100 = randomeventsstapehordes.3
+		100 = randomeventsstapehordes.4
+		100 = randomeventsstapehordes.5
+		100 = randomeventsstapehordes.6
+		100 = randomeventsstapehordes.7
+		100 = randomeventsstapehordes.8
+		100 = randomeventsstapehordes.13
+		100 = randomeventsstapehordes.14
+		100 = randomeventsstapehordes.17
+		100 = randomeventsstapehordes.19
+		100 = randomeventsstapehordes.20
+		100 = randomeventsstapehordes.21
+		100 = randomeventsstapehordes.22
+		100 = randomeventsstapehordes.23
+		100 = randomeventsstapehordes.24
+
+		# Sailor events
+		100 = sailor_event.1
+		100 = sailor_event.2
+		100 = sailor_event.3
+		100 = sailor_event.4
+		100 = sailor_event.5
+
+		# Corruption Events
+		100 = corruption_event.16
+		100 = corruption_event.17
+		100 = corruption_event.18
+		100 = corruption_event.19
+		100 = corruption_event.20
+
+		# Institution Events
+		## Feudalism Spread Events:
+		150 = institution_events.8
+		150 = institution_events.9
+		150 = institution_events.10
+		150 = institution_events.11
+		##Global Trade Spread Events:
+		150 = institution_events.50
+		150 = institution_events.51
+		150 = institution_events.52
+		##Enlightenment Spread Events:
+		150 = institution_events.70
+		150 = institution_events.71
+		150 = institution_events.72
+
+		#Personality Events
+		50 = personality_events.10 #Just Dilema
+		50 = personality_events.11 #A righteous King
+		50 = personality_events.12 #A Righteous Republican Ruler
+		50 = personality_events.13
+		50 = personality_events.14
+		50 = personality_events.15
+		50 = personality_events.16
+		50 = personality_events.17
+		50 = personality_events.18
+		50 = personality_events.19
+		50 = personality_events.20
+		50 = personality_events.21
+		50 = personality_events.22
+		50 = personality_events.23
+		50 = personality_events.24
+		50 = personality_events.25
+		50 = personality_events.26
+		50 = personality_events.27
+		50 = personality_events.28
+		50 = personality_events.29
+		50 = personality_events.30
+		50 = personality_events.31
+		50 = personality_events.32
+		50 = personality_events.33
+		50 = personality_events.34
+		50 = personality_events.35
+		50 = personality_events.36
+		50 = personality_events.37
+		50 = personality_events.38
+		50 = personality_events.39
+		50 = personality_events.40
+		50 = personality_events.41
+		50 = personality_events.42
+		50 = personality_events.43
+		50 = personality_events.44
+		50 = personality_events.45
+		50 = personality_events.46
+		50 = personality_events.47
+		50 = personality_events.48
+		50 = personality_events.49
+		50 = personality_events.50
+		50 = personality_events.51
+		50 = personality_events.52
+		50 = personality_events.53
+		50 = personality_events.54
+		50 = personality_events.55
+		50 = personality_events.56
+		50 = personality_events.57
+		50 = personality_events.58
+
+		# Trade League Events
+		100 = trade_league.1
+		100 = trade_league.2
+		100 = trade_league.3
+		100 = trade_league.4
+		100 = trade_league.7
+		100 = trade_league.8
+		100 = trade_league.9
+		100 = trade_league.10
+		100 = trade_league.11
+		100 = trade_league.12
+		100 = trade_league.13
+		100 = trade_league.14
+
+		#Industrial Revolution
+		200 = industrialization_events.7
+		200 = industrialization_events.8
+		200 = industrialization_events.9
+		200 = industrialization_events.10
+		200 = industrialization_events.11
+		200 = industrialization_events.12
+		200 = industrialization_events.13
+		200 = industrialization_events.14
+		200 = industrialization_events.15
+		200 = industrialization_events.16
+		200 = industrialization_events.17
+		200 = industrialization_events.18
+		200 = industrialization_events.19
+		200 = industrialization_events.20
+		200 = industrialization_events.21
+		200 = industrialization_events.22
+
+		# Orthodox Icon Events
+		75 = orthodox_icon_events.1
+		75 = orthodox_icon_events.3
+		75 = orthodox_icon_events.4
+		75 = orthodox_icon_events.5
+		75 = orthodox_icon_events.6
+
+		2000 = 0 #was 1250
+	}
+}

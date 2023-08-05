@@ -1,0 +1,9 @@
+# country
+on_admiral_recruited = {
+	if = {
+		limit = {
+			has_country_flag = admirals_give_army_professionalism
+		}
+		add_army_professionalism = 0.005
+	}
+}

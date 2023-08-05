@@ -1,0 +1,37 @@
+# When a non-native changes government type
+on_government_change = {
+	clr_country_flag = pirate_mutineer_council
+	clr_country_flag = caretaker_revolutionary_government
+	if = {
+		limit = {
+			NOT = {
+				government = monarchy
+			}
+			any_owned_province = {
+				has_province_modifier = domain_of_spouses_family
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_province_modifier = domain_of_spouses_family
+			}
+			remove_province_modifier = domain_of_spouses_family
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				government = monarchy
+			}
+			any_owned_province = {
+				has_province_modifier = home_of_consort
+			}
+		}
+		random_owned_province = {
+			limit = {
+				has_province_modifier = home_of_consort
+			}
+			remove_province_modifier = home_of_consort
+		}
+	}
+}

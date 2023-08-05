@@ -1,0 +1,5 @@
+on_replace_governor = {
+	events = {
+		elections.707
+	}
+}

@@ -1,0 +1,22 @@
+on_colonial_pulse = {
+	random_events = {
+		100 = colonial.1
+		100 = colonial.2
+		100 = colonial.3
+		100 = colonial.4
+		100 = colonial.5
+		100 = colonial.8
+		100 = colonial.9
+		100 = colonial.10
+		100 = colonial.11
+		100 = colonial.12
+		100 = colonial.13
+		100 = colonial.14
+		100 = colonial.15
+		100 = colonial.16
+		100 = colonial.17
+		100 = colonial.18
+		25 = dodo.1
+		15000 = 0
+	}
+}

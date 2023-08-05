@@ -1,0 +1,3 @@
+on_revoke_estate_land_post = {
+	add_local_autonomy = 25
+}

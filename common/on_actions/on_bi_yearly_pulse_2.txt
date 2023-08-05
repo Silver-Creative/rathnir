@@ -1,0 +1,20 @@
+on_bi_yearly_pulse_2 = {
+	random_events = {
+		100 = corruption_event.1
+		100 = corruption_event.2
+		100 = corruption_event.3
+		100 = corruption_event.4
+		100 = corruption_event.5
+		100 = corruption_event.6
+		100 = corruption_event.7
+		100 = corruption_event.8
+		100 = corruption_event.9
+		100 = corruption_event.10
+		200 = corruption_event.11
+		200 = corruption_event.12
+		200 = corruption_event.13
+		200 = corruption_event.14
+		200 = corruption_event.15
+		4000 = 0
+	}
+}

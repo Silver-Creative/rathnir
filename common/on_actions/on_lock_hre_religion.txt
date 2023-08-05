@@ -1,0 +1,6 @@
+on_lock_hre_religion = {
+	#events = {
+	#	religious_leagues.1
+	#	religious_leagues.8
+	#}
+}

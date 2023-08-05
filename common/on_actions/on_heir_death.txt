@@ -1,0 +1,5 @@
+on_heir_death = {
+	on_heir_disinherited_or_death_effect = yes
+	ladislaus_postumus_heir_died_effect = yes
+	joan_de_trastamara_heir_died_effect = yes
+}

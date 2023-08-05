@@ -1,0 +1,4 @@
+#ROOT - Original alliance creator, FROM - Alliance accepter
+on_alliance_broken = {
+	on_alliance_broken_effect = yes
+}

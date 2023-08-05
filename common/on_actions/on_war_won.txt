@@ -1,0 +1,59 @@
+on_war_won = {
+	ROOT = {
+		country_event = {
+			id = tributary_events.32
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = can_gain_legendary_pirates_flag
+			NOT = {
+				has_ruler_flag = historical_pirate
+			}
+			has_government_attribute = is_pirate_republic_reform
+			FROM = {
+				total_development = ROOT
+			}
+		}
+		random = {
+			chance = 5
+			country_event = {
+				id = pirates.25
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_part_of_hre = yes
+			FROM = {
+				is_part_of_hre = yes
+			}
+		}
+		ROOT = {
+			save_global_event_target_as = hre_winner
+		}
+		FROM = {
+			save_global_event_target_as = hre_loser
+		}
+		random_known_country = {
+			limit = {
+				has_reform = free_city
+				NOT = {
+					prestige = 40
+				}
+				NOT = {
+					has_country_modifier = fc_treatyconference_timer
+				}
+			}
+			add_country_modifier = {
+				name = fc_treatyconference_timer
+				duration = 3650
+				hidden = yes
+			}
+			country_event = {
+				id = free_cities.7
+				days = 7
+			}
+		}
+	}
+}

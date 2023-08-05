@@ -1,0 +1,19 @@
+on_dismantle_revolution = {
+	events = {
+		center_of_revolution.1500
+	}
+	if = {
+		limit = {
+			any_country = {
+				has_country_flag = last_revolutionary_country
+			}
+		}
+		every_country = {
+			limit = {
+				has_country_flag = last_revolutionary_country
+			}
+			clr_country_flag = last_revolutionary_country
+		}
+	}
+	set_country_flag = last_revolutionary_country
+}

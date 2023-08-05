@@ -1,0 +1,5 @@
+on_colonial_reintegration = {
+	events = {
+		colonial_nation.91
+	}
+}

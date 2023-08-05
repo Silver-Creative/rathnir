@@ -1,0 +1,5 @@
+on_hre_dismantled = {
+	country_event = {
+		id = hre_event.15
+	}
+}

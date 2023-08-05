@@ -1,0 +1,4 @@
+on_parliament_debate_succeeded = {
+	on_parliament_debate_succeeded_effect = yes
+	increase_issue_passed_counter = yes
+}

@@ -1,0 +1,3 @@
+##scope = colony province, FROM = owner country or province if there's a minority expulsion source, fires when the colony is created
+on_colony_established = {
+}

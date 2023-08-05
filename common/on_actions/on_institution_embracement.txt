@@ -1,0 +1,10 @@
+on_institution_embracement = {
+	if = {
+		limit = {
+			has_government_attribute = monarch_power_on_institutions
+		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+	}
+}

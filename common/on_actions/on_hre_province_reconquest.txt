@@ -1,0 +1,5 @@
+# HRE Member takes a HRE province from an outs100e country in a peace (province scope)
+on_hre_province_reconquest = {
+	events = {
+	}
+}

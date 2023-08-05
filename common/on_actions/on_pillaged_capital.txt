@@ -1,0 +1,4 @@
+#FROM = country pillaged, ROOT = country doing the pillaging
+on_pillaged_capital = {
+	slave_raid_pillage_capital_effect = yes
+}

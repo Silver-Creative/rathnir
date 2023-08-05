@@ -1,0 +1,5 @@
+on_weak_heir_claim = {
+	events = {
+		611		# Pretenders rise up
+	}
+}

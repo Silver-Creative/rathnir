@@ -1,0 +1,3 @@
+#ROOT - Winer FROM - Loser
+on_war_ended = {
+}

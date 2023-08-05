@@ -1,0 +1,6 @@
+# Emperor NOT coming to the defense of a HRE member
+on_hre_non_defense = {
+	events = {
+		909
+	}
+}

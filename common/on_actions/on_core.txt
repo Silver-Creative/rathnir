@@ -1,0 +1,3 @@
+#ROOT - Province, #FROM - Country that gets the core
+on_core = {
+}

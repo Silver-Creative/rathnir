@@ -1,0 +1,16 @@
+on_conquistador_native = {
+	random_events = {
+		10 = seven_cities_events.300
+		10 = seven_cities_events.301
+		10 = seven_cities_events.303
+		10 = seven_cities_events.304
+		10 = seven_cities_events.305
+		10 = seven_cities_events.306
+		10 = seven_cities_events.307
+		10 = seven_cities_events.308
+		10 = seven_cities_events.309
+		10 = seven_cities_events.310
+		
+		250 = 0
+	}
+}

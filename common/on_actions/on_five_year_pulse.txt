@@ -1,0 +1,355 @@
+on_five_year_pulse = {
+	random_events = {
+
+		# Aristocracy 		13  (8g 5b)
+		100 = ideagroups.100
+		100 = ideagroups.101
+		100 = ideagroups.102
+		100 = ideagroups.103
+		100 = ideagroups.104
+		100 = ideagroups.105
+		100 = ideagroups.106
+		100 = ideagroups.107
+		100 = ideagroups.108
+		100 = ideagroups.109
+		100 = ideagroups.110
+		100 = ideagroups.111
+		100 = ideagroups.112
+
+		# Plutocracy 		19 (12g 7b)
+		100 = ideagroups.200
+		100 = ideagroups.201
+		100 = ideagroups.202
+		100 = ideagroups.203
+		100 = ideagroups.204
+		100 = ideagroups.205
+		100 = ideagroups.206
+		100 = ideagroups.207
+		100 = ideagroups.208
+		100 = ideagroups.209
+		100 = ideagroups.210
+		100 = ideagroups.211
+		100 = ideagroups.212
+		100 = ideagroups.213
+		100 = ideagroups.214
+		100 = ideagroups.215
+		100 = ideagroups.216
+		100 = ideagroups.217
+		100 = ideagroups.218
+
+		# Innovativenes		11 (7g 4b)
+		100 = ideagroups.300
+		100 = ideagroups.301
+		100 = ideagroups.302
+		100 = ideagroups.303
+		100 = ideagroups.304
+		100 = ideagroups.305
+		100 = ideagroups.306
+		100 = ideagroups.307
+		100 = ideagroups.308
+		100 = ideagroups.309
+		100 = ideagroups.310
+
+		# Religious		18 (11g 7b)
+		100 = ideagroups.400
+		100 = ideagroups.401
+		100 = ideagroups.402
+		100 = ideagroups.403
+		100 = ideagroups.404
+		100 = ideagroups.405
+		100 = ideagroups.406
+		100 = ideagroups.407
+		100 = ideagroups.408
+		100 = ideagroups.409
+		100 = ideagroups.410
+		100 = ideagroups.411
+		100 = ideagroups.412
+		100 = ideagroups.413
+		100 = ideagroups.414
+		100 = ideagroups.415
+		100 = ideagroups.416
+		100 = ideagroups.417
+
+		# Spy			9 (6g 3b)
+		100 = ideagroups.500
+		100 = ideagroups.501
+		100 = ideagroups.502
+		100 = ideagroups.503
+		100 = ideagroups.504
+		100 = ideagroups.505
+		100 = ideagroups.506
+		100 = ideagroups.507
+		100 = ideagroups.508
+
+		# Diplomatic		9 (6g 3b)
+		100 = ideagroups.600
+		100 = ideagroups.601
+		100 = ideagroups.602
+		100 = ideagroups.603
+		100 = ideagroups.604
+		100 = ideagroups.605
+		100 = ideagroups.606
+		100 = ideagroups.607
+		100 = ideagroups.608
+
+		# Offensive 		14 (9g 5b)
+		100 = ideagroups.700
+		100 = ideagroups.701
+		100 = ideagroups.702
+		100 = ideagroups.703
+		100 = ideagroups.704
+		100 = ideagroups.705
+		100 = ideagroups.706
+		100 = ideagroups.707
+		100 = ideagroups.708
+		100 = ideagroups.709
+		100 = ideagroups.710
+		100 = ideagroups.711
+		100 = ideagroups.712
+		100 = ideagroups.713
+
+		# Defensive		11 (5g 6b)
+		100 = ideagroups.800
+		100 = ideagroups.801
+		100 = ideagroups.802
+		100 = ideagroups.803
+		100 = ideagroups.804
+		100 = ideagroups.805
+		100 = ideagroups.806
+		100 = ideagroups.807
+		100 = ideagroups.808
+		100 = ideagroups.809
+		100 = ideagroups.810
+		100 = ideagroups.811
+		100 = ideagroups.812
+		100 = ideagroups.813
+		100 = ideagroups.814
+		100 = ideagroups.815
+
+		# Trade			6 (7g 4b)
+		100 = ideagroups.900
+		100 = ideagroups.901
+		100 = ideagroups.902
+		100 = ideagroups.903
+		100 = ideagroups.904
+		100 = ideagroups.905
+		100 = ideagroups.906
+		100 = ideagroups.907
+		100 = ideagroups.908
+		100 = ideagroups.909
+		100 = ideagroups.910
+
+		# Maritime			22 (14g 8b)
+		100 = ideagroups.1000
+		100 = ideagroups.1001
+		100 = ideagroups.1002
+		100 = ideagroups.1003
+		100 = ideagroups.1004
+		100 = ideagroups.1005
+		100 = ideagroups.1006
+		100 = ideagroups.1007
+		100 = ideagroups.1008
+		100 = ideagroups.1009
+		100 = ideagroups.1010
+		100 = ideagroups.1011
+		100 = ideagroups.1012
+		100 = ideagroups.1013
+		100 = ideagroups.1014
+		100 = ideagroups.1015
+		100 = ideagroups.1016
+		100 = ideagroups.1017
+		100 = ideagroups.1018
+		100 = ideagroups.1019
+		100 = ideagroups.1020
+		100 = ideagroups.1021
+
+		# Economic		11 (7g 4b)
+		100 = ideagroups.1100
+		100 = ideagroups.1101
+		100 = ideagroups.1102
+		100 = ideagroups.1103
+		100 = ideagroups.1104
+		100 = ideagroups.1105
+		100 = ideagroups.1106
+		100 = ideagroups.1107
+		100 = ideagroups.1108
+		100 = ideagroups.1109
+		100 = ideagroups.1110
+
+		# Exploration		11 (7g 4b)
+		100 = ideagroups.1200
+		100 = ideagroups.1201
+		100 = ideagroups.1202
+		100 = ideagroups.1203
+		100 = ideagroups.1204
+		100 = ideagroups.1205
+		100 = ideagroups.1206
+		100 = ideagroups.1207
+		100 = ideagroups.1208
+		100 = ideagroups.1209
+		100 = ideagroups.1210
+
+		# Quality		11 (7g 4b)
+		100 = ideagroups.1300
+		100 = ideagroups.1301
+		100 = ideagroups.1302
+		100 = ideagroups.1303
+		100 = ideagroups.1304
+		100 = ideagroups.1305
+		100 = ideagroups.1306
+		100 = ideagroups.1307
+		100 = ideagroups.1308
+		100 = ideagroups.1309
+		100 = ideagroups.1310
+
+		# Quantity		11 (7g 4b)
+		100 = ideagroups.1400
+		100 = ideagroups.1401
+		100 = ideagroups.1402
+		100 = ideagroups.1403
+		100 = ideagroups.1404
+		100 = ideagroups.1405
+		100 = ideagroups.1406
+		100 = ideagroups.1407
+		100 = ideagroups.1408
+		100 = ideagroups.1409
+		100 = ideagroups.1410
+
+		# Expansion		11 (7g 4b)
+		100 = ideagroups.1500
+		100 = ideagroups.1501
+		100 = ideagroups.1502
+		100 = ideagroups.1503
+		100 = ideagroups.1504
+		100 = ideagroups.1505
+		100 = ideagroups.1506
+		100 = ideagroups.1507
+		100 = ideagroups.1508
+		100 = ideagroups.1509
+		100 = ideagroups.1510
+
+		# Administrative	8 (5g 3b)
+		100 = ideagroups.1600
+		100 = ideagroups.1601
+		100 = ideagroups.1602
+		100 = ideagroups.1605
+		100 = ideagroups.1606
+		100 = ideagroups.1607
+		100 = ideagroups.1608
+		100 = ideagroups.1609
+
+		# Naval		11 (7g 4b)
+		100 = ideagroups.1700
+		100 = ideagroups.1701
+		100 = ideagroups.1702
+		100 = ideagroups.1703
+		100 = ideagroups.1704
+		100 = ideagroups.1705
+		100 = ideagroups.1706
+		100 = ideagroups.1707
+		100 = ideagroups.1708
+		100 = ideagroups.1709
+		100 = ideagroups.1710
+
+		# Influence		11 (7g 4b)
+		100 = ideagroups.1800
+		100 = ideagroups.1801
+		100 = ideagroups.1802
+		100 = ideagroups.1803
+		100 = ideagroups.1804
+		100 = ideagroups.1805
+		100 = ideagroups.1806
+		100 = ideagroups.1807
+		100 = ideagroups.1808
+		100 = ideagroups.1809
+		100 = ideagroups.1810
+
+		# Humanist		11 (7g 4b)
+		100 = ideagroups.1900
+		100 = ideagroups.1901
+		100 = ideagroups.1902
+		100 = ideagroups.1903
+		100 = ideagroups.1904
+		100 = ideagroups.1905
+		100 = ideagroups.1906
+		100 = ideagroups.1907
+		100 = ideagroups.1908
+		100 = ideagroups.1909
+		100 = ideagroups.1910
+
+		# Horde Ideas		10 (8g 2b)
+		100 = ideagroups.1922
+		100 = ideagroups.1923
+		100 = ideagroups.1924
+		100 = ideagroups.1925
+		100 = ideagroups.1926
+		100 = ideagroups.1927
+		100 = ideagroups.1928
+		100 = ideagroups.1929
+		100 = ideagroups.1930
+		100 = ideagroups.1931
+
+		#Theocracy Ideas		11 (9g 2b)
+		100 = ideagroups.1911
+		100 = ideagroups.1912
+		100 = ideagroups.1913
+		100 = ideagroups.1914
+		100 = ideagroups.1915
+		100 = ideagroups.1916
+		100 = ideagroups.1917
+		100 = ideagroups.1918
+		100 = ideagroups.1919
+		100 = ideagroups.1920
+		100 = ideagroups.1921
+
+		# Indigenous		10 (6g 4b)
+		100 = ideagroups.1932
+		100 = ideagroups.1933
+		100 = ideagroups.1934
+		100 = ideagroups.1935
+		100 = ideagroups.1936
+		100 = ideagroups.1937
+		100 = ideagroups.1938
+		100 = ideagroups.1939
+		100 = ideagroups.1940
+		100 = ideagroups.1941
+
+		# Infrastructure		10 (5g 5b)
+		100 = ideagroups.2000
+		100 = ideagroups.2001
+		100 = ideagroups.2002
+		100 = ideagroups.2003
+		100 = ideagroups.2004
+		100 = ideagroups.2005
+		100 = ideagroups.2006
+		100 = ideagroups.2007
+		100 = ideagroups.2008
+		100 = ideagroups.2009
+		100 = ideagroups.2010
+
+		#Court Events			8 (6g 2b)
+		100 = ideagroups.2011
+		100 = ideagroups.2012
+		100 = ideagroups.2013
+		100 = ideagroups.2014
+		100 = ideagroups.2015
+		100 = ideagroups.2016
+		100 = ideagroups.2017
+
+		#Mercenary Ideas		9 (6g 3b)
+		100 = ideagroups.2020
+		100 = ideagroups.2021
+		100 = ideagroups.1603
+		100 = ideagroups.1604
+		100 = ideagroups.1610
+		100 = ideagroups.2025
+		100 = ideagroups.2026
+		100 = ideagroups.2027
+		100 = ideagroups.2028
+
+		1000 = 0
+	}
+	#events = {
+	#	seven_cities_events.1000
+	#}
+}

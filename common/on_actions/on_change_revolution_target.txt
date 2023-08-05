@@ -1,0 +1,9 @@
+# this = new target, from = previous target (both can be non-existent tag)
+on_change_revolution_target = {
+	if = {
+		limit = {
+			has_reform = junior_revolutionary_republic_reform
+		}
+		add_government_reform = revolutionary_republic_reform
+	}
+}

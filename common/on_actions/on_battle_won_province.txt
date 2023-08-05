@@ -1,0 +1,42 @@
+on_battle_won_province = {
+	if = {
+		limit = {
+			from = {
+				tag = REB
+				is_rebel_type = revolutionary_rebels
+			}
+			owner = {
+				any_owned_province = {
+					region = root
+					has_revolution_in_province = yes
+				}
+				NOT = {
+					has_disaster = revolution
+				}
+				NOT = {
+					has_spawned_rebels = revolutionary_rebels
+				}
+			}
+		}
+		owner = {
+			country_event = {
+				id = center_of_revolution.1600
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				tag = REB
+			}
+			owner = {
+				has_country_flag = eunuch_estate_in_power
+				is_emperor_of_china = yes
+				has_dlc = "Mandate of Heaven"
+			}
+		}
+		owner = {
+			add_mandate = -10
+		}
+	}
+}

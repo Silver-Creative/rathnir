@@ -1,0 +1,11 @@
+# THIS = Province
+on_banner_raised = {
+	owner = {
+		if = {
+			limit = {
+				has_country_flag = refund_partial_corruption_on_banner_recruited_flag
+			}
+			add_corruption = -0.04
+		}
+	}
+}

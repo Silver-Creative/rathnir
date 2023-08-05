@@ -1,0 +1,5 @@
+# province
+# root = location, from = country that owns it
+# Fired right after the great project is constructed
+on_great_project_constructed = {
+}

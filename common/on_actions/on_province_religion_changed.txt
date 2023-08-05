@@ -1,0 +1,3 @@
+on_province_religion_changed = {
+	on_province_religion_changed_effect = yes
+}

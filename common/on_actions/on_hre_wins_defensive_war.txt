@@ -1,0 +1,5 @@
+# Emperor wins HRE defensive war
+on_hre_wins_defensive_war = {
+	events = {
+	}
+}

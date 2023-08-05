@@ -1,0 +1,5 @@
+on_remove_free_city = {
+	events = {
+		free_cities.2
+	}
+}

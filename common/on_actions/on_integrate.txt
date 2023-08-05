@@ -1,0 +1,6 @@
+# Nation is integrated after being in union
+on_integrate = {
+	events = {
+		610
+	}
+}

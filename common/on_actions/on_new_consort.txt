@@ -1,0 +1,29 @@
+on_new_consort = {
+	#country_event = {
+	#	id = consort_events.2
+	#}
+	if = {
+		limit = {
+			has_ruler_flag = had_10_years_anniversary
+		}
+		clr_ruler_flag = had_10_years_anniversary
+	}
+	if = {
+		limit = {
+			has_ruler_flag = had_20_years_anniversary
+		}
+		clr_ruler_flag = had_20_years_anniversary
+	}
+	if = {
+		limit = {
+			has_ruler_flag = consort_had_affection_of_ruler
+		}
+		clr_ruler_flag = consort_had_affection_of_ruler
+	}
+	if = {
+		limit = {
+			has_country_modifier = sought_after_bachelor
+		}
+		remove_country_modifier = sought_after_bachelor
+	}
+}

@@ -1,0 +1,4 @@
+on_primary_culture_changed = {
+	on_primary_culture_changed_privileges_effect = yes
+	imperial_modifiers_on_primary_culture_change_effect = yes
+}

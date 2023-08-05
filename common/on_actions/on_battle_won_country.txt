@@ -1,0 +1,4 @@
+on_battle_won_country = {
+	on_battle_ended_effect = yes
+	on_battle_won_country_effect = yes
+}

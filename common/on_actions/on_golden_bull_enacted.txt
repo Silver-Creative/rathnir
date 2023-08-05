@@ -1,0 +1,4 @@
+# this = curia controller (enactor of the bull)
+on_golden_bull_enacted = {
+	set_country_flag = enacted_golden_bull
+}

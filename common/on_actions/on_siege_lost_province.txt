@@ -1,0 +1,4 @@
+# province
+# root = location, from = winning country
+on_siege_lost_province = {
+}

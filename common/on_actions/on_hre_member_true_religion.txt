@@ -1,0 +1,5 @@
+# HRE Prince converts to Emperor religion
+on_hre_member_true_religion = {
+	events = {
+	}
+}

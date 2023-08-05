@@ -1,0 +1,4 @@
+on_harmonized_buddhism = { #Theravada
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+}

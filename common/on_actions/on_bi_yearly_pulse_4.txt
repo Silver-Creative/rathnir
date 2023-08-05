@@ -1,0 +1,162 @@
+on_bi_yearly_pulse_4 = {
+	random_events = {	#all these were shifted from on_bi_yearly_pulse_1
+		#randomevents
+		100 = 730
+		100 = 731
+		100 = 732
+		100 = 733
+		100 = 734
+		100 = 735
+		100 = 736
+		100 = 737
+		100 = 738
+		100 = 739
+		100 = 740
+		100 = 741
+		100 = 742
+
+		100 = 850
+		100 = 851
+		100 = 852
+		100 = 853
+		100 = 854
+		100 = 855
+		100 = 857
+		100 = 858
+		100 = 859
+		100 = 860
+		100 = 861
+		100 = 862
+		100 = 863
+		100 = 864
+		100 = 865
+		100 = 866
+		100 = 867
+		100 = 868
+		100 = 869
+		100 = 870
+		100 = 871
+		100 = 872
+		100 = 873
+		100 = 874
+		100 = 875
+		100 = 876
+		100 = 877
+		100 = 878
+		100 = 879
+		100 = 880
+		100 = 881
+		100 = 882
+		100 = 883
+		100 = 884
+		100 = 885
+		100 = 836
+		100 = 837
+		100 = 838
+
+		100 = 9472
+		100 = 3097
+		100 = 5005
+		100 = 5026
+		100 = 5037
+		100 = 5063
+		100 = 6014
+
+		# Innovativeness
+		100 = innovativeness_events.1
+		100 = innovativeness_events.2
+		50 = innovativeness_events.3
+		100 = innovativeness_events.4
+		100 = innovativeness_events.5
+		100 = innovativeness_events.6
+		100 = innovativeness_events.7
+		100 = innovativeness_events.8
+		100 = innovativeness_events.9
+		100 = innovativeness_events.10
+		100 = innovativeness_events.11
+		100 = innovativeness_events.12
+		100 = innovativeness_events.13
+		100 = innovativeness_events.14
+		100 = innovativeness_events.15
+
+		# Trade Company Investments
+		100 = investment_events.1
+		100 = investment_events.2
+		100 = investment_events.3
+		100 = investment_events.4
+		100 = investment_events.5
+		100 = investment_events.6
+		100 = investment_events.7
+		100 = investment_events.8
+		100 = investment_events.9
+		100 = investment_events.10
+
+		# Catholic Order Events
+		#100 = order_events.1
+		#100 = order_events.2
+		#100 = order_events.3
+		#100 = order_events.4
+		#100 = order_events.5
+		#100 = order_events.6
+		#100 = order_events.7
+		#100 = order_events.8
+		#100 = order_events.9
+
+		# Minority Expulsion Events
+		100 = expel_minority_events.1
+		100 = expel_minority_events.2
+		100 = expel_minority_events.3
+		100 = expel_minority_events.4
+		100 = expel_minority_events.5
+
+		# Papal Tithe Events
+		#100 = curia.1
+		#100 = curia.2
+		#100 = curia.4
+		#100 = curia.9
+		#100 = curia.10
+		#100 = curia.11
+		#100 = curia.12
+
+		# Defender of the Faith
+		100 = dotf.1
+		100 = dotf.4
+		100 = dotf.6
+		100 = dotf.7
+
+		# Mercenaries
+		100 = mercs.1
+		100 = mercs.2
+		100 = mercs.3
+		100 = mercs.4
+		100 = mercs.8
+		100 = mercs.10
+		100 = mercs.11
+
+		# Espionage
+		100 = espionage_events.4
+		100 = espionage_events.8
+		80 = espionage_events.9
+
+		# Papacy events
+		#100 = papacy_events.6
+
+		# Professionalism
+		100 = army_professionalism_events.4
+		100 = army_professionalism_events.5
+		75 = army_professionalism_events.6
+		100 = army_professionalism_events.8
+		100 = army_professionalism_events.9
+		100 = army_professionalism_events.10
+		100 = army_professionalism_events.11
+		75 = army_professionalism_events.12
+		100 = army_professionalism_events.13
+		75 = army_professionalism_events.16
+
+		# Agenda from the Estates
+		1000 = estate_privileges_and_agendas_events.4
+		1000 = estate_privileges_and_agendas_events.5
+
+		2000 = 0
+	}
+}

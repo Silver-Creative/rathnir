@@ -1,0 +1,10 @@
+on_death_has_harem = {
+	if = {
+		limit = {
+			has_heir = no
+		}
+		country_event = {
+			id = harem_events.2
+		}
+	}
+}

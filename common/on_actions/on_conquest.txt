@@ -1,0 +1,18 @@
+# province:  spawned whenever a new owner takes over the province
+# FROM = The previous owner.
+on_conquest = {
+	remove_named_unrest = estate_land_seized
+	clr_province_flag = has_estate_unrest_flag
+	if = {
+		limit = {
+			is_part_of_hre = no
+			owner = {
+				is_emperor = yes
+			}
+			development = 25
+		}
+		emperor = {
+			add_imperial_influence = 1
+		}
+	}
+}

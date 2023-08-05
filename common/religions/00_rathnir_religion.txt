@@ -810,7 +810,6 @@ elven = {
 			ASHURAN_PANTHEON
 		}
 	}
-	misguided_heretic = yes
 
 	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_elven
@@ -840,12 +839,16 @@ feybound = {
 		}
 
 		on_convert = {
-			change_religion = vastallosi
+			change_religion = sanderosa
 			add_prestige = -100
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
+			}
+
+			heretic = {
+				WILLOWPACT
 			}
 		}
 	}
@@ -875,6 +878,10 @@ feybound = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
+			}
+			
+			heretic = {
+				SANDEROSA
 			}
 		}
 	}

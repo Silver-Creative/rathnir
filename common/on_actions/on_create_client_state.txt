@@ -1,0 +1,3 @@
+# this = new client state, from = parent country
+on_create_client_state = {
+}

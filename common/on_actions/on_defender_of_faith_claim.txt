@@ -1,0 +1,12 @@
+on_defender_of_faith_claim = {
+	set_country_flag = claimed_defender_of_faith_flag
+	if = {
+		limit = {
+			has_government_attribute = improved_defender_of_faith
+		}
+		add_country_modifier = {
+			name = gov_improved_defender_of_faith_mod
+			duration = -1
+		}
+	}
+}

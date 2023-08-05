@@ -1,0 +1,2 @@
+on_trade_company_investment = {
+}

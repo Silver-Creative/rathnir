@@ -1,0 +1,10 @@
+# this = country
+on_loan_repaid = {
+	on_loan_repaid_estate_privileges_effect = yes
+	if = {
+		limit = {
+			economic_ideas = 2
+		}
+		add_inflation = -0.05
+	}
+}

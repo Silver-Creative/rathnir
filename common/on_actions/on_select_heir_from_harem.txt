@@ -1,0 +1,2 @@
+on_select_heir_from_harem = {
+}
