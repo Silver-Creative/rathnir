@@ -94,14 +94,3 @@ country_event = {
         custom_tooltip = knossos_sparring.6.a.tt
     }
 }
-country_event = {
-    id = knossos_sparring.4
-    title = knossos_sparring.4.t
-    desc = knossos_sparring.4.d
-    picture = lirgalcool_eventPicture
-    is_triggered_only = yes
-
-    option = {
-        name = knossos_sparring.4.a
-    }
-}
