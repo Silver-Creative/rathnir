@@ -12,7 +12,7 @@ country_event = {
         NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
     }
     mean_time_to_happen = {
-        days = 1
+        months = 12
     }
     immediate = {
         set_country_flag = THIS_EVENT_FIRED_FOR_ME
@@ -22,23 +22,6 @@ country_event = {
         custom_tooltip = knossos_sparring.2.a.tt
         B09 = {
             country_event = { id = knossos_sparring.5 }
-        }
-        hidden_effect = {
-            every_country = {
-                limit = {
-                    ai = no 
-                    NOT = { 
-                        OR = {
-                            tag = B11 
-                            tag = B09
-                        }
-                    }   
-                    capital_scope = {
-                        continent = alteniquia
-                    }
-                }
-                country_event = { id = knossos_sparring.4 }
-            }
         }
     }
     option = {
