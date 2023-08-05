@@ -834,7 +834,7 @@ feybound = {
 		}
 
 		on_convert = {
-			change_religion = vastallosi
+			change_religion = sanderosa
 			add_prestige = -100
 			
 			add_country_modifier = {
