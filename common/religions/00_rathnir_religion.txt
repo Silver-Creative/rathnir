@@ -62,6 +62,12 @@ jagdasian = {
 			local_unrest = 2
 		}
 
+		uses_anglican_power = yes				
+		aspects = {
+			test_money_aspect
+		}
+		aspects_name = ANGLICAN_ASPECTS
+		
 		on_convert = {
 			change_religion = red_cult
 			add_prestige = -100

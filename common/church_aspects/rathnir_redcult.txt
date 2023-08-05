@@ -1,0 +1,13 @@
+test_money_aspect = {
+	sprite = "Eu4_logo"
+	cost = 100
+	trigger = {
+		NOT = { treasury = 1000000 }
+	}
+	effect = {
+		add_years_of_income = 0.25
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
