@@ -39,97 +39,100 @@ historical_units = {
 monarch_names = {
 
 	#Historical Anòshphite Leaders (Male)
-	"Senekín #0" = 10
-	"Yìrs #0" = 10
-	"Anòkín #0" = 10
-	"Ylor #0" = 10
-	"Carrù #0" = 10
-	"Éather #0" = 10
-	"Lúnkín #0" = 10
-	"Éan #0" = 10
-	"Pontéos #0" = 10
-	"Nyles #0" = 10
+	"Asselli #0" = 10
+	"Sibash #0" = 10
+	"Siyoi #0" = 10
+	"Annun #0" = 10
+	"Jánchuw #0" = 10
+	"Maryám #0" = 10
+	"Zhawwer #0" = 10
+	"Loyer #0" = 10
+	"Khulan #0" = 10
+	"Abdulla #0" = 10
 	
 	#Generic Anòshphite Names (Male)
-	"Lé #0" = 10
-	"Éathùr #0" = 10
-	"Nylùs #0" = 10
-	"Ylùr #0" = 10
-	"Aléuos #0" = 10
-	"Pontúos #0" = 10
-	"Uséri #0" = 10
-	"Aulézhlùr #0" = 10
-	"Ùrallùh #0" = 10
-	"Mirùn #0" = 10
-	"Pálcèrù #0" = 10
-	"Éllùn #0" = 10
-	"Senùkin #0" = 10
-	"Sìrllyhnù #0" = 10
-	"Jeùnvìl #0" = 10
-	"Théissù #0" = 10
-	"Érisséon #0" = 10
-	"Míeng #0" = 10
-	"Vìttérikùs #0" = 10
-	"Ùldrokù #0" = 10
-	"Ponntìrù #0" = 10
-	"Ònmùn #0" = 10
-	"Éirùs #0" = 10
-	"Torùn #0" = 10
+	"Talla #0" = 10
+	"Asselli #0" = 10
+	"Rimuun #0" = 10
+	"Yazikk #0" = 10
+	"Sibash #0" = 10
+	"Hassan #0" = 10
+	"Yarokk #0" = 10
+	"Gezuus #0" = 10
+	"Ekur #0" = 10
+	"Siyoi #0" = 10
+	"Zhawwer #0" = 10
+	"Loyer #0" = 10
+	"Jánchuw #0" = 10
+	"Rewwokh #0" = 10
+	"Annun #0" = 10
+	"Gábim #0" = 10
+	"Buxu #0" = 10
+	"Mazai #0" = 10
+	"Numun #0" = 10
+	"Bartu #0" = 10
+	"Khulan #0" = 10
+	"Oghul #0" = 10
+	"Tayang #0" = 10
+	"Osol #0" = 10
+	"Bhakto #0" = 10
+	"Batu #0" = 10
+	"Maral #0" = 10
+	"Tsering #0" = 10
+	"Yalin #0" = 10
+	"Altan #0" = 10
+	"Surat #0" = 10
+	"Bogen #0" = 10
+	"Nasiv #0" = 10
+	"Jiba #0" = 10
+	"Qad #0" = 10
+	"Ubara #0" = 10
+	"Shakha #0" = 10
+	"Maryám #0" = 10
+	"Abdulla #0" = 10
 	
 	#Generic Anòshphite Names (Female)
-	"Yìrra #0" = -1
-	"Lúnka #0" = -1
-	"Éanna #0" = -1
-	"Carrà #0" = -1
-	"Léa #0" = -1
-	"Éatherra #0" = -1
-	"Nyláh #0" = -1
-	"Ylày #0" = -1
-	"Alérràh #0" = -1
-	"Pontéas #0" = -1
-	"Uséràh #0" = -1
-	"Aulézhlàr #0" = -1
-	"Anòkà #0" = -1
-	"Ùralléah #0" = -1
-	"Miráin #0" = -1
-	"Pálcèra #0" = -1
-	"Éllaníra #0" = -1
-	"Senakín #0" = -1
-	"Sìrillyhnà #0" = -1
-	"Jeanvìl #0" = -1
-	"Théissà #0" = -1
-	"Érissa #0" = -1
-	"Míang #0" = -1
-	"Vìttérikàs #0" = -1
-	"Ùldrokàh #0" = -1
-	"Ponntìrà #0" = -1
-	"Ònminà #0" = -1
-	"Éiràs #0" = -1
-	"Toràna #0" = -1
+	"Inild #0" = -1
+	"Yesui #0" = -1
+	"Talla #0" = -1
+	"Asselli #0" = -1
+	"Rimuun #0" = -1
+	"Gezuus #0" = -1
+	"Ekur #0" = -1
+	"Siyoi #0" = -1
+	"Loyer #0" = -1
+	"Gábim #0" = -1
+	"Buxu #0" = -1
+	"Mazai #0" = -1
+	"Numun #0" = -1
+	"Suke #0" = -1
+	"Khulan #0" = -1
+	"Yeke #0" = -1
+	"Baidu #0" = -1
+	"Kara #0" = -1
+	"Yesui #0" = -1
+	"Juma #0" = -1
+	"Kareh #0" = -1
+	"Gheni #0" = -1
+	"Nasiv #0" = -1
+	"Jiba #0" = -1
+	"Qad #0" = -1
+	"Ubara #0" = -1
+	"Shakha #0" = -1
+	"Maryám #0" = -1
 	
 	#Historical Anòshphite Leaders (Female)
-	"Érissia #0" = -1
-	"Uldroka #0" = -1
-	"Elenor #0" = -1
-	"Ahrín #0" = -1
+	"Inild #0" = -1
+	"Yesui #0" = -1
+	"Talla #0" = -1
+	"Maryám #0" = -1
+	"Khulan #0" = -1
+	"Mazai #0" = -1
 	
 }
 
 leader_names = {
-	#Country Specific
-	"of Anòshphéy" "of Jirn" "of Fairavon" "of Siroba" "of Ersetu" "of Prisma" "of Swal-Awz" "of Konushom" "of Ashmore" "of Marletto"
-	
-	#Province Neighbours
-	"of Amos" "of Urnu-Arrak" "of Shiny" "of Zir-Olman" "of Theiotokos" "of Ayesinco"
-	
-	#Country Neighbours
-	"of Theiónikos" "of Audal" "of Argentor" "of Gentaria" "of Escharia" "of Azuria"
-	
-	#Geographic Neighbours
-	"of Essukdal" "of Nieden" "of the Pearls" "of Suderen" "of Gentumar"
-	
-	#Noble Families
-	Caicuria Senekín Éría Carro'éather Bravníl Caicuria'Reris Orne'Valerin 
+	Qisim-tashkhand Haban-bevk Scandus-mian Kang-zak Monshil-nak Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand Hardin
 }
 
 ship_names = {

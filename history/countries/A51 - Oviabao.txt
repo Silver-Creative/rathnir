@@ -2,22 +2,25 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = idan-ridu
+primary_culture = anoshphite
+add_accepted_culture = idan-ridu
 religion = theiosism
 technology_group = tech_alteniquian
 capital = 14 #Èrsetu
-national_focus = MIL
+national_focus = DIP
 
 1444.1.1 = {
 	monarch = {
-		name = "Sibash"
-		dynasty = "Haban-Bevk"
-		birth_date = 1401.7.3
-		adm = 4
-		dip = 2
-		mil = 3
-		culture = idan-ridu
+		name = "Shìepà"
+		dynasty = "Àpasìril"
+		birth_date = 1423.7.3
+		adm = 3
+		dip = 4
+		mil = 1
+		culture = anoshphite
 		religion = theiosism
+		female = yes
 	}
-	add_ruler_personality = calm_personality
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = tolerant_personality
 }
