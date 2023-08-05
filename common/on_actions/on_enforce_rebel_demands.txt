@@ -1,0 +1,3 @@
+on_enforce_rebel_demands = {
+	set_country_flag = helped_rebels_win_war
+}

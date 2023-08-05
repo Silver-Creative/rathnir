@@ -1,0 +1,3 @@
+#scope = new country, FROM = parent country
+on_colonial_nation_established = {
+}

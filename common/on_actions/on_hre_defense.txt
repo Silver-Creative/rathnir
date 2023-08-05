@@ -1,0 +1,5 @@
+# Emperor coming to the defense of a HRE member
+on_hre_defense = {
+	events = {
+	}
+}

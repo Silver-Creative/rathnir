@@ -1,0 +1,5 @@
+# HRE member released from non-HRE vassalage
+on_hre_released_vassal = {
+	events = {
+	}
+}

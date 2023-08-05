@@ -1,0 +1,5 @@
+# HRE Prince released by the emperor
+on_released_hre_member = {
+	events = {
+	}
+}

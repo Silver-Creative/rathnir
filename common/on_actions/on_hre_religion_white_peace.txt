@@ -1,0 +1,5 @@
+on_hre_religion_white_peace = {
+	#events = {
+	#	religious_leagues.4
+	#}
+}

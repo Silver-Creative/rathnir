@@ -1,0 +1,5 @@
+on_heir_needed_theocracy = {
+	events = {
+		theocracy.1
+	}
+}

@@ -1,0 +1,4 @@
+# province
+on_parliament_seat_given = {
+	on_parliament_seat_given_effect = yes
+}

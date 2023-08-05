@@ -1,0 +1,4 @@
+#FROM = country dev was transferred from, ROOT = country doing the transferring. 
+#It is triggered by normal concentrate too though FROM isn't set in that case
+on_transfer_development = {
+}

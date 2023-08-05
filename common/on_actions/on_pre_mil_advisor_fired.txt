@@ -1,0 +1,12 @@
+# this = country
+## Fires when you fire or replace your MIL advisor, in the moment before they are actually removed from their post.
+## Note: Defining a new advisor here will result in the shortest appointment in history. Use on_post_mil_advisor_fired instead :)
+on_pre_mil_advisor_fired = {
+	if = {
+		limit = {
+			has_country_flag = need_to_fire_mil_advisor
+		}
+		set_country_flag = just_fired_mil_advisor
+		remove_advisor_by_category_no_action = MIL
+	}
+}

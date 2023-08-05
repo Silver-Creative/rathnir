@@ -1,0 +1,4 @@
+#ROOT - Province
+on_colony_finished = {
+	on_colony_finished_effect = yes
+}

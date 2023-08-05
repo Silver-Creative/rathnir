@@ -1,0 +1,3 @@
+# country
+on_lose_great_power_status = {
+}

@@ -1,0 +1,5 @@
+# HRE member annexed by non-HRE country
+on_hre_member_annexed = {
+	events = {
+	}
+}

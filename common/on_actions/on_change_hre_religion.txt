@@ -1,0 +1,6 @@
+on_change_hre_religion = {
+	#events = {
+	#	religious_leagues.2
+	#	religious_leagues.3
+	#}
+}

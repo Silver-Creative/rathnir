@@ -1,0 +1,3 @@
+# THIS = Province
+on_galleass_raised = {
+}

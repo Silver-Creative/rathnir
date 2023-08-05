@@ -1,0 +1,9 @@
+# country
+# root = winning country, from = location
+on_siege_won_country = {
+    grant_manpower_from_besieging_fort = yes
+    random_events = {
+		10 = army_professionalism_events.1 #City Sacked
+		100 = 0
+	}
+}

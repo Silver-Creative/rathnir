@@ -1,0 +1,3 @@
+on_new_age = {
+	remove_all_age_timed_modifiers = yes
+}

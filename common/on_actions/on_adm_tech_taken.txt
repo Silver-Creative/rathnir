@@ -1,0 +1,3 @@
+#ROOT - Country, executed after on_tech_taken!
+on_adm_tech_taken = {
+}

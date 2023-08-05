@@ -1,0 +1,6 @@
+on_slacken_start = {
+	add_country_modifier = {
+		name = slackening_modifier
+		duration = -1
+	}
+}

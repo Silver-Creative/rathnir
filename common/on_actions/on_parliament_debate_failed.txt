@@ -1,0 +1,4 @@
+# country
+on_parliament_debate_failed = {
+	on_parliament_debate_failed_effect = yes
+}

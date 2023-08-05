@@ -1,0 +1,3 @@
+# country. from = overlord
+on_refuse_tribute = {
+}

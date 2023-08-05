@@ -1,0 +1,4 @@
+# province
+on_parliament_seat_lost = {
+	on_parliament_seat_lost_effect = yes
+}

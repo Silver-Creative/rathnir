@@ -1,0 +1,3 @@
+#ROOT - Alliance sender, FROM - Alliance accepter
+on_alliance_created = {
+}

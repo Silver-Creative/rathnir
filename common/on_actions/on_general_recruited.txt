@@ -1,0 +1,4 @@
+# country
+on_general_recruited = {
+	on_general_recruited_effect = yes
+}

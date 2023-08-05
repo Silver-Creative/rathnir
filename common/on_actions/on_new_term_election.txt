@@ -1,0 +1,6 @@
+on_new_term_election = {
+	events = {
+		700				# Election event
+		pirates.1		# Lottery election
+	}
+}

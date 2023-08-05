@@ -1,0 +1,4 @@
+##scope = colony province, FROM = owner country or province if there's a minority expulsion source
+on_colonist_boosting_colony = {
+	on_colonist_boosting_colony_effect = yes
+}

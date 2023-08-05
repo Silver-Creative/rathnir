@@ -1,0 +1,11 @@
+# province
+# root = location, from = country doing it
+on_removed_from_company = {
+	if = { 
+		limit = { 
+			owner = { has_country_flag = adding_provinces_to_trade_c_merc_prod_flag } 
+		}
+		owner = { add_mercantilism = -1 } 
+		add_base_production = -1 
+	}
+}

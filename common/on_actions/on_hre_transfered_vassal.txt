@@ -1,0 +1,5 @@
+# HRE member transferred from non-HRE vassalage to Emperor
+on_hre_transfered_vassal = {
+	events = {
+	}
+}

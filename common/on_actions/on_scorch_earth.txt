@@ -1,0 +1,3 @@
+#ROOT - barraging country, FROM - barraged province 
+on_scorch_earth = {
+}

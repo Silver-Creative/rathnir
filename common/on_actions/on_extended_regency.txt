@@ -1,0 +1,8 @@
+on_extended_regency = {
+	random_events = {
+		100 = extended_regency_events.4
+		100 = extended_regency_events.5
+		100 = extended_regency_events.6
+		300 = 0
+	}
+}

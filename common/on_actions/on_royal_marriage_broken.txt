@@ -1,0 +1,3 @@
+#ROOT - Original marriage creator, FROM - Marriage accepter
+on_royal_marriage_broken = {
+}

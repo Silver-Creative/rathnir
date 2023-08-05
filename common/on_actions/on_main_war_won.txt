@@ -1,0 +1,6 @@
+on_main_war_won = {
+	on_main_war_won_effect = yes
+	#events = {
+	#	native_americans.7
+	#}
+}

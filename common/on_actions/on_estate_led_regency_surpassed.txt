@@ -1,0 +1,70 @@
+on_estate_led_regency_surpassed = {
+	if = {
+		limit = {
+			is_lesser_in_union = no
+			num_of_powerful_estates = 1
+			has_estate_led_regency = {
+				estate = any
+			}
+			NOT = {
+				estate_led_regency_influence = 70
+			}
+			OR = {
+				AND = {
+					has_estate_led_regency = {
+						estate = estate_burghers
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_church
+							modifier = REFUSED_REGENCY
+						}
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_nobles
+							modifier = REFUSED_REGENCY
+						}
+					}
+				}
+				AND = {
+					has_estate_led_regency = {
+						estate = estate_church
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_burghers
+							modifier = REFUSED_REGENCY
+						}
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_nobles
+							modifier = REFUSED_REGENCY
+						}
+					}
+				}
+				AND = {
+					has_estate_led_regency = {
+						estate = estate_nobles
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_burghers
+							modifier = REFUSED_REGENCY
+						}
+					}
+					NOT = {
+						has_estate_loyalty_modifier = {
+							estate = estate_church
+							modifier = REFUSED_REGENCY
+						}
+					}
+				}
+			}
+		}
+		country_event = {
+			id = estate_regency_events.1
+		}
+	}
+}

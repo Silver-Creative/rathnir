@@ -1,0 +1,16 @@
+on_culture_promoted = {
+	on_culture_promoted_estate_privileges_effect = yes
+	imperial_modifiers_on_culture_country_effect = yes
+	if = {
+		limit = {
+			has_country_flag = reduce_ae_from_prom_cultures_flag
+		}
+		every_country = {
+			add_aggressive_expansion = {
+				who = ROOT
+				value = -3
+				apply_calc = no
+			}
+		}
+	}
+}

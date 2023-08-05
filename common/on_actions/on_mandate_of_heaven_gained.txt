@@ -1,0 +1,81 @@
+# When a nation gains the Mandate of Heaven (becomes the Emperor of China)
+# FROM = Old Emperor, ROOT = New Emperor
+on_mandate_of_heaven_gained = {
+	save_global_event_target_as = EmperorOfChina
+
+	### reuse this later??
+	#if = {
+	#	limit = {
+	#		technology_group = nomad_group
+	#	}
+	#	change_technology_group = chinese
+	#	change_unit_type = chinese
+	#}
+
+	if = {
+		limit = {
+			has_dlc = "Domination"
+			#NOT = {
+			#	primary_culture = mongol
+			#}
+			#NOT = {
+			#	primary_culture = chahar
+			#}
+			#NOT = {
+			#	primary_culture = khalkha
+			#}
+			#NOT = {
+			#	primary_culture = oirats
+			#}
+		}
+		swap_non_generic_missions = yes
+	}
+
+	if = {
+		limit = {
+			OR = {
+				NOT = {
+					government = monarchy
+				}
+				government = tribal
+			}
+		}
+		change_government_to_monarchy = yes
+	}
+	add_government_reform = celestial_empire
+	set_mandate = 60
+	set_meritocracy = 60
+	add_country_modifier = {
+		name = new_mandate_holder
+		duration = 9125
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+		}
+		remove_faction = temples
+		remove_faction = enuchs
+		remove_faction = bureaucrats
+	}
+
+	if = {
+		limit = {
+			has_country_modifier = lost_mandate_of_heaven
+		}
+		remove_country_modifier = lost_mandate_of_heaven
+	}
+	
+	#country_event = {
+	#	id = china_events.31		#Reforming the Bureaucracy
+	#	days = 365
+	#}
+	#country_event = {
+	#	id = china_events.32		#Records of the last Empire
+	#	days = 183
+	#}
+	country_event = {
+		id = celestial_empire_events.2
+		days = 1825
+	}
+}

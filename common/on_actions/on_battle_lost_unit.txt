@@ -1,0 +1,3 @@
+on_battle_lost_unit = {
+	on_battle_lost_unit_effect = yes
+}

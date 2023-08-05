@@ -1,0 +1,11 @@
+# country
+on_gain_great_power_status = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = became_great_power_flag
+			}
+		}
+		set_country_flag = became_great_power_flag
+	}
+}

@@ -1,0 +1,26 @@
+# When a nation loses the Mandate of Heaven
+# FROM = New Emperor, ROOT = Old Emperor
+on_mandate_of_heaven_lost = {
+	remove_government_reform = celestial_empire
+	set_government_rank = 2
+	add_country_modifier = {
+		name = lost_mandate_of_heaven
+		duration = 7300
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+		}
+		swap_non_generic_missions = yes
+	}
+
+	add_stability = -2
+
+	if = {
+		limit = {
+			has_country_modifier = new_mandate_holder
+		}
+		remove_country_modifier = new_mandate_holder
+	}
+}

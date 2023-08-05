@@ -1,0 +1,18 @@
+# country
+# root = losing country, from = location
+on_siege_lost_country = {
+	events = {
+		curia.8
+		papacy_events.5
+	}
+	if = {
+		limit = {
+			FROM = {
+				has_province_modifier = fin_viipurin_linna_modifier
+			}
+		}
+		FROM = {
+			remove_province_modifier = fin_viipurin_linna_modifier
+		}
+	}
+}

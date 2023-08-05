@@ -1,0 +1,11 @@
+# ROOT = Overlord, FROM = Minor
+on_dependency_lost = {
+	FROM = {
+		if = {
+			limit = {
+				has_country_modifier = revoked_war_rights
+			}
+			remove_country_modifier = revoked_war_rights
+		}
+	}
+}

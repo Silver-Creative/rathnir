@@ -1,0 +1,114 @@
+on_thri_yearly_pulse = {
+	random_events = {
+		# Republics
+		100 = republics.4
+		100 = republics.5
+		100 = republics.6
+		100 = republics.7
+		100 = republics.8
+		100 = republics.9
+		100 = republics.10
+		100 = republics.11
+		100 = republics.12
+		100 = republics.13
+		100 = republics.14
+		100 = republics.15
+		100 = republics.16
+		100 = republics.17
+		100 = republics.18
+		100 = republics.19
+		100 = republics.20
+		100 = republics.21
+		100 = republics.22
+		100 = republics.23
+		100 = republics.24
+		100 = republics.25
+		100 = republics.26
+		100 = republics.27
+		100 = republics.28
+		100 = republics.29
+		100 = republics.30
+		100 = republics.31
+		100 = republics.32
+		100 = republics.33
+		100 = republics.34
+		100 = republics.35
+		100 = republics.36
+		100 = republics.37
+		100 = republics.38
+		100 = republics.39
+		100 = republics.40
+		100 = republics.41
+		100 = republics.42
+		100 = republics.43
+
+		# Theocracies
+		100 = devotion_events.1
+		100 = devotion_events.2
+		100 = devotion_events.3
+		100 = devotion_events.4
+		100 = devotion_events.5
+		100 = devotion_events.6
+		100 = devotion_events.7
+		100 = devotion_events.8
+		100 = devotion_events.9
+		100 = devotion_events.10
+		100 = devotion_events.11
+		100 = devotion_events.12
+		100 = devotion_events.13
+		100 = devotion_events.14
+		100 = devotion_events.15
+		100 = devotion_events.16
+		100 = devotion_events.18
+		100 = devotion_events.19
+		100 = devotion_events.22
+		100 = devotion_events.23
+		100 = devotion_events.24
+		100 = devotion_events.26
+		100 = devotion_events.100
+		100 = devotion_events.101
+		100 = devotion_events.102
+		100 = devotion_events.104
+		100 = devotion_events.107
+		100 = devotion_events.110
+		100 = devotion_events.117
+		100 = devotion_events.118
+		100 = devotion_events.119
+		100 = devotion_events.200
+		100 = devotion_events.201
+		100 = devotion_events.202
+		100 = devotion_events.203
+		100 = devotion_events.204
+		100 = devotion_events.205
+		100 = devotion_events.207
+		100 = devotion_events.208
+		100 = devotion_events.209
+		100 = devotion_events.210
+		100 = devotion_events.211
+		100 = devotion_events.212
+		100 = devotion_events.213
+		100 = devotion_events.214
+		100 = devotion_events.215
+		100 = devotion_events.216
+		100 = devotion_events.217
+		100 = devotion_events.218
+		100 = devotion_events.219
+
+		#Center of Revolution - post-spawn (higher weighting than others as they are only relevant briefly)
+		200 = center_of_revolution.1
+		150 = center_of_revolution.2
+		200 = center_of_revolution.3
+		200 = center_of_revolution.8
+		250 = center_of_revolution.9
+		250 = center_of_revolution.10
+		200 = center_of_revolution.12
+
+		#Center of Revolution - pre-spawn
+		100 = center_of_revolution.2000
+		100 = center_of_revolution.2002
+		100 = center_of_revolution.2003
+		100 = center_of_revolution.2010
+		
+		1000 = 0
+	}
+}

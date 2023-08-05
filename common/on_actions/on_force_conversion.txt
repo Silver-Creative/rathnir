@@ -1,0 +1,5 @@
+#ROOT = converted country, FROM = country which force converts ROOT, on_action gets called on Force religion peace and Enforce Religion subject interaction
+
+on_force_conversion = {
+	on_force_conversion_effect = yes
+}

@@ -1,0 +1,5 @@
+#ROOT = country
+on_defender_of_faith_loss = {
+	clr_country_flag = claimed_defender_of_faith_flag
+	remove_country_modifier = gov_improved_defender_of_faith_mod
+}

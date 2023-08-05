@@ -1,0 +1,39 @@
+# province
+on_adm_development = {
+	on_adm_development_effect = yes
+	if = {
+		limit = {
+			owner = {
+				has_country_flag = enable_supplemental_development_flag
+			}
+		}
+		random_list = {
+			20 = {
+				add_base_tax = 1
+			}
+			80 = {
+			}
+		}
+	}
+	#if = {
+	#	limit = {
+	#		has_state_edict = chinese_industrialization
+	#	}
+	#	random_list = {
+	#		10 = {
+	#			add_base_tax = 1
+	#		}
+	#		10 = {
+	#			add_prosperity = 1
+	#		}
+	#		10 = {
+	#			add_province_modifier = {
+	#				name = qng_center_of_industrialization_modifier
+	#				duration = 3650
+	#			}
+	#		}
+	#		70 = {
+	#		}
+	#	}
+	#}
+}

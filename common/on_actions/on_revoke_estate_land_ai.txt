@@ -1,0 +1,7 @@
+on_revoke_estate_land_ai = {
+	#AI can't handle the rebels atm or perform a gradual revoke, sorry
+	add_province_modifier = {
+		name = revoked_estate_modifier
+		duration = 5475 #15 years
+	}
+}

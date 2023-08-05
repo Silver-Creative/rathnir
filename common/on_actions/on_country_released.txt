@@ -1,0 +1,11 @@
+# this = Released country, FROM = Releasing country
+on_country_released = {
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1445
+			}
+		}
+		set_country_flag = released_in_1444
+	}
+}

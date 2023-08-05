@@ -1,0 +1,5 @@
+on_culture_demoted = {
+	on_culture_demoted_estate_privileges_effect = yes
+	imperial_modifiers_on_culture_country_effect = yes
+	on_culture_demoted_effect = yes
+}

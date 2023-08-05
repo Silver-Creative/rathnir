@@ -1,0 +1,22 @@
+on_fetishist_cult_change = {
+	#country_event = {
+	#	id = fetishist_flavor.302 	#removing tomb if incompatible cult is picked
+	#	days = 10
+	#}
+	#country_event = {
+	#	id = fetishist_flavor.304	#rebuilding tomb if lost
+	#	days = 10
+	#}
+	#if = {
+	#	limit = {
+	#		has_country_flag = lost_ancestral_lands
+	#		NOT = {
+	#			has_adopted_cult = zanahary_cult
+	#		}
+	#		NOT = {
+	#			has_adopted_cult = central_african_ancestor_cult
+	#		}
+	#	}
+	#	clr_country_flag = lost_ancestral_lands
+	#}
+}

@@ -1,0 +1,29 @@
+on_estate_removed = {
+	if = {
+		limit = {
+			has_country_modifier = dhimmi_building_restrictions
+			NOT = {
+				has_estate = estate_dhimmi
+			}
+		}
+		remove_country_modifier = dhimmi_building_restrictions
+	}
+	if = {
+		limit = {
+			has_country_modifier = swe_debt_with_the_clergy
+			NOT = {
+				has_estate = estate_church
+			}
+		}
+		remove_country_modifier = swe_debt_with_the_clergy
+	}
+	if = {
+		limit = {
+			has_country_modifier = swe_debt_with_the_burghers
+			NOT = {
+				has_estate = estate_burghers
+			}
+		}
+		remove_country_modifier = swe_debt_with_the_burghers
+	}
+}

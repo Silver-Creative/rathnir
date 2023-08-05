@@ -1,0 +1,5 @@
+on_regent = {
+	#events = {
+	#	tribal_succession.1		# Harsh anti-tribals.
+	#}
+}

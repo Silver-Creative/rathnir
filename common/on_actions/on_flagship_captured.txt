@@ -1,0 +1,17 @@
+# ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
+on_flagship_captured = {
+	FROM = {
+		set_country_flag = captured_flagship_country_flag
+	}
+	ROOT = {
+		country_event = {
+			id = flagship_events.2
+		}
+		set_country_flag = trophy_hunter_flag
+	}
+	FROM = {
+		country_event = {
+			id = flagship_events.1
+		}
+	}
+}

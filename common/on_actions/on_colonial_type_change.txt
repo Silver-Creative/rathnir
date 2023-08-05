@@ -1,0 +1,4 @@
+#FROM = overlord, ROOT - colony
+on_colonial_type_change = {
+	clr_country_flag = encourage_cash_crops_flag
+}

@@ -1,0 +1,3 @@
+on_heir_disinherited = {
+	on_heir_disinherited_or_death_effect = yes
+}

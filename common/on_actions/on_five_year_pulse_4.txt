@@ -1,0 +1,30 @@
+on_five_year_pulse_4 = {
+	#fail-safe if for whatever reason these flags stay after being used in events
+	if = {
+		limit = {
+			had_country_flag = {
+				flag = advisor_events_adm
+				days = 720
+			}
+		}
+		clr_country_flag = advisor_events_adm
+	}
+	if = {
+		limit = {
+			had_country_flag = {
+				flag = advisor_events_dip
+				days = 720
+			}
+		}
+		clr_country_flag = advisor_events_dip
+	}
+	if = {
+		limit = {
+			had_country_flag = {
+				flag = advisor_events_mil
+				days = 720
+			}
+		}
+		clr_country_flag = advisor_events_mil
+	}
+}

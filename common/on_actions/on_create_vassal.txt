@@ -1,0 +1,23 @@
+# ROOT = New vassal, FROM = Overlord
+on_create_vassal = {
+	on_religion_change_estate_privileges_effect = yes
+	if = {
+		limit = {
+			has_dlc = "Emperor"
+			FROM = {
+				is_revolutionary = yes
+			}
+		}
+		change_government = republic
+		add_government_reform = junior_revolutionary_republic_reform
+		set_country_flag = had_revolution
+	}
+	if = {
+		limit = {
+			NOT = {
+				is_year = 1445
+			}
+		}
+		set_country_flag = released_in_1444
+	}
+}

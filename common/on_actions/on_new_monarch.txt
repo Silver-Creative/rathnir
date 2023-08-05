@@ -1,0 +1,24 @@
+# OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
+# country
+on_new_monarch = {
+	on_new_monarch_effect = yes
+	crimean_succession_effect = yes
+	slesvig_question_effect = yes
+	succession_culture_religion_effect = yes
+	sheik_ul_islam_effect = yes
+	hab_remove_mission_mods_if_not_emperor_effect = yes
+	thu_remain_von_wettin_effect = yes
+	ladislaus_postumus_union_effect = yes
+	events = {
+		#tribal_succession.1				#Harsh anti-tribals.
+		#9492								#Remove some event modifiers
+		#celestial_empire_events.3			#Resistance to Sinicization
+		#muslim_school_events.20			#No Religious School
+	}
+	random_events = {
+		1000 = 0
+		#50 = dynastic_events.4
+		#50 = dynastic_events.5
+		25 = harem_events.7			#Failed Policy of Fratricide
+	}
+}

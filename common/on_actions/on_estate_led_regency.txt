@@ -1,0 +1,26 @@
+on_estate_led_regency = {
+	if = {
+		limit = {
+			has_government_attribute = improved_nobles_regency
+			OR = {
+				has_estate = estate_nobles
+				AND = {
+					NOT = {
+						has_estate = estate_nobles
+					}
+					OR = {
+						has_estate = estate_maratha
+						has_estate = estate_rajput
+					}
+				}
+			}
+		}
+		add_ruler_modifier = {
+			name = empowered_regency_modifier
+			duration = -1
+		}
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
+}

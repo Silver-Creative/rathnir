@@ -1,0 +1,55 @@
+on_embrace_revolution = {
+	if = {
+		limit = {
+			any_subject_country = {
+				has_country_modifier = colony_inspired_by_revolution
+			}
+		}
+		every_subject_country = {
+			remove_country_modifier = colony_inspired_by_revolution
+		}
+	}
+
+	if = {
+		limit = {
+			NOT = {
+				government = republic
+			}
+		}
+		change_government = republic
+	}
+
+	if = {
+		limit = {
+			revolution_target_exists = no
+			is_great_power = yes
+		}
+		set_revolution_target = ROOT
+		add_government_reform = revolutionary_republic_reform
+		if = {
+			limit = {
+				any_country = {
+					has_country_flag = last_revolutionary_country
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_flag = last_revolutionary_country
+				}
+				clr_country_flag = last_revolutionary_country
+			}
+		}
+	}
+	else = {
+		add_government_reform = junior_revolutionary_republic_reform
+	}
+	if = {
+		limit = {
+			has_reform = parliamentary_reform
+		}
+		remove_government_reform = parliamentary_reform
+	}
+	kill_ruler = yes
+	set_country_flag = revolutionary_republic_flag
+	set_country_flag = had_revolution
+}

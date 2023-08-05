@@ -1,0 +1,3 @@
+# country
+on_explorer_recruited = {
+}

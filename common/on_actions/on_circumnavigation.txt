@@ -1,0 +1,6 @@
+on_circumnavigation = {
+	events = {
+		exploration_events.17
+		#exploration_events.16 #First Circumnavigation Europe
+	}
+}

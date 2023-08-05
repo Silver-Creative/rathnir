@@ -1,0 +1,3 @@
+# When a native changes government after filling all their advancement groups.
+on_native_change_government = {
+}

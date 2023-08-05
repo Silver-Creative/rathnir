@@ -1,0 +1,3 @@
+on_secondary_religion_change = {
+	on_secondary_religion_change_estate_privileges_effect = yes
+}

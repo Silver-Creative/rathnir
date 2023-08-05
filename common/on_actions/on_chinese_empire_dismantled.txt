@@ -1,0 +1,7 @@
+# When the chinese empire gets dismantled (e.g. when the emperor is annexed)
+# FROM = Emperor, ROOT = Current Nation
+on_chinese_empire_dismantled = {
+	clear_global_event_target = EmperorOfChina
+	events = {
+	}
+}

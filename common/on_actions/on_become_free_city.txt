@@ -1,0 +1,5 @@
+on_become_free_city = {
+	events = {
+		free_cities.1
+	}
+}
