@@ -1,0 +1,71 @@
+conquest = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = B09 } 
+	Prepare_The_Reconquest = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				area = neos_knossos_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = { 
+			neos_knossos_area = {
+				add_core = ROOT
+			}
+			add_country_modifier = {
+				name = "battle_preparations"
+				duration = 1825 #5 years
+			}
+		 } 
+	}
+	Reconquer_Knossos = {
+		icon = mission_rb_conquer_the_highlands
+		position = 1
+		required_missions = { Prepare_The_Reconquest } 
+		provinces_to_highlight = {
+			OR = {
+				owned_by = B11
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			neos_knossos_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		  } 
+		effect = { 
+			357 = {
+				change_religion = ROOT
+				move_capital_effect = yes
+				rename_capital = Knossos
+			}
+			fruila_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			trollstrait_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		 } 
+	}
+}

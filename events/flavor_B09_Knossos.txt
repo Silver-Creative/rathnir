@@ -12,7 +12,7 @@ country_event = {
         NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
     }
     mean_time_to_happen = {
-        months = 12
+        months = 24
     }
     immediate = {
         set_country_flag = THIS_EVENT_FIRED_FOR_ME
