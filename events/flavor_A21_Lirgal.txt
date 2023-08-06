@@ -10,17 +10,16 @@ country_event = {
 	picture = lirgalcool_eventPicture
 	fire_only_once = yes
 	trigger = {
-		NOT = { exists = A21 }
+		is_year = 1460
+		NOT = { is_year = 1650 }
 		owns_or_subject_of = 262
+		is_at_war = no
 		OR = {
 			religion = sakrelism
 			religion = etherflame
 			religion = aegmerism
 			religion = theiosism
 		}
-		is_year = 1460
-		NOT = { is_year = 1650 }
-		is_at_war = no
 	}
 	
 	mean_time_to_happen = {
