@@ -1,0 +1,409 @@
+# Milk & Whiskey were here
+
+# Ashuntash
+asharu_ashuntash = {
+	global_prosperity_growth = 0.1 
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_ashuntash
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_ashuntash
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+# Mitasaruna
+asharu_mitasaruna = {
+	leader_naval_shock = 1
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_mitasaruna
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_mitasaruna
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
+
+# Calmore
+asharu_calmore = {
+	monthly_favor_modifier = 0.1
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_calmore
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_calmore
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Ankarites
+asharu_ankarites = {
+	movement_speed = 0.10
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_ankarites
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_ankarites
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#Meat Cult
+asharu_meat_cult = {
+	loot_amount = 0.10
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_meat_cult
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_meat_cult
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#Eyed Silvercod
+asharu_eyed_silvercod = {
+	trade_efficiency = 0.075
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_eyed_silvercod
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_eyed_silvercod
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#Siktab
+asharu_siktab = {
+	idea_cost = -0.05
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_siktab
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_siktab
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Mazil
+asharu_mazil = {
+	global_manpower_modifier = 0.10
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_mazil
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_mazil
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Dwell
+asharu_dwell = {
+	trade_range_modifier = 0.15
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_dwell
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_dwell
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Ninekh
+asharu_ninekh = {
+	power_projection_from_insults = 0.1
+
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_ninekh
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_ninekh
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Lunaism
+asharu_lunaism = {
+	innovativeness_gain = 0.10
+	
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_lunaism
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_lunaism
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+# Soleilism
+asharu_soleilism = {
+	mercenary_cost = -0.10 
+	
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_soleilism
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_soleilism
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Fallow
+asharu_fallow = {
+	hostile_attrition = 1
+	
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_fallow
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_fallow
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Tabsl
+asharu_tabsl = {
+	monarch_lifespan = 0.1
+	
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_tabsl
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_tabsl
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Felsonsvhon
+asharu_felsonsvhon = {
+	siege_ability = 0.075
+	
+	allow = {
+		OR = {
+			has_unlocked_cult = asharu_felsonsvhon
+			capital_scope = { region = anoshphey_region }
+		}
+		religion = asharu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = asharu_felsonsvhon
+				}
+			}
+		}
+	}
+	sprite = x
+
+	ai_will_do = {
+		factor = 1
+	}
+}

@@ -529,6 +529,8 @@ talawan = {
 			improve_relation_modifier = 0.1
 		}
 
+		fetishist_cult = yes
+
 		on_convert = {
 			change_religion = asharu
 			add_prestige = -100
