@@ -426,13 +426,13 @@ asterii_group = {
 	}
 
 	dynasty_names = {
-		
+		Aezerii
 	}
 	male_names = {
-		
+		Siegfried
 	}
 	female_names = {
-		
+		Illia
 	}
 }
 
@@ -517,7 +517,7 @@ vastallosi_group = {
 		Konung Vagranti "af Kronborg" Yolcotl 				#"??palazNui" wtf is this whiskey
 	}
 	male_names = {
-		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael Johann Tolkr Harvard Gudbrand Cyramus
+		Jay Sverion Raziel Andre Landemosa Alexandros Briar Baekery Essendor Tiemen Ishmael Johann Tolkr Harvard Gudbrand Cyramus Skraelung Andriudr
 	}
 	female_names = {
 		Kori Delta Ka Asi Savii Vulpur Ekko Frostina Sunquyuq
@@ -561,10 +561,33 @@ low_luthic_group = {
 
 	}
 	carnian = {
+		primary = A22
 
+		dynasty_names = {
+			"of Blackfen" Tliavan Lant Elernel-Ravensrock Dariae Nullu Allaire "of Gellifrey"
+		}
+
+		male_names = {
+			Jecten Drakakus Falquarion Everthorne Uzair Atton Flickeye Peter Derius
+		}
+		female_names = {
+			Rémnés Aymeric
+		}
 	}
 	rodean = {
 
+	}
+
+	dynasty_names = {
+		Elernel-Ravensrock Lant
+	}
+
+	male_names = {
+		Drakakus Falquarion Jecten
+	}
+
+	female_names = {
+		Rémnés
 	}
 }
 
@@ -601,15 +624,15 @@ talawan_group = {
 	}
 
 	dynasty_names = {
-		Talewan Knight Lehad Nepidsu
+		Talewan Knight Lehad Nepidsu Tudhaliyal Pisulawiya Triy'iya Yehev Shaye Amakiir Mogwai Karhu
 	}
 
 	male_names = {
-		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz Teke
+		Sanik Iram Wilusa Taran Machiel Sehe'r Knilz Teke Hejam Telipinu Tudhaliya Timid Hawk Amaro
 	}
 
 	female_names = {
-		Ogadeen Wurmbo Aruna Joan Yanni
+		Ogadeen Wurmbo Aruna Joan Yanni Alamu Inara Amakani Nikkalmati Daduhepa Aryela
 	}
 
 }
