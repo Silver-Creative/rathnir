@@ -579,3 +579,28 @@ break_alliance = {
 		on_alliance_broken_effect = yes
 	}
 }
+support_independence_action = {
+	condition = {
+		tooltip = NOCRINGE
+
+		potential = {
+		}
+
+		allow = {
+
+			NOT = {
+				is_subject_of_type = enoseron
+				
+			}
+		}
+	}
+    condition = {
+        tooltip = outside_vastallos
+        potential = { }
+        allow = {
+                capital_scope = {
+                    superregion = vastallos_superregion
+				}
+        }
+    }
+}

@@ -207,3 +207,23 @@
  N00_irastli_reform_desc: "..."
  N00_asai: "A.S.A.I."
  N00_asai_desc: "..."
+
+ #B00 - Carvay
+
+ B00_ideas: "Carvayan Ideas"
+ B00_ideas_start: "Carvayan Traditions"
+ B00_ideas_bonus: "Carvayan Ambition"
+ B00_ombrian_fleet: "Ombrian Fleet"
+ B00_ombrian_fleet_desc: "..."
+ B00_organization_of_the_people: "Organization of the People"
+ B00_organization_of_the_people_desc: "..."
+ B00_siege_tactics: "Combined Arms Tactics"
+ B00_siege_tactics_desc: "..."
+ B00_doge: "Doge System"
+ B00_doge_desc: "..."
+ B00_control_trade: "Controlling the Ombrain Gulf"
+ B00_control_trade_desc: "..."
+ B00_improve_beurocracy: "Improving Administration"
+ B00_improve_beurocracy_desc: "..."
+ B00_protecting_the_gulf: "Protecting the Ombrain Gulf"
+ B00_protecting_the_gulf_desc: "..."
