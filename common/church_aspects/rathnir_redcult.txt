@@ -1,3 +1,5 @@
+#Milk was here
+
 test_money_aspect = {
 	sprite = "Eu4_logo"
 	cost = 100

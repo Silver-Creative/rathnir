@@ -501,7 +501,7 @@ niedene = {
 	}
 	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_nieden
+	harmonized_modifier = harmonized_niedene
 }
 
 talawan = {
@@ -528,6 +528,8 @@ talawan = {
 			supply_limit_modifier = 0.1
 			improve_relation_modifier = 0.1
 		}
+
+		fetishist_cult = yes
 
 		on_convert = {
 			change_religion = asharu
