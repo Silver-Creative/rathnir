@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = reikarii
+religion = soleannen
+technology_group = tech_niedene
+capital = 405 #Oogrelon
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Igor"
+		dynasty = "Ogokras"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 4
+		mil = 3
+		culture = reikarii
+		religion = soleannen
+	}
+}

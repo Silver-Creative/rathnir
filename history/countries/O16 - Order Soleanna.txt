@@ -1,0 +1,20 @@
+government = theocracy
+add_government_reform = adventurer_reform
+government_rank = 1
+primary_culture = solerii
+religion = soleannen
+technology_group = tech_niedene
+capital = 590 #??
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Armin the Strong"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 3
+		mil = 5
+		culture = solerii
+		religion = soleannen
+	}
+}

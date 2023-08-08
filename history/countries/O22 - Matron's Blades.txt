@@ -1,0 +1,20 @@
+government = theocracy
+add_government_reform = adventurer_reform
+government_rank = 1
+primary_culture = lhuren
+religion = twin_dragon
+technology_group = tech_niedene
+capital = 451 #Unemsil
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "i dont know"
+		birth_date = 1401.7.3
+		adm = 2
+		dip = 3
+		mil = 4
+		culture = lhuren
+		religion = twin_dragon
+	}
+}

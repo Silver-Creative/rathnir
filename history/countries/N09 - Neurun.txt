@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = neurunic
+religion = soleannen
+technology_group = tech_niedene
+capital = 586 #Neurûn
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Karl"
+		dynasty = "Chaureste"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 4
+		mil = 3
+		culture = neurunic
+		religion = soleannen
+	}
+}
