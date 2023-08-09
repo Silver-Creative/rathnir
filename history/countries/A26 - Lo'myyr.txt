@@ -3,6 +3,6 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = myyraa
 religion = willowpact
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 257 #Myrmark
 national_focus = MIL

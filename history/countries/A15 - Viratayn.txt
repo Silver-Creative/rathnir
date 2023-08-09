@@ -3,6 +3,6 @@ add_government_reform = free_city
 government_rank = 1
 primary_culture = viratanic
 religion = zentivar
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 285 #Athazolant
 national_focus = ADM

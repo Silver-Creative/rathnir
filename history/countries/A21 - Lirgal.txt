@@ -6,7 +6,7 @@ primary_culture = lirgalyn
 add_accepted_culture = sironian
 add_accepted_culture = lapidosan
 religion = asitir
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 262 #Lirgal
 national_focus = ADM
 

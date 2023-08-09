@@ -4,7 +4,7 @@ add_government_reform = oligarchy_reform
 government_rank = 2
 primary_culture = lapidosan
 religion = sakrelism
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 321 #Cara-Lapidosa
 national_focus = ADM
 

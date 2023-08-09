@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = tyyraa
 religion = willowpact
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 306 #Crýparsa
 national_focus = MIL
 
