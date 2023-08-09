@@ -33,6 +33,8 @@ technology = {
 	
 	enable = alteniquian_1_inf
 	enable = alteniquian_1_cav
+	enable = aldoviri_1_inf
+	enable = aldoviri_1_cav
 	enable = luthic_1_inf
 	enable = luthic_1_cav
 	enable = niedene_1_inf
@@ -98,6 +100,9 @@ technology = {
 
 	
 	enable = alteniquian_5_inf
+	enable = aldoviri_5_inf
+	enable = aldoviri_5_inf2
+	enable = aldoviri_5_inf3
 	enable = luthic_5_inf
 	enable = niedene_5_inf
 	enable = vastallosi_5_inf
@@ -178,6 +183,8 @@ technology = {
 	
 	enable = alteniquian_9_inf1
 	enable = alteniquian_9_inf2
+	enable = aldoviri_9_inf1
+	enable = aldoviri_9_inf2
 	enable = luthic_9_inf
 	enable = niedene_9_inf
 	enable = vastallosi_9_inf
@@ -201,6 +208,7 @@ technology = {
 
 	
 	enable = alteniquian_10_cav
+	enable = aldoviri_10_cav
 	enable = luthic_10_cav
 	enable = niedene_10_cav
 	enable = vastallosi_10_cav
@@ -244,6 +252,8 @@ technology = {
 	
 	enable = alteniquian_12_inf1
 	enable = alteniquian_12_inf2
+	enable = aldoviri_12_inf1
+	enable = aldoviri_12_inf2
 	enable = luthic_12_inf
 	enable = niedene_12_inf
 	enable = vastallosi_12_inf
@@ -284,6 +294,7 @@ technology = {
 
 	
 	enable = alteniquian_14_cav
+	enable = aldoviri_14_cav
 	enable = luthic_14_cav
 	enable = niedene_14_cav
 	enable = vastallosi_14_cav
@@ -308,6 +319,8 @@ technology = {
 	
 	enable = alteniquian_15_inf1
 	enable = alteniquian_15_inf2
+	enable = aldoviri_15_inf1
+	enable = aldoviri_15_inf2
 	enable = luthic_15_inf
 	enable = niedene_15_inf
 }
@@ -369,6 +382,7 @@ technology = {
 
 	
 	enable = alteniquian_18_cav
+	enable = aldoviri_18_cav
 	enable = niedene_18_cav
 	enable = vastallosi_18_inf
 	enable = vraelean_18_inf
@@ -396,6 +410,8 @@ technology = {
 	
 	enable = alteniquian_19_inf1
 	enable = alteniquian_19_inf2
+	enable = aldoviri_19_inf1
+	enable = aldoviri_19_inf2
 	enable = luthic_19_inf
 	enable = vastallosi_19_cav
 }
@@ -485,6 +501,10 @@ technology = {
 	
 	enable = alteniquian_23_inf
 	enable = alteniquian_23_cav
+	enable = aldoviri_23_inf
+	enable = aldoviri_23_inf2
+	enable = aldoviri_23_inf3
+	enable = aldoviri_23_cav
 	enable = luthic_23_inf
 	enable = luthic_23_cav
 	enable = niedene_23_inf
@@ -557,6 +577,9 @@ technology = {
 	
 	enable = alteniquian_26_inf
 	enable = alteniquian_26_cav
+	enable = aldoviri_26_cav
+	enable = aldoviri_26_cav2
+	enable = aldoviri_26_inf
 	enable = luthic_26_inf
 	enable = niedene_26_inf
 	enable = vastallosi_26_inf
@@ -603,6 +626,8 @@ technology = {
 	
 	enable = alteniquian_28_inf
 	enable = alteniquian_28_cav
+	enable = aldoviri_28_cav
+	enable = aldoviri_28_inf
 	enable = luthic_28_cav
 	enable = niedene_28_cav
 	enable = vastallosi_28_cav
@@ -651,6 +676,7 @@ technology = {
 	maneuver_value = 0.25
 	
 	enable = alteniquian_30_inf
+	enable = aldoviri_30_inf
 	enable = luthic_30_inf
 	enable = niedene_30_inf
 	enable = vastallosi_30_inf
