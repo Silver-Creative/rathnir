@@ -5,7 +5,7 @@ controller = B09
 add_core = B09
 
 culture = knossian
-religion = sanderosa
+religion = dandelism
 capital = ""
 
 hre = no
@@ -24,3 +24,4 @@ discovered_by = tech_vastallosi
 discovered_by = tech_niedene
 discovered_by = tech_luthic
 discovered_by = tech_vraelean
+discovered_by = tech_aldoviri
