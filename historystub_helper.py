@@ -17,7 +17,7 @@ df = df.drop(df.columns[30:41], axis = 1)
 df.columns = ["name", "id", "type", "rgb", "area", "region", "superregion", "continent", "winters", "monsoons", "terrain", "climate", "is_colonized", "is_owned_by", "is_core_of", "is_city", "religion", "culture", "tradenode", "tradegood", "latentgood", "cot_rank", "base_tax", "base_production", "base_manpower", "total_development", "has_lv2_fort", "discovered_by", "prov_modifiers", "notes"]
 df = df.dropna(axis=0, subset=['type'])
 
-tech_groups = ["tech_alteniquian", "tech_vastallosi", "tech_niedene", "tech_luthic", "tech_vraelean"]
+tech_groups = ["tech_alteniquian", "tech_vastallosi", "tech_niedene", "tech_luthic", "tech_vraelean", "tech_aldoviri"]
 religion_map = {
     "Hukar Sharud": "hukar_sharud",
     "Theiosism": "theiosism",
