@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = thadii
+religion = soleannen
+technology_group = tech_niedene
+capital = 433 #Corthaidh
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Armin"
+		dynasty = "Chaureste"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 6
+		mil = 4
+		culture = thadii
+		religion = soleannen
+	}
+}
