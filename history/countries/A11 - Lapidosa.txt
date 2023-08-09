@@ -5,6 +5,7 @@ government_rank = 2
 primary_culture = lapidosan
 religion = sakrelism
 technology_group = tech_aldoviri
+historical_friend = A21 #Lirgal
 capital = 321 #Cara-Lapidosa
 national_focus = ADM
 
