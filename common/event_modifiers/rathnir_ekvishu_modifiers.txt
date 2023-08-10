@@ -1,6 +1,6 @@
 #Tier 1
 ekvishu_modifier_adm_1 = {
-    
+    #Teaching Nadeko
 }
 
 ekvishu_modifier_dip_1 = {
