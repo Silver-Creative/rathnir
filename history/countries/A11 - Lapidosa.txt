@@ -18,6 +18,7 @@ national_focus = ADM
 		mil = 3
 		culture = lapidosan
 		religion = sakrelism
+		female = yes
 	}
 	add_ruler_personality = careful_personality
     add_ruler_personality = kind_hearted_personality

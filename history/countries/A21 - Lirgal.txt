@@ -6,10 +6,10 @@ add_accepted_culture = sironian
 add_accepted_culture = lapidosan
 religion = asitir
 technology_group = tech_aldoviri
+historical_friend = A00 #Audal
 historical_friend = A11 #Lapidosa
-historical_friend = A22 #Carn
 capital = 262 #Lirgal
-national_focus = ADM
+national_focus = DIP
 
 1600.1.1 = {
 	monarch = {
