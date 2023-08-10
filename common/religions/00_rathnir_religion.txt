@@ -4,7 +4,7 @@
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
 jagdasian = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = no
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -155,7 +155,7 @@ jagdasian = {
 }
 
 alteniquian = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -427,7 +427,7 @@ alteniquian = {
 }
 
 niedene = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -505,7 +505,7 @@ niedene = {
 }
 
 talawan = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -584,7 +584,7 @@ talawan = {
 }
 
 northern = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -629,7 +629,7 @@ northern = {
 }
 
 brothian = {
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	defender_of_faith = no
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -716,7 +716,7 @@ elven = {
 
 	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
 
-	center_of_religion = 654 #Lhï¿½mar (NOT ADDED YET, temp. replaced by Thinking Palace)
+	center_of_religion = 654 #Lhûmar (NOT ADDED YET, temp. replaced by Thinking Palace)
 
 	twin_dragon = {
 		color = { 214 229 140 }
