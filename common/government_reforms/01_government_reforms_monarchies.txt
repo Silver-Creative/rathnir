@@ -35,6 +35,35 @@ feudalism_reform = {
 	}
 }
 
+sharudi_reform = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		religion = hukar_sharud
+	}
+	modifiers = {
+		vassal_income = 0.25
+		nobles_influence_modifier = 0.05
+		maratha_exclusive_influence_modifier = 0.05
+		rajput_exclusive_influence_modifier = 0.05
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			sharudi_mechanic
+		}
+	}
+	custom_attributes = {
+		buffed_strong_duchies = yes #+5% Loyalty
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
 autocracy_reform = {
 	icon = "crown"
 	allow_normal_conversion = yes
