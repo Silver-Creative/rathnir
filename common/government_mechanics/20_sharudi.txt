@@ -1,0 +1,264 @@
+sharudi_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 10
+	available = {
+		has_dlc = "Domination"
+		religion = hukar_sharud
+		NOT = { has_country_flag = no_sharudi }
+	}
+	
+	powers = {
+		ekvishu = {
+			max = 100
+			default = 60
+			reset_on_new_ruler = no
+			development_scaled_monthly_growth = 0.6599
+			show_before_interactions = yes
+			scaled_modifier = {
+				modifier = { 
+				yearly_harmony = 0.75
+				religious_unity = 0.25
+				promote_culture_cost = -0.2
+				}
+			}
+			reverse_scaled_modifier = {
+				start_value = 0
+				end_value = 40
+				modifier = {
+					prestige_decay = 0.075
+					global_tax_modifier	= -0.025
+				}
+			}
+			range_modifier = {
+				start_value = 0
+				end_value = 10
+				modifier = {
+					discipline = -0.025
+					global_unrest = 5
+					development_cost = 0.1
+				}
+			}
+		}
+	}
+
+	interactions = {
+		ekvishu_adm_1 = {
+			cooldown_token = ekvishu_interactions_tier_1
+			trigger = {
+				adm_power_cost = 100
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 50
+				}
+			}
+			effect = {
+				adm_power_cost = 100
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_1
+					remove_country_modifier = ekvishu_modifier_dip_1
+					remove_country_modifier = ekvishu_modifier_mil_1
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_adm_1
+					duration = -1
+				}
+			}
+		}
+
+		ekvishu_dip_1 = {
+			cooldown_token = ekvishu_interactions_tier_1
+			trigger = {
+				dip_power_cost = 100
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 50
+				}
+			}
+			effect = {
+				dip_power_cost = 100
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_1
+					remove_country_modifier = ekvishu_modifier_dip_1
+					remove_country_modifier = ekvishu_modifier_mil_1
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_dip_1
+					duration = -1
+				}
+			}
+		}
+
+		ekvishu_mil_1 = {
+			cooldown_token = ekvishu_interactions_tier_1
+			trigger = {
+				mil_power_cost = 100
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 50
+				}
+			}
+			effect = {
+				mil_power_cost = 100
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_1
+					remove_country_modifier = ekvishu_modifier_dip_1
+					remove_country_modifier = ekvishu_modifier_mil_1
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_mil_1
+					duration = -1
+				}
+			}
+		}
+
+
+
+		ekvishu_adm_2 = {
+			cooldown_token = ekvishu_interactions_tier_2
+			trigger = {
+				adm_power_cost = 150
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				adm_power_cost = 150
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_2
+					remove_country_modifier = ekvishu_modifier_dip_2
+					remove_country_modifier = ekvishu_modifier_mil_2
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_adm_2
+					duration = -1
+				}
+			}
+		}
+		ekvishu_dip_2 = {
+			cooldown_token = ekvishu_interactions_tier_2
+			trigger = {
+				dip_power_cost = 150
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				dip_power_cost = 150
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_2
+					remove_country_modifier = ekvishu_modifier_dip_2
+					remove_country_modifier = ekvishu_modifier_mil_2
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_dip_2
+					duration = -1
+				}
+			}
+		}
+		ekvishu_mil_2 = {
+			cooldown_token = ekvishu_interactions_tier_2
+			trigger = {
+				mil_power_cost = 150
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				mil_power_cost = 150
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_2
+					remove_country_modifier = ekvishu_modifier_dip_2
+					remove_country_modifier = ekvishu_modifier_mil_2
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_mil_2
+					duration = -1
+				}
+			}
+		}
+
+
+		ekvishu_adm_3 = {
+			cooldown_token = ekvishu_interactions_tier_3
+			trigger = {
+				mil_power_cost = 180
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				mil_power_cost = 180
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_3
+					remove_country_modifier = ekvishu_modifier_dip_3
+					remove_country_modifier = ekvishu_modifier_mil_3
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_adm_3
+					duration = -1
+				}
+			}
+			
+		}
+		ekvishu_dip_3 = {
+			cooldown_token = ekvishu_interactions_tier_3
+			trigger = {
+				mil_power_cost = 180
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				mil_power_cost = 180
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_3
+					remove_country_modifier = ekvishu_modifier_dip_3
+					remove_country_modifier = ekvishu_modifier_mil_3
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_dip_3
+					duration = -1
+				}
+			}
+			
+		}
+		ekvishu_mil_3 = {
+			cooldown_token = ekvishu_interactions_tier_3
+			trigger = {
+				mil_power_cost = 180
+				has_government_power = {
+					mechanic_type = sharudi_mechanic
+					power_type = ekvishu
+					value = 75
+				}
+			}
+			effect = {
+				mil_power_cost = 180
+				hidden_effect = {
+					remove_country_modifier = ekvishu_modifier_adm_3
+					remove_country_modifier = ekvishu_modifier_dip_3
+					remove_country_modifier = ekvishu_modifier_mil_3
+				}
+				add_country_modifier = {
+					name = ekvishu_modifier_mil_3
+					duration = -1
+				}
+			}
+
+		}
+	}
+}
+		
