@@ -1,0 +1,87 @@
+namespace = flavor_carn
+
+#The Ilivian question
+country_event = {
+	id = flavor_carn.1
+	title = flavor_carn.1.t
+	desc = flavor_carn.1.d
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+trigger = {
+	tag = A22
+}
+option = {
+	name = flavor_carn.1.a
+    240 = {
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+    }
+    reverse_add_opinion = {
+        who = A10
+        modifier = returned_province
+        years = 25
+    }
+}
+option = {
+	name = flavor_carn.1.b
+    240 = {
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+    }
+    reverse_add_opinion = {
+        who = A10
+        modifier = returned_province
+        years = 25
+    }
+    add_treasury = -100
+     reverse_add_opinion = {
+        who = A10
+        modifier = opinion_money_sent
+        years = 25
+    }
+	}
+option = {
+	name = flavor_carn.1.c
+    A10 = {country_event = {
+	id = flavor_sironia.2
+	days = 20
+	random = 10	
+	    }	
+	}
+}
+option = {
+	name = flavor_carn.1.f
+	240 = {
+        change_province_name = "Illeviane"
+    }
+    A22 = {
+        add_historical_rival = A10
+    }
+    A10 = {
+        add_historical_rival = A22
+    }
+	}
+}
+
+#Negotiations concluded
+country_event = {
+    id = flavor_carn.2
+    title = flavor_carn.2.t
+    desc = flavor_carn.2.d 
+    picture = DECLARATION_INDEPENDENCE_eventPicture
+    is_triggered_only = yes
+trigger = {
+    tag = A22
+}
+option = {
+    name = flavor_carn.2.a 
+    240 = {
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+    }
+    add_treasury = 100
+}
+}

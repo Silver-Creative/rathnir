@@ -5,7 +5,6 @@ primary_culture = carnian
 religion = aegmerism
 technology_group = tech_luthic
 historical_friend = A21 #Lirgal
-historical_rival = A10 #Sironia
 capital = 749 #Lestria
 national_focus = MIL
 
