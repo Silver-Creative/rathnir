@@ -414,6 +414,7 @@ alteniquian = {
 				duration = 3650
 			}
 		}
+		personal_deity = yes
 
 		heretic = {
 			SAKRELISM

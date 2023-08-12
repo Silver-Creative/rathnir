@@ -234,4 +234,18 @@
  cardinalist_rebels_army: "$RELIGION$ Army"
  
  
- 
+ ### AEGMERIST SAINTS ###
+ saint_allantus: "Allantus"
+ saint_allantus_desc: "Allantus is the patron saint of the arts, patron of culture and philosophy -  choosing to worship him will see an increase in the status of your nation."
+ saint_raeleas: "Raeleas"
+ saint_raeleas_desc: "Raeleas is the patron saint of kings and royalty, presiding over your ruler and their heirs - choosing to worship him will bring luck to you and your family."
+ saint_lircinius: "Lircinius"
+ saint_lircinius_desc: "Lircinius is the patron saint of war, righteous fury and spreading the cause - choosing to worship him will give you an edge in teaching people the correct paths."
+ saint_darras: "Darras"
+ saint_darras_desc: "Darras is the patron saint of scholars, research and development - choosing to worship him will aid your country in its forward progress."
+ saint_beatricos: "Beatricos"
+ saint_beatricos_desc: "Beatricos is the patron saint of builders, construction workers and architects - choosing to worship him will increase the efficiency of your construction."
+ saint_auseris: "Auseris"
+ saint_auseris_desc: "Auseris is the patron saint of the poor, downtrodden and weary - choosing to worship him will be an aid to those in need, at your own benefit."
+ saint_laurellon: "Laurellon"
+ saint_laurellon_desc: "Laurellon is the patron saint of hard work and dilligence - choosing to worship him will improve your subjects morale and will to keep working."
