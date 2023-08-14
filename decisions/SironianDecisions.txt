@@ -3,8 +3,12 @@ country_decisions = {
 	potential = {
 		tag = A10
 		240 = {
-		owned_by = A22
-		is_core = A22
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		239 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
 		}
 		A22 = {
 		NOT = {is_subject_of = A12}
@@ -14,12 +18,16 @@ country_decisions = {
 	allow = {
 		tag = A10
 		240 = {
-		owned_by = A22
-		is_core = A22
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
 		}
-		NOT = {truce_with = A22}
+		239 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		NOT = {truce_with = A22 OR A94}
 		reverse_has_opinion = {
-		who = A22
+		who = A22 OR A94
 		value = 0
 			}
 		A22 = {

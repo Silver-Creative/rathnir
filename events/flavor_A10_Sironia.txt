@@ -10,7 +10,7 @@ country_event = {
 trigger = {
 	tag = A10
 }
-option = {
+option = { #"Send the negotiating party - what’s the worst that could happen?"
 	name = flavor_sironia.1.a
 	add_adm_power = -75
 	A22 = {country_event = {
@@ -18,9 +18,9 @@ option = {
 	days = 20
 	random = 10	
 		}	
-	}
+	
 }
-option = {
+option = { #"There’s no point. We’ll simply take the city by other means."
 	name = flavor_sironia.1.b
 	add_prestige = -15
 		}
@@ -35,9 +35,14 @@ country_event {
 trigger = {
 	tag = A10
 }
-option = {
+option = { #"Give in to their demands. Ilivian is worth the price."
 	name = flavor_sironia.2.a
-	240 = {
+	240 = { #ilivian
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+		}
+	239 = { #sirasthenak
         cede_province = A10
         add_core = A10
         remove_core = A22
@@ -52,13 +57,14 @@ option = {
 		}	
 	}
 }
-option = {
+option = { #"Those dogs! They will pay for this!"
 	name = flavor_sironia.2.b
-    240 = {
-        cede_province = A10
-        add_core = A10
-        remove_core = A22
+	add_prestige = 15
+	add_country_modifier = {
+		name = make_them_pay
+		duration = 3650
+		desc = make_them_pay_desc
+			}
 		}
-		}
-	}
+	} 
 

@@ -1,35 +1,45 @@
 namespace = flavor_carn
 
 #The Ilivian question
-country_event = {
+country_event = { 
 	id = flavor_carn.1
 	title = flavor_carn.1.t
 	desc = flavor_carn.1.d
 	picture = TRADEGOODS_eventPicture
 	is_triggered_only = yes
 trigger = {
-	tag = A22
+	tag = A22 OR A94
 }
-option = {
+option = { #"We're better than the Reylleans - Let's give it back to the Sironians"
 	name = flavor_carn.1.a
-    240 = {
+	240 = { #ilivian
         cede_province = A10
         add_core = A10
-        remove_core = A22
-    }
+        remove_core = A22 AND A94
+		}
+	239 = { #sirasthenak
+        cede_province = A10
+        add_core = A10
+        remove_core = A22 AND A94
+		}
     reverse_add_opinion = {
         who = A10
         modifier = returned_province
         years = 25
     }
 }
-option = {
+option = { #"What happened in Ilivian was tragic - We need to pay the debt the Reylleans accrued."
 	name = flavor_carn.1.b
-    240 = {
+	240 = { #ilivian
         cede_province = A10
         add_core = A10
-        remove_core = A22
-    }
+        remove_core = A22 AND A94
+		}
+	239 = { #sirasthenak
+        cede_province = A10
+        add_core = A10
+        remove_core = A22 AND A94
+		}
     reverse_add_opinion = {
         who = A10
         modifier = returned_province
@@ -42,7 +52,7 @@ option = {
         years = 25
     }
 	}
-option = {
+option = { #"We conquered it rightfully from the Reylleans, we must demand compensation for the town."
 	name = flavor_carn.1.c
     A10 = {country_event = {
 	id = flavor_sironia.2
@@ -51,7 +61,7 @@ option = {
 	    }	
 	}
 }
-option = {
+option = { #"How dare! It's our land, if they want it back they should come and take it from us!"
 	name = flavor_carn.1.f
 	240 = {
         change_province_name = "Illeviane"
@@ -59,8 +69,12 @@ option = {
     A22 = {
         add_historical_rival = A10
     }
+    A94 = {
+        add_historical_rival = A10
+    }
     A10 = {
         add_historical_rival = A22
+        add_historical_rival = A94
     }
 	}
 }
@@ -73,15 +87,67 @@ country_event = {
     picture = DECLARATION_INDEPENDENCE_eventPicture
     is_triggered_only = yes
 trigger = {
-    tag = A22
+    tag = A22 OR A94
 }
-option = {
+option = { #"Then so it shall be!"
     name = flavor_carn.2.a 
-    240 = {
+	240 = { #ilivian
         cede_province = A10
         add_core = A10
-        remove_core = A22
-    }
+        remove_core = A22 AND A94
+		}
+	239 = { #sirasthenak
+        cede_province = A10
+        add_core = A10
+        remove_core = A22 AND A94
+		}
     add_treasury = 100
+    }
 }
-}
+
+#The black library
+#country_event = {
+#    id = flavor_carn.3
+#    title = flavor_carn.3.t
+#    desc = flavor_carn.3.d
+#    picture = TRADEGOODS_eventPicture
+#
+#trigger = {
+#    tag = A22 OR A94
+#    capital = 749
+#    adm_tech = 4
+#    NOT = { has_country_flag = daria_elernel}
+#    }
+#mean_time_to_happen = {
+#    years = 15
+#}
+#option = {
+#    name = flavor_carn.3.a
+#    set_country_flag = daria_elernel
+#    add_prestige = 10
+#}
+#option = {
+#    set_country_flag = daria_elernel
+#    add_treasury = -150
+#    220 = {
+#        add_permanent_province_modifier = {
+#            name = the_black_library
+#            duration = -1
+#            desc = the_black_library_desc
+#        }
+#        add_base_tax = 2
+#    }
+#
+#}
+#option = {
+#    name = flavor_carn.3.c
+#    set_country_flag = daria_elernel
+#    add_treasury = -100
+#    220 = {
+#        add_building = temple
+#                }
+#            }
+#
+#        }
+
+
