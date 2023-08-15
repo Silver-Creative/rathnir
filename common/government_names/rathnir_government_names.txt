@@ -218,3 +218,24 @@ idani_monarchy = {
 		culture = idan-ridu
 	}
 }
+carnian_monarchy = {
+	rank = {
+		1 = SHAERONATE
+		2 = CAERONATE
+		3 = CAERONATE
+	}
+	ruler_male = {
+		1 = SHAERON
+		2 = CAERON 
+		3 = CAERON
+	}
+	ruler_female = {
+		1 = SHAERON
+		2 = CAERON
+		3 = CAERON
+	}
+	trigger = {
+		government = monarchy
+		culture = carnian
+	}
+}
