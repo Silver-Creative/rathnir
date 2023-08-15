@@ -10,10 +10,7 @@ carn_ideas = {
     }
 
     trigger = {
-        OR = {
-                tag = A22
-                tag = A94
-        }
+        primary_culture = carnian
     }
     free = yes
 
@@ -39,4 +36,4 @@ carn_ideas = {
     carn_divine_touch = {
         yearly_absolutism = 0.5
     }
-} 
+    }
