@@ -1,0 +1,9 @@
+﻿l_english:
+ miremen_customs.1.t: "Mhyrish Customs"
+ miremen_customs.1.d: "It has long been a part of our people's heritage to perform the yearly cultural and religious ceremonies in the heart of the swamps of which our people call home. However, in recent years some have been questioning this custom, with the sharp onset of diseases that accompany such ceremonies shaking causing the populace to question their necessity."
+ miremen_customs.1.a: "Tradition has always kept our people thriving. Host the ceremony"
+ #miremen_customs.1.a.tt: "..."
+ miremen_customs.1.b: "Cancel the ceremony"
+ #miremen_customs.1.b.tt: "..."
+ miremen_customs.1.c: "Relocate to a less sultry part of the swamps"
+ miremen_customs.1.c.tt: "Available because Ruler is Insightful"
