@@ -1,0 +1,47 @@
+#normal_or_historical_nations = yes
+namespace = miremen_customs
+
+#### ALDOVIR PULSE 1 ####
+country_event = {
+	id = miremen_customs.1
+	title = "miremen_customs.1.t"
+	desc = "miremen_customs.1.d"
+	picture = FAMINE_eventPicture
+	#fire_only_once = yes
+	trigger = {
+		religion = willowpact
+		NOT = { has_country_flag = mhyrish_customs}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = mhyrish_customs
+	}
+	option = {
+			name = "miremen_customs.1.a"
+			custom_tooltip = "miremen_customs.1.a.tt"
+			add_country_modifier = {
+				name = minor_trade_crisis
+				duration = 3650
+			}
+	}
+	option = {
+			name = "miremen_customs.1.b"
+			custom_tooltip = "miremen_customs.1.b.tt"
+			add_stability = -1
+	}
+	option = {
+			name = "miremen_customs.1.c"
+			custom_tooltip = "miremen_customs.1.c.tt"
+			ai_chance = {
+				factor = 1
+			}
+			highlight = yes
+			trigger = {
+				ruler_has_personality_ancestor = {
+					key = charismatic_negotiator_personality}
+			}
+	}
+}
