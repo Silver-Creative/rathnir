@@ -8,6 +8,29 @@ on_monarch_death = {
 		limit = { has_government_attribute = no_stability_loss_on_monarch_death }
 		add_stability = 1
 	}
+	if = {
+		limit = { 
+        OR = {
+            tag = A22
+            tag = A94
+        }
+        religion = aegmerism
+        government = monarchy
+        OR = {
+            NOT = {is_year = 1520}
+            AND = {
+                is_year = 1520
+                has_country_flag = contested_election
+            }
+        }
+
+    }
+		country_event = {
+			id = flavor_carn.4
+			days = 0
+			random = 0
+		}
+	}
 	burgundian_inheritance_start_effect = yes
 	ladislaus_postumus_king_died_effect = yes
 	joan_de_trastamara_king_died_effect = yes

@@ -5,8 +5,20 @@
  flavor_carn.1.b: "What happened in Ilivian was tragic - We need to pay the debt the Reylleans accrued."
  flavor_carn.1.c: "We conquered it rightfully from the Reylleans, we must demand compensation for the town."
  flavor_carn.1.f: "How dare! It's our land, if they want it back they should come and take it from us!"
+
  flavor_carn.2.t: "Negotiations concluded"
  flavor_carn.2.d: "The sironians - wise in their negotiations - have accepted our generous offer for the city of Ilivian, and the city is now theirs once again. Though we may have missed out on a valuable port-city, surely good relations with the Sironians are a greater benefit to us than the benefits that Ilivian could have granted us in the long term."
  flavor_carn.2.a: "Then so it shall be!"
- #flavor_carn.3.t: "The Black Library"
+
+ flavor_carn.3.t: "The Black Library"
+ flavor_carn.3.d: "[ROOT.Monarch.GetName] is sitting at [ROOT.Monarch.GetHerHis] throne in the Lestrian imperial palace. It's been a calm day - something that's growing more and more unusual these days. Suddenly, a man arrives at [ROOT.Monarch.GetHerHis] feet. He refers to himself as Daria, a local perhaps judging by the name, and he has a request. Ambition shines in his eyes as he speaks; he wants to build a great library in the province of Costaigne, a days walk to the north, a center of learning and perhaps theology. All he's requesting is a bit of money, and free reign on the land to hire builders and architects. There is potential in  him. But, at the same time, can an unknown man like this really be trusted with the project?"
+ flavor_carn.3.a: "Deny his request. Who is this man, daring to come to the court asking for money?"
+ flavor_carn.3.b: "Accept his request, and give him the money he wants to start construction."
+ flavor_carn.3.c: "Surely you know more about building libraries than your citizens?"
+
+ flavor_carn.4.t: "The grand gathering"
+ flavor_carn.4.d: "Our previous ruler - may they find peace in what comes next - has passed. Rumours are still coming in, and noone is exactly sure how it happened; some say they passed in their sleep, peacefully. Others say it was an assassination, maybe even divine intervention, but no matter the case the nation needs a leader - turning to tradition, the regency council left in our previous rulers wake ends up organizing a grand gathering, where all the nobles of Carn and spectators from lands afar gather to vote on, and hopefully inaugurate, the new Caeron of Carn. The only question is, who is it going to be..."
+ flavor_carn.4.a: "We want an Elernel!"
+ flavor_carn.4.b: "Let's give someone else a shot for once."
+ 
 

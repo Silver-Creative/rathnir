@@ -1,6 +1,6 @@
-#make_them_pay = {
-#    land_morale = 0.15
-#}
-#the_black_library = {
-#    local_production_efficiency = 0.15
-#}
+make_them_pay = {
+    land_morale = 0.15
+}
+the_black_library = {
+    local_production_efficiency = 0.15
+}

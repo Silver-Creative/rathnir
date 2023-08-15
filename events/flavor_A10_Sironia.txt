@@ -18,7 +18,7 @@ option = { #"Send the negotiating party - what’s the worst that could happen?"
 	days = 20
 	random = 10	
 		}	
-	
+	}
 }
 option = { #"There’s no point. We’ll simply take the city by other means."
 	name = flavor_sironia.1.b
