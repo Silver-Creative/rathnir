@@ -1,4 +1,5 @@
 ﻿l_english:
+#ilivian question pt 1
  flavor_carn.1.t: "The Ilivian question"
  flavor_carn.1.d: "Not too long ago, our former overlords - the Reylleans - conquered the Sironian town of Ilivian, sitting on the coast of the Gulf of Ilivian; it is a relatively small town, yet the Sironians and especially the Sironian government still see it as an open wound on the map, a wound that they would like to mend by any means necessary. While negotiations between Reyllea and the Sironians were never more than a suggestion we now, as the proprietors of the town, have been contacted by a Sironian diplomatic party in Lestria with the goal of starting discussions on the topic - and, they hope, fix the mistakes of the Reyllean kings. How do we respond?"
  flavor_carn.1.a: "We're better than the Reylleans - Let's give it back to the Sironians"
@@ -6,19 +7,34 @@
  flavor_carn.1.c: "We conquered it rightfully from the Reylleans, we must demand compensation for the town."
  flavor_carn.1.f: "How dare! It's our land, if they want it back they should come and take it from us!"
 
+#ilivian question pt 2
  flavor_carn.2.t: "Negotiations concluded"
  flavor_carn.2.d: "The sironians - wise in their negotiations - have accepted our generous offer for the city of Ilivian, and the city is now theirs once again. Though we may have missed out on a valuable port-city, surely good relations with the Sironians are a greater benefit to us than the benefits that Ilivian could have granted us in the long term."
  flavor_carn.2.a: "Then so it shall be!"
 
+#the black library
  flavor_carn.3.t: "The Black Library"
  flavor_carn.3.d: "[ROOT.Monarch.GetName] is sitting at [ROOT.Monarch.GetHerHis] throne in the Lestrian imperial palace. It's been a calm day - something that's growing more and more unusual these days. Suddenly, a man arrives at [ROOT.Monarch.GetHerHis] feet. He refers to himself as Daria, a local perhaps judging by the name, and he has a request. Ambition shines in his eyes as he speaks; he wants to build a great library in the province of Costaigne, a days walk to the north, a center of learning and perhaps theology. All he's requesting is a bit of money, and free reign on the land to hire builders and architects. There is potential in  him. But, at the same time, can an unknown man like this really be trusted with the project?"
  flavor_carn.3.a: "Deny his request. Who is this man, daring to come to the court asking for money?"
  flavor_carn.3.b: "Accept his request, and give him the money he wants to start construction."
  flavor_carn.3.c: "Surely you know more about building libraries than your citizens?"
 
+#grand gatherings
  flavor_carn.4.t: "The grand gathering"
  flavor_carn.4.d: "Our previous ruler - may they find peace in what comes next - has passed. Rumours are still coming in, and noone is exactly sure how it happened; some say they passed in their sleep, peacefully. Others say it was an assassination, maybe even divine intervention, but no matter the case the nation needs a leader - turning to tradition, the regency council left in our previous rulers wake ends up organizing a grand gathering, where all the nobles of Carn and spectators from lands afar gather to vote on, and hopefully inaugurate, the new Caeron of Carn. The only question is, who is it going to be..."
  flavor_carn.4.a: "We want an Elernel!"
  flavor_carn.4.b: "Let's give someone else a shot for once."
- 
+ flavor_carn.5.d: "Our previous ruler - may they find peace in what comes next - has passed. Rumours are still coming in, and noone is exactly sure how it happened; some say they passed in their sleep, peacefully. Others say it was an assassination, maybe even divine intervention, but no matter the case the nation needs a leader - turning to tradition, the regency council left in our previous rulers wake ends up organizing a grand gathering, where all the nobles of Carn and spectators from lands afar gather to vote on, and hopefully inaugurate, the new Caeron of Carn. The only question is, who is it going to be...\n\nThe people, ever hungry for noble and powerful leaders, still remember Kerplis. According to many he was the greatest Caeron in a century - and no Caeron since has been able to live up to what he managed to accomplish in his reign. It's seeming more and more like this grand gathering will be of vital importance to the future of the nation, in more ways than one..."
+
+#the elernel family
+ flavor_carn.6.t: "The Elernel family"
+ flavor_carn.6.d: "[ROOT.Monarch.GetName] has been watching the progress on the black library for some time now. It’s progressing remarkably fast - a large, black tower has been erected on a hill in what was previously nothing but a tiny village, and soon people expect, it’ll grow into something much larger than even that. Right after the messenger carrying the status update on the black library leaves [ROOT.Monarch.GetName]'s court, someone unexpected enters the Lestrian palace. It’s Daria, and walking beside him is none other than the Caeron’s sole daughter.\n\nThey start speaking almost in unison, both clearly nervous about confronting [ROOT.Monarch.GetName] like this - as they talk, they explain that they met each other shortly after the building permit for the black library was first granted, and that they’ve been in love ever since. All he asks is the Caeron's blessing to take her hand in marriage; naturally, this would also make him [ROOT.Monarch.GetName]'s son-in-law, but..\n\nBefore the Caeron finishes [ROOT.Monarch.GetHerHis] thought, Daria interrupts with another - much bolder - request. He wants to be adopted into the family, to be made into an Elernel, if not in blood atleast in spirit. The sheer boldness of this man, to not only stroll into the palace asking to marry the Caeron’s daughter, but to also ask to be made an Elernel in the process - if nothing else, the tenacity of him must be admired…"
+ flavor_carn.6.a: "Grant his request"
+ flavor_carn.6.b: "How dare he..? Guards, take him away!"
+
+#all the small things
+ flavor_carn.7.t: "All the small things"
+ flavor_carn.7.d: "It's been a busy few months - for everyone. No matter the outcome the war took a heavy toll on the land and especially the people; farms still lay deserted, their former owners long-since buried, whether that be on the battlefield or in a cemetery. [ROOT.Monarch.GetName] has spent the last few days travelling the countryside, taking in the situation and keeping up the morale of their citizens. In a rare lull [ROOT.Monarch.GetSheHe] veers off to the side of the dirt-paved road - and finds a beautiful, blooming patch of cornflowers. A sign of things to come, perhaps. "
+ flavor_carn.7.a: "Send thanks to Aegmer with a quick prayer to the man in the porcelain mask."
+ flavor_carn.7.b: "There's no time for this."
 

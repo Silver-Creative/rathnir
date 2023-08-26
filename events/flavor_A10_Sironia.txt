@@ -17,8 +17,14 @@ option = { #"Send the negotiating party - what’s the worst that could happen?"
 	id = flavor_carn.1
 	days = 20
 	random = 10	
+	}
+	A94 = {country_event = {
+	id = flavor_carn.1
+	days = 20
+	random = 10	
 		}	
 	}
+}
 }
 option = { #"There’s no point. We’ll simply take the city by other means."
 	name = flavor_sironia.1.b
@@ -54,6 +60,12 @@ option = { #"Give in to their demands. Ilivian is worth the price."
 	id = flavor_carn.2
 	days = 20
 	random = 10	
+	}
+	}
+	A94 = {country_event = {
+	id = flavor_carn.2
+	days = 20
+	random = 10	
 		}	
 	}
 }
@@ -66,5 +78,4 @@ option = { #"Those dogs! They will pay for this!"
 		desc = make_them_pay_desc
 			}
 		}
-	} 
 }
