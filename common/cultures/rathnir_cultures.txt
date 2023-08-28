@@ -651,6 +651,14 @@ seraan_group = {
 			Accero Ellan Deárinn
 		}
 	}
+	
+	aedyn = {
+		primary = O29 #Aedyn Clan
+
+		dynasty_names = {
+			Aedyn
+		}
+	}
 
 	dynasty_names = {
 		Halsar Dandur Vasaian Mãe'taí
