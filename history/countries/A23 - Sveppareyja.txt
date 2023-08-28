@@ -4,7 +4,7 @@ add_government_reform = oligarchy_reform
 government_rank = 1
 primary_culture = svepparaa
 religion = sakrelism
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
 capital = 302 #Sveppareyja
 national_focus = ADM
 

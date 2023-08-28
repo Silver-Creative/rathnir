@@ -108,6 +108,9 @@ on_thri_yearly_pulse = {
 		100 = center_of_revolution.2002
 		100 = center_of_revolution.2003
 		100 = center_of_revolution.2010
+
+		#Carn
+		100 = flavor_carn.11
 		
 		1000 = 0
 	}

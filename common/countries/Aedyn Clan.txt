@@ -1,0 +1,143 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 200 220 255 }
+
+historical_idea_groups = {
+	defensive_ideas
+	exploration_ideas
+	quantity_ideas
+	offensive_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	expansion_ideas	
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+
+    #Religious Asitir Names (Male)
+    "Tali #0" = 10
+    "Saraim #0" = 10
+
+	#Generic Lirgalyn Names (Male)
+	"Cael #0" = 10 
+	"Nitlós #0" = 10 
+	"Kar #0" = 10 
+	"Vopran #0" = 10 
+	"Talanaas #0" = 10
+    "Cali #0" = 10
+    "Lai #0" = 10
+    "Tir #0" = 10
+    "Altor #0" = 10
+    "Fedre #0" = 10
+    "Authe #0" = 10
+    "Sjatyre #0" = 10
+	"Kaimen #0" = 10
+	"Menelis #0" = 10
+	"Baeron #0" = 10
+	"Kalhem #0" = 10
+
+    #Religious Asitir Names (Female)
+    "Leryla #0" = -1
+    "Seréa #0" = -1
+    "Lynadara #0" = -1
+    "Lerá #0" = -1
+    "Néa #0" = -1
+    "Merine #0" = -1
+
+	#Generic Lirgalyn Names (Female)
+	"Aldara #0" = -1
+	"Ellira #0" = -1 
+	"Cali #0" = -1 
+	"Ammara #0" = -1
+    "Moitiré #0" = -1
+    "Lairé #0" = -1
+    "Alea #0" = -1
+    "Dáido #0" = -1
+    "Selã #0" = -1
+    "Maimara #0" = -1
+    "Dana #0" = -1
+    "Authe #0" = -1
+    "Sjatyre #0" = -1
+	"Kalair #0" = -1
+	"Melin #0" = -1
+	"Ardont #0" = -1
+
+
+}
+
+leader_names = {
+	#Country Specific
+	"Aedyn" "of Kaliné" "of Olarã" "vAedyn"
+	
+	#Province Neighbours
+	#None for now?
+	
+	#Country Neighbours
+	#None for now?
+	
+	#Geographic Neighbours
+	"of Aldovir" "of Essukdal" "of Tàlor"
+	
+	#Noble Families
+	Aedyn Malain Dauren Méris Valeus Northorm
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
+
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+}
+
+army_names = {
+	"Defenders of the Temple" "Army of $PROVINCE$" "Guard of &PROVINCE&" "Orchid Batallion" "Defenders of the City" "Agalarum Lerirador"
+}
+
+fleet_names = {
+	"Moonguided Sails" "Red Squadron" "Blue Squadron" "Yellow Squadron" "Green Squadron"
+}

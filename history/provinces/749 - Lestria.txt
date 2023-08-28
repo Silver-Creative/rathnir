@@ -6,7 +6,7 @@ add_core = A22
 add_core = A42
 
 culture = carnian
-religion = etherflame
+religion = aegmerism
 capital = ""
 
 hre = no

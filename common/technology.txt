@@ -8,6 +8,18 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
+    tech_aldoviri = {	
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					superregion = aldovir_superregion
+				}
+			}
+			value = 75
+		}
+	}
 	tech_alteniquian = {	
 		start_level = 3
 		start_cost_modifier = 0
@@ -17,6 +29,7 @@ groups = {
 					AND = {
                         continent = alteniquia
                         NOT = { superregion = vastallos_superregion }
+                        NOT = { superregion = aldovir_superregion }
                     }
 				}
 			}

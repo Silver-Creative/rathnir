@@ -1,4 +1,3 @@
-
 government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
@@ -6,15 +5,18 @@ primary_culture = lirgalyn
 add_accepted_culture = sironian
 add_accepted_culture = lapidosan
 religion = asitir
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
+historical_friend = A00 #Audal
+historical_friend = A11 #Lapidosa
 capital = 262 #Lirgal
-national_focus = ADM
+national_focus = DIP
 
 1600.1.1 = {
 	monarch = {
 		name = "Aldara"
 		dynasty = "Ellan"
 		birth_date = 1401.7.3
+		death_date = 1820.6.8
 		adm = 4
 		dip = 6
 		mil = 2

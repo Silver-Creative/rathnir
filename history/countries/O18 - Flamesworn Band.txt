@@ -9,7 +9,7 @@ national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Anther the Swift"
+		name = "Anther sae Anverrýa"
 		birth_date = 1401.7.3
 		adm = 5
 		dip = 5

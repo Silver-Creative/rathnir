@@ -1,0 +1,19 @@
+# Lirne-Venatheri Rider
+
+type = cavalry
+unit_type = tech_aldoviri
+
+maneuver = 2
+offensive_morale = 3
+defensive_morale = 3
+offensive_fire = 4
+defensive_fire = 3
+offensive_shock = 3
+defensive_shock = 3
+
+trigger = {
+    OR = {
+        tag = A95
+        tag = A96
+    }    
+}

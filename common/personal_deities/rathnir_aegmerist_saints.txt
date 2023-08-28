@@ -1,0 +1,55 @@
+#These are all Aegmerist Saints.
+
+saint_allantus = {
+    diplomatic_reputation = 1
+    prestige = 0.5
+    sprite = 91
+    potential = { religion = aegmerism }
+    ai_will_do = {
+        modifier = {
+            factor = 2
+            personality = ai_diplomat
+        }
+    }
+}
+
+saint_raeleas = {
+    legitimacy = 1
+    heir_chance = 0.5
+    sprite = 92
+    potential = { religion = aegmerism }
+}
+
+saint_lircinius = {
+    discipline = 0.05
+    global_missionary_strength = 0.01
+    sprite = 93
+    potential = { religion = aegmerism }
+}
+
+saint_darras = {
+    technology_cost = -0.05
+    sprite = 94
+    potential = { religion = aegmerism }
+}
+
+saint_beatricos = {
+    build_cost = -0.1
+    build_time = -0.08
+    sprite = 95
+    potential = { religion = aegmerism }
+}
+
+saint_auseris = {
+    global_unrest = -1
+    stability_cost_modifier = -0.15
+    sprite = 96
+    potential = { religion = aegmerism }
+}
+
+saint_laurellon = {
+    production_efficiency = 0.1
+    global_tax_modifier = 0.1
+    sprite = 97
+    potential = { religion = aegmerism }
+}

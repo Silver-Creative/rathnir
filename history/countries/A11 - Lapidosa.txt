@@ -4,7 +4,8 @@ add_government_reform = oligarchy_reform
 government_rank = 2
 primary_culture = lapidosan
 religion = sakrelism
-technology_group = tech_alteniquian
+technology_group = tech_aldoviri
+historical_friend = A21 #Lirgal
 capital = 321 #Cara-Lapidosa
 national_focus = ADM
 
@@ -17,6 +18,7 @@ national_focus = ADM
 		mil = 3
 		culture = lapidosan
 		religion = sakrelism
+		female = yes
 	}
 	add_ruler_personality = careful_personality
     add_ruler_personality = kind_hearted_personality

@@ -1,0 +1,39 @@
+#for Carn and Lestria
+carn_ideas = {
+    start = {
+        infantry_power = 0.10
+        liberty_desire_from_subject_development = -0.20
+    }
+
+    bonus = {
+        ae_impact = -0.15
+    }
+
+    trigger = {
+        primary_culture = carnian
+    }
+    free = yes
+
+    carn_lestrian_red = {
+        prestige = 1
+    }
+    carn_the_old_cults = {
+        global_missionary_strength = 0.02
+    }
+    carn_lantine_legacy = {
+        legitimacy = 1
+    }
+    carn_the_erneraevis = {
+        discipline = 0.05
+    }
+    carn_port_of_lestria = {
+        global_own_trade_power = +0.1
+        center_of_trade_upgrade_cost = -0.1
+    }
+    carn_the_blue_flower = {
+        global_unrest = -2
+    }
+    carn_divine_touch = {
+        yearly_absolutism = 0.5
+    }
+    }

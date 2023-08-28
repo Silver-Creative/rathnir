@@ -1,7 +1,11 @@
 # 464 - Metval
 
-culture = locetii
-religion = soleannen
+owner = O29
+controller = O29
+add_core = O29
+
+culture = aedyn
+religion = asitir
 capital = ""
 
 hre = no
@@ -10,7 +14,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 
-trade_goods = naval_supplies
+trade_goods = silk
 
 is_city = no
 fort_15th = no

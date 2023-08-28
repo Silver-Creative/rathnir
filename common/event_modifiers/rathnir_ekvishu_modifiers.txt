@@ -1,0 +1,38 @@
+#Tier 1
+ekvishu_modifier_adm_1 = {
+    #Teaching Nadeko
+}
+
+ekvishu_modifier_dip_1 = {
+
+}
+
+ekvishu_modifier_mil_1 = {
+
+}
+
+#Tier 2
+ekvishu_modifier_adm_2 = {
+
+}
+
+ekvishu_modifier_dip_2 = {
+
+}
+
+ekvishu_modifier_mil_2 = {
+
+}
+
+#Tier 3
+ekvishu_modifier_adm_3 = {
+
+}
+
+ekvishu_modifier_dip_3 = {
+
+}
+
+ekvishu_modifier_mil_3 = {
+
+}

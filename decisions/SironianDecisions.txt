@@ -1,0 +1,49 @@
+country_decisions = {
+	ilivian_negotiations = {
+	potential = {
+		tag = A10
+		240 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		239 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		A22 = {
+		NOT = {is_subject_of = A12}
+		}
+		NOT = {has_country_flag = ilivian_negotiated}
+		}
+	allow = {
+		tag = A10
+		240 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		239 = {
+		owned_by = A22 OR A94
+		is_core = A22 OR A94
+		}
+		NOT = {truce_with = A22 OR A94}
+		reverse_has_opinion = {
+		who = A22 OR A94
+		value = 0
+			}
+		A22 = {
+		NOT = {is_subject_of = A12}
+		}
+		}
+	effect = {
+			country_event = {
+			id = flavor_sironia.1
+			days = 0
+			random = 0
+			}
+			set_country_flag = ilivian_negotiated
+		}
+	ai_will_do = {
+	factor = 1
+	}
+}
+}

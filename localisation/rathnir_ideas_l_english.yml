@@ -132,6 +132,25 @@
  A10_gunnery_at_kalasirol: "The Gunnery at Kalasirol"
  A10_gunnery_at_kalasirol_desc: "..."
 
+  #A22 and A94 - Carn/Lestria
+ carn_ideas: "Carnian ideas"
+ carn_ideas_start: "Carnian Traditions"
+ carn_ideas_bonus: "Carnian Ambition"
+ carn_lestrian_red: "Lestrian red"
+ carn_lestrian_red_desc: "Many nations around the world lay claim to their own drinks and cuisine, but even among red wines Lestrian red is said to be unique. Brewed and fermented from the grapes that naturally dot the Carnian and Reyllean plains, it is a dark, hardy wine suited for the strongest of warriors - yet, simultaneously, it is slightly sweet, and bitter but not too bitter, falling into that perfect sweetspot that so many other wines and winemakers around the world wish they had achieved."
+ carn_the_old_cults: "The old cults"
+ carn_the_old_cults_desc: "No one exactly knows where the traditions, ideas and values that build the foundation of Aegmerism come from - and if they do, it’s likely that they’re atleast partly lying. Though the religion itself is not too old in comparison with some of its counterparts along the continent, certain signs point to it being much older than we all can definitively prove. Within Carn this more often than not leads to certain strife regarding canonicity and historical rulers, but outside it? Well, it certainly gives a certain sense of prestige and legitimacy, legitimacy that has a minor  but noticeable effect on the heretics around Carn."
+ carn_lantine_legacy: "Lantine legacy"
+ carn_lantine_legacy_desc: "Within the history scrolls, Lant - these days more often known as saint Allantus - is identified as the first ruler of the Caeronate of Carn, several centuries in the past. Being the first ruler, his ideas and values hold a certain sway over the more modern Caerons, who look back to him and his immediate successors with optimism, hope, and as signs of better times. Or, when times are good, examples that can be pointed to in order to drive home the point that those good old times never really faded."
+ carn_the_erneraevis: "The Erneraevis"
+ carn_the_erneraevis_desc: "The Erneraevis - the elite core unit of the Carnian army - is like no other. Trained from birth to be loyal servants of the Caeron serving him faithfully until death, they do not know the word dishonor and would gladly take their own lives if it meant the Caeron lived, something that can’t be said for most normal soldiers. Within the army they strike fear on the battlefield, and at home they can often be seen in their secondary role as protectors of the Caeron himself, walking alongside him on the streets as his personal guards at all times."
+ carn_port_of_lestria: "Port of Lestria"
+ carn_port_of_lestria_desc: "What is the point of building a city on a coast if not to make trade with the world at large? Lestria is by no means a small city compared to some of its compatriots around the world, but it could always be larger. It could always exert more influence on the seas, attract more merchants, have more traders flock in its streets - by making the expansion of Lestria a priority above most of everything else, we signal to the world that not only are we powerful as we are now, but that we will only grow in power as time goes on."
+ carn_the_blue_flower: "The Blue Flower"
+ carn_the_blue_flower_desc: "Within the Aegmerist faith, the Blue Flower, existing as a counterpart to Aegmer, represents the good that exists in the world - it is a representation of the lawful order of things. That even in chaos, stability exists, and that good will inevitably triumph over all evil. Our citizens, in their dark times, look to the Blue Flower for guidance, praying, hoping, believing that things will eventually turn out good - and as they do, for after every rain comes sunshine, so grows the influence of the Blue Flower. It gives people hope, an emotion that rarely if ever trumps any other."
+ carn_divine_touch: "Divine touch"
+ carn_divine_touch_desc: "The Caeron is divinely chosen by Aegmer to rule”, says the Caeron. Whether you beleive them or not it is true that being in the presence of any monarch - but  maybe especially the Caeron - brings with it a certain sense of intimidation and power, exuded only and uniquely by kings. If nothing else, it is divine propaganda, bolstering the power of the Caeron above that of normal monarchs to a certain extent, something which can certainly be useful when it comes to matters of enforcing your will on the people."
+
  #A39 - Týrian League
  A39_ideas: "Týrian Ideas"
  A39_ideas_start: "Týrian Traditions"

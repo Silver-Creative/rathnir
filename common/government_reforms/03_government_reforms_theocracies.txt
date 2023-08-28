@@ -920,10 +920,6 @@ sisterhood_of_jeanne_darc_reform = {
 adventurer_reform = {
 	potential = {
 		has_reform = adventurer_reform	#aka you cant see it unless you're already one
-		OR = {
-			# has_country_modifier = legacy_of_adventurers_modifier
-			is_playing_custom_nation = yes
-		}
 	}
 	modifiers = {
 		manpower_recovery_speed = 0.33

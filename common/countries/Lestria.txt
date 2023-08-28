@@ -1,0 +1,201 @@
+ï»¿
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 2  72  90 } #{ 100  149  237 }
+
+historical_idea_groups = {
+	quantity_ideas
+	economic_ideas
+	diplomatic_ideas
+	influence_ideas
+	defensive_ideas
+	trade_ideas
+	aristocracy_ideas
+	spy_ideas		
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	#Historical Carnian Leaders
+	"Raeleas #0" = 3 
+	"Allantus #0" = 3
+	"Cremineus #0" = 3
+	"Lircinius #0" = 3
+
+    #Generic Reyllean Names (Male)
+    "Adenand #0" = 10
+    "Amator #0" = 10
+    "Balderic #0" = 10
+    "Berengard #0" = 10
+    "Calenfroy #0" = 10
+    "Hildebrand #0" = 10
+    "Hubert #0" = 10
+    "Lothaire #0" = 10
+    "Saltïr #0" = 10
+    "Sicfroy #0" = 10
+    "Sicmonde #0" = 10
+    "Thegan #0" = 10
+    "Theodon #0" = 10
+    "Valrios #0" = 10
+	"Gaspard #0" = 10
+	"Arsène #0" = 10
+
+	#Generic Reyllean Names (Female)
+    "Aude #0" = -1
+    "Authalia #0" = -1
+    "Emmecin #0" = -1
+    "Enna #0" = -1
+    "Flaueranna #0" = -1
+    "Foy #0" = -1
+    "Sansa #0" = -1
+    "Ramatilda #0" = -1
+	
+	#Carnian names (gender neutral)
+	"Raelas #0" = -1
+	"Locarios #0" = -1
+	"Síellen #0" = -1
+	"Caeliss #0" = -1
+	"Tallor #0" = -1
+	"Gællen #0" = -1
+	"Loevereus #0" = -1
+	"Morrn #0" = -1
+	"Daria #0" = -1
+	"Lircinius #0" = -1
+	"Issenés #0" = -1
+	"Sílcaios #0" = -1
+	"Allestias #0" = -1
+	"Arrotos #0" = -1
+	"Roteinios #0" = -1
+	"Reminius #0" = -1
+	"Cremineus #0" = -1
+	"Aeronos #0" = -1
+	"Alreneas #0" = -1
+	"Éstés #0" = -1
+	"Haeron #0" = -1
+	"Marios #0" = -1
+	"Jervicos #0" = -1
+	"Maellen #0" = -1
+	"Rhediés #0" = -1
+	"Lascinnius #0" = -1
+	"Niceros #0" = -1
+	"Auericos #0" = -1
+	"Travinius #0" = -1
+	"Lévés #0" = -1
+	"Angeuries #0" = -1
+	"Gæln #0" = -1
+	"Naevriés #0" = -1
+	"Cevrineos #0" = -1
+	"Sallás #0" = -1
+	"Naerellia #0" = -1
+	"Tacris #0" = -1	
+
+	"Raelas #0" = 10
+	"Locarios #0" = 10
+	"Síellen #0" = 10
+	"Caeliss #0" = 10
+	"Tallor #0" = 10
+	"Gællen #0" = 10
+	"Loevereus #0" = 10
+	"Morrn #0" = 10
+	"Daria #0" = 10
+	"Lircinius #0" = 10
+	"Issenés #0" = 10
+	"Sílcaios #0" = 10
+	"Allestias #0" = 10
+	"Arrotos #0" = 10
+	"Roteinios #0" = 10
+	"Reminius #0" = 10
+	"Cremineus #0" = 10
+	"Aeronos #0" = 10
+	"Alreneas #0" = 10
+	"Éstés #0" = 10
+	"Haeron #0" = 10
+	"Marios #0" = 10
+	"Jervicos #0" = 10
+	"Maellen #0" = 10
+	"Rhediés #0" = 10
+	"Lascinnius #0" = 10
+	"Niceros #0" = 10
+	"Auericos #0" = 10
+	"Travinius #0" = 10
+	"Lévés #0" = 10
+	"Angeuries #0" = 10
+	"Gæln #0" = 10
+	"Naevriés #0" = 10
+	"Cevrineos #0" = 10
+	"Sallás #0" = 10
+	"Naerellia #0" = 10
+	"Tacris #0" = 10		
+}
+
+leader_names = {
+	#Country Specific
+	"de Reyllea" "de Roscella" "de Meydan" "d'Ilivian" "d'Aubusson" "d'Aurillac"
+    "de Casulogne" "de Silfian"
+	
+	#Surnames
+	Ludgar Ermegardant Raemi Adalbert Vaefar "de Cyr" Audoen Theodon Isburc Baavant
+	
+	#Noble Families
+	"d'Ardenay"
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
+
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+}
+
+army_names = {
+	"ArmÃ¯e de Reyllea" "ArmÃ¯e de $PROVINCE$"
+}
+
+fleet_names = {
+	"Flotte de l'AstillÃ¯en" "Escadron VermillonÃ¯" "Escadron ViridienÃ¯" "Escadron d'Ã¯r" "Escadron AzurÃ¯"
+}

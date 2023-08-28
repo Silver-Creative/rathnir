@@ -1,0 +1,81 @@
+namespace = flavor_sironia
+
+#land negotiations
+country_event = {
+	id = flavor_sironia.1
+	title = flavor_sironia.1.t
+	desc = flavor_sironia.1.d
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+	is_triggered_only = yes
+trigger = {
+	tag = A10
+}
+option = { #"Send the negotiating party - what’s the worst that could happen?"
+	name = flavor_sironia.1.a
+	add_adm_power = -75
+	A22 = {country_event = {
+	id = flavor_carn.1
+	days = 20
+	random = 10	
+	}
+	A94 = {country_event = {
+	id = flavor_carn.1
+	days = 20
+	random = 10	
+		}	
+	}
+}
+}
+option = { #"There’s no point. We’ll simply take the city by other means."
+	name = flavor_sironia.1.b
+	add_prestige = -15
+		}
+}
+#negotiations continue
+country_event {
+	id = flavor_sironia.2
+	title = flavor_sironia.2.t
+	desc = flavor_sironia.2.d
+	picture = DECLARATION_INDEPENDENCE_eventPicture
+	is_triggered_only = yes
+trigger = {
+	tag = A10
+}
+option = { #"Give in to their demands. Ilivian is worth the price."
+	name = flavor_sironia.2.a
+	240 = { #ilivian
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+		}
+	239 = { #sirasthenak
+        cede_province = A10
+        add_core = A10
+        remove_core = A22
+		}
+	add_treasury = -100
+	add_prestige = 20
+	add_legitimacy = 20
+	A22 = {country_event = {
+	id = flavor_carn.2
+	days = 20
+	random = 10	
+	}
+	}
+	A94 = {country_event = {
+	id = flavor_carn.2
+	days = 20
+	random = 10	
+		}	
+	}
+}
+option = { #"Those dogs! They will pay for this!"
+	name = flavor_sironia.2.b
+	add_prestige = 15
+	add_country_modifier = {
+		name = make_them_pay
+		duration = 3650
+		desc = make_them_pay_desc
+			}
+		}
+}
