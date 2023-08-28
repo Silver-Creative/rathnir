@@ -1,0 +1,29 @@
+namespace = redCultSac
+#this is in on_bi_yearly_pulse_5.txt
+country_event = {
+    id = redCultSac.1
+    title = redCultSac.1.t
+    desc = redCultSac.1.d
+    picture = HUMAN_SACRIFICE_eventPicture
+    fire_only_once = no
+    trigger = {
+            Root = {
+                any_owned_province = {
+                    religion = red_cult
+                }
+            }
+    }
+    immediate = {
+        if = {
+            limit = {dominant_religion = red_cult}
+            add_church_power = 35
+            add_devastation = 1
+        }
+        add_church_power = 25
+        add_devastation = 2
+    }
+    option = {
+            name = redCultSac.1.a   
+            custom_tooltip = redCultSac.1.a.tt     
+    } 
+}
