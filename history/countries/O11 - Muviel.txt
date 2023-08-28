@@ -2,6 +2,7 @@ government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
 primary_culture = locetii
+add_accepted_culture = escharii
 religion = soleannen
 technology_group = tech_niedene
 capital = 579 #??
@@ -9,7 +10,7 @@ national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Zeno the Bard"
+		name = "Zimir Maestre"
 		birth_date = 1401.7.3
 		adm = 3
 		dip = 5

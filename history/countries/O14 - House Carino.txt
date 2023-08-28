@@ -1,20 +1,21 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = gentarii
+primary_culture = wyngalan
 religion = soleannen
 technology_group = tech_niedene
-capital = 549 #Wisren
+capital = 550 #Marletto
 national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Alecor the Rich"
+		name = "Léa Carino"
 		birth_date = 1401.7.3
 		adm = 4
 		dip = 3
 		mil = 2
-		culture = gentarii
+		culture = wyngalan
 		religion = soleannen
+		female = yes
 	}
 }

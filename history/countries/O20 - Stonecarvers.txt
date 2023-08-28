@@ -9,7 +9,7 @@ national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Igor the Fat"
+		name = "Lukari Stonecarver"
 		birth_date = 1401.7.3
 		adm = 2
 		dip = 3
