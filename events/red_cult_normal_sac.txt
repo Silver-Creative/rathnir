@@ -6,65 +6,46 @@ country_event = {
     desc = redCultSac.1.d
     picture = HUMAN_SACRIFICE_eventPicture
     trigger = {
-            Root = {
-                random_owned_province = {
-                    religion = red_cult
-                }
-            }
-    }
-    option = {
-            name = redCultSac.1.a   
-            custom_tooltip = redCultSac.1.a.tt
-            add_church_power = 35
-            root = {
-            random_owned_province = {
-                add_devastation = 2
-                }
-            }
-            trigger = {
-                dominant_religion = red_cult
-            }     
-    } 
-    option = {
-            name = redCultSac.1.b
-            custom_tooltip = redCultSac.1.a.tt
-            add_church_power = 25
-            root = {
-            random_owned_province = {
-                add_devastation = 2
-                }
-            }
-            trigger = {
-                NOT = { dominant_religion = red_cult }
-            }     
-    } 
-}
-namespace = redCultSac
-#this is in on_bi_yearly_pulse_5.txt
-country_event = {
-    id = redCultSac.1
-    title = redCultSac.1.t
-    desc = redCultSac.1.d
-    picture = HUMAN_SACRIFICE_eventPicture
-    fire_only_once = no
-    trigger = {
-            Root = {
+            ROOT = {
                 any_owned_province = {
                     religion = red_cult
                 }
             }
     }
     immediate = {
-        if = {
-            limit = {dominant_religion = red_cult}
-            add_church_power = 35
-            add_devastation = 1
+        hidden_effect = {
+            random_owned_province = {
+                limit = {
+                    religion = red_cult
+                }
+                save_event_target_as = redcultSac1
+            }
         }
-        add_church_power = 25
-        add_devastation = 2
     }
     option = {
             name = redCultSac.1.a   
-            custom_tooltip = redCultSac.1.a.tt     
+            custom_tooltip = redCultSac.1.a.tt
+            add_church_power = 35
+            ROOT = {
+            event_target:redcultSac1 = {
+                add_devastation = 1
+            }
+            trigger = {
+                dominant_religion = red_cult
+            }    
+        }    
     } 
+    option = {
+            name = redCultSac.1.b
+            custom_tooltip = redCultSac.1.a.tt
+            add_church_power = 25
+            ROOT = {
+            event_target:redcultSac1 = {
+                add_devastation = 2
+            }
+            trigger = {
+                NOT = { dominant_religion = red_cult }
+            }     
+        } 
+    }
 }
