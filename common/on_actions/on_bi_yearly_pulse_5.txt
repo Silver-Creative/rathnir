@@ -1,5 +1,5 @@
 on_bi_yearly_pulse_5 = {
-	random_events = {
+	random_events = { #this is for random religious events
 		#Orthodox Metropolitans
 		125 = patriarch_events.1
 		125 = patriarch_events.2
@@ -25,6 +25,10 @@ on_bi_yearly_pulse_5 = {
 		50 = china_events.11
 		25 = china_events.12
 		25 = china_events.24
+		
+		
+		#Red Cult Events and Sacrifices
+		5000 = redCultSac.1
 		2000 = 0
 	}
 }
