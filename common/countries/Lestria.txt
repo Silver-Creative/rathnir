@@ -1,4 +1,4 @@
-
+ï»¿
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
@@ -49,14 +49,14 @@ monarch_names = {
     "Hildebrand #0" = 10
     "Hubert #0" = 10
     "Lothaire #0" = 10
-    "Saltïr #0" = 10
+    "SaltÃ¯r #0" = 10
     "Sicfroy #0" = 10
     "Sicmonde #0" = 10
     "Thegan #0" = 10
     "Theodon #0" = 10
     "Valrios #0" = 10
 	"Gaspard #0" = 10
-	"Arsïne #0" = 10
+	"ArsÃ¯ne #0" = 10
 
 	#Generic Reyllean Names (Female)
     "Aude #0" = -1
@@ -70,68 +70,68 @@ monarch_names = {
 	
 	#Carnian names (gender neutral)
 	"Locarios #0" = 10
-	"Sïellen #0" = 10
+	"SÃ¯ellen #0" = 10
 	"Caeliss #0" = 10
 	"Tallor #0" = 10
 	"Goellen #0" = 10
 	"Loevereus #0" = 10
 	"Morrn #0" = 10
 	"Daria #0" = 10
-	"Issenïs #0" = 10
-	"Sïlcaios #0" = 10
+	"IssenÃ¯s #0" = 10
+	"SÃ¯lcaios #0" = 10
 	"Allestias #0" = 10
 	"Roteinios #0" = 10
 	"Creminius #0" = 10
 	"Aeronos #0" = 10
 	"Alveneas # 0" = 10
-	"ïestïs #0" = 10
+	"Ã¯estÃ¯s #0" = 10
 	"Haeron #0" = 10
 	"Jervicos #0" = 10
 	"Maellen #0" = 10
-	"Rhediï¿½s #0" = 10
+	"RhediÃ¯s #0" = 10
 	"Lascinnius #0" = 10
 	"Niceros #0" = 10
 	"Auericos #0" = 10
 	"Travinius #0" = 10
-	"Lïvïs #0" = 10
+	"LÃ¯vÃ¯s #0" = 10
 	"Angueries #0" = 10
 	"Goeln #0" = 10
-	"Noevriïs #0" = 10
+	"NoevriÃ¯s #0" = 10
 	"Cevrineos #0" = 10
-	"Sallïs #0" = 10
+	"SallÃ¯s #0" = 10
 	"Naerellia #0" = 10
 	"Tacris #0" = 10
 
 	"Locarios #0" = -1
-	"Sïellen #0" = -1
+	"SÃ¯ellen #0" = -1
 	"Caeliss #0" = -1
 	"Tallor #0" = -1
 	"Goellen #0" = -1
 	"Loevereus #0" = -1
 	"Morrn #0" = -1
 	"Daria #0" = -1
-	"Issenïs #0" = -1
-	"Sïlcaios #0" = -1
+	"IssenÃ¯s #0" = -1
+	"SÃ¯lcaios #0" = -1
 	"Allestias #0" = -1
 	"Roteinios #0" = -1
 	"Creminius #0" = -1
 	"Aeronos #0" = -1
 	"Alveneas #0" = -1
-	"ïestïs #0" = -1
+	"Ã¯estÃ¯s #0" = -1
 	"Haeron #0" = -1
 	"Jervicos #0" = -1
 	"Maellen #0" = -1
-	"Rhediïs #0" = -1
+	"RhediÃ¯s #0" = -1
 	"Lascinnius #0" = -1
 	"Niceros #0" = -1
 	"Auericos #0" = -1
 	"Travinius #0" = -1
-	"Lïvïs #0" = -1
+	"LÃ¯vÃ¯s #0" = -1
 	"Angueries #0" = -1
 	"Goeln #0" = -1
-	"Noevriïs #0" = -1
+	"NoevriÃ¯s #0" = -1
 	"Cevrineos #0" = -1
-	"Sallïs #0" = -1
+	"SallÃ¯s #0" = -1
 	"Naerellia #0" = -1
 	"Tacris #0" = -1		
 }
@@ -183,9 +183,9 @@ ship_names = {
 }
 
 army_names = {
-	"Armïe de Reyllea" "Armïe de $PROVINCE$"
+	"ArmÃ¯e de Reyllea" "ArmÃ¯e de $PROVINCE$"
 }
 
 fleet_names = {
-	"Flotte de l'Astillïen" "Escadron Vermillonï" "Escadron Viridienï" "Escadron d'ïr" "Escadron Azurï"
+	"Flotte de l'AstillÃ¯en" "Escadron VermillonÃ¯" "Escadron ViridienÃ¯" "Escadron d'Ã¯r" "Escadron AzurÃ¯"
 }

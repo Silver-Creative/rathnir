@@ -4,3 +4,22 @@ make_them_pay = {
 the_black_library = {
     local_production_efficiency = 0.15
 }
+grand_gathering_abolished = {
+    production_efficiency = 0.05
+}
+carnian_liberation_army = {
+    land_morale = 0.05
+}
+bolstered_independence_movement = {
+    land_morale =   0.10
+    discipline = 0.05
+}
+province_wayshrines = {
+    local_missionary_strength = 0.02
+}
+wayshrines = {
+    global_missionary_strength = 0.01
+}
+neutered = {
+    liberty_desire = -25
+}

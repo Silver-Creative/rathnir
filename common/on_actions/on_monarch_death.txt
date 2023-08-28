@@ -10,8 +10,12 @@ on_monarch_death = {
 		add_stability = 1
 	}
 	if = {
-		limit = { has_country_modifier = had_grand_gathering }
-		remove_country_modifier = had_grand_gathering
+		limit = { has_country_flag = had_grand_gathering }
+		clr_country_flag = had_grand_gathering
+	}
+	if = {
+		limit = { has_country_flag = hostile_takeover }
+		clr_country_flag = hostile_takeover
 	}
 events = {
 	flavor_carn.4

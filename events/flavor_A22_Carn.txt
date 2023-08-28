@@ -174,8 +174,9 @@ country_event = {
     is_triggered_only = yes
     trigger = {
 			NOT = { is_subject_of_type = personal_union }
-            NOT = { has_country_modifier = hostile_takeover }
-            NOT = {has_country_modifier = had_grand_gathering }
+            NOT = { has_country_flag = hostile_takeover }
+            NOT = { has_country_flag = had_grand_gathering }
+            NOT = {has_country_modifier = grand_gathering_abolished }
     		culture = carnian
         	OR = {
             NOT = { is_year = 1520 }
@@ -195,7 +196,7 @@ country_event = {
             religion = aegmerism
             claim = 95
         }
-        add_country_modifier = had_grand_gathering
+        add_country_flag = had_grand_gathering
 
     }
     option = {
@@ -210,7 +211,7 @@ country_event = {
             change_mil = -1
             claim = 40
         }
-        add_country_modifier = had_grand_gathering
+        add_country_flag = had_grand_gathering
     }
     }
 #the grand gathering (type II)
@@ -223,8 +224,9 @@ country_event = {
     fire_only_once = yes
 	trigger = {
 		NOT = { is_subject_of_type = personal_union }
-        NOT = { has_country_modifier = hostile_takeover }
-        NOT = {has_country_modifier = had_grand_gathering }
+        NOT = { has_country_flag = hostile_takeover }
+        NOT = {has_country_flag = had_grand_gathering }
+        NOT = { has_country_modifier = grand_gathering_abolished }
         culture = carnian
         AND = {
             is_year = 1520
@@ -242,7 +244,7 @@ country_event = {
             claim = 95
         }
         set_country_flag = contested_election
-        add_country_modifier = had_grand_gathering
+        set_country_flag = had_grand_gathering
 
     }
     option = {
@@ -258,7 +260,7 @@ country_event = {
             claim = 40
         }
         set_country_flag = contested_election
-        add_country_modifier = had_grand_gathering
+        set_country_flag = had_grand_gathering
     }
 
 }
@@ -282,7 +284,7 @@ country_event = {
         months = 36
     }
 
-    option = {
+    option = { #Grant his request
         name = flavor_carn.6.a
         define_advisor = {
             type = commandant
@@ -295,7 +297,7 @@ country_event = {
         }
         add_legitimacy = 15
     }
-    option = {
+    option = { #How dare he..? Guards, take him away!
         name = flavor_carn.6.b
         add_prestige = 10
         clr_country_flag = daria_elernel
@@ -347,18 +349,24 @@ country_event = {
     picture = NOBLE_ESTATE_DEMANDS_eventPicture
     fire_only_once = yes
 trigger = {
-    A22 = {
-        has_country_modifier = hostile_takeover
+    OR = {
+        tag = A22
+        tag = A94
     }
-    A94 = {
-        has_country_modifier = hostile_takeover
-    }
+    has_country_flag = contested_election
 }
-option = {
+mean_time_to_happen = {
+    months = 24
+}
+immediate = {
+    set_country_flag = hostile_takeover
+    }
+option = { #Try to argue with him; after all, the Caeron’s will is Aegmer’s will
     name = flavor_carn.8.a
+    random_list = {
     75 = { 
         add_stability = -2
-        ROOT = { define_ruler = {
+            define_ruler = {
             name = "Daria"
             dynasty = "Elernel"
             adm = 5
@@ -370,22 +378,23 @@ option = {
             male = yes
             culture = carnian
             religion = aegmerism
-        }
-        }
+            }
         clr_country_flag = contested_election
-        }
+        clr_country_flag = hostile_takeover
+        custom_tooltip = daria_takeover_2_tt
+    }
     15 = {
-    ROOT = { country_event = {
+        country_event = {
         id = flavor_carn.9
         days = 0
         random = 0
+                }
+            }
+        }
     }
-    }
-}
-}
-option = {
+option = { #Concede. He’s won. Better to give up and spare your own life.
     name = flavor_carn.8.b
-        ROOT = { define_ruler = {
+            define_ruler = {
             name = "Daria"
             dynasty = "Elernel"
             adm = 5
@@ -399,10 +408,12 @@ option = {
             religion = aegmerism
         }
         clr_country_flag = contested_election
+        clr_country_flag = hostile_takeover
+        custom_tooltip = daria_takeover_2_tt
         }
-}
-option = {
+option = { #Concede - on a condition. He needs to promise to preserve the grand gathering.
     name = flavor_carn.8.c
+    random_list = {   
     50 = { 
         add_stability = -2
         define_ruler = {
@@ -420,9 +431,11 @@ option = {
         }
         
         clr_country_flag = contested_election
-        }    
+        clr_country_flag = hostile_takeover
+        custom_tooltip = daria_takeover_2_tt
+        } 
     50 = {
-        ROOT = { define_ruler = {
+            define_ruler = {
             name = "Daria"
             dynasty = "Elernel"
             adm = 5
@@ -436,15 +449,474 @@ option = {
             religion = aegmerism
         }
         add_stability = -2
-        clr_county_flag = contested_election
-        }        
-    }
-    ROOT = { 50 = {  country_event = {
+        clr_country_flag = contested_election
+        clr_country_flag = hostile_takeover    
+        country_event = {
         id = flavor_carn.10
         days = 0
         random = 0
-    }
-    }
+                }
+            }
+        }
     }
 }
+
+
+#against all odds
+country_event = { 
+    id = flavor_carn.9
+    title = flavor_carn.9.t
+    desc = flavor_carn.9.d 
+    picture = TRADEGOODS_EventPicture
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = flavor_carn.9.a
+        add_prestige = 15
+        add_legitimacy = 20
+        custom_tooltip = daria_takeover_1_tt
+    }
+}
+#royal values
+country_event = {
+    id = flavor_carn.10
+    title = flavor_carn.10.t
+    desc = flavor_carn.10.d
+    picture = TRADEGOODS_EventPicture
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = flavor_carn.10.a
+        random_list = {
+        50 = {
+        custom_tooltip = daria_takeover_1_tt
+        }
+        50 = {
+        custom_tooltip = daria_takeover_2_tt
+        clr_country_flag = contested_election
+        remove_country_modifier = grand_gathering_abolished
+        add_country_modifier = {
+            name = grand_gathering_abolished
+            duration = -1
+                }
+            }
+        }       
+    }
+}
+#dreams of sheep
+country_event = {
+    id = flavor_carn.11
+    title = flavor_carn.11.t
+    desc = flavor_carn.11.d
+    picture = TRADEGOODS_EventPicture
+    is_triggered_only = yes
+    trigger = {
+        OR = {
+            tag = A22
+            tag = A94
+        }
+    }
+    option = {
+        name = flavor_carn.11.a
+        add_adm_power = -40
+    }
+    option = {
+        name = flavor_carn.11.b
+        add_legitimacy = 10
+        random_list = {
+            90 = { }
+            5 = { 
+                Root = { kill_ruler = yes
+            }
+            }
+            5 = { add_ruler_personality = infertile_personality
+            }
+        }
+    }
+}
+#the Carnian liberation army
+country_event = {
+    id = flavor_carn.12
+    title = flavor_carn.12.t
+    desc = flavor_carn.12.d
+    picture = TRADEGOODS_EventPicture
+    fire_only_once = yes
+    trigger = {
+        OR = {
+            tag = A22
+            tag = A94
+            Root = {
+                is_subject_of = A12 
+            }
+            NOT = { is_year = 1500 }
+        }
+    }
+    mean_time_to_happen = {
+        months = 96
+    }
+    option = {
+        name = flavor_carn.12.a
+        Root = {
+            add_liberty_desire = 25
+            add_country_modifier = {
+                name = carnian_liberation_army
+                duration = 10950 
+            }
+        }
+    }
+    option = {
+        name = flavor_carn.12.b
+        Root = {
+            add_liberty_desire = 100
+            add_stabiliy = -3
+            add_treasury = -100
+            add_country_modifier = {
+                name = bolstered_independence_movement
+                duration = 10950
+                    }
+                }
+            }
+    option = {
+        name = flavor_carn.12.c
+        add_prestige = -10
+    }
+}
+#wayshrines
+country_event = {
+    id = flavor_carn.13
+    title = flavor_carn.13.t 
+    desc = flavor_carn.13.d
+    picture = TRADEGOODS_EventPicture
+    trigger = {
+        OR = {
+            tag = A22
+            tag = A94
+        }
+        religion = aegmerism
+        year = 1520
+        advisor = inquisitor 
+        religious_unity = 0.6
+        NOT = { has_country_modifier = wayshrine }
+    }
+    mean_time_to_happen = {
+        months = 360
+    }
+    option = {
+        name = flavor_carn.13.a 
+        random_owned_province = {
+            limit = {
+                NOT = { religion = aegmerism }
+                        }
+                add_province_modifier = {
+                    name = province_wayshrines
+                    duration = -1
+                }
+            }
+            add_country_modifier = {
+                name = wayshrines 
+                duration = 1440
+                hidden = yes
+                }
+            add_estate_loyalty = {
+                estate = estate_church
+                loyalty = 10
+            }
+        }
+    option = {
+        name = flavor_carn.13.b
+        random_owned_province = {
+            limit = {
+                NOT = { religion = aegmerism }
+            }
+            add_building = temple
+
+        }
+            add_estate_loyalty = {
+                estate = estate_church
+                loyalty = 20
+            }
+    }
+    option = {
+        name = flavor_carn.13.c
+        add_prestige = -10
+    }
+    }
+    #family bonds
+    country_event = {
+        id = flavor_carn.14
+        title = flavor_carn.14.t
+        desc = flavor_carn.14.d
+        fire_only_once = yes
+        trigger = {
+            year = 1460
+            A12 = {
+                ai = yes
+            }
+            OR = {
+                tag = A22
+                tag = A94
+            }
+            reverse_has_opinion = {
+                who = A12
+                value = 100
+                NOT = { 
+                    OR = {
+                        has_country_modifier = carnian_liberation_army
+                        has_country_modifier = bolstered_independence_movement
+                    }
+            }
+            Root = {
+                dynasty = Elernel
+                is_subject_of = A12
+            }
+        }
+    }
+        mean_time_to_happen = {
+            months = 120
+        }
+        option = {
+            name = flavor_carn.14.a
+            add_prestige = 10
+            add_legitimacy = 10
+            add_dip_power = -60
+            add_country_flag = wedding_planned
+            custom_tooltip = wedding_planned 
+        }
+        option = {
+            name = flavor_carn.14.b
+            add_prestige = -10
+            A12 = {
+                add_opinion = {
+                    who = A22
+                    modifier = opinion_insulted
+                }
+            }
+        }
+    }
+    #swamp of royalty
+    country_event = {
+        id = flavor_carn.15 
+        title = flavor_carn.15.t
+        desc = flavor_carn.15.d
+        fire_only_once = yes
+        picture = TRADEGOODS_EventPicture
+        trigger = {
+            OR = {
+                tag = A22
+                tag = A94
+            }
+            has_country_flag = wedding_planned 
+            dynasty = Elernel
+            Root = {
+                is_subject_of = A12
+            }
+        }
+        mean_time_to_happen = {
+            months = 12
+        }
+        option = { #"Confront the Reyllean monarch."
+            name = flavor_carn.15.a
+            add_dip_power = -50
+            country_event = {
+                id = flavor_carn.16
+            }
+        }
+        option = { #"They deceived us! Send a letter - we're calling off the wedding."
+            name = flavor_carn.15.b
+            add_prestige = -20
+            add_legitimacy = -20
+            add_dip_power = -15
+        }
+    }
+    country_event = { #kneeling on spiked knees
+        id = flavor_carn.16
+        title = flavor_carn.16.t 
+        desc = flavor_carn.16.d
+        is_triggered_only = yes
+        picture = TRADEGOODS_EventPicture
+        option = { #"How can you claim to have any leverage when you can't even manage your own citizenry?"
+            name = flavor_carn.16.a
+            add_stability = -2
+            custom_tooltip = shame_overtakes
+            country_event = {
+                id = flavor_carn.17
+            }
+            trigger = {
+                NOT = { stability = 0 }
+            }
+        }
+        option = { #"A disease-riddled swamp-man has more prestige than you. Bow, Maybe you'll be shown mercy."
+            name = flavor_carn.16.b
+            add_prestige =  -40
+            custom_tooltip = shame_overtakes
+            country_event = {
+                id = flavor_carn.17
+            }
+            trigger = {
+                NOT = { prestige = 0 }
+            }
+        }
+        option = { #"Your dynasty is pure filth - Save what little honor you have left and scram, dog."
+            name = flavor_carn.16.c
+            add_legitimacy = -30
+            custom_tooltip = shame_overtakes
+            country_event = {
+                id = flavor_carn.17
+            }
+            trigger = {
+                NOT = { legitimacy = 50 }
+            }
+        }
+        option = { #"Preserve your dignity, and leave. It's the most you can do. You can't win this."
+            name = flavor_carn.16.e 
+            clr_country_flag = wedding_planned
+            custom_tooltip = dignity_preserved
+
+            trigger = {
+                stability = 0
+                prestige = 0
+                legitimacy = 0
+            }
+        }
+        option = { #"Tell me this - who is really in charge?"
+
+            name = flavor_carn.16.f
+            country_event = {
+                id = flavor_carn.18
+            }
+            trigger = {
+                stability = 3
+                prestige = 70
+                legitimacy = 90
+            }
+
+        }
+    }
+country_event = { #fate of the elernels
+    id = flavor_carn.17 
+    title = flavor_carn.17.t
+    desc = flavor_carn.17.d
+    is_triggered_only = yes
+    picture = TRADEGOODS_EventPicture
+    option = { #"History is cruel."
+        name = flavor_carn.17.a
+        custom_tooltip = fate_of_the_elernels
+        add_country_modifier = {
+            name = grand_gathering_abolished
+            duration = -1
+                }
+        define_ruler = {
+            dynasty = "De Reyllea"
+        }
+        add_country_modifier = {
+            name = neutered
+            duration = 9125
+        }
+        clr_country_flag = contested_election 
+        clr_country_flag = daria_elernel
+        trigger = {
+            has_country_flag = daria_elernel
+        }
+    }
+    option = { #"History is cruel."
+        name = flavor_carn.17.b
+        custom_tooltip = fate_of_the_elernels
+        add_country_modifier = {
+            name = grand_gathering_abolished
+            duration = -1
+                }
+        define_ruler = {
+            dynasty = "De Reyllea"
+        }
+        add_country_modifier = {
+            name = neutered
+            duration = 9125
+        }
+        clr_country_flag = contested_election 
+        add_country_flag = daria_elernel
+        trigger = {
+            NOT = { has_country_flag = daria_elernel }
+        }
+    }
+}
+country_event = { #the argument
+    id = flavor_carn.18
+    title = flavor_carn.18.t
+    desc = flavor_carn.18.d
+    is_triggered_only = yes 
+    option = { #"Take your spoils."
+        name = flavor_carn.18.a
+        add_prestige = 50
+        add_legitimacy = 50
+        add_country_flag = blue_wedding
+        add_country_modifier = {
+            name = blue_wedding_planned
+            duration = 365
+        }
+    }
+}
+country_event = { #the blue wedding
+    id = flavor_carn.19
+    title = flavor_carn.19.t
+    desc = flavor_carn.19.d
+    trigger = {
+        has_country_flag = blue_wedding
+        NOT = { has_country_flag = blue_wedding_planned }
+        is_month = 3
+        NOT = { is_month = 7 }
+        Root = {
+            is_subject_of = A12
+        }
+    }
+    mean_time_to_happen = {
+        months = 2
+    }
+    option = { #"To glory!"
+        name = flavor_carn.19.a
+        A12 = {
+            define_heir = {
+                dynasty = Elernel
+            }
+        }
+        add_legitimacy = 50
+        add_prestige = 50
+
+    }
+}
+country_event = { #disgraced royals
+    id = flavor_carn.20
+    title = flavor_carn.20.t
+    desc = flavor_carn.20.d
+    fire_only_once = yes
+    trigger = {
+        year = 1500
+        OR = {
+            tag = A22
+            tag = A94
+        }
+            dynasty = Elernel
+            is_subject = no
+            NOT = { truce_with = A12 }
+            A12 = {
+                dynasty = Elernel
+                is_subject = no
+                NOT = { truce_with = A12 }
+                ai = no
+            }
+        }
+    mean_time_to_happen = {
+        months = 120
+    }
+    option = { #"Accept his request."
+        name = flavor_carn.20.a
+        add_casus_belli = {
+            target = A12
+            type = cb_restore_personal_union
+            months = 120
+        }
+    }
+    option = { #"We're better off not getting involved. "
+        name = flavor_carn.20.b
+        add_legitimacy = 10
+    }
 }
