@@ -694,7 +694,7 @@ ertale_group = {
 	}
 }
 
-mireman_group = {
+miremen_group = {
 	graphical_culture = polynesiangfx
 
 	myyraa = {
