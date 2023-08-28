@@ -1,0 +1,43 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+primary_culture = aedyn
+add_accepted_culture = escharii_new
+religion = asitir
+technology_group = tech_niedene
+historical_friend = A00 #Audal
+historical_friend = A11 #Lapidosa
+capital = 464 #Lirgal
+national_focus = DIP
+
+1439.1.1 = {
+	monarch = {
+		name = "Maenis"
+		dynasty = "Aedyn"
+		birth_date = 1418.3.12
+		death_date = 1820.6.8
+		adm = 4
+		dip = 2
+		mil = 6
+		culture = aedyn
+		religion = asitir
+		female = no
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = expansionist_personality
+	
+	queen = {
+		country_of_origin = O29
+		name = "Er'la"
+		dynasty = "Elled"
+		culture = lapidosan
+		religion = asitir
+		birth_date = 1440.10.17
+		death_date = 1820.6.8
+		female = no
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	add_queen_personality = calm_personality
+}
