@@ -1,8 +1,9 @@
+Ôªø
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
 
-color = { 0  19  127 }
+color = { 2  72  90 } #{ 100  149  237 }
 
 historical_idea_groups = {
 	quantity_ideas
@@ -40,71 +41,81 @@ monarch_names = {
 	"Lircinius #0" = 3
 	
 	#Carnian names (gender neutral)
-	"Locarios #0" = 10
-	"S√Øellen #0" = 10
-	"Caeliss #0" = 10
-	"Tallor #0" = 10
-	"Goellen #0" = 10
-	"Loevereus #0" = 10
-	"Morrn #0" = 10
-	"Daria #0" = 10
-	"Issen√Øs #0" = 10
-	"S√Ølcaios #0" = 10
-	"Allestias #0" = 10
-	"Roteinios #0" = 10
-	"Creminius #0" = 10
-	"Aeronos #0" = 10
-	"Alveneas # 0" = 10
-	"√Øest√Øs #0" = 10
-	"Haeron #0" = 10
-	"Jervicos #0" = 10
-	"Maellen #0" = 10
-	"Rhedi√Ø¬ø¬Ωs #0" = 10
-	"Lascinnius #0" = 10
-	"Niceros #0" = 10
-	"Auericos #0" = 10
-	"Travinius #0" = 10
-	"L√Øv√Øs #0" = 10
-	"Angueries #0" = 10
-	"Goeln #0" = 10
-	"Noevri√Øs #0" = 10
-	"Cevrineos #0" = 10
-	"Sall√Øs #0" = 10
-	"Naerellia #0" = 10
-	"Tacris #0" = 10
-
+	"Raelas #0" = -1
 	"Locarios #0" = -1
-	"S√Øellen #0" = -1
+	"SÌellen #0" = -1
 	"Caeliss #0" = -1
 	"Tallor #0" = -1
-	"Goellen #0" = -1
+	"GÊllen #0" = -1
 	"Loevereus #0" = -1
 	"Morrn #0" = -1
 	"Daria #0" = -1
-	"Issen√Øs #0" = -1
-	"S√Ølcaios #0" = -1
+	"Lircinius #0" = -1
+	"IssenÈs #0" = -1
+	"SÌlcaios #0" = -1
 	"Allestias #0" = -1
+	"Arrotos #0" = -1
 	"Roteinios #0" = -1
-	"Creminius #0" = -1
+	"Reminius #0" = -1
+	"Cremineus #0" = -1
 	"Aeronos #0" = -1
-	"Alveneas #0" = -1
-	"√Øest√Øs #0" = -1
+	"Alreneas #0" = -1
+	"…stÈs #0" = -1
 	"Haeron #0" = -1
+	"Marios #0" = -1
 	"Jervicos #0" = -1
 	"Maellen #0" = -1
-	"Rhedi√Øs #0" = -1
+	"RhediÈs #0" = -1
 	"Lascinnius #0" = -1
 	"Niceros #0" = -1
 	"Auericos #0" = -1
 	"Travinius #0" = -1
-	"L√Øv√Øs #0" = -1
-	"Angueries #0" = -1
-	"Goeln #0" = -1
-	"Noevri√Øs #0" = -1
+	"LÈvÈs #0" = -1
+	"Angeuries #0" = -1
+	"GÊln #0" = -1
+	"NaevriÈs #0" = -1
 	"Cevrineos #0" = -1
-	"Sall√Øs #0" = -1
+	"Sall·s #0" = -1
 	"Naerellia #0" = -1
-	"Tacris #0" = -1		
+	"Tacris #0" = -1	
+
+	"Raelas #0" = 10
+	"Locarios #0" = 10
+	"SÌellen #0" = 10
+	"Caeliss #0" = 10
+	"Tallor #0" = 10
+	"GÊllen #0" = 10
+	"Loevereus #0" = 10
+	"Morrn #0" = 10
+	"Daria #0" = 10
+	"Lircinius #0" = 10
+	"IssenÈs #0" = 10
+	"SÌlcaios #0" = 10
+	"Allestias #0" = 10
+	"Arrotos #0" = 10
+	"Roteinios #0" = 10
+	"Reminius #0" = 10
+	"Cremineus #0" = 10
+	"Aeronos #0" = 10
+	"Alreneas #0" = 10
+	"…stÈs #0" = 10
+	"Haeron #0" = 10
+	"Marios #0" = 10
+	"Jervicos #0" = 10
+	"Maellen #0" = 10
+	"RhediÈs #0" = 10
+	"Lascinnius #0" = 10
+	"Niceros #0" = 10
+	"Auericos #0" = 10
+	"Travinius #0" = 10
+	"LÈvÈs #0" = 10
+	"Angeuries #0" = 10
+	"GÊln #0" = 10
+	"NaevriÈs #0" = 10
+	"Cevrineos #0" = 10
+	"Sall·s #0" = 10
+	"Naerellia #0" = 10
+	"Tacris #0" = 10		
 }
 
 leader_names = {
@@ -159,3 +170,4 @@ army_names = {
 
 fleet_names = {
 	"Flotte de l'Astill√Øen" "Escadron Vermillon√Ø" "Escadron Viridien√Ø" "Escadron d'√Ør" "Escadron Azur√Ø"
+}
