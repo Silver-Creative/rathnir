@@ -193,9 +193,9 @@ ship_names = {
 }
 
 army_names = {
-	"ArmÃ¯e de Reyllea" "ArmÃ¯e de $PROVINCE$"
+	"Armée de Reyllea" "Armée de $PROVINCE$"
 }
 
 fleet_names = {
-	"Flotte de l'AstillÃ¯en" "Escadron VermillonÃ¯" "Escadron ViridienÃ¯" "Escadron d'Ã¯r" "Escadron AzurÃ¯"
+	"Flotte de l'Astilléen" "Escadron Vermilloné" "Escadron Viridiené" "Escadron d'Ór" "Escadron Azuré"
 }

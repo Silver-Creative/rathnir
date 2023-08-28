@@ -186,6 +186,16 @@ country_event = {
             }
         }
     }
+    immediate = {
+        limit = {
+            ai = yes
+        }
+        add_country_modifier = {
+            name = grand_gathering_abolished
+            duration = 10
+            hidden = yes 
+        }
+    }
     option = {
         name = flavor_carn.4.a
         ai_chance = { factor = 100 }
@@ -231,6 +241,16 @@ country_event = {
         AND = {
             is_year = 1520
             has_country_flag = daria_elernel
+        }
+    }
+    immediate = {
+        limit = {
+            ai = yes
+        }
+        add_country_modifier = {
+            name = grand_gathering_abolished
+            duration = 10
+            hidden = yes 
         }
     }
     option = {

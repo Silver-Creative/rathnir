@@ -14,7 +14,9 @@ on_new_monarch = {
 		#9492								#Remove some event modifiers
 		#celestial_empire_events.3			#Resistance to Sinicization
 		#muslim_school_events.20			#No Religious School
+		flavor_carn.4
 	}
+
 	random_events = {
 		1000 = 0
 		#50 = dynastic_events.4

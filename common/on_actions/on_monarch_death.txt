@@ -18,8 +18,7 @@ on_monarch_death = {
 		clr_country_flag = hostile_takeover
 	}
 events = {
-	flavor_carn.4
-	flavor_carn.5
+
 }
     #events = {
     #    government_events.3	#Election of a new Ruler

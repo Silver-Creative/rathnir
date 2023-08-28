@@ -1110,3 +1110,20 @@ the_social_contract_reform = {
 		factor = 1
 	}
 }
+carnian_caeronate_reform = {
+	icon = "crown"
+
+	allow_normal_conversion = yes
+	monarchy = yes 
+	heir = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		unjustified_demands = -0.1
+		harsh_treatment_cost = -0.1
+		global_rebel_suppression_efficiency = 0.1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
