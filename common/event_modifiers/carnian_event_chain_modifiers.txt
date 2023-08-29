@@ -23,3 +23,5 @@ wayshrines = {
 neutered = {
     liberty_desire = -25
 }
+all_the_small_things = {}
+blue_wedding_planned = {}

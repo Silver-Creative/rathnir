@@ -12,4 +12,6 @@
  province_wayshrines: "Wayshrines"
  province_wayshrines_desc: "Shrines to Aegmer have been built along the roads, bolstering support for missionaries."
  wayshrines: "Wayshrines"
+ had_bandits: "Had bandits"
+ had_recent_bandits: "Had recent bandits"
  

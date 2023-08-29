@@ -576,6 +576,15 @@ country_event = {
     }
     option = {
         name = flavor_carn.12.a
+        ai_chance = {
+            factor = 100
+            modifier = {
+                factor = 0
+                A12 = {
+                    ai = yes
+                }
+            }
+        }
         Root = {
             add_liberty_desire = 25
             add_country_modifier = {
@@ -586,6 +595,15 @@ country_event = {
     }
     option = {
         name = flavor_carn.12.b
+        ai_chance = {
+            factor = 0
+            modifier = {
+                factor = 100
+                A12 = {
+                    ai = yes
+                }
+            }
+        }
         Root = {
             add_liberty_desire = 100
             add_stabiliy = -3
@@ -598,6 +616,9 @@ country_event = {
             }
     option = {
         name = flavor_carn.12.c
+        ai_chance = {
+            factor = 0
+        }
         add_prestige = -10
     }
 }
