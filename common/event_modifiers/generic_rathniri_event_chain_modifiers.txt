@@ -1,0 +1,2 @@
+had_bandits = {}
+had_recent_bandits = {}

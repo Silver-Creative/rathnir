@@ -62,6 +62,8 @@ on_bi_yearly_pulse_4 = {
 		100 = 5063
 		100 = 6014
 
+		100 = flavor_gr.1 #bandits
+
 		# Innovativeness
 		100 = innovativeness_events.1
 		100 = innovativeness_events.2
