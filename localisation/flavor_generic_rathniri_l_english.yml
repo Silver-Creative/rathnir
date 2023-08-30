@@ -1,0 +1,18 @@
+﻿l_english:
+#tooltips
+ bandits_dealt_with_tt: "If we deal with the bandits swiftly and effectively, it's likely we won't see them for a long time forwards."
+ marauding_bandits_tt: "If we don't deal with the bandit problem swiftly, they may get bold and attack again soon."
+
+#bandits!
+ flavor_gr.1.t: "BANDITS!"
+ flavor_gr.1.d: "Reports of bandit attacks near the city of [targeted_province.GetName] are shaking up the populace in [Root.Capital.GetName] - according to rumors, the bandits may have crossed over from [neighbor_country.GetName] to savagely attack our cities before retreating back to safety. We need to do something about this before panic starts to take hold in the country."
+ flavor_gr.1.a: "They came from [neighbor_country.GetName], clearly this is all their fault. Demand compensation for the attacks."
+ flavor_gr.1.b: "We need to deal with it ourselves."
+ flavor_gr.1.c: "It's really not a big deal."
+
+#bandits?
+ flavor_gr.2.t: "Bandits?"
+ flavor_gr.2.d: "The bastards in [origin_country.GetName] are apparently claiming - in all their insolence - that we sent bandits over the border to their petty little country, to raid them and cause devastation in their lands or some such. How dare! Such a grave insult can simply not go unpunished; we need to respond as soon as possible and make our stance on the matter abundantly clear."
+ flavor_gr.2.a: "We didn't do anything - they will pay for insulting us!"
+ flavor_gr.2.b: "Let's be diplomatic about this - they're clearly suffering, we need to help them recover."
+ flavor_gr.2.c: "It's their fault - they deserve it."
