@@ -597,10 +597,5 @@ support_independence_action = {
     condition = {
         tooltip = outside_vastallos
         potential = { }
-        allow = {
-                capital_scope = {
-                    superregion = vastallos_superregion
-				}
-        }
     }
 }
