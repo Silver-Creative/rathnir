@@ -1,10 +1,10 @@
 government = republic
-add_government_reform = oligarchy_reform
+add_government_reform = presidential_despot_reform
 government_rank = 1
 primary_culture = carvayan
-religion = sanderosa
+religion = theiosism
 technology_group = tech_vastallosi
-capital = 332 #Porte Ravenus
+capital = 333 #Porte Ravenus
 national_focus = ADM
 
 1444.1.1 = {
