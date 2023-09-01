@@ -5,66 +5,38 @@ country_event = {
     title = redCultSac.1.t
     desc = redCultSac.1.d
     picture = HUMAN_SACRIFICE_eventPicture
-    trigger = {
-            Root = {
-                random_owned_province = {
+    trigger = { any_owned_province = { religion = red_cult } } #Checking that the country has at least 1 red cult province
+
+    immediate = {
+        hidden_effect = { |#Hidden effects prevent the player from knowing about this and seeing the works
+            random_owned_province = { #Picks a random province
+                limit = { #Limits the random-picking to red cult provinces
                     religion = red_cult
                 }
+                save_event_target_as = redcultSac1 #creates an event target so that it may be referred to after
             }
+        }
     }
     option = {
             name = redCultSac.1.a   
             custom_tooltip = redCultSac.1.a.tt
             add_church_power = 35
-            root = {
-            random_owned_province = {
-                add_devastation = 2
-                }
+            event_target:redcultSac1 = { #Calls the event target defined earlier
+                add_devastation = 1
             }
-            trigger = {
+            trigger = { #makes the option available only to countries that have red cult as a dominant religion
                 dominant_religion = red_cult
-            }     
+            }    
     } 
     option = {
             name = redCultSac.1.b
             custom_tooltip = redCultSac.1.a.tt
             add_church_power = 25
-            root = {
-            random_owned_province = {
+            event_target:redcultSac1 = { #Calls the event target defined earlier
                 add_devastation = 2
-                }
-            }
-            trigger = {
+            trigger = { #makes the option available only to countries that do not have red cult as a dominant religion
                 NOT = { dominant_religion = red_cult }
             }     
-    } 
-}
-namespace = redCultSac
-#this is in on_bi_yearly_pulse_5.txt
-country_event = {
-    id = redCultSac.1
-    title = redCultSac.1.t
-    desc = redCultSac.1.d
-    picture = HUMAN_SACRIFICE_eventPicture
-    fire_only_once = no
-    trigger = {
-            Root = {
-                any_owned_province = {
-                    religion = red_cult
-                }
-            }
+        } 
     }
-    immediate = {
-        if = {
-            limit = {dominant_religion = red_cult}
-            add_church_power = 35
-            add_devastation = 1
-        }
-        add_church_power = 25
-        add_devastation = 2
-    }
-    option = {
-            name = redCultSac.1.a   
-            custom_tooltip = redCultSac.1.a.tt     
-    } 
 }

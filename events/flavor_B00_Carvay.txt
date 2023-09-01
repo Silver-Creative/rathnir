@@ -1,0 +1,37 @@
+namespace = carvay_flavor
+country_event = {
+    id = carvay_flavor.1
+    title = carvay_flavor.1.t
+    desc = carvay_flavor.1.d
+    picture = WAR_OF_THE_ROSES_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = B00
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+    immediate = {
+        hidden_effect = {
+        B00 = {
+         ravenus_area = {
+            add_core = ROOT
+            }
+        }
+    }
+ }
+    option = {
+        name = carvay_flavor.1.a
+        custom_tooltip = carvay_flavor.1.a.tt
+        B00 = {
+            declare_war_with_cb = {
+                who = B01
+                casus_belli = cb_annex
+            }
+        }
+    }
+    option = {
+        name = carvay_flavor.1.b
+        custom_tooltip = carvay_flavor.1.b.tt
+    }
+}
