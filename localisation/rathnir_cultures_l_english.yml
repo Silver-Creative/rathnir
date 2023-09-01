@@ -46,6 +46,11 @@
   thadii: "Thadii"
   reikarii: "Reikarii"
   gentarii: "Gentarii"
+  tymarati: "Tymarati"
+  escanian: "Escanian"
+  saravii: "Saravii"
+  ainlurii: "Ainlûrii"
+  zelarii: "Zelarii"
  asterii_group: "Asterii" #Asterii (East Niedene) Group
   escharii: "Escharii"
   solerii: "Solerii"
@@ -55,6 +60,10 @@
   kietrii: "Kietrii"
   wyngalan: "Wyngalan"
   neurunic: "Neurûnic"
+  floramii: "Floramii"
+  kornapii: "Kornapii"
+  amentii: "Amentii"
+  krobunii: "Krobunii"
  suthrii_group: "Suthrii" #Suthrii (South Niedene) Group
   lausarii: "Lausarii"
   anesarii: "Anesarii"
@@ -95,6 +104,7 @@
  seraan_group: "Seraan" #Seraan Group
   olaran: "Olarãn"
   lirgalyn: "Lirgalyn"
+  aedyn: "Aedyn"
  ertale_group: "Ertale" #Ertale Group
   vraelean: "Vraelean"
   woltanje: "Woltanje"
@@ -114,7 +124,8 @@
   olthiac: "Olthiac"
  ardatian_group: "Ardatian" #Ardatian Group
   ardatian: "Ardatian"
- anoshphite_group: "Anòshphite" #Anòshphite Group
+ natalian_group: "Natalian" #Natalian Group
   idan-ridu: "Idan-Ridu"
   caedan: "Caedan"
+  masetzuan: "Masetzu'an"
   

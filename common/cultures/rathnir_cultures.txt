@@ -385,6 +385,21 @@ varmerii_group = {
 	gentarii = {
 
 	}
+	tymarati = {
+
+	}
+	escanian = {
+
+	}
+	saravii = {
+
+	}
+	ainlurii = {
+
+	}
+	zelarii = {
+		
+	}
 
 	dynasty_names = {
 		
@@ -422,6 +437,18 @@ asterii_group = {
 
 	}
 	neurunic = {
+
+	}
+	floramii = {
+
+	}
+	kornapii = {
+
+	}
+	amentii = {
+
+	}
+	krobunii = {
 
 	}
 
@@ -809,7 +836,7 @@ ardatian_group = {
 	}
 }
 
-anoshphite_group = {
+natalian_group = {
 	graphical_culture = turkishgfx
 
 	idan-ridu = {
@@ -836,6 +863,9 @@ anoshphite_group = {
 		}
 	}
 	caedan = {
+
+	}
+	masetzuan = {
 
 	}
 
