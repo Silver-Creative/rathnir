@@ -128,7 +128,7 @@ O20 = "countries/Stonecarvers.txt"
 O21 = "countries/Korna Swords.txt"
 O22 = "countries/Matron's Blades.txt"
 O23 = "countries/Bolvekr Coterie.txt"
-O29 = "countries/Aedyn Clan.txt"
+O25 = "countries/Aedyn Clan.txt"
 
 #Sparwood - Lxx/Mxx (No tag limit restriction)
 #L00 = "countries/Vraelea.txt"

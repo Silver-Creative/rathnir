@@ -231,15 +231,15 @@
  O19: "Wandering Bear"
  O19_ADJ: "High Ryzani Adventurer"
  O20: "Stonecarvers"
- O20_ADJ: "Low Ryzani Adventurer"
+ O20_ADJ: "Stonecarver"
  O21: "Korna Swords"
- O21_ADJ: "Vologdan Adventurer"
+ O21_ADJ: "Kornappi Adventurer"
  O22: "Matron's Blades"
  O22_ADJ: "Lhûren Adventurer"
  O23: "Bolvekr Coterie"
  O23_ADJ: "Vraelean Adventurer"
- O29: "Aedyn Clan"
- O29_ADJ: "Aedyni"
+ O25: "Aedyn Clan"
+ O25_ADJ: "Aedyni"
 
 #Plagos
 

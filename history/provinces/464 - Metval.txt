@@ -1,8 +1,8 @@
 # 464 - Metval
 
-owner = O29
-controller = O29
-add_core = O29
+owner = O25
+controller = O25
+add_core = O25
 
 culture = aedyn
 religion = asitir
