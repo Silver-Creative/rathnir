@@ -1,7 +1,10 @@
 # 503 - Modguzul
+owner = O25
+controller = O25
+add_core = O25
 
-culture = gentarii
-religion = soleannen
+culture = aedyn
+religion = asitir
 capital = ""
 
 hre = no
