@@ -35,6 +35,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1344;368;sea;1328;-1;-1;-1;-1;cantavega-zounkla
 380;381;sea;925;-1;-1;-1;-1;sioc-vartica
 380;1353;sea;925;-1;-1;-1;-1;sioc-arcadiana
+366;1346;sea;942;-1;-1;-1;-1;waahi-selinyceum
+366;1347;sea;942;-1;-1;-1;-1;waahi-mait
 1028;1123;land;1297;-1;-1;-1;-1;bernsea-syndlor
 1123;1124;land;1297;-1;-1;-1;-1;syndlor-vechtor
 1124;1127;land;1297;-1;-1;-1;-1;vechtor-HelmianLakes7359
