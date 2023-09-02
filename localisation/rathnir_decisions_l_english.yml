@@ -1,4 +1,5 @@
 ﻿l_english:
+ ### NATION FORMATION
  essukdalad_nation_title: "Proclaim Theios-Essukdal"
  essukdalad_nation_desc: "The peoples of Essukdal are lost. Ever since the humilliating defeat of Yimmu-Audal at the hands of the Escharians and the subsequent miserable years of occupation, Essukdal has lacked unity, stability and, above all, purpose. Drowning in their hubris, many have tried, citing the need to band around false gods or common heritage. And then, they all failed. It appears that only we know the unabolishable truth: that these lands shall only know guidance under the light of Theios and that, by our value, we have claimed the mantle of its herald."
 
@@ -20,8 +21,21 @@
  audalad_nation_title: "Restore Imperial Grace"
  audalad_nation_desc: "It has been a harsh century for the Audalad people. No sooner were we at our zenith, our banners flying proudly above such faraway lands as Ardat and Soumere did the Escharians see our empress' corruption as an opportunity and invade, seizing our sovereignty and plunging us into decades worth of misery and unrest. Yet, despite all of that, we have prevailed. The shores of the Geshem Bay now lie green and lush with life, as do those of the Gray Bay; the Western Territories have been returned to the fold and the unruly Anòshphites have been firmly educated of the benefits of our rule. We have, beyond doubt, outgrown our dark ages, and it is time we look the part: raise the gold and cyan, boys! Yimmu-Audal has returned!"
 
- ilivian_negotiations_title: "Request negotiations on Ilivian"
- ilivian_negotiations_desc: "The Carnian state, newly freed, has conquered our former town of Ilivian. Maybe they could be convinced to give it back."
-
  carnian_nation_title: "Proclaim the Caeronate of Carn"
  carnian_nation_desc: "placeholder"
+
+ myyraa_nation_title: "Rein in the Mýyraa"
+ myyraa_nation_desc: "For millenia, petty clans and warrior houses have dominated mýyraa society. There are no states beyond those shallow husks erected by the squabbling warlords, and even those are built not to last against onslaughts from outsiders who would see us all mounted on pikes, but to endlessly jockey against one another. For this, we have undoubtedly suffered. Throughout the ages, outsiders - be they Sagaviri, Reyllean or some other damned breed - have ruthlessly exploited our disunity, pummeling us at every turn and reducing our once flourishing civilization to the wreck that remains. This cannot continue."
+
+ tyyraa_nation_title: "Rein in the Týyraa"
+ tyyraa_nation_desc: "For millenia, petty clans and warrior houses have dominated týyraa society. There are no states beyond those shallow husks erected by the squabbling warlords, and even those are built not to last against onslaughts from outsiders who would see us all mounted on pikes, but to endlessly jockey against one another. For this, we have undoubtedly suffered. Throughout the ages, outsiders - be they Sagaviri, Reyllean or some other damned breed - have ruthlessly exploited our disunity, pummeling us at every turn and reducing our once flourishing civilization to the wreck that remains. This cannot continue."
+
+ miremen_nation_title: "Unite the Miremen"
+ miremen_nation_desc: "It is done. For millenia, our peoples have remained separate and dreadfully disunified-- first, by whether to take refuge in the murky swamps of Mhýr or in the ethereal arms of the feyking of Thýr; then, by remaining under the unworthy grip of the petty warlords that poisoned our civilization. No more. If we are to stand against the hounds beyond, we will do so together; as one."
+
+ lausarian_nation_title: "Form the Lausarian Nation"
+ lausarian_nation_desc: "<mistic>"
+
+ ### OTHER
+ ilivian_negotiations_title: "Request negotiations on Ilivian"
+ ilivian_negotiations_desc: "The Carnian state, newly freed, has conquered our former town of Ilivian. Maybe they could be convinced to give it back."
