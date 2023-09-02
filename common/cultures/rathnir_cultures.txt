@@ -879,5 +879,71 @@ natalian_group = {
 
 	}
 }
+
+aurlunoren_group = {
+	graphical_culture = chinesegfx
+
+	lhuren = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
+}
+
+northern_group = {
+	graphical_culture = westerngfx
+
+	noxnorric = {
+
+	}
+	najer = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
+}
+
+valdreachan_group = {
+	graphical_culture = easterngfx
+
+	tvearan = {
+
+	}
+	aezenfjorder = {
+
+	}
+	kumauren = {
+
+	}
+	kemon = {
+		
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
+}
 	
 
