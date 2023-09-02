@@ -40,5 +40,13 @@ spriteTypes = {
 		name = "GFX_great_project_khuzhold"
 		texturefile = "gfx//interface//great_projects//great_project_khuzhold.dds"
 	}
+	SpriteType = {
+		name = "GFX_great_project_flammastahl"
+		texturefile = "gfx//interface//great_projects//great_project_flammastahl.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_project_ascension_site"
+		texturefile = "gfx//interface//great_projects//great_project_ascension_site.dds"
+	}
 
 }
