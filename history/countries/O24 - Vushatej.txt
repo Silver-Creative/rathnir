@@ -1,20 +1,20 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = tvearan
-religion = abyss_mysticism
+primary_culture = najer
+religion = noxism
 technology_group = tech_niedene
-capital = 611 #??
+capital = 461 #Zatride
 national_focus = MIL
 
 1444.1.1 = {
 	monarch = {
-		name = "Devalier Bolvekr"
+		name = "guy"
 		birth_date = 1401.7.3
 		adm = 2
 		dip = 3
 		mil = 4
-		culture = vraelean
-		religion = abyss_mysticism
+		culture = noxism
+		religion = noxism
 	}
 }

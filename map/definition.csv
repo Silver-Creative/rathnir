@@ -486,13 +486,13 @@ province;red;green;blue;x;x
 485;127;0;191;Beþenk-dum;x
 486;93;0;140;Tarnok;x
 487;102;0;153;Noìchái;x
-488;110;0;165;Nieden488?;x
-489;145;61;153;Nieden489?;x
+488;110;0;165;Khuzelbrost;x
+489;145;61;153;Fraldinbad;x
 490;155;66;165;Dhaz-Þumdr;x
-491;133;56;140;Nieden491?;x
+491;133;56;140;Darnok-Korn;x
 492;167;71;178;Ashmore;x
-493;178;35;45;Nieden493?;x
-494;165;33;41;Nieden494?;x
+493;178;35;45;Birþel-vhal;x
+494;165;33;41;Óindimr;x
 495;153;30;38;Yanardulim;x
 496;140;28;35;Nis-Arkhall;x
 497;127;25;32;Yavozukr;x
@@ -528,25 +528,25 @@ province;red;green;blue;x;x
 527;153;63;18;Sorunval;x
 528;114;45;13;Niritalfel;x
 529;140;57;16;Kalefal;x
-530;127;52;15;Monstadt;x
-531;59;123;165;Nieden531?;x
-532;73;151;204;Nieden532?;x
-533;68;142;191;Nieden533?;x
-534;64;132;178;Nieden534?;x
-535;55;113;153;Nieden535?;x
-536;82;178;26;Nieden536?;x
-537;76;167;24;Nieden537?;x
-538;88;191;28;Dorostadt;x
-539;203;216;99;Nieden539?;x
-540;191;204;93;Nieden540?;x
-541;179;191;87;Nieden541?;x
-542;168;180;82;Nieden542?;x
-543;106;166;175;North Arventor;x
-544;116;182;191;South Arventor;x
-545;139;219;229;Nieden545?;x
-546;147;231;242;Nieden546?;x
-547;124;194;204;Nieden547?;x
-548;132;206;216;Nieden548?;x
+530;127;52;15;Luvaeanna;x
+531;59;123;165;Ardekech;x
+532;73;151;204;Otorme;x
+533;68;142;191;Warifreit;x
+534;64;132;178;Lynn;x
+535;55;113;153;Aklerei;x
+536;82;178;26;Dorosazenta;x
+537;76;167;24;Serruda;x
+538;88;191;28;Virna;x
+539;203;216;99;Sylas;x
+540;191;204;93;Stiresei;x
+541;179;191;87;Visarei;x
+542;168;180;82;Miedarq;x
+543;106;166;175;Arventor;x
+544;116;182;191;Lauralor;x
+545;139;219;229;Iskai;x
+546;147;231;242;Virnele;x
+547;124;194;204;Kaidera;x
+548;132;206;216;Ekeren;x
 549;22;153;144;Wisren;x
 550;21;140;132;Marletto;x
 551;19;127;120;Soltrebog;x
@@ -555,99 +555,99 @@ province;red;green;blue;x;x
 554;15;102;62;Kierke;x
 555;19;127;78;Chesval;x
 556;17;114;70;Wyngale;x
-557;204;135;38;Nieden557?;x
-558;178;118;33;Nieden558?;x
-559;191;126;36;Nieden559?;x
-560;165;109;31;Nieden560?;x
-561;105;37;114;Nieden561?;x
-562;152;54;165;Nieden562?;x
-563;117;42;127;Nieden563?;x
-564;141;50;153;Nieden564?;x
-565;129;46;140;Nieden565?;x
-566;41;123;178;Nieden566?;x
-567;38;114;165;Nieden567?;x
-568;43;132;191;Nieden568?;x
-569;46;141;204;Nieden569?;x
-570;55;167;242;Nieden570?;x
-571;58;176;255;Nieden571?;x
-572;52;158;229;Nieden572?;x
-573;49;149;216;Nieden573?;x
+557;204;135;38;Antrenn;x
+558;178;118;33;Weirit;x
+559;191;126;36;Arcrei;x
+560;165;109;31;Kleizem;x
+561;105;37;114;Arikosan;x
+562;152;54;165;High Arelyre;x
+563;117;42;127;Domasarl;x
+564;141;50;153;Kalsyl;x
+565;129;46;140;Rhokan;x
+566;41;123;178;Insuried;x
+567;38;114;165;Onaqyl;x
+568;43;132;191;Naijuin;x
+569;46;141;204;Falsenn;x
+570;55;167;242;Zatrkrai;x
+571;58;176;255;Normareik;x
+572;52;158;229;Maestrenn;x
+573;49;149;216;Lieriede;x
 574;117;178;57;Locet;x
-575;109;165;53;Nieden575?;x
-576;84;127;40;Nieden576?;x
-577;74;114;36;Gimmsdorf;x
-578;92;140;44;Nieden578?;x
-579;100;153;48;Nieden579?;x
-580;99;137;178;Nieden580?;x
-581;107;147;191;Nieden581?;x
-582;92;128;165;Nieden582?;x
-583;85;118;153;Nieden583?;x
-584;161;165;41;Nieden584?;x
-585;149;153;38;Nieden585?;x
+575;109;165;53;Zemkarst;x
+576;84;127;40;Passaviam;x
+577;74;114;36;Gimmaen;x
+578;92;140;44;Sriveris;x
+579;100;153;48;Tesaq;x
+580;99;137;178;Ferlesei;x
+581;107;147;191;Qrylren;x
+582;92;128;165;Qradlei;x
+583;85;118;153;Osarma;x
+584;161;165;41;Natsor;x
+585;149;153;38;Vastlai;x
 586;174;178;44;Neurûn;x
-587;198;204;51;Nieden587?;x
-588;186;191;47;Nieden588?;x
-589;211;216;54;Vorpesdorf;x
-590;128;86;145;Nieden590?;x
-591;134;91;153;Nieden591?;x
-592;145;99;165;Nieden592?;x
-593;157;107;178;Nieden593?;x
+587;198;204;51;Soralai Woods;x
+588;186;191;47;Flamiqaz;x
+589;211;216;54;Vorpesaen;x
+590;128;86;145;Sorunoft;x
+591;134;91;153;Iraesto;x
+592;145;99;165;High Soralai;x
+593;157;107;178;Akinne;x
 594;168;114;191;Drakhasrei;x
-595;165;91;71;Nieden595?;x
-596;153;84;65;Nieden596?;x
-597;140;78;60;Nieden597?;x
-598;127;71;54;Nieden598?;x
-599;38;33;33;Nieden599?;x
-600;25;22;22;Nieden600?;x
+595;165;91;71;Torsafer;x
+596;153;84;65;Aulai Plains;x
+597;140;78;60;Siaflum;x
+598;127;71;54;Anrage;x
+599;38;33;33;Aldiste;x
+600;25;22;22;Auberei;x
 601;51;44;44;Lileanen;x
-602;63;56;56;Nieden602?;x
-603;127;111;29;West Tessel;x
-604;140;122;32;Nieden604?;x
-605;153;133;35;Nieden605?;x
-606;165;144;38;Nieden606?;x
-607;178;155;41;Nieden607?;x
+602;63;56;56;Zanmirth;x
+603;127;111;29;Tessel;x
+604;140;122;32;Zanostre;x
+605;153;133;35;Vitbon;x
+606;165;144;38;Eraziirenn;x
+607;178;155;41;Cacaen;x
 608;21;165;93;Rieds;x
-609;19;153;86;Nieden609?;x
-610;23;178;100;Nieden610?;x
-611;24;191;108;Nieden611?;x
-612;26;204;115;Nieden612?;x
-613;28;216;122;Nieden613?;x
+609;19;153;86;Morveirenn;x
+610;23;178;100;Etivenn;x
+611;24;191;108;Sercantei;x
+612;26;204;115;Gerentahl?;x
+613;28;216;122;Ondastahl;x
 614;88;203;216;Arce Gentumar;x
-615;83;191;204;East Soralai;x
-616;78;179;191;West Soralai;x
-617;73;167;178;Firezzo;x
+615;83;191;204;Ossoralyre;x
+616;78;179;191;Vasoralyre;x
+617;73;167;178;Soleanna;x
 618;67;153;164;Ascension;x
-619;94;215;229;Veriss Basin;x
+619;94;215;229;Darilais;x
 620;191;66;47;Mt. Gentumar;x
-621;204;71;51;Nieden621?;x
+621;204;71;51;Canci Zabtrij;x
 622;178;62;44;Madupel;x
-623;163;57;40;Nieden623?;x
-624;150;52;37;Nieden624?;x
+623;163;57;40;Attomed;x
+624;150;52;37;Sorrun Mifirt;x
 625;178;166;30;Kalvirra;x
 626;165;154;28;Sirrlai;x
 627;153;142;26;Irabella Plains;x
 628;140;130;23;Litoci;x
-629;73;7;153;Nieden629?;x
-630;66;7;140;Nieden630?;x
+629;73;7;153;Nekerei;x
+630;66;7;140;Veraseer;x
 631;60;6;127;Delgrenzvar;x
-632;54;5;114;Nieden632?;x
-633;48;5;102;Nieden633?;x
-634;229;173;68;Nor Flammastahl;x
-635;216;163;65;Suth Flammastahl;x
-636;204;154;61;Veraseer;x
+632;54;5;114;Riemed;x
+633;48;5;102;Ketalos;x
+634;229;173;68;Flammastahl;x
+635;216;163;65;Volressal;x
+636;204;154;61;Falssalien;x
 637;191;146;57;Junea;x
-638;178;136;53;Nieden638?;x
+638;178;136;53;Sylaenn;x
 639;165;127;49;Serrelai;x
-640;165;96;134;Nieden640?;x
-641;178;103;144;Nieden641?;x
-642;191;110;155;Forgotten City?;x
+640;165;96;134;Aerei;x
+641;178;103;144;Fufinirq;x
+642;191;110;155;Eraittori;x
 643;204;118;165;Annuvin;x
-644;216;125;175;Nieden644?;x
-645;153;88;124;Nieden645?;x
+644;216;125;175;Fidarei;x
+645;153;88;124;Numetrea;x
 646;255;181;160;Da Kuang;x
-647;242;172;152;Nieden647?;x
-648;229;162;144;Flustung;x
-649;216;152;136;Nieden649?;x
+647;242;172;152;Orranis;x
+648;229;162;144;Flumeres;x
+649;216;152;136;Ketalos;x
 650;204;143;128;Kalren;x
 651;119;166;216;Eluraesin;x
 652;140;192;255;Northern Reach;x
@@ -679,32 +679,32 @@ province;red;green;blue;x;x
 678;140;70;65;Gesck;x
 679;153;77;71;New Liera;x
 680;102;51;47;Trae Olluth;x
-681;165;83;77;Sparwood681?;x
+681;165;83;77;Amiha;x
 682;178;90;83;Old Liera;x
-683;119;140;126;Sparwood683?;x
-684;130;153;138;Sparwood684?;x
-685;140;165;149;Sparwood685?;x
+683;119;140;126;Amdeo;x
+684;130;153;138;Bacobac;x
+685;140;165;149;Grammash'Hi;x
 686;151;178;161;Tuka;x
 687;162;191;172;Sentari;x
 688;184;216;195;Sencrown;x
 689;173;204;184;Dawnfield;x
-690;195;229;207;Sparwood690?;x
+690;195;229;207;Tojal;x
 691;63;216;32;Emnojas;x
 692;59;204;30;Utumno;x
 693;55;191;28;The Sunken Keg;x
 694;45;165;24;Royfin;x
-695;49;178;26;Northern Mag Mountains?;x
-696;42;153;22;Southern Mag Mountains?;x
-697;204;112;133;Azuria697?;x
-698;178;98;116;Azuria698?;x
+695;49;178;26;Yoilos;x
+696;42;153;22;Veindol;x
+697;204;112;133;Nilrip;x
+698;178;98;116;Punge;x
 699;165;91;108;Caheren;x
-700;153;84;100;Azuria700?;x
+700;153;84;100;Raidcross;x
 701;127;70;83;Octavo's Last Stand;x
-702;140;77;91;Azuria702?;x
+702;140;77;91;Minad;x
 703;76;234;255;Sertan;x
 704;72;222;242;Seidwod;x
-705;191;105;125;Azuria705?;x
-706;57;175;191;Azuria706?;x
+705;191;105;125;Higlib;x
+706;57;175;191;Bordig;x
 707;65;199;216;Sodial;x
 708;68;210;229;Seidora;x
 709;61;187;204;Ardag;x
@@ -735,7 +735,7 @@ province;red;green;blue;x;x
 734;204;46;80;Ansprawl;x
 735;242;55;96;Pethrin;x
 736;255;58;101;Deviks;x
-737;229;52;91;Sparwood737?;x
+737;229;52;91;Holstocco;x
 738;216;49;86;Old Sticks;x
 739;100;57;229;Eastern Leyth;x
 740;94;54;216;Pikcha;x

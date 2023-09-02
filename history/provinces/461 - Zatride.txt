@@ -1,5 +1,9 @@
 # 461 - Zatride
 
+owner = O24
+controller = O24
+add_core = O24
+
 culture = locetii
 religion = soleannen
 capital = ""

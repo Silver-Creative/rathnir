@@ -61,13 +61,15 @@ enoseron = {
 	can_concentrate_development = no
     counts_for_borders = yes
     can_transfer_in_peace = no
+	transfer_trade_power = no
+	transfer_trade_if_merchant_republic = no
 	
 	
     trust_on_start = 35
     
     base_liberty_desire = -100.0
     liberty_desire_development_ratio = 0.0
-    forcelimit_bonus = 10.0
+    #forcelimit_bonus = 10.0
 	military_focus = 1.2
 	pays_overlord = 0
 

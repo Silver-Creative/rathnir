@@ -1,22 +1,15 @@
 country_decisions = {
-	astyllean_nation = {
+	miremen_nation = {
 		major = yes
 		potential = {
-			NOT = { has_country_flag = formed_astyllea_flag }
- 			NOT = { exists = A99 } #Astyllea
-			OR = {
-                tag = A98 #Anneìkos
-                tag = A97 #Yimmu-Audal
-                tag = A96 #Sagavir
-                tag = A95 #Aldovir
-                tag = A12 #Reyllea
+			NOT = { has_country_flag = formed_ayaloquur_flag }
+			NOT = { tag = A38 } #Ayalôquur
+            culture_group = miremen_group
+            OR = {
+                tag = A26 #Lô'myyr
+                tag = A27 #Lô'tyyr
+                tag = A23 #Sveppareyja
             }
-			capital_scope = {
-				OR = {
-                    superregion = aldovir_superregion
-                    superregion = essukdal_superregion
-                }
-			}
 			is_colonial_nation = no
 			OR = {
 				ai = no
@@ -33,18 +26,18 @@ country_decisions = {
 			#was_never_end_game_tag_trigger = yes
 		}
 		provinces_to_highlight = {
-			OR = {
-				superregion = aldovir_superregion
-                superregion = essukdal_superregion
-			}
+            OR = {
+                province_group = myrish_swamps
+                province_group = tyrian_swamps
+            }
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-            NOT = {
-				ROOT = {
+			NOT = {
+				ROOT = { 
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 250
+						value = 18
 						OR = {
-                            superregion = aldovir_superregion
-                            superregion = essukdal_superregion
+                            province_group = myrish_swamps
+                            province_group = tyrian_swamps
                         }
 					}
 				}
@@ -54,18 +47,18 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			NOT = { exists = A99 } #Astyllea
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 250
+			NOT = { exists = A38 } #Ayalôquur
+            num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 18
 				OR = {
-                    superregion = aldovir_superregion
-                    superregion = essukdal_superregion
+                    province_group = myrish_swamps
+                    province_group = tyrian_swamps
                 }
-            }
+			}
 		}
 		effect = {
 			hidden_effect = { restore_country_name = yes }
-			change_tag = A99 
+			change_tag = A38
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -74,18 +67,18 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			alteniquia = {
+			aldovir_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = A99
+				add_permanent_claim = A38
 			}
 			add_prestige = 25
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			set_country_flag = formed_astyllea_flag
+			set_country_flag = formed_ayaloquur_flag
 			if = {
 				limit = { 
 					has_custom_ideas = no
@@ -99,4 +92,4 @@ country_decisions = {
 		#ai_importance = 400
 	}
 	
-}
+}-
