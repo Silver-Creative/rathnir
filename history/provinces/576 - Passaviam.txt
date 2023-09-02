@@ -1,22 +1,18 @@
-# 461 - Zatride
+# 576 - Passaviam
 
-owner = O24
-controller = O24
-add_core = O24
-
-culture = locetii
+culture = escharii
 religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 2
+base_tax = 1
+base_production = 2
+base_manpower = 1
 
-trade_goods = fish
+trade_goods = naval_supplies
 
-is_city = yes
+is_city = no
 fort_15th = no
 
 discovered_by = tech_alteniquian

@@ -1,20 +1,20 @@
-# 461 - Zatride
+# 696 - Veindol
 
-owner = O24
-controller = O24
-add_core = O24
+owner = nan
+controller = nan
+add_core = nan
 
-culture = locetii
+culture = kietrii
 religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 2
+base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
-trade_goods = fish
+trade_goods = grain
 
 is_city = yes
 fort_15th = no

@@ -1,18 +1,18 @@
-# 461 - Zatride
+# 606 - Eraziirenn
 
-owner = O24
-controller = O24
-add_core = O24
+owner = N04
+controller = N04
+add_core = N04
 
-culture = locetii
+culture = escharii
 religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 trade_goods = fish
 

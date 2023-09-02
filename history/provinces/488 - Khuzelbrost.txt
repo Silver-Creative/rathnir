@@ -1,20 +1,20 @@
-# 461 - Zatride
+# 488 - Khuzelbrost
 
-owner = O24
-controller = O24
-add_core = O24
+owner = N11
+controller = N11
+add_core = N11
 
-culture = locetii
-religion = soleannen
+culture = kutnubad_dwarf
+religion = tossanism
 capital = ""
 
 hre = no
 
 base_tax = 2
-base_production = 1
-base_manpower = 2
+base_production = 3
+base_manpower = 3
 
-trade_goods = fish
+trade_goods = copper
 
 is_city = yes
 fort_15th = no

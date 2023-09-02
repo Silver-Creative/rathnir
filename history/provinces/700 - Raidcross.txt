@@ -1,18 +1,18 @@
-# 461 - Zatride
+# 700 - Raidcross
 
-owner = O24
-controller = O24
-add_core = O24
+owner = nan
+controller = nan
+add_core = nan
 
-culture = locetii
-religion = soleannen
+culture = azurian
+religion = red_cult
 capital = ""
 
 hre = no
 
-base_tax = 2
+base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
 trade_goods = fish
 
