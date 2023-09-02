@@ -1,12 +1,10 @@
 government = theocracy
-add_government_reform = leading_clergy_reform
+add_government_reform = adventurer_reform
 government_rank = 1
 primary_culture = aedyn
 add_accepted_culture = escharii_new
 religion = asitir
 technology_group = tech_niedene
-historical_friend = A00 #Audal
-historical_friend = A11 #Lapidosa
 capital = 464 #Lirgal
 national_focus = DIP
 
@@ -27,7 +25,7 @@ national_focus = DIP
 	add_ruler_personality = expansionist_personality
 	
 	queen = {
-		country_of_origin = O29
+		country_of_origin = O25
 		name = "Er'la"
 		dynasty = "Elled"
 		culture = lapidosan
