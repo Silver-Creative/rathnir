@@ -1,12 +1,16 @@
 country_decisions = {
-	lausarian_nation = {
+	anoshphite_nation = {
 		major = yes
 		potential = {
-			NOT = { has_country_flag = formed_lausaria_flag }
-			NOT = { exists = A50 } #Lausaria
-			primary_culture = lausarii
+			NOT = { has_country_flag = formed_anoshphey_flag }
+ 			NOT = { exists = A02 } #Anoshphey
+			OR = {
+                primary_culture = anoshphite
+                primary_culture = caedan
+                primary_culture = idan-ridu
+            }
 			capital_scope = {
-				superregion = essukdal_superregion
+				region = anoshphey_region
 			}
 			is_colonial_nation = no
 			OR = {
@@ -24,35 +28,37 @@ country_decisions = {
 			#was_never_end_game_tag_trigger = yes
 		}
 		provinces_to_highlight = {
-            province_group = lausarian_remnants
+			OR = {
+				province_id = 22		# Konushom
+				province_id = 1294		# Errebos
+                province_id = 2         # Jirn
+                province_id = 3         # Yirs-Rock
+				province_id = 6 		# Citomushom
+				province_id = 42		# Siroba
+				province_id = 31 		# Prisma
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
-            NOT = {
-				ROOT = {
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 10
-						province_group = lausarian_remnants
-					}
-				}
-			}
 		}
 		allow = {
+			adm_tech = 7
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			NOT = { exists = A50 } #Lausaria
-			ROOT = {
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 10
-					province_group = lausarian_remnants
-				}
-			}
+			NOT = { exists = A02 } #Anoshphey
+			owns_core_province = 22		    # Konushom
+			owns_core_province = 1294		# Errebos
+            owns_core_province = 2          # Jirn
+            owns_core_province = 3          # Yirs-Rock
+			owns_core_province = 6		    # Citomushom
+			owns_core_province = 42		    # Siroba
+			owns_core_province = 31 		# Prisma
 		}
 		effect = {
 			hidden_effect = { restore_country_name = yes }
-			change_tag = A50
+			change_tag = A02
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -61,24 +67,18 @@ country_decisions = {
 				}
 				set_government_rank = 2
 			}
-			lausarian_remnants = {
+			anoshphey_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_core = A50
+				add_core = A02
 			}
-            theionikos_region = {
-                limit = {
-                    NOT = { owned_by = ROOT }
-                }
-                add_permanent_claim = A50
-            }
 			add_prestige = 25
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			set_country_flag = formed_lausarian_flag
+			set_country_flag = formed_anoshphey_flag
 			if = {
 				limit = { 
 					has_custom_ideas = no
