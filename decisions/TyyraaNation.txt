@@ -1,0 +1,126 @@
+country_decisions = {
+	tyyraa_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_lotyyr_flag }
+			NOT = { tag = A27 } #Lô'tyyr
+            primary_culture = tyyraa
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			normal_or_historical_nations = yes
+			#was_never_end_game_tag_trigger = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 263		# Greatdens
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = A27 } #Lô'tyyr
+			owns_core_province = 263    # Greatdens
+
+            #Must be the only remaining Tyyraa nation.
+            OR = {
+                #Is Thýr
+                AND = {
+                    tag = A32 #Thýr
+                    NOT = { exists = A34 } #Noryanam
+                    NOT = { exists = A35 } #Soryanam
+                    NOT = { exists = A36 } #Eânam
+                }
+
+                #Is Noryanam
+                AND = {
+                    tag = A34 #Noryanam
+                    NOT = { exists = A32 } #Thýr
+                    NOT = { exists = A35 } #Soryanam
+                    NOT = { exists = A36 } #Eânam
+                }
+
+                #Is Soryanam
+                AND = {
+                    tag = A35 #Soryanam
+                    NOT = { exists = A34 } #Noryanam
+                    NOT = { exists = A32 } #Thýr
+                    NOT = { exists = A36 } #Eânam
+                }
+
+                #Is Eânam
+                AND = {
+                    tag = A36 #Eânam
+                    NOT = { exists = A34 } #Noryanam
+                    NOT = { exists = A35 } #Soryanam
+                    NOT = { exists = A32 } #Thýr
+                }
+
+                #Is none of the above.
+                AND = {
+                    NOT = {
+                        OR = {
+                            tag = A32 #Thýr
+                            tag = A34 #Noryanam
+                            tag = A35 #Soryanam
+                            tag = A36 #Eânam
+                        }
+                    }
+                    NOT = { exists = A32 } #Thýr
+                    NOT = { exists = A34 } #Noryanam
+                    NOT = { exists = A35 } #Soryanam
+                    NOT = { exists = A36 } #Eânam
+                }
+            }
+		}
+		effect = {
+			hidden_effect = { restore_country_name = yes }
+			change_tag = A27
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			tyrian_swamps = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = A27
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_lotyyr_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		#ai_importance = 400
+	}
+	
+}-

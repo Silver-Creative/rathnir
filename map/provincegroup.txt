@@ -1,1 +1,33 @@
-#
+# Alteniquia
+
+myrish_swamps = {
+    255 256 257 258 259 260 261 262 755 1312 1313
+}
+
+tyrian_swamps = {
+    263 264 265 266 267 761 765 
+}
+
+lausarian_remnants = {
+    184		# Eltur-Shummar
+	185		# Esgard
+    186     # Awkos
+    187     # Duskanos
+	177		# Nous-Il
+	176		# Selak
+	174 	# Mingros
+	175 	# Ensulak
+	172		# Pelhars
+	171		# Kiasta
+	169		# Evantlas
+    170     # Odruda
+    173     # Durrukos
+    178     # Shilege
+    188     # Lourda
+    189     # Aldnoa
+    190     # Adu-Sadad
+    168     # Ammothalios
+    167     # Klamos
+    165     # Durn-Akai
+    166     # Sic-Akai
+}

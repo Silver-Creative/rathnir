@@ -1,103 +1,90 @@
 
 #Country Name: Please see filename.
 
-graphical_culture = muslimgfx
+graphical_culture = westerngfx
 
-color = { 28  31  123 }
+color = { 255  220  104 }
 
 historical_idea_groups = {
-	economic_ideas
-	diplomatic_ideas
-    defensive_ideas
-	innovativeness_ideas
-	spy_ideas
-	quality_ideas
+	expansion_ideas
+	quantity_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
 	offensive_ideas
-	exploration_ideas		
+	spy_ideas
+	innovativeness_ideas		
 }
 
 historical_units = {
-	persian_footsoldier
-	persian_cavalry_charge
-	persian_shamshir
-	qizilbash_cavalry
-	tofongchis_musketeer
-	topchis_artillery
-	afsharid_reformed
-	afsharid_reformed_infantry
-	muslim_mass_infantry
-	muslim_dragoon
-	persian_rifle
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
 monarch_names = {
 
-    #Religious Asitir Names (Male)
-    "Tali #0" = 10
-    "Saraim #0" = 10
-
-	#Generic Lirgalyn Names (Male)
-	"Cael #0" = 10 
-	"Nitlós #0" = 10 
-	"Kar #0" = 10 
-	"Vopran #0" = 10 
-	"Talanaas #0" = 10
-    "Cali #0" = 10
-    "Lai #0" = 10
-    "Tir #0" = 10
-    "Altor #0" = 10
-    "Fedre #0" = 10
-    "Authe #0" = 10
-    "Sjatyre #0" = 10
-	"Kaimen #0" = 10
-	"Menelis #0" = 10
-	"Baeron #0" = 10
-	"Kalhem #0" = 10
-
-    #Religious Asitir Names (Female)
-    "Leryla #0" = -1
-    "Seréa #0" = -1
-    "Lynadara #0" = -1
-    "Lerá #0" = -1
-    "Néa #0" = -1
-    "Merine #0" = -1
-
-	#Generic Lirgalyn Names (Female)
-	"Aldara #0" = -1
-	"Ellira #0" = -1 
-	"Cali #0" = -1 
-	"Ammara #0" = -1
-    "Moitiré #0" = -1
-    "Lairé #0" = -1
-    "Alea #0" = -1
-    "Dáido #0" = -1
-    "Selã #0" = -1
-    "Maimara #0" = -1
-    "Dana #0" = -1
-    "Authe #0" = -1
-    "Sjatyre #0" = -1
-	"Kalair #0" = -1
-	"Melin #0" = -1
-	"Ardont #0" = -1
-
-
+	#Historical Escharian Leaders (Male)
+	"Auberon #0" = 10
+	"Severie Arminius #0" = 10
+	"Valerian Iuris #0" = 10
+	"Orzren Auralas #0" = 10
+	"Avensur #0" = 10
+	"Nive #0" = 10
+	
+	#Generic Niedene Names (Male)
+	"Orzen #0" = 10
+	"Aremi #0" = 10
+	"Isaris #0" = 10
+	"Dietras Sinso #0" = 10
+	"Ioannis #0" = 10
+	"Alseret #0" = 10
+	"Severie #0" = 10
+	"Arminius #0" = 10
+	"Valerian #0" = 10
+	"Aurelas #0" = 10
+	"Eros #0" = 10
+	"Numethos #0" = 10
+	
+	#Generic Niedene Names (Female)
+	"Erissia #0" = -1
+	"Akesrie #0" = -1
+	"Etienne #0" = -1
+	"Irabella #0" = -1
+	"Auria #0" = -1
+	
+	#Historical Escharian Leaders (Female)
+	"Illia #0" = -1
+	"Debi #0" = -1
+	"Veriss #0" = -1
+	"Etienne Irabella #0" = -1
+	
 }
 
 leader_names = {
 	#Country Specific
-	"va'Lirgal" "of the Lunar City" "of Olarã"
+	"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
+	"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
+	"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
+	"dai Lostesrei" "dai Delgrenzvar" "dai Annuvin" "dai Attori"
 	
-	#Province Neighbours
-	"of Lapidosa" "of Azethvir" "of Arstedanna" "of Myrmark" "of Evansyllo" "of Roscella"
-	
-	#Country Neighbours
-	"of Sironia" "of Reyllea" "of Adavia" "of Audal" "of Carn"
-	
-	#Geographic Neighbours
-	"of Aldovir" "of Essukdal" "of Tàlor"
+	"de Escharien" "de Suderen" "de Soleanna" "de Vale'du'nor" "de Varmerien" "de Iremith"
+	"de Annun" "de Arj'entor" "de Reikara"
 	
 	#Noble Families
-	Accero Ellan Deárinn Airan Malath
+	"an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar"
+	Pallas-Akerian Chaureste
 }
 
 ship_names = {
@@ -135,9 +122,9 @@ ship_names = {
 }
 
 army_names = {
-	"Defenders of the Temple" "Army of $PROVINCE$" "Guard of &PROVINCE&" "Orchid Batallion" "Defenders of the City" "Agalarum Lerirador"
+	"Irastli Arus" "Arus de $PROVINCE$"
 }
 
 fleet_names = {
-	"Moonguided Sails" "Red Squadron" "Blue Squadron" "Yellow Squadron" "Green Squadron"
+	"Zabtra Lerenta" "Aryen Flamara" "Akise Sikeri" "Mari Sikeri" "Sove Sikeri"
 }
