@@ -680,7 +680,7 @@ seraan_group = {
 	}
 	
 	aedyn = {
-		primary = O29 #Aedyn Clan
+		primary = O25 #Aedyn Clan
 
 		dynasty_names = {
 			Aedyn
