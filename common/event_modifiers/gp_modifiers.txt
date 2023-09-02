@@ -1,0 +1,3 @@
+soleannen_supremacy = {
+    cb_on_religious_enemies = yes
+}

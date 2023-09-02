@@ -158,3 +158,301 @@ khuzhold = {
 			}
 		}
 	}
+flammastahl = {
+    start = 634
+    date = 894.07.23
+    build_cost = 0
+    can_be_moved = no
+    starting_tier = 0
+    type = monument 
+    build_trigger = {
+	}
+
+	on_built = {
+		634 = {
+			add_building = temple
+		}
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+    tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+            institution_growth = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			technology_cost = -0.1
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			institution_growth = 1.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			technology_cost = -0.12
+			innovativeness_gain = 0.25
+
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1200
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			institution_growth = 2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			technology_cost = -0.15
+			innovativeness_gain = 0.30
+			yearly_innovativeness = 0.2
+			idea_cost = -0.15
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+				prestige = 25
+				}
+			}
+		}
+	}
+ascension_site = {
+    start = 618
+    date = 1417.02.09
+    build_cost = 0
+    can_be_moved = no
+    starting_tier = 0
+    type = monument 
+    build_trigger = {
+	}
+
+	on_built = {
+		634 = {
+			add_building = temple
+		}
+	}
+
+	on_destroyed = {
+		#should be a unique event here somewhere
+		remove_country_modifier = soleannen_supremacy 
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+    tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1250
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			culture_conversion_cost = -0.15
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_missionary_strength = 0.02
+			religious_unity = 0.2
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2250
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			culture_conversion_cost = 0.35
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_missionary_strength = 0.04
+			religious_unity = 0.4
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 3250
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			institution_growth = 2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_missionary_strength = 0.06
+			religious_unity = 0.6
+			tolerance_own = 3
+			tolerance_heretic = -3
+			tolerance_heathen = -3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+				prestige = 25
+				add_country_modifier = {
+					name = soleannen_supremacy
+					duration = -1
+				}
+				}
+			}
+		}
+	}
+	ascension_grounds = {
+
+	}
