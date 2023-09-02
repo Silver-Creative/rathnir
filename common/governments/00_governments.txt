@@ -277,46 +277,11 @@ republic = {
                 vastallosi_league_reform
                 #Vanilla
 				oligarchy_reform
-				signoria_reform
 				merchants_reform
-				venice_merchants_reform
 				civic_republicanism_government
-				pirate_republic_reform
 				noble_elite_reform
 				free_city
-				trading_city
-				ambrosian_republic
-				veche_republic
-				great_veche_republic
-				american_republic
-				federal_republic
-				colonial_government
-				crown_colony_government
-				private_enterprise_colony_government
-				self_governing_colony_government
-				dutch_republic
 				peasants_republic
-				ikko_ikki_republic_reform
-				revolutionary_republic_reform
-				junior_revolutionary_republic_reform
-				presidential_despot_reform
-				cossacks_reform
-				military_dictatorship_reform
-				protectorate_parliament_reform
-				prussian_republic_reform
-				united_cantons_reform
-				kongsi_federation
-				millenarian_theocracy_reform
-				#1.35
-				great_russian_republic_reform
-				trade_company_government
-				english_parliamentary_republic_government
-				roman_republic_government
-				calvinist_republic_government
-				parliamentary_republic_reform
-				absolute_shogunate_reform
-				japanese_divine_empire
-				land_christian_sun_reform
 			}
 		}
 		republican_virtues = {
@@ -327,55 +292,23 @@ republic = {
 				democratic_values_reform
 				aristocratic_values_reform
 				religious_values_reform
-				articles_of_agreement_reform
 				smugglers_haven_reform
 				council_of_captains_reform
 				the_pirate_ways_reform
-				liberte_reform
-				egalite_reform
-				fraternite_reform
-				tysyatsky_reform
-				namestnik_reform
-				oprichnina_reform
-				consulate_of_the_sea
 			}
 		}
 		frequent_elections_vs_consolidation_of_power = {
 			reforms = {
 				frequent_elections_reform
 				consolidation_of_power_reform
-				consolidate_power_in_doge_reform
 				consolidate_power_in_cities_reform
 				force_reelection_reform
-				devotee_to_the_people_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
 				lottery_reform
-				council_of_the_indies_reform
-				legislative_assembly_reform
-				national_constituent_reform
-				national_assembly_reform
 			}
 		}
 		republic_and_religion = {
 			reforms = {
 				papal_embassy_reform
-				lands_for_the_monasteries_reform
-				focus_of_the_patriarchy_reform
-				zoroastrian_focus_reform
-				power_to_the_synagogoues_reform
-				head_of_the_reformed_church_reform
-				confucian_governing_reform
-				empower_buddhist_temples_reform
-				public_hindu_practices_reform
-				strengthen_shaman_privileges_reform
-				abolished_caste_system_reform
-				strengthen_the_ulema_reform
-				strengthen_the_dhimmi_reform
-				legacy_of_the_steppes_reform
-				state_and_shrines_intertwined_reform
-				embedded_norse_government_reform
-				strengthen_clergy_reform
 				curtail_clergy_power_reform
 				secure_clergy_power_reform
 				maintain_clergy_balance_of_power_reform
@@ -383,18 +316,6 @@ republic = {
 				cult_of_reason_reform
 				conserve_the_religion_reform
 				secularization_of_the_state_reform
-				crew_before_faith_reform
-				relgious_freedom_reform
-				respect_for_the_sea_reform
-				establish_religious_institution_for_pirates_reform
-				#1.35
-				fiqh_laws_reform
-				sufism_decree_reform
-				holy_synod_reform
-				strengthened_the_patriarchy_reform
-				head_of_the_patriarchy_reform
-				anglican_state_church_reform
-				english_conciliarism_reform
 			}
 		}
 		military_doctrines = {
@@ -463,19 +384,10 @@ republic = {
 				presidential_reform
 				estate_council_reform
 				attorney_general_reform
-				war_against_the_world_doctrine_reform
-				black_market_consortium_reform
 				pirate_king_reform
-				imperial_diplomacy_reform
-				municipal_self_defense_reform
-				feuillant_reform
 				two_chamber_reform
 				seize_executive_power_reform
 				proclaim_divine_guidance_reform
-				become_rev_empire_reform
-				#1.35
-				governing_senate_reform
-				enforced_autocracy_reform
 			}
 		}
 		federalism_vs_unitarism_vs_confederacy = {
@@ -499,18 +411,20 @@ republic = {
 				new_world_exploitation_reform
 				lockean_proviso_reform
 				#Visible when unlocked
-				open_naval_services_reform
-				master_smugglers_reform
-				cutthroat_approach_reform
-				empowered_quartermasters_reform
-				#1.35
-				vodka_of_the_crown_reform
-				jap_gokaido_reform
-				thalassocracy_reform
-				royal_charters_reform
-				commercial_trade_empire_reform
 			}
 		}
+		##########################################################
+		##########################################################
+		##########################################################
+		##########################################################
+		##########################################################
+		 ###THIS IS WHERE I STOPPED REMOVING REPUBLICS BTW!!!###
+		##########################################################
+		##########################################################
+		##########################################################
+		##########################################################
+		##########################################################
+
 		consolidation_of_power_category = {
 			reforms = {
 				broaden_executive_powers_reform

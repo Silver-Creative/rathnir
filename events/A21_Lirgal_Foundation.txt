@@ -151,10 +151,21 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
-					cavalry = 0.1
+					cavalry = 0.2
 				}
 			}
 		}
@@ -184,6 +195,17 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -218,6 +240,17 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -251,6 +284,17 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -285,6 +329,17 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -319,6 +374,17 @@ country_event = {
 		release = A21
 		A21 = {
 			adopt_reform_progress = ROOT
+			add_treasury = 200
+			add_adm_power = 300
+			add_dip_power = 500
+			add_mil_power = 100
+			define_ruler = {
+				name = "Caravan Council"
+				claim = 100
+				adm = 3
+				dip = 3
+				mil = 3
+			}
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -378,4 +444,21 @@ country_event = {
 			}
 		}
 	}
+}
+
+#FREE LIRGAL EVENTS
+
+#Lirgal gets friends or something else
+country_event = {
+	id = lirgal_happs.3
+	title = "lirgal_happs.3.t"
+	desc = "lirgal_happs.3.d"
+	picture = lirgalcool_eventPicture
+	fire_only_once = yes
+
+	option = {
+		name = "lirgal_happs.3.a"
+		
+	}
+
 }

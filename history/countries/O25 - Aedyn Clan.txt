@@ -5,8 +5,8 @@ primary_culture = aedyn
 add_accepted_culture = escharii_new
 religion = asitir
 technology_group = tech_niedene
-capital = 464 #Lirgal
-national_focus = DIP
+capital = 503 #Modguzul
+national_focus = MIL
 
 1439.1.1 = {
 	monarch = {
@@ -26,7 +26,7 @@ national_focus = DIP
 	
 	queen = {
 		country_of_origin = O25
-		name = "Er'la"
+		name = "Erela"
 		dynasty = "Elled"
 		culture = lapidosan
 		religion = asitir
