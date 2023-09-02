@@ -1,0 +1,27 @@
+# 611 - Sercantei
+
+owner = O23
+controller = O23
+add_core = O23
+
+culture = escharii
+religion = soleannen
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = iron
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
+discovered_by = tech_aldoviri

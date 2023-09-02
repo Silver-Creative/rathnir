@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_lotyyr_flag }
-			NOT = { tag = A27 } #Lô'tyyr
+			NOT = { exists = A27 } #Lô'tyyr
             primary_culture = tyyraa
 			is_colonial_nation = no
 			OR = {

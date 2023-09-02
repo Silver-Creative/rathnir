@@ -1,0 +1,88 @@
+country_decisions = {
+	denthrosi_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_denthros_flag }
+			NOT = { exists = B97 } #Denthros
+            primary_culture = denthrosi
+			capital_scope = {
+				region = arm_of_vastallos_region
+			}
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			normal_or_historical_nations = yes
+			#was_never_end_game_tag_trigger = yes
+		}
+		provinces_to_highlight = {
+			region = arm_of_vastallos_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+            NOT = {
+				ROOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 15
+						region = arm_of_vastallos_region
+					}
+				}
+			}
+		}
+		allow = {
+			adm_tech = 
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = B97 } #Denthros
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				region = arm_of_vastallos_region
+			}
+		}
+		effect = {
+			hidden_effect = { restore_country_name = yes }
+			change_tag = B97
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			arm_of_vastallos_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = B97
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_theios_essukdal_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		#ai_importance = 400
+	}
+	
+}

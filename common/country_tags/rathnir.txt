@@ -98,6 +98,8 @@ B25 = "countries/Espar.txt"
 B26 = "countries/Qaruxia.txt"
 B27 = "countries/Vastallosi League.txt"
 
+B97 = "countries/Denthros.txt"
+
 #Nieden (except SC) - Nxx/Oxx (Lowest possible tag starting with O is O10)
 N00 = "countries/Escharia.txt"
 #N01 = "countries/Varmerien.txt"

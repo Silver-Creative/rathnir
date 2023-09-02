@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_lausaria_flag }
-			NOT = { tag = A50 } #Lausaria
+			NOT = { exists = A50 } #Lausaria
 			primary_culture = lausarii
 			capital_scope = {
 				superregion = essukdal_superregion
