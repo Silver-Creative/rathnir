@@ -1,0 +1,160 @@
+khuzhold = {
+    start = 485
+    date = 894.07.23
+    build_cost = 0
+    can_be_moved = no
+    starting_tier = 1
+    type = monument 
+    build_trigger = {
+	}
+
+	on_built = {
+		485 = {
+			add_building = fort_16th 
+		}
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+    tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+            local_defensiveness = 0.10
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+            army_tradition_decay = -0.2
+            fort_maintenance_modifier = -0.15
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+            local_defensiveness = 0.20
+            garrison_growth = 0.10
+            local_hostile_attrition = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+            local_hostile_movement_speed = -0.2
+            siege_ability = 0.10
+            local_attacker_dice_roll_bonus = -1
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+            army_tradition_decay = -0.25
+            fort_maintenance_modifier = -0.15
+            artillery_fire = 0.15
+            leader_siege = 1
+			for_maintenace_modifier = -0.2
+
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 4500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+            local_defensiveness = 0.20
+            garrison_growth = 0.10
+            local_hostile_attrition = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+            local_hostile_movement_speed = -0.2
+            siege_ability = 0.10
+            local_attacker_dice_roll_bonus = -1
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+            army_tradition_decay = -0.35
+            fort_maintenance_modifier = -0.25
+            artillery_fire = 0.20
+            leader_siege = 1
+            land_attrition = -0.2
+            siege_ability = 0.15
+            global_garrison_growth = 0.15
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+				prestige = 25
+				}
+			}
+		}
+	}

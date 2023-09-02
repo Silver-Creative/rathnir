@@ -36,4 +36,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_sanctum_of_theiotokos.dds"
 	}
 
+	spriteType = {
+		name = "GFX_great_project_khuzhold"
+		texturefile = "gfx//interface//great_projects//great_project_khuzhold.dds"
+	}
+
 }
