@@ -35,7 +35,7 @@ impassable = {
 	1155 1156 1157 1158 1159 1168 1169 1170 1171
 
 	#Sparwood
-	1160 1161 1162 1163 1164 1165 1166 1167 1172
+	1160 1161 1162 1163 1164 1165 1166 1167 1172 1467 1468 1469 1470
 
 	#Unreleased Sea
 	4989 4990 4991 4992 4993 4994 4995 4996 4997 4998 4999
@@ -43,14 +43,14 @@ impassable = {
 	#Unreleased Land
 	4977 #Akratia
 	4978 #Frozen Wastes
-	4982 #Sýltör
+	4982 #Syltor
 	4983 #Ummarnu
 	4979 #Wandering Deserts
-	4985 #Sørligste
+	4985 #Sorligste
 	4984 #Haven
 	4986 #Valdreach
 	4980 #Plagos
-	4981 #Skjoldrbróðir
+	4981 #Skjoldrbrodir
 	4987 #Southern Akan'nash
 	4988 #Northern Akan'nash
 }
