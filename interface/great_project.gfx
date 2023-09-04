@@ -48,5 +48,16 @@ spriteTypes = {
 		name = "GFX_great_project_ascension_site"
 		texturefile = "gfx//interface//great_projects//great_project_ascension_site.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_great_project_lileanen_university"
+		texturefile = "gfx//interface//great_projects//great_project_lileanen_university.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_project_sonnekir"
+		texturefile = "gfx//interface//great_projects//great_project_sonnekir.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_project_severion_sylenekir"
+		texturefile = "gfx//interface//great_projects//great_project_severion_sylenekir.dds"
+	}
 }
