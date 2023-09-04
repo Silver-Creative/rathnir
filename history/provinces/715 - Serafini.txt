@@ -1,8 +1,8 @@
 # 715 - Serafini
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L01
+controller = L01
+add_core = L01
 
 culture = serafian
 religion = eastern_asharu
