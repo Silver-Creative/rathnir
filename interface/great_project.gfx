@@ -34,6 +34,10 @@ spriteTypes = {
 		name = "GFX_great_project_kaithrat_watchers"
 		texturefile = "gfx//interface//great_projects//great_project_kaithrat_watchers.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_siralua_lirgal"
+		texturefile = "gfx//interface//great_projects//great_project_siralua_lirgal.dds"
+	}
 
 	#YA
 	spriteType = {
