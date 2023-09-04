@@ -12,9 +12,22 @@
  tower_of_memories_desc: "§g...§!"
  sanctum_of_theiotokos: "Sanctum of Theiotokos"
  sanctum_of_theiotokos_desc: "§g...§!"
+ amos_asir_temple: "Asir Temple of Amos"
+ the_last_bastion: "The Last Bastion"
+ il_kabulli_monastery: "Monastery of Il-Kabulli"
 
  #Aldovir
  sanctum_judge: "Sanctum of the Judge"
+ athazolant_canal: "Great Waterway of Athazolant"
+ athaz_ziggurat: "Thw Ziggurat of Athaz"
+ cobblework_mines: "Cobblework Mines"
+ roscella_cathedral: "Great Cathedral of Roscella"
+
+ #Carvay
+ grand_assembly: "The Grand Assembly"
+ merchants_guild: "Ombrian Merchants' Guild"
+ vastallos_gates: "The Gates of Vastallos"
+ blackstone_keep: "Blackstone Keep"
 
  #Nieden
  khuzhold: "Khuzhold"

@@ -6,36 +6,96 @@ spriteTypes = {
 	}
 
 	#Rathnir
+
+	#Aldovir 
+
 	spriteType = {
-		name = "GFX_great_project_urtu_lugalad"
-		texturefile = "gfx//interface//great_projects//great_project_urtu_lugalad.dds"
+		name = "GFX_great_project_sanctum_of_the_judge"
+		texturefile = "gfx//interface//great_projects//great_project_sanctum_of_the_judge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_great_project_red_temple"
-		texturefile = "gfx//interface//great_projects//great_project_red_temple.dds"
+		name = "GFX_great_project_athaz_ziggurat"
+		texturefile = "gfx//interface//great_projects//great_project_athaz_ziggurat.dds"
 	}
-
 	spriteType = {
-		name = "GFX_great_project_sky_pillars"
-		texturefile = "gfx//interface//great_projects//great_project_sky_pillars.dds"
+		name = "GFX_great_project_cobblework_mines"
+		texturefile = "gfx//interface//great_projects//great_project_cobblework_mines.dds"
 	}
-
 	spriteType = {
-		name = "GFX_great_project_jirnsteel_foundry"
-		texturefile = "gfx//interface//great_projects//great_project_jirnsteel_foundry.dds"
+		name = "GFX_great_project_athazolant_canal"
+		texturefile = "gfx//interface//great_projects//great_project_athazolant_canal.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_roscella_cathedral"
+		texturefile = "gfx//interface//great_projects//great_project_athazolant_canal.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_kaithrat_watchers"
+		texturefile = "gfx//interface//great_projects//great_project_kaithrat_watchers.dds"
 	}
 
+	#YA
+	spriteType = {
+		name = "GFX_great_project_sanctum_of_theiotokos"
+		texturefile = "gfx//interface//great_projects//great_project_sanctum_of_theiotokos.dds"
+	}	
 	spriteType = {
 		name = "GFX_great_project_tower_of_memories"
 		texturefile = "gfx//interface//great_projects//great_project_tower_of_memories.dds"
 	}
-
 	spriteType = {
-		name = "GFX_great_project_sanctum_of_theiotokos"
-		texturefile = "gfx//interface//great_projects//great_project_sanctum_of_theiotokos.dds"
+		name = "GFX_great_project_red_temple"
+		texturefile = "gfx//interface//great_projects//great_project_red_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_sky_pillars"
+		texturefile = "gfx//interface//great_projects//great_project_sky_pillars.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_jirnsteel_foundry"
+		texturefile = "gfx//interface//great_projects//great_project_jirnsteel_foundry.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_urtu_lugalad"
+		texturefile = "gfx//interface//great_projects//great_project_urtu_lugalad.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_amos_asir_temple"
+		texturefile = "gfx//interface//great_projects//great_project_amos_asir_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_klamos_asir_temple"
+		texturefile = "gfx//interface//great_projects//great_project_klamos_asir_temple.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_the_last_bastion"
+		texturefile = "gfx//interface//great_projects//great_project_the_last_bastion.dds"
 	}
 
+
+
+	#carvay
+	spriteType = {
+		name = "GFX_great_project_the_grand_assembly"
+		texturefile = "gfx//interface//great_projects//great_project_the_grand_assembly.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_great_project_ombrian_merchants_guild"
+		texturefile = "gfx//interface//great_projects//great_project_ombrian_merchants_guild.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_great_project_vastallos_gates"
+		texturefile = "gfx//interface//great_projects//great_project_vastallos_gates.dds"
+	}	
+	spriteType = {
+		name = "GFX_great_project_blackstone_keep"
+		texturefile = "gfx//interface//great_projects//great_project_blackstone_keep.dds"
+	}			
+
+	#Nieden 
 	spriteType = {
 		name = "GFX_great_project_khuzhold"
 		texturefile = "gfx//interface//great_projects//great_project_khuzhold.dds"
@@ -55,6 +115,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_great_project_sonnekir"
 		texturefile = "gfx//interface//great_projects//great_project_sonnekir.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_project_severion_sylenekir"
+		texturefile = "gfx//interface//great_projects//great_project_severion_sylenekir.dds"
+	}
+	SpriteType = {
+		name = "GFX_great_project_athazolant_canal"
+		texturefile = "gfx//interface//great_projects//great_project_athazolant_canal.dds"
 	}
 	SpriteType = {
 		name = "GFX_great_project_severion_sylenekir"
