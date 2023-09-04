@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_ayaloquur_flag }
-			NOT = { tag = A38 } #Ayalôquur
+			NOT = { exists = A38 } #Ayalôquur
             culture_group = miremen_group
             OR = {
                 tag = A26 #Lô'myyr

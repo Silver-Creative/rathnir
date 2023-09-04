@@ -69,7 +69,7 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			aldovir_superregion = {
+			essukdal_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

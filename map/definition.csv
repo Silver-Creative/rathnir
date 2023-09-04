@@ -366,7 +366,7 @@ province;red;green;blue;x;x
 365;140;99;42;Jeolban;x
 366;178;62;62;Waahi;x
 367;153;53;53;Nisia Gatas;x
-368;165;58;58;Zoúnkla;x
+368;165;58;58;Venlora;x
 369;191;66;66;Kota Mewah;x
 370;204;71;71;Chapeco;x
 371;216;75;75;Metekelo;x
@@ -559,8 +559,8 @@ province;red;green;blue;x;x
 558;178;118;33;Weirit;x
 559;191;126;36;Arcrei;x
 560;165;109;31;Kleizem;x
-561;105;37;114;Arikosan;x
-562;152;54;165;High Arelyre;x
+561;105;37;114;South Arelyre;x
+562;152;54;165;North Arelyre;x
 563;117;42;127;Domasarl;x
 564;141;50;153;Kalsyl;x
 565;129;46;140;Rhokan;x
@@ -608,13 +608,13 @@ province;red;green;blue;x;x
 607;178;155;41;Cacaen;x
 608;21;165;93;Rieds;x
 609;19;153;86;Morveirenn;x
-610;23;178;100;Etivenn;x
+610;23;178;100;Telet;x
 611;24;191;108;Sercantei;x
-612;26;204;115;Gerentahl?;x
+612;26;204;115;Gerentahl;x
 613;28;216;122;Ondastahl;x
 614;88;203;216;Arce Gentumar;x
-615;83;191;204;Ossoralyre;x
-616;78;179;191;Vasoralyre;x
+615;83;191;204;East Soralai;x
+616;78;179;191;West Soralai;x
 617;73;167;178;Soleanna;x
 618;67;153;164;Ascension;x
 619;94;215;229;Darilais;x
@@ -638,7 +638,7 @@ province;red;green;blue;x;x
 637;191;146;57;Junea;x
 638;178;136;53;Sylaenn;x
 639;165;127;49;Serrelai;x
-640;165;96;134;Aerei;x
+640;165;96;134;Vor-en-Vorpes;x
 641;178;103;144;Fufinirq;x
 642;191;110;155;Eraittori;x
 643;204;118;165;Annuvin;x
@@ -741,7 +741,7 @@ province;red;green;blue;x;x
 740;94;54;216;Pikcha;x
 741;86;51;204;Malki;x
 742;105;60;242;Henth;x
-743;111;63;255;Quartz Forest;x
+743;111;63;255;Datorului;x
 744;78;47;191;Leyth;x
 745;242;185;0;Isolas de Ezzeno;x
 746;255;195;0;Fortisola;x
@@ -846,13 +846,13 @@ province;red;green;blue;x;x
 845;35;63;63;CursedSea845?;x
 846;28;51;51;CursedSea7078?;x
 847;21;38;38;CursedSea847?;x
-848;91;153;153;CursedSea848?;x
-849;109;153;153;CursedSea849?;x
+848;91;153;153;Thedani Straights;x
+849;109;153;153;Salicen Gulf;x
 850;120;165;165;CursedSea850?;x
-851;99;165;165;CursedSea851?;x
-852;114;191;191;CursedSea852?;x
-853;122;204;204;CursedSea853?;x
-854;107;178;178;CursedSea854?;x
+851;99;165;165;Lothrin Fjords;x
+852;114;191;191;Bay of Concord;x
+853;122;204;204;Barbary Fjords;x
+854;107;178;178;Kumauren Sea;x
 855;7;12;12;CursedSea855?;x
 856;14;25;62;CursedSea856?;x
 857;15;25;25;CursedSea857?;x
@@ -1367,7 +1367,7 @@ province;red;green;blue;x;x
 1366;215;84;74;Voulonos Mensaggei;x
 1367;58;145;210;Keremanna;x
 1368;51;127;184;Griffinwoods;x
-1369;50;120;170;Delahaye;x
+1369;50;120;170;Delacaia;x
 1370;48;98;156;Siavena;x
 1371;64;98;162;Anakyvas;x
 1372;41;99;153;Daeltarra;x
@@ -1375,7 +1375,101 @@ province;red;green;blue;x;x
 1374;255;204;44;Madinatta;x
 1375;255;119;112;Pedazzos;x
 1376;222;192;54;Eponia;x
-1377;239;207;158;Venlora;x
+1377;239;207;158;Zoúnkla;x
+1378;24;130;69;Sparwood1378;x
+1379;39;151;59;Sparwood1379;x
+1380;38;154;48;Sparwood1380;x
+1381;46;158;38;Sparwood1381;x
+1382;30;137;60;Sparwood1382;x
+1383;46;167;44;Sparwood1383;x
+1384;41;160;51;Sparwood1384;x
+1385;73;177;53;Sparwood1385;x
+1386;32;153;60;Sparwood1386;x
+1387;35;141;70;Sparwood1387;x
+1388;35;175;39;Sparwood1388;x
+1389;157;195;35;Sparwood1389;x
+1390;132;175;46;Sparwood1390;x
+1391;106;194;183;Sparwood1391;x
+1392;96;185;178;Sparwood1392;x
+1393;98;177;175;Sparwood1393;x
+1394;90;170;172;Sparwood1394;x
+1395;90;161;167;Sparwood1395;x
+1396;40;186;117;Sparwood1396;x
+1397;36;180;76;Sparwood1397;x
+1398;37;179;11;Sparwood1398;x
+1399;25;186;78;Sparwood1399;x
+1400;39;188;95;Sparwood1400;x
+1401;118;158;38;Sparwood1401;x
+1402;152;198;39;Sparwood1402;x
+1403;136;188;34;Sparwood1403;x
+1404;139;188;43;Sparwood1404;x
+1405;174;166;36;Sparwood1405;x
+1406;184;175;39;Sparwood1406;x
+1407;197;188;33;Sparwood1407;x
+1408;187;181;45;Sparwood1408;x
+1409;213;229;59;Sparwood1409;x
+1410;184;216;41;Sparwood1410;x
+1411;187;191;34;Sparwood1411;x
+1412;147;193;31;Sparwood1412;x
+1413;128;177;29;Sparwood1413;x
+1414;122;168;32;Sparwood1414;x
+1415;115;161;25;Sparwood1415;x
+1416;132;184;30;Sparwood1416;x
+1417;91;161;32;Sparwood1417;x
+1418;117;168;34;Sparwood1418;x
+1419;203;91;14;Sparwood1419;x
+1420;221;110;47;Sparwood1420;x
+1421;216;96;13;Sparwood1421;x
+1422;231;114;34;Sparwood1422;x
+1423;42;122;27;Sparwood1423;x
+1424;33;111;33;Sparwood1424;x
+1425;28;97;67;Sparwood1425;x
+1426;26;114;72;Sparwood1426;x
+1427;29;108;70;Sparwood1427;x
+1428;34;121;87;Sparwood1428;x
+1429;242;255;249;Sparwood1429;x
+1430;197;205;217;Sparwood1430;x
+1431;209;229;234;Sparwood1431;x
+1432;217;236;241;Sparwood1432;x
+1433;210;227;232;Sparwood1433;x
+1434;206;219;224;Sparwood1434;x
+1435;209;214;218;Sparwood1435;x
+1436;199;209;215;Sparwood1436;x
+1437;195;203;211;Sparwood1437;x
+1438;191;196;209;Sparwood1438;x
+1439;173;177;188;Sparwood1439;x
+1440;182;186;203;Sparwood1440;x
+1441;240;240;253;Sparwood1441;x
+1442;76;153;33;Sparwood1442;x
+1443;68;142;42;Sparwood1443;x
+1444;69;145;35;Sparwood1444;x
+1445;50;136;45;Sparwood1445;x
+1446;44;120;25;Sparwood1446;x
+1447;20;82;52;Sparwood1447;x
+1448;59;142;30;Sparwood1448;x
+1449;26;86;48;Sparwood1449;x
+1450;24;77;53;Sparwood1450;x
+1451;22;81;54;Sparwood1451;x
+1452;20;86;56;Sparwood1452;x
+1453;38;104;38;Sparwood1453;x
+1454;52;116;40;Sparwood1454;x
+1455;60;125;37;Sparwood1455;x
+1456;53;116;38;Sparwood1456;x
+1457;32;93;32;Sparwood1457;x
+1458;32;88;40;Sparwood1458;x
+1459;34;102;37;Sparwood1459;x
+1460;34;109;30;Sparwood1460;x
+1461;34;115;25;Sparwood1461;x
+1462;42;136;24;Sparwood1462;x
+1463;58;145;28;Sparwood1463;x
+1464;50;137;27;Sparwood1464;x
+1465;37;179;112;Sparwood1465;x
+1466;55;168;171;LakeSPMinor1;x
+1467;67;164;167;LakeSPMinor2;x
+1468;224;249;237;WastelandSPMinor1;x
+1469;125;137;131;WastelandSPMinor2;x
+1470;122;149;134;WastelandSPMinor3;x
+1471;96;125;109;WastelandSPMinor4;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x

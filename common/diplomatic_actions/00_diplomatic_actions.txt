@@ -144,19 +144,39 @@ declarewar = {
 			}
 		}
 	}
-	effect = {
-		on_war_declaration_effect = yes
-		if = {
-			limit = { 
-				has_country_flag = nor_norwegian_independence_modifier
-				FROM = { tag = DAN }
+	#Rathnir
+	condition = {
+		tooltip = CANNOT_WAR_NIEDEN_TT
+		potential = {
+			has_global_flag = nieden_earlygame
+			FROM = {
+				capital_scope = { continent = nieden }
 			}
-			add_country_modifier = {
-				name = nor_norwegian_independence_war_mod
-				duration = -1
+			ROOT = {
+				OR = {
+					tag = N11 #Khuzdurin
+					NOT = { capital_scope = { continent = nieden } }
+				}
 			}
 		}
+		allow = {
+			NOT = { has_global_flag = nieden_earlygame }
+			#FROM = { tag = N11 } #Khuzdurin
+		}
 	}
+	#effect = {
+	#	on_war_declaration_effect = yes
+	#	if = {
+	#		limit = { 
+	#			has_country_flag = nor_norwegian_independence_modifier
+	#			FROM = { tag = DAN }
+	#		}
+	#		add_country_modifier = {
+	#			name = nor_norwegian_independence_war_mod
+	#			duration = -1
+	#		}
+	#	}
+	#}
 }
 
 allianceaction = {
