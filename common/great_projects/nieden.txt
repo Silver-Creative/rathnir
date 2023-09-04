@@ -100,7 +100,7 @@ khuzhold = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-            army_tradition_decay = -0.25
+            army_tradition_decay = -0.025
             fort_maintenance_modifier = -0.15
             artillery_fire = 0.15
 
@@ -124,7 +124,7 @@ khuzhold = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-            local_defensiveness = 0.25
+            local_defensiveness = 0.40
             garrison_growth = 0.15
             local_hostile_attrition = 2
 		}
@@ -137,7 +137,7 @@ khuzhold = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-            army_tradition_decay = -0.35
+            army_tradition_decay = -0.035
             fort_maintenance_modifier = -0.25
             artillery_fire = 0.20
             land_attrition = -0.2
