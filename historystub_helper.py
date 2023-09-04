@@ -36,7 +36,8 @@ religion_map = {
     "Tossanism": "tossanism",
     "Abyss Mysticism": "abyss_mysticism",
     "Willowpact": "willowpact",
-    "Noxism": "noxism"
+    "Noxism": "noxism",
+    "Asitir": "asitir"
 }
 
 def f_remove_accents(old):
