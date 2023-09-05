@@ -227,7 +227,6 @@ athazolant_canal = {
 		country_modifiers = {
 			trade_efficiency = 0.15
 			trade_steering = 0.1
-			global_trade_goods_size_modifier = 1.6
 		}
 
 		#what effects happen when this tier is achieved
@@ -257,7 +256,9 @@ athazolant_canal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			trade_steering = 0.2
+			trade_efficiency = 0.2
+			trade_steering = 0.15
+			global_trade_goods_size_modifier = 0.16
 		}
 
 		#what effects happen when this tier is achieved
@@ -290,7 +291,7 @@ athazolant_canal = {
 		country_modifiers = {
 			trade_steering = 0.35
 			trade_efficiency = 0.2
-			global_trade_goods_size_modifier = 1.9
+			global_trade_goods_size_modifier = 0.19
 			merchants = 1
 		}
 
@@ -497,7 +498,7 @@ cobblework_mines = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_production_efficiency = 0.15
-			local_gold_depletion_modifier = -0.2
+			local_gold_depletion_chance_modifier = -0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -529,7 +530,7 @@ cobblework_mines = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_production_efficiency = 0.3
-			local_gold_depletion_modifier = -0.4
+			local_gold_depletion_chance_modifier = -0.4
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -563,7 +564,7 @@ cobblework_mines = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_production_efficiency = 0.45
-			local_gold_depletion_modifier = -0.6
+			local_gold_depletion_chance_modifier = -0.6
 			local_development_cost = -0.5
 		}
 
@@ -603,6 +604,10 @@ roscella_cathedral = {
 	}
 
 	can_use_modifiers_trigger = {
+	}
+	OR = {
+		religion = aegmerism
+		religion = etherflame 
 	}
 
 	can_upgrade_trigger = {
@@ -649,6 +654,8 @@ roscella_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 2
+			religious_unity = 10
 		}
 
 		#what effects happen when this tier is achieved
@@ -677,6 +684,9 @@ roscella_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 3
+			religious_umity = 20
+			global_missionary_strength = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -708,6 +718,10 @@ roscella_cathedral = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 		}
+		tolerance_own = 4
+		religious_umity = 30
+		global_missionary_strength = 3
+		warscore_cost_vs_other_religion = -0.25
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {

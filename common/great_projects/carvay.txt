@@ -1,4 +1,4 @@
-grand_assembly = {
+the_grand_assembly = {
     start = 363
     date = 1026.08.29
     build_cost = 0
@@ -128,7 +128,7 @@ grand_assembly = {
 		}
 	}
 }
-merchants_guild = {
+ombrian_merchants_guild = {
     start = 363
     date = 986.08.21
     build_cost = 0
