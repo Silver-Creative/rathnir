@@ -1,8 +1,8 @@
 # 704 - Seidwod
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L10
+controller = L10
+add_core = L10
 
 culture = hostic
 religion = etherflame

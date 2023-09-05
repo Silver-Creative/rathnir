@@ -1,8 +1,8 @@
 # 738 - Old Sticks
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L02
+controller = L02
+add_core = L02
 
 culture = chimunic
 religion = etherflame

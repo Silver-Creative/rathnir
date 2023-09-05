@@ -1,8 +1,8 @@
 # 730 - Arbalon
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L07
+controller = L07
+add_core = L07
 
 culture = arbalonic
 religion = norse

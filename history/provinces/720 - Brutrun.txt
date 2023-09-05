@@ -1,8 +1,8 @@
 # 720 - Brutrun
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L09
+controller = L09
+add_core = L09
 
 culture = serafian
 religion = eastern_asharu

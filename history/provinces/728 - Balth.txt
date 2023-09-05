@@ -1,8 +1,8 @@
 # 728 - Balth
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L03
+controller = L03
+add_core = L03
 
 culture = arbalonic
 religion = norse
