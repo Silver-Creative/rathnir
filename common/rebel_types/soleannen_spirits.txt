@@ -1,0 +1,21 @@
+soleannen_spirits = {
+
+    color = { 255 200 190 }
+
+    area = nation
+    government = any
+    religion = soleannen_spirits
+    independence = none
+    unit_transfer = no
+    gfx_type = culture_province
+    resilient = yes
+    reinforcing = yes
+    general = yes
+    smart = yes
+
+    artillery = 0.0
+    infantry = 0.5
+    cavalry = 0.5
+
+    morale = 1.1
+}
