@@ -80,6 +80,7 @@ spriteTypes = {
 
 
 	#carvay
+	
 	spriteType = {
 		name = "GFX_great_project_the_grand_assembly"
 		texturefile = "gfx//interface//great_projects//great_project_the_grand_assembly.dds"

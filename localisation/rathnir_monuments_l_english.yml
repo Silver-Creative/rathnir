@@ -17,7 +17,7 @@
  il_kabulli_monastery: "Monastery of Il-Kabulli"
 
  #Aldovir
- sanctum_judge: "Sanctum of the Judge"
+ sanctum_of_the_judge: "Sanctum of the Judge"
  athazolant_canal: "Great Waterway of Athazolant"
  athaz_ziggurat: "Thw Ziggurat of Athaz"
  cobblework_mines: "Cobblework Mines"
@@ -25,8 +25,8 @@
  siralua_lirgal: "Siralua Lirgal"
 
  #Carvay
- grand_assembly: "The Grand Assembly"
- merchants_guild: "Ombrian Merchants' Guild"
+ the_grand_assembly: "The Grand Assembly"
+ ombrian_merchants_guild: "Ombrian Merchants' Guild"
  vastallos_gates: "The Gates of Vastallos"
  blackstone_keep: "Blackstone Keep"
 
