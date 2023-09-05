@@ -1,0 +1,8 @@
+government = monarchy
+
+government_rank = 1
+primary_culture = arbalonic
+religion = sakrelism
+technology_group = tech_luthic
+capital = 730 #Arbalon
+national_focus = DIP

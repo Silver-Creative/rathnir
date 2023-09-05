@@ -1,0 +1,8 @@
+government = monarchy
+
+government_rank = 1
+primary_culture = vraelean
+religion = abyss_mysticism
+technology_group = tech_luthic
+capital = 655 #Lotus Castle
+national_focus = ADM

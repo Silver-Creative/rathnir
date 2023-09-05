@@ -1,0 +1,8 @@
+government = monarchy
+
+government_rank = 1
+primary_culture = serafian
+religion = sakrelism
+technology_group = tech_luthic
+capital = 715 #Serafini
+national_focus = DIP

@@ -135,10 +135,21 @@ O25 = "countries/Aedyn Clan.txt"
 O26 = "countries/Chroniclers.txt"
 
 #Sparwood - Lxx/Mxx (No tag limit restriction)
-#L00 = "countries/Vraelea.txt"
-#L01 = "countries/Lotus Empire.txt"
+L00 = "countries/Vraelea.txt"
+L01 = "countries/Serafini.txt"
+L02 = "countries/Deviks.txt"
+L03 = "countries/Syrgorod.txt"
+L04 = "countries/Shizumori.txt"
+L05 = "countries/Hithray.txt"
+L06 = "countries/Hostina.txt"
+L07 = "countries/Arbalon.txt"
+L08 = "countries/Karasne.txt"
+L09 = "countries/Raslige.txt"
+L10 = "countries/Liera.txt"
+#L11 = "countries/"
+#L99 = "countries/Lotus Empire.txt"
 
-#SÃ½ltÃ¶r - Yxx/Zss (No tag limit restriction)
+#Sýltör - Yxx/Zss (No tag limit restriction)
 
 #The North - Gxx/Fxx (Lowest possible tag starting with F is F20)
 
@@ -158,12 +169,5 @@ H01 = "countries/Uldarash.txt"
 
 #If you remove these tags the game crashes when you colonise
 
-#Balkans
-
-
-	
-#HRE
-
-THU	= "countries/Thuringia.txt"
 
 
