@@ -134,3 +134,16 @@ country_event = { #Bandits?
         }
     }
 }
+
+country_event = {
+    id = flavor_gr.3
+    title = flavor_gr.3.t
+    desc = flavor.gr.3.d
+    picture = TRADEGOODS_EventPicture
+    is_triggered_only = yes
+    trigger = {
+        NOT = {
+            has_country_modifier = seraan_wanderers_passed
+        }
+    }
+}
