@@ -1,5 +1,5 @@
-government = theocracy
-add_government_reform = adventurer_reform
+government = tribal
+add_government_reform = seraan_soldier_clan
 government_rank = 1
 primary_culture = aedyn
 add_accepted_culture = escharii_new
@@ -28,7 +28,7 @@ national_focus = MIL
 		country_of_origin = O25
 		name = "Erela"
 		dynasty = "Elled"
-		culture = lapidosan
+		culture = aedyn
 		religion = asitir
 		birth_date = 1440.10.17
 		death_date = 1820.6.8
