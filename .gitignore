@@ -46,3 +46,8 @@ luac.out
 #cwtools
 .cwtools/
 descriptor.mod
+Release/5x5_pixel.ttf
+Release/ModMap.pdb
+Release/provinces_2_filled.bmp
+Release/provinces_filled.bmp
+Release/settings.json
