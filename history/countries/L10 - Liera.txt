@@ -2,7 +2,7 @@ government = monarchy
 
 government_rank = 1
 primary_culture = serafian
-religion = sakrelism
+religion = etherflame
 technology_group = tech_luthic
 capital = 682 #Old Liera
 national_focus = DIP
