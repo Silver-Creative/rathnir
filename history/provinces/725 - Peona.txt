@@ -1,8 +1,8 @@
 # 725 - Peona
 
-owner = L03
-controller = L03
-add_core = L03
+owner = L07
+controller = L07
+add_core = L07
 
 culture = woltanje
 religion = norse

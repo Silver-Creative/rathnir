@@ -1,5 +1,9 @@
 # 503 - Modguzul
 
+owner = O25
+controller = O25
+add_core = O25
+
 culture = aedyn
 religion = asitir
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = silk
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

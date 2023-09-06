@@ -1,8 +1,8 @@
 # 734 - Ansprawl
 
-owner = L08
-controller = L08
-add_core = L08
+owner = L07
+controller = L07
+add_core = L07
 
 culture = arbalonic
 religion = etherflame

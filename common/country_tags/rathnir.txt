@@ -143,9 +143,10 @@ L04 = "countries/Tash'nayil.txt"
 L05 = "countries/Hithray.txt"
 L06 = "countries/Hostina.txt"
 L07 = "countries/Arbalon.txt"
-L08 = "countries/Karasne.txt"
+#L08 = "countries/Karasne.txt" - Releasable from the Crimson Citadel
 L09 = "countries/Raslige.txt"
 L10 = "countries/Liera.txt"
+#L11 
 #L15 = "countries/Arxella.txt"
 #L99 = "countries/Lotus Empire.txt"
 
