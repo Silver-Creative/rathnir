@@ -5,7 +5,7 @@ controller = nan
 add_core = nan
 
 culture = kietrii
-religion = norse
+religion = soleannen
 capital = ""
 
 hre = no
