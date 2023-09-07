@@ -1,6 +1,6 @@
 # 752 - Marsea
 
-culture = raykarii
+culture = reikarii
 religion = soleannen
 capital = ""
 
