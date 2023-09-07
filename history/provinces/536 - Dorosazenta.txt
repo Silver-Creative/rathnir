@@ -4,7 +4,7 @@ owner = O12
 controller = O12
 add_core = O12
 
-culture = kaseii
+culture = tymarati
 religion = soleannen
 capital = ""
 
