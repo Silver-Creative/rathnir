@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = gentarii #tymarati?
+primary_culture = tymarati
 religion = soleannen
 technology_group = tech_niedene
 capital = 543 #North Arventor
@@ -14,7 +14,7 @@ national_focus = MIL
 		adm = 4
 		dip = 3
 		mil = 1
-		culture = gentarii
+		culture = tymarati
 		religion = soleannen
 	}
 }

@@ -4,8 +4,8 @@ owner = O18
 controller = O18
 add_core = O18
 
-culture = thadii
-religion = soleannen
+culture = sironian
+religion = sakrelism
 capital = ""
 
 hre = no

@@ -4,8 +4,8 @@ owner = O24
 controller = O24
 add_core = O24
 
-culture = locetii
-religion = soleannen
+culture = najer
+religion = noxism
 capital = ""
 
 hre = no
