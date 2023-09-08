@@ -1,8 +1,8 @@
 # 57 - Asylais
 
-owner = O29
-controller = O29
-add_core = O29
+owner = N12
+controller = N12
+add_core = N12
 
 culture = serrenii
 religion = soleannen

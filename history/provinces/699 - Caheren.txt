@@ -3,7 +3,7 @@
 owner = A08
 controller = A08
 add_core = A08
-add_core = O29
+add_core = N12
 
 culture = azurian
 religion = red_cult

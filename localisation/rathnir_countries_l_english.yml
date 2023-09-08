@@ -230,6 +230,8 @@
  N10_ADJ: "Oogrelonic"
  N11: "Khuzdurin"
  N11_ADJ: "Durinic"
+ N12: "Annuvin"
+ N12_ADJ: "Annuvini"
 
  N99: "Soleannan Empire"
  N99_ADJ: "Soleannan"
@@ -266,8 +268,6 @@
  O24_ADJ: "Vushateji"
  O25: "Aedyn Clan"
  O25_ADJ: "Aedyni"
- O29: "Annuvin"
- O29_ADJ: "Annuvini"
 
 #Plagos
 
