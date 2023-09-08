@@ -113,6 +113,7 @@ N03 = "countries/Egalia.txt"
 N09 = "countries/Neurun.txt"
 N10 = "countries/Oogrelon.txt"
 N11 = "countries/Khuzdurin.txt"
+N12 = "countries/Annuvin.txt"
 
 N99 = "countries/Soleanna.txt"
 
@@ -133,7 +134,6 @@ O23 = "countries/Bolvekr Coterie.txt"
 O24 = "countries/Vushatej.txt"
 O25 = "countries/Aedyn Clan.txt"
 O26 = "countries/Chroniclers.txt"
-O29 = "countries/Annuvin.txt"
 
 #Sparwood - Lxx/Mxx (No tag limit restriction)
 L00 = "countries/Vraelea.txt"
