@@ -151,6 +151,7 @@ declarewar = {
 			has_global_flag = nieden_earlygame
 			FROM = {
 				capital_scope = { continent = nieden }
+				NOT = { has_country_flag = nieden_earlygame_broken }
 			}
 			ROOT = {
 				OR = {
@@ -162,6 +163,27 @@ declarewar = {
 		allow = {
 			NOT = { has_global_flag = nieden_earlygame }
 			#FROM = { tag = N11 } #Khuzdurin
+		}
+	}
+	effect = {
+		on_war_declaration_effect = yes
+		if = {
+			limit = {
+				has_global_flag = nieden_earlygame
+				ROOT = {
+					capital_scope = { continent = nieden }
+				}
+				FROM = {
+					OR = {
+						tag = N11 #Khuzdurin
+						NOT = { capital_scope = { continent = nieden } }
+					}
+				}
+			}
+			ROOT = {
+				country_event = { id = nieden_adventurers.2 }
+				set_country_flag = nieden_earlygame_broken
+			}
 		}
 	}
 	#effect = {

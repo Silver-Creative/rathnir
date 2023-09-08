@@ -17,4 +17,6 @@ on_startup = {
 
 	#Rathnir
 	set_global_flag = nieden_earlygame
+
+	country_event = { id = nieden_adventurers.1 }
 }
