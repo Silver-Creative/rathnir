@@ -111,7 +111,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_great_project_ascension_site"
-		texturefile = "gfx//interface//great_projects//great_project_ascension_site.dds"
+		texturefile = "gfx//interface//great_projects//great_project_ascension_site_alt1.dds"
 	}
 	SpriteType = {
 		name = "GFX_great_project_lileanen_university"

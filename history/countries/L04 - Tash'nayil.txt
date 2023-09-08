@@ -2,7 +2,7 @@ government = monarchy
 
 government_rank = 1
 primary_culture = serafian
-religion = sakrelism
+religion = norse
 technology_group = tech_luthic
 capital = 671 #Provisional capital, Ai'Kille
 national_focus = DIP

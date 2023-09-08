@@ -4,8 +4,8 @@ owner = O22
 controller = O22
 add_core = O22
 
-culture = gentarii
-religion = soleannen
+culture = lhuren
+religion = twin_dragon
 capital = ""
 
 hre = no

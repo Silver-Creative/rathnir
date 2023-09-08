@@ -2,7 +2,7 @@ government = monarchy
 
 government_rank = 1
 primary_culture = arbalonic
-religion = sakrelism
+religion = etherflame
 technology_group = tech_luthic
 capital = 730 #Arbalon
 national_focus = DIP
