@@ -317,7 +317,7 @@ kietres_region = {
 	areas = {
 		duskbluff_area
 		dawnriver_area
-		utumno_area
+		dronnin_area
 		kaheren_valley_area
 		octavos_last_stand_area
 
