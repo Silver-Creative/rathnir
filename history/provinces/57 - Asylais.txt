@@ -1,5 +1,9 @@
 # 57 - Asylais
 
+owner = O29
+controller = O29
+add_core = O29
+
 culture = serrenii
 religion = soleannen
 capital = ""

@@ -133,6 +133,7 @@ O23 = "countries/Bolvekr Coterie.txt"
 O24 = "countries/Vushatej.txt"
 O25 = "countries/Aedyn Clan.txt"
 O26 = "countries/Chroniclers.txt"
+O29 = "countries/Annuvin.txt"
 
 #Sparwood - Lxx/Mxx (No tag limit restriction)
 L00 = "countries/Vraelea.txt"
