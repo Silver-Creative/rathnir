@@ -1,20 +1,20 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = tvearan
-religion = abyss_mysticism
+primary_culture = vraelean
+religion = soleannen
 technology_group = tech_niedene
-capital = 611 #??
-national_focus = MIL
+capital = 637 #Junea
+national_focus = ADM
 
 1444.1.1 = {
 	monarch = {
-		name = "Devalier Bolvekr"
+		name = "Ljukkti the Cursed"
 		birth_date = 1401.7.3
 		adm = 2
 		dip = 3
 		mil = 4
-		culture = tvearan
-		religion = abyss_mysticism
+		culture = vraelean
+		religion = soleannen
 	}
 }
