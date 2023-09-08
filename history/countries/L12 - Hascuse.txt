@@ -2,7 +2,7 @@ government = monarchy
 
 government_rank = 1
 primary_culture = hostic
-religion = sakrelist
+religion = sakrelism
 technology_group = tech_luthic
 capital = 683 #Amdeo
 national_focus = MIL
