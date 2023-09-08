@@ -607,10 +607,10 @@ province;red;green;blue;x;x
 606;165;144;38;Eraziirenn;x
 607;178;155;41;Cacaen;x
 608;21;165;93;Rieds;x
-609;19;153;86;Morveirenn;x
-610;23;178;100;Telet;x
+609;19;153;86;Etazenn;x
+610;23;178;100;Qazisred;x
 611;24;191;108;Sercantei;x
-612;26;204;115;Gerentahl;x
+612;26;204;115;Morveival;x
 613;28;216;122;Ondastahl;x
 614;88;203;216;Arce Gentumar;x
 615;83;191;204;East Soralai;x
@@ -1396,7 +1396,7 @@ province;red;green;blue;x;x
 1395;90;161;167;Sparwood1395;x
 1396;40;186;117;Sparwood1396;x
 1397;36;180;76;Sparwood1397;x
-1398;37;179;11;Sparwood1398;x
+1398;211;160;160;Sparwood1398;x
 1399;25;186;78;Sparwood1399;x
 1400;39;188;95;Sparwood1400;x
 1401;118;158;38;Sparwood1401;x
@@ -1739,7 +1739,7 @@ province;red;green;blue;x;x
 1738;52;156;100;Cymru1738;x
 1739;48;179;115;Cymru1739;x
 1740;56;186;96;Cymru1740;x
-1741;67;147.104;Cymru1741;x
+1741;67;147;104;Cymru1741;x
 1742;142;69;171;Cymru1742;x
 1743;124;58;157;Cymru1743;x
 1744;112;56;148;Cymru1744;x
@@ -1989,7 +1989,7 @@ province;red;green;blue;x;x
 1988;187;127;14;Cymru1988;x
 1989;183;107;14;Cymru1989;x
 1990;201;110;34;Cymru1990;x
-1991;201;93;24;Cymru1991;x
+1991;201;93;34;Cymru1991;x
 1992;195;71;30;Cymru1992;x
 1993;199;87;39;Cymru1993;x
 1994;187;81;24;Cymru1994;x
@@ -2025,7 +2025,7 @@ province;red;green;blue;x;x
 2024;166;170;168;CymruWasteland2024;x
 2025;181;186;183;CymruWasteland2025;x
 2026;163;177;169;CymruWasteland2026;x
-2027;215;232;319;CymruWasteland2027;x
+2027;215;232;219;CymruWasteland2027;x
 2028;168;175;171;CymruWasteland2028;x
 2029;156;166;160;CymruWasteland2029;x
 2030;149;163;155;CymruWasteland2030;x
@@ -2047,8 +2047,10 @@ province;red;green;blue;x;x
 2046;5;23;71;SouthernSea2046;x
 2047;191;121;13;Cymru2047;x
 2048;45;23;118;Cymru2048;x
-2049;201;93;34;Cymru2049;x
-2050;67;147;104;Cymru2050;x
+2049;211;126;126;Sparwood2049;x
+2050;211;78;78;Sparwood2050;x
+2051;178;42;42;Sparwood2051;x
+2052;130;63;63;Sparwood2052;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x
