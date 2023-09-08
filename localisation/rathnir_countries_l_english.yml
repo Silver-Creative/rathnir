@@ -232,6 +232,14 @@
  N11_ADJ: "Durinic"
  N12: "Annuvin"
  N12_ADJ: "Annuvini"
+ N13: "Passanuria"
+ N13_ADJ: "Passanurian"
+ N14: "Dronnin"
+ N14_ADJ: "Dronnii"
+ N15: "Euqenilve"
+ N15_ADJ: "Euqenilvii"
+ N16: "Sentaria"
+ N16_ADJ: "Sentarii"
 
  N99: "Soleannan Empire"
  N99_ADJ: "Soleannan"
@@ -268,6 +276,8 @@
  O24_ADJ: "Vushateji"
  O25: "Aedyn Clan"
  O25_ADJ: "Aedyni"
+ O26: "Röj Chroniclers"
+ O26_ADJ: "Lelhavan"
 
 #Plagos
 

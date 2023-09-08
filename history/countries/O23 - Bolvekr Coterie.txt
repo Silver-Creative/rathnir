@@ -14,7 +14,7 @@ national_focus = MIL
 		adm = 2
 		dip = 3
 		mil = 4
-		culture = vraelean
+		culture = tvearan
 		religion = abyss_mysticism
 	}
 }

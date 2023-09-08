@@ -1,6 +1,10 @@
 # 637 - Junea
 
-culture = serrenii
+owner = O26
+controller = O26
+add_core = O26
+
+culture = vraelean
 religion = soleannen
 capital = ""
 
@@ -12,7 +16,7 @@ base_manpower = 2
 
 trade_goods = grain
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian
