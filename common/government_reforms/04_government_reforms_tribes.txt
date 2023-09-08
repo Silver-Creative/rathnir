@@ -44,6 +44,7 @@ seraan_soldier_clan = {
 		diplomatic_upkeep = -2
 		land_forcelimit = 3
 		colonists = 1
+		may_establish_frontier = yes
 
 		#New Ones
 		tribal_development_growth = 0.02
