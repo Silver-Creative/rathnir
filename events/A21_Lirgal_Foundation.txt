@@ -493,6 +493,11 @@ country_event = {
 			factor = 100
 		}
 		join_all_defensive_wars_of = A21 
+		add_country_modifier = {
+			name = lirgal_calls_for_aid
+			duration = 3650
+		}
+		add_treasury = 50
 	}
 	option = {
 		name = lirgal_happs.4.b
