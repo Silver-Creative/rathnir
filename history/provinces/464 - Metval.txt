@@ -1,5 +1,9 @@
 # 464 - Metval
 
+owner = nan
+controller = nan
+add_core = nan
+
 culture = locetii
 religion = soleannen
 capital = ""

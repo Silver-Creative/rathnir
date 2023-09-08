@@ -4,7 +4,7 @@ owner = O13
 controller = O13
 add_core = O13
 
-culture = tymarati
+culture = masetzuan
 religion = soleannen
 capital = ""
 
