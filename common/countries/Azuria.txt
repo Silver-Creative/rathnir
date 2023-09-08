@@ -3,7 +3,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 84  47  23 }
+color = { 97  34  39 }
 
 historical_idea_groups = {
 	humanist_ideas
