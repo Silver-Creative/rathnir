@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)
 pd.set_option('max_colwidth', 800)
 
-SHEET_ID = "1Hj_YOoVy9d6G0wkMezla6iDy7kvkiAXWyKNEhiECAWE"
+SHEET_ID = "1Kxf8JnimUvgQvzq-VPTI5gAPzz76NcJlx7TLwKDHfEM"
 SHEET_NAME = "Provinces"
 url = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}'
 df = pd.read_csv(url)
@@ -23,7 +23,7 @@ with open('map/definition.csv', 'w', encoding='UTF-8', newline='') as def_file:
     writer.writerow(["province", "red", "green", "blue", "x", "x"])
     i = 0
     for i in range(4999):
-        if i+1 > 1674 and i+1 < 4977:
+        if i+1 > 2052 and i+1 < 4977:
             continue
         #if str(df.loc[i, 'id']) != "4999":
         id = str(df.at[i, 'id'])

@@ -4,7 +4,7 @@ owner = A00
 controller = A00
 add_core = A00
 
-culture = taloran
+culture = tàloran
 religion = hukar_sharud
 capital = ""
 

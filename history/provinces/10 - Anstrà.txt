@@ -4,7 +4,7 @@ owner = A51
 controller = A51
 add_core = A51
 
-culture = anoshphite
+culture = anòshphite
 religion = theiosism
 capital = ""
 

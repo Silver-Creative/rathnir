@@ -5,7 +5,7 @@ controller = A00
 add_core = A00
 add_core = A02
 
-culture = anoshphite
+culture = anòshphite
 religion = theiosism
 capital = ""
 

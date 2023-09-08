@@ -4,7 +4,7 @@ owner = A14
 controller = A14
 add_core = A14
 
-culture = taloran
+culture = tàloran
 religion = zentivar
 capital = ""
 

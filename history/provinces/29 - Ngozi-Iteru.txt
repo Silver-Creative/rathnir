@@ -4,7 +4,7 @@ owner = A52
 controller = A52
 add_core = A52
 
-culture = theioniki
+culture = theióniki
 religion = theiosism
 capital = ""
 

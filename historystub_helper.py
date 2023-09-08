@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)
 pd.set_option('max_colwidth', 800)
 
-SHEET_ID = "1Hj_YOoVy9d6G0wkMezla6iDy7kvkiAXWyKNEhiECAWE"
+SHEET_ID = "1Kxf8JnimUvgQvzq-VPTI5gAPzz76NcJlx7TLwKDHfEM"
 SHEET_NAME = "Provinces"
 url = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}'
 df = pd.read_csv(url)
@@ -37,7 +37,8 @@ religion_map = {
     "Abyss Mysticism": "abyss_mysticism",
     "Willowpact": "willowpact",
     "Noxism": "noxism",
-    "Asitir": "asitir"
+    "Asitir": "asitir",
+    "Twin Dragon": "twin_dragon"
 }
 
 def f_remove_accents(old):
