@@ -2,7 +2,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = abarillic
+primary_culture = fuciwan
+add_accepted_culture = abarillic
+add_accepted_culture = fuscinian
 religion = hukar_sharud
 technology_group = tech_alteniquian
 historical_friend = A00 #Yimmu-Audal

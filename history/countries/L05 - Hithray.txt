@@ -1,7 +1,7 @@
 government = monarchy
 
 government_rank = 1
-primary_culture = hithrayan
+primary_culture = sorradic
 religion = etherflame
 technology_group = tech_luthic
 capital = 706 #Bordig, provisional

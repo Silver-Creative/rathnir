@@ -1,8 +1,8 @@
 government = monarchy
 
 government_rank = 1
-primary_culture = serafian
-religion = etherflame
-technology_group = tech_luthic
+primary_culture = arbalonic #Change with Esparwood
+religion = etherflame #Change with Esparwood
+technology_group = tech_luthic #Change with Esparwood
 capital = 736 #Deviks
 national_focus = DIP
