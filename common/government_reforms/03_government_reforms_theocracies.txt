@@ -926,14 +926,8 @@ adventurer_reform = {
 		diplomats = -1
 		diplomatic_upkeep = -2
 		land_forcelimit = 10
-		colonists = 1
-
-		colonists = 1
-		global_colonial_growth = 40
-		colony_cost_modifier = -1
-
+		may_establish_frontier = yes
 		global_tax_income = 40
-		colony_cost_modifier = -1
 		
 		#Taken from natives
 		monthly_reform_progress = 0.75

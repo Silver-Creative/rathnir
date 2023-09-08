@@ -1,0 +1,3 @@
+lirgal_calls_for_aid = {
+    land_morale = 0.10
+}
