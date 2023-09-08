@@ -462,3 +462,46 @@ country_event = {
 	}
 
 }
+
+###LIRGAL DEFENCE###
+country_event = {
+	id = lirgal_happs.4
+	title = lirgal_happs.4.t
+	desc = lirgal_happs.4.d
+	picture = lirgalcool_eventPicture 
+	trigger = {
+		A21 = {
+			is_in_war = {
+				defender_leader = A21 
+			}
+		NOT = {
+			is_subject = yes 
+		}
+		}
+		Root = {
+			has_country_modifier = lirgal_global_defense_force 
+		}
+	}
+	immediate = {
+		A21 = {
+			set_country_flag = had_defence_force 
+		}
+	}
+	option = {
+		name = lirgal_happs.4.a
+		ai_chance = {
+			factor = 100
+		}
+		join_all_defensive_wars_of = A21 
+	}
+	option = {
+		name = lirgal_happs.4.b
+		ai_chance = {
+			factor = 0
+		}
+		reverse_add_opinion = {
+			who = A21
+			modifier = refused_join_war
+		}
+	}
+}
