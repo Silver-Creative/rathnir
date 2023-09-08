@@ -230,6 +230,8 @@
  N10_ADJ: "Oogrelonic"
  N11: "Khuzdurin"
  N11_ADJ: "Durinic"
+ N12: "Annuvin"
+ N12_ADJ: "Annuvini"
 
  N99: "Soleannan Empire"
  N99_ADJ: "Soleannan"
@@ -246,7 +248,7 @@
  O14_ADJ: "Carinan"
  O15: "Eastern Flowers"
  O15_ADJ: "Bardonian Adventurer"
- O16: "Order Soleannna"
+ O16: "Order Soleanna"
  O16_ADJ: "Soleannan"
  O17: "Trapper's Guild"
  O17_ADJ: "Krobuni"

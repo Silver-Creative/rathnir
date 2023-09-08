@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = wyngalan
+primary_culture = serafian
 religion = soleannen
 technology_group = tech_niedene
 capital = 550 #Marletto
@@ -14,7 +14,7 @@ national_focus = MIL
 		adm = 4
 		dip = 3
 		mil = 2
-		culture = wyngalan
+		culture = serafian
 		religion = soleannen
 		female = yes
 	}

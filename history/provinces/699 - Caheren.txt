@@ -1,8 +1,9 @@
 # 699 - Caheren
 
-owner = nan
-controller = nan
-add_core = nan
+owner = A08
+controller = A08
+add_core = A08
+add_core = N12
 
 culture = azurian
 religion = red_cult

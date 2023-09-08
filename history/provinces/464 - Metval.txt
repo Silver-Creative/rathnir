@@ -1,9 +1,5 @@
 # 464 - Metval
 
-owner = O29
-controller = O29
-add_core = O29
-
 culture = locetii
 religion = soleannen
 capital = ""

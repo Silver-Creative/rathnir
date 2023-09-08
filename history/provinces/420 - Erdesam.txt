@@ -4,8 +4,8 @@ owner = O20
 controller = O20
 add_core = O20
 
-culture = reikarii
-religion = soleannen
+culture = low_ryzani
+religion = tossanism
 capital = ""
 
 hre = no

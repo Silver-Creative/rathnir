@@ -113,6 +113,7 @@ N03 = "countries/Egalia.txt"
 N09 = "countries/Neurun.txt"
 N10 = "countries/Oogrelon.txt"
 N11 = "countries/Khuzdurin.txt"
+N12 = "countries/Annuvin.txt"
 
 N99 = "countries/Soleanna.txt"
 
