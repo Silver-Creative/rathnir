@@ -1,8 +1,8 @@
 # 692 - Dronnin
 
-owner = nan
-controller = nan
-add_core = nan
+owner = N14
+controller = N14
+add_core = N14
 
 culture = kietrii
 religion = soleannen
