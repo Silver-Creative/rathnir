@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = sorradic
 religion = etherflame
 technology_group = tech_luthic
-capital = 706 #Bordig, provisional
+capital = 676 #Tatonn
 national_focus = DIP
