@@ -18,5 +18,6 @@ national_focus = MIL
 		mil = 5
 		culture = kietrii
 		religion = soleannen
+		female = yes
 	}
 }
