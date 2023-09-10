@@ -358,7 +358,7 @@ niedene_group = {
 		"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
 		"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
 		"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
-		"dai Delgrenzvar" "dai Annuvin" "dai Attori"
+		"dai Delgrenzvar" "dai Annuvin" "dai Attori" "testicular torsion"
 
 		"Chaureste" 
 	
