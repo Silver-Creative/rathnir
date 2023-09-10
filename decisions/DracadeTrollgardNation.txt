@@ -1,5 +1,5 @@
 country_decisions = {
-	dracade-trollgard_nation = {
+	dracade_trollgard_nation = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_dracade_trollgard_flag }
@@ -37,7 +37,6 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 7
-			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			NOT = { exists = B96 } #Dracade-Trollgard
