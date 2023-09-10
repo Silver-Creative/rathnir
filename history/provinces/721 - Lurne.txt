@@ -1,8 +1,8 @@
 # 721 - Lurne
 
-owner = L07
-controller = L07
-add_core = L07
+owner = L13
+controller = L13
+add_core = L13
 
 culture = serafian
 religion = sakrelism
