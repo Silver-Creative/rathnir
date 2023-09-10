@@ -171,6 +171,9 @@ flammastahl = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			religion = soleannen 
+		}
 	}
 
 	can_upgrade_trigger = {
@@ -218,7 +221,7 @@ flammastahl = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			technology_cost = -0.1
+			technology_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -248,7 +251,7 @@ flammastahl = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			technology_cost = -0.12
+			technology_cost = -0.07
 			church_loyalty_modifier = 0.1
 
 		}
@@ -280,7 +283,7 @@ flammastahl = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			technology_cost = -0.15
+			technology_cost = -0.9
 			innovativeness_gain = 0.30
 			church_loyalty_modifier = 0.20
 			idea_cost = -0.15
@@ -313,6 +316,9 @@ ascension_site = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			religion = soleannen 
+		}
 	}
 
 	can_upgrade_trigger = {
@@ -857,7 +863,7 @@ severion_sylenekir = {
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
+		cost_to_upgrade = { 
 			factor = 5000
 		}
 
