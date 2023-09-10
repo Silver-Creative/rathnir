@@ -1,0 +1,94 @@
+country_decisions = {
+	dracade_trollgard_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_dracade_trollgard_flag }
+ 			NOT = { exists = B96 } #Dracade-Trollgard
+			OR = {
+                tag = B06 #Dracade
+                tag = B10 #Trollgard
+            }
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			normal_or_historical_nations = yes
+			#was_never_end_game_tag_trigger = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 344		# Kvitbyr
+				province_id = 1338		# Kronborg
+                province_id = 347       # Dragospiro
+                province_id = 346       # Dragolitore
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 7
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = B96 } #Dracade-Trollgard
+            OR = {
+                AND = {
+                    tag = B06 #Dracade
+                    NOT = { exists = B10 } #Trollgard
+                }
+                AND = {
+                    tag = B10 #Trollgard
+                    NOT = { exists = B06 } #Dracade
+                }
+            }
+			owns_core_province = 344		# Kvitbyr
+			owns_core_province = 1338		# Kronborg
+            owns_core_province = 347        # Dragospiro
+            owns_core_province = 346        # Dragolitore
+		}
+		effect = {
+			hidden_effect = { restore_country_name = yes }
+			change_tag = B96
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			outer_vastallos_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B96
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_dracade_trollgard_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		#ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,147 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 22  43  53 }
+
+historical_idea_groups = {
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	influence_ideas
+	offensive_ideas
+	aristocracy_ideas
+	spy_ideas		
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	#Historical Vastallosi Leaders (Male)
+	"Kori #0" = 10
+	"Andros #0" = 10
+    "Essendor #0" = 10
+
+    #Generic Vastallosi Names (Male)
+    "Kyvallo #0" = 10
+    "Varsilo #0" = 10
+    "Vitruvo #0" = 10
+    "Ekatudo #0" = 10
+    "Arcavioro #0" = 10
+    "Apolgo #0" = 10
+    "Aetyro #0" = 10
+    "Aegeus #0" = 10
+    "Theseus #0" = 10
+    "Lanzo #0" = 10
+    "Enkurro #0" = 10
+    "Karrido #0" = 10
+    "Sanafto #0" = 10
+    "Kitaneus #0" = 10
+    "Chromis #0" = 10
+    "Demos #0" = 10
+    "Pedulei #0" = 10
+    "Ken #0" = 10
+    "Melli #0" = 10
+    "Iuven #0" = 10
+    "Iloel #0" = 10
+    "Kiruri #0" = 10
+    "Ikanael #0" = 10
+    "Neper #0" = 10
+
+	#Generic Vastallosi Names (Female)
+    "Vella #0" = -1
+    "Zettha #0" = -1
+    "Kita #0" = -1
+    "Sofia #0" = -1
+    "Pitosa #0" = -1
+    "Apolare #0" = -1
+    "Landemosa #0" = -1
+    "Katerina #0" = -1
+    "Pyrrha #0" = -1
+    "Kirtia #0" = -1
+    "Selina #0" = -1
+    "Ariacia #0" = -1
+    "Allose #0" = -1
+    "Iecha #0" = -1
+    "Chromis #0" = -1
+    "Demos #0" = -1
+    "Pedulei #0" = -1
+    "Ken #0" = -1
+    "Melli #0" = -1
+    "Iuven #0" = -1
+    "Iloel #0" = -1
+    "Kiruri #0" = -1
+    "Ikanael #0" = -1
+    "Neper #0" = -1
+    "Kori #0" = -1
+	
+	#Historical Vastallosi Leaders (Female)
+    "Frostina #0" = -1
+}
+
+leader_names = {
+	#Place Specific
+	Carvaiosei Astursei Ravenei Knossei Qaruxei Dracadei Lapurrei Sioccei Agrianei
+	
+	#Noble Families
+	Nolagazi Glynrel Durradayne Mezaria Savii
+}
+
+ship_names = {
+	#Generic Rathniri
+	Adamant Advantage Adventure Advice Answer Ardent Armada Arrogant Assistance Association Assurance Atlas Audacious 
+	Bear Beaver "Black Galley" "Black Pinnace" "Black Prince" "Black Blood"
+	Captain Centurion Coronation Courage Crocodile Crown
+	Daisy Defence Defiance Devastation Diamond Director Dolphin Dragon Drake Dreadnaught Duke Duchess
+	Eagle Elephant Excellent Exchange Expedition Experiment
+	Falcon Fame Favourite Fellowship Fleetwood Flight Flirt Formidable Forrester Fortitude Fortune Gillyflower Globe "Golden Horse" "Golden Lion" "Golden Phoenix" Goliath Goodgrace Governor
+	"Grand Mistress" "Great Bark" "Great Charity" "Great Galley" "Great Gift"  "Great Pinnace" "Great Zebra" "Green Dragon" Greyhound Griffin Guide
+	"Half Moon" Hare Harpy Hawke Hazardous Heart Hero Hope "Hope Bark" "Hopeful Adventure" Humble Hunter
+	Illustrious Impregnable Increase Indefatigable Inflexible Intrepid Invincible
+	"Less Bark" "Less Pinnace" "Less Zebra"
+	Lively Lizard Lion
+	Magnanime Magnificent Majestic Makeshift Medusa Minotaur Moderate Monarch Moon Moor "New Bark"
+	Ocean 
+	Pansy Panther Parrot Porcupine Powerful President Prince "Prince Consort" "Prince Royal"
+	Redoubtable Reformation Regent Renown Repulse Research Reserve Resistance Resolution Restoration Revenge 
+	Salamander Sandwich Sapphire Satisfaction Seahorse Search Sheerness Speaker Speedwell Sphinx Splendid Sprite Stag Standard Stately Success Sunlight Sunbeam Superb Swan Sweepstake Swift Swiftsure
+	Terrible Terror Thunderer Tiger Tremendous Trident Trinity Triumph Trusty
+	Unicorn Union Unity
+	Valiant Vanguard Venerable Vestal Veteran Victor Vindictive Virtue Violet
+	Warrior Warspite
+	"Young Prince"
+	Zealous
+
+	Survey Surveillance
+	Cow Ox
+	Bird Hawk
+	Sovereign Emperor Count Lord Baron
+
+	Knight Paladin Dragonslayer Cleric Rogue Fighter Ranger Sorcerer Wizard Warlock Monk Druid
+	Strength Dexterity Constitution Intelligence Wisdom Charisma
+}
+
+army_names = {
+	"Ecserto Carvaiosei" "Ecserto de $PROVINCE$"
+}
+
+fleet_names = {
+	"Frotta Carvaiosei" "Red Squadron" "Green Squadron" "Yellow Squadron" "Blue Squadron"
+}

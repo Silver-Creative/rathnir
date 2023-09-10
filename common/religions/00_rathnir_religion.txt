@@ -18,7 +18,6 @@ perennial = {
 		icon = 30
 		allowed_conversion = {
 			red_cult
-			theiosism
 		}
 		country = {
 			diplomatic_reputation = 1
@@ -127,7 +126,6 @@ perennial = {
 		color = { 106 43 149 }
 		icon = 32
 		allowed_conversion = {
-			hukar_sharud
 		}
 		country = {
 			ae_impact = 0.1

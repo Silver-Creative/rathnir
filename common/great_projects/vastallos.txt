@@ -1,5 +1,5 @@
 the_grand_assembly = {
-    start = 363
+    start = 1292
     date = 1026.08.29
     build_cost = 0
     can_be_moved = no

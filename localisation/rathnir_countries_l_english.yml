@@ -145,7 +145,7 @@
  B09: "Knossos"
  B09_ADJ: "Knossian"
  B10: "Trollgard"
- B10_ADJ: "Trollgardic"
+ B10_ADJ: "Trollgarder"
  B11: "Dønsktopt"
  B11_ADJ: "Dønkstopi"
  B12: "Illyrix"
@@ -181,6 +181,8 @@
  B27: "League of Vastallos"
  B27_ADJ: "Federal Vastallosi"
 
+ B96: "Dracade-Trollgard"
+ B96_ADJ: "Dracade-Trollgarder"
  B97: "Denthros"
  B97_ADJ: "Denthrosi"
 
