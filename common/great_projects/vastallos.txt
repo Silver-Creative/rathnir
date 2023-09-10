@@ -478,8 +478,7 @@ blackstone_keep = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.1
-			local_manpower_modifier = 0.1
+			supply_limit_modifier = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -509,8 +508,7 @@ blackstone_keep = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.15
-			local_manpower_modifier = 0.25
+			supply_limit_modifier = 0.3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -520,6 +518,8 @@ blackstone_keep = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige_decay = -0.01
+			artillery_shock = 1
+			infantry_fire = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -542,8 +542,7 @@ blackstone_keep = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.2
-			local_manpower_modifier = 0.33
+			supply_limit_modifier = 0.4
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -553,8 +552,9 @@ blackstone_keep = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige_decay = -0.015
+			artillery_shock = 2
 			manpower_recovery = 0.15
-			land_attrition = -0.10
+			infantry_fire = 0.5
 		}
 
 		#what effects happen when this tier is achieved

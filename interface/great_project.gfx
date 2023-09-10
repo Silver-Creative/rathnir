@@ -28,7 +28,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_great_project_roscella_cathedral"
-		texturefile = "gfx//interface//great_projects//great_project_athazolant_canal.dds"
+		texturefile = "gfx//interface//great_projects//great_project_roscella_cathedral.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_kaithrat_watchers"

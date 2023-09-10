@@ -656,6 +656,13 @@ amos_asir_temple = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			OR = {
+			religion = hukar_sharud
+			religion = theiosism 
+			}
+
+		}
 	}
 
 	can_upgrade_trigger = {
@@ -702,7 +709,7 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			religious_unity = 0.5
+			religious_unity = 0.15
 			tolerance_heathen = 1
 		}
 
@@ -732,7 +739,7 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			religious_unity = 0.7
+			religious_unity = 0.3
 			tolerance_heathen = 2
 			global_missionary_strength = 0.01
 		}
@@ -765,7 +772,7 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			religious_unity = 0.9
+			religious_unity = 0.45
 			tolerance_own = 3
 			global_missionary_strength = 0.02
 			relation_with_same_religion = 25
@@ -779,7 +786,7 @@ amos_asir_temple = {
 	}
 }
 the_last_bastion = {
-    start = 352
+    start = 74
     date = 919.06.20
     build_cost = 0
     can_be_moved = no
@@ -935,6 +942,9 @@ il_kabulli_monastery = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			religion = soleannen 
+		}
 	}
 
 	can_upgrade_trigger = {
