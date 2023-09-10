@@ -114,6 +114,11 @@ N09 = "countries/Neurun.txt"
 N10 = "countries/Oogrelon.txt"
 N11 = "countries/Khuzdurin.txt"
 N12 = "countries/Annuvin.txt"
+N13 = "countries/Passanuria.txt"
+N14 = "countries/Dronnin.txt"
+N15 = "countries/Euqenilve.txt"
+N16 = "countries/Sentaria.txt"
+N17 = "countries/Minad.txt"
 
 N99 = "countries/Soleanna.txt"
 
@@ -147,7 +152,10 @@ L07 = "countries/Arbalon.txt"
 #L08 = "countries/Karasne.txt" - Releasable from the Crimson Citadel
 L09 = "countries/Raslige.txt"
 L10 = "countries/Liera.txt"
-#L11 
+L11 = "countries/Tuka.txt"
+L12 = "countries/Hascuse.txt"
+L13 = "countries/Saratenna.txt"
+L14 = "countries/Vespele.txt"
 #L15 = "countries/Arxella.txt"
 #L99 = "countries/Lotus Empire.txt"
 

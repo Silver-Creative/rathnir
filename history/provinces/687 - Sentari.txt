@@ -1,8 +1,8 @@
 # 687 - Sentari
 
-owner = nan
-controller = nan
-add_core = nan
+owner = N16
+controller = N16
+add_core = N16
 
 culture = kietrii
 religion = soleannen
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 trade_goods = cloth
 

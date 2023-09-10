@@ -1,18 +1,22 @@
-# 561 - Arikosan
+# 692 - Dronnin
 
-culture = kaseii
+owner = N14
+controller = N14
+add_core = N14
+
+culture = kietrii
 religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 2
+base_manpower = 3
 
-trade_goods = fur
+trade_goods = grain
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

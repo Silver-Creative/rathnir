@@ -3,7 +3,7 @@
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
-jagdasian = {
+perennial = {
 	can_form_personal_unions = no
 	defender_of_faith = no
 	flags_with_emblem_percentage = 33 # default == 0
@@ -87,7 +87,42 @@ jagdasian = {
 		declare_war_in_regency = yes
 		harmonized_modifier = harmonized_red_cult
 	}
-	
+
+	asitir = {
+		color = { 28  31  123 }
+		icon = 44
+		allowed_conversion = {
+
+		}
+		country = {
+			tolerance_heathen = 2
+			adm_tech_cost_modifier = -0.1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			adm_tech_cost_modifier = -0.05
+		}
+		province = {
+			local_tax_modifier = 0.05
+		}
+
+		on_convert = {
+			change_religion = asitir
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			TWIN_DRAGON
+			ASHURAN_PANTHEON
+		}
+		harmonized_modifier = harmonized_asitir
+	}
+
 	abyss_mysticism = {
 		color = { 106 43 149 }
 		icon = 32
@@ -777,40 +812,6 @@ elven = {
 		heretic = { 
 			TWIN_DRAGON
 			ASITIR
-		}
-	}
-
-	asitir = {
-		color = { 28  31  123 }
-		icon = 44
-		allowed_conversion = {
-
-		}
-		country = {
-			tolerance_heathen = 2
-			adm_tech_cost_modifier = -0.1
-		}
-		country_as_secondary = {
-			tolerance_heathen = 1
-			adm_tech_cost_modifier = -0.05
-		}
-		province = {
-			local_tax_modifier = 0.05
-		}
-
-		on_convert = {
-			change_religion = asitir
-			add_prestige = -100
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-		heretic = { 
-			TWIN_DRAGON
-			ASHURAN_PANTHEON
 		}
 	}
 

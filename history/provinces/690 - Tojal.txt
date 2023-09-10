@@ -1,8 +1,8 @@
 # 690 - Tojal
 
-owner = nan
-controller = nan
-add_core = nan
+owner = N15
+controller = N15
+add_core = N15
 
 culture = kietrii
 religion = soleannen
@@ -12,7 +12,7 @@ hre = no
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
 trade_goods = grain
 

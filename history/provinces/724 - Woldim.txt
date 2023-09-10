@@ -1,8 +1,8 @@
 # 724 - Woldim
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L13
+controller = L13
+add_core = L13
 
 culture = woltanje
 religion = norse
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 3
 
 trade_goods = horses
 

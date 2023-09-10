@@ -6,6 +6,8 @@ monarchy = {
 				feudalism_reform
 				autocracy_reform
 				elective_monarchy_reform
+				mirevassal_reform
+				mirequeen_reform
 			}
 		}
 		hereditary_vs_nobility = {

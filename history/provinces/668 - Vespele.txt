@@ -1,8 +1,8 @@
 # 668 - Vespele
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L14
+controller = L14
+add_core = L14
 
 culture = sorradic
 religion = norse
@@ -10,7 +10,7 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
 base_manpower = 1
 

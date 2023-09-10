@@ -1134,7 +1134,7 @@ dawnriver_area = {
 	687 688 689 690
 }
 
-utumno_area = {
+dronnin_area = {
 	691 692 693 694 695 696
 }
 

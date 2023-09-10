@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = hostic
+religion = sakrelism
+technology_group = tech_luthic
+capital = 683 #Amdeo
+national_focus = MIL
