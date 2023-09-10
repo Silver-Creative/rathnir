@@ -9,7 +9,7 @@
 sanctum_of_the_judge = {
     start = 244
     date = 11.03.612
-    build_cost = 1
+    build_cost = 0
     can_be_moved = no
     starting_tier = 1
     type = monument 
