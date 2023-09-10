@@ -29,7 +29,7 @@ audalad_group = {
 	adadid = {
 
 		dynasty_names = {
-			Audalad Caicuria
+			Audalad Caicuria Blah blah#teachingbreton
 		}
 
 		male_names = {
