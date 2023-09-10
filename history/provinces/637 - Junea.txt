@@ -4,7 +4,7 @@ owner = O26
 controller = O26
 add_core = O26
 
-culture = serrenii
+culture = vraelean
 religion = soleannen
 capital = ""
 
