@@ -84,7 +84,7 @@ urtu_lugalad = {
 		area_modifier = {
 			local_tax_modifier = 0.2
             local_prosperity_growth = 1
-            local_monthly_devastation = -0.75
+            local_monthly_devastation = -0.05
 		}
 		region_modifier = { }
 		country_modifiers = {
@@ -143,7 +143,7 @@ red_temple = {
 		area_modifier = { }
 		region_modifier = { }
 		country_modifiers = {
-			land_morale = 0.025
+			land_morale = 0.005
 			global_missionary_strength = 0.005
 		}
 		on_upgraded = { 
@@ -262,7 +262,7 @@ sky_pillars = {
 		}
 		region_modifier = { }
 		country_modifiers = {
-			naval_forcelimit = 2
+			naval_forcelimit = 1
 			trade_steering = 0.05
 			global_ship_trade_power = 0.025
 		}
@@ -292,7 +292,7 @@ sky_pillars = {
         }
 		region_modifier = { }
 		country_modifiers = {
-			naval_forcelimit = 4
+			naval_forcelimit = 2
 			trade_steering = 0.1
 			global_ship_trade_power = 0.075
 		}
@@ -322,7 +322,7 @@ sky_pillars = {
 		}
 		region_modifier = { }
 		country_modifiers = {
-			naval_forcelimit = 8
+			naval_forcelimit = 4
 			trade_steering = 0.2
 			global_ship_trade_power = 0.15
 		}
@@ -341,7 +341,7 @@ sky_pillars = {
 	}
 }
 
-# Jirnsteel Foundry (Anòshphéy)
+# Jirnsteel Foundry (Anï¿½shphï¿½y)
 jirnsteel_foundry = {
     start = 2 #Jirn
     date = 1.01.01
@@ -443,9 +443,9 @@ jirnsteel_foundry = {
 	}
 }
 
-# Tower of Memories (Anòshphéy)
+# Tower of Memories (Anï¿½shphï¿½y)
 tower_of_memories = {
-    start = 27 #Mahinor (Noín Lithrànòr)
+    start = 27 #Mahinor (Noï¿½n Lithrï¿½nï¿½r)
     date = 1.01.01
     time = { months = 0 }
 
@@ -640,7 +640,7 @@ sanctum_of_theiotokos = {
 	}
 }
 amos_asir_temple = {
-    start = 60 #duplicate all of this for kamos
+    start = 60
     date = 1360.04.17
     build_cost = 0
     can_be_moved = no
@@ -702,6 +702,8 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			religious_unity = 0.5
+			tolerance_heathen = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -730,6 +732,9 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			religious_unity = 0.7
+			tolerance_heathen = 2
+			global_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -760,6 +765,10 @@ amos_asir_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			religious_unity = 0.9
+			tolerance_own = 3
+			global_missionary_strength = 0.02
+			relation_with_same_religion = 25
 		}
 
 		#what effects happen when this tier is achieved
@@ -770,8 +779,8 @@ amos_asir_temple = {
 	}
 }
 the_last_bastion = {
-    start = 74
-    date = 982.06.08
+    start = 352
+    date = 919.06.20
     build_cost = 0
     can_be_moved = no
     starting_tier = 1
@@ -824,6 +833,7 @@ the_last_bastion = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -832,6 +842,8 @@ the_last_bastion = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_power_modifier = 0.1
+			prestige_decay = -0.005
 		}
 
 		#what effects happen when this tier is achieved
@@ -852,6 +864,7 @@ the_last_bastion = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -860,6 +873,8 @@ the_last_bastion = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_power_modifier = 0.15
+			prestige_decay = -0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -882,6 +897,7 @@ the_last_bastion = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -890,6 +906,9 @@ the_last_bastion = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_power_modifier = 0.2
+			prestige_decay = -0.015
+			manpower_recovery = 0.15
 		}
 
 		#what effects happen when this tier is achieved
@@ -954,6 +973,7 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			institution_growth = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -962,6 +982,8 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionaries = 1
+			prestige_per_development_from_conversion = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -982,6 +1004,7 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			institution_growth = 3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -990,6 +1013,8 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionaries = 1
+			prestige_per_development_from_conversion = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -1012,6 +1037,7 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			institution_growth = 6
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1020,6 +1046,9 @@ il_kabulli_monastery = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionaries = 1
+			prestige_per_development_from_conversion = 0.3
+			warscore_cost_other_religion = -0.25
 		}
 
 		#what effects happen when this tier is achieved
