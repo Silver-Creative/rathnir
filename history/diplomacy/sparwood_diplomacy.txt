@@ -1,0 +1,23 @@
+guarantee = {
+    first = L05
+    second = L11
+    start_date = 1444.1.1
+}
+
+guarantee = {
+    first = L05
+    second = L12
+    start_date = 1444.1.1
+}
+
+guarantee = {
+    first = L00
+    second = L04
+    start_date = 1444.1.1
+}
+
+guarantee = {
+    first = L00
+    second = L14
+    start_date = 1444.1.1
+}
