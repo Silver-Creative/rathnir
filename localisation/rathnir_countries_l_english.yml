@@ -221,6 +221,10 @@
  L11_ADJ: "Tukan"
  L12: "Hascuse"
  L12_ADJ: "Hascusan"
+ L13: "Saratenna"
+ L13_ADJ: "Saratennan"
+ L14: "Vespele"
+ L14_ADJ: "Vespelan"
 
 
 #Nieden
@@ -244,6 +248,8 @@
  N15_ADJ: "Euqenilvii"
  N16: "Sentaria"
  N16_ADJ: "Sentarii"
+ N17: "Minad"
+ N17_ADJ: "Minadin"
 
  N99: "Soleannan Empire"
  N99_ADJ: "Soleannan"
