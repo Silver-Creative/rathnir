@@ -856,7 +856,7 @@ siralua_lirgal = {
 	}
 }
 kaithrat_watchers = {
-    start = 262
+    start = 316
     date = 1362.07.20
     build_cost = 0
     can_be_moved = no
