@@ -12,14 +12,17 @@ country_event = {
 	trigger = {
 		is_year = 1460
 		NOT = { is_year = 1650 }
-		owns_or_subject_of = 262
+		owns = 262
 		is_at_war = no
 		OR = {
 			religion = sakrelism
 			religion = etherflame
 			religion = aegmerism
 			religion = theiosism
+			religion = hukar_sharud
+			religion = zentivar
 		}
+		set_global_flag = lirgal_forms_diplomatically
 	}
 	
 	mean_time_to_happen = {
@@ -347,7 +350,10 @@ country_event = {
 				}
 			}
 		}
-		create_march = A21
+		create_subject = {
+			type = lirgalyn_city
+			tag = A21
+		}
 	}
 
 	option = { #Country strong, vassalirgal and switch
@@ -392,7 +398,10 @@ country_event = {
 				}
 			}
 		}
-		create_march = A21
+		create_subject = {
+			type = lirgalyn_city
+			tag = A21
+		}
 		switch_tag = A21
 	}
 

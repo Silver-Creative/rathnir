@@ -1,8 +1,8 @@
 # 717 - Raslige
 
-owner = L13
-controller = L13
-add_core = L13
+owner = L05
+controller = L05
+add_core = L05
 
 culture = serafian
 religion = sakrelism
