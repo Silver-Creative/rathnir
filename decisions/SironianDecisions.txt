@@ -18,6 +18,7 @@ country_decisions = {
 		NOT = {is_subject_of = A12}
 		NOT = {has_country_flag = ilivian_negotiated}
 		}
+	}
 	allow = {
 		tag = A10
 		239 = {
@@ -32,15 +33,24 @@ country_decisions = {
 				owned_by = A94
 			}
 		}
-		NOT = {truce_with = A22 OR A94}
+		OR = {
+		NOT = {truce_with = A22}
+		NOT = {truce_with = A94}
+		}
+		OR = {
 		reverse_has_opinion = {
-		who = A22 OR A94
+		who = A22
 		value = 0
 			}
-		A22 = {
-		NOT = {is_subject_of = A12}
+		reverse_has_opinion = {
+		who = A94
+		value = 0
+			}
 		}
-		}
+			A22 = {
+				NOT = {is_subject = yes }
+			}
+	}
 	effect = {
 			country_event = {
 			id = flavor_sironia.1
@@ -52,6 +62,4 @@ country_decisions = {
 	ai_will_do = {
 	factor = 1
 	}
-}
-}
 }
