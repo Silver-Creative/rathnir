@@ -20,5 +20,4 @@ lirgal_global_defense_force = {
             value = 100
         }
     }
-    global_unrest = 0.05
 }
