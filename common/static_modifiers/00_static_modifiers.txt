@@ -2287,3 +2287,30 @@ enoseron_subject = {
 
 enoseron_overlord = {
 }
+
+lirgalcity_subject = {
+	stability_cost_modifier = -0.075
+	if = {
+		limit = {
+			overlord = {
+				NOT = {
+					asitir
+				}
+			}
+		}
+		religious_unity = -0.02
+	}
+	religious_unity = -0.05
+}
+
+lirgalcity_overlord = {
+	if = {
+		limit = {
+				NOT = {
+					asitir
+				}
+		}
+		religious_unity = -0.02
+	}
+	global_trade_power = 0.05
+}
