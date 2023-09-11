@@ -149,3 +149,83 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = flavor_gr.4
+    title = flavor_gr.4.t
+    desc = flavor_gr.4.d 
+    picture = TRADEGOODS_EventPicture
+    fire_only_once = yes
+    trigger = {
+        ai = yes 
+        total_development = 600
+        capital_scope = {
+        continent = alteniquia 
+        }
+        OR = {
+            culture_group = sagaviri_group
+            culture_group = low_luthic_group 
+    }
+        any_neighbor_country = {
+                total_development = 600
+                ai = yes
+                capital_scope = {
+                continent = alteniquia 
+                }
+                OR = {
+                    culture_group = sagaviri_group
+                    culture_group = low_luthic_group
+                }
+        }
+    }
+    mean_time_to_happen = {
+        months = 600
+    }
+    immediate = {
+        random_neighbor_country = {
+            limit = {
+                total_development = 600
+                ai = yes 
+                OR = {
+                    culture_group = sagaviri_group
+                    culture_group = low_luthic_group
+                }
+            }
+            save_event_target_as = unification_target 
+        }
+    }
+    option = {
+        name = flavor_gr.4.a
+        Root = {
+        inherit = event_target:unification_target 
+        }
+			hidden_effect = { restore_country_name = yes }
+			change_tag = A95
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			aldovir_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = A95
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_aldovir_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+    }
+}
