@@ -108,8 +108,8 @@ country_event = { #Bandits?
     option = { #"We didn't do anything - they will pay for insulting us!"
         name = flavor_gr.2.a
         add_casus_belli = {
-            target = event_target:origin_country
             type = cb_border_war 
+            target = event_target:origin_country
             months = 12 
         }
     }
@@ -125,7 +125,9 @@ country_event = { #Bandits?
         name = flavor_gr.2.c 
         event_target:origin_country = {
             add_casus_belli = {
+                type = cb_insult
                 target = Root 
+                months = 12
             }
             add_opinion = {
                 who = Root
