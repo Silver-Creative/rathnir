@@ -62,6 +62,7 @@ A52 = "countries/Apasiril.txt"
 A53 = "countries/Errebos.txt"
 A54 = "countries/Siroba.txt"
 
+A93 = "countries/Saramenor.txt"
 A94 = "countries/Carn.txt"
 A95 = "countries/Aldovir.txt"
 A96 = "countries/Sagavir.txt"

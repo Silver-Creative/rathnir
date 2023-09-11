@@ -331,7 +331,7 @@ A21_ideas = {
     }
     
     trigger = {
-        tag = A21
+        primary_culture = lirgalyn 
     }
     free = yes
     

@@ -1,0 +1,190 @@
+country_decisions = {
+    saramenori_nation = {
+        major = yes
+        potential = {
+            OR = {
+                tag = A21
+                tag = A11
+                culture = lapidosan
+                culture = kaithrati
+                culture = lirgalyn 
+            }
+            NOT = {
+                has_country_flag = formed_saramenor_flag 
+            }
+            normal_or_historical_nations = yes 
+			capital_scope = {
+				superregion = aldovir_superregion
+			}
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+        }
+        allow = {
+            OR = {
+                AND = {
+                    tag = A11 
+                    exists = A21 
+                    A21 = {
+                        is_subject_of = A11 
+                    }
+                    262 = { country_or_subject_holds = ROOT }
+                }
+                AND =  {
+                    tag = A21 
+                    OR = {
+                        A11 = {
+                            exists = no
+                        }
+                        A11 = {
+                            is_subject_of = A21
+                        }
+                    }
+                    321 = { country_or_subject_holds = ROOT }
+                    314 = { country_or_subject_holds = ROOT }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                    value = 6
+                    region = lapidosa_region
+                    }
+                }
+                AND = {
+                    A11 = {
+                        exists = no
+                    }
+                    A21 = {
+                        exists = no
+                    }
+                    262 = { country_or_subject_holds = ROOT }
+                    321 = { country_or_subject_holds = ROOT }
+                    314 = { country_or_subject_holds = ROOT }
+                    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                    value = 10
+                    region = lapidosa_region
+                    }
+                    
+                }
+            }
+            AND = {
+                adm_tech = 5
+                OR = {
+                    culture = lirgalyn
+                    culture = kaithrati
+                    culture = lapidosan 
+                }
+            }
+        }
+        effect = {
+			hidden_effect = { restore_country_name = yes }
+            change_tag = A93
+            change_primary_culture = lirgalyn 
+			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
+			remove_non_electors_emperors_from_empire_effect = yes
+            inherit = A21 
+            inherit = A11  
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+            lapidosa_region = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_permanent_claim = A93 
+            }
+            redhills_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            low_thyr_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            mimirs_pride_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            silverwoods_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            high_thyr_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            lower_ilivian_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            galadonn_area = {
+                limit = {
+                    NOT = {
+                        owned_by = ROOT 
+                    }
+                }
+                add_claim = A93
+            }
+            232 = {
+                add_claim = A93 
+            }
+            231 = {
+                add_claim = A93 
+            }
+            230 = {
+                add_claim = A93 
+            }
+            226 = {
+                add_claim = A93 
+            }
+            227 = {
+                add_claim = A93 
+            }
+            239 = {
+                add_claim = A93 
+            }
+            240 = {
+                add_claim = A93 
+            }
+            add_prestige = 20
+            set_capital = 262
+        }
+    }
+
+}
