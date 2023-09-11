@@ -565,11 +565,11 @@ country_event = {
         OR = {
             tag = A22
             tag = A94
+            }
             Root = {
                 is_subject_of = A12 
             }
             NOT = { is_year = 1500 }
-        }
     }
     mean_time_to_happen = {
         months = 96

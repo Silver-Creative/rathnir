@@ -77,7 +77,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_the_last_bastion.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_il_kabulli"
+		name = "GFX_great_project_il_kabulli_monastery"
 		texturefile = "gfx//interface//great_projects//great_project_il_kabulli.dds"
 	}
 
