@@ -68,6 +68,26 @@ grain = {
 			factor = 1.5
 			has_terrain = farmlands
 		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				area = seltikan_area
+				area = aveker_basin_area
+				area = eastern_orranderlos_area
+				area = wyngale_area
+				area = revanov_area
+				area = auberon_vale_area
+				area = lileanen_area
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				area = solea_area
+				area = sirrlai_area
+				area = vernimai_area
+			}
+		}
 	}
 }
 
@@ -111,6 +131,17 @@ wine = {
 			OR = {
 				has_terrain = hills
 				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 2
+			area = ezusried_area
+			area = sirrlai_area
+		}
+		modifier = {
+			factor = 1.1
+			FROM = {
+				culture_group = sagaviri_group
 			}
 		}
 	}
@@ -158,6 +189,10 @@ wool = {
 				has_terrain = drylands
 				has_climate = arid
 			}
+		}
+		modifier = {
+			factor 1.25
+			from = { culture = neurunic }
 		}
 	}
 }
@@ -279,6 +314,10 @@ fur = {
 				has_country_flag = encourage_cash_crops_flag
 			}
 		}
+		modifier = {
+			factor = 3.0
+			region = argentor_region
+		}
 	}
 }
 
@@ -389,6 +428,10 @@ copper = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 1.5
+			region = raykara_region
+		}
 	}
 }
 
@@ -401,6 +444,10 @@ gold = {
 		modifier = {
 			factor = 1.5
 			normal_or_historical_nations = no
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -423,6 +470,10 @@ iron = {
 				has_terrain = hills
 				has_terrain = highlands
 			}
+		}
+		modifier = {
+			factor = 666
+			province_id = 603
 		}
 	}
 }
@@ -448,6 +499,14 @@ slaves = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
+		}
+		modifier = {
+			factor = 1000
+			province_id = 744
 		}
 	}
 }
@@ -481,6 +540,10 @@ ivory = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -521,6 +584,10 @@ tea = {
 				has_country_flag = encourage_cash_crops_flag
 			}
 		}
+		modifier = {
+			factor = 0
+			continent = nieden
+		}
 	}
 }
 
@@ -550,6 +617,10 @@ chinaware = {
 				has_country_flag = encourage_cash_crops_flag
 			}
 		}
+		modifier = {
+			factor = 0
+			continent = nieden
+		}
 	}
 }
 
@@ -572,6 +643,10 @@ spices = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -604,6 +679,10 @@ coffee = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -647,6 +726,10 @@ cotton = {
 				has_country_flag = encourage_cash_crops_flag
 			}
 		}
+		modifier = {
+			factor = 0
+			continent = nieden
+		}
 	}
 }
 
@@ -680,6 +763,10 @@ sugar = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -715,6 +802,10 @@ tobacco = {
 				has_country_flag = encourage_cash_crops_flag
 			}
 		}
+		modifier = {
+			factor = 0
+			continent = nieden
+		}
 	}
 }
 
@@ -743,6 +834,10 @@ cocoa = {
 				has_winter = normal_winter
 				has_winter = severe_winter
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
 		}
 	}
 }
@@ -871,6 +966,9 @@ livestock = {
 				has_climate = tropical
 				has_climate = arctic
 			}
+			NOT = {
+				area = amsor_hinterlands_area
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -889,6 +987,10 @@ livestock = {
 		modifier = {
 			factor = 1.5
 			has_terrain = steppe
+		}
+		modifier = {
+			factor 1.5
+			area = amsor_hinterlands_area
 		}
 	}
 }
@@ -912,6 +1014,30 @@ incense = {
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
 			}
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
+			NOT = {
+				area = virnele_lowlands_area
+				area = arikosan_forest_area
+				area = virnele_highlands_area
+				has_terrain = forest
+				has_terrain = woods
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				area = virnele_lowlands_area
+				area = arikosan_forest_area
+				area = virnele_highlands_area
+			}
+		}
+		modifier = {
+			factor = 0.25
+			continent = nieden
+			has_terrain = woods
 		}
 	}
 }
@@ -1062,7 +1188,14 @@ redstone = {
 		allowed_num_of_buildings = 1
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
 	}
 }
 
@@ -1075,7 +1208,14 @@ lapis_lazuli = {
 		local_development_cost = -0.1
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
 	}
 
 }
@@ -1083,7 +1223,18 @@ lapis_lazuli = {
 silver = {
 	color = { 50 101 161 }
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5	
+		modifier = {
+			factor = 1.5
+			normal_or_historical_nations = no
+		}
+		modifier = {
+			factor = 0
+			continent = nieden
+			NOT = {
+				region = argentor_region
+			}
+		}
 	}
 
 }
@@ -1098,7 +1249,17 @@ obsidian = {
 		local_fort_maintenance_modifier = -0.2
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				has_terrain = mountain
+			}
+		}
+		modifier = {
+			factor 100
+			province_id = 496
+		}
 	}
 
 }
@@ -1112,7 +1273,15 @@ cheese = {
 		local_defensiveness = 0.15
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 10
+		modifier = {
+			factor = 0
+			NOT = { development_discounting_tribal = 18 }
+		}
+		modifier = {
+			factor = 2.0
+			development_discounting_tribal = 22
+		}
 	}
 
 }
@@ -1139,8 +1308,55 @@ fruits = {
 	province = {
 		local_unrest = -1
 	}
-	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_winter = severe_winter
+				has_climate = arctic
+				has_climate = arid
+				has_climate = tropical
+				has_terrain = jungle
+				has_terrain = drylands
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = marsh
+				has_terrain = savannah
+				has_terrain = glacier
+			}
+		}
+		modifier = {
+			factor = 0.25
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.25
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				area = solea_area
+				area = sirrlai_area
+				area = eastern_orranderlos_area
+				area = western_orranderlos_area
+			}
+		}
+		modifier = {
+			factor = 1.1
+			FROM = {
+				culture_group = sagaviri_group
+			}
+		}
 	}
 }
 
@@ -1153,7 +1369,15 @@ potions = {
 		province_trade_power_modifier = 0.10
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = { development_discounting_tribal = 18 }
+		}
+		modifier = {
+			factor = 2.0
+			development_discounting_tribal = 22
+		}
 	}
 }
 
@@ -1166,7 +1390,31 @@ lumber = {
 		local_build_cost = -0.20
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 20
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = mountain
+				has_terrain = desert
+				has_terrain = steppe
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_terrain = highlands
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+				region = egalia
+				area = entiatahl_area
+				area = lusiren_range_area
+				area = lusiren_mount_area
+				area = intorlai_area
+				area = jaw_of_locetia_area
+				area = drakonia_area
+			}
+		}
 	}
 }
 
@@ -1179,7 +1427,21 @@ horses = {
 		local_friendly_movement_speed = 0.25
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 30
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_terrain = grasslands
+					has_terrain = steppe
+					has_terrain = farmlands
+				}
+			}
+		}
+		modifier = {
+			factor = 3.0
+			has_terrain = steppe
+		}
 	}
 }
 
@@ -1192,6 +1454,14 @@ beer = {
 		local_years_of_nationalism = -3
 	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 0
+			NOT = { development_discounting_tribal = 18 }
+		}
+		modifier = {
+			factor = 2.0
+			development_discounting_tribal = 22
+		}
 	}
 }
