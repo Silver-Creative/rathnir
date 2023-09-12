@@ -239,3 +239,23 @@ carnian_monarchy = {
 		culture = carnian
 	}
 }
+
+bandit_republic = {
+	rank = {
+		1 = BANDITREP 
+		2 = BANDITREP 
+		3 = MARAUDERS
+	}
+
+	ruler_male = {
+		1 = BANDITCHIEF
+		2 = GRANDBRIGAND
+		3 = MARAUDERPREMIER
+	}
+	
+	ruler_female = {
+		1 = BANDITCHIEF
+		2 = GRANDBRIGAND
+		3 = MARAUDERPREMIER
+	}
+}
