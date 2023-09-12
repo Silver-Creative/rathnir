@@ -1,5 +1,9 @@
 # 584 - Natsor
 
+owner = N09
+controller = N09
+add_core = N09
+
 culture = neurunic
 religion = soleannen
 capital = ""
