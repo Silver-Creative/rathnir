@@ -284,6 +284,7 @@ republic = {
 				noble_elite_reform
 				free_city
 				peasants_republic
+				bandit_republic
 			}
 		}
 		republican_virtues = {

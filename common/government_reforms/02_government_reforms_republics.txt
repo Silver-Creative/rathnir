@@ -19,6 +19,46 @@ republic_mechanic = {
 	valid_for_nation_designer = no
 }
 
+
+#################################################################
+#################################################################
+#####################RATHNIRI TIER 1#############################
+#################################################################
+#################################################################
+
+bandit_republic = {
+	icon = "soldiers"
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	has_term_election = no
+	valid_for_new_country = yes
+	allow_convert = yes
+	lock_level_when_selected = yes
+	locked_government_type = yes
+	republican_name = no
+	rulers_can_be_generals = yes
+
+
+	potential = {
+		has_reform = bandit_republic
+	}
+
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			bandit_republic_mechanic
+		}
+	}
+}
+
+#################################################################
+#################################################################
+#####################RATHNIRI TIER 1#############################
+#################################################################
+#################################################################
+
+
 #Oligarchy vs Merchant Class vs Noble Elite
 
 oligarchy_reform = {
