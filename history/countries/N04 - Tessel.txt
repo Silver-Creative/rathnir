@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = escharii #We should make a new culture, bc escharii should be a dead culture
+primary_culture = ostiarii
 religion = soleannen
 technology_group = tech_niedene
 capital = 606 #Eraziirenn but could be changed to arcos
@@ -15,7 +15,7 @@ national_focus = ADM
 		adm = 4
 		dip = 4
 		mil = 3
-		culture = escharii
+		culture = ostiarii
 		religion = soleannen
 	}
 }

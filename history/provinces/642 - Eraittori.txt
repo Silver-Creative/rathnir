@@ -1,5 +1,9 @@
 # 642 - Eraittori
 
+owner = N12
+controller = N12
+add_core = N12
+
 culture = serrenii
 religion = soleannen
 capital = ""
