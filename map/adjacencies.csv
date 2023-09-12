@@ -14,6 +14,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 181;182;sea;962;-1;-1;-1;-1;coltmaere_crossing
 47;766;sea;1131;4219;1283;4221;1283;caedan_marsh_crossing
 57;643;sea;776;4467;1147;4469;1150;asylais-annuvin
+57;692;sea;776;-1;-1;-1;-1;asylais-dronnin
 748;749;sea;799;-1;-1;-1;-1;lestria_crossing
 177;184;sea;945;3849;1303;3847;1299;auraion_crossing
 551;552;sea;1125;-1;-1;-1;-1;wynbog-soltrebog
@@ -43,4 +44,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1127;1036;land;1297;-1;-1;-1;-1;HelmianLakes7359-duskwaters
 775;1120;land;629;-1;-1;-1;-1;litociBay-vaariede
 1121;1101;land;633;-1;-1;-1;-1;mariede-OsteriumSea7333
+603;604;sea;1116;-1;-1;-1;-1;tessel_crossing
 -1;-1;;-1;-1;-1;-1;-1;-1;
