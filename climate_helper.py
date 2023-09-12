@@ -26,10 +26,26 @@ climate_map = {
     "-": "N/A"
 }
 
+winter_map = {
+    "Winterless": "winterless",
+    "nan": "N/A",
+    "Mild": "mild_winter",
+    "Normal": "normal_winter",
+    "Severe": "severe_winter"
+}
+
 with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
     tropical = ""
     arid = ""
     arctic = ""
+
+    
+    mild = ""
+    normal = ""
+    severe = ""
+
+    
+
     for line in definition.readlines():
         line_arr = line.split(";")
         if not line_arr[0].isnumeric():
@@ -39,7 +55,9 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
             provID = int(line_arr[0])
             if df.at[provID-1, "type"] == "Land":
                 climate_raw = df.at[provID-1, "climate"]
+                winter_raw = df.at[provID-1, "winters"]
                 climate = climate_map[climate_raw]
+                winter = winter_map[winter_raw]
                 match climate:
                     case "tropical":
                         tropical = tropical + str(provID) + " "
@@ -48,9 +66,20 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
                     case "arctic":
                         arctic = arctic + str(provID) + " "
                     case "temperate":
-                        continue
+                        pass
                     case _:
                         print("Province " + str(provID) + " has no assigned climate!")
+                match winter:
+                    case "mild_winter":
+                        mild = mild + str(provID) + " "
+                    case "normal_winter":
+                        normal = normal + str(provID) + " "
+                    case "severe_winter":
+                        severe = severe + str(provID) + " "
+                    case "winterless":
+                        continue
+                    case _:
+                        print("Province " + str(provID) + " has no assigned winter!")
     print("tropical = {")
     print('\t' + tropical)
     print("}")
@@ -62,4 +91,18 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
     print("arctic = {")
     print('\t' + arctic)
     print("}")
+
+    print("mild_winter = {")
+    print('\t' + mild)
+    print("}")
+
+    print("normal_winter = {")
+    print('\t' + normal)
+    print("}")
+
+    print("severe_winter = {")
+    print('\t' + severe)
+    print("}")
+
+
     
