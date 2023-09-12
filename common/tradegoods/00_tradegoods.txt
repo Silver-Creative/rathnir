@@ -81,7 +81,7 @@ grain = {
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 3.0
 			OR = {
 				area = solea_area
 				area = sirrlai_area
@@ -113,7 +113,6 @@ wine = {
 				has_terrain = steppe
 				has_terrain = desert
 				has_terrain = coastal_desert
-				has_terrain = marsh
 				has_terrain = savannah
 				has_terrain = glacier
 			}
@@ -134,9 +133,11 @@ wine = {
 			}
 		}
 		modifier = {
-			factor = 2
-			area = ezusried_area
-			area = sirrlai_area
+			factor = 4.0
+			OR = {
+				area = ezusried_area
+				area = sirrlai_area
+			}
 		}
 		modifier = {
 			factor = 1.1
@@ -339,7 +340,7 @@ salt = {
 			NOT = { has_terrain = highlands }
 		}
 		modifier = {
-			factor = 2
+			factor = 2.0
 			OR = {
 				has_terrain = desert
 				AND = {
@@ -1027,7 +1028,7 @@ incense = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 3.0
 			OR = {
 				area = virnele_lowlands_area
 				area = arikosan_forest_area
@@ -1257,7 +1258,7 @@ obsidian = {
 			}
 		}
 		modifier = {
-			factor 100
+			factor = 100
 			province_id = 496
 		}
 	}
