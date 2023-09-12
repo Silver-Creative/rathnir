@@ -1,0 +1,182 @@
+banditrep_target_find = {
+    random_owned_province = {
+		limit = {
+			any_province = {
+				banditrep_range = yes
+			}
+		}
+		random_province = {
+			limit = {
+				banditrep_range = yes
+			}
+			save_event_target_as =  $target$
+		}
+		if = {
+			limit = { has_saved_event_target = $target$ }
+			event_target:$target$ = { set_province_flag = bandit_attack@ROOT }
+		}
+	}
+}
+
+banditrep_target_apply = {
+	banditrep_target_find = { target = banditrep_target_1 }
+	banditrep_target_find = { target = banditrep_target_2 }
+	banditrep_target_find = { target = banditrep_target_3 }
+	banditrep_target_find = { target = banditrep_target_4 }
+	banditrep_target_find = { target = banditrep_target_5 }
+#	banditrep_target_find = { target = banditrep_target_6 }
+}
+
+banditrep_bandit_neighbours = {
+	event_target:$target$ = {
+			limit = {
+				NOT = {
+					owned_by = ROOT
+					owner = { ROOT = { truce_with = PREV } }
+				}
+				is_city = yes
+			}
+			banditrep_effect = yes
+			hidden_effect = {
+				if = {
+					limit = { 
+						owner = { 
+							NOT = { 
+								has_country_flag = bandit_republic_attacked }
+								}
+							}
+					owner = {
+					set_country_flag =  bandit_republic_attacked
+#					country_event = { 
+#						id = saratenna_events.3
+#						days = 3
+#					}
+				}
+			}
+		}
+	}
+}
+
+banditrep_effect = {
+	if = {
+		limit = { development = 50 }
+		remove_loot = {
+			who = ROOT
+			amount = 30
+		}
+		event_target:$target$ = {
+			owner = {
+				manpower = -500
+			}
+		}
+		
+		ROOT = {
+			manpower = 490
+		}
+	}
+
+	else_if = {
+		limit = { development = 40 }
+		remove_loot = {
+			who = ROOT
+			amount = 26
+		}
+		event_target:$target$ = {
+				owner = {manpower = -430}
+			}
+		ROOT = {
+			manpower = 420
+		}
+	}
+	else_if = {
+		limit = { development = 35 }
+		remove_loot = {
+			who = ROOT
+			amount = 23
+		}
+		event_target:$target$ = {
+			owner = {manpower = -390}
+		}
+		ROOT = {
+			manpower = 380
+		}
+	}
+	else_if = {
+		limit = { development = 30 }
+		remove_loot = {
+			who = ROOT
+			amount = 20
+		}
+		event_target:$target$ = {
+			owner = {manpower = -310}
+		}
+		ROOT = {
+			manpower = 300
+		}
+	}
+	else_if = {
+		limit = { development = 25 }
+		remove_loot = {
+			who = ROOT
+			amount = 17
+		}
+		event_target:$target$ = {
+			owner = {manpower = -275}
+			}
+		ROOT = {
+			manpower = 250
+		}
+	}
+	else_if = {
+		limit = { development = 20 }
+		remove_loot = {
+			who = ROOT
+			amount = 14
+		}
+		event_target:$target$ = {
+			owner = {manpower = -230}
+		}
+		ROOT = {
+			manpower = 230
+		}
+	}
+	else_if = {
+		limit = { development = 15 }
+		remove_loot = {
+			who = ROOT
+			amount = 11
+		}
+		event_target:$target$ = {
+			owner = {manpower = -180}
+		}
+		ROOT = {
+			manpower = 160
+		}
+	}
+	else_if = {
+		limit = { development = 10 }
+		remove_loot = {
+			who = ROOT
+			amount = 8
+		}
+		event_target:$target$ = {
+			owner = {manpower = -125}
+		}
+		ROOT = {
+			manpower = 100
+		}
+	}
+	else = {
+		remove_loot = {
+			who = ROOT
+			amount = 5
+		}
+		event_target:$target$ = {
+			owner = {manpower = -80}
+		}
+		ROOT = {
+			manpower = 80
+		}
+	}
+	add_devastation = 10
+}

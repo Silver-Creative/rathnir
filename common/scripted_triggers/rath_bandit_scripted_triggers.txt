@@ -1,0 +1,15 @@
+banditrep_range = {
+		NOT = {
+			province_distance = {
+				who = PREV
+				distance = 80
+			}
+		}
+		NOT = {
+			has_province_flag = bandit_attack@ROOT
+			owned_by = ROOT
+			owner = { ROOT = { truce_with = PREV } }
+		}
+		has_discovered = ROOT
+        development = 5
+}
