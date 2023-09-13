@@ -62,6 +62,14 @@
  ANRA: "Anra"
  ASHIRA: "Ashira"
  
+ #sagaviri_republic
+ LIOVELDA: "Liovelda"
+ GRAND_LIOVELDA: "Grand Liovelda"
+ LIOVELDOR: "Lioveldor"
+ GRAND_LIOVELDOR: "Grand Lioveldor"
+ LIOVELDRESS: "Lioveldora"
+ GRAND_LIOVELDRESS: "Grand Lioveldora"
+
  #niedene_monarchy
  AROREI: "Arorei"
  ERASTERREI: "Erasterrei"
@@ -97,3 +105,12 @@
  BANDITCHIEF: "Bandit Chief"
  GRANDBRIGAND: "Grand Brigand"
  MARAUDERPREMIER: "Marauder Consul"
+
+ #admiralty
+ CAPTAINCY: "Captaincy"
+ ADMIRALTY: "Admiralty"
+ GRAND_ADMIRALTY: "Grand Admiralty"
+ CAPTAIN: "Captain"
+ ADMIRAL: "Admiral"
+ GRAND_ADMIRAL: "Grand Admiral"
+ CAPTAINESS: "Captainess"
