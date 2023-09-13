@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = chimunic
+religion = eastern_asharu
+technology_group = tech_luthic
+capital = 733 #Garanbir
+national_focus = DIP
