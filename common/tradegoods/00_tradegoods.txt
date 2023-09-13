@@ -192,7 +192,7 @@ wool = {
 			}
 		}
 		modifier = {
-			factor 1.25
+			factor = 1.25
 			from = { culture = neurunic }
 		}
 	}
@@ -990,7 +990,7 @@ livestock = {
 			has_terrain = steppe
 		}
 		modifier = {
-			factor 1.5
+			factor = 1.5
 			area = amsor_hinterlands_area
 		}
 	}
