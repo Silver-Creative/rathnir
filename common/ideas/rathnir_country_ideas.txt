@@ -389,7 +389,7 @@ A21_ideas = {
         technology_cost = -0.1
     }
 	A21_land_beloved_by_all = {
-         diplomatic_upkeep = 1
+        diplomatic_upkeep = 1
     }
     A21_seraani_diplomacy = {
         diplomatic_reputation = 1
