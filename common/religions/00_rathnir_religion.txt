@@ -16,9 +16,8 @@ perennial = {
 	hukar_sharud = {
 		color = { 240 182 0 }
 		icon = 30
-		allowed_conversion = {
-			red_cult
-		}
+		allowed_conversion = {}
+
 		country = {
 			diplomatic_reputation = 1
 			tolerance_heathen = 2
@@ -47,9 +46,8 @@ perennial = {
 	red_cult = {
 		color = { 136 8 8 }
 		icon = 31
-		allowed_conversion = {
-			hukar_sharud
-		}
+		allowed_conversion = {}
+
 		country = {
 			global_monthly_devastation = 0.05
 			land_morale = 0.2
@@ -90,9 +88,8 @@ perennial = {
 	asitir = {
 		color = { 28  31  123 }
 		icon = 44
-		allowed_conversion = {
+		allowed_conversion = {}
 
-		}
 		country = {
 			tolerance_heathen = 2
 			adm_tech_cost_modifier = -0.1
@@ -125,14 +122,13 @@ perennial = {
 	abyss_mysticism = {
 		color = { 106 43 149 }
 		icon = 32
-		allowed_conversion = {
-		}
+		allowed_conversion = {}
 		country = {
-			ae_impact = 0.1
-			technology_cost = -0.2
+			ae_impact = -0.05
+			technology_cost = -0.1
 		}
 		country_as_secondary = {
-			ae_impact = 0.1
+			ae_impact = -0.05
 		}
 
 		on_convert = {
@@ -156,7 +152,7 @@ perennial = {
 	zentivar = {
 		color = { 232 0 0 }
 		icon = 46
-		allowed_conversion = { }
+		allowed_conversion = {}
 
 		country = {
 			development_cost = -0.1
@@ -200,9 +196,8 @@ alteniquian = {
 	sakrelism = {
 		color = { 130 36 51 }
 		icon = 33
-		allowed_conversion = {
-			theiosism
-		}
+		allowed_conversion = {}
+
 		country = {
 			army_tradition_decay = -0.01
 			fire_damage = 0.1
@@ -221,8 +216,8 @@ alteniquian = {
 			215 #Roscella - Sanctum of the Mother
 			285 #Athazolant - Sanctum of the Scholar
 			325 #Asturcia - Grand Temple of the North
-		 	279 #Lumaire (NOT ADDED YET, temp. replaced by Lev�atanna) - Grand Temple of the South
-			673 #Serafini - Grand Temple of the East
+		 	279 #Lumaire (NOT ADDED YET, temp. replaced by Levyatanna) - Grand Temple of the South
+			715 #Serafini - Grand Temple of the East
 		}
 
 		blessings = {
@@ -256,9 +251,8 @@ alteniquian = {
 	theiosism = {
 		color = { 200 99 0 }
 		icon = 34
-		allowed_conversion = {
-			sakrelism
-		}
+		allowed_conversion = {}
+
 		country = {
 			cavalry_shock = 0.25
 			promote_culture_cost = -0.25
@@ -358,7 +352,7 @@ alteniquian = {
 				}
 			}
 
-			monath = {		#Mon�th, Angel of Holy War and Penance
+			monath = {		#Monath, Angel of Holy War and Penance
 				land_morale = 0.1
 				war_exhaustion = -0.02
 
@@ -392,7 +386,7 @@ alteniquian = {
 	etherflame = {
 		color = { 13 157 157 }
 		icon = 47
-		allowed_conversion = { }
+		allowed_conversion = {}
 
 		country = {
 			tolerance_own = 1
@@ -425,7 +419,7 @@ alteniquian = {
 	aegmerism = {
 		color = { 100 149 237 }
 		icon = 53
-		allowed_conversion = { }
+		allowed_conversion = {}
 
 		country = {
 			tolerance_own = 1
@@ -473,9 +467,8 @@ niedene = {
 	soleannen = {
 		color = { 255 236 114 }
 		icon = 35
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			tolerance_own = 1
 			global_heathen_missionary_strength = 0.01
@@ -503,9 +496,8 @@ niedene = {
 	soleviel = {
 		color = { 192 192 192 }
 		icon = 36
-		allowed_conversion = {
-		
-		}
+		allowed_conversion = {}
+
 		country = {
 			global_tax_modifier = 0.1
 			advisor_cost = -0.1
@@ -551,9 +543,8 @@ talawan = {
 	asharu = {
 		color = { 153 0 0 }
 		icon = 37
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			supply_limit_modifier = 0.2
 			diplomatic_reputation = 1
@@ -583,9 +574,8 @@ talawan = {
 	eastern_asharu = {
 		color = { 236 47 47 } 
 		icon = 38
-		allowed_conversion = {
-		
-		}
+		allowed_conversion = {}
+
 		country = {
 			global_missionary_strength = 0.015
 			trade_efficiency = 0.15
@@ -630,9 +620,8 @@ northern = {
 	noxism = {
 		color = { 205 217 191 }
 		icon = 39
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			innovativeness_gain = 0.75
 			technology_cost = -0.1
@@ -675,9 +664,8 @@ brothian = {
 	dandelism = {
 		color = { 0 154 22 }
 		icon = 40
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			land_morale = 0.1
 			global_regiment_cost = -0.2
@@ -708,9 +696,8 @@ brothian = {
 	tossanism = {
 		color = { 66 58 119 } 
 		icon = 41
-		allowed_conversion = {
-		
-		}
+		allowed_conversion = {}
+
 		country = {
 			merchants = 1
 			defensiveness = 0.2
@@ -755,9 +742,8 @@ elven = {
 	twin_dragon = {
 		color = { 214 229 140 }
 		icon = 42
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			tolerance_own = 1 #REDO
 		}
@@ -784,9 +770,8 @@ elven = {
 	ashuran_pantheon = {
 		color = { 204 76 76 }
 		icon = 43
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			global_tax_modifier = 0.1 #REDO
 		}
@@ -830,9 +815,8 @@ feybound = {
 	sanderosa = {
 		color = { 46 148 42 }
 		icon = 49
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			tolerance_own = 1 #REDO
 		}
@@ -858,13 +842,11 @@ feybound = {
 	willowpact = {
 		color = { 0 114 187 }
 		icon = 52
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			attack_bonus_in_capital_terrain = 2
 			land_attrition = -0.10
-			liberty_desire = -100
 		}
 		country_as_secondary = {
 			land_attrition = -0.10
@@ -905,9 +887,8 @@ ummarnan = {
 	ardat_lily = {
 		color = { 132 41 126 }
 		icon = 48
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+
 		country = {
 			tolerance_own = 1 #REDO
 		}
@@ -933,9 +914,8 @@ ummarnan = {
 	cardinalism = {
 		color = { 213 185 97 }
 		icon = 50
-		allowed_conversion = {
-			
-		}
+		allowed_conversion = {}
+		
 		country = {
 			global_tax_modifier = 0.1 #REDO
 		}
