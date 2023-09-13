@@ -864,6 +864,7 @@ feybound = {
 				duration = 3650
 			}
 		}
+		
 		heretic = {
 				SANDEROSA
 		}
