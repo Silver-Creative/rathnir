@@ -82,7 +82,7 @@ technology = { #National Ideas
 	year = 1466
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.15
+		banking = 0.15
 	}
 
 	allowed_idea_groups = 1
@@ -94,7 +94,7 @@ technology = { #Workshop
 	year = 1479
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.3
+		banking = 0.3
 	}
 
 	#Workshop
@@ -103,12 +103,12 @@ technology = { #Workshop
 	ramparts = yes
 }
 
-technology = { #Renaissance Thought
+technology = { #banking Thought
 	# Tech 7
 	year = 1492
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 	}
 	
 	#Noble Republic
@@ -120,7 +120,7 @@ technology = { #Courthouse
 	year = 1505
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 	}
 
 	courthouse = yes
@@ -133,7 +133,7 @@ technology = { #The Scythe
 	year = 1518
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.15
 	}
 	
@@ -148,7 +148,7 @@ technology = { #Modern Theocracy
 	year = 1531
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.3
 	}
 	
@@ -161,7 +161,7 @@ technology = { #Textile Manufactory
 	year = 1544
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 	}
 	
@@ -175,7 +175,7 @@ technology = { #Early Modern Administration
 	year = 1557
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 	}
 	
@@ -190,7 +190,7 @@ technology = { #Improved Drainage
 	year = 1570
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.15
 	}
@@ -204,7 +204,7 @@ technology = { #Scientific Experimentation
 	year = 1583
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.3
 	}
@@ -218,7 +218,7 @@ technology = { #Military Administration
 	year = 1596
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
@@ -232,7 +232,7 @@ technology = { #Metallurgy
 	year = 1609
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
@@ -248,7 +248,7 @@ technology = { #University
 	year = 1622
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.15
@@ -266,7 +266,7 @@ technology = { #National Sovereignty
 	year = 1635
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.3
@@ -280,7 +280,7 @@ technology = { #Cathedral
 	year = 1648
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -295,7 +295,7 @@ technology = { #Absolute Rulership
 	year = 1661
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -310,7 +310,7 @@ technology = { #Land Clearance
 	year = 1674
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -327,7 +327,7 @@ technology = { #The Constitution
 	year = 1687
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -346,7 +346,7 @@ technology = { #Measuring the World
 	year = 1700
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -362,7 +362,7 @@ technology = { #Bonds and Tontines
 	year = 1715
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -379,7 +379,7 @@ technology = { #Improved Production
 	year = 1730
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -396,7 +396,7 @@ technology = { #Separation of Powers
 	year = 1745
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -412,7 +412,7 @@ technology = { #Modern Bureaucracy
 	year = 1760
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -430,7 +430,7 @@ technology = { #Rotherham Plough
 	year = 1775
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -448,7 +448,7 @@ technology = { #Rights of Man
 	year = 1790
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -467,7 +467,7 @@ technology = { #Advanced Production
 	year = 1805
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -485,7 +485,7 @@ technology = { #Revolutionary Ideals
 	year = 1820
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
@@ -504,7 +504,7 @@ technology = { #Four Field Rotation
 	year = 1835
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.5
+		banking = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5

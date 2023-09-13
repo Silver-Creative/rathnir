@@ -15,18 +15,18 @@ namespace = institution_events
 # no event needed, available from the start
 
 #######################################
-# Renaissance
+# Banking
 #######################################
 country_event = {
 	id = institution_events.2
-	title = institution_events.2.t
-	desc = institution_events.2.d
+	title = institution_events.2.title
+	desc = institution_events.2.desc
 	
 	picture = {
 		trigger = {
 			OR = {
 				NOT = { has_dlc = "Cradle of Civilization" }
-				NOT = { religion_group = muslim }
+				capital_scope = { continent = alteniquia }
 			}
 		}
 		picture = PAINTER_ARTIST_eventPicture
@@ -34,7 +34,7 @@ country_event = {
 	picture = {
 		trigger = {
 			has_dlc = "Cradle of Civilization"
-			religion_group = muslim
+			capital_scope = { NOT = { continent = alteniquia } }
 		}
 		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
 	}
@@ -72,7 +72,7 @@ country_event = {
 		custom_tooltip = institution_events.2.a.tt
 		FROM = {
 			add_permanent_province_modifier = {
-				name = "birthplace_of_the_renaissance"
+				name = "birthplace_of_banking"
 				duration = -1
 			}
 		}
@@ -101,13 +101,13 @@ country_event = {
 
 country_event = {
 	id = institution_events.200
-	title = institution_events.2.t
-	desc = institution_events.200.d
+	title = institution_events.2.title
+	desc = institution_events.200.desc
 	picture = {
 		trigger = {
 			OR = {
 				NOT = { has_dlc = "Cradle of Civilization" }
-				NOT = { religion_group = muslim }
+				capital_scope = { continent = alteniquia }
 			}
 		}
 		picture = PAINTER_ARTIST_eventPicture
@@ -115,7 +115,7 @@ country_event = {
 	picture = {
 		trigger = {
 			has_dlc = "Cradle of Civilization"
-			religion_group = muslim
+			capital_scope = { NOT = { continent = alteniquia } }
 		}
 		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
 	}
@@ -142,13 +142,13 @@ country_event = {
 #Far away travellers...
 country_event = {
 	id = institution_events.201
-	title = institution_events.2.t
-	desc = institution_events.201.d
+	title = institution_events.2.title
+	desc = institution_events.201.desc
 	picture = {
 		trigger = {
 			OR = {
 				NOT = { has_dlc = "Cradle of Civilization" }
-				NOT = { religion_group = muslim }
+				capital_scope = { continent = alteniquia }
 			}
 		}
 		picture = PAINTER_ARTIST_eventPicture
@@ -156,7 +156,7 @@ country_event = {
 	picture = {
 		trigger = {
 			has_dlc = "Cradle of Civilization"
-			religion_group = muslim
+			capital_scope = { NOT = { continent = alteniquia } }
 		}
 		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
 	}
@@ -1480,84 +1480,6 @@ country_event = {
 				value = 25
 			}
 		}
-	}
-}
-
-#Renaissance
-
-#Mirrors for Princes
-country_event = {
-	id = institution_events.12
-	title = institution_events.12.t
-	desc = institution_events.12.d
-	picture = BIG_BOOK_eventPicture
-	goto = capital
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			capital_scope = {
-				save_event_target_as = capital
-			}
-		}
-	}
-
-	trigger = {
-		is_institution_enabled = renaissance
-		has_institution = feudalism
-		NOT = { has_institution = renaissance }
-		has_heir = yes
-		heir_age = 6
-		NOT = { heir_age = 25 }
-		any_neighbor_country = {
-			has_institution = renaissance
-		}
-		NOT = {
-			capital_scope = {
-				renaissance = 100
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = institution_events.12.a #Let us foster a wise Prince.
-		trigger = { has_female_heir = no }
-		ai_chance = {
-			factor = 0.25
-		}
-		add_adm_power = -50
-		capital_scope = {
-			add_institution_embracement = {
-				which = renaissance
-				value = 75
-			}
-		}
-	}
-	option = {
-		name = institution_events.12.b #Let us foster a wise Princess.
-		trigger = { has_female_heir = yes }
-		ai_chance = {
-			factor = 0.25
-		}
-		add_adm_power = -50
-		capital_scope = {
-			add_institution_embracement = {
-				which = renaissance
-				value = 75
-			}
-		}
-	}
-	option = {
-		name = institution_events.12.c
-		ai_chance = {
-			factor = 0.75
-		}
-		add_prestige = 5
 	}
 }
 

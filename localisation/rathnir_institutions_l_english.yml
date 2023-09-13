@@ -1,0 +1,23 @@
+﻿l_english:
+ #Banking
+ banking: "Banking"
+ tooltip_any_friendly_coast_border_province_has_embraced_banking: "Nearby friendly province has embraced §YBanking§!"
+ tooltip_any_neighbor_has_embraced_banking: "Adjacent foreign province has embraced §YBanking§!"
+ tooltip_primate_city: "Is a §GPrimate City of Vastallos§!"
+ tooltip_development_10: "Is an Alteniquian province with at least 10 development"
+ tooltip_development_20: "Is an Alteniquian province with at least 20 development"
+ tooltip_development_5_post_1500: "Is an Alteniquian province with at least 5 development after the year 1500"
+ tooltip_colonial_overlord_banking: "Colonial overlord has embraced §YBanking§! (only applies to the capital or ports!)"
+ tooltip_banking_embraced: "Province is not owned by a trade company and the owner has embraced §YBanking§!"
+
+ #Banking events
+ institution_events.2.title: "Banking!"
+ institution_events.2.desc: "idfk"
+ institution_events.2.a: "This changes everything..."
+ institution_events.2.a.tt: "§YEmbracing§! the §YBanking§! institution will be vital for future advancements in §YTechnology§!."
+ institution_events.200.desc: "idfk2"
+ institution_events.201.desc: "idfk3"
+
+ #Banking misc
+ birthplace_of_banking: "Great Bank of $PROVINCENAME$"
+ desc_birthplace_of_banking: "This province is home to one of the first banks on Rathnir and still benefits from the development that brought!"
