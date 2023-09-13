@@ -7,9 +7,8 @@ war_goal = {
 
 1421.10.30 = {
     add_attacker = A08
-    add_attacker = L05
-    add_attacker = L12
-    add_attacker = L11
+    add_defender = L12
+    add_defender = L11
     add_defender = N12
     add_defender = N13
     add_defender = N14
@@ -18,16 +17,19 @@ war_goal = {
     add_defender = N17
     add_defender = L10
 }   
-1444.11.1 = {
+#Liera peaces out
+1430.11.11 = {
+    rem_defender = L10
+    rem_defender = L11
+    rem_defender = L12
+}
+#Azuria burns down Caheren, moved up to start date for truces.
+1444.11.11 = {
     rem_attacker = A08
-    rem_attacker = L05
-    rem_attacker = L12
-    rem_attacker = L11
     rem_defender = N12
     rem_defender = N13
     rem_defender = N14
     rem_defender = N15
     rem_defender = N16
     rem_defender = N17
-    rem_defender = L10
 }
