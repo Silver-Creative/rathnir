@@ -66,12 +66,12 @@ banditrep_effect = {
 		}
 		event_target:$target$ = {
 			owner = {
-				manpower = -500
+				add_manpower = -500
 			}
 		}
 		
 		ROOT = {
-			manpower = 490
+			add_manpower = 490
 		}
 	}
 
@@ -82,10 +82,10 @@ banditrep_effect = {
 			amount = 26
 		}
 		event_target:$target$ = {
-				owner = {manpower = -430}
+				owner = {add_manpower = -430}
 			}
 		ROOT = {
-			manpower = 420
+			add_manpower = 420
 		}
 	}
 	else_if = {
@@ -95,10 +95,10 @@ banditrep_effect = {
 			amount = 23
 		}
 		event_target:$target$ = {
-			owner = {manpower = -390}
+			owner = {add_manpower = -390}
 		}
 		ROOT = {
-			manpower = 380
+			add_manpower = 380
 		}
 	}
 	else_if = {
@@ -108,10 +108,10 @@ banditrep_effect = {
 			amount = 20
 		}
 		event_target:$target$ = {
-			owner = {manpower = -310}
+			owner = {add_manpower = -310}
 		}
 		ROOT = {
-			manpower = 300
+			add_manpower = 300
 		}
 	}
 	else_if = {
@@ -121,10 +121,10 @@ banditrep_effect = {
 			amount = 17
 		}
 		event_target:$target$ = {
-			owner = {manpower = -275}
+			owner = {add_manpower = -275}
 			}
 		ROOT = {
-			manpower = 250
+			add_manpower = 250
 		}
 	}
 	else_if = {
@@ -134,10 +134,10 @@ banditrep_effect = {
 			amount = 14
 		}
 		event_target:$target$ = {
-			owner = {manpower = -230}
+			owner = {add_manpower = -230}
 		}
 		ROOT = {
-			manpower = 230
+			add_manpower = 230
 		}
 	}
 	else_if = {
@@ -147,10 +147,10 @@ banditrep_effect = {
 			amount = 11
 		}
 		event_target:$target$ = {
-			owner = {manpower = -180}
+			owner = {add_manpower = -180}
 		}
 		ROOT = {
-			manpower = 160
+			add_manpower = 160
 		}
 	}
 	else_if = {
@@ -160,10 +160,10 @@ banditrep_effect = {
 			amount = 8
 		}
 		event_target:$target$ = {
-			owner = {manpower = -125}
+			owner = {add_manpower = -125}
 		}
 		ROOT = {
-			manpower = 100
+			add_manpower = 100
 		}
 	}
 	else = {
@@ -172,10 +172,10 @@ banditrep_effect = {
 			amount = 5
 		}
 		event_target:$target$ = {
-			owner = {manpower = -80}
+			owner = {add_manpower = -80}
 		}
 		ROOT = {
-			manpower = 80
+			add_manpower = 80
 		}
 	}
 	add_devastation = 10

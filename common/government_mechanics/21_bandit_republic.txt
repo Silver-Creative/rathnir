@@ -12,7 +12,7 @@ bandit_republic_mechanic = {
                 always = no
             }
             effect = {
-                manpower = 10000
+                add_manpower = 10000
             }
         }
         bandit_raid = {
@@ -34,7 +34,7 @@ bandit_republic_mechanic = {
                 always = no
             }
             effect = {
-                manpower = -10000
+                add_manpower = -10000
             }
         }
     }
