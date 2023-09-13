@@ -1058,7 +1058,7 @@ il_kabulli_monastery = {
 		country_modifiers = {
 			missionaries = 1
 			prestige_per_development_from_conversion = 0.3
-			warscore_cost_other_religion = -0.25
+			warscore_cost_vs_other_religion = -0.25
 		}
 
 		#what effects happen when this tier is achieved
