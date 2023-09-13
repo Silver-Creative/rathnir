@@ -832,11 +832,11 @@ feybound = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
+		}
 
-			heretic = {
+		heretic = {
 				WILLOWPACT
 			}
-		}
 	}
 
 	willowpact = {
@@ -863,10 +863,9 @@ feybound = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
-			
-			heretic = {
+		}
+		heretic = {
 				SANDEROSA
-			}
 		}
 	}
 	
