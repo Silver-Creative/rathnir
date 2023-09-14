@@ -1,16 +1,3 @@
-# Vraelea protecting foothills ppl
-guarantee = {
-    first = L00
-    second = L04
-    start_date = 1444.11.11
-}
-
-guarantee = {
-    first = L00
-    second = L14
-    start_date = 1444.11.11
-}
-
 #Saratenna and Tuka friendship
 alliance = {
     first = L11 #Tuka
