@@ -1,7 +1,7 @@
 # 648 - Flumeres
 
 culture = serrenii
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no

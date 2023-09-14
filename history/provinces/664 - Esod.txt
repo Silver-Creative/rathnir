@@ -5,7 +5,7 @@ controller = L00
 add_core = L00
 
 culture = vraelean
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no

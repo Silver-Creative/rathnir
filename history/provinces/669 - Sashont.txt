@@ -5,7 +5,7 @@ controller = L04
 add_core = L04
 
 culture = sorradic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no

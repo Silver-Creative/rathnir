@@ -5,7 +5,7 @@ controller = L03
 add_core = L03
 
 culture = arbalonic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no

@@ -944,3 +944,72 @@ ummarnan = {
 	crusade_name = HOLY_WAR
 	harmonized_modifier = harmonized_ummarnan
 }
+
+philosophies = {
+	lotus_doctrine = {
+		color = { 185 255 255 }
+		icon = 50
+		allowed_conversion = {}
+		uses_harmony = yes
+		
+		country = {
+			can_not_build_missionaries = yes
+			no_religion_penalty = yes
+			institution_growth = 1
+		}
+		country_as_secondary = {
+			institution_growth = 1
+		}
+		province = {
+			655
+		}
+
+		on_convert = {
+			change_religion = lotus_doctrine
+			add_prestige = -75
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { 
+			LOTUS_RADICALS
+		}
+	}
+}
+
+sparwood_group = {
+	vinaestre = {
+		color = { 210 210 230 }
+		icon = 50
+		allowed_conversion = {}
+		ancestors = yes
+		country = {
+			discipline = 0.025
+			defensiveness = 0.15
+		}
+		country_as_secondary = {
+			discipline = 0.025
+			defensiveness = 0.15
+		}
+		province = {
+			655
+		}
+
+		on_convert = {
+			change_religion = vinaestre
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = {
+			ICONOCLASTS
+		}
+	}
+}
