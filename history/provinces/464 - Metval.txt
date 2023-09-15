@@ -1,9 +1,5 @@
 # 464 - Metval
 
-owner = nan
-controller = nan
-add_core = nan
-
 culture = locetii
 religion = soleannen
 capital = ""
@@ -16,7 +12,7 @@ base_manpower = 1
 
 trade_goods = naval_supplies
 
-is_city = yes
+is_city = no
 fort_15th = no
 
 discovered_by = tech_alteniquian

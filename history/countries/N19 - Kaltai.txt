@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+primary_culture = reikarii
+religion = soleannen
+technology_group = tech_niedene
+capital = 457 #Kalei
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Ermand an Kalei"
+		birth_date = 1401.7.3
+		adm = 5
+		dip = 4
+		mil = 3
+		culture = reikarii
+		religion = soleannen
+	}
+}

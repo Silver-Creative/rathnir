@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = civic_republicanism_government
+government_rank = 1
+primary_culture = serrenii
+religion = vinaestre
+technology_group = tech_luthic
+capital = 646 #Da Kuang
+national_focus = DIP

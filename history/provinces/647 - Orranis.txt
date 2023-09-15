@@ -1,5 +1,9 @@
 # 647 - Orranis
 
+owner = N18
+controller = N18
+add_core = N18
+
 culture = serrenii
 religion = vinaestre
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 3
 
 trade_goods = wool
 
-is_city = nan
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian
