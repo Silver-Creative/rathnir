@@ -1,5 +1,9 @@
 # 584 - Natsor
 
+owner = N09
+controller = N09
+add_core = N09
+
 culture = neurunic
 religion = soleannen
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = wool
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

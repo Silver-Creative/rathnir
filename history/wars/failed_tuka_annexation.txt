@@ -1,0 +1,47 @@
+name = "The Blunder of King Aspers"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 686
+}
+
+1438.6.11 = {
+    add_attacker = L05 #Hithray
+    add_defender = L10 #Liera
+    add_defender = L11 #Tuka
+    add_defender = L12 #Hacuse
+}
+#Saratenna declares independence from Arbalon and Hithray, taking advantage of Asper's distraction
+1438.11.11 = {
+    add_defender = L13 #Saratenna
+    add_attacker = L07 #Arbalon
+}
+#Liera capitulates, ceding their capital and Tuka, and releasing Hacuse.
+#Tuka resists annexation, and allies itself with Saratenna
+1439.11.11 = {
+    rem_defender = L10 #Liera
+    rem_defender = L12 #Hacuse
+}
+#Tash'nayil and Vespele, who were previously lords under Hithray, revolt
+#This was caused by Aspers being tyrranical and failing to put down the bandits
+#Arbalon gives up on fighting bandits.
+1440.11.11 = {
+    add_defender = L04 #Tash'nayil
+    add_defender = L14 #Vespele
+    rem_attacker = L07 #Arbalon
+}
+#Serafini attempts intervention but it doesn't work out, loses Raslige in process.
+1442.11.11 = {
+    add_attacker = L01 #Serafini
+    add_defender = L09 #Raslige
+}
+#King Aspers deposed, war ends. Moved up to start date for truces.
+1444.11.11 = {
+    rem_attacker = L05 #Hithray
+    rem_attacker = L01 #Serafini
+    rem_defender = L11 #Tuka
+    rem_defender = L13 #Saratenna
+    rem_defender = L04 #Tash'nayil
+    rem_defender = L14 #Vespele
+    rem_defender = L09 #Raslige
+}

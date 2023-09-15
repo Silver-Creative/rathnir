@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = merchants_reform 
+government_rank = 1
+primary_culture = kietrii
+religion = soleannen
+technology_group = tech_niedene
+capital = 692 #Dronnin
+national_focus = DIP
+
+1444.1.1 = {
+	monarch = {
+		name = "Vikre"
+		dynasty = "an Dronnin"
+		birth_date = 1396.12.12
+		adm = 5
+		dip = 4
+		mil = 2
+		culture = kietrii
+		religion = soleannen
+	}
+}

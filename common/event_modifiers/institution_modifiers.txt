@@ -1,0 +1,34 @@
+#Institution Birthplaces
+birthplace_of_banking = {
+	local_development_cost = -0.075
+    allowed_num_of_buildings = 1
+}
+
+birthplace_of_the_new_world = {
+	province_trade_power_value = 5
+}
+
+birthplace_of_printing_press = {
+	local_institution_spread = 0.1
+}
+
+birthplace_of_global_trade = {
+	province_trade_power_modifier = 0.1
+}
+
+birthplace_of_manufactories = {
+	trade_goods_size = 0.5
+}
+
+birthplace_of_enlightenment = {
+	local_autonomy = -0.05
+}
+
+birthplace_of_industrialization = {
+	allowed_num_of_buildings = 1
+}
+
+#Institution Events/Missions
+growth_of_global_trade = {
+	province_trade_power_value = 5
+}

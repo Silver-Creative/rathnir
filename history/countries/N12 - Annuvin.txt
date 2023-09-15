@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudal_monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = kietrii
 add_accepted_culture = serrenii
@@ -18,5 +18,6 @@ national_focus = MIL
 		mil = 5
 		culture = kietrii
 		religion = soleannen
+		female = yes
 	}
 }

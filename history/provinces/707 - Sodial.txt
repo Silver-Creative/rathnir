@@ -1,8 +1,8 @@
 # 707 - Sodial
 
-owner = L01
-controller = L01
-add_core = L01
+owner = L06
+controller = L06
+add_core = L06
 
 culture = hostic
 religion = sakrelism
@@ -10,7 +10,7 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
 base_manpower = 1
 

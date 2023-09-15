@@ -1,20 +1,20 @@
 # 686 - Tuka
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L11
+controller = L11
+add_core = L11
 
 culture = sorradic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 5
+base_manpower = 3
 
-trade_goods = tea
+trade_goods = dyes
 
 is_city = yes
 fort_15th = no

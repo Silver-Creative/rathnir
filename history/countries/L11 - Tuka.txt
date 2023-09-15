@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = civic_republicanism_government
+government_rank = 1
+primary_culture = sorradic
+religion = vinaestre
+technology_group = tech_luthic
+capital = 686 #Tuka
+national_focus = MIL

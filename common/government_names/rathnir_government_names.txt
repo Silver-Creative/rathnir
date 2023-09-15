@@ -145,6 +145,31 @@ sagaviri_monarchy = {
 	}
 }
 
+sagaviri_republic = {
+	rank = {
+		1 = LIOVELDA
+		2 = LIOVELDA
+		3 = GRAND_LIOVELDA
+	}
+	
+	ruler_male = {
+		1 = LIOVELDOR
+		2 = LIOVELDOR
+		3 = GRAND_LIOVELDOR
+	}
+	
+	ruler_female = {
+		1 = LIOVELDORA
+		2 = LIOVELDORA
+		3 = GRAND_LIOVELDORA
+	}
+
+	trigger = {
+		government = republic
+		culture_group = sagaviri_group
+	}
+}
+
 niedene_monarchy = {
 	rank = {
 		1 = AROREI
@@ -237,5 +262,47 @@ carnian_monarchy = {
 	trigger = {
 		government = monarchy
 		culture = carnian
+	}
+}
+
+bandit_republic = {
+	rank = {
+		1 = BANDITREP 
+		2 = BANDITREP 
+		3 = MARAUDERS
+	}
+	ruler_male = {
+		1 = BANDITCHIEF
+		2 = GRANDBRIGAND
+		3 = MARAUDERPREMIER
+	}
+	ruler_female = {
+		1 = BANDITCHIEF
+		2 = GRANDBRIGAND
+		3 = MARAUDERPREMIER
+	}
+	trigger = {
+		has_reform = bandit_republic
+	}
+}
+
+admiralty = {
+	rank = {
+		1 = CAPTAINCY
+		2 = ADMIRALTY
+		3 = GRAND_ADMIRALTY
+	}
+	ruler_male = {
+		1 = CAPTAIN
+		2 = ADMIRAL
+		3 = GRAND_ADMIRAL
+	}
+	ruler_female = {
+		1 = CAPTAINESS
+		2 = ADMIRAL
+		3 = GRAND_ADMIRAL
+	}
+	trigger = {
+		has_reform = admiralty_reform
 	}
 }

@@ -1,8 +1,8 @@
 # 717 - Raslige
 
-owner = L07
-controller = L07
-add_core = L07
+owner = L09
+controller = L09
+add_core = L09
 
 culture = serafian
 religion = sakrelism
@@ -11,8 +11,8 @@ capital = ""
 hre = no
 
 base_tax = 1
-base_production = 1
-base_manpower = 1
+base_production = 2
+base_manpower = 4
 
 trade_goods = grain
 

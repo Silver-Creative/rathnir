@@ -1,8 +1,8 @@
 # 740 - Pikcha
 
-owner = L01
-controller = L01
-add_core = L01
+owner = L08
+controller = L08
+add_core = L08
 
 culture = chimunic
 religion = eastern_asharu
@@ -10,8 +10,8 @@ capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 
 trade_goods = incense

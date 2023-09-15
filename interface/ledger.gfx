@@ -93,7 +93,7 @@ spriteTypes = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx\\interface\\religions\\icon_religion_small.dds"
 		transparencecheck = yes
-		noOfFrames = 53 #29
+		noOfFrames = 54 #29
 	}
 	spriteType = {
 		name = "GFX_ledger_bg"

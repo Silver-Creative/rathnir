@@ -28,7 +28,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_great_project_roscella_cathedral"
-		texturefile = "gfx//interface//great_projects//great_project_athazolant_canal.dds"
+		texturefile = "gfx//interface//great_projects//great_project_roscella_cathedral.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_kaithrat_watchers"
@@ -76,7 +76,10 @@ spriteTypes = {
 		name = "GFX_great_project_the_last_bastion"
 		texturefile = "gfx//interface//great_projects//great_project_the_last_bastion.dds"
 	}
-
+	spriteType = {
+		name = "GFX_great_project_il_kabulli_monastery"
+		texturefile = "gfx//interface//great_projects//great_project_il_kabulli.dds"
+	}
 
 
 	#carvay

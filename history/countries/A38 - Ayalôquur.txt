@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = mirequeen_reform
+government_rank = 3
+primary_culture = myyraa
+religion = willowpact
+technology_group = tech_aldoviri
+capital = 262 #Meydan
+national_focus = MIL

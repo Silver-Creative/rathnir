@@ -1,0 +1,41 @@
+bandit_republic_mechanic = {
+    alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 10
+	available = {
+		has_dlc = "Domination"
+		# NOT = { has_country_flag = reformed_bandits }
+    }
+
+    interactions = {
+        dummy_int1 = {
+            potential = {
+                always = no
+            }
+            effect = {
+                add_manpower = 10000
+            }
+        }
+        bandit_raid = {
+            icon = GFX_bandit_raid_ability
+            trigger = {
+                has_manpower = 100
+                NOT = {
+                    has_country_modifier = had_recent_raid
+                }
+            }
+            effect = {
+                country_event = {
+                    id = saratenna_events.1
+                }
+            }
+        }
+         dummy_int2 = {
+            potential = {
+                always = no
+            }
+            effect = {
+                add_manpower = -10000
+            }
+        }
+    }
+}

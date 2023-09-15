@@ -5,14 +5,14 @@ controller = L03
 add_core = L03
 
 culture = arbalonic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 4
+base_manpower = 2
 
 trade_goods = cloth
 

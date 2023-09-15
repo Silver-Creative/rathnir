@@ -33,3 +33,10 @@ march = {
     second = A54 #Useri
     start_date = 1444.1.1
 }
+
+#Grizzlybear didn't have borders until YA gave them borders, YA still has a policy of respecting them.
+guarantee = {
+    first = A00 #Audal
+    second = A05 #Grizzlybear
+    start_date = 1444.11.11
+}

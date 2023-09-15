@@ -1,5 +1,9 @@
 # 587 - Soralai Woods
 
+owner = nan
+controller = nan
+add_core = nan
+
 culture = neurunic
 religion = soleannen
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = horses
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

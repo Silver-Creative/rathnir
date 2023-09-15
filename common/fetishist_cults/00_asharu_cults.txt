@@ -20,7 +20,7 @@ asharu_ashuntash = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -48,7 +48,7 @@ asharu_mitasaruna = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -76,7 +76,7 @@ asharu_calmore = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -103,7 +103,7 @@ asharu_ankarites = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -130,7 +130,7 @@ asharu_meat_cult = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -157,7 +157,7 @@ asharu_eyed_silvercod = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -184,7 +184,7 @@ asharu_siktab = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -211,7 +211,7 @@ asharu_mazil = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -238,7 +238,7 @@ asharu_dwell = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -265,7 +265,7 @@ asharu_ninekh = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -292,7 +292,7 @@ asharu_lunaism = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -320,7 +320,7 @@ asharu_soleilism = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -347,7 +347,7 @@ asharu_fallow = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -374,7 +374,7 @@ asharu_tabsl = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1
@@ -401,7 +401,7 @@ asharu_felsonsvhon = {
 			}
 		}
 	}
-	sprite = x
+	sprite = 1
 
 	ai_will_do = {
 		factor = 1

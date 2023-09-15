@@ -2287,3 +2287,11 @@ enoseron_subject = {
 
 enoseron_overlord = {
 }
+
+lirgalcity_subject = {
+	religious_unity = -0.05
+}
+
+lirgalcity_overlord = {
+	global_trade_power = 0.05
+}

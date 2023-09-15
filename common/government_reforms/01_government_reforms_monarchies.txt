@@ -13,6 +13,24 @@ monarchy_mechanic = {
 	}
 }
 
+
+#################################################################
+#################################################################
+#################################################################
+#####################RATHNIRI TIER 1#############################
+#################################################################
+#################################################################
+#################################################################
+
+
+
+
+
+
+
+
+#Others
+
 #Feudalism vs Autocracy:
 
 feudalism_reform = {
@@ -97,6 +115,45 @@ elective_monarchy_reform = {
 	}
 	ai = {
 		factor = 0.5
+	}
+}
+
+#Rathnir
+mirevassal_reform = {
+	icon = "native_war_band_reform"
+	potential = {
+		culture_group = miremen_group
+	}
+	allow_normal_conversion = no
+	valid_for_nation_designer = no
+	nation_designer_cost = 30
+	modifiers = {
+		manpower_recovery_speed = 0.25
+		global_manpower_modifier = 0.25
+		land_maintenance_modifier = -0.25
+		land_forcelimit = 5
+		shock_damage_received = -0.1
+		liberty_desire = -75
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+mirequeen_reform = {
+	icon = "native_codified_power_reform"
+	potential = {
+		culture_group = miremen_group
+	}
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	modifiers = {
+		vassal_forcelimit_bonus = 0.33
+		vassal_naval_forcelimit_bonus = 0.33
+		vassal_manpower_bonus = 0.33
+		vassal_sailors_bonus = 0.33
+		leader_shock = 1
 	}
 }
 
