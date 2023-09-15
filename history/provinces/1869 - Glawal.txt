@@ -1,0 +1,27 @@
+# 1869 - Glawal
+
+owner = W05
+controller = W05
+add_core = W05
+
+culture = lirgalyn
+religion = asitir
+capital = ""
+
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = nan
+
+is_city = yes
+fort_15th = nan
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
+discovered_by = tech_aldoviri

@@ -5,7 +5,7 @@ controller = A00
 add_core = A00
 add_core = A02
 
-culture = anòshphite
+culture = anoshphite
 religion = hukar_sharud
 capital = ""
 

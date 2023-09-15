@@ -176,6 +176,21 @@ H01 = "countries/Uldarash.txt"
 #Plagos - Pxx/Qxx (No tag limit restriction)
 
 #Valdreach - Wxx/Xxx (No tag limit restriction)
+W00 = "countries/Kumoren.txt"
+W01 = "countries/Kemrena.txt"
+W02 = "countries/Yaunmarcen.txt"
+W03 = "countries/Lotrezen.txt"
+W04 = "countries/Geritezenn.txt"
+W05 = "countries/Tedeazen.txt"
+W06 = "countries/Boduuren.txt"
+W07 = "countries/Gyzenn.txt"
+W08 = "countries/Traoumiklagen.txt"
+W09 = "countries/Salapen.txt"
+W10 = "countries/Lorianen.txt"
+W11 = "countries/Occulere.txt"
+W12 = "countries/Fortuna.txt"
+W13 = "countries/Krashelen.txt"
+W14 = "countries/Konkord.txt"
 
 #Akan'nash - Rxx/Jxx (No tag limit restriction)
 

@@ -4,7 +4,7 @@ owner = A12
 controller = A12
 add_core = A12
 
-culture = rodéan
+culture = rodean
 religion = etherflame
 capital = ""
 

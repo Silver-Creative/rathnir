@@ -1,0 +1,28 @@
+# 655 - Blömevet
+
+owner = L00
+controller = L00
+add_core = L00
+
+culture = vraelean
+religion = lotus_doctrine
+capital = ""
+
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 6
+
+trade_goods = salt
+center_of_trade = 2
+
+is_city = yes
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
+discovered_by = tech_aldoviri
