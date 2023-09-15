@@ -94,7 +94,7 @@ BlendState BlendState
 {
 	AlphaTest = no
 	BlendEnable = no
-	WriteMask = "BLUE"
+	WriteMask = "LIGHT_BLUE"
 }
 
 ## Rasterizer States
