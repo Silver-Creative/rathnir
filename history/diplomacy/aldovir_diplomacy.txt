@@ -1,19 +1,19 @@
 # Mhyr swarm
 
 vassal = {
-    first = A31 #Mhýr
-    second = A28 #Qhaýr
+    first = A31 #Mhï¿½r
+    second = A28 #Qhaï¿½r
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A31 #Mhýr
-    second = A29 #Waa'manýr
+    first = A31 #Mhï¿½r
+    second = A29 #Waa'manï¿½r
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A31 #Mhýr
+    first = A31 #Mhï¿½r
     second = A30 #Mhaydaa
     start_date = 1444.1.1
 }
@@ -21,31 +21,31 @@ vassal = {
 # Thyr swarm
 
 vassal = {
-    first = A32 #Thýr
-    second = A33 #Soëriaa
+    first = A32 #Thï¿½r
+    second = A33 #Soï¿½riaa
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A32 #Thýr
+    first = A32 #Thï¿½r
     second = A34 #Noryanam
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A32 #Thýr
+    first = A32 #Thï¿½r
     second = A35 #Soryanam
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A32 #Thýr
-    second = A36 #Eânam
+    first = A32 #Thï¿½r
+    second = A36 #Eï¿½nam
     start_date = 1444.1.1
 }
 
 vassal = {
-    first = A32 #Thýr
+    first = A32 #Thï¿½r
     second = A37 #Iyoqanaa
     start_date = 1444.1.1
 }
@@ -68,14 +68,14 @@ dependency = {
 dependency = {
     subject_type = appanage
     first = A12 #Reyllea
-    second = A41 #Praèçe
+    second = A41 #Praï¿½ï¿½e
     start_date = 1444.1.1
 }
 
 dependency = {
     subject_type = appanage
     first = A12 #Reyllea
-    second = A42 #Rodéa
+    second = A42 #Rodï¿½a
     start_date = 1444.1.1
 }
 
@@ -86,21 +86,15 @@ dependency = {
     start_date = 1444.1.1
 }
 
-# Lapidosan vassalization of Volstrónn
+# Lapidosan vassalization of Volstrï¿½nn
 
 march = {
     first = A11 #Lapidosa
-    second = A24 #Volstrónn
+    second = A24 #Volstrï¿½nn
     start_date = 1444.1.1
 }
 
 # Sakrelist alliances
-
-alliance = {
-    first = A10 #Sironia
-    second = A11 #Lapidosa
-    start_date = 1444.1.1
-}
 
 march = {
     first = A10 #Sironia
