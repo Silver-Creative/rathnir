@@ -121,6 +121,8 @@ N14 = "countries/Dronnin.txt"
 N15 = "countries/Euqenilve.txt"
 N16 = "countries/Sentaria.txt"
 N17 = "countries/Minad.txt"
+N18 = "countries/Puan'val.txt"
+N19 = "countries/Kaltai.txt"
 
 N99 = "countries/Soleanna.txt"
 

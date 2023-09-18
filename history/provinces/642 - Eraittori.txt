@@ -1,9 +1,5 @@
 # 642 - Eraittori
 
-owner = N12
-controller = N12
-add_core = N12
-
 culture = serrenii
 religion = soleannen
 capital = ""
@@ -16,7 +12,7 @@ base_manpower = 1
 
 trade_goods = lumber
 
-is_city = yes
+is_city = no
 fort_15th = no
 
 discovered_by = tech_alteniquian

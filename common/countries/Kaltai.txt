@@ -1,0 +1,87 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 92  158  88 }
+
+historical_idea_groups = {
+	expansion_ideas
+	quantity_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	offensive_ideas
+	spy_ideas
+	innovativeness_ideas		
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	#Historical Escharian Leaders (Male)
+	"Auberon #0" = 10
+	"Severie Arminius #0" = 10
+	"Valerian Iuris #0" = 10
+	"Orzren Auralas #0" = 10
+	"Avensur #0" = 10
+	"Nive #0" = 10
+	
+	#Generic Niedene Names (Male)
+	"Orzen #0" = 10
+	"Aremi #0" = 10
+	"Isaris #0" = 10
+	"Dietras Sinso #0" = 10
+	"Ioannis #0" = 10
+	"Alseret #0" = 10
+	"Severie #0" = 10
+	"Arminius #0" = 10
+	"Valerian #0" = 10
+	"Aurelas #0" = 10
+	"Eros #0" = 10
+	"Numethos #0" = 10
+	
+	#Generic Niedene Names (Female)
+	"Erissia #0" = -1
+	"Akesrie #0" = -1
+	"Etienne #0" = -1
+	"Irabella #0" = -1
+	"Auria #0" = -1
+	
+	#Historical Escharian Leaders (Female)
+	"Illia #0" = -1
+	"Debi #0" = -1
+	"Veriss #0" = -1
+	"Etienne Irabella #0" = -1
+	
+}
+
+leader_names = {
+	#Country Specific
+	"dai Lileanen" "dai Gentumar" "dai Locet" "dai Alesserea" "dai Alseria" "dai Aeqerion" "dai Amilais"
+	"dai Misur" "dai Septrion" "dai Escherios" "dai Isaris" "dai Kiederes" "dai Illitos" "dai Ikatrum"
+	"dai Asvarium" "dai Arejun" "dai Fluseris" "dai Veromea" "dai Karnesia" "dai Marsium" "dai Drakhasrei"
+	"dai Lostesrei" "dai Delgrenzvar" "dai Annuvin" "dai Attori"
+	
+	"de Escharien" "de Suderen" "de Soleanna" "de Vale'du'nor" "de Varmerien" "de Iremith"
+	"de Annun" "de Arj'entor" "de Reikara"
+	
+	#Noble Families
+	"an Aesperii" "an Lyrelei" "an Silvarii" "dai Bianci" Ekoradi "an Zabtrefels" "an Vorpes-Delgrenzvar"
+	Pallas-Akerian Chaureste
+}

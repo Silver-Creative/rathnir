@@ -1,5 +1,9 @@
 # 456 - Lotefih
 
+owner = N19
+controller = N19
+add_core = N19
+
 culture = reikarii
 religion = soleannen
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 3
 
 trade_goods = wool
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian
