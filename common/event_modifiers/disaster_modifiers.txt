@@ -1,0 +1,6 @@
+A41 = {}
+A42 = {}
+A43 = {}
+well_fed = {
+    land_morale = 0.1
+}

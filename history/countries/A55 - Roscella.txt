@@ -1,0 +1,26 @@
+
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = reyllean
+add_accepted_culture = raellite
+religion = etherflame
+technology_group = tech_luthic
+historical_rival = A10 #Sironia
+capital = 215 #Roscella
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Amaury"
+		dynasty = "de Reyllea"
+		birth_date = 1401.7.3
+		adm = 3
+		dip = 2
+		mil = 4
+		culture = reyllean
+		religion = etherflame
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = conqueror_personality
+}

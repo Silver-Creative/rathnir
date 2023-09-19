@@ -1,0 +1,685 @@
+namespace = rcw 
+
+country_event = { #The life of a soldier
+    id = rcw.1
+    title = rcw.1.t
+    desc = rcw.1.d
+	picture = TRADEGOODS_eventPicture
+    trigger = {
+        has_country_flag = rcw 
+        is_at_war = yes 
+    }
+    mean_time_to_happen = {
+        months = 12 
+    }
+    option = {
+        name = rcw.1.a
+        add_treasury = -100
+        add_country_modifier = {
+            name = well_fed 
+            duration = 3650
+        }
+    }
+    option = {
+        name = rcw.1.b
+        add_treasury = -100
+        add_manpower = -1.25
+    }
+    option = {
+        name = rcw.1.c
+        add_administrative_power = -100
+        add_manpower = -1.5
+        add_country_modifier = {
+            name = well_fed 
+            duration = 3650
+        }
+    }
+}
+country_event = { #The Reyllean Civil War
+    id = rcw.2
+    title = rcw.2.t
+    desc = rcw.2.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    is_triggered_only = yes
+    trigger = {
+        OR = {
+            has_country_flag = rcw 
+        }
+    }
+    option = {
+        name = rcw.2.a
+    }
+}
+country_event = { #The Lantois Massacre
+    id = rcw.3
+    title = rcw.3.t
+    desc = rcw.3.d 
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        has_disaster_progress = {
+            disaster = reyllean_civil_war 
+            value = 30
+        }
+    }
+    mean_time_to_happen = {
+        months = 48
+    }
+    option = {
+        name = rcw.3.a
+        A22 = {
+            add_liberty_desire = 40
+        }
+            every_subject_country = {
+                limit = {
+                has_country_flag = rcw
+                NOT = {
+                    tag = A22
+                }
+                }
+            add_liberty_desire = -15 
+            }
+        add_legitimacy = 15 
+        add_estate_loyalty = {
+        estate = estate_nobles
+        loyalty = 15 
+            }
+    }
+    option = {
+        name = rcw.3.b
+        A22 = {
+            add_liberty_desire = -20
+        }
+            every_subject_country = {
+                limit = {
+                has_country_flag = rcw
+                NOT = {
+                    tag = A22
+                }
+                }
+            add_liberty_desire = 20 
+            }
+        add_legitimacy = -15
+        add_estate_loyalty = {
+            estate = estate_nobles
+            loyalty = 15
+        }
+    }
+    option = {
+        name = rcw.3.c
+        add_estate_loyalty = {
+            estate = estate_nobles 
+            loyalty = -45
+        }
+        A22 = {
+            add_liberty_desire = -10
+        }
+        add_manpower = -9.8
+        add_legitimacy = -15 
+    }
+    option = {
+        name = rcw.3.e
+            every_subject_country = {
+                add_liberty_desire = 15
+            }
+        add_estate_loyalty = {
+            estate = estate_nobles
+            loyalty = -20
+        }
+        add_prestige = -25
+        add_legitimacy = -15
+    }
+    option = {
+        name = rcw.3.f
+        add_legitimacy = -45 
+            every_subject_country = {
+                add_liberty_desire = -20
+            }
+    }
+}
+country_event = { #Siege of Evansyllo
+    id = rcw.4 
+    title = rcw.4.t 
+    desc = rcw.4.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        NOT = {
+            tag = A12 
+        }
+        219 = {
+            AND = {
+            controlled_by = ROOT
+            has_siege = no
+            }
+        }
+    }
+    mean_time_to_happen = {
+        months = 2
+    }
+    immediate = {
+        A12 = {
+            release_all_subjects = yes 
+        }
+    }
+    option = {
+        name = rcw.4.a
+        ai_chance = {
+            factor = 0
+        }
+        add_military_power = -50
+        change_tag = A12
+        inherit = PREV 
+    }
+    option = {
+        name = rcw.4.b
+        ai_chance = {
+            factor = 100
+        }
+        add_administrative_power = -50
+        custom_tooltip = reyllea_dissolution_tt
+        hidden_effect = {
+        A22 = {
+            every_neighbor_province = {
+                limit = {
+                    owned_by = A12
+                    NOT = {
+                            OR = {
+                                has_province_modifier = A41 
+                                has_province_modifier = A42 
+                                has_province_modifier = A43 
+                            }
+                    }
+                }
+                cede_province = A22
+            }
+            white_peace = A12
+        }
+        A41 = {
+            every_neighbor_province = {
+                limit = {
+                    OR = {
+                    owned_by = A12
+                    owned_by = A22
+                    }
+                }
+                cede_province = A41
+            }
+            221 = {
+                cede_province = A22 
+            }
+            white_peace = A12
+        }
+        A42 = {
+            every_neighbor_province = {
+                limit = {
+                    OR = {
+                    owned_by = A12
+                    owned_by = A22
+                    }
+                }
+                cede_province = A42
+            }
+            1317 = {
+                cede_province = A42 
+            }
+            214 = {
+                cede_province = A42 
+            }
+            white_peace = A12
+        }
+        A43 = {
+            every_neighbor_province = {
+                limit = {
+                    OR = {
+                    owned_by = A12
+                    owned_by = A22
+                    }
+                }
+                cede_province = A43
+            }
+            219 = {
+                cede_province = A22 
+            }
+            216 = {
+                cede_province = A42 
+            }
+            white_peace = A12
+        } 
+        754 = {
+            cede_province = A43
+        }
+        218 = {
+            cede_province = A41 
+        }
+        749 = {
+            cede_province = A22 
+        }
+        215 = {
+            cede_province = A55 
+            add_core = A55 
+        }
+        1320 = {
+            cede_province = A55 
+            add_core = A55 
+        }
+        235 = {
+            cede_province = A55
+            add_core = A55 
+        }
+        release_all_subjects = yes 
+        create_march = A55 
+        }
+    }
+    option = {
+        name = rcw.4.c
+        ai_chance = {
+            factor = 0
+        }
+        add_diplomatic_power = -50
+        custom_tooltip = ile_de_reyllea_tt 
+        hidden_effect = {
+        215 = {
+            cede_province = ROOT
+        }
+        1320 = {
+            cede_province = ROOT 
+        }
+        235 = {
+            cede_province = ROOT 
+        }
+        219 = {
+            cede_province = ROOT 
+        }
+        218 = {
+            cede_province = ROOT 
+        }
+        216 = {
+            cede_province = ROOT 
+        }
+        217 = {
+            cede_province = ROOT 
+        }
+        }
+        vassalize = A12
+    }
+    option = {
+        name = rcw.4.e 
+        add_stability = -2
+        add_administrative_power = -250
+        inherit = A12 
+    }
+}
+country_event = { #Siege of Lestria
+    id = rcw.5 
+    title = rcw.5.t 
+    desc = rcw.5.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        749 = {
+            controlled_by = ROOT
+        }
+        is_in_war = {}
+    }
+    immediate = {
+        A22 = {
+            clr_country_flag = rcw 
+        }
+    }
+    option = {
+        name = rcw.5.a
+        add_diplomatic_power = -50
+        vassalize = A22
+        A42 = {
+            join_all_defensive_wars_of = ROOT 
+            join_all_offensive_wars_of = ROOT 
+        }
+    }
+    option = {
+        name = rcw.5.b
+        add_administrative_power = -50
+        inherit = A22 
+    }
+    option = {
+        name = rcw.5.c
+        add_military_power = -50
+        create_subject = {
+        subject_type = tributary_state
+        subject = A22 
+    }
+    }
+}
+country_event = { #Siege of Ilivian
+    id = rcw.6
+    title = rcw.6.t 
+    desc = rcw.6.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        240 = {
+            controlled_by = ROOT
+        }
+        is_in_war = {}
+    }
+    immediate = {
+        A40 = {
+            clr_country_flag = rcw 
+        }
+    }
+    option = {
+        name = rcw.6.a
+        add_diplomatic_power = -50
+        vassalize = A40
+        A42 = {
+            join_all_defensive_wars_of = ROOT 
+            join_all_offensive_wars_of = ROOT 
+        }
+    }
+    option = {
+        name = rcw.6.b
+        add_administrative_power = -50
+        inherit = A40
+    }
+    option = {
+        name = rcw.6.c
+        add_military_power = -50
+        create_subject = {
+        subject_type = tributary_state
+        subject = A40 
+    }
+    }
+    option = {
+        name = rcw.6.e
+        add_administrative_power = -75
+        add_diplomatic_power = -25
+        add_opinion = {
+            who = A10 
+            modifier = returned_core_to_me 
+        }
+        A10 = {
+            inherit = A40 
+        }
+    }
+}
+country_event = { #Siege of Rodea
+    id = rcw.7
+    title = rcw.7.t 
+    desc = rcw.7.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        210 = {
+            controlled_by = ROOT
+        }
+        is_in_war = {}
+    }
+    immediate = {
+        A42 = {
+            clr_country_flag = rcw 
+        }
+    }
+    option = {
+        name = rcw.7.a
+        add_diplomatic_power = -50
+        vassalize = A42
+        A42 = {
+            join_all_defensive_wars_of = ROOT 
+            join_all_offensive_wars_of = ROOT 
+        }
+    }
+    option = {
+        name = rcw.7.b
+        add_administrative_power = -50
+        inherit = A42
+    }
+    option = {
+        name = rcw.7.c
+        add_military_power = -50
+        create_subject = {
+        subject_type = tributary_state
+        subject = A42 
+    }
+    }
+}
+country_event = { #Siege of Praestenne
+    id = rcw.8
+    title = rcw.8.t 
+    desc = rcw.8.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        222 = {
+            controlled_by = ROOT
+        }
+        is_in_war = {}
+    }
+    immediate = {
+    hidden_effect = {
+        222 = {
+            add_base_tax = -4
+            add_base_production = -4
+            add_base_manpower = -4
+        }
+        inherit = A41 
+    }
+    }
+    option = {
+        add_treasury = -200
+    }
+    option = {
+        add_administrative_power = -50
+    }
+}
+country_event = { #Siege of Argvennes
+    id = rcw.9
+    title = rcw.9.t 
+    desc = rcw.9.d
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes
+    trigger = {
+        tag = A12
+        234 = {
+            controlled_by = ROOT
+        }
+        is_in_war = {
+            attacker_leader = ROOT 
+        }
+    }
+    immediate = {
+        A43 = {
+            clr_country_flag = rcw 
+        }
+    }
+    option = {
+        name = rcw.9.a
+        add_diplomatic_power = -50
+        vassalize = A43
+        A42 = {
+            join_all_defensive_wars_of = ROOT 
+            join_all_offensive_wars_of = ROOT 
+        }
+    }
+    option = {
+        name = rcw.9.b
+        add_administrative_power = -50
+        inherit = A43
+    }
+    option = {
+        name = rcw.9.c
+        add_military_power = -50
+        create_subject = {
+        subject_type = tributary_state
+        subject = A43
+    }
+    }
+}
+country_event = { #The Evansyllo Accords
+    id = rcw.10 
+    title = rcw.10.t
+    desc = rcw.10.d 
+    picture = TRADEGOODS_eventPicture
+    fire_only_once = yes 
+    trigger = {
+        OR = {
+            AND = {
+                exists = A12 
+                A22 = {
+                    NOT = {
+                        has_country_flag = rcw 
+                    }
+                }
+                A41 = {
+                    NOT = {
+                        has_country_flag = rcw 
+                    }
+                }
+                A42 = {
+                    NOT = {
+                        has_country_flag = rcw 
+                    }
+                }
+                A43 = {
+                    NOT = {
+                        has_country_flag = rcw 
+                    }
+                }
+            }
+            NOT = {
+                exists = A12 
+            }
+        }
+    }
+    immediate = {
+        random_country = {
+            limit = {
+                owns_core_province = 219
+            }
+            add_country_modifier = {
+                name = war_spoils
+                duration = 5475
+            }
+        }
+    clr_global_flag = dc_rcw 
+    }
+    option = {
+        name = rcw.10.a 
+    }
+}
+country_event = { #Coalition of the bloody flower
+    id = rcw.11  
+    title = rcw.11.t
+    desc = rcw.11.d 
+    picture = TRADEGOODS_eventPicture
+    fire_only_once =  yes 
+    trigger = {
+        OR = {
+            tag = A22 
+            tag = A41 
+            tag = A42 
+            tag = A43 
+            AND = {
+                tag = A40 
+                has_country_flag = preparing_for_war 
+            }
+        }
+    }
+    mean_time_to_happen = {
+        months = 60
+    }
+    after = {
+        IF = {
+            AI = yes 
+        }
+        declare_war_with_cb = {
+            who = A12 
+            casus_belli = cb_independence_war 
+        }
+    }
+    option = {
+        name = rcw.11.a 
+        trigger = {
+            A40 = {
+                    has_country_flag = preparing_for_war 
+            }
+        }
+        name = rcw.11.a
+        create_alliance = A22
+        create_alliance = A41 
+        create_alliance = A42 
+        create_alliance = A43 
+        create_alliance = A40 
+
+    }
+    option = {
+        name = rcw.11.a 
+        trigger = {
+            A40 = {
+                NOT = {
+                    has_country_flag = preparing_for_war 
+                }
+            }
+        }
+        name = rcw.11.a
+        create_alliance = A22
+        create_alliance = A41 
+        create_alliance = A42 
+        create_alliance = A43 
+
+    }
+    option = {
+        name = rcw.11.b
+        trigger = {
+            tag = A22
+            AI = no
+            }
+            A41 = {
+                country_event = {
+                    id = rcw.11 
+                }
+            }
+    }
+    option = {
+        name = rcw.11.b
+        trigger = {
+            tag = A41
+            AI = no
+            }
+            A42 = {
+                country_event = {
+                    id = rcw.11 
+                }
+            }
+    }
+    option = {
+        name = rcw.11.b
+        trigger = {
+            tag = A42
+            AI = no
+            }
+            A43 = {
+                country_event = {
+                    id = rcw.11 
+                }
+            }
+    }
+    option = {
+        name = rcw.11.b
+        trigger = {
+            tag = A43
+            AI = no
+            }
+            A22 = {
+                country_event = {
+                    id = rcw.11 
+                }
+            }
+    }
+}
+ 

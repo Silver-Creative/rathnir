@@ -61,6 +61,7 @@ A51 = "countries/Oviabao.txt"
 A52 = "countries/Apasiril.txt"
 A53 = "countries/Errebos.txt"
 A54 = "countries/Siroba.txt"
+A55 = "countries/Roscella.txt"
 
 A93 = "countries/Saramenor.txt"
 A94 = "countries/Carn.txt"

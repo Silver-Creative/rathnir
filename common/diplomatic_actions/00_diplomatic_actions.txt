@@ -20,7 +20,6 @@
 ########################################
 # royal_marriage
 # declarewar
-# requestpeace
 # support_independence_action
 # allianceaction
 # embargoaction
@@ -146,6 +145,30 @@ declarewar = {
 	}
 	#Rathnir
 	condition = {
+		potential = {
+			has_country_flag = rcw #reyllean civil war
+		}
+		allow = {}
+	}
+	effect = {
+		on_war_declaration_effect = yes
+		}
+condition = { #cant declare on Reyllea during the civil war if AI
+		potential = {
+			has_global_flag = cd_rcw 
+			FROM = {
+				capital_scope = { continent = alteniquia }
+			}
+			}
+		allow = {
+			OR = {
+			has_country_flag = rcw 
+			AI = no
+			}
+		}
+	}
+
+	condition = {
 		tooltip = CANNOT_WAR_NIEDEN_TT
 		potential = {
 			has_global_flag = nieden_earlygame
@@ -185,7 +208,7 @@ declarewar = {
 				set_country_flag = nieden_earlygame_broken
 			}
 		}
-	}
+	} 
 	#effect = {
 	#	on_war_declaration_effect = yes
 	#	if = {
@@ -640,4 +663,31 @@ support_independence_action = {
         tooltip = outside_vastallos
         potential = { }
     }
+}
+requestpeace = {
+	condition = {
+		potential = {
+			OR = {
+			AND = {
+			tag = A12
+			has_country_flag = rcw 
+			}
+			OR = {
+				tag = A22
+				tag = A40 
+				tag = A41 
+				tag = A42 
+				tag = A43 
+				AND = {
+					has_country_flag = rcw 
+				}
+			}
+			}
+		}
+		allow = {
+			NOT = {
+				has_country_flag = rcw 
+			}
+		}
+	}
 }

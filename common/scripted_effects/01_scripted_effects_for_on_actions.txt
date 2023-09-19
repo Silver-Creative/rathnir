@@ -2463,6 +2463,10 @@ on_war_declaration_effect = {
 		limit = { has_country_modifier = janissary_palace_guardians }
 		remove_country_modifier = janissary_palace_guardians
 	}
+	if = {
+		limit = { has_country_flag = rcw }
+		country_event = { id = rcw.2 }
+	}
 	random_list = {
 		1 = {
 			country_event = {

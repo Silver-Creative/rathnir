@@ -17,6 +17,91 @@ on_startup = {
 
 	#Rathnir
 	set_global_flag = nieden_earlygame
+	set_global_flag = cd_rcw 
 
 	country_event = { id = nieden_adventurers.1 }
-}
+
+	if = {
+		limit = {
+			OR = {
+				tag = A12 
+				tag = A43 
+				tag = A22 
+				tag = A42 
+				tag = A41 
+				tag = A40 
+			}
+		}
+		set_country_flag = rcw 
+	}
+	221 = {
+		add_province_modifier = {
+			name = A41 
+			duration = -1
+			hidden = yes 
+		}
+	}
+	225 = {
+		add_province_modifier = {
+			name = A41 
+			duration = -1
+			hidden = yes 
+		}
+	}
+	217 = {
+		add_province_modifier = {
+			name = A41 
+			duration = -1
+			hidden = yes 
+		}
+	}
+	233 = {
+		add_province_modifier = {
+			name = A43
+			duration = -1
+			hidden = yes 
+		}
+	}
+	760 = {
+		add_province_modifier = {
+			name = A43
+			duration = -1
+			hidden = yes 
+		}
+	}
+	219 = {
+		add_province_modifier = {
+			name = A43
+			duration = -1
+			hidden = yes 
+		}
+	}
+	214 = {
+		add_province_modifier = {
+			name = A42
+			duration = -1
+			hidden = yes 
+		}
+	}
+	216 = {
+		add_province_modifier = {
+			name = A42
+			duration = -1
+			hidden = yes 
+		}
+	}
+	215 = {
+		add_province_modifier = {
+			name = A42 
+			duration = -1 
+			hidden = yes
+		}
+	}
+	1317 = {
+		add_province_modifier = {
+			name = A42 
+			duration = -1 
+			hidden = yes
+		}
+	}
+	
