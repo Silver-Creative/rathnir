@@ -598,8 +598,13 @@ country_event = { #Siege of Lestria
     fire_only_once = yes
     trigger = {
         tag = A12
+        OR = {
         749 = {
             controlled_by = ROOT
+        749 = {
+            controlled_by = A40
+        }
+        }
         }
         is_in_war = {}
     }
@@ -694,8 +699,13 @@ country_event = { #Siege of Rodea
     fire_only_once = yes
     trigger = {
         tag = A12
+        OR = {
         210 = {
             controlled_by = ROOT
+        210 = {
+            controlled_by = A40
+        }
+        }
         }
         is_in_war = {}
     }
@@ -736,8 +746,13 @@ country_event = { #Siege of Praestenne
     fire_only_once = yes
     trigger = {
         tag = A12
+        OR = {
         222 = {
             controlled_by = ROOT
+        222 = {
+            controlled_by = A40
+        }
+        }
         }
         is_in_war = {}
     }
@@ -766,8 +781,13 @@ country_event = { #Siege of Argvennes
     fire_only_once = yes
     trigger = {
         tag = A12
+        OR = {
         234 = {
             controlled_by = ROOT
+        234 = {
+            controlled_by = A40
+        }
+        }
         }
         is_in_war = {}
     }

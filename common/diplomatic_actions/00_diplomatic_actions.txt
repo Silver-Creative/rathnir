@@ -146,7 +146,19 @@ declarewar = {
 	#Rathnir
 	condition = {
 		potential = {
-			has_country_flag = rcw #reyllean civil war
+			has_global_flag = cd_rcw 
+			FROM = {
+				OR = {
+				capital_scope = { region = raell_region }
+				tag = A40 
+				}
+			}
+			ROOT = {
+				OR = {
+					tag = A40
+					NOT = { capital_scope = { region = raell_region } }
+				}
+			}
 		}
 		allow = {}
 	}
@@ -159,15 +171,19 @@ condition = { #cant declare on Reyllea during the civil war if AI
 			FROM = {
 				OR = {
 				capital_scope = { region = raell_region }
-				capital_scope = { 240 }
+				tag = A40 
+				}
+			}
+			ROOT = {
+				OR = {
+					tag = A40
+					NOT = { capital_scope = { region = raell_region } }
 				}
 			}
 			}
 		allow = {
-			OR = {
+			NOT = { has_global_flag = cd_rcw }
 			has_country_flag = rcw 
-			AI = no
-			}
 		}
 	}
 
