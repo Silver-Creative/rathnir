@@ -157,7 +157,7 @@ condition = { #cant declare on Reyllea during the civil war if AI
 		potential = {
 			has_global_flag = cd_rcw 
 			FROM = {
-				capital_scope = { continent = alteniquia }
+				capital_scope = { region = raell_region }
 			}
 			}
 		allow = {
