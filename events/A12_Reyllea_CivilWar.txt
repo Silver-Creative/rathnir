@@ -175,7 +175,7 @@ country_event = { #Siege of Evansyllo
             clr_global_flag = dc_rcw 
         }
     mean_time_to_happen = {
-        months = 2
+        months = 12
     }
     immediate = {
         A12 = {
@@ -884,7 +884,7 @@ country_event = { #Coalition of the bloody flower
         }
     }
     mean_time_to_happen = {
-        months = 60
+        months = 168
     }
     after = {
         IF = {
