@@ -46,7 +46,12 @@ reyllean_civil_war = {
         }
     }
     modifier = {
-        land_forcelimit_modifier = 0.33
+        IF = {
+            AI = yes
+        }
+        land_forcelimit_modifier = 0.5
+        siege_ability = 0.5
+        can_bypass_forts = yes 
     }
     on_start = rcw.2 
 }

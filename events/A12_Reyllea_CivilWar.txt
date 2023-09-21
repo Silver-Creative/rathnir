@@ -601,9 +601,9 @@ country_event = { #Siege of Lestria
         OR = {
         749 = {
             controlled_by = ROOT
+        }
         749 = {
             controlled_by = A40
-        }
         }
         }
         is_in_war = {}
@@ -611,30 +611,32 @@ country_event = { #Siege of Lestria
     immediate = {
         A22 = {
             clr_country_flag = rcw 
-            white_peace = A12 
         }
     }
     option = {
         name = rcw.5.a
         add_diplomatic_power = -50
         vassalize = A22
-        A42 = {
+        A22 = {
             join_all_defensive_wars_of = ROOT 
             join_all_offensive_wars_of = ROOT 
         }
     }
     option = {
         name = rcw.5.b
+        ai_chance = {
+            factor = 100
+        }
         add_administrative_power = -50
         inherit = A22 
     }
     option = {
         name = rcw.5.c
         add_military_power = -50
-        create_subject = {
-        subject_type = tributary_state
-        subject = A22 
-    }
+        A22 = {
+            add_treasury = -250
+        }
+        add_treasury = 250 
     }
 }
 country_event = { #Siege of Ilivian
@@ -667,16 +669,19 @@ country_event = { #Siege of Ilivian
     }
     option = {
         name = rcw.5.b
+        ai_chance = {
+            factor = 100
+        }
         add_administrative_power = -50
         inherit = A40
     }
     option = {
         name = rcw.5.c
         add_military_power = -50
-        create_subject = {
-        subject_type = tributary_state
-        subject = A40 
-    }
+        A40 = {
+            add_treasury = -250
+        }
+        add_treasury = 250 
     }
     option = {
         name = rcw.6.e
@@ -700,11 +705,11 @@ country_event = { #Siege of Rodea
     trigger = {
         tag = A12
         OR = {
-        210 = {
+        234 = {
             controlled_by = ROOT
-        210 = {
-            controlled_by = A40
         }
+        234 = {
+            controlled_by = A40
         }
         }
         is_in_war = {}
@@ -726,16 +731,19 @@ country_event = { #Siege of Rodea
     }
     option = {
         name = rcw.5.b
+        ai_chance = {
+            factor = 100
+        }
         add_administrative_power = -50
         inherit = A42
     }
     option = {
         name = rcw.5.c
         add_military_power = -50
-        create_subject = {
-        subject_type = tributary_state
-        subject = A42 
-    }
+        A42 = {
+            add_treasury = -250
+        }
+        add_treasury = 250 
     }
 }
 country_event = { #Siege of Praestenne
@@ -747,11 +755,11 @@ country_event = { #Siege of Praestenne
     trigger = {
         tag = A12
         OR = {
-        222 = {
+        234 = {
             controlled_by = ROOT
-        222 = {
-            controlled_by = A40
         }
+        234 = {
+            controlled_by = A40
         }
         }
         is_in_war = {}
@@ -784,40 +792,55 @@ country_event = { #Siege of Argvennes
         OR = {
         234 = {
             controlled_by = ROOT
+        }
         234 = {
             controlled_by = A40
-        }
         }
         }
         is_in_war = {}
     }
     immediate = {
+        IF = {
+            A43 = {
+                is_in_war = {
+                    attacker_leader = A43 
+                }
+            }
         A43 = {
             clr_country_flag = rcw 
-            white_peace = A12 
+        }
+        }
+        ELSE = {
+            A43 = {
+                white_peace = A12
+                clr_country_flag = rcw
+            }
         }
     }
     option = {
         name = rcw.5.a
         add_diplomatic_power = -50
         vassalize = A43
-        A42 = {
+        A43 = {
             join_all_defensive_wars_of = ROOT 
             join_all_offensive_wars_of = ROOT 
         }
     }
     option = {
         name = rcw.5.b
+        ai_chance = {
+            factor = 100
+        }
         add_administrative_power = -50
         inherit = A43
     }
     option = {
         name = rcw.5.c
         add_military_power = -50
-        create_subject = {
-        subject_type = tributary_state
-        subject = A43
-    }
+        A43 = {
+            add_treasury = -250
+        }
+        add_treasury = 250 
     }
     option = {
         name = rcw.9.e
@@ -1016,4 +1039,103 @@ country_event = { #Coalition of the bloody flower
             }
     }
 }
- 
+country_event = {
+    id = rcw.12
+    title = rcw.12.t
+    desc = rcw.12.d
+    trigger = {
+        tag = A12 
+        has_country_flag = rcw 
+        A22 = {
+            is_subject_of = A12 
+            NOT = { is_in_war = {} }
+        }
+    }
+    immediate = {
+        A22 = {
+            join_all_offensive_wars_of = A12 
+            join_all_defensive_wars_of = A12 
+        }
+    }
+    option = {}
+}
+country_event = {
+    id = rcw.13
+    title = rcw.13.t
+    desc = rcw.13.d
+    trigger = {
+        tag = A12 
+        has_country_flag = rcw 
+        A40 = {
+            is_subject_of = A12 
+            NOT = { is_in_war = {} }
+        }
+    }
+    immediate = {
+        A40 = {
+            join_all_offensive_wars_of = A12 
+            join_all_defensive_wars_of = A12 
+        }
+    }
+    option = {}
+}
+country_event = {
+    id = rcw.14
+    title = rcw.14.t
+    desc = rcw.14.d
+    trigger = {
+        tag = A12 
+        has_country_flag = rcw 
+        A41 = {
+            is_subject_of = A12 
+            NOT = { is_in_war = {} }
+        }
+    }
+    immediate = {
+        A41 = {
+            join_all_offensive_wars_of = A12 
+            join_all_defensive_wars_of = A12 
+        }
+    }
+    option = {}
+}
+country_event = {
+    id = rcw.15
+    title = rcw.15.t
+    desc = rcw.15.d
+    trigger = {
+        tag = A12 
+        has_country_flag = rcw 
+        A42 = {
+            is_subject_of = A12 
+            NOT = { is_in_war = {} }
+        }
+    }
+    immediate = {
+        A42 = {
+            join_all_offensive_wars_of = A12 
+            join_all_defensive_wars_of = A12 
+        }
+    }
+    option = {}
+}
+country_event = {
+    id = rcw.16
+    title = rcw.16.t
+    desc = rcw.16.d
+    trigger = {
+        tag = A12 
+        has_country_flag = rcw 
+        A43 = {
+            is_subject_of = A12 
+            NOT = { is_in_war = {} }
+        }
+    }
+    immediate = {
+        A43 = {
+            join_all_offensive_wars_of = A12 
+            join_all_defensive_wars_of = A12 
+        }
+    }
+    option = {}
+}
