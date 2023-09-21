@@ -46,7 +46,7 @@ reyllean_civil_war = {
         }
     }
     modifier = {
-        global_unrest = 5
+        land_forcelimit_modifier = 0.33
     }
     on_start = rcw.2 
 }

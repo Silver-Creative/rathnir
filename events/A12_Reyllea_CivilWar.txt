@@ -165,118 +165,240 @@ country_event = { #Siege of Evansyllo
         }
     }
     option = {
-        name = rcw.4.a
-        ai_chance = {
-            factor = 0
-        }
-        add_military_power = -50
-        change_tag = A12
-        inherit = PREV 
-    }
-    option = {
         name = rcw.4.b
+        trigger = {
+                A40 = {
+        AI = yes 
+    }
+        }
+        ai_chance = {
+            factor = 80
+        }
+        add_administrative_power = -50
+        custom_tooltip = reyllea_dissolution_tt
+        hidden_effect = {
+        213 = {
+            cede_province = A22
+        }
+
+        216 = {
+            cede_province = A22
+        }
+
+        217 = {
+            cede_province = A22
+        }
+
+        218 = {
+            cede_province = A22
+        }
+
+        219 = {
+            cede_province = A22
+        }
+
+        220 = {
+            cede_province = A22
+        }
+
+
+        239 = {
+            cede_province = A41
+        }
+
+        240 = {
+            cede_province = A41
+        }
+
+        224 = {
+            cede_province = A41
+        }
+
+        225 = {
+            cede_province = A41
+        }
+
+        221 = {
+            cede_province = A41
+        }
+
+        238 = {
+            cede_province = A43
+        }
+
+        227 = {
+            cede_province = A41
+        }
+
+        228 = {
+            cede_province = A41
+        }
+
+        230 = {
+            cede_province = A41
+        }
+
+        226 = {
+            cede_province = A41
+        }
+
+        231 = {
+            cede_province = A41
+        }
+
+        212 = {
+            cede_province = A42
+        }
+
+        214 = {
+            cede_province = A42
+        }
+
+        1317 = {
+            cede_province = A42
+        }
+
+        760 = {
+            cede_province = A43
+        }
+
+        233 = {
+            cede_province = A43
+        }
+
+        229 = {
+            cede_province = A43
+        }
+
+        232 = {
+            cede_province = A43
+        }
+
+        754 = {
+            cede_province = A43
+        }
+
+        753 = {
+            cede_province = A43
+        }
+
+        215 = {
+            cede_province = A55
+        }
+
+        1320 = {
+            cede_province = A55
+        }
+
+        235 = {
+            cede_province = A55
+        }
+release_all_subjects = yes
+create_march = A55 
+        }
+    }
+   option = {
+        name = rcw.4.b
+        ai_chance = {
+            factor = 80
+        }
+        trigger = {
+            A40 = {
+        AI = no
+    }
+        }
         ai_chance = {
             factor = 100
         }
         add_administrative_power = -50
         custom_tooltip = reyllea_dissolution_tt
         hidden_effect = {
-        A22 = {
-            every_neighbor_province = {
-                limit = {
-                    owned_by = A12
-                    NOT = {
-                            OR = {
-                                has_province_modifier = A41 
-                                has_province_modifier = A42 
-                                has_province_modifier = A43 
-                            }
-                    }
-                }
-                cede_province = A22
-            }
-            white_peace = A12
+        225 = {
+            cede_province = A40
         }
-        A41 = {
-            every_neighbor_province = {
-                limit = {
-                    OR = {
-                    owned_by = A12
-                    owned_by = A22
-                    }
-                }
-                cede_province = A41
-            }
-            221 = {
-                cede_province = A22 
-            }
-            white_peace = A12
+
+        228 = {
+            cede_province = A22
         }
-        A42 = {
-            every_neighbor_province = {
-                limit = {
-                    OR = {
-                    owned_by = A12
-                    owned_by = A22
-                    }
-                }
-                cede_province = A42
-            }
-            1317 = {
-                cede_province = A42 
-            }
-            214 = {
-                cede_province = A42 
-            }
-            white_peace = A12
+
+        229 = {
+            cede_province = A22
         }
-        A43 = {
-            every_neighbor_province = {
-                limit = {
-                    OR = {
-                    owned_by = A12
-                    owned_by = A22
-                    }
-                }
-                cede_province = A43
-            }
-            219 = {
-                cede_province = A22 
-            }
-            216 = {
-                cede_province = A42 
-            }
-            white_peace = A12
-        } 
+
+        760 = {
+            cede_province = A22
+        }
+
+        226 = {
+            cede_province = A22
+        }
+
+        217 = {
+            cede_province = A41
+        }
+
+        213 = {
+            cede_province = A41
+        }
+
+        216 = {
+            cede_province = A41
+        }
+
+        218 = {
+            cede_province = A41
+        }
+
+        219 = {
+            cede_province = A41
+        }
+
+        235 = {
+            cede_province = A41
+        }
+
+        212 = {
+            cede_province = A42
+        }
+
+        1317 = {
+            cede_province = A42
+        }
+
+        214 = {
+            cede_province = A42
+        }
+
+        1320 = {
+            cede_province = A43
+        }
+
         754 = {
             cede_province = A43
         }
-        218 = {
-            cede_province = A41 
+
+        753 = {
+            cede_province = A43
         }
-        749 = {
-            cede_province = A22 
+
+        233 = {
+            cede_province = A43 
         }
+
         215 = {
-            cede_province = A55 
-            add_core = A55 
-        }
-        1320 = {
-            cede_province = A55 
-            add_core = A55 
-        }
-        235 = {
             cede_province = A55
-            add_core = A55 
         }
-        release_all_subjects = yes 
-        create_march = A55 
+release_all_subjects = yes
+create_march = A55 
         }
-    }
+   }
+
+
+
     option = {
         name = rcw.4.c
         ai_chance = {
-            factor = 0
+            factor = 10
         }
         add_diplomatic_power = -50
         custom_tooltip = ile_de_reyllea_tt 
@@ -302,14 +424,98 @@ country_event = { #Siege of Evansyllo
         217 = {
             cede_province = ROOT 
         }
+            IF = {
+                NOT = {
+                    tag = A40 
+                }
+            A40 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A41
+                }
+            A41 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A42 
+                }
+            A42 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A43
+                }
+            A43 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A22 
+                }
+            A22 = {
+                declare_war = ROOT
+            }
+            }
         }
-        vassalize = A12
     }
     option = {
         name = rcw.4.e 
+        ai_chance = {
+            factor = 10
+        }
         add_stability = -2
         add_administrative_power = -250
         inherit = A12 
+        hidden_effect = {
+            IF = {
+                NOT = {
+                    tag = A40 
+                }
+            A40 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A41
+                }
+            A41 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A42 
+                }
+            A42 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A43
+                }
+            A43 = {
+                declare_war = ROOT
+            }
+            }
+            IF = {
+                NOT = {
+                    tag = A22 
+                }
+            A22 = {
+                declare_war = ROOT
+            }
+            }
+        }
     }
 }
 country_event = { #Siege of Lestria
@@ -328,6 +534,7 @@ country_event = { #Siege of Lestria
     immediate = {
         A22 = {
             clr_country_flag = rcw 
+            white_peace = A12 
         }
     }
     option = {
@@ -369,10 +576,11 @@ country_event = { #Siege of Ilivian
     immediate = {
         A40 = {
             clr_country_flag = rcw 
+            white_peace = A12 
         }
     }
     option = {
-        name = rcw.6.a
+        name = rcw.5.a
         add_diplomatic_power = -50
         vassalize = A40
         A42 = {
@@ -381,12 +589,12 @@ country_event = { #Siege of Ilivian
         }
     }
     option = {
-        name = rcw.6.b
+        name = rcw.5.b
         add_administrative_power = -50
         inherit = A40
     }
     option = {
-        name = rcw.6.c
+        name = rcw.5.c
         add_military_power = -50
         create_subject = {
         subject_type = tributary_state
@@ -422,10 +630,11 @@ country_event = { #Siege of Rodea
     immediate = {
         A42 = {
             clr_country_flag = rcw 
+            white_peace = 12 
         }
     }
     option = {
-        name = rcw.7.a
+        name = rcw.5.a
         add_diplomatic_power = -50
         vassalize = A42
         A42 = {
@@ -434,12 +643,12 @@ country_event = { #Siege of Rodea
         }
     }
     option = {
-        name = rcw.7.b
+        name = rcw.5.b
         add_administrative_power = -50
         inherit = A42
     }
     option = {
-        name = rcw.7.c
+        name = rcw.5.c
         add_military_power = -50
         create_subject = {
         subject_type = tributary_state
@@ -488,17 +697,16 @@ country_event = { #Siege of Argvennes
         234 = {
             controlled_by = ROOT
         }
-        is_in_war = {
-            attacker_leader = ROOT 
-        }
+        is_in_war = {}
     }
     immediate = {
         A43 = {
             clr_country_flag = rcw 
+            white_peace = A12 
         }
     }
     option = {
-        name = rcw.9.a
+        name = rcw.5.a
         add_diplomatic_power = -50
         vassalize = A43
         A42 = {
@@ -507,17 +715,27 @@ country_event = { #Siege of Argvennes
         }
     }
     option = {
-        name = rcw.9.b
+        name = rcw.5.b
         add_administrative_power = -50
         inherit = A43
     }
     option = {
-        name = rcw.9.c
+        name = rcw.5.c
         add_military_power = -50
         create_subject = {
         subject_type = tributary_state
         subject = A43
     }
+    }
+    option = {
+        name = rcw.9.e
+        add_stability = 1
+        white_peace = A43 
+        add_opinion = {
+            who = A43 
+            modifier = returned_core_to_me 
+            create_alliance = A43 
+        }
     }
 }
 country_event = { #The Evansyllo Accords
@@ -597,9 +815,30 @@ country_event = { #Coalition of the bloody flower
         IF = {
             AI = yes 
         }
+        A12 = {
+            release_all_subjects = yes
+        }
+        A12 = {
         declare_war_with_cb = {
-            who = A12 
-            casus_belli = cb_independence_war 
+            who = A22
+            casus_belli = cb_independence_war
+            war_goal_province = 219
+        }
+        IF = {
+            A40 = {
+                has_country_flag = preparing_for_war
+            }
+            join_all_defensive_wars_of = A22 
+        }
+        A41 = {
+            join_all_defensive_wars_of = A22  
+        }
+        A42 = {
+            join_all_defensive_wars_of = A22 
+        }
+        A43 = {
+            join_all_defensive_wars_of = A22 
+        }
         }
     }
     option = {

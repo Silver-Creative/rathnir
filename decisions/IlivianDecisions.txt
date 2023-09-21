@@ -10,6 +10,7 @@ country_decisions = {
             NOT = {
                 has_country_flag = preparing_for_war
             }
+            AI = no 
         }
         effect = {
             set_country_flag = preparing_for_war 
