@@ -156,6 +156,24 @@ country_event = { #Siege of Evansyllo
             }
         }
     }
+        after = {
+            A22 = {
+                clr_country_flag = rcw
+            }
+            A40 = {
+                clr_country_flag = rcw 
+            }
+            A41 = {
+                clr_country_flag = rcw 
+            }
+            A42 = {
+                clr_country_flag = rcw 
+            }
+            A43 = {
+                clr_country_flag = rcw 
+            }
+            clr_global_flag = dc_rcw 
+        }
     mean_time_to_happen = {
         months = 2
     }
@@ -176,126 +194,154 @@ country_event = { #Siege of Evansyllo
         }
         add_administrative_power = -50
         custom_tooltip = reyllea_dissolution_tt
-        hidden_effect = {
-        213 = {
-            cede_province = A22
-        }
+hidden_effect = {
+    213 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        216 = {
-            cede_province = A22
-        }
+    216 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        217 = {
-            cede_province = A22
-        }
+    217 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        218 = {
-            cede_province = A22
-        }
+    218 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        219 = {
-            cede_province = A22
-        }
+    219 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        220 = {
-            cede_province = A22
-        }
+    220 = {
+        cede_province = A22
+        add_core = A22
+    }
 
+    239 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        239 = {
-            cede_province = A41
-        }
+    240 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        240 = {
-            cede_province = A41
-        }
+    224 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        224 = {
-            cede_province = A41
-        }
+    225 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        225 = {
-            cede_province = A41
-        }
+    221 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        221 = {
-            cede_province = A41
-        }
+    238 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        238 = {
-            cede_province = A43
-        }
+    227 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        227 = {
-            cede_province = A41
-        }
+    228 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        228 = {
-            cede_province = A41
-        }
+    230 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        230 = {
-            cede_province = A41
-        }
+    226 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        226 = {
-            cede_province = A41
-        }
+    231 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        231 = {
-            cede_province = A41
-        }
+    212 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        212 = {
-            cede_province = A42
-        }
+    214 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        214 = {
-            cede_province = A42
-        }
+    1317 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        1317 = {
-            cede_province = A42
-        }
+    760 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        760 = {
-            cede_province = A43
-        }
+    233 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        233 = {
-            cede_province = A43
-        }
+    229 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        229 = {
-            cede_province = A43
-        }
+    232 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        232 = {
-            cede_province = A43
-        }
+    754 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        754 = {
-            cede_province = A43
-        }
+    753 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        753 = {
-            cede_province = A43
-        }
+    215 = {
+        cede_province = A55
+        add_core = A55
+    }
 
-        215 = {
-            cede_province = A55
-        }
+    1320 = {
+        cede_province = A55
+        add_core = A55
+    }
 
-        1320 = {
-            cede_province = A55
-        }
-
-        235 = {
-            cede_province = A55
-        }
-release_all_subjects = yes
-create_march = A55 
-        }
+    235 = {
+        cede_province = A55
+        add_core = A55
+    }
+    release_all_subjects = yes
+    create_march = A55 
+}
     }
    option = {
         name = rcw.4.b
@@ -313,84 +359,103 @@ create_march = A55
         add_administrative_power = -50
         custom_tooltip = reyllea_dissolution_tt
         hidden_effect = {
-        225 = {
-            cede_province = A40
-        }
+    225 = {
+        cede_province = A40
+        add_core = A40
+    }
 
-        228 = {
-            cede_province = A22
-        }
+    228 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        229 = {
-            cede_province = A22
-        }
+    229 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        760 = {
-            cede_province = A22
-        }
+    760 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        226 = {
-            cede_province = A22
-        }
+    226 = {
+        cede_province = A22
+        add_core = A22
+    }
 
-        217 = {
-            cede_province = A41
-        }
+    217 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        213 = {
-            cede_province = A41
-        }
+    213 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        216 = {
-            cede_province = A41
-        }
+    216 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        218 = {
-            cede_province = A41
-        }
+    218 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        219 = {
-            cede_province = A41
-        }
+    219 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        235 = {
-            cede_province = A41
-        }
+    235 = {
+        cede_province = A41
+        add_core = A41
+    }
 
-        212 = {
-            cede_province = A42
-        }
+    212 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        1317 = {
-            cede_province = A42
-        }
+    1317 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        214 = {
-            cede_province = A42
-        }
+    214 = {
+        cede_province = A42
+        add_core = A42
+    }
 
-        1320 = {
-            cede_province = A43
-        }
+    1320 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        754 = {
-            cede_province = A43
-        }
+    754 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        753 = {
-            cede_province = A43
-        }
+    753 = {
+        cede_province = A43
+        add_core = A43
+    }
 
-        233 = {
-            cede_province = A43 
-        }
+    233 = {
+        cede_province = A43
+        add_core = A43 
+    }
 
-        215 = {
-            cede_province = A55
-        }
-release_all_subjects = yes
-create_march = A55 
-        }
+    215 = {
+        cede_province = A55
+        add_core = A55
+    }
+    release_all_subjects = yes
+    create_march = A55 
+}
    }
 
 
@@ -403,27 +468,34 @@ create_march = A55
         add_diplomatic_power = -50
         custom_tooltip = ile_de_reyllea_tt 
         hidden_effect = {
-        215 = {
-            cede_province = ROOT
-        }
-        1320 = {
-            cede_province = ROOT 
-        }
-        235 = {
-            cede_province = ROOT 
-        }
-        219 = {
-            cede_province = ROOT 
-        }
-        218 = {
-            cede_province = ROOT 
-        }
-        216 = {
-            cede_province = ROOT 
-        }
-        217 = {
-            cede_province = ROOT 
-        }
+215 = {
+    cede_province = ROOT
+    add_core = ROOT
+}
+1320 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
+235 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
+219 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
+218 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
+216 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
+217 = {
+    cede_province = ROOT 
+    add_core = ROOT
+}
             IF = {
                 NOT = {
                     tag = A40 
@@ -773,6 +845,9 @@ country_event = { #The Evansyllo Accords
                 exists = A12 
             }
         }
+    }
+    mean_time_to_happen = {
+        months = 1
     }
     immediate = {
         random_country = {
