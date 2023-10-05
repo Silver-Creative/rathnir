@@ -453,6 +453,50 @@ A39_ideas = {
 
 }
 
+#Lausaria ideas
+A50_ideas = {
+	start = {
+		core_creation = -0.1
+		tolerance_own = 2
+	}
+
+	bonus = {
+		hostile_attrition = 1
+	}
+
+	trigger = {
+		OR = {
+			tag = A50 #Lausaria
+		}
+	}
+	free = yes		#will be added at load.
+
+	A50_farene_industry = {
+		production_efficiency = 0.1
+	}
+	A50_violet_breeze = {
+		movement_speed = 0.2
+	}
+	A50_sea_second_home = {
+		may_perform_slave_raid = yes
+	}
+	A50_more_than_thrift = {
+		global_tax_modifier = 0.2
+		inflation_reduction = 0.05
+	}
+	A50_hand_of_solaris = {
+		global_ship_recruit_speed = -0.1
+		global_prov_trade_power_modifier = 0.1
+	}
+	A50_death_defied = {
+		shock_damage_received = -0.15
+	}
+	A50_kjastii_reborn = {
+		missionary_maintenance_cost = -0.15
+		global_heathen_missionary_strength = 0.01
+	}
+}
+
 #Knossian ideas
 B09_ideas = {
     start = {
