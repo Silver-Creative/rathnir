@@ -1,0 +1,4 @@
+entity = {
+    name = "frame_top_center_rath_entity"
+    pdxmesh = "frame_top_center_rath_mesh"
+}

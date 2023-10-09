@@ -1,0 +1,9 @@
+objectTypes = {
+
+pdxmesh = {
+		name = "frame_top_center_rath_mesh"
+		file = "gfx/models/Mapitems/frame_top_center_rath.mesh"
+		scale = 1.0
+		cull_distance = 99999.0f
+	}
+}
