@@ -11,6 +11,7 @@ country_event = {
 
     trigger = {
         has_reform = adventurer_reform
+        has_reform = seraan_soldier_clan
         capital_scope = { continent = nieden }
     }
 
@@ -36,6 +37,7 @@ country_event = {
 
     trigger = {
         has_reform = adventurer_reform
+        has_reform = seraan_soldier_clan
         capital_scope = { continent = nieden }
     }
 
