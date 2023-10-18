@@ -5,7 +5,7 @@ controller = N12
 add_core = N12
 
 culture = serrenii
-religion = vinaestre
+religion = soleannen
 capital = ""
 
 hre = no

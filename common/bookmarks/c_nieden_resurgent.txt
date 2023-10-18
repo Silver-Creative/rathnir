@@ -1,0 +1,24 @@
+bookmark = {
+
+    name = "NIEDEN_RESURGENT_NAME"
+    desc = "NIEDEN_RESURGENT_DESC"
+    date = 1444.1.1
+
+    center = 262
+    default = no
+
+    country = O16
+    country = N12
+    country = N11
+    country = N03
+    country = O12
+    country = O18
+    country = O10
+    country = O22
+    country = O24
+    country = O25
+
+    easy_country = O16
+    easy_country = N12
+    
+}
