@@ -911,6 +911,26 @@ aurlunoren_group = {
 	}
 }
 
+silvish_group = {
+	graphical_culture = westerngfx
+
+	kressenmaurez = {
+
+	}
+	merenen = {
+
+	}
+	tedzen = {
+
+	}
+	gauwel = {
+
+	}
+
+	uhel = {
+
+	}
+}
 northern_group = {
 	graphical_culture = westerngfx
 
@@ -938,6 +958,11 @@ valdreachan_group = {
 	tvearan = {
 
 	}
+
+	concordan = {
+
+	}
+	
 	aezenfjorder = {
 
 	}

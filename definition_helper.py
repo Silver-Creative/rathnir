@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)
 pd.set_option('max_colwidth', 800)
 
-SHEET_ID = "1Kxf8JnimUvgQvzq-VPTI5gAPzz76NcJlx7TLwKDHfEM"
+SHEET_ID = "1SlTa-Gms9BLTrIdChqVDow0WE3W8MVfi9u51JXNuyQA"
 SHEET_NAME = "Provinces"
 url = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}'
 df = pd.read_csv(url)

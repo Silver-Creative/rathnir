@@ -1,4 +1,4 @@
 graphical_culture = westerngfx
 color = { 
-	217 223 221 
+	230 230 250
 }

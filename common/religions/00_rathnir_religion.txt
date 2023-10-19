@@ -1013,3 +1013,37 @@ sparwood_group = {
 		}
 	}
 }
+
+imperial = {
+	lannloar = {
+		color = { 255 255 255 }
+		icon = 54
+		allowed_conversion = {}
+
+		country = {
+			discipline = 0.025
+			defensiveness = 0.15
+		}
+		country_as_secondary = {
+			discipline = 0.025
+			defensiveness = 0.15
+		}
+		province = {
+			655
+		}
+
+		on_convert = {
+			change_religion = lannloar
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = {
+			ICONOCLASTS
+		}
+	}
+}
