@@ -39,7 +39,9 @@ religion_map = {
     "Willowpact": "willowpact",
     "Noxism": "noxism",
     "Asitir": "asitir",
-    "Twin Dragon": "twin_dragon"
+    "Twin Dragon": "twin_dragon",
+    "Vinaestre": "vinaestre",
+    "Lotus Doctrine": "lotus_doctrine"
 }
 
 def f_remove_accents(old):
