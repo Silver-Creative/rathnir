@@ -633,7 +633,7 @@ myrish_swamp_area = {
 }
 
 western_kaithrat_area = {
-	316 1299 1300 1302
+	316 1299 1300 1302 2246
 }
 
 eastern_kaithrat_area = {
