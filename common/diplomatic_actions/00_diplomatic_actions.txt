@@ -144,48 +144,6 @@ declarewar = {
 		}
 	}
 	#Rathnir
-	condition = {
-		potential = {
-			has_global_flag = cd_rcw 
-			FROM = {
-				OR = {
-				capital_scope = { region = raell_region }
-				tag = A40 
-				}
-			}
-			ROOT = {
-				OR = {
-					tag = A40
-					NOT = { capital_scope = { region = raell_region } }
-				}
-			}
-		}
-		allow = {}
-	}
-	effect = {
-		on_war_declaration_effect = yes
-		}
-condition = { #cant declare on Reyllea during the civil war if AI
-		potential = {
-			has_global_flag = cd_rcw 
-			FROM = {
-				OR = {
-				capital_scope = { region = raell_region }
-				tag = A40 
-				}
-			}
-			ROOT = {
-				OR = {
-					tag = A40
-					NOT = { capital_scope = { region = raell_region } }
-				}
-			}
-			}
-		allow = {
-			NOT = { has_global_flag = cd_rcw }
-			has_country_flag = rcw 
-		}
-	}
 
 	condition = {
 		tooltip = CANNOT_WAR_NIEDEN_TT
@@ -682,31 +640,4 @@ support_independence_action = {
         tooltip = outside_vastallos
         potential = { }
     }
-}
-requestpeace = {
-	condition = {
-		potential = {
-			OR = {
-			AND = {
-			tag = A12
-			has_country_flag = rcw 
-			}
-			OR = {
-				tag = A22
-				tag = A40 
-				tag = A41 
-				tag = A42 
-				tag = A43 
-				AND = {
-					has_country_flag = rcw 
-				}
-			}
-			}
-		}
-		allow = {
-			NOT = {
-				has_country_flag = rcw 
-			}
-		}
-	}
 }
