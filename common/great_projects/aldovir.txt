@@ -24,7 +24,7 @@ sanctum_of_the_judge = {
 
 	can_use_modifiers_trigger = {
 		owner = {
-			religion = skarelism 
+			religion = sakrelism 
 		}
 	}
 
