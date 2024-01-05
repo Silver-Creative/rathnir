@@ -136,4 +136,9 @@ spriteTypes = {
 		name = "GFX_great_project_severion_sylenekir"
 		texturefile = "gfx//interface//great_projects//great_project_severion_sylenekir.dds"
 	}
+	#west sparwood
+	SpriteType = {
+		name = "GFX_great_project_lotus_castle"
+		texturefile = "gfx//interface//great_projects//great_project_lotus_castle.dds
+	}
 }
