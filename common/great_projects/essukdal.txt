@@ -790,7 +790,7 @@ the_last_bastion = {
     date = 919.06.20
     build_cost = 0
     can_be_moved = no
-    starting_tier = 1
+    starting_tier = 0
     type = monument 
     build_trigger = {
 	}
