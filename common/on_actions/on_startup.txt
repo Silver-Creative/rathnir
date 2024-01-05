@@ -17,21 +17,6 @@ on_startup = {
 
 	#Rathnir
 	set_global_flag = nieden_earlygame
-	set_global_flag = cd_rcw 
 
 	country_event = { id = nieden_adventurers.1 }
-
-	if = {
-		limit = {
-			OR = {
-				tag = A12 
-				tag = A43 
-				tag = A22 
-				tag = A42 
-				tag = A41 
-				tag = A40 
-			}
-		}
-		set_country_flag = rcw 
-	}
 }
