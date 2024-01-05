@@ -139,6 +139,6 @@ spriteTypes = {
 	#west sparwood
 	SpriteType = {
 		name = "GFX_great_project_lotus_castle"
-		texturefile = "gfx//interface//great_projects//great_project_lotus_castle.dds
+		texturefile = "gfx//interface//great_projects//great_project_lotus_castle.dds"
 	}
 }
