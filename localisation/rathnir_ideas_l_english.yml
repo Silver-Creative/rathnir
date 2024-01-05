@@ -112,6 +112,25 @@
  A07_hjuzairar_desc: "Due to the isolated nature of Coltmaere's islands, foreign nobles tend to build estates here. We allow them to, of course, for a hefty price."
  A07_iceshapers: "Iceshapers"
  A07_iceshapers_desc: "Keshnev's ice shapers are strange indeed. They turn summer heat into winter snow, and claim to see the future in the ice... Despite our nominal ban on witchcraft, it may be wise to sanction their divination practices."
+ 
+ #A08 - Azuria
+ A08_ideas: "Azurian Ideas"
+ A08_ideas_start: "Azurian Traditions"
+ A08_ideas_bonus: "Azurian Ambition"
+ A08_the_bastion: "Keepers of The Last Bastion"
+ A08_the_bastion_desc: "PLACEHOLDER Its a cool place and its super important :D"
+ A08_suzerain: "Suzerain and Liberator"
+ A08_suzerain_desc: "PLACEHOLDER Hawker freed us? More like under new management."
+ A08_wyldvarn_burrows: "Wyldvarn Barrows"
+ A08_wyldvarn_burrows_desc: "PLACEHOLDER Dwarves innet"
+ A08_yistunn_markets: "Yistunn Markets"
+ A08_yistunn_markets_desc: "PLACEHOLDER making big money moves are we?"
+ A08_grandett_fields: "Grandett Fields"
+ A08_grandett_fields_desc: "PLACEHOLDER Lots o grain to be had from that gravedirt"
+ A08_ruin_of_caheren: "Ruin of Caheren"
+ A08_ruin_of_caheren_desc: "PLACEHOLDER yea Hawker did a number on the place"
+ A08_hawkers_fascination: "Hawker's Fascinations"
+ A08_hawkers_fascination_desc: "PLACEHOLDER curious guy, ain't he?"
 
  #A10 - Sironia
  A10_ideas: "Sironian Ideas"

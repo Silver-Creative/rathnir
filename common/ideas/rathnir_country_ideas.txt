@@ -19,7 +19,7 @@ A00_ideas = {
 
     trigger = {
         OR = {
-            tag = A00 #An�shph�y
+            tag = A00 #Audal
         }
     }
     free = yes		#will be added at load.
@@ -271,6 +271,47 @@ A07_ideas = {
 	}
 	A07_iceshapers = {
 		all_power_cost = -0.025
+	}
+}
+
+#Azuria ideas
+A08_ideas = {
+	start = {
+		leader_land_shock = 1
+		defensiveness = 0.20
+	}
+
+	bonus = {
+        monarch_lifespan = 0.33
+    }
+
+    trigger = {
+        OR = {
+            tag = A08 #Azuria
+        }
+    }
+    free = yes		#will be added at load.
+
+	A08_the_bastion = {
+		prestige_decay = -0.01
+	}
+	A08_suzerain = {
+		development_cost = -0.1
+	}
+	A08_wyldvarn_burrows = {
+		build_cost = -0.1
+	}
+	A08_yistunn_markets = {
+		merchants = 1
+	}
+	A08_grandett_fields = {
+		manpower_recovery_speed = 0.2
+	}
+	A08_ruin_of_caheren = {
+		harsh_treatment_cost = -0.5
+	}
+	 A08_hawkers_fascination = {
+		innovativeness_gain = 0.5
 	}
 }
 
