@@ -216,7 +216,7 @@ A04_ideas = {
 	}
 
 	A04_life_on_the_sea = {
-		naval_attrition -0.2
+		naval_attrition = -0.2
 	}
 
 	A04_resplendant_sky = {
