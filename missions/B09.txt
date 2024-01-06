@@ -1,4 +1,4 @@
-conquest = {
+conquest_b09 = {
 	slot = 1
 	generic = no
 	ai = yes

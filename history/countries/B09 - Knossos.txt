@@ -31,4 +31,17 @@ national_focus = MIL
 		religion = dandelism
 		claim = 100
 	}
+	queen = {
+		country_of_origin = B09
+		name = "Kyley"
+		dynasty = "Reállos"
+		birth_date = 1412.4.20
+		death_date - 1820.6.8
+		female = yes
+		adm = 6
+		dip = 5
+		mil = 3
+		culture = knossian
+		religion = dandelism
+	}
 }

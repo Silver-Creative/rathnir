@@ -1,0 +1,84 @@
+conquest_b00 = {
+	slot = 1
+	generic = no
+	ai = no
+    has_country_shield = yes
+	potential = { tag = B00 } 
+    waahi_conquest = {
+        icon = mission_build_up_to_force_limit
+        provinces_to_highlight = {
+            OR = {
+                area = eastern_kawalapua_area
+            }
+            NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+        trigger = {
+            army_size_percentage = 1
+            ravenus_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            eastern_kawalapua_area = {
+                limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+            western_kawalapua_area = {
+                limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+        }
+    }
+    plan_the_arm = {
+        icon = plague_doctor_training
+        required_missions = { waahi_conquest }
+        position = 2
+        trigger = {
+            eastern_kawalapua_area = {
+                owned_by = ROOT
+                type = all
+            }
+        }
+        effect = {
+            atlahua_area = {
+				add_permanent_claim = ROOT
+			}
+            denthra_esparra_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    fort_madinatta = {
+        icon = expand_the_arsenal
+        required_missions = { plan_the_arm }
+        position = 1
+        provinces_to_highlight = {
+            OR = {
+                area = denthra_esparra_area
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds
+            }
+        }
+        trigger = {
+            At = {
+                owned_by = ROOT
+                type = all
+            }
+        }
+        effect = {
+            verroryia_area = {
+		    add_permanent_claim = ROOT
+			}
+        }
+    }
+}
