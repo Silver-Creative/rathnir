@@ -758,3 +758,44 @@ N00_ideas = {
 		global_colonial_growth = 15
 	}
 }
+
+#Tuka L11
+L11_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.10
+		merc_maintenance_modifier = -0.10
+	}
+	bonus = {
+		reduced_stab_impacts = yes
+	}
+	trigger = {
+		OR = {
+			tag = L11 #Tuka
+		}
+	}
+	free = yes #will be added at load.
+L11_tukan_pink = {
+	burghers_influence_modifier = 0.1
+	all_estate_loyalty_equilibrium = 0.05
+}
+L11_beetleshell = {
+	defensiveness = 0.10
+}
+L11_civic_zeal = {
+	reelection_cost = -0.15
+	years_of_nationalism = -5
+}
+L11_dreamhouses = {
+	war_exhaustion = -0.05
+}
+L11_tukanization = {
+	culture_conversion_time = -0.20
+	culture_conversion_cost = -0.15
+}
+L11_orchids = {
+	spy_offence = 0.10
+}
+L11_shipments = {
+	caravan_power = 0.20
+}
+}
