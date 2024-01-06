@@ -38,7 +38,7 @@ country_event = {
     #fire_only_once = yes
     trigger = {
         capital_scope = {
-			superregion = vastallos_superregion
+			superregion = vastallos_superregion 
 		}
 		NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
 		NOT = {
@@ -64,7 +64,7 @@ country_event = {
     #fire_only_once = yes
     trigger = {
         capital_scope = {
-			superregion = essukdal_superregion
+			superregion = vastallos_superregion
 		}
 		NOT = { has_country_flag = THIS_EVENT_FIRED_FOR_ME }
 		NOT = {
