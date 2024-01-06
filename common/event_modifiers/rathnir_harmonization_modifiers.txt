@@ -53,3 +53,8 @@ harmonized_zentivar = {
     development_cost = -0.1
     religion = yes
 }
+
+harmonized_asitir = {
+    adm_tech_cost_modifier = -0.075
+    religion = yes
+}

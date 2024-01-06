@@ -1,8 +1,8 @@
 # 658 - Jurdigs
 
-owner = L13
-controller = L13
-add_core = L13
+owner = L00
+controller = L00
+add_core = L00
 
 culture = vraelean
 religion = sakrelism
@@ -10,11 +10,12 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 3
 base_production = 1
-base_manpower = 1
+base_manpower = 5
 
 trade_goods = iron
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

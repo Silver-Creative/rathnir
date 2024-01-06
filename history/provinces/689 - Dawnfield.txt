@@ -1,18 +1,18 @@
 # 689 - Dawnfield
 
-owner = nan
-controller = nan
-add_core = nan
+owner = N15
+controller = N15
+add_core = N15
 
 culture = kietrii
-religion = norse
+religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 3
 
 trade_goods = grain
 

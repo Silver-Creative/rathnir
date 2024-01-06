@@ -1,8 +1,8 @@
 # 679 - New Liera
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L05
+controller = L05
+add_core = L10
 
 culture = sorradic
 religion = eastern_asharu
@@ -11,10 +11,11 @@ capital = ""
 hre = no
 
 base_tax = 1
-base_production = 1
-base_manpower = 1
+base_production = 3
+base_manpower = 2
 
 trade_goods = cloth
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

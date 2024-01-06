@@ -1,0 +1,19 @@
+country_decisions = {
+    prepare_for_war = {
+        potential = {
+            NOT = {
+                has_country_flag = preparing_for_war 
+            }
+            tag = A40 
+        }
+        allow = {
+            NOT = {
+                has_country_flag = preparing_for_war
+            }
+            AI = no 
+        }
+        effect = {
+            set_country_flag = preparing_for_war 
+        }
+    }
+}

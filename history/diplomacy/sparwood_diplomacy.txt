@@ -1,0 +1,39 @@
+#Saratenna and Tuka friendship
+alliance = {
+    first = L11 #Tuka
+    second = L13 #Saratenna
+    start_date = 1444.11.11
+}
+
+#Arbalon and Hithray still bros even though Saratenna beat them up
+alliance = {
+    first = L07 #Arbalon
+    second = L05 #Hithray
+    start_date = 1444.11.11
+}
+
+#Raslige dominated by smugglers
+vassal = {
+    first = L13 #Saratenna
+    second = L09 #Raslige
+    start_date = 1444.11.11
+}
+
+#Kaheren defence against Azuria
+alliance = {
+    first = N13 #Passanuria
+    second = N17 #Minad
+    start_date = 1444.11.11
+}
+
+alliance = {
+    first = N14 #Dronnin
+    second = N13 #Passanuria
+    start_date = 1444.11.11
+}
+
+alliance = {
+    first = N17 #Minad
+    second = N14 #Dronnin
+    start_date = 1444.11.11
+}

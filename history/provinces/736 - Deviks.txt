@@ -1,20 +1,21 @@
 # 736 - Deviks
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L02
+controller = L02
+add_core = L02
 
 culture = arbalonic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 7
+base_manpower = 3
 
 trade_goods = incense
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

@@ -1,8 +1,8 @@
 # 720 - Brutrun
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L07
+controller = L07
+add_core = L07
 
 culture = serafian
 religion = eastern_asharu
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 3
 
 trade_goods = grain
 

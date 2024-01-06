@@ -633,7 +633,7 @@ myrish_swamp_area = {
 }
 
 western_kaithrat_area = {
-	316 1299 1300 1302
+	316 1299 1300 1302 2246
 }
 
 eastern_kaithrat_area = {
@@ -1134,7 +1134,7 @@ dawnriver_area = {
 	687 688 689 690
 }
 
-utumno_area = {
+dronnin_area = {
 	691 692 693 694 695 696
 }
 

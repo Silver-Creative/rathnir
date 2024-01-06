@@ -166,7 +166,7 @@ groups = {
             value = 75
         }
     }
-    tech_barbaric = {
+    tech_havenite = {
         start_level = 3
         start_cost_modifier = 0.5
         nation_designer_cost = {

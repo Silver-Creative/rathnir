@@ -1,8 +1,8 @@
 # 680 - Trae Olluth
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L05
+controller = L05
+add_core = L05
 
 culture = sorradic
 religion = etherflame
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
 trade_goods = grain
 

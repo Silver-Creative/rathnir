@@ -1,8 +1,8 @@
 # 737 - Holstocco
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L02
+controller = L02
+add_core = L02
 
 culture = chimunic
 religion = etherflame
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 trade_goods = fish
 

@@ -1,8 +1,9 @@
 government = monarchy
-
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = serafian
-religion = sakrelism
+primary_culture = sorradic
+add_accepted_culture = hostic
+religion = etherflame
 technology_group = tech_luthic
 capital = 682 #Old Liera
 national_focus = DIP

@@ -1,0 +1,11 @@
+﻿#Bandit Raid
+l_english:
+ saratenna_events.1.t: "Pillaging, at last!"
+ saratenna_events.1.desc: "Though [Root.GetName] is a great country which needs not to rely on others for its glory, despite what many foul mouths would say, we still have our wants and traditions. Our prospectors itch for the thrill of the raid and the plunder, even moreso considering the capital opportunities in our area. As for our government, the treasury could always use a little more coin..."
+ saratenna_events.1.a: "Raid the province of §Y[banditrep_target_1.GetName]"
+ saratenna_events.1.b: "Raid the province of §Y[banditrep_target_2.GetName]"
+ saratenna_events.1.c: "Raid the province of §Y[banditrep_target_3.GetName]"
+ saratenna_events.1.d: "Raid the province of §Y[banditrep_target_4.GetName]"
+ saratenna_events.1.e: "Raid the province of §Y[banditrep_target_5.GetName]"
+ saratenna_events.1.f: "Raid the province of §Y[banditrep_target_6.GetName]"
+ saratenna_events.1.g: "Perhaps we should not be so hasty."

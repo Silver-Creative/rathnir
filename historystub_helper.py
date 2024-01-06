@@ -2,6 +2,7 @@ import pandas as pd
 import csv
 import re
 import numpy as np
+import os
 
 pd.options.display.max_rows = 9999
 
@@ -37,7 +38,10 @@ religion_map = {
     "Abyss Mysticism": "abyss_mysticism",
     "Willowpact": "willowpact",
     "Noxism": "noxism",
-    "Asitir": "asitir"
+    "Asitir": "asitir",
+    "Twin Dragon": "twin_dragon",
+    "Vinaestre": "vinaestre",
+    "Lotus Doctrine": "lotus_doctrine"
 }
 
 def f_remove_accents(old):
@@ -63,6 +67,12 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
             provID = int(line_arr[0])
             provNAME = str(line_arr[4])
             filename = str(provID) + " - " + provNAME.replace("?", "").replace("/", "-")
+            
+            histpath = str(os.getcwd()) + '\history\provinces'
+            for file in os.listdir(histpath):
+                if file.startswith(str(provID)):
+                    os.remove(histpath + '\\' + file)
+
             if not df.at[provID-1, 'type'] == "Land":
                 with open('history/provinces/' + filename + ".txt", "w+", encoding='ISO-8859-1') as history:
                     history.write("# " + filename + '\n')
@@ -103,7 +113,6 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
                 is_city = str(df.at[provID-1, 'is_colonized']).lower()
 
                 fort = str(df.at[provID-1, 'has_lv2_fort']).lower()
-                
 
                 with open('history/provinces/' + filename + ".txt", "w+", encoding='ISO-8859-1') as history:
                     history.write("# " + filename + '\n')

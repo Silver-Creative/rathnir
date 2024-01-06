@@ -1,17 +1,17 @@
 # 726 - Oluna
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L07
+controller = L07
+add_core = L07
 
 culture = woltanje
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 
 trade_goods = lumber

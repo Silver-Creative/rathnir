@@ -9,7 +9,7 @@ historical_idea_groups = {
 	religious_ideas
 	economic_ideas
 	quantity_ideas
-	expansion_ideas
+	trade_ideas
 	administrative_ideas
 	aristocracy_ideas
 	offensive_ideas

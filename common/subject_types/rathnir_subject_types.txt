@@ -115,3 +115,80 @@ enoseron = {
 		modifier = enoseron_overlord
 	}
 }
+
+lirgalyn_city = {
+	copy_from = default
+	count = vassal
+
+	### Graphics:
+    sprite = GFX_icon_lirgalcity
+    diplomacy_overlord_sprite = GFX_diplomacy_lead_lirgalcity
+    diplomacy_subject_sprite = GFX_diplomacy_am_lirgalcity
+
+	###Properties:
+	can_be_integrated = no
+    can_be_annexed = no
+    can_have_subjects_of_other_types = no
+    can_fight_independence_war = yes
+	has_power_projection = yes
+	takes_diplo_slot = no
+	can_release_and_play = yes
+	gets_help_with_rebels = yes
+    can_release_in_peace = no
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = no
+	forms_trade_companies = yes
+	can_concentrate_development = yes
+    counts_for_borders = yes
+    can_transfer_in_peace = yes
+	transfer_trade_power = no
+	transfer_trade_if_merchant_republic = no
+	share_rebel_popup = yes
+	can_send_missionary_to_subject = no
+	forcelimit_to_overlord = 0.1
+
+	can_fight = {
+	}
+
+	can_rival = {
+	}
+
+	can_ally = {
+	}
+
+	can_marry = {
+	}
+
+	###Subject Interactions:
+
+	#continuous modifiers
+	embargo_rivals = yes
+	support_loyalists = yes
+	subsidize_armies = yes
+	scutage = no
+	send_officers = no
+	divert_trade = yes
+	
+	#immediate effects
+	placate_rulers = yes
+	place_relative_on_throne = no
+	enforce_religion = no
+	enforce_culture = no
+	grant_province = yes
+	grant_core_claim = yes
+	takeondebt = no
+	bestow_gifts = yes
+	demand_artifacts = yes
+	contribute_to_capital = no
+	knowledge_sharing = yes
+
+	### Modifiers:
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = lirgalcity_subject
+	}
+	modifier_overlord = {
+		modifier = lirgalcity_overlord
+	}
+}

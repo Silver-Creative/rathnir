@@ -1,8 +1,8 @@
 # 678 - Gesck
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L05
+controller = L05
+add_core = L05
 
 culture = sorradic
 religion = sakrelism
@@ -10,8 +10,8 @@ capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 2
 base_manpower = 1
 
 trade_goods = tea

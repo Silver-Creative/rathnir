@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = kietrii
+add_accepted_culture = serrenii
+religion = soleannen
+technology_group = tech_niedene
+capital = 643 #Annuvin
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Auria"
+		dynasty = "an Aesperii"
+		birth_date = 1417.8.2
+		adm = 4
+		dip = 3
+		mil = 5
+		culture = kietrii
+		religion = soleannen
+		female = yes
+	}
+}

@@ -19,6 +19,48 @@ republic_mechanic = {
 	valid_for_nation_designer = no
 }
 
+
+#################################################################
+#################################################################
+#####################RATHNIRI TIER 1#############################
+#################################################################
+#################################################################
+
+bandit_republic = {
+	icon = "soldiers"
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	has_term_election = no
+	valid_for_new_country = yes
+	allow_convert = yes
+	lock_level_when_selected = yes
+	republican_name = no
+	rulers_can_be_generals = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	potential = {
+		has_reform = bandit_republic
+	}
+
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			bandit_republic_mechanic
+		}
+	}
+}
+
+#################################################################
+#################################################################
+#####################RATHNIRI TIER 1#############################
+#################################################################
+#################################################################
+
+
 #Oligarchy vs Merchant Class vs Noble Elite
 
 oligarchy_reform = {
@@ -118,7 +160,7 @@ protectorate_parliament_reform = {
 	}
 	has_term_election = no
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		cannot_become_dictatorship = yes
@@ -390,7 +432,7 @@ pirate_republic_reform = {
 	duration = 4
 	
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		force_admiral_leader = yes
 		is_pirate_republic_reform = yes
 		elections_increase_factions_influence = yes
@@ -446,7 +488,7 @@ presidential_despot_reform = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -471,7 +513,7 @@ military_dictatorship_reform = {
 	}
 	custom_attributes = {
 		generals_become_rulers = yes
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -519,7 +561,7 @@ revolutionary_republic_reform = {
 		cannot_ally_non_republics_or_non_rev = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		locked_government_type = yes
+		 = yes
 	}
 
 	conditional = {
@@ -611,7 +653,7 @@ junior_revolutionary_republic_reform = {
 		cannot_ally_non_republics_or_non_rev = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		locked_government_type = yes
+		 = yes
 	}
 
 	removed_effect = {
@@ -780,7 +822,7 @@ free_city = {
 	fixed_rank = 1
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -809,7 +851,7 @@ trading_city = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		elections_increase_factions_influence = yes
@@ -944,7 +986,7 @@ colonial_government = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -1033,7 +1075,7 @@ crown_colony_government = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -1067,7 +1109,7 @@ private_enterprise_colony_government = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
@@ -1125,7 +1167,7 @@ self_governing_colony_government = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		enables_estate_nobles = yes
@@ -1187,7 +1229,7 @@ trade_company_government = {
 	}
 
 	custom_attributes = {
-		locked_government_type = yes
+		 = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		enables_estate_burghers = yes

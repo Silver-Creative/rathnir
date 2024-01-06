@@ -1,8 +1,8 @@
 # 721 - Lurne
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L09
+controller = L09
+add_core = L09
 
 culture = serafian
 religion = sakrelism
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 4
 
 trade_goods = grain
 

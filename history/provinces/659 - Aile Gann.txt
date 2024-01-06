@@ -1,8 +1,8 @@
 # 659 - Aile Gann
 
-owner = L13
-controller = L13
-add_core = L13
+owner = L00
+controller = L00
+add_core = L00
 
 culture = vraelean
 religion = sakrelism
@@ -10,9 +10,9 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
 trade_goods = livestock
 

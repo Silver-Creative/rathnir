@@ -1,17 +1,17 @@
 # 664 - Esod
 
-owner = L13
-controller = L13
-add_core = L13
+owner = L00
+controller = L00
+add_core = L00
 
 culture = vraelean
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
 base_tax = 1
-base_production = 1
+base_production = 2
 base_manpower = 1
 
 trade_goods = wool

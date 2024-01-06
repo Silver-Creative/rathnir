@@ -1,0 +1,54 @@
+namespace = nieden_adventurers
+
+#Introduction event, triggered on startup
+country_event = {
+    id = nieden_adventurers.1
+    title = nieden_adventurers.1.title
+    desc = nieden_adventurers.1.desc
+    picture = EXPLORERS_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_reform = adventurer_reform
+        has_reform = seraan_soldier_clan
+        capital_scope = { continent = nieden }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = nieden_adventurers.1.a
+        custom_tooltip = nieden_adventurers.1.a.tooltip
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Triggered if nieden adventurers (not Khuzdurin!) declare war on a non-nieden nation
+country_event = {
+    id = nieden_adventurers.2
+    title = nieden_adventurers.2.title
+    desc = nieden_adventurers.2.desc
+    picture = LAND_MILITARY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_reform = adventurer_reform
+        has_reform = seraan_soldier_clan
+        capital_scope = { continent = nieden }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = nieden_adventurers.2.a
+        custom_tooltip = nieden_adventurers.2.a.tooltip
+        ai_chance = { factor = 100 }
+
+    }
+}

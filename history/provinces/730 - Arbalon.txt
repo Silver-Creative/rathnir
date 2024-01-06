@@ -1,20 +1,21 @@
 # 730 - Arbalon
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L07
+controller = L07
+add_core = L07
 
 culture = arbalonic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 3
+base_manpower = 3
 
 trade_goods = paper
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

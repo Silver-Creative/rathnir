@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 1
+primary_culture = kietrii
+religion = soleannen
+technology_group = tech_niedene
+capital = 705 #Higlib
+national_focus = MIL
+
+1444.1.1 = {
+	monarch = {
+		name = "Kiri"
+		dynasty = "Passan"
+		birth_date = 1392.4.9
+		adm = 4
+		dip = 3
+		mil = 5
+		culture = kietrii
+		religion = soleannen
+	}
+}

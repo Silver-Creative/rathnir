@@ -3,6 +3,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = maeretine
+add_accepted_culture = denthrosi
 religion = dandelism
 technology_group = tech_alteniquian
 capital = 181 #Maereta
@@ -17,7 +18,7 @@ national_focus = MIL
 		dip = 4
 		mil = 4
 		culture = maeretine
-		religion = hukar_sharud
+		religion = dandelism
 	}
 	add_ruler_personality = navigator_personality
     add_ruler_personality = greedy_personality

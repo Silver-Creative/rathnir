@@ -1,8 +1,8 @@
 # 704 - Seidwod
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L10
+controller = L10
+add_core = L10
 
 culture = hostic
 religion = etherflame
@@ -11,7 +11,7 @@ capital = ""
 hre = no
 
 base_tax = 1
-base_production = 1
+base_production = 2
 base_manpower = 1
 
 trade_goods = tea

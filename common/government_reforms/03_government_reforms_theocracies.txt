@@ -922,18 +922,10 @@ adventurer_reform = {
 		has_reform = adventurer_reform	#aka you cant see it unless you're already one
 	}
 	modifiers = {
-		manpower_recovery_speed = 0.33
 		diplomats = -1
 		diplomatic_upkeep = -2
-		land_forcelimit = 10
-		colonists = 1
-
-		colonists = 1
-		global_colonial_growth = 40
-		colony_cost_modifier = -1
-
-		global_tax_income = 40
-		colony_cost_modifier = -1
+		land_forcelimit = 4
+		may_establish_frontier = yes
 		
 		#Taken from natives
 		monthly_reform_progress = 0.75

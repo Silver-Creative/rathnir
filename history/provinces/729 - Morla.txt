@@ -1,18 +1,18 @@
 # 729 - Morla
 
-owner = nan
-controller = nan
-add_core = nan
+owner = L03
+controller = L03
+add_core = L03
 
 culture = arbalonic
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 5
+base_manpower = 3
 
 trade_goods = salt
 

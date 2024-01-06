@@ -34,13 +34,16 @@
  miremen_nation_desc: "It is done. For millenia, our peoples have remained separate and dreadfully disunified-- first, by whether to take refuge in the murky swamps of Mhýr or in the ethereal arms of the feyking of Thýr; then, by remaining under the unworthy grip of the petty warlords that poisoned our civilization. No more. If we are to stand against the hounds beyond, we will do so together; as one."
 
  lausarian_nation_title: "Form the Lausarian Nation"
- lausarian_nation_desc: "<mistic>"
+ lausarian_nation_desc: "For generations, our kin have been slowly seduced by Audalad heathans. Year after year, we have seen our ancestral lands eaten away by the ascendant Theioniki. We must unite the Lausarii behind us, or else our people will soon cease to be."
 
  anoshphite_nation_title: "Form the Anòshphite Nation"
  anoshphite_nation_desc: "<ponteos>"
 
  denthrosi_nation_title: "Form the Denthrosi Nation"
  denthrosi_nation_desc: "tbd"
+
+ dracade_trollgard_nation_title: "Unite the Kingdoms of Dracade and Trollgard"
+ dracade_trollgard_nation_desc: "Vastallos is a grand arena of nations, perhaps even moreso than any other corner of Rathnir. The cutthroats that haunt the courts and halls are as unforgiving as the land itself, and in a land mired in self-interest and distrust, true allies are rarer than gems. Yet, we have found one. The realms of Dracade and Trollgard may appears to outsiders as no more remarkable than simple neighbours but that cannot be further from the truth; this we will show the world, as we vow to stand together no matter what."
 
  ### OTHER
  ilivian_negotiations_title: "Request negotiations on Ilivian"

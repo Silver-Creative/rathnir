@@ -4,8 +4,8 @@ owner = O15
 controller = O15
 add_core = O15
 
-culture = thadii
-religion = soleannen
+culture = bardonian
+religion = dandelism
 capital = ""
 
 hre = no

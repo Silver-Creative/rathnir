@@ -1,0 +1,116 @@
+namespace = saratenna_events
+
+country_event = {
+    id = saratenna_events.1
+    title = saratenna_events.1.t
+    desc = saratenna_events.1.desc
+    picture = VILLAGE_RAIDED_eventPicture
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            banditrep_target_apply = yes
+        }
+    }
+
+    after = {
+        event_target:banditrep_target_1 = {
+            clr_province_flag = bandit_attack@ROOT
+        }
+        event_target:banditrep_target_2 = {
+            clr_province_flag = bandit_attack@ROOT
+        }
+        event_target:banditrep_target_3 = {
+            clr_province_flag = bandit_attack@ROOT
+        }
+        event_target:banditrep_target_4 = {
+            clr_province_flag = bandit_attack@ROOT
+        }
+        event_target:banditrep_target_5 = {
+            clr_province_flag = bandit_attack@ROOT
+        }
+#        event_target:banditrep_target_6 = {
+#            clr_province_flag = bandit_attack@ROOT
+#        }
+    }
+
+    option = {
+        name = "saratenna_events.1.a"
+        ai_chance = { factor = 1 }
+        trigger = {
+            has_saved_event_target = banditrep_target_1
+        }
+
+        goto = banditrep_target_1
+        banditrep_bandit_neighbours = { target = banditrep_target_1 }
+        add_country_modifier = {
+            name = had_recent_raid
+            duration = 750
+        }
+    }
+    option = {
+        name = "saratenna_events.1.b"
+        ai_chance = { factor = 1 }
+        trigger = {
+            has_saved_event_target = banditrep_target_2
+        }
+        goto = banditrep_target_2
+        banditrep_bandit_neighbours = { target = banditrep_target_2 }
+        add_country_modifier = {
+            name = had_recent_raid
+            duration = 750
+        }
+    }
+    option = {
+        name = "saratenna_events.1.c"
+        ai_chance = { factor = 1 }
+        trigger = {
+            has_saved_event_target = banditrep_target_3
+        }
+        goto = banditrep_target_3
+        banditrep_bandit_neighbours = { target = banditrep_target_3 }
+        add_country_modifier = {
+            name = had_recent_raid
+            duration = 750
+        }
+    }
+    option = {
+        name = "saratenna_events.1.d"
+        ai_chance = { factor = 1 }
+        trigger = {
+            has_saved_event_target = banditrep_target_3
+        }
+        goto = banditrep_target_4
+        banditrep_bandit_neighbours = { target = banditrep_target_4 }
+        add_country_modifier = {
+            name = had_recent_raid
+            duration = 750
+        }
+    }
+    option = {
+        name = "saratenna_events.1.e"
+        ai_chance = { factor = 1 }
+        trigger = {
+            has_saved_event_target = banditrep_target_3
+        }
+        goto = banditrep_target_5
+        banditrep_bandit_neighbours = { target = banditrep_target_5 }
+        add_country_modifier = {
+            name = had_recent_raid
+            duration = 750
+        }
+    }
+#    option = {
+#        name = saratenna_events.1.f
+#        ai_chance = { factor = 1 }
+#        trigger = {
+#            has_saved_event_target = banditrep_target_3
+#        }
+#        goto = banditrep_target_6
+#        banditrep_bandit_neighbours = { target = banditrep_target_6 }
+#    }
+    option = {
+        name = "saratenna_events.1.g"
+        ai_chance = { factor = 0 }
+    }
+}

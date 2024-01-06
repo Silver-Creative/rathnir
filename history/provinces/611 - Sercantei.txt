@@ -4,8 +4,8 @@ owner = O23
 controller = O23
 add_core = O23
 
-culture = escharii
-religion = soleannen
+culture = tvearan
+religion = abyss_mysticism
 capital = ""
 
 hre = no

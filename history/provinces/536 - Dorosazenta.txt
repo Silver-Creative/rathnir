@@ -4,7 +4,7 @@ owner = O12
 controller = O12
 add_core = O12
 
-culture = kaseii
+culture = masetzuan
 religion = soleannen
 capital = ""
 
@@ -15,6 +15,7 @@ base_production = 2
 base_manpower = 1
 
 trade_goods = silver
+center_of_trade = 1
 
 is_city = yes
 fort_15th = no

@@ -1,0 +1,35 @@
+name = "Azurian Dissolution of Kaheren"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 699
+}
+
+1421.10.30 = {
+    add_attacker = A08
+    add_defender = L12
+    add_defender = L11
+    add_defender = N12
+    add_defender = N13
+    add_defender = N14
+    add_defender = N15
+    add_defender = N16
+    add_defender = N17
+    add_defender = L10
+}   
+#Liera peaces out
+1430.11.11 = {
+    rem_defender = L10
+    rem_defender = L11
+    rem_defender = L12
+}
+#Azuria burns down Caheren, moved up to start date for truces.
+1444.11.11 = {
+    rem_attacker = A08
+    rem_defender = N12
+    rem_defender = N13
+    rem_defender = N14
+    rem_defender = N15
+    rem_defender = N16
+    rem_defender = N17
+}

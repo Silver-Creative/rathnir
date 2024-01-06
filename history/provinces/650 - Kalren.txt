@@ -6,13 +6,13 @@ capital = ""
 
 hre = no
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
 trade_goods = livestock
 
-is_city = nan
+is_city = no
 fort_15th = no
 
 discovered_by = tech_alteniquian

@@ -1,8 +1,8 @@
 government = monarchy
-
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = hithrayan
-religion = sakrelism
+primary_culture = sorradic
+religion = etherflame
 technology_group = tech_luthic
-capital = 706 #Bordig, provisional
+capital = 676 #Tatonn
 national_focus = DIP

@@ -1,18 +1,22 @@
 # 57 - Asylais
 
+owner = N12
+controller = N12
+add_core = N12
+
 culture = serrenii
 religion = soleannen
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 5
+base_manpower = 3
 
 trade_goods = gems
 
-is_city = no
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

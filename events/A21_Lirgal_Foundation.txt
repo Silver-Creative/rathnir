@@ -12,14 +12,17 @@ country_event = {
 	trigger = {
 		is_year = 1460
 		NOT = { is_year = 1650 }
-		owns_or_subject_of = 262
+		owns = 262
 		is_at_war = no
 		OR = {
 			religion = sakrelism
 			religion = etherflame
 			religion = aegmerism
 			religion = theiosism
+			religion = hukar_sharud
+			religion = zentivar
 		}
+		set_global_flag = lirgal_forms_diplomatically
 	}
 	
 	mean_time_to_happen = {
@@ -150,13 +153,16 @@ country_event = {
 		}
 		release = A21
 		A21 = {
+			hidden_effect = {
 			adopt_reform_progress = ROOT
 			add_treasury = 200
 			add_adm_power = 300
 			add_dip_power = 500
 			add_mil_power = 100
+			}
 			define_ruler = {
-				name = "Caravan Council"
+				name = "Caravan"
+				dynasty = "Council"
 				claim = 100
 				adm = 3
 				dip = 3
@@ -347,7 +353,10 @@ country_event = {
 				}
 			}
 		}
-		create_march = A21
+		create_subject = {
+			subject_type = lirgalyn_city
+			subject = A21
+		}
 	}
 
 	option = { #Country strong, vassalirgal and switch
@@ -392,7 +401,10 @@ country_event = {
 				}
 			}
 		}
-		create_march = A21
+		create_subject = {
+			subject_type = lirgalyn_city
+			subject = A21
+		}
 		switch_tag = A21
 	}
 
@@ -461,4 +473,52 @@ country_event = {
 		
 	}
 
+}
+
+###LIRGAL DEFENCE###
+country_event = {
+	id = lirgal_happs.4
+	title = lirgal_happs.4.t
+	desc = lirgal_happs.4.d
+	picture = lirgalcool_eventPicture 
+	trigger = {
+		A21 = {
+			is_in_war = {
+				defender_leader = A21 
+			}
+		NOT = {
+			is_subject = yes 
+		}
+		}
+		Root = {
+			has_country_modifier = lirgal_global_defense_force 
+		}
+	}
+	immediate = {
+		A21 = {
+			set_country_flag = had_defence_force 
+		}
+	}
+	option = {
+		name = lirgal_happs.4.a
+		ai_chance = {
+			factor = 100
+		}
+		join_all_defensive_wars_of = A21 
+		add_country_modifier = {
+			name = lirgal_calls_for_aid
+			duration = 3650
+		}
+		add_treasury = 50
+	}
+	option = {
+		name = lirgal_happs.4.b
+		ai_chance = {
+			factor = 0
+		}
+		reverse_add_opinion = {
+			who = A21
+			modifier = refused_join_war
+		}
+	}
 }

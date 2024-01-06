@@ -37,3 +37,43 @@ carn_ideas = {
         yearly_absolutism = 0.5
     }
     }
+
+#Lausarii States
+lt_ideas = {
+    start = {
+        tolerance_own = 1
+        religious_unity = 0.1
+    }
+
+    bonus = {
+        hostile_attrition = 1
+    }
+
+    trigger = {
+        primary_culture = lausarii
+        NOT = {tag = A50}
+    }
+    free = yes
+
+    lt_farene_huntsmen = {
+        recover_army_morale_speed = 0.1
+    }
+    lt_auraion_cavalry = {
+        movement_speed = 0.1
+    }
+    lt_raids_of_yore = {
+        privateer_efficiency = 0.15
+    }
+    lt_thrift_of_the_gold_coast = {
+        global_tax_modifier = 0.1
+    }
+    lt_eastern_flowing_river = {
+        global_heathen_missionary_strength = 0.01
+    }
+    lt_edge_of_oblivion = {
+        shock_damage_received = -0.1
+    }
+    lt_lost_tribes = {
+        core_creation = -0.1
+    }
+    }

@@ -209,16 +209,16 @@ feudalism = {
 }
 
 #######################################
-# Renaissance
+# BANKING
 # 
-# Flows from italy
+# Flows from vastallos
 #######################################
 
-renaissance = {
+banking = {
 
 	bonus = {
 		development_cost = -0.05
-		build_cost = -0.05
+		interest = -0.05
 	}
 
 	trade_company_efficiency = 0.4
@@ -235,7 +235,7 @@ renaissance = {
 			}
 			
 			AND = {
-				is_year = 1450
+				is_year = 1470
 				continent = alteniquia
 			}
 			AND = {
@@ -267,25 +267,18 @@ renaissance = {
 	
 	on_start = institution_events.2
 	
-	
-	
-
-	
-	
 	can_embrace = {
 		owner = { has_institution = feudalism }
 	}
-
-
 	
 	embracement_speed = {
 		modifier = {
 			scale = yes
 			factor = 0.6
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_banking
 				any_friendly_coast_border_province = {
-					renaissance = 100
+					banking = 100
 				}
 			}
 		}
@@ -295,32 +288,27 @@ renaissance = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						renaissance = 100
+						banking = 100
 					}
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				tooltip = tooltip_any_neighbor_has_embraced_banking
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					renaissance = 100
+					banking = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 1
+			factor = 1.2
 			potential = {
 				region = inner_vastallos_region
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
+				tooltip = tooltip_primate_city
 				is_capital = yes
-				region = inner_vastallos_region
-				OR = {
-                    primary_culture = carvayan
-                    primary_culture = asturcian
-                    primary_culture = knossian
-                }
+				province_group = primate_cities
 			}
 			
 			
@@ -338,7 +326,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.1
 			scale = yes
 			potential = {
 				continent = alteniquia
@@ -371,14 +359,14 @@ renaissance = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_renaissance
+				tooltip = tooltip_colonial_overlord_banking
 				OR = {
 					has_port = yes
 					is_capital = yes
 				}
 				owner = {
 					is_colonial_nation = yes
-					overlord = { has_institution = renaissance }
+					overlord = { has_institution = banking }
 				}
 			}
 		}
@@ -387,12 +375,11 @@ renaissance = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = renaissance
+					has_institution = banking
 				}
 			}
-			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_renaissance_embraced
+				tooltip = tooltip_banking_embraced
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = renaissance

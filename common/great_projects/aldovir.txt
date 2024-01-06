@@ -8,7 +8,7 @@
 #Sanctum of the Judge (Sironia)
 sanctum_of_the_judge = {
     start = 244
-    date = 11.03.612
+    date = 612.03.11
     build_cost = 0
     can_be_moved = no
     starting_tier = 1
@@ -23,6 +23,9 @@ sanctum_of_the_judge = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			religion = sakrelism
+		}
 	}
 
 	can_upgrade_trigger = {
@@ -69,8 +72,7 @@ sanctum_of_the_judge = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 0.25
-			tolerance_heretic = 0.25
+			tolerance_own = 0.5
 			church_loyalty_modifier = 0.05
 		}
 
@@ -100,11 +102,9 @@ sanctum_of_the_judge = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 0.5
-			tolerance_heretic = 0.5
-			monthly_piety_accelerator = 0.001
+			tolerance_own = 1
 			yearly_patriarch_authority = 0.002
-			papal_influence = 0.5
+			manpower_in_true_faith_provinces = 0.10
 			church_loyalty_modifier = 0.1
 		}
 
@@ -140,11 +140,9 @@ sanctum_of_the_judge = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 1
-			tolerance_heretic = 1
-			monthly_piety_accelerator = 0.002
+			tolerance_own = 2
 			yearly_patriarch_authority = 0.005
-			papal_influence = 1
+			manpower_in_true_faith_provinces = 0.15
 			church_loyalty_modifier = 0.15
 		}
 
@@ -206,7 +204,7 @@ athazolant_canal = {
     tier_1 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 480
+			months = 120
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
@@ -225,8 +223,8 @@ athazolant_canal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			trade_efficiency = 0.15
-			trade_steering = 0.1
+			trade_efficiency = 0.05
+			trade_steering = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -256,9 +254,9 @@ athazolant_canal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			trade_efficiency = 0.2
-			trade_steering = 0.15
-			global_trade_goods_size_modifier = 0.16
+			trade_efficiency = 0.1
+			trade_steering = 0.1
+			global_trade_goods_size_modifier = 0.7
 		}
 
 		#what effects happen when this tier is achieved
@@ -289,9 +287,9 @@ athazolant_canal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			trade_steering = 0.35
-			trade_efficiency = 0.2
-			global_trade_goods_size_modifier = 0.19
+			trade_steering = 0.15
+			trade_efficiency = 0.15
+			global_trade_goods_size_modifier = 0.1
 			merchants = 1
 		}
 
@@ -318,6 +316,9 @@ athaz_ziggurat = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			religion = zentivar 
+		}
 	}
 
 	can_upgrade_trigger = {
@@ -396,8 +397,7 @@ athaz_ziggurat = {
 		country_modifiers = {
 			global_unrest = -2
 			missionary_maintenance_cost = -0.20
-			relations_with_heretics = 25
-			relations_with_heathens = 23
+			monthly_church_power = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -431,8 +431,7 @@ athaz_ziggurat = {
 			global_unrest = -2
 			missionary_maintenance_cost = -0.20
 			republican_tradition = 0.5
-			relations_with_heretics = 25
-			relations_with_heathens = 23
+			monthly_church_power = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -497,7 +496,7 @@ cobblework_mines = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_production_efficiency = 0.15
+			local_production_efficiency = 0.1
 			local_gold_depletion_chance_modifier = -0.2
 		}
 
@@ -529,8 +528,8 @@ cobblework_mines = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_production_efficiency = 0.3
-			local_gold_depletion_chance_modifier = -0.4
+			local_production_efficiency = 0.2
+			local_gold_depletion_chance_modifier = -0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -563,9 +562,9 @@ cobblework_mines = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_production_efficiency = 0.45
-			local_gold_depletion_chance_modifier = -0.6
-			local_development_cost = -0.5
+			local_production_efficiency = 0.25
+			local_gold_depletion_chance_modifier = -0.35
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -604,10 +603,12 @@ roscella_cathedral = {
 	}
 
 	can_use_modifiers_trigger = {
-	}
-	OR = {
+	owner = {
+		OR = {
 		religion = aegmerism
 		religion = etherflame 
+		}
+	}
 	}
 
 	can_upgrade_trigger = {
@@ -654,8 +655,8 @@ roscella_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_own = 2
-			religious_unity = 10
+			tolerance_own = 1
+			religious_unity = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -684,9 +685,146 @@ roscella_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 2
+			religious_unity = 0.3
+			global_missionary_strength = 0.02
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+			}
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
 			tolerance_own = 3
-			religious_umity = 20
-			global_missionary_strength = 2
+			religious_unity = 0.4
+			global_missionary_strength = 0.02
+			warscore_cost_vs_other_religion = -0.25
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+			}
+		}
+	}
+}
+siralua_lirgal = {
+    start = 262
+    date = 599.05.12
+    build_cost = 0
+    can_be_moved = no
+    starting_tier = 1
+    type = monument 
+    build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		owner = {
+			religion = asitir 
+		}
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+    tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
 		}
 
 		#what effects happen when this tier is achieved
@@ -718,10 +856,6 @@ roscella_cathedral = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 		}
-		tolerance_own = 4
-		religious_umity = 30
-		global_missionary_strength = 3
-		warscore_cost_vs_other_religion = -0.25
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
@@ -730,8 +864,8 @@ roscella_cathedral = {
 		}
 	}
 }
-siralua_lirgal = {
-    start = 262
+kaithrat_watchers = {
+    start = 316
     date = 1362.07.20
     build_cost = 0
     can_be_moved = no
@@ -785,6 +919,8 @@ siralua_lirgal = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_sailors_modifier = 0.1
+			block_slave_raid = yes 
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -793,6 +929,8 @@ siralua_lirgal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			naval_forcelimit_modifier = 0.1
+			global_ship_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -813,6 +951,8 @@ siralua_lirgal = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_sailors_modifier = 0.2
+			block_slave_raid = yes 
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -821,6 +961,8 @@ siralua_lirgal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			naval_forcelimit_modifier = 0.2
+			global_ship_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -843,6 +985,8 @@ siralua_lirgal = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_sailors_modifier = 0.25
+			block_slave_raid = yes 
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -851,6 +995,10 @@ siralua_lirgal = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			naval_forcelimit_modifier = 0.25
+			global_ship_cost = -0.15
+			naval_attrition = -0.15
+			naval_morale = 0.1
 		}
 
 		#what effects happen when this tier is achieved

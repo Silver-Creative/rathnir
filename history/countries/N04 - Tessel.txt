@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = ostiarii
+religion = soleannen
+technology_group = tech_niedene
+capital = 606 #Eraziirenn but could be changed to arcos
+national_focus = ADM
+
+1444.1.1 = {
+	monarch = {
+		name = "Erik"
+		dynasty = "Tabbath"
+		birth_date = 1403.7.3
+		adm = 4
+		dip = 4
+		mil = 3
+		culture = ostiarii
+		religion = soleannen
+	}
+}

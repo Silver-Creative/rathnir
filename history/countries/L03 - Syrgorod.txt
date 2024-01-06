@@ -1,8 +1,8 @@
 government = monarchy
-
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = serafian
-religion = sakrelism
+primary_culture = arbalonic #Change with Esparwood
+religion = vinaestre
 technology_group = tech_luthic
 capital = 728 #Provisional Capital, Balth
 national_focus = DIP

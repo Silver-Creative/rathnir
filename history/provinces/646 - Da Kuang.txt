@@ -1,18 +1,23 @@
 # 646 - Da Kuang
 
+owner = N18
+controller = N18
+add_core = N18
+
 culture = serrenii
-religion = norse
+religion = vinaestre
 capital = ""
 
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 4
+base_manpower = 3
 
 trade_goods = dyes
+center_of_trade = 1
 
-is_city = nan
+is_city = yes
 fort_15th = no
 
 discovered_by = tech_alteniquian

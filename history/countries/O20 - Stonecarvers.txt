@@ -1,7 +1,7 @@
 government = theocracy
 add_government_reform = adventurer_reform
 government_rank = 1
-primary_culture = low_ryzani
+primary_culture = kutnubad_dwarf
 religion = tossanism
 technology_group = tech_niedene
 capital = 420 #Erdesam
@@ -14,7 +14,7 @@ national_focus = MIL
 		adm = 2
 		dip = 3
 		mil = 4
-		culture = low_ryzani
+		culture = kutnubad_dwarf
 		religion = tossanism
 	}
 }

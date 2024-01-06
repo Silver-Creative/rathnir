@@ -1,0 +1,8 @@
+government = republic
+add_government_reform = civic_republicanism_government
+government_rank = 1
+primary_culture = kietrii
+religion = soleannen
+technology_group = tech_niedene
+capital = 687 #Sentari
+national_focus = ADM

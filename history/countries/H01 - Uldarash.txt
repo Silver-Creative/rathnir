@@ -4,6 +4,6 @@ add_government_reform = autocracy_reform
 government_rank = 3
 primary_culture = red_talawan
 religion = asharu
-technology_group = tech_barbaric
+technology_group = tech_havenite
 capital = 320 #Hapatmitas (NOT ADDED YET)
 national_focus = ADM

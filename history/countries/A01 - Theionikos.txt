@@ -3,6 +3,7 @@ government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 2
 primary_culture = theioniki
+add_accepted_culture = sylerii
 religion = theiosism
 technology_group = tech_alteniquian
 historical_rival = A00 #Yimmu-Audal
