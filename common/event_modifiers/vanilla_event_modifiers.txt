@@ -900,7 +900,8 @@ long_term_boost = {
 decreased_military_funding = {
 	land_morale = -0.10
 	discipline = -0.05
-	global_manpower_modifier = -0.05
+	global_manpower_modifier = -0.10
+	land_maintenance_modifier = 0.20
 }
 
 even_spread_of_investments = {
