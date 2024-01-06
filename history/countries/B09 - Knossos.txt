@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = knossian
 religion = dandelism
 technology_group = tech_vastallosi
-capital = 351 #blackstone keep
+capital = 352 #blackstone keep
 national_focus = MIL
 
 1444.1.1 = {
