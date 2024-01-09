@@ -58,125 +58,30 @@ banditrep_bandit_neighbours = {
 }
 
 banditrep_effect = {
-	if = {
-		limit = { development = 50 }
-		remove_loot = {
-			who = ROOT
-			amount = 30
-		}
-		event_target:$target$ = {
-			owner = {
-				add_manpower = -500
-			}
-		}
-		
-		ROOT = {
-			add_manpower = 490
-		}
-	}
-
-	else_if = {
-		limit = { development = 40 }
-		remove_loot = {
-			who = ROOT
-			amount = 26
-		}
-		event_target:$target$ = {
-				owner = {add_manpower = -430}
-			}
-		ROOT = {
-			add_manpower = 420
-		}
-	}
-	else_if = {
-		limit = { development = 35 }
-		remove_loot = {
-			who = ROOT
-			amount = 23
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -390}
-		}
-		ROOT = {
-			add_manpower = 380
-		}
-	}
-	else_if = {
-		limit = { development = 30 }
-		remove_loot = {
-			who = ROOT
-			amount = 20
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -310}
-		}
-		ROOT = {
-			add_manpower = 300
-		}
-	}
-	else_if = {
-		limit = { development = 25 }
-		remove_loot = {
-			who = ROOT
-			amount = 17
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -275}
-			}
-		ROOT = {
-			add_manpower = 250
-		}
-	}
-	else_if = {
-		limit = { development = 20 }
-		remove_loot = {
-			who = ROOT
-			amount = 14
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -230}
-		}
-		ROOT = {
-			add_manpower = 230
-		}
-	}
-	else_if = {
-		limit = { development = 15 }
-		remove_loot = {
-			who = ROOT
-			amount = 11
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -180}
-		}
-		ROOT = {
-			add_manpower = 160
-		}
-	}
-	else_if = {
-		limit = { development = 10 }
-		remove_loot = {
-			who = ROOT
-			amount = 8
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -125}
-		}
-		ROOT = {
-			add_manpower = 100
-		}
-	}
-	else = {
-		remove_loot = {
-			who = ROOT
-			amount = 5
-		}
-		event_target:$target$ = {
-			owner = {add_manpower = -80}
-		}
-		ROOT = {
-			add_manpower = 80
-		}
+	trigger_switch = {
+		on_trigger = development
+		50 = { banditrep_effect_eff = { loot = 30 mp = 0.49 } }
+		40 = { banditrep_effect_eff = { loot = 26 mp = 0.42 } }
+		35 = { banditrep_effect_eff = { loot = 23 mp = 0.38 } }
+		30 = { banditrep_effect_eff = { loot = 20 mp = 0.3 } }
+		25 = { banditrep_effect_eff = { loot = 17 mp = 0.25 } }
+		20 = { banditrep_effect_eff = { loot = 14 mp = 0.23 } }
+		15 = { banditrep_effect_eff = { loot = 11 mp = 0.16 } }
+		10 = { banditrep_effect_eff = { loot = 8 mp = 0.1 } }
+		5 = { banditrep_effect_eff = { loot = 5 mp = 0.08 } }
 	}
 	add_devastation = 10
+}
+banditrep_effect_eff = {
+	remove_loot = {
+        who = ROOT
+        amount = $loot$
+    }
+    owner = {
+        add_manpower = -$mp$
+        add_manpower = -0.01
+    }
+    ROOT = {
+        add_manpower = $mp$
+    }
 }
