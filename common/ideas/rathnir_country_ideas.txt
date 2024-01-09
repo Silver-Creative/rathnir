@@ -19,7 +19,7 @@ A00_ideas = {
 
     trigger = {
         OR = {
-            tag = A00 #Audal
+            tag = A00 #An�shph�y
         }
     }
     free = yes		#will be added at load.
@@ -189,59 +189,11 @@ A03_ideas = {
 	}
 }
 
-#Shiny ideas
-A04_ideas = {
-	start = {
-		global_ship_cost = -0.1
-		religious_unity = .33
-	}
-
-	bonus = {
-		global_institution_spread = 0.2
-	}
-
-	trigger = {
-        OR = {
-            tag = A04 #Shiny
-        }
-    }
-    free = yes		#will be added at load.
-
-	A04_our_namesake = {
-		global_trade_goods_size_modifier = 0.1
-	}
-
-	A04_eager_frontiersmen = {
-		colony_cost_modifier = -0.33
-	}
-
-	A04_life_on_the_sea = {
-		naval_attrition = -0.2
-	}
-
-	A04_resplendant_sky = {
-		army_tradition_decay = -0.01
-		shock_damage_received = -0.05
-	}
-
-	A04_nacre_roads = {
-		prestige = 1
-	}
-
-	A04_yadishel_investments = {
-		build_cost = -0.15
-	}
-
-	A04_seaside_citadel = {
-		fort_maintenance_modifier = -0.1
-	}
-}
-
 #Grizzlybear ideas
 A05_ideas = {
 	start = {
 		global_unrest = -0.5
-		global_trade_goods_size_modifier = 0.05
+		trade_goods_size = 0.05
 	}
 
 	bonus = {
@@ -319,47 +271,6 @@ A07_ideas = {
 	}
 	A07_iceshapers = {
 		all_power_cost = -0.025
-	}
-}
-
-#Azuria ideas
-A08_ideas = {
-	start = {
-		leader_land_shock = 1
-		defensiveness = 0.20
-	}
-
-	bonus = {
-        monarch_lifespan = 0.33
-    }
-
-    trigger = {
-        OR = {
-            tag = A08 #Azuria
-        }
-    }
-    free = yes		#will be added at load.
-
-	A08_the_bastion = {
-		prestige_decay = -0.01
-	}
-	A08_suzerain = {
-		development_cost = -0.1
-	}
-	A08_wyldvarn_burrows = {
-		build_cost = -0.1
-	}
-	A08_yistunn_markets = {
-		merchants = 1
-	}
-	A08_grandett_fields = {
-		manpower_recovery_speed = 0.2
-	}
-	A08_ruin_of_caheren = {
-		harsh_treatment_cost = -0.5
-	}
-	 A08_hawkers_fascination = {
-		innovativeness_gain = 0.5
 	}
 }
 
@@ -798,4 +709,52 @@ L11_orchids = {
 L11_shipments = {
 	caravan_power = 0.20
 }
+}
+
+#Aedyn ideas
+
+O25_ideas = {
+	start = {
+		defensiveness = 0.10
+		global_unrest = -2	
+	}
+
+	bonus = {
+		administrative_efficiency = 0.05
+	}
+	trigger = {
+		tag = O25 #Aedyn Clan
+	}
+	free = yes
+
+	O25_prospects_new = {
+		development_cost = -0.1
+	}
+
+	O25_hieromancy = {
+		global_spy_defence = 0.1
+		military_tactics = 0.075
+	}
+
+	O25_military_tradition = {
+		infantry_shock = 1	
+	}
+
+	O25_alkotren = {
+		core_creation = -0.1
+	}
+
+	O25_craftmanship = {
+		production_efficiency = 0.1
+	}
+
+	O25_scholar_societies = {
+		technology_cost = -0.075
+	}
+	
+	O25_olaran_revival = {
+		stability_cost_modifier = -0.1
+		global_autonomy = -0.05	
+	}
+
 }
