@@ -1,4 +1,8 @@
-# 1923 - Cymru1923
+# 1893 - Kadloned
+
+owner = W10
+controller = W10
+add_core = W10
 
 culture = lirgalyn
 religion = asitir
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = nan
 
-is_city = nan
+is_city = yes
 fort_15th = nan
 
 discovered_by = tech_alteniquian

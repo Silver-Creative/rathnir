@@ -1,4 +1,4 @@
-# 1923 - Cymru1923
+# 1915 - Lerzen
 
 culture = lirgalyn
 religion = asitir
