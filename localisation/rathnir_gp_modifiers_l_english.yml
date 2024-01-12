@@ -1,2 +1,9 @@
 ﻿l_english:
+ #Modifiers
  soleannen_supremacy: "Soleannen Supremacy"
+ soleannen_supremacy_desc: "..."
+ watchers_gaze: "The Watchers' Gaze"
+ watchers_gaze_desc: "Erected once more, the Great Watchers of Kaithrat, two colossal statues of stone planted on either side of the Kaithrati Straits, keep the waters safe and free from any meandering pirate vessel seeking blood and plunder."
+
+ #Tooltips
+ watchers_upgraded_1_tt: "The shores of the Borean Gulf get '§YThe Watchers' Gaze§!' until the end of the game, giving:\n Blocks Slave Raids"

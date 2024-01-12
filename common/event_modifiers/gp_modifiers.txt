@@ -1,3 +1,9 @@
+#Flammastahl & Ascension Site?
 soleannen_supremacy = {
     cb_on_religious_enemies = yes
+}
+
+#Watchers of Kaithrat
+watchers_gaze = {
+    block_slave_raid = yes
 }

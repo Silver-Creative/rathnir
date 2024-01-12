@@ -8,6 +8,19 @@ tyrian_swamps = {
     263 264 265 266 267 761 765 
 }
 
+borean_shores = {
+    316     # Kaithrat
+    1302    # Geranarra
+    314     # Arstedanna
+    313     # Saýarsa
+    308     # Damathera
+    1304    # Thaelinna
+    305     # Aeryrith
+    304     # Aeuron
+    300     # Kolossata
+    301     # Saerelma
+}
+
 lausarian_remnants = {
     184		# Eltur-Shummar
 	185		# Esgard

@@ -1,0 +1,32 @@
+namespace = flavor_kaithrat
+# The Watchers, Rebuilt
+country_event = {
+    id = flavor_kaithrat.1
+    title = flavor_kaithrat.1.title
+    desc = flavor_kaithrat.1.desc
+    picture = CARIBBEAN_PIRATE_FORT_eventPicture
+    goto = 316
+    is_triggered_only = yes
+    trigger = {
+        always = yes
+    }
+
+    immediate = {
+        hidden_effect = {
+            borean_shores = {
+                limit = {
+                    NOT = { has_province_modifier = watchers_gaze }
+                }
+                add_permanent_province_modifier = {
+                    name = watchers_gaze
+                    duration = -1
+                }
+            }
+        }
+    }
+
+    option = {
+        name = flavor_kaithrat.1.a
+        custom_tooltip = flavor_kaithrat.1.a.tt
+    }
+}
