@@ -16,6 +16,17 @@ country_event = {
     }
     immediate = {
         set_country_flag = THIS_EVENT_FIRED_FOR_ME
+        hidden_effect = {
+            palaios_knossos_area = {
+                add_core = B11
+            }
+            knossian_islands_area = {
+                add_core = B11
+            }
+            neos_knossos_area = {
+                add_core = B09
+            }
+        }
     }
     option = {
         name = knossos_sparring.2.a
@@ -24,6 +35,7 @@ country_event = {
             country_event = { id = knossos_sparring.5 }
         }
     }
+    #this is for players to ignore the repercussions of the event.
     option = {
         name = knossos_sparring.2.b
         custom_tooltip = knossos_sparring.2.b.tt
@@ -71,9 +83,7 @@ country_event = {
         name = knossos_sparring.3.a
         custom_tooltip = knossos_sparring.3.a.tt
         kill_ruler = yes
-        neos_knossos_area = {
-                add_core = ROOT
-            }
+        
         B09 = {
         declare_war_with_cb = {
             who = B11

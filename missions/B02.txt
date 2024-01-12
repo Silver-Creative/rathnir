@@ -1,0 +1,288 @@
+conquest_b02 = {
+    slot = 5
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = { tag = B02 }
+    Dreams_of_Empire = {
+        icon = mission_pf_soldier
+        position = 1
+        trigger = {
+            army_size_percentage = 1
+        }
+            effect = {
+                verroryia_area = {
+                    add_permanent_claim = ROOT
+                }
+                valtesia_area = {
+                    add_permanent_claim = ROOT
+                }
+                add_country_modifier = {
+				name = "battle_preparations"
+				duration = 1825 #5 years
+			}
+        }
+    }
+    resubjugation = {
+        icon = reclaim_the_ducal_lands
+        position = 1
+        required_missions = { Dreams_of_Empire }
+        provinces_to_highlight = {
+            OR = {
+                owned_by = B03
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            } 
+        }
+        trigger = {
+			valtesia_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+        effect = {
+            griffinview_area = {
+                add_permanent_claim = ROOT
+            }
+        } 
+    }
+    Fort_Ravenus = {
+        icon = control_swabia
+        position = 2
+        required_missions = { resubjugation }
+        provinces_to_highlight = {
+            OR = {
+                owned_by = B04
+            }
+            NOT = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        trigger = {
+            verroryia_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            ravenus_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    Establish_the_Asturcian_Church = {
+        icon = chivalry_is_not_dead
+        position = 3
+        required_missions = { Fort_Ravenus }
+        trigger = { 
+        verroryia_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+        }
+        valtesia_area = {
+		type = all
+		country_or_non_sovereign_subject_holds = ROOT
+		}
+        griffinview_area = {
+        type = all 
+        country_or_non_sovereign_subject_holds = ROOT
+        }
+    }
+    effect = {
+        add_country_modifier = {
+            name = "theology"
+        }
+    }
+}
+    The_Road_Less_Traveled = {
+        icon = mission_non-western_cavalry_raid
+        position = 4
+        required_missions = { Establish_the_Asturcian_Church }
+                trigger = { 
+                ravenus_area = {
+		        owner = {
+			            OR = {
+				    is_rival = ROOT
+				    is_enemy = ROOT
+				            NOT = {
+					        has_opinion = {
+						    who = ROOT
+						    value = 100
+					        }
+				        }
+			        }
+		        }
+            }   
+        }
+        effect = {
+            mamacaoca_area = {
+                add_permanent_claim = ROOT
+            }
+            mennzag_area = {
+                add_permanent_claim = ROOT
+            }
+            qamigava_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }#Yes this is a nested mess, but it was the laziest way I could find to do this trigger
+    Asturcian_Epics = {
+        icon = nuova_promissione_ducale
+        position 5
+        required_missions = { The_Road_Less_Traveled }
+        trigger = {
+            mamacaoca_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            qamigava_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = { 
+            astaiosa_area = {
+                add_permanent_claim = ROOT
+            }
+            carvay_area = {
+                add_permanent_claim = ROOT
+            }
+            marchia_carvayana_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    Kawalapuan_Campaign = {
+        icon = reclaim_the_aegean
+        position = 6
+        required_missions = { Asturcian_Epics }
+        trigger = {
+            marchia_carvayana_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            neos_knossos_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            western_kawalapua_area = {
+                add_permanent_claim = ROOT
+            }
+            eastern_kawalapua_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    Final_Stretch = {
+        icon = conquer_austria
+        position = 7
+        required_missions = { Kawalapuan_Campaign }
+        trigger = {
+            eastern_kawalapua_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            atlahua_area = {
+                add_permanent_claim = ROOT
+            }
+            denthra_agriana_area = {
+                add_permanent_claim = ROOT
+            }
+            denthra_esparra_area = {
+                add_permanent_claim = ROOT
+            }
+            denthra_gorcana_area = {
+                add_permanent_claim = ROOT
+            }
+            denthra_siocana_area = {
+                add_permanent_claim = ROOT
+            }
+            qaruxia_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+} 
+conquestdracade_b02 = {
+        Stab_at_the_Dragon = {
+            icon = mission_plc_break_the_rus
+            position = 6 
+            required_missions = { The_Road_Less_Traveled }
+            trigger = {
+                mennzag_area = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
+            effect = {
+                high_dracade_area = {
+                    add_permanent_claim = ROOT
+                }
+                stensta_area = {
+                    add_permanent_claim = ROOT
+                }
+                dragonbay_area = {
+                    add_permanent_claim = ROOT
+                }
+            }
+        }
+        Strike_TrollGuard = {
+            icon = mission_russian_navy
+            position = 7
+            required_missions = { Stab_at_the_Dragon }
+            trigger = {
+                stensta_area = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+                high_dracade_area = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
+            effect = {
+                fruila_area = {
+                    add_permanent_claim = ROOT
+                }
+                trollstrait_area = {
+                    add_permanent_claim = ROOT
+                }
+            }
+        }
+        Knossian_Traitors = {
+            icon = mission_conquer_prussia
+            position = 8
+            required_missions = { Strike_TrollGuard }
+            trigger = {
+                fruila_area = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+                qamigava_area = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+            }
+            effect = {
+                palaios_knossos_area = {
+                    add_permanent_claim = ROOT
+                }
+                neos_knossos_area = {
+                    add_permanent_claim = ROOT
+                }
+                knossian_islands_area = {
+                    add_permanent_claim = ROOT
+                }
+            }
+        }
+    }
+
+    
+
+
+
