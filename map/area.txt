@@ -1258,7 +1258,7 @@ upper_eyelid_area = {
 }
 
 lower_eyelid_area = {
-	2102 2103 2251 2252 2269 
+	2102 2103 2251 2252 2253 2269 
 }
 
 talawan_eye_area = {
@@ -1278,7 +1278,7 @@ volandian_reach_area = {
 }
 
 talawan_frontier_area = {
-	2241 2242 2253
+	2241 2242
 }
 
 old_talawa_impassable_area = {
