@@ -359,6 +359,61 @@ high_luthea_region = {
 }
 
 ########################################
+# UMMARNU	                           #
+########################################
+
+### Northern Ummarnu (Ummarnu)
+
+huitca_region = {
+	areas = {
+		cuiciloa_area
+		high_ocotlan_area
+		low_ocotlan_area
+		niedene_ocotlan_area
+		inari_area
+		farafin_area
+		pearl_coast_area
+		bharadekh_area
+		quiajal_area
+
+		huitca_impassable_area
+	}
+}
+
+old_talawa_region = {
+	areas = {
+		myrrh_road_area
+		volandia_area
+		valentia_area
+		zekeyolalosto_area
+		green_darinakua_area
+		yellow_darinakua_area
+		upper_eyelid_area
+		lower_eyelid_area
+		talawan_eye_area
+		tear_road_area
+		eransmouth_area
+		volandian_reach_area
+		talawan_frontier_area
+
+		old_talawa_impassable_area
+	}
+}
+
+old_teshub_region = {
+	areas = {
+		western_teshub_area
+		eastern_teshub_area
+		western_adaen_area
+		teshubi_islands_area
+		kharak_area
+		imbasarhi_area
+
+		old_teshub_impassable_area
+	}
+}
+
+########################################
 # SEA REGIONS                          #
 ########################################
 

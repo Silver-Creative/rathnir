@@ -61,11 +61,13 @@ western_sparwood_superregion = {
 
 ### Ummarnu
 
-ummarnu_superregion = {
-
+northern_ummarnu_superregion = {
+	huitca_region
+	old_talawa_region
+	old_teshub_region
 }
 
-### SÃ½ltÃ¶r
+### Sıltör
 
 northern_syltor_superregion = {
 

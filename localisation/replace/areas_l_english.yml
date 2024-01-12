@@ -136,6 +136,9 @@
  kietres_impassable_area: "Kietran Wastelands"
  vraelea_impassable_area: "Vraelean Wastelands"
  high_luthea_impassable_area: "High Luthéan Wastelands"
+ huitca_impassable_area: "Huitcan Wastelands"
+ old_talawa_impassable_area: "Old Talawan Wastelands"
+ old_teshub_impassable_area: "Old Teshubi Wastelands"
 
  ### Non-Impassable Land Areas
 
@@ -371,4 +374,39 @@
  arbalon_area: "Arbalon"
  qilath_area: "Qilath"
  neck_of_leyth_area: "Neck of Leyth"
+
+ #Huitca
+ cuiciloa_area: "Cuiciloa"
+ high_ocotlan_area: "High Ocotlan"
+ low_ocotlan_area: "Low Ocotlan"
+ niedene_ocotlan_area: "Niedene Ocotlan"
+ inari_area: "Inari"
+ farafin_area: "Farafin"
+ pearl_coast_area: "Pearl Coast"
+ quiajal_area: "Quia'jal"
+ bharadekh_area: "Bharadekh"
+
+ #Old Talawa
+ myrrh_road_area: "Myrrh Road"
+ volandia_area: "Volandia"
+ valentia_area: "Valentia"
+ zekeyolalosto_area: "Zekeyolalosto"
+ green_darinakua_area: "Green Darinakua"
+ yellow_darinakua_area: "Yellow Darinakua"
+ upper_eyelid_area: "Quageran Shores"
+ lower_eyelid_area: "Alaari Shores"
+ talawan_eye_area: "Eye of Ummarnu"
+ tear_road_area: "Road of Tears"
+ eransmouth_area: "Eransmouth"
+ volandian_reach_area: "Volandian Reach"
+ talawan_frontier_area: "Talawan Frontier"
+
+ #Old Teshub
+ western_teshub_area: "Western Teshub"
+ eastern_teshub_area: "Eastern Teshub"
+ western_adaen_area: "Western Adaen"
+ teshubi_islands_area: "Qewi"
+ kharak_area: "Kharak"
+ imbasarhi_area: "Imbasarhi"
+
  
