@@ -1323,7 +1323,7 @@ province;red;green;blue;x;x
 1322;63;65;102;Roxèll;x
 1323;221;59;65;Aiyurk;x
 1324;226;57;65;Zaluhs;x
-1325;196;59;57;Sehnasvoh;x
+1325;196;59;57;Igun'kyar;x
 1326;252;72;72;Ralikal;x
 1327;31;51;51;Purplesail Narrows;x
 1328;57;193;204;Knossian Lagoon;x
@@ -2163,7 +2163,7 @@ province;red;green;blue;x;x
 2162;242;201;0;Ummarnu2162;x
 2163;229;191;0;Ummarnu2163;x
 2164;216;180;0;Ummarnu2164;x
-2165;225;186;0;Ummarnu2165;x
+2165;225;186;0;Kesh;x
 2166;100;124;37;Ummarnu2166;x
 2167;112;140;42;Ummarnu2167;x
 2168;122;153;45;Ummarnu2168;x
@@ -2270,6 +2270,33 @@ province;red;green;blue;x;x
 2269;137;126;104;Tlaar;x
 2270;128;128;128;Mahatlan;x
 2271;102;38;32;Azanebar;x
+2272;63;63;66;Ummarnu2272;x
+2273;102;102;104;Ummarnu2273;x
+2274;91;100;92;Ummarnu2274;x
+2275;96;100;92;Ummarnu2275;x
+2276;62;51;52;Ummarnu2276;x
+2277;62;51;63;Ummarnu2277;x
+2278;96;89;90;Ummarnu2278;x
+2279;96;89;84;Ummarnu2279;x
+2280;50;61;63;Ummarnu2280;x
+2281;62;51;67;Ummarnu2281;x
+2282;110;102;103;Ummarnu2282;x
+2283;96;86;96;Ummarnu2283;x
+2284;152;83;160;Ummarnu2284;x
+2285;86;76;86;Ummarnu2285;x
+2286;67;64;67;Ummarnu2286;x
+2287;69;62;69;Ummarnu2287;x
+2288;79;79;66;Ummarnu2288;x
+2289;102;89;84;Ummarnu2289;x
+2290;87;76;77;Ummarnu2290;x
+2291;79;79;87;Ummarnu2291;x
+2292;82;82;69;Ummarnu2292;x
+2293;85;85;72;Ummarnu2293;x
+2294;103;86;81;Ummarnu2294;x
+2295;94;76;77;Ummarnu2295;x
+2296;91;82;76;Ummarnu2296;x
+2297;91;78;74;Ummarnu2297;x
+2298;164;83;160;Ummarnu2298;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x

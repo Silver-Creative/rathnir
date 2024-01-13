@@ -23,7 +23,7 @@ with open('map/definition.csv', 'w', encoding='UTF-8', newline='') as def_file:
     writer.writerow(["province", "red", "green", "blue", "x", "x"])
     i = 0
     for i in range(4999):
-        if i+1 > 2271 and i+1 < 4977:
+        if i+1 > 2298 and i+1 < 4977:
             continue
         #if str(df.loc[i, 'id']) != "4999":
         id = str(df.at[i, 'id'])

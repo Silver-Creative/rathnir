@@ -1,6 +1,6 @@
 # 1915 - Lerzen
 
-culture = lirgalyn
+culture = gauwel
 religion = asitir
 capital = ""
 
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = nan
+trade_goods = cheese
 
 is_city = nan
 fort_15th = nan

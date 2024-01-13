@@ -941,11 +941,50 @@ valdreachan_group = {
 	aezenfjorder = {
 
 	}
+	konkorsk = {
+
+	}
 	kumauren = {
 
 	}
 	kemon = {
 		
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
+}
+
+silvish_group = {
+	graphical_culture = westerngfx
+
+	fortunic_new = {
+
+	}
+	konkorsk_new = {
+
+	}
+	kresseunmaurez = {
+
+	}
+	merenen = {
+
+	}
+	tedzen = {
+
+	}
+	uhel = {
+
+	}
+	gauwel = {
+
 	}
 
 	dynasty_names = {

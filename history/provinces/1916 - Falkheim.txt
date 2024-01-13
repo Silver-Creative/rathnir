@@ -1,6 +1,6 @@
 # 1916 - Falkheim
 
-culture = lirgalyn
+culture = concordian
 religion = asitir
 capital = ""
 
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = nan
+trade_goods = lumber
 
 is_city = nan
 fort_15th = nan

@@ -4,7 +4,7 @@ owner = W10
 controller = W10
 add_core = W10
 
-culture = lirgalyn
+culture = uhel
 religion = asitir
 capital = ""
 
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = nan
+trade_goods = fur
 
 is_city = yes
 fort_15th = nan
