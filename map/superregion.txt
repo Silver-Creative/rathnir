@@ -67,6 +67,14 @@ northern_ummarnu_superregion = {
 	old_teshub_region
 }
 
+### Valdreach
+
+cishaloma_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	silvay_region
+}
+
 ### Sýltör
 
 northern_syltor_superregion = {

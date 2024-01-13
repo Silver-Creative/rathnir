@@ -1,6 +1,6 @@
 # 1923 - Cymru1923
 
-culture = lirgalyn
+culture = fortunic
 religion = asitir
 capital = ""
 

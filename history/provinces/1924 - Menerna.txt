@@ -1,6 +1,6 @@
 # 1924 - Menerna
 
-culture = lirgalyn
+culture = fortunic
 religion = asitir
 capital = ""
 

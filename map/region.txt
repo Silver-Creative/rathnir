@@ -414,6 +414,34 @@ old_teshub_region = {
 }
 
 ########################################
+# VALDREACH	                           #
+########################################
+
+### Silvay (Cishaloman Valdreach)
+
+silvay_region = {
+	areas = {
+		konkord_area
+		upper_krashelen_area
+		lower_krashelen_area
+		lotrezen_area
+		gyzenn_area
+		boduuren_area
+		glasnezed_area
+		aussay_area
+		salapen_area
+		lorianen_area
+		miklagen_area
+		lorgen_area
+		kumaur_area
+		fortuna_area
+		occulere_area
+
+		silvay_impassable_area
+	}
+}
+
+########################################
 # SEA REGIONS                          #
 ########################################
 

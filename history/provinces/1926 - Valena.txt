@@ -1,6 +1,6 @@
 # 1926 - Valena
 
-culture = lirgalyn
+culture = fortunic
 religion = asitir
 capital = ""
 

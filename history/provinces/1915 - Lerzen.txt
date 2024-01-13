@@ -1,5 +1,9 @@
 # 1915 - Lerzen
 
+owner = W13
+controller = W13
+add_core = W13
+
 culture = gauwel
 religion = asitir
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = cheese
 
-is_city = nan
+is_city = yes
 fort_15th = nan
 
 discovered_by = tech_alteniquian

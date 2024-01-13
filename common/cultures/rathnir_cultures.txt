@@ -962,6 +962,24 @@ valdreachan_group = {
 	}
 }
 
+viodoxan_group = {
+	graphical_culture = easterngfx
+
+	fortunic = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
+}
+
 silvish_group = {
 	graphical_culture = westerngfx
 
@@ -971,7 +989,7 @@ silvish_group = {
 	konkorsk_new = {
 
 	}
-	kresseunmaurez = {
+	kressenmaurez = {
 
 	}
 	merenen = {

@@ -1,6 +1,10 @@
 # 1918 - Trougenna
 
-culture = lirgalyn
+owner = W12
+controller = W12
+add_core = W12
+
+culture = fortunic
 religion = asitir
 capital = ""
 
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = dyes
 
-is_city = nan
+is_city = yes
 fort_15th = nan
 
 discovered_by = tech_alteniquian

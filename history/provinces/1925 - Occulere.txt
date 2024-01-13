@@ -1,6 +1,6 @@
 # 1925 - Occulere
 
-culture = lirgalyn
+culture = fortunic
 religion = asitir
 capital = ""
 

@@ -139,6 +139,7 @@
  huitca_impassable_area: "Huitcan Wastelands"
  old_talawa_impassable_area: "Old Talawan Wastelands"
  old_teshub_impassable_area: "Old Teshubi Wastelands"
+ silvay_impassable_area: "Silvish Wastelands"
 
  ### Non-Impassable Land Areas
 
@@ -408,5 +409,22 @@
  teshubi_islands_area: "Qewi"
  kharak_area: "Kharak"
  imbasarhi_area: "Imbasarhi"
+
+ #Silvay
+ konkord_area: "Konkord"
+ upper_krashelen_area: "Upper Krashelen"
+ lower_krashelen_area: "Lower Krashelen"
+ lotrezen_area: "Lotrezen"
+ gyzenn_area: "Gyzenn"
+ boduuren_area: "Boduuren"
+ glasnezed_area: "Glasnezed"
+ aussay_area: "Aussay"
+ salapen_area: "Salapen"
+ lorianen_area: "Lorianen"
+ miklagen_area: "Miklagen"
+ lorgen_area: "Lorgen"
+ kumaur_area: "Kumaur"
+ fortuna_area: "Fortuna"
+ occulere_area: "Occulere"
 
  

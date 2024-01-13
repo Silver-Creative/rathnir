@@ -1,6 +1,10 @@
 # 1917 - Konkord
 
-culture = concordian
+owner = W14
+controller = W14
+add_core = W14
+
+culture = konkorsk
 religion = asitir
 capital = ""
 
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = naval_supplies
 
-is_city = nan
+is_city = yes
 fort_15th = nan
 
 discovered_by = tech_alteniquian
