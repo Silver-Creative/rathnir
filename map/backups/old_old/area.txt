@@ -1,0 +1,3758 @@
+
+# A province can only belong to one area!
+
+#Sea Areas:
+#No restriction on size.
+
+########################################
+# Sea Areas							   #
+########################################
+
+#Sea of Pearls
+anoshphite_coast_area = {
+	768 769 770 771 1122 1131
+}
+
+sea_of_soleanna_area = {
+	772 773 774 775
+}
+
+southern_sea_of_pearls_area = {
+	776 777 778
+}
+
+northern_audalad_coast_area = {
+	779 780 781
+}
+
+grandati_sound_area = {
+	782 783
+}
+
+shiny_sea_area = {
+	1118 1119
+}
+
+serrenese_canal_area = {
+	1120 1121
+}
+
+wyngale_marsh_area = {
+	1125 1126
+}
+
+#Astyllean Sea
+serafinian_coast_area = {
+	784 785 786 787 788 789
+}
+
+sea_of_talor_area = {
+	790 791 795 802 803 804 805 806
+}
+
+gray_sea_area = {
+	792 793 794
+}
+
+southern_audalad_coast_area = {
+	796 797 798
+}
+
+sea_of_raell_area = {
+	799 800 801 807
+}
+
+#Western Rough Sea
+sivan_sea_area = {
+	808 809 810 811 816 817 1303
+}
+
+qadrogs_waters_area = {
+	812 813 814 815 818
+}
+
+#Eastern Rough Sea
+bay_of_madinat_area = {
+	819 820 821 822 1128
+}
+
+sea_of_soumere_area = {
+	823 824 825 826 838 839
+}
+
+western_blazewaters_area = {
+	827 828 829 832
+}
+
+eastern_blazewaters_area = {
+	830 831 835 836
+}
+
+karkaran_sea_area = {
+	833 834 837 1129
+}
+
+akratian_sound_area = {
+	840 841 842 843
+}
+
+#Cursed Sea
+tortugan_sound_area = {
+	844 845 846
+}
+
+sea_of_pahonja_area = {
+	847 855 856
+}
+
+coast_of_silvay_area = {
+	848 849 850 851
+}
+
+hanzeian_sea_area = {
+	852 853 854
+}
+
+southern_emerald_sea_area = {
+	857 858 859 860
+}
+
+northern_emerald_sea_area = {
+	861 862 863 864
+}
+
+interdam_channel_area = {
+	865 866 867 868
+}
+
+#Eversummer Sea
+western_eversummer_sea_area = {
+	869 870 871 872 873 874
+}
+
+eastern_eversummer_sea_area = {
+	875 876 877 878 879
+}
+
+#Keshite Sea
+greatclaw_straits_area = {
+	880 881 885
+}
+
+borean_gulf_area = {
+	882 883 884
+}
+
+lapidosan_coast_area = {
+	886 887 888
+}
+
+eastern_keshite_sea_area = {
+	889 890 891 909
+}
+
+upper_sea_of_wilusa_area = {
+	892 893 894 895
+}
+
+lower_sea_of_wilusa_area = {
+	896 897 898 899 900
+}
+
+gulf_of_aruna_area = {
+	901 902 903 904 905
+}
+
+western_keshite_sea_area = {
+	906 907 908
+}
+
+#Sea of Slaves
+ardatian_coast_area = {
+	910 931 933 935
+}
+
+mare_caprechosa_area = {
+	929 932 934 936 937
+}
+
+sagaviri_reach_area = {
+	911 912 913 914 915 916 930
+}
+
+#Ombran Gulf
+southern_ombran_gulf_area = {
+	917 918 919 920 921 928 1130
+}
+
+northern_ombran_gulf_area = {
+	922 923 924 925 926 927
+}
+
+#Western Phagosian Sea
+volandian_coast_area = {
+	938 972 973
+}
+
+vastallosi_coast_area = {
+	939 940 941 942
+}
+
+sea_of_costarion_area = {
+	964 965 966 982
+}
+
+northern_huitcan_coast_area = {
+	967 980 981
+}
+
+southern_huitcan_coast_area = {
+	968 969 970 971 974
+}
+
+inari_channel_area = {
+	975 976
+}
+
+ashuran_straits_area = {
+	977 978 979
+}
+
+#Eastern Phagosian Sea
+southern_sea_of_coltmaere_area = {
+	943 944 945 946 961 962 963
+}
+
+egalian_coast_area = {
+	948 949 950 998 999
+}
+
+northern_sea_of_coltmaere_area = {
+	947 951 952 953 954
+}
+
+dandelion_sound_area = {
+	955 956 957 958 959 960
+}
+
+#Sea of Galleons
+sea_of_galleons_area = {
+	983 984 993 994 995 996 997
+}
+
+ashuran_sea_area = {
+	985 986 987
+}
+
+gulf_of_ryzan_area = {
+	988 989 990 991 992
+}
+
+#Sea of Andorn
+eastern_sea_of_andorn_area = {
+	1000 1001 1002 1003
+}
+
+western_sea_of_andorn_area = {
+	1004 1005 1006 1007 1008
+}
+
+#Sea of Petals
+sea_of_ryzan_area = {
+	1009 1010 1011 1012 1013
+}
+
+yularan_sea_area = {
+	1014 1015 1016 1017 1024
+}
+
+dandelion_sea_area = {
+	1018 1019 1020 1021 1022 1023
+}
+
+#Sea of Bern
+noxist_coast_area = {
+	1025 1026 1027 1028
+}
+
+deuric_sea_area = {
+	1029 1030 1031
+}
+
+helmian_lakes_area = {
+	1123 1124 1127
+}
+
+#The Duskwaters
+western_duskwaters_area = {
+	1032 1033 1034 1035 1036 1037
+}
+
+eastern_duskwaters_area = {
+	1061 1062
+}
+
+#Atardon Sea
+high_silver_sea_area = {
+	1038 1039 1040 1041 1044 1045 1048 1049
+}
+
+raykaran_coast_area = {
+	1042 1043 1046 1047
+}
+
+niedene_gulf_area = {
+	1050 1051 1052 1053 1054
+}
+
+#Silver Sea
+silver_sound_area = {
+	1055 1056 1057 1058
+}
+
+sea_of_kings_area = {
+	1059 1060 1063 1064 1065 1066
+}
+
+western_palagean_sea_area = {
+	1067 1068 1069 1070 1071
+}
+
+mizuchi_bay_area = {
+	1072 1073 1074 1085
+}
+
+eastern_palagean_sea_area = {
+	1075 1076 1077 1078 1079
+}
+
+gulf_of_khorisal_area = {
+	1080 1081 1082 1083
+}
+
+najer_straits_area = {
+	1084 1086 1087
+}
+
+#Osterium Sea
+goldensea_area = {
+	1088 1089 1090 1091 1092 1093
+}
+
+asteri_sea_area = {
+	1094 1095 1096 1097 1113 1114
+}
+
+sea_of_tessel_area = {
+	1098 1099 1109 1110 1115 1116 1117
+}
+
+serrenese_sea_area = {
+	1100 1101 1102 1103 1104 1105 1106
+}
+
+far_osterium_sea_area = {
+	1107 1108 1111 1112
+}
+
+################################################################################################################################################################
+# Deprecated Stuff to prevent [triggerimplementation.cpp:15371]: Unknown region used in a trigger horn_of_africa_region crashes
+################################################################################################################################################################
+
+debug_area = {
+
+}
+
+########################################
+# Land Areas						   #
+########################################
+
+#Anòshphéy (Essukdal, Alteniquia)
+inner_stomeste_area = {
+	2 3 4 5 1293
+}
+
+outer_stomeste_area = {
+	1 6 7 8 9 10 1294
+}
+
+virrente_area = {
+	6 7 1295
+}
+
+inner_saimara_area = {
+	11 12 13 14 15 16
+}
+
+outer_saimara_area = {
+	17 18 19 20
+}
+
+oviabao_area = {
+	21 22 23 24 25
+}
+
+low_apasiril_area = {
+	26 27 28 29 30
+}
+
+high_apasiril_area = {
+	31 32 33 34
+}
+
+kabuli_gap_area = {
+	35 36 37 38 767
+}
+
+nysari_area = {
+	39 40 41 42
+}
+
+sirobhay_area = {
+	43 44 45 46 1296
+}
+
+the_pearls_area = {
+	52 53 54 55 56 57
+}
+
+anoshphey_impassable_area = {
+	1132 1133 1134 1135 1136 1137 1141 1297
+}
+
+#Audal (Essukdal, Alteniquia)
+geshem_area = {
+	58 59 60 61 62
+}
+
+sukrath_area = {
+	63 64 65 66
+}
+
+urnu_arrak_area = {
+	67 68 69 70 71
+}
+
+alkomir_area = {
+	97 98 99
+}
+
+eldal_adadi_area = {
+	100 101 102 103 104
+}
+
+harbardal_area = {
+	105 106 107 108 109
+}
+
+wasusud_valley_area = {
+	110 111 112 113 114 115
+}
+
+rosewoods_area = {
+	116 117 118 119 120
+}
+
+sage_coast_area = {
+	121 122 123 124
+}
+
+fuscin_wastes_area = {
+	125 126 127
+}
+
+audalad_wastes_area = {
+	128 129 130 131 132 133
+}
+
+lower_abayril_area = {
+	134 135 136 137 138
+}
+
+upper_abayril_area = {
+	139 140 141 142
+}
+
+yissuviad_area = {
+	143 144 145 146 151
+}
+
+grizzlybear_area = {
+	147 148 149 150
+}
+
+audal_impassable_area = {
+	1142 1143 1144 1146 1147 1148
+}
+
+#Azuria (Essukdal, Alteniquia)
+hawkers_coast_area = {
+	72 73 74 75 76
+}
+
+jadid_coast_area = {
+	77 78 79 80
+}
+
+grandett_area = {
+	81 82 83 84 85 86
+}
+
+felnath_area = {
+	87 88 89 90
+}
+
+yetlyra_area = {
+	91 92 93
+}
+
+azuria_impassable_area = {
+	1145
+}
+
+#Theiónikos (Essukdal, Alteniquia)
+verinar_area = {
+	152 153 154
+}
+
+arritas_area = {
+	155 156 157 166
+}
+
+sands_of_hakon_area = {
+	158 159 160 161 162 163
+}
+
+burned_coast_area = {
+	164 165 167 168
+}
+
+kiasta_area = {
+	169 170 171 172 173
+}
+
+krisathis_area = {
+	174 175 176 177
+}
+
+coltmaere_area = {
+	178 179 180 181 182 183
+}
+
+fareon_area = {
+	184 185 186 187
+}
+
+aldnoa_area = {
+	188 189 190 191
+}
+
+kingscourge_area = {
+	192 193 194 195 196
+}
+
+gebelli_pass_area = {
+	197 198 199
+}
+
+gebelli_march_area = {
+	200 201 202 203 204 205
+}
+
+madrian_march_area = {
+	206 207 208 209
+}
+
+theionikos_impassable_area = {
+	1138 1139 1140 1154
+}
+
+#Raell (Aldovir, Alteniquia)
+old_rhodia_area = {
+	210 211 212 213 214 748 749
+}
+
+ile_de_reyllea_area = {
+	215 216 217 218 219 235
+}
+
+lower_ilivian_area = {
+	220 221 222 223 224 225
+}
+
+couranie_area = {
+	226 227 228 229 230 231 232 760
+}
+
+argvennes_area = {
+	233 234 236 237 238
+}
+
+meydanwoods_area = {
+	261 262 753 754 755
+}
+
+#Sironia (Aldovir, Alteniquia)
+sironia_proper_area = {
+	239 240 241 242 243 243 244 245
+}
+
+jeghosi_plains_area = {
+	246 247 248 249 250 251 252 759
+}
+
+vanakunir_area = {
+	253 254 322 323
+}
+
+galadonn_area = {
+	255 256
+}
+
+#Lapidosa (Aldovir, Alteniquia)
+myrish_swamp_area = {
+	257 258 259 260
+}
+
+western_kaithrat_area = {
+	316 1299 1300 1302
+}
+
+eastern_kaithrat_area = {
+	299 300 301 1301
+}
+
+witchwoods_area = {
+	302 303 1298
+}
+
+naitor_area = {
+	304 305 306 307 308 1304
+}
+
+western_lapidovir_area = {
+	310 311 321 757 758
+}
+
+eastern_lapidovir_area = {
+	309 756 308 307
+}
+
+boreavir_area = {
+	312 313 314 315 317
+}
+
+verncost_area = {
+	318 319 320
+}
+
+lapidosa_impassable_area = {
+	1149 1150 1151
+}
+
+#Beyond-the-Marshes (Aldovir, Alteniquia)
+high_thyr_area = {
+	263 264 265 266
+}
+
+low_thyr_area = {
+	267 761 765
+}
+
+redhills_area = {
+	268 269 764
+}
+
+silverwoods_area = {
+	270 271 272 762
+}
+
+mimirs_pride_area = {
+	273 763
+}
+
+ashori_islands_area = {
+	274 275
+}
+
+sivakunir_area = {
+	276 277 278 279 280
+}
+
+western_viratayn_area = {
+	281 282 283 284
+}
+
+eastern_viratayn_area = {
+	285 286 287 288 289
+}
+
+marshes_impassable_area = {
+	1152 1153
+}
+
+#Tálor (Aldovir, Alteniquia)
+western_astyllean_islands_area = {
+	290 291
+}
+
+talor_area = {
+	292 293 294
+}
+
+eastern_astyllean_islands_area = {
+	295 296 297 298 750
+}
+
+twin_islands_area = {
+	94 95 96
+}
+
+#Inner Vastallos (Vastallos, Alteniquia)
+asturcia_area = {
+	324 325 329 330
+}
+
+valtesia_area = {
+	326 327 328
+}
+
+ravenus_area = {
+	331 332 333 334
+}
+
+mamacaoca_area = {
+	335 336 337
+}
+
+marchia_carvayana_area = {
+	359 360 361 362
+}
+
+carvay_area = {
+	363 364 365 1292
+}
+
+ombran_islands_area = {
+	745 746 747
+}
+
+#Outer Vastallos (Vastallos, Alteniquia)
+masgar_area = {
+	338 339 340
+}
+
+trollstrait_area = {
+	341 342 343 344
+}
+
+dragonbay_area = {
+	345 346 347 348
+}
+
+stensta_area = {
+	349 350 351
+}
+
+palaios_knossos_area = {
+	352 353 355 356
+}
+
+neos_knossos_area = {
+	354 357 358
+}
+
+kawalapua_area = {
+	366 367 368 369 370 371
+}
+
+#Arm of Vastallos (Vastallos, Alteniquia)
+qaruxia_area = {
+	372 373 374 375 376
+}
+
+killingmack_area = {
+	377 378 379 751
+}
+
+denthra_siocana_area = {
+	380 381 382 383
+}
+
+denthra_agriana_area = {
+	384 385 386 387
+}
+
+#Egalia (Varmerien, Nieden)
+western_orranderlos_area = {
+	388 389 390 391 392
+}
+
+aveker_basin_area = {
+	393 394 395 396 397 398
+}
+
+seltikan_area = {
+	399 400 401 402 403 404
+}
+
+rulagre_area = {
+	422 423 424 425 426 427
+}
+
+miasuran_area = {
+	428 429 430 431 432 433 434
+}
+
+eastern_orranderlos_area = {
+	435 436 437 438 439
+}
+
+ahtesuran_area = {
+	440 441 442 443 444 445
+}
+
+amsor_hinterlands_area = {
+	446 447 452 453
+}
+
+kallitz_hills_area = {
+	448 449 450 451
+}
+
+dorrestan_march_area = {
+	473 474 475 476
+}
+
+gunurma_area = {
+	477 478 479
+}
+
+#Raykara (Varmerien, Nieden)
+orraeoft_area = {
+	405 406 407 408 409
+}
+
+orrem_area = {
+	410 411 412 413 414
+}
+
+karati_area = {
+	415 416 417 418
+}
+
+marsea_area = {
+	419 420 421 752
+}
+
+kalei_peninsula_area = {
+	454 455 456 457 458 459
+}
+
+#Khuzdurin (Varmerien, Nieden)
+useri_area = {
+	47 48 49 50 51 766
+}
+
+chaureste_ridge_area = {
+	480 481 482 483
+}
+
+bethenk_dum_area = {
+	484 485 486 487 488
+}
+
+dhaz_borderlands_area = {
+	489 490 491 492
+}
+
+revanov_area = {
+	549 550 551 552
+}
+
+khuzdurin_impassable_area = {
+	1155 1156 1158
+}
+
+#Argentor (Asterien, Nieden)
+ocinua_area = {
+	460 461 462 463
+}
+
+thikul_area = {
+	464 465 466
+}
+
+urduclu_area = {
+	467 468 469 470 471 472
+}
+
+aventahl_area = {
+	493 494 495 496 497
+}
+
+erranmitahl_area = {
+	498 499 500 501 502
+}
+
+kemmertarn_area = {
+	503 504 505 506 507
+}
+
+noredi_area = {
+	508 509 510 511
+}
+
+entiatahl_area = {
+	512 513 514 515 516 517
+}
+
+lusiren_range_area = {
+	518 519 520 521 522 523
+}
+
+intorlai_area = {
+	524 525 526 527
+}
+
+lusiren_mount_area = {
+	528 529 530
+}
+
+pasyren_area = {
+	531 532 533 534 535
+}
+
+arelyre_fields_area = {
+	536 537 538
+}
+
+virnele_highlands_area = {
+	539 540 541 542
+}
+
+virnele_lowlands_area = {
+	543 544 545 546 547 548
+}
+
+wyngale_area = {
+	553 554 555 556
+}
+
+arikosan_forest_area = {
+	557 558 559 560
+}
+
+niedene_valley_area = {
+	561 562 563 564 565
+}
+
+argentor_impassable_area = {
+	1157 1159
+}
+
+#Escharia (Asterien, Nieden)
+drakonia_area = {
+	566 567 568 569
+}
+
+jaw_of_locetia_area = {
+	570 571 572 573
+}
+
+ondas_zanval_area = {
+	574 575 576 577 578 579
+}
+
+oce_zanval_area = {
+	580 581 582 583
+}
+
+vast_soralai_area = {
+	584 585 586 587 588 589
+}
+
+solaraelle_area = {
+	590 591 592 593 594
+}
+
+auberon_vale_area = {
+	595 596 597 598
+}
+
+lileanen_area = {
+	599 600 601 602
+}
+
+tessel_area = {
+	603 604 605 606 607
+}
+
+tairiede_area = {
+	608 609 610 611 612 613
+}
+
+#Suderen (Asterien, Nieden)
+solea_area = {
+	614 615 616 617 618 619
+}
+
+vernimai_area = {
+	620 621 622 623 624
+}
+
+sirrlai_area = {
+	625 626 627 628
+}
+
+ezusried_area = {
+	629 630 631 632 633
+}
+
+serrelai_area = {
+	634 635 636 637 638 639
+}
+
+delwyn_area = {
+	640 641 642 643 644 645
+}
+
+suderenval_area = {
+	646 647 648 649 650
+}
+
+#Vraelea (Western Sparwood, Sparwood)
+northern_vraelea_area = {
+	651 652 653 654
+}
+
+central_vraelea_area = {
+	655 656 657 658 660
+}
+
+southern_vraelea_area = {
+	659 661 662 663 664
+}
+
+vraelea_impassable_area = {
+	1163 1164 1165 1166 1167
+}
+
+#Hithray (Western Sparwood, Sparwood)
+asverian_floodlands_area = {
+	665 669 670 674 675
+}
+
+northern_tashnayil_area = {
+	666 667 668
+}
+
+southern_tashnayil_area = {
+	671 672 673
+}
+
+wet_tatonia_area = {
+	676 677 678 679
+}
+
+dry_tatonia_area = {
+	680 681 682
+}
+
+#Kietres (Western Sparwood, Sparwood)
+duskbluff_area = {
+	683 684 685 686
+}
+
+dawnriver_area = {
+	687 688 689 690
+}
+
+dronnin_area = {
+	691 692 693 694 695 696
+}
+
+kaheren_valley_area = {
+	697 698 699 705
+}
+
+octavos_last_stand_area = {
+	700 701 702
+}
+
+kietres_impassable_area = {
+	1160 1161 1162
+}
+
+#High Luthéa (Western Sparwood, Sparwood)
+cortera_area = {
+	703 704 706 707 708 709
+}
+
+naxola_area = {
+	710 711 712 713 714
+}
+
+serafini_proper_area = {
+	715 716 717 721 722
+}
+
+chimune_area = {
+	718 719 720 732 733 741 742
+}
+
+woltanja_area = {
+	723 724 725 726 727
+}
+
+arbalon_area = {
+	728 729 730 731
+}
+
+qilath_area = {
+	734 735 736 737 738
+}
+
+neck_of_leyth_area = {
+	739 740 743 744
+}
+
+high_luthea_impassable_area = {
+	1172
+}
+
+
+
+
+
+########################################
+# Base Game							   #
+########################################
+
+western_mediterrenean_area = {
+}
+
+eastern_mediterrenean_area = {
+}
+
+black_sea_area = {
+}
+
+baltic_area = {
+}
+
+kattegat_area = { #Kattegat, Skagerrak, Sound and Belts
+}
+
+north_sea_area = {
+}
+
+norwegian_sea_area = { #Norwegian Sea
+}
+
+white_sea_area = {
+}
+
+red_sea_area = {
+}
+
+persian_gulf_area = { #(+Makran)
+}
+
+arabian_sea_area = {
+}
+
+andaman_sea_area = {
+}
+
+bay_of_bengal_area = {
+}
+
+eastern_indian_ocean_area = {
+}
+
+western_indian_ocean_area = {
+}
+
+south_indian_ocean_area = {
+}
+
+great_australian_bight_area = {
+}
+
+swahili_coast_sea_area = {
+}
+
+south_china_sea_area = {
+}
+
+celebes_sea_area = { #5
+}
+
+java_sea_area = { #3
+}
+
+east_china_sea_area = { #8
+}
+
+sea_of_japan_area = { #10
+}
+
+sea_of_okhotsk_area = {
+}
+
+berring_sea_area = {
+}
+
+tasman_sea_area = {
+}
+
+coral_sea_area = {
+}
+
+philipine_sea_area = {
+}
+
+banda_arafura_seas_area = {
+}
+
+gulf_of_alaska_area = {
+}
+
+sea_of_grau_area = {
+}
+
+chilean_sea_area = {
+}
+
+gulf_of_panama_area = {
+}
+
+bay_of_biscay_area = {
+}
+
+english_channel_area = {
+}
+
+caribbean_sea_area = {
+}
+
+gulf_of_mexico_area = {
+}
+
+sea_of_labrador_area = {
+}
+
+hudson_bay_sea_area = {
+}
+
+denmark_strait_area = {
+}
+
+gulf_of_guinea_sea_area = {
+}
+
+cape_of_storms_area = {
+}
+
+skeleton_coast_area = {
+}
+
+east_pacific_ocean_area = {
+}
+
+polynesian_triangle_area = {
+}
+
+south_pacific_area = {
+}
+
+north_pacific_area = {
+}
+
+north_pacific_coast_area = {
+}
+
+coast_of_brazil_sea_area = {
+}
+
+coast_of_guyana_area = {
+}
+
+celtic_sea_area = {
+}
+
+west_african_coast_sea_area = {
+}
+
+south_atlantic_area = {
+}
+
+argentine_sea_area = {
+}
+
+gulf_of_st_lawrence_area = {
+}
+
+gulf_stream_area = {
+}
+
+sargasso_sea_area = {
+}
+
+north_atlantic_area = {
+}
+
+bahama_channel_area = {
+}
+
+#Lakes:
+#Listed by themselves in order to be easier to remove if needed.
+
+#central_asian_lakes_area = {
+#	1326 1327 1653 1654 1888
+#}
+
+#chinese_lakes_area = {
+#	1655 1895 1896 1897 1898 2000 2001
+#}
+
+#baltic_lakes_area = {
+#	1260 1261 1262 1250 1251 1883 1884 1885 1886 1887 1977 2953
+#}
+
+#african_lakes_area = {
+#	1648 1649 1650 1651 1899 1900 1976 2471
+#}
+
+#north_american_lake_area = {
+#	1658 1659 1660 1661 1662 1663 1664 1665 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1923 1918 1919 1920 1921 1922 6501 6547 6548 6549 6550 6551 6552
+#}
+
+#central_european_lakes_area = {
+#	1325 1889 1890
+#}
+
+#caucasian_lakes_area = {
+#	1891 1892 1893 1894
+#}
+
+#south_american_lakes_area = {
+#	1656 1657 1902
+#}
+
+#Land Areas:
+# A land area is 3 - 10 provinces
+
+########################################
+# France					 		   #
+########################################
+
+brittany_area = { #5
+}
+
+normandy_area = { #4
+}
+
+provence_area = { #3
+}
+
+poitou_area = { #4
+}
+
+guyenne_area = { #3
+}
+
+pyrenees_area = { #3
+}
+
+languedoc_area = { #4
+}
+
+bourgogne_area = { #5
+}
+
+massif_central_area = { #3
+}
+
+savoy_dauphine_area = { #3 Savoy and Dauphin�, Upper Burgundy 
+}
+
+lorraine_area = { #3
+}
+
+picardy_area = { #4
+}
+
+ile_de_france_area = { #4
+}
+
+champagne_area = { #3
+}
+
+loire_area = { #5
+}
+
+########################################
+# Low Countries				 		   #
+########################################
+
+wallonia_area = { #5
+}
+
+holland_area = { #3
+}
+
+flanders_area = { #3
+}
+
+netherlands_area = { #5
+}
+
+frisia_area = { #4
+}
+
+########################################
+# Iberia					 		   #
+########################################
+
+aragon_area = { #3
+}
+
+catalonia_area = { #4
+}
+
+valencia_area = { #4
+}
+
+lower_andalucia_area = { #4
+}
+
+upper_andalucia_area = { #3
+}
+
+castille_area = { #3
+}
+
+toledo_area = { #4
+}
+
+asturias_area = { #3
+}
+
+basque_country = { #3
+}
+
+leon_area = { #4
+}
+
+beieras_area = { #4
+}
+
+alentejo_area = { #4
+}
+
+macaronesia_area = { #3
+}
+
+########################################
+# Italy					 			   #
+########################################
+
+venetia_area = { #4
+}
+
+lombardy_area = { #4
+}
+
+piedmont_area = { #4
+}
+
+tuscany_area = { #5
+}
+
+liguria_area = { #3
+}
+
+corsica_sardinia_area = { #3
+}
+
+sicily_area = { #4
+}
+
+naples_area = { #3  #Lazio-Campania
+}
+
+calabria_area = { #3 (+Lucania)
+}
+
+apulia_area = { #3
+}
+
+emilia_romagna_area = { #4
+}
+
+central_italy_area = { #4
+}
+
+########################################
+# British Isles			 			   #
+########################################
+
+munster_area = { #3
+}
+
+connacht_area = { #3
+}
+
+leinster_area = { #4
+}
+
+ulster_area = { #3
+}
+
+kingdom_of_the_isles_area = { #3
+}
+
+highlands_area = { #5
+}
+
+lowlands_area = { #3
+}
+
+wales_area = { #4
+}
+
+scottish_marches_area = { #4
+}
+
+yorkshire_area = { #3
+}
+
+west_midlands_area = { #5
+}
+
+east_midlands_area = { #3
+}
+
+wessex_area = { #5
+}
+
+home_counties_area = { #4
+}
+
+east_anglia_area = { #3
+}
+
+########################################
+# Scandinavia			 			   #
+########################################
+
+jutland_area = { #4
+}
+
+denmark_area = { #4 +Bornholm
+}
+
+skaneland_area = { #4
+}
+
+gotaland_area = { #3 �stra G�taland
+}
+
+vastra_gotaland_area = { #V�stra G�taland #4
+}
+
+svealand_area = { #3
+}
+
+ostra_svealand_area = { #4
+}
+
+norrland_area = { #4
+}
+
+finland_area = { #5
+}
+
+bothnia_area = { #3
+}
+
+laponia_area = { #3
+}
+
+karelia_area = { #4
+}
+
+north_karelia = { #3
+}
+
+northern_norway = { #3
+}
+
+eastern_norway = { #4
+}
+
+western_norway = { #4
+}
+
+subarctic_islands_area = { #2
+}
+
+iceland_area = { #2
+}
+
+greenland_area = { #2
+}
+
+########################################
+# Eastern Europe    			 	   #
+########################################
+
+estonia_ingria_area = { #3
+}
+
+livonia_area = { #4
+}
+
+curonia_area = { #3
+}
+
+east_prussia_area = { #4
+}
+
+pomerelia_area = { #3 (North West Prussia)
+}
+
+west_prussia_area = { #3 (South West Prussia)
+}
+
+wielkopolska_area = { #4
+}
+
+malopolska_area = { #5
+}
+
+red_ruthenia_area = { #4
+}
+
+podolia_volhynia_area = { #4
+}
+
+pripyat_area = { #3
+}
+
+mazovia_area = { #4
+}
+
+samogitia_area = { #3
+}
+
+lithuania_area = { #3
+}
+
+west_dniepr_area = { #4 Right Bank Ukraine
+}
+
+east_dniepr_area = { #4 Left bank Ukraine
+}
+
+sloboda_ukraine_area = { #4
+}
+
+yedisan_area = { #3
+}
+
+zaporizhia_area = { #3
+}
+
+azov_area = { #4
+}
+
+crimea_area = { #4
+}
+
+white_ruthenia_area = { #3
+}
+
+minsk_area = { #3
+}
+
+#Opolye
+
+ryazan_area = { #4
+}
+
+moscow_area = { #4
+}
+
+vladimir_area = { #3
+}
+
+yaroslavl_area = { #4
+}
+
+tver_area = { #5
+}
+
+suzdal_area = { #3
+}
+
+smolensk_area = { #4
+}
+
+oka_area = { #3
+}
+
+novgorod_area = { #5
+}
+
+pskov_area = { #4
+}
+
+vologda_area = { #3
+}
+
+beloozero_area = { #3
+}
+
+astrakhan_area = { #5
+}
+
+lower_don_area = { #4
+}
+
+kazan_area = { #3
+}
+
+samara_area = { #3
+}
+
+lower_yik_area = { #4
+}
+
+nogai_area = { #5
+}
+
+ural_area = { #5
+}
+
+pomor_area = { #4
+}
+
+arkhangelsk_area = { #4
+}
+
+bashkiria_area = { #5
+}
+
+volga_area = { #3
+}
+
+galich_area = { #4
+}
+
+kama_area = { #4
+}
+
+tambov_area = { #3
+}
+
+saratov_area = { #3
+}
+
+########################################
+# Germany			 				   #
+########################################
+
+silesia_area = { #4
+}
+
+bohemia_area = { #5
+}
+
+erzgebirge_area = { #3
+}
+
+south_saxony_area = { #3
+}
+
+upper_bavaria_area = { #3
+}
+
+lower_bavaria_area = { #4
+}
+
+lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
+}
+
+franconia_area = { #3
+}
+
+upper_swabia_area = { #3
+}
+
+northern_saxony_area = { #3 (Saxe-Altmark)
+}
+
+thuringia_area = { #3
+}
+
+neumark_area = { #3
+}
+
+mittelmark_area = { # 3
+}
+
+vorpommern_area = { #3
+}
+
+hinter_pommern_area = { #3
+}
+
+tirol_area = { #3
+}
+
+austria_proper_area = { #3
+}
+
+inner_austria_area = { #3
+}
+
+carinthia_area = { #3
+}
+
+switzerland_area = { #4
+}
+
+romandie_area = { #3
+}
+
+upper_rhineland_area = { #4
+}
+
+palatinate_area = { #3
+}
+
+north_rhine_area = { #3
+}
+
+lower_rhineland_area = { #3
+}
+
+westphalia_area = { #5
+}
+
+hesse_area = { #4
+}
+
+braunschweig_area = { #3
+}
+
+weser_area = { #3
+}
+
+holstein_area = { #3
+}
+
+lower_saxony_area = { #3
+}
+
+mecklenburg_area = { #3
+}
+
+########################################
+# South Eastern Europe 				   #
+########################################
+
+macedonia_area = { #4 (Macedonia)
+}
+
+morea_area = { #4 Central Greece & Crete
+}
+
+northern_greece_area = { #3 #Northern Greece
+}
+
+thrace_area = { #3
+}
+
+bulgaria_area = { #5
+}
+
+wallachia_area = { #3
+}
+
+moldavia_area = { #3
+}
+
+transylvania_area = { #4 #Northern Transylvania
+}
+
+southern_transylvania_area = { #3
+}
+
+slovakia_area = { #5
+}
+
+serbia_area = { #4
+}
+
+rascia_area = { #3
+}
+
+albania_area = {
+}
+
+bosnia_area = { #4
+}
+
+croatia_area = { #5
+}
+
+east_adriatic_coast_area = { #3
+}
+
+alfold_area = { #4
+}
+
+transdanubia_area = { #5
+}
+
+########################################
+# Caucasia 							   #
+########################################
+
+imereti_area = { #3
+}
+
+samtskhe_area = { #3
+}
+
+kartli_kakheti_area = { #3
+}
+
+armenia_area = { #5
+}
+
+shirvan_area = { #5 #Northern Azerbaijan
+}
+
+circassia_area = { #4
+}
+
+dagestan_area = { #5
+}
+
+
+########################################
+# Anatolia, The Levant & Mesopotamia   #
+########################################
+
+rum_area = { #5
+}
+
+erzurum_area = { #3	Erzurum and Trebizond
+}
+
+hudavendigar_area = { #3
+}
+
+germiyan_area = { #4
+}
+
+aydin_area = { #5
+}
+
+ankara_area = { #3
+}
+
+aegean_archipelago_area = { #4
+}
+
+kastamonu_area = { #4
+}
+
+karaman_area = { #4
+}
+
+cukurova_area = { #3
+}
+
+aleppo_area = { #4
+}
+
+syria_area = { #4
+}
+
+trans_jordan_area = { #3
+}
+
+palestine_area = { #3
+}
+
+dulkadir_area = { # 4
+}
+
+iraq_arabi_area = { #5 Lower Mesopotamia
+}
+
+basra_area = { #4
+}
+
+luristan_area = { #4
+}
+
+north_kurdistan_area = { #5
+}
+
+khuzestan_area = { #5
+}
+
+shahrizor_area = {	#4
+}
+
+al_jazira_area = { #5
+}
+
+
+########################################
+# Arabia				               #
+########################################
+
+bahrain_area = { #5
+}
+
+pirate_coast_area = { #4
+}
+
+nafud_area = { #3
+}
+
+tabuk_area = { #4
+}
+
+medina_area = { #3
+}
+
+mecca_area = { #5
+}
+
+asir_area = { #3
+}
+
+tihama_al_yemen_area = { #3
+}
+
+upper_yemen_area = { #3
+}
+
+yemen_area = { #Lower Yemen #
+}
+
+hadramut_area = { #3
+}
+
+mahra_area = { #3
+}
+
+yamamah_area = { #4
+}
+
+qasim_area = { #4
+}
+
+dhofar_area = { #3 (Dhofar + Masirah)
+}
+
+oman_area = { #3 (Oman Proper)
+}
+
+mascat_area = { #3 (Batinah and Muscat coast
+}
+
+syrian_desert_area = { #3
+}
+
+########################################
+# North Africa					       #
+########################################
+
+gulf_of_arabia_area = { #5
+
+}
+
+al_wahat_area = { #3
+
+}
+
+delta_area = { #3
+
+}
+
+bahari_area = { #4 #Lower Egypt
+
+}
+
+vostani_area = { #3 #Middle Egypt
+
+}
+
+said_area = { #5 #Upper Egypt
+
+}
+
+tripolitania_area = { #3
+
+}
+
+cyrenaica_area = { #5
+
+}
+
+fezzan_area = { #3
+
+}
+
+tunisia_area = { #4
+
+}
+
+djerba_area = { #3
+
+}
+
+algiers_area = { #5
+}
+
+kabylia_area = { #3
+}
+
+hautes_plaines_area = { #3
+}
+
+ouled_nail_area = { #3
+}
+
+north_saharan_area = { #5
+}
+
+tafilalt_area = { #3
+}
+
+sus_area = { #3
+}
+
+southern_morocco_area = { #3
+}
+
+western_morocco_area = { #3
+}
+
+marrekesh_area = { #3
+}
+
+northern_morocco_area = { #3
+}
+
+########################################
+# East Africa					       #
+########################################
+
+madagascar_highlands_area = { #3
+}
+
+betsimasaraka_area = { #3
+}
+
+sakalava_area = { #5
+}
+
+southern_madagascar = { #4
+}
+
+lower_zambezi_area = { #3
+}
+
+upper_zambezi_area = { #3
+}
+
+shire_area = { #3
+}
+
+butua_area = { #3
+}
+
+zimbabwe_area = { #4
+}
+
+ruvuma_area = { #4
+}
+
+ngonde_area = { #3
+}
+
+mozambique_area = { #4
+}
+
+uticulo_makuana_area = { #3
+}
+
+quelimane_area = { #3
+}
+
+limpopo_area = { #4
+}
+
+central_swahili_coast_area = { #5
+}
+
+northern_swahili_coast_area = { #3
+}
+
+mombasa_area = { #3
+}
+
+kenya_area = {	#5
+}
+
+jubba_area = { #3
+}
+
+tanzania_area = { #5
+}
+
+buha_area = { #5
+}
+
+buzinza_area = { #3
+}
+
+luba_area = { #4
+}
+
+katanga_area = { #5
+}
+
+zambia_area = { #3
+}
+
+chokwe_area = { #3
+}
+
+rwanda_area = { #3
+}
+
+uganda_area = { #3
+}
+
+bunyoro_area = { #3
+}
+
+kasai_area = { #5
+}
+
+sankuru_area = { #3
+}
+
+lower_kasai = { #4
+
+}
+
+ogaden_area = { #5
+}
+
+darfur_central_sahara_area = { #5
+}
+
+kurdufan_area = { #3
+}
+
+lower_nubia_area = { #3
+}
+
+dongola_area = { #3
+}
+
+upper_nubia_area = { #5
+}
+
+sennar_area = { #3
+}
+
+red_sea_coast_area = { #4
+}
+
+tigray_area = { #4
+}
+
+ifat_area = { #4
+}
+
+somaliland_area = { #5
+}
+
+southern_ethiopia_area = { #4
+}
+
+hadiya_area = { #3
+}
+
+central_ethiopia_area = { #5
+}
+
+damot_area = { #3
+}
+
+aussa_area = { #4
+}
+
+shewa_area = { #3
+}
+
+mogadishu_area = { #5
+}
+
+ajuuran_area = { #4
+}
+
+majarteen_area = { #5
+}
+
+########################################
+# South-Eastern Islands				   #
+########################################
+
+mascarenes_area = { #3
+}
+
+indian_ocean_islands_area = { #4
+}
+
+papua_area = { #5 (Papuan Peninsula)
+}
+
+vogelkop_area = { #4
+}
+
+melanesia_area = { #5
+}
+
+micronesia_area = { #4
+}
+
+west_micronesia_area = { #3
+}
+
+western_australia_area = { #3
+}
+
+top_end_area = { #2
+}
+
+northern_australia_area = { #3
+}
+
+eastern_australia_area = { #5
+}
+
+southern_australia_area = { #4
+}
+
+murray_river_area = { #5
+}
+
+northern_polynesia_area = { #3
+}
+
+eastern_polynesia_area = { #3
+}
+
+polynesia_area = { #5
+}
+
+te_ika_a_maui_area = { #5
+}
+
+te_waipounamu_area = { #3
+}
+
+########################################
+# West Africa					       #
+########################################
+
+western_sahara_area = { #5
+}
+
+cap_verde_area = { #2 
+}
+
+jolof_area = { #4
+}
+
+tekrur_area = { #4
+}
+
+baghena_area = { #4
+}
+
+manding_area = { #4
+}
+
+futa_jallon_area = { #3
+}
+
+massina_area = { #4
+}
+
+jenne_area = { #4
+}
+
+niger_bend_area ={ #5
+}
+
+upper_volta_area = { #5
+}
+
+kong_area = { #4
+}
+
+lower_volta_area = { #5
+}
+
+lower_niger_area = { #5
+}
+
+hausa_area = { #3
+}
+
+katsina_area = { #3
+}
+
+zazzau_area = { #4
+}
+
+bornu_area = { #5
+}
+
+kanem_area = { #5
+}
+
+adamawa_plateau_area = { #4
+}
+
+dendi_area = { #4
+}
+
+azbin_area = { #5
+}
+
+east_azbin_area = { #3
+}
+
+atacora_oueme_area = { #5
+}
+
+gulf_of_guinea_area = { #4
+}
+
+benin_area = { #4
+}
+
+sao_tome_area = { #2
+}
+
+west_africa_coast_area = { #5
+}
+
+guinea_coast_area = { #4
+}
+
+south_atlantic_islands_area = { #2
+}
+
+matamba_area = { #3
+}
+
+coastal_kongo = { #5
+}
+
+kongo_area = { #5
+}
+
+angola_namibia_area = { #5
+}
+
+cape_of_good_hope_area = { #5
+}
+
+south_african_plateau_area = { #5
+}
+
+
+########################################
+# Greater Persia		               #
+########################################
+
+makran_area = { #5
+}
+
+sistan_area = { #4
+}
+
+kalat_area = { #3
+}
+
+ferghana_area = { #3
+}
+
+arys_area = { #3
+}
+
+kyzylkum_area = { #3
+}
+
+transoxiana_area = { #3
+}
+
+termez_area = { #3
+}
+
+khiva_area = { #5
+}
+
+kabulistan_area = { #5
+}
+
+transcaspia_area = {
+}
+
+mashhad_area = { #4 - Northern Khorasan
+}
+
+herat_area = {	#3 - Eastern Khorasan
+}
+
+birjand_area = { #3 - Western Khorasan
+}
+
+ghor_area = { #3
+
+}
+
+merv_area = { #3
+
+}
+
+balkh_area = { #3
+}
+
+kerman_area = { #4
+}
+
+persian_gulf_coast = { #4
+}
+
+mogostan_area = { #3
+}
+
+farsistan_area = { #4
+}
+
+iraq_e_ajam_area = { #5
+}
+
+azerbaijan_area = { #5 #Southern Azerbaijan
+}
+
+isfahan_area = { #3
+}
+
+tabriz_area = { #4 Central Azerbaijan
+}
+
+tabarestan_area = { #5
+}
+
+########################################
+# India  		                       #
+########################################
+
+upper_doab_area = { #3 (Delhi+Agra Subahs)
+}
+
+sirhind_area = {	#3
+}
+
+central_doab_area = {	#3 Approximate Agra Subah
+}
+
+oudh_area = { #3
+}
+
+purvanchal_area = { #3
+}
+
+lower_doab_area = { #4 (lower doab and Bundelkhand)
+}
+
+lahore_area = { #3 (approximate Lahore Subah)
+}
+
+multan_area = { #4 (approximate Multan Subah)
+}
+
+west_bengal_area = { #4
+}
+
+naga_hills_area = { #3
+}
+
+east_bengal_area = { #3
+}
+
+north_bengal_area = { #3
+}
+
+bihar_area = { #3
+}
+
+jharkhand_area = { #3
+}
+
+gondwana_area = { #4
+}
+
+orissa_area = { #3
+}
+
+garjat_area = { #4
+}
+
+telingana_area = { #3
+}
+
+andhra_area = { #4
+}
+
+rayalaseema_area = {
+}
+
+kerala_area = { #4
+}
+
+malwa_area = { #5
+}
+
+mewar_area = { #4
+}
+
+marwar_area = { #5
+}
+
+jaipur_area = { #3
+}
+
+sindh_area = { #5
+}
+
+carnatic_area = { #4 (Only the Golcondan Karnatak)
+}
+
+coromandel_area = { #3
+}
+
+madura_area = { #3
+}
+
+konkan_area = { #3
+}
+
+kanara_area = { #3
+}
+
+maidan_area = { #5 (northern Bayuluseeme)
+}
+
+mysore_area = { #3
+}
+
+maharashtra_area = { #4
+}
+
+desh_area = { #3
+}
+
+assam_area = { #4
+}
+
+himalayan_hills_area = { #3
+}
+
+nepalese_area = { #5
+}
+
+kashmir_area = { #3
+}
+
+lanka_area = { #3
+}
+
+gujarat_area = { #3
+}
+
+tapti_area = { #3
+}
+
+saurashtra_area = { #5
+}
+
+########################################
+# Indo-China  	                       #
+########################################
+
+upper_burma_area = { #5
+}
+
+kachin_area = { #4
+}
+
+shan_hill_area = { #3
+}
+
+karenni_area = { #3 #Southern Shan States
+}
+
+
+malaya_area = { #5
+}
+
+malacca_area = { #3
+}
+
+khorat_area = { #5
+}
+
+champa_area = { #5
+}
+
+cambodia_area = { #5
+}
+
+lower_burma_area = { #5
+}
+
+arakan_area = { #3
+}
+
+mekong_area = { #4
+}
+
+tenasserim_area = { #5
+}
+
+north_tenasserim_area = { #4
+}
+
+vietnam_area = { #3
+}
+
+red_river_delta_area = { #3
+}
+
+south_laos_area = { #4
+}
+
+north_laos_area = { #4
+}
+
+central_thai_area = { #4
+}
+
+northern_thai_area = { #3
+}
+
+########################################
+# Indonesia  	                       #
+########################################
+
+mindanao_area = { #3 #East Mindanao
+}
+
+west_mindanao_area = { #3
+}
+
+visayas_area = { #5
+}
+
+palawan_area = { #3
+}
+
+luzon_area = { #4 (Northern Luzon)
+}
+
+southern_luzon_area = { #5
+}
+
+north_sumatra_area = { #3
+}
+
+batak_area = { #3
+}
+
+central_sumatra_area = { #5
+}
+ 
+minangkabau_area = { #3
+}
+
+south_sumatra_area = { #5
+}
+
+indonesian_islands_area = { #4
+}
+
+east_java_area = { #4
+}
+
+central_java_area = { #4
+}
+
+west_java_area = { #5
+}
+
+kutai_area = { #5
+}
+
+brunei_area = { #5
+}
+
+kalimantan_area = { #5
+}
+
+molluca_area = { #4
+}
+
+spice_islands_area = { #3
+}
+
+ceram_area = { #2
+}
+
+lesser_sunda_islands_area = { #3
+}
+
+timor_area = { #3
+}
+
+sulawesi_area = { #4
+}
+
+south_sulawesi_area = { #4
+}
+
+########################################
+# Korea & Japan                        #
+########################################
+
+pyongan_area = { #3
+}
+
+hamgyeong_area = { #3
+}
+
+western_korea_area = { #4 (Hwanghae + Gyeonggi)
+}
+
+eastern_korea_area = { #5 (Gangwon +  Gyeongsang)
+}
+
+south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
+}
+
+hokkaido_area = { #5
+}
+
+hokuriku_area = { #3
+}
+
+kanto_area = { #3 #Western Kanto
+}
+
+eastern_kanto_area = { #3
+}
+
+kyushu_area = { #4 #Southern Kyushu
+}
+
+northern_kyushu = {
+}
+
+shikoku_area = { #3
+}
+
+eastern_chubu_area = { #4
+}
+
+chubu_area = { #3 (Western Chubu)
+}
+
+kinai_area = { #4
+}
+
+thohoku_area = { #4
+}
+
+sanindo_area = { #4
+}
+
+saigoku_area = { #4 #Sanyodo
+}
+
+########################################
+# North Asia     	                   #
+########################################
+
+kamchatka_area = { #4
+}
+
+magadan_area = { #3
+}
+
+kolyma_area = { #4
+}
+
+okhotsk_area = { #4
+}
+
+yakutia_area = { #5
+}
+
+sakha_area = { #3
+}
+
+buryatia_area = { #5
+}
+
+tunguska_area = { #5
+}
+
+central_siberia_area = { #4
+}
+
+kara_area = { #4
+}
+
+ob_area = { #5
+}
+
+irkutsk_area = { #5
+}
+
+perm_area = { #5
+}
+
+balchasj_area = { #4
+}
+
+kazakhstan_area = { #5
+}
+
+syr_darya_area = { #4
+}
+
+yrtesh_area = { #5
+}
+
+ishim_area = { #4
+}
+
+########################################
+# China      	                       #
+########################################
+
+heilongjiang_area = { #3 (West Heilongjiang)
+}
+
+east_heilongjiang_area = { #4
+}
+
+central_heilongjiang_area = {#4
+}
+
+ilan_hala_area = { #5 (North Jilin Area)
+}
+
+central_jilin_area = { #5
+}
+
+ningguta_area = { #5
+}
+
+jilin_area = { #4 (South Jilin Area)
+}
+ 
+liaoning_area = { #5
+}
+
+ordos_area = { #4 (Western Inner Mongolia)
+}
+
+eastern_mongolia = { #5
+}
+
+inner_mongolia_area = { #5
+}
+
+outer_mongolia_area = { #5
+}
+
+altai_sayan_area = { #3
+}
+
+tannu_uriankhai_area = {#3
+}
+
+central_mongolia_area = { #3
+}
+
+uliastai_area = {#3
+}
+
+jetysuu_area = { #5
+}
+
+kashgaria_area = { #5 #Just Kashgar & Yarkand
+}
+
+tarim_basin_area = { #3 #The rest of the Seven Cities
+}
+
+shanshan_area = { #3 
+}
+
+turpan_kumul_area = { #4
+}
+
+zungaria_area = { #4
+}
+
+amdo_area = { #4
+}
+
+tsang_area = { #4
+}
+
+north_zungaria = { #3
+}
+
+kham_area = { #5
+}
+
+utsang_area = { #3
+}
+
+hebei_area = { #4 (North Hebei)
+}
+
+south_hebei_area = { #4
+}
+
+shandong_area = { #5
+}
+
+jiangsu_area = { #3
+}
+
+south_jiangsu_area = { #4
+}
+
+anhui_area = { #3 (North Anhui)
+}
+
+south_anhui_area = { #3
+}
+
+zhejiang_area = { #5
+}
+
+jiangxi_area = { #4
+}
+
+fujian_area = { #4
+}
+
+taiwan_area = { #3
+}
+
+guangdong_area = { #5
+}
+
+west_guangdong_area = { #5
+}
+
+guangxi_area = { #5
+}
+
+yun_gui_area = { #5 (Yun-Gui Hinterland)
+}
+
+yun_gui_borderland_area = { #5
+}
+
+sichuan_area = { #3
+}
+
+chuannan_area = { #4
+}
+
+chuanbei_area = { #3
+}
+
+huguang_area = { #5 (Hubei)
+}
+
+hunan_area = { #4
+}
+
+henan_area = { #3 (South Henan)
+}
+
+north_henan_area = { #3
+}
+
+shanxi_area = { #5
+}
+
+shaanxi_area = { #4
+}
+
+gansu_area = { #5 (East Gansu)
+}
+
+west_gansu_area = { #4 
+}
+
+########################################
+# South America    	                   #
+########################################
+
+rio_grande_do_sol_area = { #4
+
+}
+
+minas_gerais_area = { #4
+
+}
+
+diamantina_area = { #3
+
+}
+
+goias_area = { #5
+
+}
+
+pontal_area = { #3
+
+}
+
+mato_grosso_area = { #4
+
+}
+
+ofaie_area = { #3
+
+}
+
+guapore_area = { #3
+
+}
+
+sao_paolo_area = { #3
+
+}
+
+west_sao_paolo_area = { #3
+
+}
+
+rio_de_janeiro_area = { #4
+
+}
+
+bahia_area = { #5
+
+}
+
+pernambuco_area = { #5
+
+}
+
+ceara_area = { #3
+	
+}
+
+sao_francisco_area = { #5
+
+}
+
+maranhao_area = { #5
+
+}
+
+piaui_area = { #3
+
+}
+
+grao_para_area = { #4
+
+}
+
+amapa_area = { #3
+
+}
+
+amazon_area = { #4
+
+}
+
+paraguay_area = { #5
+}
+
+patagonia_area  = { #3
+}
+
+bahia_blanca_area = { #3
+}
+
+patagonian_andes = { #4
+}
+
+cuyo_area  = { #5
+}
+
+nehuenken_area = { #4
+}
+
+southern_pampas_area  = { #5
+}
+
+buenos_aires_area = { #4
+}
+
+misiones_area = { #5
+
+}
+
+tucuman_area  = { #3
+
+}
+
+jujuy_area = { #3
+
+}
+
+chaco_area  = { #4
+
+}
+
+banda_oriental_area = { #5
+}
+
+guyana_area = { #4
+}
+
+suriname_area = { #3
+}
+
+upper_guyana_area = { #4
+}
+
+quito_area = { #5
+}
+
+iquitos_area = { #3
+
+}
+
+venezuela_area = { #3
+}
+
+maracaibo_area = { #3
+}
+
+eastern_llanos = { #5
+}
+
+western_llanos = { #3
+}
+
+bogota_area = { #5
+}
+
+popayan_area = { #4	
+}
+
+coquivacoa_area = { #3
+}
+
+northern_chile_area = { #5
+}
+
+central_chile_area = { #3
+}
+
+southern_chile_area = { #3
+}
+
+antisuyu_area = { #4
+}
+
+kuntisuyu_area = { #4
+}
+
+peruan_coast = { #3
+}
+
+chimor_area = { #5
+}
+
+ucayali_area = { #3
+}
+
+cajamarca_area = { #4
+}
+
+huanuco_area = { #5
+}
+
+beni_area = { #3 - Beni Savannah
+}
+
+moxos_area = { #3
+}
+
+upper_peru = { #4
+}
+
+potosi_area = { #4
+}
+
+########################################
+# North America    	                   #
+########################################
+
+great_woods_area = { #3
+}
+
+maine_area = { #5
+}
+
+massachusetts_bay_area = { #3
+}
+
+connecticut_valley_area = { #3
+}
+
+hudson_valley_area = { #4
+}
+
+delaware_valley_area = { #5
+}
+
+iroquoisia_area = { #5
+}
+
+south_iroquoisia_area = { #3
+}
+
+susquehanna_area = { #4
+}
+
+maryland_area = { #3
+}
+
+chesapeake_area = { #4
+}
+
+great_valley_area = { #3
+}
+
+piedmont_north_america_area = { #3
+}
+
+carolinas_area = { #3
+}
+
+south_carolina_area = { #5
+}
+
+american_georgia_area = { #3
+}
+
+upper_american_georgia_area = { #3
+}
+
+florida_area = { #3
+}
+
+north_florida_area = { #3
+}
+
+appalachia_area = { #3
+}
+
+south_appalachia_area = { #3
+}
+
+west_florida_area = { #5
+}
+
+mississippi_area = { #4
+}
+
+choctaw_area = { #3
+
+}
+
+alabama_area = { #4
+}
+
+kentucky_area = { #3
+}
+
+ohio_country_area = { #4
+}
+
+miami_river_area = { #4
+}
+
+illinois_country_area = { #4
+}
+
+mississippi_plain_area = { #3
+}
+
+michigan_area = { #4
+}
+
+lake_superior_area = { #4
+}
+
+wisconsin_area = { #3
+}
+
+lower_louisiana_area = { # 3
+}
+
+upper_louisiana_area = { #4
+}
+
+ozarks_area = { #3
+}
+
+lower_plains_area = { #3
+}
+
+central_plains_area = { #5
+}
+
+high_plains_area = { #5
+}
+
+dakota_area = { #5
+}
+
+south_dakota_area = { #3
+}
+
+upper_missouri_area = { #5
+}
+
+badlands_area = { #5
+}
+
+llano_estacado_area = { #4
+}
+
+texas_area = { #4
+}
+
+coastal_prarie_area = { #3
+}
+
+oregon_area = { #4
+}
+
+columbia_river_area = { #4
+}
+
+snake_river_area = { #4
+}
+
+salish_sea_area = { #3
+}
+
+interior_plateau_area = { #4
+}
+
+hecate_strait_area = { #3
+}
+
+alaska_area = {  #4
+}
+
+east_alaska_area = { #3
+}
+
+lower_acadia_area = { #5
+}
+
+straits_of_georgia_area = { #4
+}
+upper_acadia_area = { #4
+}
+
+newfoundland_area = { #3
+}
+
+labrador_area = { #3
+}
+
+cote_nord_area = { #4
+}
+
+notre_dame_mountains_area = { #5
+}
+
+lower_canada_area = { #4
+}
+
+upper_canada_area = { #4
+}
+
+laurentian_area = { #4
+}
+
+upper_ontario_area = { #4
+}
+
+huronia_area = { #4
+}
+
+james_bay_area = { #5
+}
+
+inner_ontario_area = { #5
+}
+
+hudson_bay_area = { #5
+}
+
+red_river_area = { #5
+}
+
+assiniboia_area = { #3
+}
+
+saskatchewan_area = { #3
+}
+
+prairies_area = { #5
+}
+
+athabasca_area = { #5
+}
+
+northeast_mexico_area = { #5
+}
+
+durango_area = { #4
+}
+
+rio_grande_area = { # 3
+}
+
+sonora_y_sinaloa_area = { #5
+}
+
+new_mexico_area = { #5
+}
+
+colorado_plateau_area = { #4
+}
+
+arizona_area = { #4
+}
+
+california_area = { #5
+}
+ 
+central_valley_area = { #5
+}
+
+baja_california_area = { #4
+}
+
+jalisco_area = { #4
+}
+
+michoacan_area = { #5
+}
+
+gran_chichimeca_area = { #5
+}
+
+mexico_area = { #5
+}
+
+guerrero_area = { #4
+}
+
+oaxaca_area = { #4
+}
+
+eastern_mexico_area = { #5
+}
+
+chiapas_area = { #4
+}
+
+yucatan_area = { #4
+}
+
+east_yucatan_area = { #3
+}
+
+guatemala_area = { #5
+}
+
+honduras_area = { #5
+}
+
+nicaragua_area = { #5
+}
+
+panama_area = { #5
+}
+
+cuba_area = { #3
+}
+
+east_cuba_area = { #3
+}
+
+hispaniola_area = { #5
+}
+
+greater_antilles_area = { #4
+}
+
+lucayan_area = { #2
+}
+
+leeward_islands_area = { #5
+}
+
+windward_islands_area = { #5
+}
+
+#############################
+#Deprecated:
+#############################
+
+great_moluccas_area = {
+	
+}
+
+khorasan_area = {
+}
+
+libyan_desert_area = {
+}
+
+gharbia_area = {
+}
+
+sharqiya_area = {
+}
+
+central_egypt_area = {
+}
+
+upper_egypt_area = {
+}
+
+eastern_mediterrenean_islands_area = {
+}
+
+western_aegean_area = {
+}
+
+odishi_area = {
+}
+
+georgia_area = {
+}
+
+rakka_area = {
+}
+
+south_kurdistan_area = {
+}
+
+east_china_sea_islands_area = {
+}
+
+east_african_islands_area = { 
+}
+
+arabian_sea_islands_area = { 
+}
+
+baltic_islands_area = {
+}
+
+east_altishahr_area = {
+}
+
+amnok_area = {
+}
+
+north_korea_area = {
+}
+
+hejaz_area = {
+}
+
+sarat_area = {
+}
+
+ad_dahna_area = {
+}
+
+najd_area = {
+}
+
+northern_england_area = {
+}
+
+mercia_area = { 
+}
+
+eastern_ireland_area = {
+}
+
+western_ireland_area = {
+}
+
+
+seine_area = {
+}
+
+brabant_area = {
+}
+
+luxemburg_liege_area = {
+}

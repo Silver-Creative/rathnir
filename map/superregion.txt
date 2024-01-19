@@ -57,6 +57,28 @@ western_sparwood_superregion = {
 	hithray_region
 	kietres_region
 	high_luthea_region
+	wild_sparwood_region
+}
+
+sparwood_minor_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	posavaria_region
+	daganreach_region
+}
+
+red_sparwood_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	luscovy_region
+	burgamere_region
+}
+
+white_sparwood_superregion = {
+	restrict_charter		# harder to get TC here.
+
+	frozen_wastes_region
+	amvrozhar_region
 }
 
 ### Ummarnu
@@ -67,12 +89,28 @@ northern_ummarnu_superregion = {
 	old_teshub_region
 }
 
+southern_ummarnu_superregion = {
+	solisios_region
+	neck_region
+}
+
 ### Valdreach
 
-cishaloma_superregion = {
+forest_valdreach_superregion = {
 	restrict_charter		# harder to get TC here.
 
 	silvay_region
+	sorveien_region
+}
+
+imperial_valdreach_superregion = {
+	tvear_region
+	adytum_region
+	valron_region
+}
+
+tsaeloma_superregion = {
+	tsaeloma_region
 }
 
 ### Sýltör

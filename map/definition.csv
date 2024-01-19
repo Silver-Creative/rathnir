@@ -1428,18 +1428,18 @@ province;red;green;blue;x;x
 1427;29;108;70;Sparwood1427;x
 1428;34;121;87;Sparwood1428;x
 1429;242;255;249;Sparwood1429 (this is wasteland btw c:);x
-1430;197;205;217;Sparwood1430;x
-1431;209;229;234;Sparwood1431;x
-1432;217;236;241;Sparwood1432;x
-1433;210;227;232;Sparwood1433;x
-1434;206;219;224;Sparwood1434;x
-1435;209;214;218;Sparwood1435;x
-1436;199;209;215;Sparwood1436;x
-1437;195;203;211;Sparwood1437;x
-1438;191;196;209;Sparwood1438;x
-1439;173;177;188;Sparwood1439;x
-1440;182;186;203;Sparwood1440;x
-1441;240;240;253;Sparwood1441;x
+1430;197;205;217;Kinezen;x
+1431;209;229;234;Denmarcen;x
+1432;217;236;241;Zralmarcen;x
+1433;210;227;232;Kairen;x
+1434;206;219;224;Romenezen;x
+1435;209;214;218;Normezen;x
+1436;199;209;215;Kemrezen;x
+1437;195;203;211;Kezeray;x
+1438;191;196;209;Yaunmercen;x
+1439;173;177;188;Kumuur;x
+1440;182;186;203;Kumuur Nanrez;x
+1441;240;240;253;Silvayeg Arenamez;x
 1442;76;153;33;Sparwood1442;x
 1443;68;142;42;Sparwood1443;x
 1444;69;145;35;Sparwood1444;x
@@ -1733,7 +1733,7 @@ province;red;green;blue;x;x
 1732;34;20;73;CymruSea1732;x
 1733;25;145;59;Cymru1733;x
 1734;82;156;48;Cymru1734;x
-1735;177;184;205;Cymru1735;x
+1735;177;184;205;Kalay;x
 1736;185;224;213;Cymru1736;x
 1737;43;132;80;Cymru1737;x
 1738;52;156;100;Cymru1738;x
@@ -1878,7 +1878,7 @@ province;red;green;blue;x;x
 1877;202;202;221;Attemarcen;x
 1878;209;208;228;Attezen;x
 1879;178;190;205;Salapen;x
-1880;134;190;207;Cymru1880;x
+1880;134;190;207;Gwenezen;x
 1881;137;186;203;Bødurenn;x
 1882;149;194;212;Brosken;x
 1883;137;184;198;Nournay;x
@@ -1898,7 +1898,7 @@ province;red;green;blue;x;x
 1897;167;203;208;Galzen;x
 1898;159;193;203;Glaznezen;x
 1899;129;174;187;Lothren;x
-1900;146;183;194;Bro sapren;x
+1900;146;183;194;Bro Sapren;x
 1901;178;211;218;Lortaven;x
 1902;167;195;204;Dalzen;x
 1903;158;191;198;Brenza;x
@@ -2084,9 +2084,9 @@ province;red;green;blue;x;x
 2083;114;85;68;Okachatl;x
 2084;153;114;91;Var'nir;x
 2085;21;21;63;Kayia;x
-2086;16;16;51;Mianna-Valentia;x
-2087;25;25;76;Ummarnu2087;x
-2088;28;28;86;Ummarnu2088;x
+2086;16;16;51;Valentia;x
+2087;25;25;76;Olemaci;x
+2088;28;28;86;Krassnay;x
 2089;33;33;102;Borktress;x
 2090;191;154;68;Viatorne;x
 2091;216;175;78;Vaang'an;x
@@ -2209,8 +2209,8 @@ province;red;green;blue;x;x
 2208;93;104;112;Talawan Sandsea;x
 2209;103;116;124;Quagero Desert;x
 2210;114;128;137;Talawan Shield;x
-2211;22;16;54;Ummarnu2211;x
-2212;22;20;54;Ummarnu2212;x
+2211;22;16;54;Adrii-Maci;x
+2212;22;20;54;Arce Erdri;x
 2213;42;216;216;Teinapetl;x
 2214;53;105;216;Itzhuatl;x
 2215;56;121;212;Fernheim;x
@@ -2227,7 +2227,7 @@ province;red;green;blue;x;x
 2226;147;110;92;Xalatlali;x
 2227;142;114;91;Iamar'an;x
 2228;28;28;70;Vernan;x
-2229;30;30;100;Ummarnu2229;x
+2229;30;30;100;Polylyocan;x
 2230;170;180;40;Xalotcin;x
 2231;180;180;40;Farafin;x
 2232;175;183;40;Kharahai;x
@@ -2249,7 +2249,7 @@ province;red;green;blue;x;x
 2248;157;87;97;Huexotl;x
 2249;81;75;62;Quagepetl;x
 2250;112;102;86;Ummarnu2250;x
-2251;137;122;104;Ummarnu2251;x
+2251;137;122;104;Taranusha;x
 2252;137;125;104;Ummarnu2252;x
 2253;124;113;94;Qirima;x
 2254;137;78;85;Menapetl;x
@@ -2297,6 +2297,34 @@ province;red;green;blue;x;x
 2296;91;82;76;Ummarnu2296;x
 2297;91;78;74;Ummarnu2297;x
 2298;164;83;160;Ummarnu2298;x
+2299;52;56;137;Ummarnu2299;x
+2300;47;50;124;Ummarnu2300;x
+2301;47;47;124;Ummarnu2301;x
+2302;42;46;112;Ummarnu2302;x
+2303;144;100;188;Ummarnu2303;x
+2304;124;86;163;Ummarnu2304;x
+2305;135;100;188;Ummarnu2305;x
+2306;132;100;188;Ummarnu2306;x
+2307;136;100;188;Ummarnu2307;x
+2308;130;100;186;Ummarnu2308;x
+2309;124;100;186;Ummarnu2309;x
+2310;129;100;186;Ummarnu2310;x
+2311;126;100;186;Ummarnu2311;x
+2312;123;100;186;Ummarnu2312;x
+2313;226;200;0;Ummarnu2313;x
+2314;226;181;0;Ummarnu2314;x
+2315;127;163;48;Ummarnu2315;x
+2316;115;163;48;Ummarnu2316;x
+2317;209;109;104;Ummarnu2317;x
+2318;237;124;118;Ummarnu2318;x
+2319;255;138;127;Ummarnu2319;x
+2320;224;115;112;Ummarnu2320;x
+2321;38;101;155;Ummarnu2321;x
+2322;44;116;178;Ummarnu2322;x
+2323;44;120;178;Ummarnu2323;x
+2324;42;107;168;Ummarnu2324;x
+2325;42;46;113;Ummarnu2325;x
+2326;133;93;175;Ummarnu2326;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x
