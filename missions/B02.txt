@@ -209,6 +209,7 @@ conquest_b02 = {
     }
 } 
 conquestdracade_b02 = {
+        potential = { tag = B02 }
         Stab_at_the_Dragon = {
             icon = mission_plc_break_the_rus
             position = 6 
