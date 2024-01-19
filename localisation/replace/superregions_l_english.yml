@@ -29,12 +29,18 @@
 
  ### Sparwood
  western_sparwood_superregion: "Western Sparwood"
+ sparwood_minor_superregion: "Sparwood Minor"
+ red_sparwood_superregion: "Red Sparwood"
+ white_sparwood_superregion: "White Sparwood"
 
  ### Ummarnu
  northern_ummarnu_superregion: "Great Sandsea"
+ southern_ummarnu_superregion: "Southern Ummarnu"
 
  ### Valdreach
- cishaloma_superregion: "Cishaloman Valdreach"
+ forest_valdreach_superregion: "The Valdreach"
+ imperial_valdreach_superregion: "Gazeniksa"
+ tsaeloma_superregion: "Tsaeloma"
 
  ########################################
  # SEA SUPERREGIONS                     #

@@ -358,6 +358,131 @@ high_luthea_region = {
 	}
 }
 
+wild_sparwood_region = {
+	areas = {
+		southern_kranga_area
+		northern_kranga_area
+		serrenese_mire_area
+		coastal_arxella_area
+		inner_arxella_area
+		wildmarsh_area
+		thalenzhar_area
+		illothric_area
+		buzhavar_area
+		western_fjellreach_area
+		eastern_fjellreach_area
+		northern_almmore_area
+		southern_almmore_area
+		buktenfjall_area
+		rohewalde_area
+
+		wild_sparwood_impassable_area
+	}
+}
+
+### Sparwood Minor (Sparwood)
+
+posavaria_region = {
+	areas = {
+		certarian_knot_area
+		avalisene_woods_area
+		asgalen_area
+		snoenlay_area
+		interdam_area
+		little_sandsea_area
+		iron_isle_area
+		khadirfall_area
+		pos_valley_area
+		beyond_diubrakka_area
+		avertico_area
+		kemrena_area
+		kemria_area
+
+		posavaria_impassable_area
+	}
+}
+
+daganreach_region = {
+	areas = {
+		aezenfjord_area
+		silkwoods_area
+		hjaltsvangar_area
+		cape_wrath_area
+		falcon_coast_area
+		shirun_area
+		yaunmarcen_area
+		vannetir_area
+		rikarstrond_area
+
+		daganreach_impassable_area
+	}
+}
+
+### Red Sparwood (Sparwood)
+
+luscovy_region = {
+	areas = {
+		voskovy_area
+		cinnabar_coast_area
+		ringwoods_area
+		koznaskoye_area
+		vykaran_area
+		bear_coast_area
+		foxwoods_area
+		ducal_vingalen_area
+		morskaye_area
+		arkova_area
+	}
+}
+
+burgamere_region = {
+	areas = {
+		syrgorod_area
+		duragrad_area
+		malenfields_area
+		lower_sparda_area
+		upper_sparda_area
+		grand_yagoda_area
+		shellshores_area
+		red_rills_area
+		fjelli_cradle_area
+
+		burgamere_impassable_area
+	}
+}
+
+### White Sparwood (Sparwood)
+
+frozen_wastes_region = {
+	areas = {
+		fjelli_wastes_area
+		frosmyre_area
+		tlornwoods_area
+		tundra_oasis_area
+		tundra_oasis_rim_area
+		blueice_coast_area
+		winter_road_area
+		eastern_winterwoods_area
+		western_winterwoods_area
+
+		frozen_wastes_impassable_area
+	}
+}
+
+amvrozhar_region = {
+	areas = {
+		reavers_end_area
+		ekhinir_area
+		vostok_area
+		ambershore_area
+		western_greatrills_area
+		eastern_greatrills_area
+		high_amvrozhar_area
+		ambrose_heart_area
+		svalden_isles_area
+	}
+}
+
 ########################################
 # UMMARNU	                           #
 ########################################
@@ -413,11 +538,49 @@ old_teshub_region = {
 	}
 }
 
+### Southern Ummarnu (Ummarnu)
+
+solisios_region = {
+	areas = {
+		nunaje_area
+		kanulaar_area
+		ganjwe_delta_area
+		luxios_area
+		northern_solisios_area
+		ardatian_frontier_area
+		the_tear_area
+		sandsea_approach_area
+		western_solisios_area
+		
+		solisios_impassable_area
+	}
+}
+
+neck_region = {
+	areas = {
+		solisian_frontier_area
+		sewor_area
+		northern_highlands_area
+		central_highlands_area
+		southern_highlands_area
+		arabasta_area
+		high_lukkawa_area
+		shania_area
+		flutain_area
+		kesh_area
+		ubbercut_area
+		eastern_lukkawa_area
+		western_lukkawa_area
+
+		neck_impassable_area
+	}
+}
+
 ########################################
 # VALDREACH	                           #
 ########################################
 
-### Silvay (Cishaloman Valdreach)
+### The Valdreach (Valdreach)
 
 silvay_region = {
 	areas = {
@@ -438,6 +601,72 @@ silvay_region = {
 		occulere_area
 
 		silvay_impassable_area
+	}
+}
+
+sorveien_region = {
+	areas = {
+		kantevarlden_area
+		sorveien1_area
+		sorveien2_area
+		sorveien3_area
+		sorveien4_area
+		sorveien5_area
+		sorveien6_area
+		sorveien7_area
+		sorveien8_area
+		sorveien9_area
+		sorveien10_area
+		sorveien11_area
+		sorveien12_area
+		sorveien13_area
+		sorveien14_area
+		sorveien15_area
+		sorveien16_area
+
+		sorveien_wastelands_area
+	}
+}
+
+### Imperial Valdreach (Valdreach)
+
+tvear_region = {
+	areas = {
+		tvear_area
+		viodoxa_area
+	}
+}
+
+adytum_region = {
+	areas = {
+		cape_hanu_area
+		western_taranon_area
+		eastern_taranon_area
+		valentun_area
+		kemon_area
+		far_adytum_area
+	}
+}
+
+valron_region = {
+	areas = {
+		upper_saliheimer_area
+		lower_saliheimer_area
+		ellesmark_area
+		upper_valmen_area
+		lower_valmen_area
+		valron_proper_area
+		varldene_pass_area
+		lonely_valley_area
+	}
+}
+
+### Tsaeloma (Valdreach)
+
+tsaeloma_region = {
+	areas = {
+		southern_outer_tsaeloma_area
+		northern_outer_tsaeloma_area
 	}
 }
 

@@ -1,0 +1,70 @@
+
+#Example: Large parts of Africa and south east Asia
+tropical = {
+
+}
+
+arid = {
+
+}
+
+arctic = {
+
+}
+
+#Example: Most of Europe north of med.
+mild_winter = {
+
+}
+
+#Example: Inland Europe & Scandinavia
+normal_winter = {
+
+}
+
+#Example: Russia & Lappland
+severe_winter = {
+
+}
+
+impassable = {
+	#Alteniquia
+	1132 1133 1134 1135 1136 1137 1138 1139 1140 1141 1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 1154 1297
+
+	#Nieden
+	1155 1156 1157 1158 1159 1168 1169 1170 1171
+
+	#Sparwood
+	1160 1161 1162 1163 1164 1165 1166 1167 1172
+
+	#Unreleased Sea
+	4989 4990 4991 4992 4993 4994 4995 4996 4997 4998 4999
+
+	#Unreleased Land
+	4977 #Akratia
+	4978 #Frozen Wastes
+	4982 #Sýltör
+	4983 #Ummarnu
+	4979 #Wandering Deserts
+	4985 #Sørligste
+	4984 #Haven
+	4986 #Valdreach
+	4980 #Plagos
+	4981 #Skjoldrbróðir
+	4987 #Southern Akan'nash
+	4988 #Northern Akan'nash
+}
+
+mild_monsoon = {
+
+}
+
+normal_monsoon = {
+
+}
+
+severe_monsoon = {
+
+}
+
+equator_y_on_province_image = 656 #what

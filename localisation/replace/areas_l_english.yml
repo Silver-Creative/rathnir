@@ -136,10 +136,24 @@
  kietres_impassable_area: "Kietran Wastelands"
  vraelea_impassable_area: "Vraelean Wastelands"
  high_luthea_impassable_area: "High Luthéan Wastelands"
+ posavaria_impassable_area: "Posavarian Wastelands"
+ daganreach_impassable_area: "Daganreacher Wastelands"
+ luscovy_impassable_area: "Luscovite Wastelands"
+ burgamere_impassable_area: "Burgamerean Wastelands"
+ frozen_wastes_impassable_area: "Frozen Wastelands"
+ amvrozhar_impassable_area: "Amvrozhari Wastelands"
+ wild_sparwood_impassable_area: "Wild Sparwoodite Wastelands"
  huitca_impassable_area: "Huitcan Wastelands"
  old_talawa_impassable_area: "Old Talawan Wastelands"
  old_teshub_impassable_area: "Old Teshubi Wastelands"
+ sorveien_impassable_area: "Sorveiene Wastelands"
+ tvear_impassable_area: "Tverean Wastelands"
+ adytum_impassable_area: "Adytene Wastelands"
+ valron_impassable_area: "Valronic Wastelands"
+ tsaeloma_impassable_area: "Tsaeloman Wastelands"
  silvay_impassable_area: "Silvish Wastelands"
+ solisios_impassable_area: "Solisian Wastelands"
+ neck_impassable_area: "Neck Wastelands"
 
  ### Non-Impassable Land Areas
 
@@ -376,6 +390,94 @@
  qilath_area: "Qilath"
  neck_of_leyth_area: "Neck of Leyth"
 
+ #Posavaria
+ certarian_knot_area: "Certarian Knot"
+ avalisene_woods_area: "Avalisene Woods"
+ asgalen_area: "Ducal Asgalen"
+ snoenlay_area: "Snoenlay"
+ interdam_area: "Interdam"
+ little_sandsea_area: "The Little Sandsea"
+ iron_isle_area: "The Iron Isle"
+ khadirfall_area: "Khadirfall"
+ pos_valley_area: "Pos Valley"
+ beyond_diubrakka_area: "Beyond the Diubrakkas"
+ avertico_area: "Avertico"
+ kemrena_area: "Kemrena"
+ kemria_area: "Kemria"
+
+ #Daganreach
+ aezenfjord_area: "Aezenfjord"
+ silkwoods_area: "Silkwoods"
+ hjaltsvangar_area: "Hjaltsvangar"
+ cape_wrath_area: "Cape Wrath"
+ falcon_coast_area: "Falcon Coast"
+ shirun_area: "Shirûn"
+ yaunmarcen_area: "Yaunmarcen"
+ vannetir_area: "Vannetir"
+ rikarstrond_area: "Rikarstrond"
+
+ #Luscovy
+ voskovy_area: "Voskovy"
+ cinnabar_coast_area: "Cinnabar Coast"
+ ringwoods_area: "The Ringwoods"
+ koznaskoye_area: "Koznaskoye"
+ vykaran_area: "Vykaran"
+ bear_coast_area: "Bear Coast"
+ foxwoods_area: "The Foxwoods"
+ ducal_vingalen_area: "Ducal Vingalen"
+ morskaye_area: "Morskaye"
+ arkova_area: "Arkovan Archipelago"
+
+ #Burgamere
+ syrgorod_area: "Syrgorod"
+ duragrad_area: "Duragrad"
+ malenfields_area: "Malenfields"
+ lower_sparda_area: "Lower Sparda"
+ upper_sparda_area: "Upper Sparda"
+ grand_yagoda_area: "Grand Yagoda"
+ shellshores_area: "Shellshores"
+ red_rills_area: "Red Rills"
+ fjelli_cradle_area: "Cradle of the Fjelli"
+
+ #Frozen Wastes
+ fjelli_wastes_area: "Fjelli Wastes"
+ frosmyre_area: "Frosmyre"
+ tlornwoods_area: "Tlornwoods"
+ tundra_oasis_area: "Oasis-of-the-Snowlands"
+ tundra_oasis_rim_area: "Dead Man's Tundra"
+ blueice_coast_area: "Blueice Coast"
+ winter_road_area: "Winterroad"
+ eastern_winterwoods_area: "Eastern Winterwoods"
+ western_winterwoods_area: "Western Winterwoods"
+
+ #Amvrozhar
+ reavers_end_area: "Reaver's End"
+ ekhinir_area: "Ekhinir"
+ vostok_area: "Vostok"
+ ambershore_area: "Ambershore"
+ western_greatrills_area: "Western Greatrills"
+ eastern_greatrills_area: "Eastern Greatrills"
+ high_amvrozhar_area: "High Amvrozhar"
+ ambrose_heart_area: "Heart of the Ambrose"
+ svalden_isles_area: "Isles of the Svalden"
+
+ #Wild Sparwood
+ southern_kranga_area: "Southern Kranga"
+ northern_kranga_area: "Northern Kranga"
+ serrenese_mire_area: "Serrenese Mire"
+ coastal_arxella_area: "Coastal Arxella"
+ inner_arxella_area: "Inner Arxella"
+ wildmarsh_area: "Wildmarshes"
+ thalenzhar_area: "Thalenzhar"
+ illothric_area: "Illothric"
+ buzhavar_area: "Buzhavar"
+ western_fjellreach_area: "Western Fjellreach"
+ eastern_fjellreach_area: "Eastern Fjellreach"
+ northern_almmore_area: "Northern Almmore"
+ southern_almmore_area: "Southern Almmore"
+ buktenfjall_area: "Buktenfjall"
+ rohewalde_area: "Rohewalde"
+
  #Huitca
  cuiciloa_area: "Cuiciloa"
  high_ocotlan_area: "High Ocotlan"
@@ -394,8 +496,8 @@
  zekeyolalosto_area: "Zekeyolalosto"
  green_darinakua_area: "Green Darinakua"
  yellow_darinakua_area: "Yellow Darinakua"
- upper_eyelid_area: "Quageran Shores"
- lower_eyelid_area: "Alaari Shores"
+ upper_eyelid_area: "Lower Datorša"
+ lower_eyelid_area: "Heart of Talawa"
  talawan_eye_area: "Eye of Ummarnu"
  tear_road_area: "Road of Tears"
  eransmouth_area: "Eransmouth"
@@ -409,6 +511,32 @@
  teshubi_islands_area: "Qewi"
  kharak_area: "Kharak"
  imbasarhi_area: "Imbasarhi"
+
+ #Solisios
+ nunaje_area: "Nunaje"
+ kanulaar_area: "Kanulaar"
+ ganjwe_delta_area: "Ganjwe Delta"
+ luxios_area: "Luxios"
+ northern_solisios_area: "Northern Solisios"
+ ardatian_frontier_area: "Ardatian Frontier"
+ the_tear_area: "The Tear"
+ sandsea_approach_area: "Sandsea Approach"
+ western_solisios_area: "Western Solisios"
+
+ #The Neck
+ solisian_frontier_area: "Solisian Frontier"
+ sewor_area: "Sewor"
+ northern_highlands_area: "Northern Highlands"
+ central_highlands_area: "Central Highlands"
+ southern_highlands_area: "Southern Highlands"
+ arabasta_area: "Arabasta"
+ high_lukkawa_area: "High Lukkawa"
+ shania_area: "Shania"
+ flutain_area: "Flutain"
+ kesh_area: "Kesh"
+ ubbercut_area: "remind me to give this a better name later"
+ eastern_lukkawa_area: "Eastern Lukkawa"
+ western_lukkawa_area: "Western Lukkawa"
 
  #Silvay
  konkord_area: "Konkord"
@@ -426,5 +554,32 @@
  kumaur_area: "Kumaur"
  fortuna_area: "Fortuna"
  occulere_area: "Occulere"
+
+ #Sorveien
+ kantevarlden_area: "Kantevarlden"
+
+ #The Tvear
+ tvear_area: "Tvear"
+ viodoxa_area: "Viodoxa"
+
+ #Adytum
+ cape_hanu_area: "Cape Hanu"
+ western_taranon_area: "Western Taranon"
+ eastern_taranon_area: "Eastern Taranon"
+ valentun_area: "Valentûn"
+ kemon_area: "Kemon"
+ far_adytum_area: "Far Adytum"
+
+ #Valron
+ upper_saliheimer_area: "Upper Saliheimer"
+ lower_saliheimer_area: "Lower Saliheimer"
+ ellesmark_area: "Ellesmark"
+ upper_valmen_area: "Upper Valmeñ"
+ lower_valmen_area: "Lower Valmeñ"
+ valron_proper_area: "Valron Proper"
+ varldene_pass_area: "Varldene Pass"
+ lonely_valley_area: "Lonely Valley"
+ southern_outer_tsaeloma_area: "Southern Outer Tsaeloma"
+ northern_outer_tsaeloma_area: "Northern Outer Tsaeloma"
 
  

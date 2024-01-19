@@ -28,14 +28,28 @@
  hithray_region: "Hithray"
  kietres_region: "Kietres"
  high_luthea_region: "High Luthéa"
+ wild_sparwood_region: "Wild Sparwood"
+ posavaria_region: "Posavaria"
+ daganreach_region: "Daganreach"
+ luscovy_region: "Luscovy"
+ burgamere_region: "Burgamere"
+ frozen_wastes_region: "Frozen Wastes"
+ amvrozhar_region: "Amvrozhar"
 
  #Ummarnu
  huitca_region: "Huitca"
  old_talawa_region: "Old Talawa"
  old_teshub_region: "Old Teshub"
+ solisios_region: "The Chin"
+ neck_region: "The Neck"
 
  #Valdreach
  silvay_region: "Silvay"
+ sorveien_region: "Sørveien"
+ tvear_region: "The Tvear"
+ adytum_region: "Adytum"
+ valron_region: "Valron"
+ tsaeloma_region: "Tsaeloma"
 
  ### Sea Regions
 
