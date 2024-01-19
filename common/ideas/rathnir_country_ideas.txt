@@ -19,7 +19,7 @@ A00_ideas = {
 
     trigger = {
         OR = {
-            tag = A00 #An�shph�y
+            tag = A00 #Audal
         }
     }
     free = yes		#will be added at load.
@@ -189,6 +189,47 @@ A03_ideas = {
 	}
 }
 
+#Shiny ideas
+A04_ideas = {
+	start = {
+		global_ship_cost = -0.1
+		religious_unity = 0.33
+	}
+
+	bonus = {
+		global_institution_spread = 0.2
+	}
+
+	trigger = {
+        OR = {
+            tag = A04 #Shiny
+        }
+    }
+    free = yes		#will be added at load.
+	A04_our_namesake = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	A04_eager_frontiersmen = {
+	colony_cost_modifier = -0.33
+ 	}
+ 	A04_life_on_the_sea = {
+		global_sailors_modifier = 0.2
+	}
+ 	A04_resplendant_sky = {
+		army_tradition_decay = -0.01
+		shock_damage_received = -0.05
+ 	}
+ 	A04_nacre_roads = {
+		prestige = 1
+ 	}
+ 	A04_yadishel_investments = {
+		build_cost = -0.15
+ 	}
+	 A04_seaside_citadel = {
+		fort_maintenance_modifier = -0.10
+ 	}
+}
+
 #Grizzlybear ideas
 A05_ideas = {
 	start = {
@@ -271,6 +312,47 @@ A07_ideas = {
 	}
 	A07_iceshapers = {
 		all_power_cost = -0.025
+	}
+}
+
+#Azurian ideas
+A08_ideas = {
+	start = {
+		leader_land_shock = 1
+		defensiveness = 0.20
+	}
+
+	bonus = {
+		monarch_lifespan = 0.33
+	}
+
+	trigger = {
+		OR = {
+			tag = A08 #Azuria
+		}
+	}
+	free = yes		#will be added at load.
+
+	A08_the_bastion = {
+		prestige_decay = -0.01
+	}
+ 	A08_suzerain = {
+		development_cost_modifier = -0.10
+	}
+ 	A08_wyldvarn_burrows = {
+		build_cost = -0.10
+	}
+ 	A08_yistunn_markets = {
+		merchants = 1
+	}
+ 	A08_grandett_fields = {
+		manpower_recovery_speed = 0.20
+	}
+ 	A08_ruin_of_caheren = {
+		global_unrest = -1
+	}
+ 	A08_hawkers_fascination = {
+		innovativeness_gain = 0.5									
 	}
 }
 
