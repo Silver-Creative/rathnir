@@ -327,8 +327,8 @@ sorradea_region = {
 		lower_asveria_area
 		vespele_area
 		saratenna_area
-		wet_tatonia_area
-		dry_tatonia_area
+		ducal_liera_area
+		ducal_tatonn_area
 	}
 }
 

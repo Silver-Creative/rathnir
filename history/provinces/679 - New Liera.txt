@@ -2,7 +2,7 @@
 
 owner = L05
 controller = L05
-add_core = L10
+add_core = L05
 
 culture = sorradic
 religion = eastern_asharu

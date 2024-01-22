@@ -1098,7 +1098,7 @@ northern_vraelea_area = {
 }
 
 central_vraelea_area = {
-	655 656 658 660 1522
+	655 656 658 660
 }
 
 southern_vraelea_area = {
@@ -1126,12 +1126,12 @@ saratenna_area = {
 	672 673 722 723 724
 }
 
-wet_tatonia_area = {
-	678 679 682 706 2352
+ducal_liera_area = {
+	704 681 682 706 2352 2353
 }
 
-dry_tatonia_area = {
-	676 680 681 2353
+ducal_tatonn_area = {
+	676 678 679 680
 }
 
 #Kietres (Western Sparwood, Sparwood)
@@ -1152,7 +1152,7 @@ kaheren_valley_area = {
 }
 
 ardagian_coast_area = {
-	701 702 703 704
+	701 702 703
 }
 
 kietres_impassable_area = {
@@ -1377,7 +1377,7 @@ upper_sparda_area = {
 }
 
 grand_yagoda_area = {
-	1520 1521 1523 1525 1526
+	1520 1521 1522 1523 1525 1526
 }
 
 shellshores_area = {
