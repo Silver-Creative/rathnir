@@ -64,9 +64,12 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
             print(line)
             continue
         else:
+            print("debug: we are in " + line_arr[4])
             provID = int(line_arr[0])
             provNAME = str(line_arr[4])
             filename = str(provID) + " - " + provNAME.replace("?", "").replace("/", "-")
+            filename = filename.translate(str.maketrans({'\u2018': "'", '\u2019': "'"}))
+            filename = filename.replace("Š", "S")
             
             histpath = str(os.getcwd()) + '\history\provinces'
             for file in os.listdir(histpath):

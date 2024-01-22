@@ -1,8 +1,8 @@
 # 732 - Luthbir
 
-owner = L07
-controller = L07
-add_core = L07
+owner = L09
+controller = L09
+add_core = L09
 
 culture = arbalonic
 religion = etherflame

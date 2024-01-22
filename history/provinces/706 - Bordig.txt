@@ -1,8 +1,8 @@
 # 706 - Bordig
 
-owner = L06
-controller = L06
-add_core = L06
+owner = L10
+controller = L10
+add_core = L10
 
 culture = hostic
 religion = etherflame

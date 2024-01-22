@@ -62,6 +62,11 @@ sea_of_raell_area = {
 	799 800 801 807 1327
 }
 
+luthic_marsh_area = {
+	1193 2327 2328 2329 2330 2331
+}
+
+
 #Western Rough Sea
 sivan_sea_area = {
 	808 809 810 811 816 817 1303
@@ -1104,25 +1109,29 @@ vraelea_impassable_area = {
 	1163 1164 1165 1166 1167
 }
 
-#Hithray (Western Sparwood, Sparwood)
-asverian_floodlands_area = {
-	665 669 670 674 675
+#Sorradea (Western Sparwood, Sparwood)
+upper_asveria_area = {
+	665 670 671 2351
 }
 
-northern_tashnayil_area = {
-	666 667 668
+lower_asveria_area = {
+	674 675 2349 2350
 }
 
-southern_tashnayil_area = {
-	671 672 673
+vespele_area = {
+	666 667 668 669
+}
+
+saratenna_area = {
+	672 673 722 723 724
 }
 
 wet_tatonia_area = {
-	676 677 678 679
+	678 679 682 706 2352
 }
 
 dry_tatonia_area = {
-	680 681 682
+	676 680 681 2353
 }
 
 #Kietres (Western Sparwood, Sparwood)
@@ -1139,11 +1148,11 @@ dronnin_area = {
 }
 
 kaheren_valley_area = {
-	697 698 699 705
+	697 698 699 700 705
 }
 
-octavos_last_stand_area = {
-	700 701 702
+ardagian_coast_area = {
+	701 702 703 704
 }
 
 kietres_impassable_area = {
@@ -1152,39 +1161,59 @@ kietres_impassable_area = {
 
 #High Luthéa (Western Sparwood, Sparwood)
 cortera_area = {
-	703 704 706 707 708 709
+	707 708 709 710
 }
 
 naxola_area = {
-	710 711 712 713 714
+	710 711 712 713 714 2354
 }
 
 serafini_proper_area = {
-	715 716 717 721 722
+	715 716 717 2341 2342
 }
 
-chimune_area = {
-	718 719 720 732 733 741 742
+shimmertea_isles_area = {
+	2347 2348
+}
+
+margga_serafinna_area = {
+	720 721 2343 2344 2346 
+}
+
+low_chimune_area = {
+	718 719 742 2340
+}
+
+luthemaw_area = {
+	743 2338 2339
+}
+
+woadwoods_area = {
+	732 733 734 740 
+}
+
+high_chimune_area = {
+	741 2333 2334 2335
 }
 
 woltanja_area = {
-	723 724 725 726 727
+	725 726 727 731 2345
 }
 
 arbalon_area = {
-	728 729 730 731
+	728 729 730
 }
 
 qilath_area = {
-	734 735 736 737 738
+	735 736 737 738
 }
 
 neck_of_leyth_area = {
-	739 740 743 744
+	739 744
 }
 
 high_luthea_impassable_area = {
-	1172
+	1172 2336 2337
 }
 
 #Posavaria (Sparwood Minor, Sparwood)
@@ -1634,6 +1663,10 @@ imbasarhi_area = {
 	2114 2115 2116
 }
 
+domeri_islands_area = {
+	2117 2118 2119 2120 2121
+}
+
 old_teshub_impassable_area = {
 	2206
 }
@@ -1720,7 +1753,7 @@ kesh_area = {
 	2165 2171
 }
 
-ubbercut_area = {
+tummawa_area = {
 	2161 2162 2163 2164 2313 2314 
 }
 
@@ -1734,6 +1767,43 @@ western_lukkawa_area = {
 
 neck_impassable_area = {
 	2204 2205
+}
+
+#Ardat (Southern Ummarnu, Ummarnu)
+ganjwe_valley_area = {
+	2152 2153 2298 2299
+}
+
+great_ardat_area = {
+	2142 2141 2143 
+}
+
+valley_fallen_area = {
+	2130 2131 2132 
+}
+
+orana_area = {
+	2133 2134 2135 2137
+}
+
+red_road_area = {
+	2136 2138 2139 2140 2256 
+}
+
+disputed_lands_area = {
+	2122 2123 2124 2125
+}
+
+kaahiru_area = {
+	2184 2185 2186 2187 2188 2189
+}
+
+imperial_mesa_area = {
+	2126 2127 2128 2129
+}
+
+ardat_impassable_area = {
+	2190 2191 2192 2193 2194 2195 2196 2197 2199 2200 2201 2202 2203
 }
 
 #Sorveien (The Valdreach, Valdreach)
@@ -1890,6 +1960,74 @@ northern_outer_tsaeloma_area = {
 	1927 1928 1929 1930 
 }
 
+tsaeloma1_area = {
+	1933 1934 1935 1936 1937
+}
+
+tsaeloma2_area = {
+	1938 1939 1944 1945 1946
+}
+
+tsaeloma3_area = {
+	1940 1941 1942 1943
+}
+
+tsaeloma4_area = {
+	1947 1948 1949 1968 1969 1970
+}
+
+tsaeloma5_area = {
+	1950 1965 1966
+}
+
+tsaeloma6_area = {
+	1951 1952 1960 1961
+}
+
+tsaeloma7_area = {
+	1953 1954 1955 1956 
+}
+
+tsaeloma8_area = {
+	1957 1958 1959 1963 2002
+}
+
+tsaeloma9_area = {
+	1962 1964 1998 2000 2001
+}
+
+tsaeloma10_area = {
+	1993 1994 1999
+}
+
+tsaeloma11_area = {
+	1990 1991 1992
+}
+
+tsaeloma12_area = {
+	1989 1995 1996 1997 2047 
+}
+
+tsaeloma13_area = {
+	1986 1987 1988
+}
+
+tsaeloma14_area = {
+	1967 1982 1983 1984 1985
+}
+
+tsaeloma15_area = {
+	1972 1973 1974 1975
+}
+
+tsaeloma16_area = {
+	1971 1976 1977
+}
+
+tsaeloma17_area = {
+	1978 1979 1980 1981
+}
+
 tsaeloma_impassable_area = {
 	2028 2030 2032 2033 2034 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 
 }
@@ -1965,10 +2103,7 @@ silvay_impassable_area = {
 ########################################
 
 debug_area = { 
-	2327 2328 2329 2330 2331 2332 
-	2333 2334 2335 2336 2337 2338 2339 2340 2341 2342 
-	2343 2344 2345 2346 2347 2348 2349 2350 2351 2352 
-	2353 2354 2355 2356 2357 2358 2359 2360 2361 2362 
+	2355 2356 2357 2358 2359 2360 2361 2362 
 	2363 2364 2365 2366 2367 2368 2369 2370 2371 2372 
 	2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 
 	2383 2384 2385 2386 2387 2388 2389 2390 2391 2392 

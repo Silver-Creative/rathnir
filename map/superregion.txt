@@ -54,7 +54,7 @@ western_sparwood_superregion = {
 	restrict_charter		# harder to get TC here.
 
 	vraelea_region
-	hithray_region
+	sorradea_region
 	kietres_region
 	high_luthea_region
 	wild_sparwood_region
@@ -92,6 +92,7 @@ northern_ummarnu_superregion = {
 southern_ummarnu_superregion = {
 	solisios_region
 	neck_region
+	ardat_region
 }
 
 ### Valdreach

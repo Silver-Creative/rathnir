@@ -20,6 +20,7 @@
  gray_sea_area: "Gray Sea"
  southern_audalad_coast_area: "Southern Audalad Coast"
  sea_of_raell_area: "Sea of Raell"
+ luthic_marsh_area: "Luthic Marsh"
 
  #Western Rough Sea
  sivan_sea_area: "Sivan Sea"
@@ -135,7 +136,7 @@
  argentor_impassable_area: "Argentori Wastelands"
  kietres_impassable_area: "Kietran Wastelands"
  vraelea_impassable_area: "Vraelean Wastelands"
- high_luthea_impassable_area: "High Luthéan Wastelands"
+ high_luthea_impassable_area: "High Luthic Wastelands"
  posavaria_impassable_area: "Posavarian Wastelands"
  daganreach_impassable_area: "Daganreacher Wastelands"
  luscovy_impassable_area: "Luscovite Wastelands"
@@ -154,6 +155,7 @@
  silvay_impassable_area: "Silvish Wastelands"
  solisios_impassable_area: "Solisian Wastelands"
  neck_impassable_area: "Neck Wastelands"
+ ardat_impassable_area: "Ardatian Wastelands"
 
  ### Non-Impassable Land Areas
 
@@ -366,25 +368,31 @@
  central_vraelea_area: "Central Vraelea"
  southern_vraelea_area: "Southern Vraelea"
 
- #Hithray
- asverian_floodlands_area: "Asverian Floodlands"
- northern_tashnayil_area: "Northern Tash'nayil"
- southern_tashnayil_area: "Southern Tash'nayil"
+ #Sorradéa
+ upper_asveria_area: "Upper Asveria"
+ lower_asveria_area: "Lower Asveria"
+ vespele_area: "Vespele"
+ saratenna_area: "Saratenna"
  wet_tatonia_area: "Wet Tatonia"
  dry_tatonia_area: "Dry Tatonia"
 
- #Kietees
+ #Kietres
  duskbluff_area: "Duskbluff"
  dawnriver_area: "Dawnriver"
  dronnin_area: "Dronnin"
  kaheren_valley_area: "Kaheren Valley"
- octavos_last_stand_area: "Octavo's Land Stand"
+ ardagian_coast_area: "Ardagian Coast"
 
  #High Luthéa
  cortera_area: "Cortera"
  naxola_area: "Naxola"
  serafini_proper_area: "Serafini Proper"
- chimune_area: "Chimune"
+ shimmertea_isles_area: "Shimmertea Isles"
+ margga_serafinna_area: "Marggà Serafinna"
+ low_chimune_area: "Low Chimune"
+ luthemaw_area: "Luthemaw"
+ woadwoods_area: "Woadwoods"
+ high_chimune_area: "High Chimune"
  woltanja_area: "Woltanja"
  arbalon_area: "Arbalon"
  qilath_area: "Qilath"
@@ -511,6 +519,7 @@
  teshubi_islands_area: "Qewi"
  kharak_area: "Kharak"
  imbasarhi_area: "Imbasarhi"
+ domeri_islands_area: "Domeri Islands"
 
  #Solisios
  nunaje_area: "Nunaje"
@@ -534,9 +543,19 @@
  shania_area: "Shania"
  flutain_area: "Flutain"
  kesh_area: "Kesh"
- ubbercut_area: "remind me to give this a better name later"
+ tummawa_area: "Tummawa"
  eastern_lukkawa_area: "Eastern Lukkawa"
  western_lukkawa_area: "Western Lukkawa"
+
+ #Ardat
+ ganjwe_valley_area: "Ganjwe Valley"
+ great_ardat_area: "Great Ardat"
+ valley_fallen_area: "Valley of the Fallen"
+ orana_area: "Orana"
+ red_road_area: "Great Red Road"
+ disputed_lands_area: "Disputed Lands"
+ kaahiru_area: "Kaahiru"
+ imperial_mesa_area: "Imperial Mesa"
 
  #Silvay
  konkord_area: "Konkord"

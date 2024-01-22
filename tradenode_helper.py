@@ -20,6 +20,7 @@ tradenodes = ["Geshem Bay", "Theiotokos", "Caedan Sea", "Varmerien", "Ayesinco",
 for tradenode in tradenodes:
     statement = ""
     print(tradenode + "= {\n")
+    # range(num), where num = max land prov + 1
     for i in range(768):
         if df.loc[i, 'tradenode'] == tradenode:
             statement = statement + str(i + 1) + " "

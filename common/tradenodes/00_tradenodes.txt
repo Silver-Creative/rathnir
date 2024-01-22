@@ -26,7 +26,7 @@ asturcia={
     outgoing={
         name="carvay"
         path={
-
+            917 928 927 926
         }
         control={
 
@@ -52,7 +52,7 @@ knossos={
     outgoing={
         name="asturcia"
         path={
-
+            354 940 939 937 936 929 917
         }
         control={
 
@@ -88,13 +88,15 @@ serafini={
     end=yes
     members={
         #Land Tiles
-        673 674 675 676 677 678 679 680 681 682 703 
+        673 674 675 676 678 679 680 681 682 703 
         704 706 707 708 709 710 711 712 713 714 715 
-        716 717 718 719 720 721 722 733 740 741 742 
-        743 
+        716 717 718 719 720 721 722 732 733 740 741 
+        742 743 2338 2334 2335 2338 2339 2340 2341
+        2342 2343 2344 2345 2346 2347 2348 2349 2350
+        2352 2353 2354
 
         #Sea Tiles
-        784 785 786 787 788 789
+        784 785 786 787 788 789 2327 2328 2329 2330 2331
     }
     ai_will_propagate_through_trade=yes
 }
@@ -108,7 +110,7 @@ lotus_castle={
     outgoing={
         name="serafini"
         path={
-
+            665 670 674 2350 2330 717
         }
         control={
 
@@ -118,7 +120,7 @@ lotus_castle={
         #Land Tiles
         651 652 653 654 655 656 657 658 659 660 661 
         662 663 664 665 666 667 668 669 670 671 672 
-        723 724 
+        723 724 2351
     }
     ai_will_propagate_through_trade=yes
 }
@@ -140,7 +142,7 @@ voskovy={
     outgoing={
         name="serafini"
         path={
-
+            879 731 2345 720 2331 2330 717
         }
         control={
 
@@ -148,8 +150,8 @@ voskovy={
     }
     members={
         #Land Tiles
-        725 726 727 728 729 730 731 732 734 735 736 
-        737 738 739 744
+        725 726 727 728 729 730 731 734 735 736 737 
+        738 739 744
 
         #Sea Tiles
         869 870 871 872 873 874 875 876 877 878 879
@@ -200,7 +202,7 @@ gebel={
     outgoing={
         name="knossos"
         path={
-
+            948 947 945 962 943 942 941 940 354
         }
         control={
 
@@ -335,7 +337,7 @@ astyllean_sea={
     outgoing={
         name="serafini"
         path={
-
+            804 805 790 788 786 787 715
         }
         control={
 
@@ -605,7 +607,7 @@ suderen={
     outgoing={
         name="eldal-adadi"
         path={
-
+            776 778 782 783 784 785 789 791 792 793 794 102
         }
         control={
 

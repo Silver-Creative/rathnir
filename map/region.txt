@@ -321,11 +321,12 @@ vraelea_region = {
 	}
 }
 
-hithray_region = {
+sorradea_region = {
 	areas = {
-		asverian_floodlands_area
-		northern_tashnayil_area
-		southern_tashnayil_area
+		upper_asveria_area
+		lower_asveria_area
+		vespele_area
+		saratenna_area
 		wet_tatonia_area
 		dry_tatonia_area
 	}
@@ -337,7 +338,7 @@ kietres_region = {
 		dawnriver_area
 		dronnin_area
 		kaheren_valley_area
-		octavos_last_stand_area
+		ardagian_coast_area
 
 		kietres_impassable_area
 	}
@@ -348,7 +349,12 @@ high_luthea_region = {
 		cortera_area
 		naxola_area
 		serafini_proper_area
-		chimune_area
+		shimmertea_isles_area
+		margga_serafinna_area
+		low_chimune_area
+		luthemaw_area
+		woadwoods_area
+		high_chimune_area
 		woltanja_area
 		arbalon_area
 		qilath_area
@@ -533,6 +539,7 @@ old_teshub_region = {
 		teshubi_islands_area
 		kharak_area
 		imbasarhi_area
+		domeri_islands_area
 
 		old_teshub_impassable_area
 	}
@@ -568,11 +575,26 @@ neck_region = {
 		shania_area
 		flutain_area
 		kesh_area
-		ubbercut_area
+		tummawa_area
 		eastern_lukkawa_area
 		western_lukkawa_area
 
 		neck_impassable_area
+	}
+}
+
+ardat_region = {
+	areas = {
+		ganjwe_valley_area
+		great_ardat_area
+		valley_fallen_area
+		orana_area
+		red_road_area
+		disputed_lands_area
+		kaahiru_area
+		imperial_mesa_area
+
+		ardat_impassable_area
 	}
 }
 
@@ -667,6 +689,25 @@ tsaeloma_region = {
 	areas = {
 		southern_outer_tsaeloma_area
 		northern_outer_tsaeloma_area
+		tsaeloma1_area
+		tsaeloma2_area
+		tsaeloma3_area
+		tsaeloma4_area
+		tsaeloma5_area
+		tsaeloma6_area
+		tsaeloma7_area
+		tsaeloma8_area
+		tsaeloma9_area
+		tsaeloma10_area
+		tsaeloma11_area
+		tsaeloma12_area
+		tsaeloma13_area
+		tsaeloma14_area
+		tsaeloma15_area
+		tsaeloma16_area
+		tsaeloma17_area
+
+		tsaeloma_impassable_area
 	}
 }
 
@@ -696,6 +737,7 @@ astyllean_sea_region = {
 		gray_sea_area
 		southern_audalad_coast_area
 		sea_of_raell_area
+		luthic_marsh_area
 	}
 }
 
