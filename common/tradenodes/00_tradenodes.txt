@@ -110,7 +110,7 @@ lotus_castle={
     outgoing={
         name="serafini"
         path={
-            665 670 674 2350 2330 717
+            2359 2358 665 670 674 2350 2330 717
         }
         control={
 
@@ -120,7 +120,8 @@ lotus_castle={
         #Land Tiles
         651 652 653 654 655 656 657 658 659 660 661 
         662 663 664 665 666 667 668 669 670 671 672 
-        723 724 2351
+        723 724 2351 2355 2356 2357 2358 2359 2360
+        2361 2362 2363
     }
     ai_will_propagate_through_trade=yes
 }
@@ -133,7 +134,7 @@ voskovy={
     outgoing={
         name="lotus_castle"
         path={
-
+            879 730 727 725 723 664 663 662 661 2360
         }
         control={
 

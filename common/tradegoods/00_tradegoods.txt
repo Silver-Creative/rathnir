@@ -1223,6 +1223,9 @@ lapis_lazuli = {
 
 silver = {
 	color = { 50 101 161 }
+	province = {
+		trade_goods_size_modifier = -0.33
+	}
 	chance = {		# Whenever we add uncolonized provinces, add this in vv
 		factor = 5	
 		modifier = {

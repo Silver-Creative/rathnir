@@ -675,11 +675,11 @@ province;red;green;blue;x;x
 674;102;79;40;Hramaan;x
 675;127;99;51;Umarin;x
 676;114;57;53;Tatonn;x
-677;127;64;59;Esut Leth;x
+677;127;64;59;???;x
 678;140;70;65;Gesck;x
-679;153;77;71;New Liera;x
+679;153;77;71;Amiha;x
 680;102;51;47;Trae Olluth;x
-681;165;83;77;Amiha;x
+681;165;83;77;New Liera;x
 682;178;90;83;Old Liera;x
 683;119;140;126;Amdeo;x
 684;130;153;138;Bacobac;x
@@ -2122,7 +2122,7 @@ province;red;green;blue;x;x
 2121;54;127;22;Ummarnu2121;x
 2122;191;114;63;Golewee;x
 2123;165;98;53;Ummarnu2123;x
-2124;150;89;49;çeva y’ankar;x
+2124;150;89;49;Çeva Y'ankar;x
 2125;178;106;58;Ummarnu2125;x
 2126;242;200;65;Ummarnu2126;x
 2127;229;190;61;Ummarnu2127;x
@@ -2149,7 +2149,7 @@ province;red;green;blue;x;x
 2148;216;47;47;Ummarnu2148;x
 2149;177;99;191;Arzanahsu;x
 2150;189;106;204;Harsaniya;x
-2151;150;84;163;Almunatta Waste;x
+2151;150;84;163;Almunatta Wastes;x
 2152;53;59;140;Ummarnu2152;x
 2153;58;66;153;Ummarnu2153;x
 2154;48;53;127;Ummarnu2154;x
@@ -2196,7 +2196,7 @@ province;red;green;blue;x;x
 2195;54;59;63;Ummarnu2195;x
 2196;56;59;63;Ummarnu2196;x
 2197;135;152;163;Ummarnu2197;x
-2198;137;152;163;Ummarnu2198;x
+2198;137;152;163;????;x
 2199;139;152;163;Ummarnu2199;x
 2200;152;171;183;Ummarnu2200;x
 2201;154;171;183;Ummarnu2201;x
@@ -2250,7 +2250,7 @@ province;red;green;blue;x;x
 2249;81;75;62;Velikôtash;x
 2250;112;102;86;Ashutan;x
 2251;137;122;104;Taranusha;x
-2252;137;125;104;Šahawa;x
+2252;137;125;104;Sahawa;x
 2253;124;113;94;Qirima;x
 2254;137;78;85;Lallaglalir;x
 2255;137;78;78;Garatlan;x
@@ -2309,7 +2309,7 @@ province;red;green;blue;x;x
 2308;130;100;186;Ummarnu2308;x
 2309;124;100;186;Ummarnu2309;x
 2310;129;100;186;Ummarnu2310;x
-2311;126;100;186;Ummarnu2311;x
+2311;126;100;186;?????;x
 2312;123;100;186;Ummarnu2312;x
 2313;226;200;0;Mantheran;x
 2314;226;181;0;Ummarnu2314;x
@@ -2353,6 +2353,15 @@ province;red;green;blue;x;x
 2352;175;92;82;Sparwood2352;x
 2353;175;82;82;Sparwood2353;x
 2354;52;143;239;Sparwood2354;x
+2355;140;186;255;Sparwood2355;x
+2356;119;160;214;Sparwood2356;x
+2357;127;170;226;Sparwood2357;x
+2358;127;165;226;Sparwood2358;x
+2359;127;158;226;Sparwood2359;x
+2360;127;153;226;Sparwood2360;x
+2361;81;167;214;Sparwood2361;x
+2362;81;158;214;Sparwood2362;x
+2363;81;150;214;Sparwood2363;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x

@@ -316,6 +316,9 @@ vraelea_region = {
 		northern_vraelea_area
 		central_vraelea_area
 		southern_vraelea_area
+		lotus_castle_area
+		evre_ael_area
+		far_vraelea_area
 
 		vraelea_impassable_area
 	}
