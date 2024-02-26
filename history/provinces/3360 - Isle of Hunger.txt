@@ -1,0 +1,8 @@
+# 3360 - Isle of Hunger
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
+discovered_by = tech_aldoviri
