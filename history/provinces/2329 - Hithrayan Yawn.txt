@@ -1,4 +1,4 @@
-# 2329 - SerafiniSwamp3
+# 2329 - Hithrayan Yawn
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi
