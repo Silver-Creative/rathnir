@@ -45,4 +45,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 775;1120;land;629;-1;-1;-1;-1;litociBay-vaariede
 1121;1101;land;633;-1;-1;-1;-1;mariede-OsteriumSea7333
 603;604;sea;1116;-1;-1;-1;-1;tessel_crossing
+678;2341;sea;2328;-1;-1;-1;-1;SerafiniSwampCrossing1
 -1;-1;;-1;-1;-1;-1;-1;-1;
