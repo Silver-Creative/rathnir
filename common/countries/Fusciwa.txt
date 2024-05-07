@@ -55,7 +55,7 @@ monarch_names = {
 
 leader_names = {
 	#Country Specific
-	"of Fuscinia" "of Dasir" "of Urnu-Oyori"
+	"of Fusciwa" "of Dasir" "of Urnu-Oyori"
 	
 	#Province Neighbours
 	"of Nikhazi" "of Ayesinco" "of Sukrath" "of Azethvir" "of Ilivian" "of Aleria"

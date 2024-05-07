@@ -83,7 +83,7 @@ audalad_group = {
 		}
 	}
 	abarillic = {
-		#primary = A06 #Fuscinia
+		#primary = A06 #Fusciwa
 
 		dynasty_names = {
 			Audalad Caicuria
