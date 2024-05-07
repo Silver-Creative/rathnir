@@ -1,4 +1,4 @@
-# 1863 - Cymru1863
+# 1863 - Phlogisia
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi
