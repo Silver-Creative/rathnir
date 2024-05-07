@@ -1,11 +1,11 @@
-# 2353 - Sparwood2353
+# 2348 - Belime
 
-owner = L10
-controller = L10
-add_core = L10
+owner = L05
+controller = L05
+add_core = L05
 
-culture = hostic
-religion = etherflame
+culture = sorradic
+religion = sakrelism
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = fruits
+trade_goods = tea
 
 is_city = yes
 fort_15th = nan

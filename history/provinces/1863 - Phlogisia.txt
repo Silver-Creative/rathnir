@@ -1,4 +1,4 @@
-# 2331 - SerafiniSwamp5
+# 1863 - Phlogisia
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi

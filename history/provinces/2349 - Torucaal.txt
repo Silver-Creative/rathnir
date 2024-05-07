@@ -1,11 +1,11 @@
-# 2350 - Sparwood2350
+# 2349 - Torucaal
 
 owner = L05
 controller = L05
 add_core = L05
 
 culture = sorradic
-religion = eastern_asharu
+religion = etherflame
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = cloth
+trade_goods = paper
 center_of_trade = 1
 
 is_city = yes

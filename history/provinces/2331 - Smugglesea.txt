@@ -1,4 +1,4 @@
-# 1863 - Cymru1863
+# 2331 - Smugglesea
 
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi

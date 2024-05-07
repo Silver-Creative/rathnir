@@ -1,10 +1,10 @@
-# 2354 - Sparwood2354
+# 2350 - Allunam
 
-owner = L01
-controller = L01
-add_core = L01
+owner = L05
+controller = L05
+add_core = L05
 
-culture = serafian
+culture = sorradic
 religion = eastern_asharu
 capital = ""
 
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = glass
+trade_goods = cloth
 center_of_trade = 1
 
 is_city = yes

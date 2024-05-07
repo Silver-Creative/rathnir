@@ -6,7 +6,7 @@ vassal = {
 
 alliance = {
     first = A00 #Yimmu-Audal
-    second = A06 #Fuscinia
+    second = A06 #Fusciwa
     start_date = 1444.1.1
 }
 

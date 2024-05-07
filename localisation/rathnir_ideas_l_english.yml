@@ -113,6 +113,25 @@
  A05_schemes_of_the_lesser_bars: "Schemes of the Lesser Bars"
  A05_schemes_of_the_lesser_bars_desc: "..."
 
+ #A06 - Fuciwa
+ A06_ideas: "Fuciwan Ideas"
+ A06_ideas_start: "Fuciwan Traditions"
+ A06_ideas_bonus: "Fuciwan Ambition"
+ A06_marshalling_the_wastes: "Marshalling the Wastes"
+ A06_marshalling_the_wastes_desc: "Ever since our landing, the deserts have become our home and our greatest defense. Many unwary travelers have lost themselves in the wastes without a guide, and in times of strife this becomes our boon."
+ A06_hardy_people: "A Hardy People"
+ A06_hardy_people_desc: "Life in the desert is hard. Among deserts, our wastes are the harshest. To survive- and thrive- where we do requires a tougher kind of person."
+ A06_elven_voyages: "Legacy of the Elven Voyages"
+ A06_elven_voyages_desc: "The Fuciwans came from the fortunate arrival of the Dune Elves to Altaniquia. When their ships crashed on our shores, the Fuci nomads took them in. Generations later, there is no Fuci or Dune Elf, only the Fuciwans! We remember our seafaring heritage, and embrace it."
+ A06_unbroken: "Resiliance Unbroken"
+ A06_unbroken_desc: "The Fuci were pushed out of their homelands by the fledgeling Audaladae and the Sagaviri, leaving only a narrow strip of treacherous desert for us to live on. No more! This is our home, and we will fight to remain until every last one of us is dead. With our ferocity (and no small amount of luck) we have clawed our rightful lands back... even if the Fuciwans who live there now call themselves by foreign names."
+ A06_bloodmarket_diamonds: "Diamonds in the Bloodmarkets"
+ A06_bloodmarket_diamonds_desc: "It is no secret that Fuciwa has its hands in bloodier trades. While pious Sakrelists condemn slavery and most nations of reason detest uncouth mercenaries, both trades find their home in our cities. To keep their trade alive, slavers and mercenaries send their best and brightest to defend us... for the right prices, of course. A pound of flesh for a shaving of gold."
+ A06_dune_elf_heirs: "Heirs of the Dune Elves"
+ A06_dune_elf_heirs_desc: "While many decry us as simple bandits, choking on sand, we know ourselves as the heirs of the Dune Elves, whose kingdoms in Ummarnu were known for their high culture and the everlasting glory of their armies."
+ A06_far_from_prying_eyes: "Far From Prying Eyes"
+ A06_far_from_prying_eyes_desc: "There is no better place to hide than Fuciwa. Nobody thinks to look. Those that do tend to get lost themselves. Like the mirages of the desert, our enemies will find themselves chasing secrets that simply never were... or, are there no longer."
+
  #A07 - Coltmaere
  A07_ideas: "Coltmaeran Ideas"
  A07_ideas_start: "Coltmaeran Traditions"
@@ -283,6 +302,25 @@
  A50_death_defied_desc: "We have lived! The heretics and heathenous barbarians have been turned back! Death comes still, but not for us! Not this day!"
  A50_kjastii_reborn: "The Kjastii Reborn"
  A50_kjastii_reborn_desc: "In retrospect, we regret razing the city of Kjásthejm. If Hákon hadn't been captured and enslaved, he would have never able to found his heathenous state. He would have never dismantled countless tribes in favor of his Theios. Our kin would have never been seduced into the barberous culture of the Audalads. The past, however, is the past. While we cannot undo the damage he has done to our culture, we can heal from it. As apostates return from their sin and the Theióniki realize the emptiness of their culture, let us welcome them home as long-lost kin. The Kjastii may have vanished in fire and an orange flood, but under our care they will return."
+
+ #B06 - Dracade
+ B06_ideas: "Dracade Ideas"
+ B06_ideas_start: "Dracade Traditions"
+ B06_ideas_bonus: "Dracade Ambition"
+ B06_tiemans_laws: "Tiemen’s Housing Laws"
+ B06_tiemans_laws_desc: "..."
+ B06_flower_market: "Market of Flowers"
+ B06_flower_market_desc: "..."
+ B06_dragon_guard: "Formation of the Dragon Guard"
+ B06_dragon_guard_desc: "..."
+ B06_maiden_bay_harbor: "Maiden Bay Harbour"
+ B06_maiden_bay_harbor_desc: "..."
+ B06_high_dragospiro: "Fort of High Dragospiro"
+ B06_high_dragospiro_desc: "..."
+ B06_dragospiro_university: "University of Dragospiro"
+ B06_dragospiro_university_desc: "..."
+ B06_andre_ramo: "Legacy of Andre Ramo"
+ B06_andre_ramo_desc: "..."
 
  #B09 - Knossos
  B09_ideas: "Knossian Ideas"

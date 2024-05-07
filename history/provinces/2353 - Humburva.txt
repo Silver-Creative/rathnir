@@ -1,11 +1,11 @@
-# 2347 - Sparwood2347
+# 2353 - Humburva
 
-owner = L05
-controller = L05
-add_core = L05
+owner = L10
+controller = L10
+add_core = L10
 
-culture = serafian
-religion = eastern_asharu
+culture = hostic
+religion = etherflame
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = dyes
+trade_goods = fruits
 
 is_city = yes
 fort_15th = nan
