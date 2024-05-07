@@ -4,5 +4,18 @@ government_rank = 1
 primary_culture = sorradic
 religion = vinaestre
 technology_group = tech_luthic
-capital = 671 #Provisional capital, Ai'Kille
+capital = 665 #Asveria
 national_focus = DIP
+
+1444.1.1 = {
+    monarch = {
+        name = "Perrit"
+        dynasty = "Tashan"
+        birth_date = 1397.12.25
+        adm = 3
+        dip = 2
+        mil = 4
+        culture = sorradic
+        religion = vinaestre
+    }
+}

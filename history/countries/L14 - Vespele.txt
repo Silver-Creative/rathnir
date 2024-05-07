@@ -6,3 +6,14 @@ religion = vinaestre
 technology_group = tech_luthic
 capital = 668 #vespele
 national_focus = DIP
+
+1444.11.11 = {
+    monarch = {
+        name = "Arradaran"
+        dynasty = "Vespeletee"
+        birth_date = 1425.1.1
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}
