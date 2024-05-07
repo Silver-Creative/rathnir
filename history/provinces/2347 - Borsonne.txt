@@ -1,11 +1,11 @@
-# 2348 - Sparwood2348
+# 2347 - Borsonne
 
 owner = L05
 controller = L05
 add_core = L05
 
-culture = sorradic
-religion = sakrelism
+culture = serafian
+religion = eastern_asharu
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = tea
+trade_goods = dyes
 
 is_city = yes
 fort_15th = nan

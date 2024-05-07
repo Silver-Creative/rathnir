@@ -1,11 +1,11 @@
-# 2349 - Sparwood2349
+# 2350 - Allunam
 
 owner = L05
 controller = L05
 add_core = L05
 
 culture = sorradic
-religion = etherflame
+religion = eastern_asharu
 capital = ""
 
 hre = no
@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = paper
+trade_goods = cloth
 center_of_trade = 1
 
 is_city = yes
