@@ -37,3 +37,10 @@ alliance = {
     second = N14 #Dronnin
     start_date = 1444.11.11
 }
+
+#Noblebros have a royal marriage
+royal_marriage = {
+    first = L04 #Tash'nayil
+    second = L14 #Vespele
+    start_date = 1444.11.11
+}
