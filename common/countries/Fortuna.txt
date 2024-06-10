@@ -1,4 +1,6 @@
+
+#Country Name: Fortuna
+
 graphical_culture = westerngfx
-color = { 
-	100 76 165 
-}
+
+color = { 100 76 165 }
