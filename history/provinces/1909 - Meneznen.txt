@@ -14,7 +14,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-trade_goods = lapis
+trade_goods = lapis_lazuli
 
 is_city = yes
 fort_15th = nan
