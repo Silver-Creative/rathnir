@@ -822,10 +822,56 @@ brothian_group = {
 		Shan Tossovich Khamen Aveleskei Burrow Yazovich Chernik Kovalsky Meklevich Zukolov Ariti
 	}
 	male_names = {
-		Slout Ivano Dinesk Josbar Eirik Athos Peteroff Petra "Bjorn Rex" Bronvic Kino Nikolai Carpzov Darrow Ignati Jacob Mocoslav Hiar Stanislav Ralphie Talvin Nikoloks Capna Merodach
+		Slout Ivano Dinesk Josbar Eirik Athos Peteroff Petra "Bjorn Rex" Bronvic Kino Nikolai Carpzov Darrow Ignati Germathual Jacob Mocoslav Hiar Stanislav Ralphie Talvin Nikoloks Capna Merodach Maeval
 	}
 	female_names = {
 		Elle Shan Anastasia Ibris Isabella Germathual Falyn Hees Alyansis Ceibi Cyna Celine Krista Aya Cazovas
+	}
+}
+
+andornian = {
+	graphical_culture = westerngfx
+
+	ardenan = {
+		#primary = PLACEHOLDER 
+
+		dynasty_names = {
+			Grphyen "der Aeternus"
+		}
+	}
+
+	savrayian = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"von Savras" "et Goy"
+		}
+	}
+
+	wivamovian = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"Casul" Kamroni
+		}
+	}
+
+	central_andornic = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"Bon Annover" "von Hannover"
+		}
+	}
+
+	dynasty_names = {
+		"von Savras" "von Kendal" "de Casul" Gryphen Dubois "Ain Medlek" Blythe
+	}
+	male_names = {
+		Raj George Patch Himo Michio Melchior Oranje Lucius Salos David Benjamin Otto Maevel Hernicii Omél Xev Henry Jingo Striker Denre Bingo Mel Lerf
+	}
+	female_names = {
+		Rovena Bobo Ian Robyn Kasumi Hymchiafa
 	}
 }
 
