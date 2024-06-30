@@ -93,7 +93,7 @@ raykara_region = {
 }
 khuzdurin_region = { 
 	areas = { 
-		useri_area chaureste_ridge_area bethenk_dum_area dhaz_borderlands_area revanov_area khuzdurin_impassable_area 
+		chaureste_ridge_area bethenk_dum_area dhaz_borderlands_area revanov_area khuzdurin_impassable_area 
 	}
 }
 ### Asterien (Nieden)

@@ -1,9 +1,5 @@
 # 657 - Kranga
 
-owner = nan
-controller = nan
-add_core = nan
-
 culture = vraelean
 religion = sakrelism
 capital = ""
