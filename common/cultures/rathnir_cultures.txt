@@ -950,10 +950,10 @@ aurlunoren_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -971,10 +971,10 @@ northern_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -1001,10 +1001,10 @@ valdreachan_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -1052,13 +1052,13 @@ silvish_group = {
 	}
 
 	dynasty_names = {
-
+		"of Silvay" "of Fortuna" "of Aezenfjord" "of Valdreach" "of Dragonreach" Salvay Azgren Yöday Arzenay Berlagen Salapeg 
 	}
 	male_names = {
-
+		Seveg Brezger Yolwann Ioudëc yowann Tergez Haveg Fareg Azreg Morez
 	}
 	female_names = {
-
+		Gawel Houët Soazic Jalic Maiouet Bernel Orhoüis Elieg Maouell Giwen Mëlienn Touwett Piwen Kaikarenn Cresiel
 	}
 }
 	
