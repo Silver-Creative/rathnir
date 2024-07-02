@@ -731,11 +731,3 @@ south_atlantic_region = {
 	areas = { 
 	}
 }
-phr_haven = { 
-	areas = { 
-	}
-}
-phr_sorligste = { 
-	areas = { 
-	}
-}
