@@ -44,12 +44,7 @@ seraan_soldier_clan = {
 
 	modifiers = {
 		diplomats = -1
-		diplomatic_upkeep = -2
 		land_forcelimit = 4
-		may_establish_frontier = yes
-		
-		#Taken from natives
-		monthly_reform_progress = 0.75
 	}
 }
 
