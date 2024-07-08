@@ -149,20 +149,26 @@ declarewar = {
 		tooltip = CANNOT_WAR_NIEDEN_TT
 		potential = {
 			has_global_flag = nieden_earlygame
+			NOT = { is_year = 1550 }
 			FROM = {
 				capital_scope = { continent = nieden }
-				NOT = { has_country_flag = nieden_earlygame_broken }
+				NOT = { 
+					has_country_flag = nieden_earlygame_broken 
+					tag = N12 #Annuvin
+					tag = N18 #Puan'val
+				}
 			}
 			ROOT = {
 				OR = {
 					tag = N11 #Khuzdurin
+					tag = N12 #Annuvin
+					tag = N18 #Puan'val
 					NOT = { capital_scope = { continent = nieden } }
 				}
 			}
 		}
 		allow = {
 			NOT = { has_global_flag = nieden_earlygame }
-			#FROM = { tag = N11 } #Khuzdurin
 		}
 	}
 	effect = {
@@ -186,19 +192,6 @@ declarewar = {
 			}
 		}
 	} 
-	#effect = {
-	#	on_war_declaration_effect = yes
-	#	if = {
-	#		limit = { 
-	#			has_country_flag = nor_norwegian_independence_modifier
-	#			FROM = { tag = DAN }
-	#		}
-	#		add_country_modifier = {
-	#			name = nor_norwegian_independence_war_mod
-	#			duration = -1
-	#		}
-	#	}
-	#}
 }
 
 allianceaction = {

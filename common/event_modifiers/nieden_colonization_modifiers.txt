@@ -1,0 +1,17 @@
+#For Nieden Adventurers
+nieden_colonization = {
+    colonists = 2
+    range = -0.6
+    global_colonial_growth = 20
+    global_tax_income = 90
+    colony_cost_modifier = -0.5
+}
+
+#For Niedene Kingdoms
+nieden_recolonization = {
+    colonists = 1
+    range = -0.5
+    global_colonial_growth = 25
+    global_tax_income = 90
+    colony_cost_modifier = -0.5
+}
