@@ -1,5 +1,9 @@
 # 1925 - Occulere
 
+owner = W11
+controller = W11
+add_core = W11
+
 culture = fortunic
 religion = asitir
 capital = ""
@@ -12,7 +16,7 @@ base_manpower = 1
 
 trade_goods = iron
 
-is_city = nan
+is_city = yes
 fort_15th = nan
 
 discovered_by = tech_alteniquian
