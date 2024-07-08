@@ -1,4 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
+primary_culture = konkorsk
+religion = asitir
+capital = 1916 #Falkheim
 technology_group = tech_aldoviri
