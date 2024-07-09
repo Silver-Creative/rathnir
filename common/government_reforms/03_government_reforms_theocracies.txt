@@ -923,12 +923,7 @@ adventurer_reform = {
 	}
 	modifiers = {
 		diplomats = -1
-		diplomatic_upkeep = -2
-		land_forcelimit = 4
-		may_establish_frontier = yes
-		
-		#Taken from natives
-		monthly_reform_progress = 0.75
+		land_morale = 0.05
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10

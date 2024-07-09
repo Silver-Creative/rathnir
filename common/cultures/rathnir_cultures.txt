@@ -97,21 +97,6 @@ audalad_group = {
 			Seramida Ardamine Ederai Lerai Ifaeri
 		}
 	}
-	maeretine = {
-		#primary = A07 #Coltmaere
-
-		dynasty_names = {
-			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
-		}
-
-		male_names = {
-			Kassan Ean Osunar Halon Huran Rios Altan Aphrin Erevan Jan Voline Evedjzai Vaelzjai Okaue
-		}
-
-		female_names = {
-			Mera Evalae Robyn Cecilia Roza Ilsania Altana Katrina Talasana Morgan Voline Evedjzai Vaelzjai Okaue
-		}
-	}
 	taloran = {
 		#primary = A03 #Tàlor
 
@@ -757,6 +742,9 @@ dwarven_group = {
 	sea_dwarf = {
 
 	}
+	goldhill_dwarf = {
+		
+	}
 }
 
 brothian_group = {
@@ -818,14 +806,76 @@ brothian_group = {
 		}
 	}
 
+	maeretine = {
+		#primary = A07 #Coltmaere
+
+		dynasty_names = {
+			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
+		}
+
+		male_names = {
+			Kassan Ean Osunar Halon Huran Rios Altan Aphrin Erevan Jan Voline Evedjzai Vaelzjai Okaue
+		}
+
+		female_names = {
+			Mera Evalae Robyn Cecilia Roza Ilsania Altana Katrina Talasana Morgan Voline Evedjzai Vaelzjai Okaue
+		}
+	}
+
 	dynasty_names = {
 		Shan Tossovich Khamen Aveleskei Burrow Yazovich Chernik Kovalsky Meklevich Zukolov Ariti
 	}
 	male_names = {
-		Slout Ivano Dinesk Josbar Eirik Athos Peteroff Petra "Bjorn Rex" Bronvic Kino Nikolai Carpzov Darrow Ignati Jacob Mocoslav Hiar Stanislav Ralphie Talvin Nikoloks Capna Merodach
+		Slout Ivano Dinesk Josbar Eirik Athos Peteroff Petra "Bjorn Rex" Bronvic Kino Nikolai Carpzov Darrow Ignati Germathual Jacob Mocoslav Hiar Stanislav Ralphie Talvin Nikoloks Capna Merodach Maeval
 	}
 	female_names = {
 		Elle Shan Anastasia Ibris Isabella Germathual Falyn Hees Alyansis Ceibi Cyna Celine Krista Aya Cazovas
+	}
+}
+
+andornian = {
+	graphical_culture = westerngfx
+
+	ardenan = {
+		#primary = PLACEHOLDER 
+
+		dynasty_names = {
+			Grphyen "der Aeternus"
+		}
+	}
+
+	savrayian = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"von Savras" "et Goy"
+		}
+	}
+
+	wivamovian = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"Casul" Kamroni
+		}
+	}
+
+	central_andornic = {
+		#primary = PLACEHOLDER
+
+		dynasty_names = {
+			"Bon Annover" "von Hannover"
+		}
+	}
+
+	dynasty_names = {
+		"von Savras" "von Kendal" "de Casul" Gryphen Dubois "Ain Medlek" Blythe
+	}
+	male_names = {
+		Raj George Patch Himo Michio Melchior Oranje Lucius Salos David Benjamin Otto Maevel Hernicii Omél Xev Henry Jingo Striker Denre Bingo Mel Lerf
+	}
+	female_names = {
+		Rovena Bobo Ian Robyn Kasumi Hymchiafa
 	}
 }
 
@@ -904,10 +954,10 @@ aurlunoren_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -925,10 +975,10 @@ northern_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -955,10 +1005,10 @@ valdreachan_group = {
 
 	}
 	male_names = {
-
+		PLACEHOLDER
 	}
 	female_names = {
-
+		PLACEHOLDER
 	}
 }
 
@@ -1006,13 +1056,13 @@ silvish_group = {
 	}
 
 	dynasty_names = {
-
+		"of Silvay" "of Fortuna" "of Aezenfjord" "of Valdreach" "of Dragonreach" Salvay Azgren Yöday Arzenay Berlagen Salapeg 
 	}
 	male_names = {
-
+		Seveg Brezger Yolwann Ioudëc yowann Tergez Haveg Fareg Azreg Morez
 	}
 	female_names = {
-
+		Gawel Houët Soazic Jalic Maiouet Bernel Orhoüis Elieg Maouell Giwen Mëlienn Touwett Piwen Kaikarenn Cresiel
 	}
 }
 	

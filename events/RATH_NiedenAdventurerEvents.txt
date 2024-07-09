@@ -10,9 +10,15 @@ country_event = {
     is_triggered_only = yes
 
     trigger = {
-        has_reform = adventurer_reform
-        has_reform = seraan_soldier_clan
-        capital_scope = { continent = nieden }
+        OR = {
+            capital_scope = { continent = nieden }
+            tag = N13
+            tag = N14
+            tag = N15
+            tag = N16
+            tag = N17
+        }
+        NOT = { tag = N18 }
     }
 
     mean_time_to_happen = {
@@ -21,8 +27,65 @@ country_event = {
 
     option = {
         name = nieden_adventurers.1.a
+        trigger = {
+            OR = {
+                has_reform = adventurer_reform
+                has_reform = seraan_soldier_clan
+                tag = N04
+            }
+        }
+        add_country_modifier = {
+			name = "nieden_colonization"
+			duration = 36500
+		}
         custom_tooltip = nieden_adventurers.1.a.tooltip
         ai_chance = { factor = 100 }
+    }
+    option = {
+        name = nieden_adventurers.1.b
+        trigger = {
+            NOT = {
+                has_reform = adventurer_reform
+                has_reform = seraan_soldier_clan
+                tag = N11
+                tag = N13
+                tag = N14
+                tag = N15
+                tag = N16
+                tag = N17
+                tag = N04
+            }
+        }
+        country_event = {
+			id = nieden_adventurers.3
+			days = 10950
+			}
+        custom_tooltip = nieden_adventurers.1.b.tooltip
+        ai_chance = { factor = 100}
+    }
+    option = {
+        name = nieden_adventurers.1.c
+        trigger = {
+            OR = {
+                tag = N11
+            }
+        }
+        custom_tooltip = nieden_adventurers.1.c.tooltip
+        ai_chance = { factor = 100}
+    }
+    option = {
+        name = nieden_adventurers.1.d
+        trigger = {
+            OR = {
+                tag = N12
+                tag = N13
+                tag = N14
+                tag = N15
+                tag = N16
+                tag = N17
+            }
+        }
+        ai_chance = { factor = 100}
     }
 }
 
@@ -36,8 +99,6 @@ country_event = {
     is_triggered_only = yes
 
     trigger = {
-        has_reform = adventurer_reform
-        has_reform = seraan_soldier_clan
         capital_scope = { continent = nieden }
     }
 
@@ -50,5 +111,29 @@ country_event = {
         custom_tooltip = nieden_adventurers.2.a.tooltip
         ai_chance = { factor = 100 }
 
+    }
+}
+
+#Triggered 30 years after startup, to make the Niedene Kingdoms colonize.
+country_event = {
+    id = nieden_adventurers.3
+    title = nieden_adventurers.3.title
+    desc = nieden_adventurers.3.desc
+    picture = EXPLORERS_eventPicture
+
+    is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = nieden_adventurers.3.a
+        add_country_modifier = {
+			name = "nieden_recolonization"
+			duration = 25550
+		}
+        custom_tooltip = nieden_adventurers.3.a.tooltip
+        ai_chance = { factor = 100 }
     }
 }

@@ -505,10 +505,6 @@ slaves = {
 			factor = 0
 			continent = nieden
 		}
-		modifier = {
-			factor = 1000
-			province_id = 744
-		}
 	}
 }
 

@@ -1,9 +1,5 @@
 # 744 - Leyth
 
-owner = nan
-controller = nan
-add_core = nan
-
 culture = chimunic
 religion = etherflame
 capital = ""

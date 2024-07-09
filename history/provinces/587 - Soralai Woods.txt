@@ -1,9 +1,5 @@
 # 587 - Soralai Woods
 
-owner = nan
-controller = nan
-add_core = nan
-
 culture = neurunic
 religion = soleannen
 capital = ""
