@@ -40,6 +40,6 @@ definition = open("map/definition.csv", encoding='UTF-8')
 newtext = definition.read().replace(",", ";")
 definition.close()
 
-definition = open("map/definition.csv", "w")
+definition = open("map/definition.csv", "w", encoding='UTF-8')
 definition.write(newtext)
 definition.close()
