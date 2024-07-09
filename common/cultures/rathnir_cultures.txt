@@ -97,21 +97,6 @@ audalad_group = {
 			Seramida Ardamine Ederai Lerai Ifaeri
 		}
 	}
-	maeretine = {
-		#primary = A07 #Coltmaere
-
-		dynasty_names = {
-			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
-		}
-
-		male_names = {
-			Kassan Ean Osunar Halon Huran Rios Altan Aphrin Erevan Jan Voline Evedjzai Vaelzjai Okaue
-		}
-
-		female_names = {
-			Mera Evalae Robyn Cecilia Roza Ilsania Altana Katrina Talasana Morgan Voline Evedjzai Vaelzjai Okaue
-		}
-	}
 	taloran = {
 		#primary = A03 #Tàlor
 
@@ -818,6 +803,22 @@ brothian_group = {
 
 		dynasty_names = {
 			Dandelion Mediki Aelarion Mechichi
+		}
+	}
+
+	maeretine = {
+		#primary = A07 #Coltmaere
+
+		dynasty_names = {
+			Audalad Toun Orina Rousolk Dannova Ankah "ov Yaov" Vroza Keshneva Pzetova "ov Keshnev"
+		}
+
+		male_names = {
+			Kassan Ean Osunar Halon Huran Rios Altan Aphrin Erevan Jan Voline Evedjzai Vaelzjai Okaue
+		}
+
+		female_names = {
+			Mera Evalae Robyn Cecilia Roza Ilsania Altana Katrina Talasana Morgan Voline Evedjzai Vaelzjai Okaue
 		}
 	}
 
