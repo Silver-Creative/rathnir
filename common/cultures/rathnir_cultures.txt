@@ -899,6 +899,46 @@ ardatian_group = {
 	}
 }
 
+hearthmen_group = {
+	graphical_culture = westerngfx
+
+	paloran = {
+
+	}
+
+	paloroti_che = {
+
+	}
+
+	paloroti_hac = {
+
+	}
+
+	lormerian = {
+
+	}
+
+	cratmen = {
+
+	}
+
+	trouchen = {
+
+	}
+
+	dynasty_names = {
+		diril
+	}
+
+	male_names = {
+		tsoto
+	}
+
+	female_names = {
+		diaria
+	}
+}
+
 natalian_group = {
 	graphical_culture = turkishgfx
 
@@ -947,17 +987,69 @@ aurlunoren_group = {
 	graphical_culture = chinesegfx
 
 	lhuren = {
+		dynasty_names = {
+			"Leyla-Earcala" Wissen "Guissen-Satran" "Huangan-Ridell" "Risse-Lanyon" Kedel Yan Gioro Hutandel Ateldan Latice Lutharon Momagtron 
+		}
+	
+		male_names = {
+			Alcon Norcon Tuson Varyon Talcon Shucon Heiyacon Nelyacon Yicon Duancon Quancon Orcon Saricon Zicon Taron Lyxandon
+		}
+	
+		female_names = {
+			Orwa Melandis Terandis Ilandis Sarianis Yulandis Melvarwa Nolanis Sariu Consteldis Vahtying Lanfen Hayalal Lindaleanis Qiannis Eteminyanis
+		}
+	}
 
+	dawou = {
+		dynasty_names = {
+			Liu Zhang Zheng Xu Lu Dong Chen Ding Yan Quan Yi Da Tian Qiu Zhu Sheng
+		}
+	
+		male_names = {
+			Wu Cao Shi Yu Huang Di Ling Yan Quan Fuxan Dilan Hua Ban Xu Buyi Fan
+		}
+	
+		female_names = {
+			Xu Yi Tishan Su Poyi Fai Ling Pan Hua Ying Lan Rong Huang Liang Sanying Huangfan
+		}
+	}
+
+	yi_yen = {
+		dynasty_names = {
+			Mo-He Mo-Liu Mo-Po Mo-Lang Mo-Shu Mo-San Mo-Di Mo-Yi Mo-Xu Mo-Bu Mo-Lu Mo-Wu Mo-Tu Mo-Yang Mo-Wei
+		}
+	
+		male_names = {
+			Hao Tuo Yan Shang Huan Dong Xian Xan Xiu She Tien Ju An Shu Bei Fu
+		}
+	
+		female_names = {
+			i-Hua i-Bei i-Dong i-Xiu Shenhe Huanhe Anhe Tuohe Dishan Wushan Jushan Rongshan Xushan Sushan Tishan Liangshan
+		}
+	}
+
+	kumiho = {
+		dynasty_names = {
+			Min-Hoek Sa-Yansuneeon Sa-Weilanyon Sa-Kajumokyon Sa-Chaen Sa-Yimong Sa-Teyeon Sa-Lathrayon Sa-Mugamaon Kyung-Maureanis Min-Yeon Eun-Latice Latice An-Kangjonnmuk Heo Kang Asa Maha Daekun Kitcha Golu Ha Chae
+		}
+	
+		male_names = {
+			PLACEHOLDER
+		}
+	
+		female_names = {
+			Min Yisse Kangjonnmuk Seonying Tangandis Song Yee Lian Shee Aya Min-Yeon Daewanis Daewan Hutan Min-Yeong Huawa Seyeun Ryon Siyeun
+		}
 	}
 
 	dynasty_names = {
-
+		Qo
 	}
 	male_names = {
-		PLACEHOLDER
+		Alcon Norcon
 	}
 	female_names = {
-		PLACEHOLDER
+		Tishan
 	}
 }
 

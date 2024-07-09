@@ -133,6 +133,9 @@
   masetzuan: "Masetzu'an"
  aurlunoren_group: "Aurlûnoren" #Aurlunoren Group
   lhuren: "Lhuren"
+  dawou: "Dawou"
+  yi_yen: "Yi-Yen"
+  kumiho: "Kumiho"
  northern_group: "Northern" #Northern Group
   noxnorric: "Noxnorric"
   najer: "Najer"
@@ -157,4 +160,11 @@
   savrayian: "Savrayian"
   wivamovian: "Wivamovian"
   central_andornic: "Central Andornic"
+ hearthmen_group: "Hearthmen" #Paloran Group
+  paloran: "Paloran"
+  paloroti_che: "Paloroti Chejova"
+  paloroti_hac: "Paloroti Hachava"
+  lormerian: "Lormerian"
+  cratmen: "Cratmen"
+  trouchen: "Trouchen"
   
