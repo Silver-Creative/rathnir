@@ -166,7 +166,7 @@ A03_ideas = {
     free = yes		#will be added at load.
 
 	A03_for_monath = {
-		yearly_patriarch_authority = 0.5
+		yearly_patriarch_authority = 0.005
 	}
 	A03_noblesse_oblige = {
 		nobles_loyalty_modifier = 0.1
