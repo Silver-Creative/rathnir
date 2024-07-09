@@ -36,7 +36,7 @@ with open('map/definition.csv', 'w', encoding='UTF-8', newline='') as def_file:
         row = [id, rgb, x, "x"]
         writer.writerow(row)
 
-definition = open("map/definition.csv")
+definition = open("map/definition.csv", encoding='UTF-8')
 newtext = definition.read().replace(",", ";")
 definition.close()
 
