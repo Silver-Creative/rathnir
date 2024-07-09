@@ -1,10 +1,8 @@
 # Tales of Rathnir
-
 # Special countries..
 REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
-
 #Alteniquia - Axx/Bxx (No tag limit restriction)
 A00 = "countries/Audal.txt"
 A01 = "countries/Theionikos.txt"
@@ -62,7 +60,6 @@ A52 = "countries/Apasiril.txt"
 A53 = "countries/Errebos.txt"
 A54 = "countries/Siroba.txt"
 A55 = "countries/Roscella.txt"
-
 A93 = "countries/Saramenor.txt"
 A94 = "countries/Carn.txt"
 A95 = "countries/Aldovir.txt"
@@ -70,7 +67,6 @@ A96 = "countries/Sagavir.txt"
 A97 = "countries/Yimmu-Audal.txt"
 #A98 = "countries/Anneikos.txt"
 A99 = "countries/Astyllea.txt"
-
 B00 = "countries/Carvay.txt"
 B01 = "countries/Ravenus.txt"
 B02 = "countries/Asturcia.txt"
@@ -99,10 +95,8 @@ B24 = "countries/Killingmack.txt"
 B25 = "countries/Espar.txt"
 B26 = "countries/Qaruxia.txt"
 B27 = "countries/Vastallosi League.txt"
-
 B96 = "countries/Dracade-Trollgard.txt"
 B97 = "countries/Denthros.txt"
-
 #Nieden (except SC) - Nxx/Oxx (Lowest possible tag starting with O is O10)
 N00 = "countries/Escharia.txt"
 #N01 = "countries/Varmerien.txt"
@@ -124,9 +118,7 @@ N16 = "countries/Sentaria.txt"
 N17 = "countries/Minad.txt"
 N18 = "countries/Puan'val.txt"
 N19 = "countries/Kaltai.txt"
-
 N99 = "countries/Soleanna.txt"
-
 O10 = "countries/Floramia.txt"
 O11 = "countries/Muviel.txt"
 O12 = "countries/Masetzu'an Exiles.txt"
@@ -144,7 +136,6 @@ O23 = "countries/Bolvekr Coterie.txt"
 O24 = "countries/Vushatej.txt"
 O25 = "countries/Aedyn Clan.txt"
 O26 = "countries/Chroniclers.txt"
-
 #Sparwood - Lxx/Mxx (No tag limit restriction)
 L00 = "countries/Vraelea.txt"
 L01 = "countries/Serafini.txt"
@@ -163,21 +154,14 @@ L13 = "countries/Saratenna.txt"
 L14 = "countries/Vespele.txt"
 #L15 = "countries/Arxella.txt"
 #L99 = "countries/Lotus Empire.txt"
-
 #Syltor - Yxx/Zss (No tag limit restriction)
-
 #The North - Gxx/Fxx (Lowest possible tag starting with F is F20)
-
 #Ummarnu - Uxx/Vxx (No tag limit restriction)
-
 #Haven - Hxx/Ixx (No tag limit restriction)
 H00 = "countries/Talawa.txt"
 H01 = "countries/Uldarash.txt"
-
 #Sorligste - Txx/Sxx - (Lowest tag possible starting with S is S10)
-
 #Plagos - Pxx/Qxx (No tag limit restriction)
-
 #Valdreach - Wxx/Xxx (No tag limit restriction)
 W00 = "countries/Kumoren.txt"
 W01 = "countries/Kemrena.txt"
@@ -194,10 +178,11 @@ W11 = "countries/Occulere.txt"
 W12 = "countries/Fortuna.txt"
 W13 = "countries/Krashelen.txt"
 W14 = "countries/Konkord.txt"
-
 #Akan'nash - Rxx/Jxx (No tag limit restriction)
-
 #If you remove these tags the game crashes when you colonise
-
-
-
+H02 = "countries/Hapatmitas.txt"
+H03 = "countries/Lesser Talawa.txt"
+H04 = "countries/Imperial Radch.txt"
+H02 = "countries/Hapatmitas"
+H03 = "countries/Lesser Talawa"
+H04 = "countries/Imperial Radch"

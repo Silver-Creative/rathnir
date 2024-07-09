@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = noble_elite_reform
+government_rank = 1
+technology_group = tech_havenite
+religion = noxism
+capital = 2402
+primary_culture = red_talawan
