@@ -675,7 +675,7 @@ province;red;green;blue;x;x
 674;102;79;40;Hramaan;x
 675;127;99;51;Umarin;x
 676;114;57;53;Tatonn;x
-677;127;64;59;677;x
+677;127;64;59;???;x
 678;140;70;65;Gesck;x
 679;153;77;71;Amiha;x
 680;102;51;47;Trae Olluth;x
@@ -1861,7 +1861,7 @@ province;red;green;blue;x;x
 1860;210;74;94;Cymru1860;x
 1861;203;58;80;Cymru1861;x
 1862;197;47;70;Cymru1862;x
-1863;173;36;58;Cymru1863;x
+1863;173;36;58;Phlogisia;x
 1864;153;21;47;Cymru1864;x
 1865;163;36;55;Cymru1865;x
 1866;167;22;52;Cymru1866;x
@@ -2345,15 +2345,15 @@ province;red;green;blue;x;x
 2344;188;43;65;Sparwood2344;x
 2345;188;43;70;Sparwood2345;x
 2346;70;94;214;Sparwood2346;x
-2347;62;83;188;Sparwood2347;x
-2348;61;78;186;Sparwood2348;x
-2349;61;67;186;Sparwood2349;x
-2350;61;61;186;Sparwood2350;x
-2351;124;105;51;Sparwood2351;x
+2347;62;83;188;Borsonne;x
+2348;61;78;186;Belime;x
+2349;61;67;186;Torucaal;x
+2350;61;61;186;Allunam;x
+2351;124;105;51;Tashni;x
 2352;175;92;82;Sparwood2352;x
-2353;175;82;82;Sparwood2353;x
-2354;52;143;239;Sparwood2354;x
-2355;140;186;255;Silver Knife;x
+2353;175;82;82;Humburva;x
+2354;52;143;239;Cerysini;x
+2355;140;186;255;Silverknife;x
 2356;119;160;214;Sparwood2356;x
 2357;127;170;226;Sparwood2357;x
 2358;127;165;226;Sparwood2358;x
@@ -3360,7 +3360,7 @@ province;red;green;blue;x;x
 3359;117;23;19;Isle of Starvation;x
 3360;150;31;25;Isle of Hunger;x
 3361;130;25;22;Isle of Chunks;x
-3362;160;255;228;Haven3362;x
+3362;160;255;228;Carankaw;x
 3363;142;226;201;Haven3363;x
 3364;151;239;213;Haven3364;x
 3365;133;211;188;Haven3365;x
@@ -4754,7 +4754,6 @@ province;red;green;blue;x;x
 4753;24;24;24;SyltorWastes4753;x
 4754;26;26;26;SyltorWastes4754;x
 4755;20;54;92;Sylt4755;x
-4756;170;19;11;Sylt4756;x
 4977;51;51;51;Akratia;x
 4978;63;63;63;Frozen Wastes;x
 4979;102;102;102;Wandering Deserts;x
