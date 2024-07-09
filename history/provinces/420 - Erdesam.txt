@@ -4,7 +4,7 @@ owner = O20
 controller = O20
 add_core = O20
 
-culture = low_ryzani
+culture = goldhill_dwarf
 religion = tossanism
 capital = ""
 

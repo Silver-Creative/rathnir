@@ -757,6 +757,9 @@ dwarven_group = {
 	sea_dwarf = {
 
 	}
+	goldhill_dwarf = {
+		
+	}
 }
 
 brothian_group = {
