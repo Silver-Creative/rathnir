@@ -19,7 +19,7 @@ audalad_group = {
 		}
 
 		male_names = {
-			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -33,7 +33,7 @@ audalad_group = {
 		}
 
 		male_names = {
-			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -90,7 +90,7 @@ audalad_group = {
 		}
 
 		male_names = {
-			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -98,14 +98,14 @@ audalad_group = {
 		}
 	}
 	taloran = {
-		#primary = A03 #Tàlor
+		#primary = A03 #Tï¿½lor
 
 		dynasty_names = {
 			Audalad Rochelle Argenti Dynami
 		}
 
 		male_names = {
-			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -113,19 +113,19 @@ audalad_group = {
 		}
 	}
 	theioniki = {
-		#primary = A01 #Theiónikos
+		#primary = A01 #Theiï¿½nikos
 		
 		dynasty_names = {
-			Audalad Caicuria Galus Amossi Keírikos
+			Audalad Caicuria Galus Amossi Keï¿½rikos
 		}
 
 		male_names = {
-			Hákon "Bób Pullus" Xérxes Círandir
-			Adónis Belísaros Érbor Décimus Cáecil Káloman Átticus "Attálios Pórtu" Félicus Nárthedir
+			Hï¿½kon "Bï¿½b Pullus" Xï¿½rxes Cï¿½randir
+			Adï¿½nis Belï¿½saros ï¿½rbor Dï¿½cimus Cï¿½ecil Kï¿½loman ï¿½tticus "Attï¿½lios Pï¿½rtu" Fï¿½licus Nï¿½rthedir
 		}
 
 		female_names = {
-			Pártha Dióni Altáni Héla Aélia Felícia
+			Pï¿½rtha Diï¿½ni Altï¿½ni Hï¿½la Aï¿½lia Felï¿½cia
 		}
 	}
 	gebelish = {
@@ -157,24 +157,24 @@ audalad_group = {
 		}
 	}
 	anoshphite = {
-		#primary = A02 #Anòshphéy
+		#primary = A02 #Anï¿½shphï¿½y
 		
 		dynasty_names = {
-			Audalad Caicuria Galus Amossi Keírikos "Orne'Valerin"
+			Audalad Caicuria Galus Amossi Keï¿½rikos "Orne'Valerin"
 		}
 
 		male_names = {
-			Senekín Yìrs Anòkín Ylor Carrù Éather Lúnkín Éan Pontéos Nyles
-			Lé Éathùr Nylùs Ylùr Aléuos Pontúos Uséri Aulézhlùr Ùrallùh Mirùn
-			Pálcèrù Éllùn Senùkin Sìrllyhnù Jeùnvìl Théissù Érisséon Míeng Vìttérikùs
-			Ùldrokù Ponntìrù Ònmùn Éirùs Torùn
+			Senekï¿½n Yï¿½rs Anï¿½kï¿½n Ylor Carrï¿½ ï¿½ather Lï¿½nkï¿½n ï¿½an Pontï¿½os Nyles
+			Lï¿½ ï¿½athï¿½r Nylï¿½s Ylï¿½r Alï¿½uos Pontï¿½os Usï¿½ri Aulï¿½zhlï¿½r ï¿½rallï¿½h Mirï¿½n
+			Pï¿½lcï¿½rï¿½ ï¿½llï¿½n Senï¿½kin Sï¿½rllyhnï¿½ Jeï¿½nvï¿½l Thï¿½issï¿½ ï¿½rissï¿½on Mï¿½eng Vï¿½ttï¿½rikï¿½s
+			ï¿½ldrokï¿½ Ponntï¿½rï¿½ ï¿½nmï¿½n ï¿½irï¿½s Torï¿½n
 		}
 
 		female_names = {
-			Érissia Uldroka Elenor Ahrín
-			Yìrra Lúnka Éanna Carrà Léa Éatherra Nyláh Ylày Alérràh Pontéas Uséràh Aulézhlàr
-			Anòkà Ùralléah Miráin Pálcèra Éllaníra Senakín Sìrillyhnà Jeanvìl Théissà Érissa
-			Míang Vìttérikàs Ùldrokàh Ponntìrà Ònminà Éiràs Toràna
+			ï¿½rissia Uldroka Elenor Ahrï¿½n
+			Yï¿½rra Lï¿½nka ï¿½anna Carrï¿½ Lï¿½a ï¿½atherra Nylï¿½h Ylï¿½y Alï¿½rrï¿½h Pontï¿½as Usï¿½rï¿½h Aulï¿½zhlï¿½r
+			Anï¿½kï¿½ ï¿½rallï¿½ah Mirï¿½in Pï¿½lcï¿½ra ï¿½llanï¿½ra Senakï¿½n Sï¿½rillyhnï¿½ Jeanvï¿½l Thï¿½issï¿½ ï¿½rissa
+			Mï¿½ang Vï¿½ttï¿½rikï¿½s ï¿½ldrokï¿½h Ponntï¿½rï¿½ ï¿½nminï¿½ ï¿½irï¿½s Torï¿½na
 		}
 	}
 	shimmere = {
@@ -185,7 +185,7 @@ audalad_group = {
 		}
 
 		male_names = {
-			Hákon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
 		}
 
 		female_names = {
@@ -231,11 +231,11 @@ sagaviri_group = {
 		#primary = A11 #Lapidosa
 		
 		dynasty_names = {
-			"se Kair'vern" "se Livelín" Valérinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
+			"se Kair'vern" "se Livelï¿½n" Valï¿½rinn "se Radovir" Berengath "se Virelgar" "se Kair'lann"
 		}
 
 		male_names = {
-			Rithaur Artorinn Tálos Talanthas Vorian
+			Rithaur Artorinn Tï¿½los Talanthas Vorian
 			Aldrik Alessandir Arstenn Iakes Outher Therenn Theres Sinaur Sinthor Ynaur
 		}
 
@@ -596,7 +596,7 @@ low_luthic_group = {
 			Jecten Drakakus Falquarion Everthorne Uzair Atton Flickeye Peter Derius
 		}
 		female_names = {
-			Rémnés Aymeric
+			Rï¿½mnï¿½s Aymeric
 		}
 	}
 	rodean = {
@@ -612,7 +612,7 @@ low_luthic_group = {
 	}
 
 	female_names = {
-		Rémnés
+		Rï¿½mnï¿½s
 	}
 }
 
@@ -688,7 +688,7 @@ seraan_group = {
 		primary = A21 #Lirgal
 
 		dynasty_names = {
-			Accero Ellan Deárinn
+			Accero Ellan Deï¿½rinn
 		}
 	}
 	
@@ -701,15 +701,15 @@ seraan_group = {
 	}
 
 	dynasty_names = {
-		Halsar Dandur Vasaian Mãe'taí
+		Halsar Dandur Vasaian Mï¿½e'taï¿½
 
-		#Lost Noble Houses: Damalor Loriã
+		#Lost Noble Houses: Damalor Loriï¿½
 	}
 	male_names = {
-		Cael Nitlós Kar Vopran Talanaas Cali Lai Tir Altor Fedre Authe Sjatyre Saraim Tali
+		Cael Nitlï¿½s Kar Vopran Talanaas Cali Lai Tir Altor Fedre Authe Sjatyre Saraim Tali
 	}
 	female_names = {
-		Aldara Ellira Cali Ammara Moitiré Lairé Alea Dáido Selã Maimara Dana Authe Sjatyre Leryla Seréa Lynadara Lerá Néa Merine
+		Aldara Ellira Cali Ammara Moitirï¿½ Lairï¿½ Alea Dï¿½ido Selï¿½ Maimara Dana Authe Sjatyre Leryla Serï¿½a Lynadara Lerï¿½ Nï¿½a Merine
 	}
 }
 
@@ -887,7 +887,7 @@ andornian = {
 		"von Savras" "von Kendal" "de Casul" Gryphen Dubois "Ain Medlek" Blythe
 	}
 	male_names = {
-		Raj George Patch Himo Michio Melchior Oranje Lucius Salos David Benjamin Otto Maevel Hernicii Omél Xev Henry Jingo Striker Denre Bingo Mel Lerf
+		Raj George Patch Himo Michio Melchior Oranje Lucius Salos David Benjamin Otto Maevel Hernicii Omï¿½l Xev Henry Jingo Striker Denre Bingo Mel Lerf
 	}
 	female_names = {
 		Rovena Bobo Ian Robyn Kasumi Hymchiafa
@@ -919,7 +919,7 @@ luxian_group = {
 
 	kuzat = {
 		dynasty_names = {
-			Hejetür Zahir Bunky Edur Vinquist "av Iliya"
+			Hejetï¿½r Zahir Bunky Edur Vinquist "av Iliya"
 		}
 	
 		male_names = {
@@ -1101,22 +1101,22 @@ natalian_group = {
 
 		dynasty_names = {
 			Qisim-tashkhand Haban-bevk Scandus-mian Kang-zak Monshil-nak
-			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand Valira
+			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nï¿½gh-torunkhand Valira
 		}
 
 		male_names = {
 			Talla Asselli Rimuun Yazikk Sibash Hassan Yarokk
-			Gezuus Ekur Siyoi Zhawwer Loyer Jánchuw Rewwokh 
-			Annun Gábim Buxu Mazai Numun Bartu Khulan Oghul
+			Gezuus Ekur Siyoi Zhawwer Loyer Jï¿½nchuw Rewwokh 
+			Annun Gï¿½bim Buxu Mazai Numun Bartu Khulan Oghul
 			Tayang Osol Bhakto Batu Maral Tsering Yalin Altan
-			Surat Bogen Nasiv Jiba Alexo Qad Ubara Shakha Maryám
+			Surat Bogen Nasiv Jiba Alexo Qad Ubara Shakha Maryï¿½m
 		}
 
 		female_names = {
 			Inild Yesui Talla Asselli Rimuun Gezuus Ekur Siyoi
-			Loyer Gábim Buxu Mazai Numun Suke Khulan Yeke
+			Loyer Gï¿½bim Buxu Mazai Numun Suke Khulan Yeke
 			Baidu Kara Yesui Juma Kareh Gheni Nasiv Jiba
-			Qad Ubara Shakha Maryám
+			Qad Ubara Shakha Maryï¿½m
 		}
 	}
 	caedan = {
@@ -1302,13 +1302,13 @@ silvish_group = {
 	}
 
 	dynasty_names = {
-		"of Silvay" "of Fortuna" "of Aezenfjord" "of Valdreach" "of Dragonreach" Salvay Azgren Yöday Arzenay Berlagen Salapeg 
+		"of Silvay" "of Fortuna" "of Aezenfjord" "of Valdreach" "of Dragonreach" Salvay Azgren Yï¿½day Arzenay Berlagen Salapeg 
 	}
 	male_names = {
-		Seveg Brezger Yolwann Ioudëc yowann Tergez Haveg Fareg Azreg Morez
+		Seveg Brezger Yolwann Ioudï¿½c yowann Tergez Haveg Fareg Azreg Morez
 	}
 	female_names = {
-		Gawel Houët Soazic Jalic Maiouet Bernel Orhoüis Elieg Maouell Giwen Mëlienn Touwett Piwen Kaikarenn Cresiel
+		Gawel Houï¿½t Soazic Jalic Maiouet Bernel Orhoï¿½is Elieg Maouell Giwen Mï¿½lienn Touwett Piwen Kaikarenn Cresiel
 	}
 }
 
@@ -1344,3 +1344,22 @@ kostucan_group = {
 	}
 }
 
+valdic_group = {
+	graphical_culture = muslimgfx
+
+	tol_kalasi = {
+		primary = R00 #Tol Kalas (Formerly Greenland)
+		
+		dynasty_names = {
+			Audalad "Maximos Caicuria" Mosulia "Orne'Valerin" Rochelle Amossi
+		}
+
+		male_names = {
+			Hï¿½kon Auriliz Daritumi Nargashar Lexadi Hash Suni Utur Ramadi Odil Naru Igu
+		}
+
+		female_names = {
+			Seramida Ardamine Ederai Lerai Ifaeri
+		}
+	}
+}
