@@ -647,6 +647,21 @@ talawan_group = {
 	halfelf = {
 
 	}
+	luciwan = {
+
+	}
+
+	kaskam_talawan = {
+
+	}
+
+	kuntarran = {
+
+	}
+
+	muntarran = {
+
+	}
 
 	dynasty_names = {
 		Talewan Knight Lehad Nepidsu Tudhaliyal Pisulawiya Triy'iya Yehev Shaye Amakiir Mogwai Karhu
@@ -899,6 +914,60 @@ ardatian_group = {
 	}
 }
 
+luxian_group = {
+	graphical_culture = muslimgfx
+
+	kuzat = {
+		dynasty_names = {
+			Hejetür Zahir Bunky Edur Vinquist "av Iliya"
+		}
+	
+		male_names = {
+			Jeremiah Iou Orl Orle Orleborle
+		}
+	
+		female_names = {
+			Xoda
+		}
+	}
+
+	tranquebar = {
+
+	}
+
+	solisian = {
+		dynasty_names = {
+			Cahya Masaja
+		}
+	
+		male_names = {
+			Peter Prajuri
+		}
+	
+		female_names = {
+			Xoda Emelyn
+		}
+	}
+
+	mithusan = {
+		dynasty_names = {
+			Relin "Lihon-Flammy" Antonius Suleiman Fox Wayfarer Montu Kiunn
+		}
+	}
+
+	dynasty_names = {
+		Zahir Edur Masaja Razim
+	}
+
+	male_names = {
+		Lucioio Orsic Fantok Evutra Alonche Alman Lazarus Yuzef Iou Zedis Orl Orle Orleborle Orleschorle
+	}
+
+	female_names = {
+		Xoda Emelyn Eleanor Riki Novus
+	}
+}
+
 hearthmen_group = {
 	graphical_culture = westerngfx
 
@@ -939,6 +1008,91 @@ hearthmen_group = {
 	}
 }
 
+khaven_group = {
+	graphical_culture = asiangfx
+
+	vinovian = {
+
+	}
+
+	draaken = {
+
+	}
+
+	bulkeen = {
+
+	}
+
+	teladian = {
+
+	}
+
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		Ringo
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+zerith_group = {
+	graphical_culture = muslimgfx
+	
+	null_ari = {
+
+	}
+
+	lauren = {
+
+	}
+
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		PLACEHOLDER
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+chevkri_group = {
+	graphical_culture = easterngfx
+	
+	kezklarfini = {
+
+	}
+
+	kheldashfini = {
+
+	}
+	elekfini = {
+
+	}
+	chevkrelemi = {
+
+	}
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		PLACEHOLDER
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
 natalian_group = {
 	graphical_culture = turkishgfx
 
@@ -947,7 +1101,7 @@ natalian_group = {
 
 		dynasty_names = {
 			Qisim-tashkhand Haban-bevk Scandus-mian Kang-zak Monshil-nak
-			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand
+			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand Valira
 		}
 
 		male_names = {
@@ -955,7 +1109,7 @@ natalian_group = {
 			Gezuus Ekur Siyoi Zhawwer Loyer Jánchuw Rewwokh 
 			Annun Gábim Buxu Mazai Numun Bartu Khulan Oghul
 			Tayang Osol Bhakto Batu Maral Tsering Yalin Altan
-			Surat Bogen Nasiv Jiba Qad Ubara Shakha Maryám
+			Surat Bogen Nasiv Jiba Alexo Qad Ubara Shakha Maryám
 		}
 
 		female_names = {
@@ -1157,5 +1311,36 @@ silvish_group = {
 		Gawel Houët Soazic Jalic Maiouet Bernel Orhoüis Elieg Maouell Giwen Mëlienn Touwett Piwen Kaikarenn Cresiel
 	}
 }
-	
+
+kostucan_group = {
+	graphical_culture = easterngfx
+
+	arxellan = {
+
+	}
+
+	litonian = {
+
+	}
+
+	kozenian = {
+
+	}
+
+	zambezi = {
+
+	}
+
+	dynasty_names = {
+		Koza Siragele Siraer
+	}
+
+	male_names = {
+		Barperuk Austus Asarif Ruton
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
 

@@ -102,6 +102,10 @@
   kaahirun: "Kaahirun"
   fuciwan: "Fuciwan"
   halfelf: "Half-elf"
+  luciwan: "Luciwan"
+  kaskam_talawan: "Kaskam Talawan"
+  kuntarran: "Kuntarran"
+  muntarran: "Muntarran"
  seraan_group: "Seraan" #Seraan Group
   olaran: "Olarãn"
   lirgalyn: "Lirgalyn"
@@ -160,6 +164,11 @@
   savrayian: "Savrayian"
   wivamovian: "Wivamovian"
   central_andornic: "Central Andornic"
+ kostucan_group: "Kostucan" #Kostucan Group
+  arxellan: "Arxellan"
+  litonian: "Litonian"
+  kozenian: "Kozenian"
+  zambezi: "Zambezi"
  hearthmen_group: "Hearthmen" #Paloran Group
   paloran: "Paloran"
   paloroti_che: "Paloroti Chejova"
@@ -167,4 +176,21 @@
   lormerian: "Lormerian"
   cratmen: "Cratmen"
   trouchen: "Trouchen"
-  
+ khaven_group: "Khaven" #Khaven Group
+  vinovian: "Vinovian"
+  draaken: "Draaken"
+  bulkeen: "Bulkeen"
+  teladian: "Teladian"
+ zerith_group: "Zerith" #Zerith Group
+  null_ari: "Null'Ari"
+  lauren: "Lauren"
+ chevkri: "Chevkri" #Chevkri Group
+  kezklarfini: "Kezklarfini"
+  kheldashfini: "Kheldashfini"
+  elekfini: "Elekfini"
+  chevkrelemi: "Chevkrelemi"
+ luxian_group: "Luxian" #Luxian Group
+  kuzat: "Kuzat"
+  tranquebar: "Tranquebar"
+  solisian: "Solisian"
+  mithusan: "Mithusan"
