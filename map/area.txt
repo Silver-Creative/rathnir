@@ -1337,7 +1337,7 @@ tummawa_area = {
 	2161 2162 2163 2164 2313 2314 
 }
 eastern_lukkawa_area = { 
-	2181 2182 2321 2324 
+	2181 2182 2321 2324 2180 
 }
 western_lukkawa_area = { 
 	2183 2322 2323 
@@ -4058,4 +4058,301 @@ seine_area = {
 brabant_area = { 
 }
 luxemburg_liege_area = { 
+}
+north_hatanimitas_area = { 
+	2401 2400 2403 2402 
+}
+West Hatanimitas = { 
+	2404 2405 2406 
+}
+East Hatanimitas = { 
+	2407 2409 2408 2410 
+}
+Litakun = { 
+	2412 2411 2413 2414 2415 
+}
+Tudkhilna = { 
+	2416 2420 2419 2418 2417 
+}
+Lla = { 
+	2422 2421 2425 2424 2423 
+}
+Tajriba = { 
+	2427 2426 2428 2429 
+}
+Upper Mithusu = { 
+	2432 2430 2431 2434 2433 
+}
+Wa Ghfir = { 
+	2435 2439 2438 2436 2437 
+}
+Wa Khobanza = { 
+	2442 2440 2441 2443 
+}
+Tiatua Isthmus = { 
+	2445 2446 2447 2448 2449 
+}
+Upper Montroig = { 
+	2444 2450 2451 2452 
+}
+Liyati = { 
+	2453 2454 2456 2455 
+}
+Isle of Dogs = { 
+	2457 2458 2459 2729 
+}
+Greater Knedik = { 
+	2460 2462 2463 2461 2395 
+}
+Greater Mauki = { 
+	2466 2467 2464 2465 2468 
+}
+Zhaitker-Klend = { 
+	2471 2470 2472 2469 2473 
+}
+Greater Russantia = { 
+	2474 2475 2476 
+}
+WIP Lower Claw = { 
+	2479 2477 2478 
+}
+Greater Veltuga = { 
+	2480 2482 2483 2484 2481 
+}
+Lower Montroig = { 
+	2485 2486 2488 2487 
+}
+Greater Misthallery = { 
+	2490 2489 2491 2492 
+}
+Brohemian Grove = { 
+	2497 2496 2495 2494 2493 
+}
+Upper Urusia = { 
+	2498 2499 2500 
+}
+Rexhold = { 
+	2501 2502 2503 2504 
+}
+Greater Meram = { 
+	2505 2506 2507 2508 
+}
+WIP Mari = { 
+	2512 2511 2510 2513 
+}
+WIP Jcon Desert = { 
+	2517 2516 2515 2514 
+}
+Newcher = { 
+	2518 2519 2520 
+}
+Naraj = { 
+	2522 2521 2523 2525 2524 
+}
+WIP Aether = { 
+	2528 2529 2527 2526 
+}
+Umbrian Lowlands = { 
+	2532 2531 2534 2530 2533 
+}
+Greater Valresh = { 
+	2535 2537 2538 2536 2539 
+}
+Greater Ecladious = { 
+	2541 2540 2542 
+}
+Kheshmega = { 
+	2543 2545 2546 2547 2399 
+}
+Alokhrad = { 
+	2544 2551 2550 2548 2549 
+}
+Scaliga = { 
+	2552 2553 2554 2555 
+}
+WIP Far Ynhwta = { 
+	2558 2557 2556 2559 
+}
+West Ynhwta = { 
+	2561 2560 2562 
+}
+East Ynhwta = { 
+	2397 2566 2565 2563 2564 
+}
+WIP Oliende = { 
+	2569 2568 2567 
+}
+Berithkhani = { 
+	2570 2571 2572 2573 
+}
+Tanto Desert = { 
+	2574 2575 3966 2577 2578 
+}
+Aroshaqla = { 
+	2582 2581 2580 2579 
+}
+Sindemlem = { 
+	2583 2584 2585 
+}
+WIP Pikepoint = { 
+	2586 3965 2588 2589 
+}
+Barnuqhold = { 
+	2592 2591 2590 
+}
+Alonde = { 
+	2597 2596 2595 2594 2593 
+}
+Greater Alagadda = { 
+	2598 2599 2600 2601 2602 
+}
+WIP Wulvaga = { 
+	2604 2605 2606 2603 
+}
+Alvarian Highlands = { 
+	2610 2611 2607 2609 2608 
+}
+Safir = { 
+	2612 2613 2615 2614 2616 
+}
+WIP MEakAN = { 
+	2617 2618 2619 2620 2621 
+}
+East Refuge = { 
+	2961 2624 2623 2622 
+}
+East Hallowed = { 
+	2625 2626 2627 2628 
+}
+North Sanctified = { 
+	2630 2629 2631 2632 2633 
+}
+West Kal'Thax = { 
+	2634 2635 2637 2638 2636 
+}
+East Kal'Thax = { 
+	2642 2639 2641 2640 
+}
+Kenedrum = { 
+	2643 2644 2645 2647 2646 
+}
+West Refuge = { 
+	2651 2650 2648 2649 
+}
+South Refuge = { 
+	2653 2655 3961 2652 
+}
+Brewholm = { 
+	2509 2656 2657 2658 2659 
+}
+Asylum = { 
+	2660 2661 2662 2663 
+}
+Sanctum = { 
+	2664 3959 2666 
+}
+High Sanctity = { 
+	2667 2668 2669 
+}
+New Dun'wulch = { 
+	3963 2670 2673 2672 
+}
+Reverance = { 
+	2674 2675 2676 2677 2678 
+}
+Sacred = { 
+	2681 3958 3960 2683 2679 
+}
+Barak'varr = { 
+	2684 2685 2686 2687 
+}
+Yostyrheim = { 
+	2689 2688 2690 
+}
+East Ethersidus = { 
+	2694 2693 2691 2692 
+}
+West Ethersidus = { 
+	2695 2698 2699 2697 2696 
+}
+WIP Outer Servamon = { 
+	2702 2701 2700 
+}
+WIP Dearman = { 
+	2705 3962 2703 
+}
+WIP Dearmani Desert = { 
+	2707 2706 2708 
+}
+Halasralas = { 
+	2709 2712 2711 2710 
+}
+Hapatralas = { 
+	2714 2713 2715 
+}
+Aragats Desert = { 
+	2718 2717 2716 
+}
+Gefail = { 
+	2719 2720 2721 2722 2723 
+}
+WIP Draackar = { 
+	2727 2726 2725 2724 
+}
+WIP Vinovia = { 
+	2728 2730 2731 
+}
+Asahiri = { 
+	2733 2732 2734 2736 2735 
+}
+Chefjeo = { 
+	2737 2738 2739 2741 2740 
+}
+Paloro Jacheja = { 
+	2742 2743 2744 
+}
+Greater Palovina = { 
+	2745 2747 2746 2748 
+}
+West Raya = { 
+	2753 2752 2751 2750 2749 
+}
+High Kalmara = { 
+	2759 2755 2754 
+}
+Halasketat = { 
+	2758 2756 2757 
+}
+Lesser Talawa = { 
+	2762 2761 2760 2763 2764 
+}
+Traa Ewuala = { 
+	2765 2766 2767 2768 
+}
+Hassat'ikas = { 
+	2769 2772 2770 2771 
+}
+Saliovah = { 
+	2776 2775 2774 2773 
+}
+Rovutopar = { 
+	2781 2779 2780 2778 2777 
+}
+Northport Peninsula = { 
+	2782 2785 2786 2787 2784 2783 
+}
+Bluevalley = { 
+	2791 2789 2788 2790 
+}
+Rakincoast = { 
+	2792 2794 2793 2795 
+}
+Vukeshpar = { 
+	2796 2797 2798 
+}
+Wa Hassapa = { 
+	2801 2800 2799 2802 
+}
+WIP Jesswall = { 
+	2803 2804 2805 2806 
 }

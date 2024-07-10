@@ -731,3 +731,8 @@ south_atlantic_region = {
 	areas = { 
 	}
 }
+Red Kingdom = { 
+	areas = { 
+		north_hatanimitas_area West Hatanimitas East Hatanimitas Wa Khobanza Litakun Tiatua Isthmus Isle of Dogs 
+	}
+}

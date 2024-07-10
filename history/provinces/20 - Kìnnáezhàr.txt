@@ -1,10 +1,10 @@
-# 20 - Kìnnáezhàr
+# 20 - Kï¿½nnï¿½ezhï¿½r
 
-owner = A00
-controller = A00
-add_core = A00
+owner = A05
+controller = A05
+add_core = A05
 
-culture = idan-ridu
+culture = huronad
 religion = red_cult
 capital = ""
 

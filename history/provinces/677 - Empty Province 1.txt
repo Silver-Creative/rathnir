@@ -1,0 +1,23 @@
+# 677 - Empty Province 1
+
+culture = nan
+religion = etherflame
+capital = ""
+
+hre = no
+
+base_tax = 0
+base_production = 0
+base_manpower = 0
+
+trade_goods = nan
+
+is_city = no
+fort_15th = no
+
+discovered_by = tech_alteniquian
+discovered_by = tech_vastallosi
+discovered_by = tech_niedene
+discovered_by = tech_luthic
+discovered_by = tech_vraelean
+discovered_by = tech_aldoviri

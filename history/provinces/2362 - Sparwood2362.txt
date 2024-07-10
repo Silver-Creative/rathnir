@@ -12,7 +12,7 @@ base_manpower = 1
 
 trade_goods = lumber
 
-is_city = nan
+is_city = no
 fort_15th = nan
 
 discovered_by = tech_alteniquian

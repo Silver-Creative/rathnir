@@ -58,6 +58,7 @@ with open('map/definition.csv', 'r', encoding='UTF-8') as definition:
             continue
         else:
             provID = int(line_arr[0])
+            print("we are at " + str(provID))
             if provID > 4970:
                 wip.append(provID)
             else:

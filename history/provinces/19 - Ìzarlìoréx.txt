@@ -1,10 +1,10 @@
 # 19 - Ìzarlìoréx
 
-owner = A00
-controller = A00
-add_core = A00
+owner = A05
+controller = A05
+add_core = A05
 
-culture = idan-ridu
+culture = audalad
 religion = theiosism
 capital = ""
 

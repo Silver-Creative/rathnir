@@ -45,7 +45,7 @@ forest_valdreach_superregion = {
 	silvay_region sorveien_region 
 }
 imperial_valdreach_superregion = { 
-	tvear_region adytum_region valron_region 
+	tvear_region adytum_region valron_region Red Kingdom 
 }
 tsaeloma_superregion = { 
 	tsaeloma_region 
