@@ -595,7 +595,7 @@ qamigava_area = {
 ombran_islands_area = { 
 	745 746 747 
 }
-#Outer Vastallos (Vastallos, Alteniquia)
+#outer Vastallos (Vastallos, Alteniquia)
 high_dracade_area = { 
 	350 351 1335 1336 
 }
@@ -1783,7 +1783,7 @@ bourgogne_area = {  #5
 massif_central_area = {  #3
 
 }
-savoy_dauphine_area = {  #3 Savoy and Dauphin�, Upper Burgundy 
+savoy_dauphine_area = {  #3 Savoy and Dauphin�, upper Burgundy 
 
 }
 lorraine_area = {  #3
@@ -2023,10 +2023,10 @@ curonia_area = {  #3
 east_prussia_area = {  #4
 
 }
-pomerelia_area = {  #3 (North West Prussia)
+pomerelia_area = {  #3 (North west Prussia)
 
 }
-west_prussia_area = {  #3 (South West Prussia)
+west_prussia_area = {  #3 (South west Prussia)
 
 }
 wielkopolska_area = {  #4
@@ -2485,7 +2485,7 @@ bahari_area = {  #4 #Lower Egypt
 vostani_area = {  #3 #Middle Egypt
 
 }
-said_area = {  #5 #Upper Egypt
+said_area = {  #5 #upper Egypt
 
 }
 tripolitania_area = {  #3
@@ -2537,7 +2537,7 @@ northern_morocco_area = {  #3
 
 }
 ########################################
-# East Africa					       #
+# east Africa					       #
 ########################################
 madagascar_highlands_area = {  #3
 
@@ -2756,7 +2756,7 @@ te_waipounamu_area = {  #3
 
 }
 ########################################
-# West Africa					       #
+# west Africa					       #
 ########################################
 western_sahara_area = {  #5
 
@@ -2867,7 +2867,7 @@ south_african_plateau_area = {  #5
 
 }
 ########################################
-# Greater Persia		               #
+# greater Persia		               #
 ########################################
 makran_area = {  #5
 
@@ -3143,7 +3143,7 @@ northern_thai_area = {  #3
 ########################################
 # Indonesia  	                       #
 ########################################
-mindanao_area = {  #3 #East Mindanao
+mindanao_area = {  #3 #east Mindanao
 
 }
 west_mindanao_area = {  #3
@@ -3334,7 +3334,7 @@ ishim_area = {  #4
 ########################################
 # China      	                       #
 ########################################
-heilongjiang_area = {  #3 (West Heilongjiang)
+heilongjiang_area = {  #3 (west Heilongjiang)
 
 }
 east_heilongjiang_area = {  #4
@@ -3490,7 +3490,7 @@ shanxi_area = {  #5
 shaanxi_area = {  #4
 
 }
-gansu_area = {  #5 (East Gansu)
+gansu_area = {  #5 (east Gansu)
 
 }
 west_gansu_area = {  #4 
@@ -4059,300 +4059,303 @@ brabant_area = {
 }
 luxemburg_liege_area = { 
 }
+
+#Haven Areas
+
 north_hatanimitas_area = { 
 	2401 2400 2403 2402 
 }
-West Hatanimitas = { 
+west_hatanimitas_area = { 
 	2404 2405 2406 
 }
-East Hatanimitas = { 
+east_hatanimitas_area = { 
 	2407 2409 2408 2410 
 }
-Litakun = { 
+litakun_area = { 
 	2412 2411 2413 2414 2415 
 }
-Tudkhilna = { 
+tudkhilna_area = { 
 	2416 2420 2419 2418 2417 
 }
-Lla = { 
+lla_area = { 
 	2422 2421 2425 2424 2423 
 }
-Tajriba = { 
+tajriba_area = { 
 	2427 2426 2428 2429 
 }
-Upper Mithusu = { 
+upper_mithusu_area = { 
 	2432 2430 2431 2434 2433 
 }
-Wa Ghfir = { 
+wa_ghfir_area = { 
 	2435 2439 2438 2436 2437 
 }
-Wa Khobanza = { 
+wa_khobanza_area = { 
 	2442 2440 2441 2443 
 }
-Tiatua Isthmus = { 
+tiatua_isthmus_area = { 
 	2445 2446 2447 2448 2449 
 }
-Upper Montroig = { 
+upper_montroig_area = { 
 	2444 2450 2451 2452 
 }
-Liyati = { 
+liyati_aea = { 
 	2453 2454 2456 2455 
 }
-Isle of Dogs = { 
+isle_of_dogs_area = { 
 	2457 2458 2459 2729 
 }
-Greater Knedik = { 
+greater_knedik_area = { 
 	2460 2462 2463 2461 2395 
 }
-Greater Mauki = { 
+greater_mauki_area = { 
 	2466 2467 2464 2465 2468 
 }
-Zhaitker-Klend = { 
+zhaitker_klend_area = { 
 	2471 2470 2472 2469 2473 
 }
-Greater Russantia = { 
+greater_russantia_area = { 
 	2474 2475 2476 
 }
-WIP Lower Claw = { 
+wip_lower_claw_area = { 
 	2479 2477 2478 
 }
-Greater Veltuga = { 
+greater_veltuga_area = { 
 	2480 2482 2483 2484 2481 
 }
-Lower Montroig = { 
+lower_montroig_area = { 
 	2485 2486 2488 2487 
 }
-Greater Misthallery = { 
+greater_misthallery_area = { 
 	2490 2489 2491 2492 
 }
-Brohemian Grove = { 
+brohemian_grove_area = { 
 	2497 2496 2495 2494 2493 
 }
-Upper Urusia = { 
+upper_urusia_area = { 
 	2498 2499 2500 
 }
-Rexhold = { 
+rexhold_area = { 
 	2501 2502 2503 2504 
 }
-Greater Meram = { 
+greater_meram_area = { 
 	2505 2506 2507 2508 
 }
-WIP Mari = { 
+wip_mari_area = { 
 	2512 2511 2510 2513 
 }
-WIP Jcon Desert = { 
+wip_jcon_desert_area = { 
 	2517 2516 2515 2514 
 }
-Newcher = { 
+newcher_area = { 
 	2518 2519 2520 
 }
-Naraj = { 
+naraj_area = { 
 	2522 2521 2523 2525 2524 
 }
-WIP Aether = { 
+wip_aether_area = { 
 	2528 2529 2527 2526 
 }
-Umbrian Lowlands = { 
+umbrian_lowlands_area = { 
 	2532 2531 2534 2530 2533 
 }
-Greater Valresh = { 
+greater_valresh_area = { 
 	2535 2537 2538 2536 2539 
 }
-Greater Ecladious = { 
+greater_ecladious_area = { 
 	2541 2540 2542 
 }
-Kheshmega = { 
+kheshmega_area = { 
 	2543 2545 2546 2547 2399 
 }
-Alokhrad = { 
+alokhrad_area = { 
 	2544 2551 2550 2548 2549 
 }
-Scaliga = { 
+scaliga_area = { 
 	2552 2553 2554 2555 
 }
-WIP Far Ynhwta = { 
+wip_far_ynhwta_area = { 
 	2558 2557 2556 2559 
 }
-West Ynhwta = { 
+west_ynhwta_area = { 
 	2561 2560 2562 
 }
-East Ynhwta = { 
+east_ynhwta_area = { 
 	2397 2566 2565 2563 2564 
 }
-WIP Oliende = { 
+wip_oliende_area = { 
 	2569 2568 2567 
 }
-Berithkhani = { 
+berithkhani_area = { 
 	2570 2571 2572 2573 
 }
-Tanto Desert = { 
+tanto_desert_area = { 
 	2574 2575 3966 2577 2578 
 }
-Aroshaqla = { 
+aroshaqla_area = { 
 	2582 2581 2580 2579 
 }
-Sindemlem = { 
+sindemlem_area = { 
 	2583 2584 2585 
 }
-WIP Pikepoint = { 
+wip_pikepoint_area = { 
 	2586 3965 2588 2589 
 }
-Barnuqhold = { 
+barnuqhold_area = { 
 	2592 2591 2590 
 }
-Alonde = { 
+alonde_area = { 
 	2597 2596 2595 2594 2593 
 }
-Greater Alagadda = { 
+greater_alagadda_area = { 
 	2598 2599 2600 2601 2602 
 }
-WIP Wulvaga = { 
+wip_wulvaga_area = { 
 	2604 2605 2606 2603 
 }
-Alvarian Highlands = { 
+alvarian_highlands_area = { 
 	2610 2611 2607 2609 2608 
 }
-Safir = { 
+safir_area = { 
 	2612 2613 2615 2614 2616 
 }
-WIP MEakAN = { 
+wip_meakan_area = { 
 	2617 2618 2619 2620 2621 
 }
-East Refuge = { 
+east_refuge_area = { 
 	2961 2624 2623 2622 
 }
-East Hallowed = { 
+east_hallowed_area = { 
 	2625 2626 2627 2628 
 }
-North Sanctified = { 
+north_sanctified_area = { 
 	2630 2629 2631 2632 2633 
 }
-West Kal'Thax = { 
+west_kal_thax_area = { 
 	2634 2635 2637 2638 2636 
 }
-East Kal'Thax = { 
+east_kal_thax_area = { 
 	2642 2639 2641 2640 
 }
-Kenedrum = { 
+kenedrum_area = { 
 	2643 2644 2645 2647 2646 
 }
-West Refuge = { 
+west_refuge_area = { 
 	2651 2650 2648 2649 
 }
-South Refuge = { 
+south_refuge_area = { 
 	2653 2655 3961 2652 
 }
-Brewholm = { 
+brewholm_area = { 
 	2509 2656 2657 2658 2659 
 }
-Asylum = { 
+asylum_area = { 
 	2660 2661 2662 2663 
 }
-Sanctum = { 
+sanctum_area = { 
 	2664 3959 2666 
 }
-High Sanctity = { 
+high_sanctity_area = { 
 	2667 2668 2669 
 }
-New Dun'wulch = { 
+new_dun_wulch_area = { 
 	3963 2670 2673 2672 
 }
-Reverance = { 
+reverance_area = { 
 	2674 2675 2676 2677 2678 
 }
-Sacred = { 
+sacred_area = { 
 	2681 3958 3960 2683 2679 
 }
-Barak'varr = { 
+barak_varr_area = { 
 	2684 2685 2686 2687 
 }
-Yostyrheim = { 
+yostyrheim_area = { 
 	2689 2688 2690 
 }
-East Ethersidus = { 
+east_ethersidus_area = { 
 	2694 2693 2691 2692 
 }
-West Ethersidus = { 
+west_ethersidus_area = { 
 	2695 2698 2699 2697 2696 
 }
-WIP Outer Servamon = { 
+wip_outer_servamon_area = { 
 	2702 2701 2700 
 }
-WIP Dearman = { 
+wip_dearman_area = { 
 	2705 3962 2703 
 }
-WIP Dearmani Desert = { 
+wip_dearmani_desert_area = { 
 	2707 2706 2708 
 }
-Halasralas = { 
+halasralas_area = { 
 	2709 2712 2711 2710 
 }
-Hapatralas = { 
+hapatralas_area = { 
 	2714 2713 2715 
 }
-Aragats Desert = { 
+aragats_desert_area = { 
 	2718 2717 2716 
 }
-Gefail = { 
+gefail_area = { 
 	2719 2720 2721 2722 2723 
 }
-WIP Draackar = { 
+wip_draackar_area = { 
 	2727 2726 2725 2724 
 }
-WIP Vinovia = { 
+wip_vinovia_area = { 
 	2728 2730 2731 
 }
-Asahiri = { 
+asahiri_area = { 
 	2733 2732 2734 2736 2735 
 }
-Chefjeo = { 
+paloro_chefjeo_area = { 
 	2737 2738 2739 2741 2740 
 }
-Paloro Jacheja = { 
+paloro_jacheja_area = { 
 	2742 2743 2744 
 }
-Greater Palovina = { 
+greater_palovina_area = { 
 	2745 2747 2746 2748 
 }
-West Raya = { 
+west_raya_area = { 
 	2753 2752 2751 2750 2749 
 }
-High Kalmara = { 
+high_kalmara_area = { 
 	2759 2755 2754 
 }
-Halasketat = { 
+halasketat_area = { 
 	2758 2756 2757 
 }
-Lesser Talawa = { 
+lesser_talawa_area = { 
 	2762 2761 2760 2763 2764 
 }
-Traa Ewuala = { 
+traa_ewuala_area = { 
 	2765 2766 2767 2768 
 }
-Hassat'ikas = { 
+hassat_ikas_area = { 
 	2769 2772 2770 2771 
 }
-Saliovah = { 
+saliovah_area = { 
 	2776 2775 2774 2773 
 }
-Rovutopar = { 
+rovutopar_area = { 
 	2781 2779 2780 2778 2777 
 }
-Northport Peninsula = { 
+northport_peninsula_area = { 
 	2782 2785 2786 2787 2784 2783 
 }
-Bluevalley = { 
+bluevalley_area = { 
 	2791 2789 2788 2790 
 }
-Rakincoast = { 
+rakincoast_area = { 
 	2792 2794 2793 2795 
 }
-Vukeshpar = { 
+vukeshpar_area = { 
 	2796 2797 2798 
 }
-Wa Hassapa = { 
+wa_hassapa_area = { 
 	2801 2800 2799 2802 
 }
-WIP Jesswall = { 
+wip_jesswall_area = { 
 	2803 2804 2805 2806 
 }
