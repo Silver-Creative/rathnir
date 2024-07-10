@@ -647,6 +647,21 @@ talawan_group = {
 	halfelf = {
 
 	}
+	luciwan = {
+
+	}
+
+	kaskam_talawan = {
+
+	}
+
+	kuntarran = {
+
+	}
+
+	muntarran = {
+
+	}
 
 	dynasty_names = {
 		Talewan Knight Lehad Nepidsu Tudhaliyal Pisulawiya Triy'iya Yehev Shaye Amakiir Mogwai Karhu
@@ -899,6 +914,185 @@ ardatian_group = {
 	}
 }
 
+luxian_group = {
+	graphical_culture = muslimgfx
+
+	kuzat = {
+		dynasty_names = {
+			Hejetür Zahir Bunky Edur Vinquist "av Iliya"
+		}
+	
+		male_names = {
+			Jeremiah Iou Orl Orle Orleborle
+		}
+	
+		female_names = {
+			Xoda
+		}
+	}
+
+	tranquebar = {
+
+	}
+
+	solisian = {
+		dynasty_names = {
+			Cahya Masaja
+		}
+	
+		male_names = {
+			Peter Prajuri
+		}
+	
+		female_names = {
+			Xoda Emelyn
+		}
+	}
+
+	mithusan = {
+		dynasty_names = {
+			Relin "Lihon-Flammy" Antonius Suleiman Fox Wayfarer Montu Kiunn
+		}
+	}
+
+	dynasty_names = {
+		Zahir Edur Masaja Razim
+	}
+
+	male_names = {
+		Lucioio Orsic Fantok Evutra Alonche Alman Lazarus Yuzef Iou Zedis Orl Orle Orleborle Orleschorle
+	}
+
+	female_names = {
+		Xoda Emelyn Eleanor Riki Novus
+	}
+}
+
+hearthmen_group = {
+	graphical_culture = westerngfx
+
+	paloran = {
+
+	}
+
+	paloroti_che = {
+
+	}
+
+	paloroti_hac = {
+
+	}
+
+	lormerian = {
+
+	}
+
+	cratmen = {
+
+	}
+
+	trouchen = {
+
+	}
+
+	dynasty_names = {
+		diril
+	}
+
+	male_names = {
+		tsoto
+	}
+
+	female_names = {
+		diaria
+	}
+}
+
+khaven_group = {
+	graphical_culture = asiangfx
+
+	vinovian = {
+
+	}
+
+	draaken = {
+
+	}
+
+	bulkeen = {
+
+	}
+
+	teladian = {
+
+	}
+
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		Ringo
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+zerith_group = {
+	graphical_culture = muslimgfx
+	
+	null_ari = {
+
+	}
+
+	lauren = {
+
+	}
+
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		PLACEHOLDER
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+chevkri_group = {
+	graphical_culture = easterngfx
+	
+	kezklarfini = {
+
+	}
+
+	kheldashfini = {
+
+	}
+	elekfini = {
+
+	}
+	chevkrelemi = {
+
+	}
+	dynasty_names = {
+		PLACEHOLDER
+	}
+
+	male_names = {
+		PLACEHOLDER
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
 natalian_group = {
 	graphical_culture = turkishgfx
 
@@ -907,7 +1101,7 @@ natalian_group = {
 
 		dynasty_names = {
 			Qisim-tashkhand Haban-bevk Scandus-mian Kang-zak Monshil-nak
-			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand
+			Jirib-el Ob-Yannurkhand Kev-Nak Sal-mus Qisim A-xuundur-kok Nágh-torunkhand Valira
 		}
 
 		male_names = {
@@ -915,7 +1109,7 @@ natalian_group = {
 			Gezuus Ekur Siyoi Zhawwer Loyer Jánchuw Rewwokh 
 			Annun Gábim Buxu Mazai Numun Bartu Khulan Oghul
 			Tayang Osol Bhakto Batu Maral Tsering Yalin Altan
-			Surat Bogen Nasiv Jiba Qad Ubara Shakha Maryám
+			Surat Bogen Nasiv Jiba Alexo Qad Ubara Shakha Maryám
 		}
 
 		female_names = {
@@ -947,17 +1141,69 @@ aurlunoren_group = {
 	graphical_culture = chinesegfx
 
 	lhuren = {
+		dynasty_names = {
+			"Leyla-Earcala" Wissen "Guissen-Satran" "Huangan-Ridell" "Risse-Lanyon" Kedel Yan Gioro Hutandel Ateldan Latice Lutharon Momagtron 
+		}
+	
+		male_names = {
+			Alcon Norcon Tuson Varyon Talcon Shucon Heiyacon Nelyacon Yicon Duancon Quancon Orcon Saricon Zicon Taron Lyxandon
+		}
+	
+		female_names = {
+			Orwa Melandis Terandis Ilandis Sarianis Yulandis Melvarwa Nolanis Sariu Consteldis Vahtying Lanfen Hayalal Lindaleanis Qiannis Eteminyanis
+		}
+	}
 
+	dawou = {
+		dynasty_names = {
+			Liu Zhang Zheng Xu Lu Dong Chen Ding Yan Quan Yi Da Tian Qiu Zhu Sheng
+		}
+	
+		male_names = {
+			Wu Cao Shi Yu Huang Di Ling Yan Quan Fuxan Dilan Hua Ban Xu Buyi Fan
+		}
+	
+		female_names = {
+			Xu Yi Tishan Su Poyi Fai Ling Pan Hua Ying Lan Rong Huang Liang Sanying Huangfan
+		}
+	}
+
+	yi_yen = {
+		dynasty_names = {
+			Mo-He Mo-Liu Mo-Po Mo-Lang Mo-Shu Mo-San Mo-Di Mo-Yi Mo-Xu Mo-Bu Mo-Lu Mo-Wu Mo-Tu Mo-Yang Mo-Wei
+		}
+	
+		male_names = {
+			Hao Tuo Yan Shang Huan Dong Xian Xan Xiu She Tien Ju An Shu Bei Fu
+		}
+	
+		female_names = {
+			i-Hua i-Bei i-Dong i-Xiu Shenhe Huanhe Anhe Tuohe Dishan Wushan Jushan Rongshan Xushan Sushan Tishan Liangshan
+		}
+	}
+
+	kumiho = {
+		dynasty_names = {
+			Min-Hoek Sa-Yansuneeon Sa-Weilanyon Sa-Kajumokyon Sa-Chaen Sa-Yimong Sa-Teyeon Sa-Lathrayon Sa-Mugamaon Kyung-Maureanis Min-Yeon Eun-Latice Latice An-Kangjonnmuk Heo Kang Asa Maha Daekun Kitcha Golu Ha Chae
+		}
+	
+		male_names = {
+			PLACEHOLDER
+		}
+	
+		female_names = {
+			Min Yisse Kangjonnmuk Seonying Tangandis Song Yee Lian Shee Aya Min-Yeon Daewanis Daewan Hutan Min-Yeong Huawa Seyeun Ryon Siyeun
+		}
 	}
 
 	dynasty_names = {
-
+		Qo
 	}
 	male_names = {
-		PLACEHOLDER
+		Alcon Norcon
 	}
 	female_names = {
-		PLACEHOLDER
+		Tishan
 	}
 }
 
@@ -1065,5 +1311,36 @@ silvish_group = {
 		Gawel Houët Soazic Jalic Maiouet Bernel Orhoüis Elieg Maouell Giwen Mëlienn Touwett Piwen Kaikarenn Cresiel
 	}
 }
-	
+
+kostucan_group = {
+	graphical_culture = easterngfx
+
+	arxellan = {
+
+	}
+
+	litonian = {
+
+	}
+
+	kozenian = {
+
+	}
+
+	zambezi = {
+
+	}
+
+	dynasty_names = {
+		Koza Siragele Siraer
+	}
+
+	male_names = {
+		Barperuk Austus Asarif Ruton
+	}
+
+	female_names = {
+		PLACEHOLDER
+	}
+}
 
