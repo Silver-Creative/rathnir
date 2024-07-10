@@ -731,7 +731,7 @@ south_atlantic_region = {
 	areas = { 
 	}
 }
-red_kingdom_area = { 
+red_kingdom_region = { 
 	areas = { 
 		north_hatanimitas_area west_hatanimitas_area east_hatanimitas_area wa_khobanza_area litakun_area tiatua_isthmus_area isle_of_dogs_area 
 	}

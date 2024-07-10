@@ -45,7 +45,7 @@ forest_valdreach_superregion = {
 	silvay_region sorveien_region 
 }
 imperial_valdreach_superregion = { 
-	tvear_region adytum_region valron_region Red Kingdom 
+	tvear_region adytum_region valron_region 
 }
 tsaeloma_superregion = { 
 	tsaeloma_region 
@@ -55,6 +55,34 @@ northern_syltor_superregion = {
 }
 nandor_superregion = { 
 }
+
+### Haven
+middle_haven_superregion = {
+	red_kingdom_region
+}
+the_lumonade_superregion = {
+
+}
+hearthstone_superregion = {
+
+}
+outer_haven_superregion = {
+
+}
+southern_haven_superregion = {
+
+}
+worryistane_superregion = {
+
+}
+the_withered_arm_superregion = {
+
+}
+
+
+
+
+
 ########################################
 # SEA SUPERREGIONS                     #
 ########################################
