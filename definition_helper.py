@@ -18,7 +18,7 @@ df.columns = ["name", "id", "type", "rgb", "area", "region", "superregion", "con
 df = df.dropna(axis=0, subset=['type'])
 
 # [Config] to run this script, set this variable to the id of the last registered province (excluding the ones with ids in the 49xx-5000 range)
-last_province = 4759       # touch this one
+last_province = 4760       # touch this one
 first_temp = 4977       # do not touch
 max_provinces = 5000    # do not touch
 
