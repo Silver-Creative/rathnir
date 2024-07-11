@@ -1,0 +1,920 @@
+# SOME META SCRIPT EXAMPLES
+# This also works for Scripted effects the same. Provided arguments will be pasted in
+# wherever the key occurs. If it fails to compile you should get a proper error message
+# and the source generated in the error log. There is no added overhead during runtime but
+# if used extensivley it might make loading time longer.
+#
+# my_test_trigger = {
+#	OR = {
+#		has_country_modifier = $ARG1$_modifier
+#		AND = {
+#			has_country_modifier = $ARG2$_modifier
+#			$CONTEXT$ = {
+#				NOT = { has_country_modifier = $ARG1$_modifier }
+#			}
+#		}
+#	}
+# }
+# Usage:
+# my_test_trigger = { ARG1=foo ARG2=bar CONTEXT=FROM }
+
+###########################
+### Table of Contents:
+#  - Subject Triggers
+#  - Center of Reformation Triggers
+#  - Industrialization Triggers
+#  - Government Reform Triggers
+#  - Diplomacy Triggers
+#  - Supply Limit Triggers
+#  - Estates Triggers
+#  - Revolution Triggers
+#  - Absolutism Triggers
+#  - Is-or-was-tag Triggers
+#  - Colonist Idea Triggers
+#  - Ideagroup Completion Triggers
+#  - Religious Opinion Triggers
+#  - Cult Triggers
+#  - Compare to Western Triggers (obsolete for Rathnir)
+#  - Mercenary Triggers
+#  - Dynamic Unlock Triggers
+#  - Province-based Acceptance Triggers
+#  - Exploration Ideas Triggers
+#  - Is-flatland Triggers
+#  - Church Aspect Triggers
+#  - Full Diplo Triggers
+#  - Updated Culture Triggers
+#  - Statist Monarchy Triggers
+#  - Locked Reform Triggers
+#  - Dharma Triggers
+###
+###########################
+
+### SUBJECT TRIGGERS
+is_subject_other_than_tributary_trigger = { #Ie Tags that cannot conduct independent diplomacy
+	custom_trigger_tooltip = {
+		tooltip = is_subject_other_than_tributary_trigger_tooltip
+		is_subject = yes
+		NOT = { is_subject_of_type = tributary_state }
+	}
+}
+
+is_free_or_tributary_trigger = { #I.e. Tags that can conduct independent diplomacy
+	custom_trigger_tooltip = {
+		tooltip = is_free_or_tributary_trigger_tooltip
+		OR = {
+			is_subject = no
+			is_subject_of_type = tributary_state
+		}
+	}
+}
+
+### CENTER OF REFORMATION TRIGGERS (modified by Rathnir)
+can_have_center_of_reformation_trigger = { #Province Scope
+	#$RELIGION$ needs to match the religion of the center that is being spawned.
+	continent = nieden
+	religion = soleviel
+	NOT = { province_id = 118 }
+	is_in_capital_area = yes
+	is_reformation_center = no
+	is_island = no
+	expelling_minorities = no
+	development = 10
+	NOT = {
+		any_neighbor_province = {
+			is_reformation_center = yes
+		}
+	}
+	NOT = {
+		any_province = {
+			area = PREV
+			is_reformation_center = yes
+			religion = $RELIGION$
+		}
+	}
+	NOT = { has_climate = arctic }
+	NOT = { has_climate = arid }
+	NOT = { has_terrain = coastline }
+	NOT = { has_terrain = coastal_desert }
+	NOT = { has_terrain = steppe }
+	NOT = { has_terrain = desert }
+	NOT = { has_terrain = glacier }
+	NOT = { has_climate = tropical }
+}
+
+
+### INDUSTRIALIZATION TRIGGERS
+province_viable_for_industrialization_events_trigger = { #Province Scope
+	is_state = yes
+	NOT = { devastation = 1 }
+	OR = {
+		is_in_capital_area = yes
+		continent = CAPITAL
+	}
+	enlightenment = 100
+}
+
+unindustrialized_province_trigger = { #Province Scope
+	#NOT = { has_province_flag = canals_and_turnpikes_flag }
+	#NOT = { has_province_flag = agricultural_revolution_province }
+	NOT = { has_province_flag = had_economic_urbanization }
+	NOT = { has_province_flag = swapped_to_cloth }
+	NOT = { has_province_flag = swapped_to_paper }
+	NOT = { has_province_flag = swapped_to_glass }
+	NOT = { has_province_flag = industrial_urbanization }
+	NOT = { has_province_flag = metalwork_center }
+	NOT = { has_province_flag = textile_center }
+	NOT = { has_province_flag = shipyards_of_x }
+}
+
+industrialized_province_trigger = { #Province Scope
+	OR = {
+		#has_province_flag = canals_and_turnpikes_flag
+		#has_province_flag = agricultural_revolution_province
+		has_province_flag = had_economic_urbanization 
+		has_province_flag = swapped_to_cloth
+		has_province_flag = swapped_to_paper
+		has_province_flag = swapped_to_glass
+		has_province_flag = industrial_urbanization
+		has_province_flag = metalwork_center
+		has_province_flag = textile_center
+		has_province_flag = shipyards_of_x
+	}
+}
+
+
+### GOVERNMENT REFORM TRIGGERS
+# This is for when we want to award government reform progress and need to check if that's useful to the player based on dlc ownership
+has_completed_all_reforms_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_completed_all_reforms_trigger_tooltip
+		NOT = { has_dlc = "Emperor" }
+		OR = {
+			AND = {
+				government = monarchy
+				reform_level = 11
+			}
+			AND = {
+				government = republic
+				reform_level = 13
+			}
+			AND = {
+				government = theocracy
+				reform_level = 13
+			}
+			AND = {
+				government = native
+				reform_level = 5
+			}
+			AND = {
+				government = tribal
+				reform_level = 6
+			}
+		}
+	}
+}
+
+# This is for all other situations
+has_final_tier_reforms_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_completed_all_reforms_trigger_tooltip
+		OR = {
+			AND = {
+				government = monarchy
+				reform_level = 11
+			}
+			AND = {
+				government = republic
+				reform_level = 13
+			}
+			AND = {
+				government = theocracy
+				reform_level = 13
+			}
+			AND = {
+				government = native
+				reform_level = 5
+			}
+			AND = {
+				government = tribal
+				reform_level = 6
+			}
+		}
+	}
+}
+
+same_govt_as_root_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = same_govt_as_root_tt
+		OR = {
+			AND = {
+				government = theocracy
+				root = { government = theocracy }
+			}
+			AND = {
+				government = monarchy
+				root = { government = monarchy }
+			}
+			AND = {
+				government = republic
+				root = { government = republic }
+			}
+			AND = {
+				government = dictatorship
+				root = { government = dictatorship }
+			}
+			AND = {
+				government = tribal
+				root = { government = tribal }
+			}
+			AND = {
+				government = native
+				root = { government = native }
+			}
+		}
+	}
+}
+
+### DIPLOMACY TRIGGERS
+has_been_insulted_by_root = {
+	custom_trigger_tooltip = {
+		tooltip = has_been_insulted_by_root
+		OR = {
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = insulted
+			}
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = scornfully_insulted
+			}
+		}
+	}
+}
+
+valid_for_personal_unions_trigger = {
+	exists = yes
+	is_subject = no
+	government = monarchy
+	NOT = {
+		OR = {
+			religion_group = elven
+			religion_group = vastallosi
+			religion_group = ummarnan
+		}
+	}
+}
+
+### SUPPLY LIMIT TRIGGERS
+#Province scope; checks it is highest or joint highest supply limit in the area owned by you (useful for spawning rebels)
+highest_supply_limit_in_area = {
+	NOT = {
+		area_for_scope_province = { 
+			NOT = { province_id = prev }
+			owned_by = root
+			supply_limit = prev 
+			NOT = { prev = { supply_limit = prev } }
+		}
+	}
+}
+
+### REVOLUTION TRIGGERS
+is_revolutionary_republic_trigger = {
+	OR = {
+		has_reform = revolutionary_republic_reform
+		has_reform = junior_revolutionary_republic_reform
+	}
+}
+
+revolution_event_can_happen_trigger = {
+	OR = {
+		revolution_target_exists = no
+		has_dlc = "Emperor"
+	}
+	OR = {
+		capital_scope = {
+			controlled_by = revolutionary_rebels
+		}
+		has_country_modifier = just_lost_to_revolutionary_rebels
+		has_country_flag = revolution_disaster_immediate_revolution
+	}
+	is_revolutionary = no
+}
+
+#Country scope, used in election events to check whether generated rulers may be female
+republic_with_female_rulers_trigger = {
+	OR = {
+		has_active_policy = mandatory_service
+		has_country_modifier = sister_suffragettes
+		has_country_modifier = mary_inheritance_reforms
+		has_reform = democratic_values_reform
+	}
+}
+
+### ABSOLUTISM TRIGGERS
+is_absolutism_active = {
+	OR = {
+		current_age = age_of_absolutism
+		current_age = age_of_revolutions
+	}
+}
+
+#NOT ADAPTED TO RATHNIR
+#is_volcanic_area = { #polynesia and indonesia
+#	OR = {
+#		area = north_sumatra_area #aceh
+#		area = batak_area
+#		area = minangkabau_area
+#		area = south_sumatra_area #lampung
+#		area = banten_area
+#		area = east_java_area
+#		area = central_java_area
+#		area = west_java_area
+#		area = lesser_sunda_islands_area
+#		area = mindanao_area #east mindanao
+#		area = west_mindanao_area
+#		area = visayas_area
+#		area = luzon_area #northern luzon
+#		area = southern_luzon_area
+#		area = te_ika_a_maui_hauauru_area
+#		area = te_ika_a_maui_waho_area
+#		area = eastern_polynesia_area #tahiti
+#		area = northern_polynesia_area #hawaii
+#		area = polynesia_area
+#		area = melanesia_area
+#		area = papua_area
+#	}
+#}
+
+### IS-OR-WAS-TAG TRIGGER
+is_or_was_tag = {
+	OR = {
+		tag = $tag$
+		was_tag = $tag$
+	}
+}
+
+### COLONIST IDEA TRIGGER
+#NOT ADAPTED TO RATHNIR
+has_any_colonist_idea = {
+	OR = {
+		has_idea = colonial_ventures
+		has_idea = additional_colonists
+		has_idea = general_colonization_law
+		has_idea = pioneer_spirit
+		has_idea = manifest_destiny
+		has_idea = settling_the_interior
+		has_idea = cab_carib_seafaring
+		has_idea = lon_conquistadores
+		has_idea = nzh_expand_to_the_east
+		has_idea = hdr_distant_diplomacy	#Colonist is in the ambition
+		has_idea = AUS_outback_stations
+		has_idea = NZL_pokarekare_ana	#Colonist is in the ambition
+		has_idea = WSI_Colonial_Legacy	#Colonist is in the ambition
+		has_idea = asu_colonialism
+		has_idea = adu_expeditionary_sentiment
+		has_idea = ICE_nationalism	#Colonist is in the ambition
+		has_idea = maj_nusa_tenggara
+	}
+}
+
+### IDEAGROUP COMPLETION TRIGGERS
+has_completed_idea_group_of_category = {
+	[[adm_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_adm_idea_group
+			OR = {
+				full_idea_group = innovativeness_ideas
+				full_idea_group = religious_ideas
+				full_idea_group = economic_ideas
+				full_idea_group = expansion_ideas
+				full_idea_group = administrative_ideas
+				full_idea_group = humanist_ideas
+				full_idea_group = infrastructure_ideas
+			}
+		}
+	]
+	[[dip_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_dip_idea_group
+			OR = {
+				full_idea_group = spy_ideas
+				full_idea_group = diplomatic_ideas
+				full_idea_group = trade_ideas
+				full_idea_group = exploration_ideas
+				full_idea_group = maritime_ideas
+				full_idea_group = influence_ideas
+				full_idea_group = court_ideas
+			}
+		}
+	]
+	[[mil_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_mil_idea_group
+			OR = {
+				full_idea_group = aristocracy_ideas
+				full_idea_group = offensive_ideas
+				full_idea_group = defensive_ideas
+				full_idea_group = quality_ideas
+				full_idea_group = quantity_ideas
+				full_idea_group = naval_ideas
+				full_idea_group = theocracy_gov_ideas
+				full_idea_group = indigenous_ideas
+				full_idea_group = horde_gov_ideas
+				full_idea_group = plutocracy_ideas
+				full_idea_group = mercenary_ideas
+			}
+		}
+	]
+}
+
+has_any_active_incomplete_idea_group_of_category = {
+    [[adm_ideas]
+        custom_trigger_tooltip = {
+            tooltip = has_any_active_incomplete_idea_group_of_category_adm
+            OR = {
+                AND = { has_idea_group = innovativeness_ideas NOT = { full_idea_group = innovativeness_ideas } }
+                AND = { has_idea_group = religious_ideas      NOT = { full_idea_group = religious_ideas } }
+                AND = { has_idea_group = economic_ideas       NOT = { full_idea_group = economic_ideas } }
+                AND = { has_idea_group = expansion_ideas      NOT = { full_idea_group = expansion_ideas } }
+                AND = { has_idea_group = administrative_ideas NOT = { full_idea_group = administrative_ideas } }
+                AND = { has_idea_group = humanist_ideas       NOT = { full_idea_group = humanist_ideas } }
+                AND = { has_idea_group = infrastructure_ideas NOT = { full_idea_group = infrastructure_ideas } }
+            }
+        }
+    ]
+    [[dip_ideas]
+        custom_trigger_tooltip = {
+            tooltip = has_any_active_incomplete_idea_group_of_category_dip
+            OR = {
+                AND = { has_idea_group = spy_ideas         	NOT = { full_idea_group = spy_ideas } }
+                AND = { has_idea_group = diplomatic_ideas  	NOT = { full_idea_group = diplomatic_ideas } }
+                AND = { has_idea_group = trade_ideas       	NOT = { full_idea_group = trade_ideas } }
+                AND = { has_idea_group = exploration_ideas 	NOT = { full_idea_group = exploration_ideas } }
+                AND = { has_idea_group = maritime_ideas    	NOT = { full_idea_group = maritime_ideas } }
+                AND = { has_idea_group = influence_ideas   	NOT = { full_idea_group = influence_ideas } }
+                AND = { has_idea_group = court_ideas       	NOT = { full_idea_group = court_ideas } }
+            }
+        }
+    ]
+    [[mil_ideas]
+        custom_trigger_tooltip = {
+            tooltip = has_any_active_incomplete_idea_group_of_category_mil
+            OR = {
+                AND = { has_idea_group = aristocracy_ideas       	NOT = { full_idea_group = aristocracy_ideas } }
+                AND = { has_idea_group = offensive_ideas       		NOT = { full_idea_group = offensive_ideas } }
+                AND = { has_idea_group = defensive_ideas       		NOT = { full_idea_group = defensive_ideas } }
+                AND = { has_idea_group = quality_ideas           	NOT = { full_idea_group = quality_ideas } }
+                AND = { has_idea_group = quantity_ideas             NOT = { full_idea_group = quantity_ideas } }
+                AND = { has_idea_group = theocracy_gov_ideas   		NOT = { full_idea_group = theocracy_gov_ideas } }
+                AND = { has_idea_group = indigenous_ideas      	    NOT = { full_idea_group = indigenous_ideas } }
+                AND = { has_idea_group = horde_gov_ideas       	    NOT = { full_idea_group = horde_gov_ideas } }
+                AND = { has_idea_group = plutocracy_ideas        	NOT = { full_idea_group = plutocracy_ideas } }
+                AND = { has_idea_group = mercenary_ideas        	NOT = { full_idea_group = mercenary_ideas } }
+                AND = { has_idea_group = naval_ideas				NOT = { full_idea_group = naval_ideas } }
+            }
+        }
+    ]
+}
+
+
+num_of_completed_idea_groups_adm = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_adm_tt
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = humanist_ideas
+		full_idea_group = infrastructure_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_dip = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_dip_tt
+		full_idea_group = spy_ideas
+		full_idea_group = diplomatic_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = influence_ideas
+		full_idea_group = court_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_mil = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_mil_tt
+		full_idea_group = aristocracy_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = naval_ideas
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = indigenous_ideas
+		full_idea_group = horde_gov_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = mercenary_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_by_category = {
+	num_of_completed_idea_groups_$type$ = { amount = $amount$ }
+}
+
+
+### RELIGIOUS OPINION TRIGGERS
+#NOT ADAPTED TO RATHNIR
+has_religion_of_increased_opinion_for_scope = {
+	OR = {
+		AND = { religion = catholic $who$ = { has_country_flag = has_increased_catholic_opinion } }
+		AND = { religion = anglican $who$ = { has_country_flag = has_increased_anglican_opinion } }
+		AND = { religion = hussite $who$ = { has_country_flag = has_increased_hussite_opinion } }
+		AND = { religion = protestant $who$ = { has_country_flag = has_increased_protestant_opinion } }
+		AND = { religion = reformed $who$ = { has_country_flag = has_increased_reformed_opinion } }
+		AND = { religion = orthodox $who$ = { has_country_flag = has_increased_orthodox_opinion } }
+		AND = { religion = coptic $who$ = { has_country_flag = has_increased_coptic_opinion } }
+		AND = { religion = sunni $who$ = { has_country_flag = has_increased_sunni_opinion } }
+		AND = { religion = shiite $who$ = { has_country_flag = has_increased_shiite_opinion } }
+		AND = { religion = ibadi $who$ = { has_country_flag = has_increased_ibadi_opinion } }
+		AND = { religion = buddhism $who$ = { has_country_flag = has_increased_buddhism_opinion } }
+		AND = { religion = vajrayana $who$ = { has_country_flag = has_increased_vajrayana_opinion } }
+		AND = { religion = mahayana $who$ = { has_country_flag = has_increased_mahayana_opinion } }
+		AND = { religion = confucianism $who$ = { has_country_flag = has_increased_confucianism_opinion } }
+		AND = { religion = shinto $who$ = { has_country_flag = has_increased_shinto_opinion } }
+		AND = { religion = hinduism $who$ = { has_country_flag = has_increased_hinduism_opinion } }
+		AND = { religion = sikhism $who$ = { has_country_flag = has_increased_sikhism_opinion } }
+		AND = { religion = animism $who$ = { has_country_flag = has_increased_animism_opinion } }
+		AND = { religion = shamanism $who$ = { has_country_flag = has_increased_shamanism_opinion } }
+		AND = { religion = totemism $who$ = { has_country_flag = has_increased_totemism_opinion } }
+		AND = { religion = inti $who$ = { has_country_flag = has_increased_inti_opinion } }
+		AND = { religion = nahuatl $who$ = { has_country_flag = has_increased_nahuatl_opinion } }
+		AND = { religion = mesoamerican_religion $who$ = { has_country_flag = has_increased_mesoamerican_religion_opinion } }
+		AND = { religion = norse_pagan_reformed $who$ = { has_country_flag = has_increased_norse_pagan_reformed_opinion } }
+		AND = { religion = tengri_pagan_reformed $who$ = { has_country_flag = has_increased_tengri_pagan_reformed_opinion } }
+		AND = { religion = dreamtime $who$ = { has_country_flag = has_increased_dreamtime_opinion } }
+		AND = { religion = jewish $who$ = { has_country_flag = has_increased_jewish_opinion } }
+		AND = { religion = zoroastrian $who$ = { has_country_flag = has_increased_zoroastrian_opinion } }
+	}
+}
+
+#NOT ADAPTED TO RATHNIR
+reverse_has_religion_of_increased_opinion_for_scope = {
+	OR = {
+		AND = { $who$ = { religion = catholic } has_country_flag = has_increased_catholic_opinion }
+		AND = { $who$ = { religion = anglican } has_country_flag = has_increased_anglican_opinion }
+		AND = { $who$ = { religion = hussite } has_country_flag = has_increased_hussite_opinion }
+		AND = { $who$ = { religion = protestant } has_country_flag = has_increased_protestant_opinion }
+		AND = { $who$ = { religion = reformed } has_country_flag = has_increased_reformed_opinion }
+		AND = { $who$ = { religion = orthodox } has_country_flag = has_increased_orthodox_opinion }
+		AND = { $who$ = { religion = coptic } has_country_flag = has_increased_coptic_opinion }
+		AND = { $who$ = { religion = sunni } has_country_flag = has_increased_sunni_opinion }
+		AND = { $who$ = { religion = shiite } has_country_flag = has_increased_shiite_opinion }
+		AND = { $who$ = { religion = ibadi } has_country_flag = has_increased_ibadi_opinion }
+		AND = { $who$ = { religion = buddhism } has_country_flag = has_increased_buddhism_opinion }
+		AND = { $who$ = { religion = vajrayana } has_country_flag = has_increased_vajrayana_opinion }
+		AND = { $who$ = { religion = mahayana } has_country_flag = has_increased_mahayana_opinion }
+		AND = { $who$ = { religion = confucianism } has_country_flag = has_increased_confucianism_opinion }
+		AND = { $who$ = { religion = shinto } has_country_flag = has_increased_shinto_opinion }
+		AND = { $who$ = { religion = hinduism } has_country_flag = has_increased_hinduism_opinion }
+		AND = { $who$ = { religion = sikhism } has_country_flag = has_increased_sikhism_opinion }
+		AND = { $who$ = { religion = animism } has_country_flag = has_increased_animism_opinion }
+		AND = { $who$ = { religion = shamanism } has_country_flag = has_increased_shamanism_opinion }
+		AND = { $who$ = { religion = totemism } has_country_flag = has_increased_totemism_opinion }
+		AND = { $who$ = { religion = inti } has_country_flag = has_increased_inti_opinion }
+		AND = { $who$ = { religion = nahuatl } has_country_flag = has_increased_nahuatl_opinion }
+		AND = { $who$ = { religion = mesoamerican_religion } has_country_flag = has_increased_mesoamerican_religion_opinion }
+		AND = { $who$ = { religion = norse_pagan_reformed } has_country_flag = has_increased_norse_pagan_reformed_opinion }
+		AND = { $who$ = { religion = tengri_pagan_reformed } has_country_flag = has_increased_tengri_pagan_reformed_opinion }
+		AND = { $who$ = { religion = dreamtime } has_country_flag = has_increased_dreamtime_opinion }
+		AND = { $who$ = { religion = jewish } has_country_flag = has_increased_jewish_opinion }
+		AND = { $who$ = { religion = zoroastrian } has_country_flag = has_increased_zoroastrian_opinion }
+	}
+}
+
+### CULT TRIGGERS
+#NOT ADAPTED TO RATHNIR
+has_any_heir_cult_active = {
+	OR = {
+		has_country_modifier = junior_yemoja_cult
+		has_country_modifier = junior_roog_cult
+		has_country_modifier = junior_nyame_cult
+		has_country_modifier = junior_cwezi_cult
+		has_country_modifier = junior_central_african_ancestor_cult
+		has_country_modifier = junior_mwari_cult
+		has_country_modifier = junior_enkai_cult
+		has_country_modifier = junior_waaq_cult
+		has_country_modifier = junior_zanahary_cult
+		has_country_modifier = junior_christianity_cult
+		has_country_modifier = junior_islam_cult
+		has_country_modifier = junior_buddhism_cult
+		has_country_modifier = junior_dharmic_cult
+		has_country_modifier = junior_south_central_american_cult
+		has_country_modifier = junior_norse_cult
+		has_country_modifier = junior_jewish_cult
+		has_country_modifier = junior_zoroastrian_cult
+	}
+}
+
+has_primary_cult = {
+	has_country_flag = has_$cult$_as_primary_cult
+}
+
+has_a_primary_cult_selected = {
+	custom_trigger_tooltip = {
+		tooltip = has_a_primary_cult_selected_tt
+		has_country_flag = has_selected_a_primary_cult
+	}
+}
+
+### COMPARE TO WESTERN TRIGGERS (obsolete for Rathnir)
+has_better_tech_than_westerns = {
+	custom_trigger_tooltip = {
+		tooltip = has_better_tech_than_westerns_tt
+		NOT = {
+			any_country = {
+				tech_difference = 1
+				technology_group = western
+				NOT = { tag = ROOT }
+			}
+		}
+	}
+}
+
+has_more_institutions_than_westerns = {
+	custom_trigger_tooltip = {
+		tooltip = has_more_institutions_than_westerns_tt
+		NOT = {
+			calc_true_if = {
+				all_country = {
+					institution_difference = {
+						who = ROOT
+						value = 1
+					}
+					technology_group = western
+					NOT = { tag = ROOT }
+				}
+				amount = 1
+			}
+		}
+	}
+}
+
+### MERCENARY TRIGGERS
+has_free_mercs_trait = {
+	OR = {
+		has_idea = seasoned_veterans
+		has_government_attribute = mercs_do_not_cost_army_professionalism
+	}
+}
+
+has_not_free_mercs_trait = {
+	NOT = { has_idea = seasoned_veterans }
+	NOT = { has_government_attribute = mercs_do_not_cost_army_professionalism }
+}
+
+# When adding a new merc company then make sure that a unlock_$merc_company$_tt is defined in the localization
+# For localization purposes use the following line: "Has unlocked the §Y$merc_company$§! mercenary company."
+
+is_allowed_to_recruit_mercenaries = {
+	custom_trigger_tooltip = {
+		tooltip = is_allowed_to_recruit_mercenaries_tt
+		always = yes
+	}
+}
+
+
+
+### DYNAMIC UNLOCK TRIGGERS
+has_unlocked_estate_privilege = {
+	has_country_flag = unlocked_privilege_$estate_privilege$
+}
+
+has_unlocked_merc_company = {
+	custom_trigger_tooltip = {
+		tooltip = has_unlocked_$merc_company$
+		has_country_flag = unlocked_$merc_company$
+	}
+}
+##########################################################
+# Supports following merc companies
+##########################################################
+# When adding a new merc company then make sure that a unlock_$merc_company$_tt is defined in the localization
+# For localization purposes use the following line: "The §Y$merc_company$§! mercenary company has been globally unlocked."
+has_globally_unlocked_merc_company = {
+	custom_trigger_tooltip = {
+		tooltip = has_globally_unlocked_$merc_company$
+		has_global_flag = global_unlocked_$merc_company$
+	}
+
+}
+
+has_unlocked_government_reform = {
+	has_country_flag = unlocked_$government_reform$
+}
+
+has_unlocked_estate = {
+	has_country_flag = unlocked_$estate$
+}
+
+### For government reforms
+has_unlocked_government_reform_tooltip = {
+	custom_trigger_tooltip = {
+		tooltip = unlocked_$government_reform$_tt
+		has_country_flag = unlocked_$government_reform$
+	}
+}
+
+### PROVINCE-BASED ACCEPTANCE TRIGGERS
+# NOTE: When adding buddhism-style faiths, check basegame triggers file for example on how to implement this sort of check.
+province_is_or_accepts_culture = {
+	OR = {
+		has_owner_culture = yes
+		has_owner_accepted_culture = yes
+	}
+}
+
+province_is_or_accepts_religion_group = { 
+	custom_trigger_tooltip = {
+		tooltip = province_is_or_accepts_$religion_group$_tt
+		OR = {
+			AND = {
+				religion_group = $religion_group$
+				has_owner_religion = yes
+			}
+			AND = {
+				owner = { secondary_religion_group = $religion_group$ }
+				OR = {
+					religion_group = $religion_group$
+					has_owner_religion = yes
+				}
+			}
+		}
+	}
+}
+
+province_is_or_accepts_religion = {
+	custom_trigger_tooltip = {
+		tooltip = province_is_or_accepts_$religion$_tt
+		OR = {
+			AND = {
+				religion = $religion$
+				has_owner_religion = yes
+			}
+			AND = {
+				owner = { secondary_religion = $religion$ }
+				OR = {
+					religion = $religion$
+					has_owner_religion = yes
+				}
+			}
+		}
+	}
+}
+
+### EXPLORATION IDEAS TRIGGERS
+has_not_any_exploration_ideas = {
+	NOT = { has_idea = quest_for_the_new_world }
+	NOT = { has_idea = call_of_our_forefathers }
+	NOT = { has_idea = tonga_oceanic_empire }
+	NOT = { has_idea = samoa_trade }
+	NOT = { has_idea = legendary_voyagers }
+	NOT = { has_idea_group = ICE_ideas }
+}
+
+has_any_exploration_idea = {
+	OR = {
+		has_idea = quest_for_the_new_world
+		has_idea = call_of_our_forefathers
+		has_idea = tonga_oceanic_empire
+		has_idea = samoa_trade
+		has_idea = legendary_voyagers
+		has_idea_group = ICE_ideas
+	}
+}
+
+### FLATLAND TRIGGERS
+is_flatland = {
+	custom_trigger_tooltip = {
+		tooltip = is_flatland_tt
+		OR = {
+			has_terrain = farmlands
+			has_terrain = grasslands
+			has_terrain = steppe
+			has_terrain = savannah
+			has_terrain = drylands
+			has_terrain = coastal_desert
+			has_terrain = desert
+			has_terrain = coastline
+		}
+	}
+}
+
+### CHURCH ASPECT TRIGGERS
+has_unlocked_church_aspect = {
+	has_country_flag = unlocked_church_aspect_$church_aspect$
+}
+
+### FULL DIPLO TRIGGERS
+has_stab_reduction_from_dip_action_modifier = {
+	full_idea_group = diplomatic_ideas
+}
+
+### UPDATED CULTURE TRIGGERS
+has_updated_culture = {
+	has_global_flag = updated_$culture$_flag
+}
+
+### STATIST MONARCHY TRIGGERS
+is_eligible_for_statists_monarchist_events = {
+	NOT = { has_government_attribute = theocratic_monarchy_mechanic }
+	NOT = { has_government_attribute = has_co_rulership }
+}
+
+
+### LOCKED REFORM TRIGGERS
+has_modifier_locking_military_tier = {
+	has_country_modifier = new_order_regiment_mobilized_modifier
+}
+
+has_not_modifier_locking_military_tier = {
+	custom_trigger_tooltip = {
+		tooltip = has_modifier_locking_military_tier_tt
+		NOT = { has_modifier_locking_military_tier = yes }
+	}
+}
+
+has_not_locked_first_tier_reform = {
+	NOT = { has_reform = shogunate }
+	NOT = { has_reform = daimyo }
+	NOT = { has_reform = feudal_france_reform }
+	NOT = { has_reform = appanage_reform }
+	NOT = { has_reform = absolutist_france_reform }
+	NOT = { has_reform = celestial_empire }
+	NOT = { has_reform = kalmar_union }
+	NOT = { has_reform = elective_monarchy }
+	NOT = { has_reform = english_monarchy }
+	NOT = { has_reform = british_monarchy }
+	NOT = { has_reform = angevin_monarchy }
+	NOT = { has_reform = absolute_british_monarchy }
+	NOT = { has_reform = ottoman_government }
+	NOT = { has_reform = byzantine_autocracy_reform }
+	NOT = { has_reform = reformed_byzantine_monarchy_reform }
+	NOT = { has_reform = caliphate_reform }
+	NOT = { has_reform = modernized_ottoman_government }
+	NOT = { has_reform = reorganized_ottoman_government }
+	NOT = { has_reform = eyalet_government }
+	NOT = { has_reform = barbary_eyalet_government }
+	NOT = { has_reform = mughal_government }
+	NOT = { has_reform = revolutionary_empire_reform }
+	NOT = { has_reform = polish_great_sejm }
+	NOT = { has_reform = polish_elective_monarchy }
+	NOT = { has_reform = polish_autocratic_monarchy }
+	NOT = { has_reform = norwegian_parliamentary_monarchy }
+	NOT = { has_reform = protectorate_parliament_reform }
+	NOT = { has_reform = parliamentary_republic_reform }
+	NOT = { has_reform = pirate_republic_reform }
+	NOT = { has_reform = presidential_despot_reform }
+	NOT = { has_reform = military_dictatorship_reform }
+	NOT = { has_reform = revolutionary_republic_reform }
+	NOT = { has_reform = junior_revolutionary_republic_reform }
+	NOT = { has_reform = free_city }
+	NOT = { has_reform = trading_city }
+	NOT = { has_reform = colonial_government }
+	NOT = { has_reform = crown_colony_government }
+	NOT = { has_reform = private_enterprise_colony_government }
+	NOT = { has_reform = self_governing_colony_government }
+	NOT = { has_reform = trade_company_government }
+	NOT = { has_reform = english_parliamentary_republic_government }
+	NOT = { has_reform = papacy_reform }
+	NOT = { has_reform = caliphate_theocracy_reform }
+	NOT = { has_reform = fifth_monarchists_reform }
+	NOT = { has_reform = great_mongol_state_reform }	
+}
+
+### DHARMA TRIGGERS
+has_dharma_elephants_trigger = {
+	OR = {
+		has_dlc = "Dharma"
+		has_dlc = "Dharma - Indian Sultanate Pack"
+		has_dlc = "Dharma - Hindu Unit Pack"
+	}
+	OR = {
+		culture_group = hindusthani
+		culture_group = eastern_aryan
+		culture_group = western_aryan
+		culture_group = dravidian
+		culture_group = central_indic
+		culture_group = southeastasian_group
+		culture_group = burman
+		primary_culture = cham
+		primary_culture = sumatran
+		primary_culture = javanese
+		primary_culture = malayan
+	}
+}
