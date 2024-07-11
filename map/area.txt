@@ -4059,9 +4059,7 @@ brabant_area = {
 }
 luxemburg_liege_area = { 
 }
-
 #Haven Areas
-
 north_hatanimitas_area = { 
 	2401 2400 2403 2402 
 }
@@ -4222,7 +4220,7 @@ wip_meakan_area = {
 	2617 2618 2619 2620 2621 
 }
 east_refuge_area = { 
-	2961 2624 2623 2622 
+	2624 2623 2622 
 }
 east_hallowed_area = { 
 	2625 2626 2627 2628 
@@ -4358,4 +4356,225 @@ wa_hassapa_area = {
 }
 wip_jesswall_area = { 
 	2803 2804 2805 2806 
+}
+fornost_area = { 
+	2809 2808 2810 2807 
+}
+auroran_band_area = { 
+	2811 2812 2813 2814 2815 
+}
+nordudiron_area = { 
+	2817 2818 2819 2820 2816 
+}
+wip_winterstone_area = { 
+	2821 2822 2823 2824 
+}
+eastmarsh_area = { 
+	2825 2826 2828 2827 
+}
+east_verosia_area = { 
+	2829 2830 2831 2832 
+}
+west_verosia_area = { 
+	2835 2833 2834 2836 2837 
+}
+lorelink_area = { 
+	2841 2840 2838 2839 
+}
+greater_chaurisey_area = { 
+	2842 2844 2846 2845 2843 
+}
+morian_area = { 
+	2850 2849 3953 2847 2848 
+}
+wip_far_bulkeen_area = { 
+	2852 2853 2854 2855 
+}
+warinae_area = { 
+	2856 2859 2857 2858 
+}
+pintrin_area = { 
+	2860 2861 2862 2863 2864 
+}
+kakietraeein_area = { 
+	2865 2866 2867 2869 2868 
+}
+wolves_creek_area = { 
+	2870 2871 2873 2872 
+}
+suulk_area = { 
+	2874 2875 2877 2876 
+}
+wip_lowmere_area = { 
+	2882 2881 2880 2879 2878 
+}
+valken_area = { 
+}
+splitland_area = { 
+	2883 2884 2885 2886 2887 2888 3956 2891 2890 2892
+}
+caister_area = { 
+	2893 2894 2895 2896 2897 
+}
+heartsedge_area = { 
+	2901 2899 2898 2900 
+}
+squirelfoot_area = { 
+	2902 2903 2904 2905 
+}
+central_lormere_area = { 
+	2907 2906 2908 2909 
+}
+east_lormere_area = { 
+	2912 2911 2910 
+}
+crestwall_area = { 
+	2915 2914 2913 
+}
+bead_isles_area = { 
+	2916 2917 2919 2918 
+}
+wip_north_rogsovat_area = { 
+	2920 2921 2922 2923 2924 
+}
+optima_saltu_area = { 
+	2925 2928 2929 2927 2926 
+}
+wip_south_rogsovat_area = { 
+	2932 2933 2931 2930 
+}
+serifnahina_area = { 
+	2935 2934 2936 2937 
+}
+wip_shelka_downstream_area = { 
+	2942 2941 2940 2939 2938 
+}
+wip_greater_kaberria_area = { 
+	2943 2944 2945 2946 2947 
+}
+wip_svusha_area = { 
+	2948 2950 2949 2951 2952 
+}
+terrible_joh_area = { 
+	2953 2954 2955 2956 
+}
+defir_area = { 
+	2958 2959 2957 
+}
+mart_muntar_area = { 
+	2962 2961 2960 
+}
+tichmorok_area = { 
+	2966 2965 2964 2963 
+}
+kutaiyara_area = { 
+	2968 2969 2967 
+}
+wip_suns_wall_area = { 
+	2970 2971 2973 2972 
+}
+laumont_area = { 
+	2974 2975 2976 2977 
+}
+greater_suns_break_area = { 
+	2978 2979 2980 
+}
+greater_siluna_area = { 
+	2983 2981 2982 2984 2985 
+}
+ver_diera_area = { 
+	2986 2988 2987 2989 
+}
+greater_mzark_area = { 
+	2991 2990 2993 2992 2994 
+}
+greater_greengate_area = { 
+	2997 2998 2996 
+}
+goldenfields_area = { 
+	2999 3000 3003 3002 3001 
+}
+tamji_area = { 
+	3005 3006 3007 3004 
+}
+bunyahe_area = { 
+	3008 3011 3009 3010 
+}
+deep_tamji_area = { 
+	3012 3013 3014 
+}
+hidden_raviol_area = { 
+	3015 3016 3018 3017 
+}
+old_valanor_area = { 
+	3021 3020 3056 3019 
+}
+voha_area = { 
+	3022 3023 3026 3025 3024 
+}
+cleyhold_area = { 
+	3027 3028 3029 
+}
+greater_avondale_area = { 
+	3030 3031 3032 
+}
+north_voha = { 
+	3033 3036 3034 3035 
+}
+wip_mereihn_area = { 
+	3037 3038 3040 3039 
+}
+greater_ashbury_area = { 
+	3041 3042 3043 3044 
+}
+odelia_area = { 
+	3046 3045 3047 3048 
+}
+falnir_area = { 
+	3051 3050 3049 2995 
+}
+hutan_area = { 
+	3052 3053 3054 3055 
+}
+greater_hastings_area = { 
+	3058 3059 3057 
+}
+harria_area = { 
+	3060 3061 3062 3063 3064 
+}
+bringos_area = { 
+	3065 3066 3067 3068 3069 
+}
+southern_grecdons_area = { 
+	3070 3071 3072 3074 3073 
+}
+northern_grecdons_area = { 
+	3075 3076 3077 3078 3079 
+}
+mammoth_steppe_area = { 
+	3080 3081 3082 3083 3084 
+}
+paldesji_area = { 
+	3089 3088 3085 3086 3087 
+}
+reetnen_area = { 
+	3090 3091 3092 3093 
+}
+griimdeenor_area = { 
+	3095 3097 3096 3094 
+}
+cor_bronn_area = { 
+	3098 3099 3101 3100 
+}
+vic_bronn_area = { 
+	3102 3104 3103 3105 3106 
+}
+nudjull_area = { 
+	3107 3108 3109 3110 3111 
+}
+franscense_area = { 
+	3112 3113 3952 3115 
+}
+upper_nornback_area = { 
+	3116 3118 3117 3119 3120 
 }
