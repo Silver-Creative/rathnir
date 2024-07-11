@@ -4409,9 +4409,10 @@ wip_lowmere_area = {
 	2882 2881 2880 2879 2878 
 }
 valken_area = { 
+	2886 2884 2885 2883 2887 
 }
 splitland_area = { 
-	2883 2884 2885 2886 2887 2888 3956 2891 2890 2892
+	2888 3956 2891 2890 2892 
 }
 caister_area = { 
 	2893 2894 2895 2896 2897 
@@ -4577,4 +4578,334 @@ franscense_area = {
 }
 upper_nornback_area = { 
 	3116 3118 3117 3119 3120 
+}
+wip_citadeil_area = { 
+	3121 3122 3123 3124 3125 
+}
+lower_nornback_area = { 
+	3126 3128 3129 3127 
+}
+spreadedge_area = { 
+	3130 3131 3132 3133 3134 
+}
+aemon_tar = { 
+	3135 3136 3948 3138 
+}
+dorman_isles_area = { 
+	3139 3142 3141 3140 3143 
+}
+telisand_area = { 
+	3148 3147 3146 3145 3144 
+}
+cressen_point_area = { 
+	3149 3150 3152 3151 3153 
+}
+tiymane_area = { 
+	3156 3155 3154 
+}
+boars_rest_area = { 
+	3160 3159 3158 3157 
+}
+corbent_area = { 
+	3167 3166 3165 3161 
+}
+erta_area = { 
+	3164 3163 3162 
+}
+rooks_nestle_area = { 
+	3168 3169 3170 
+}
+warden_isles_area = { 
+	3172 3173 3171 
+}
+wip_chokehold_area = { 
+	3176 3951 3174 3220 
+}
+north_patria_area = { 
+	3177 3178 3179 3180 
+}
+east_patria_area = { 
+	3181 3182 3183 3184 
+}
+south_patria = { 
+	3185 3219 3187 3186 
+}
+central_patria = { 
+	3191 3188 3189 3190 
+}
+cégisna_utumna_area = { 
+	3192 3194 3195 3193 
+}
+trafalgar_area = { 
+	3196 3198 3197 3200 3199 
+}
+tersmuno_area = { 
+	3204 3203 3202 3201 
+}
+glaives_edge_area = { 
+	3205 3206 3207 3208 
+}
+greater_striprioula_area = { 
+	3209 3212 3210 3211 3213 
+}
+bolodravoha_area = { 
+	3214 3215 3217 3216 3218 
+}
+aleeous_area = { 
+	3221 3222 3224 3223 3225 
+}
+fat_fingers_area = { 
+	3227 3226 3228 3229 3230 
+}
+moose_thumb_area = { 
+	3231 3234 3233 3232 3235 
+}
+etowah_area = { 
+	3236 3237 3238 3239 
+}
+alaa_wak_area = { 
+	3240 3241 3242 3243 3244 
+}
+aarietta_area = { 
+	3245 3947 3246 
+}
+leancoast_area = { 
+	3248 3249 3250 3251 
+}
+wildcoast_area = { 
+	3253 3255 3254 3252 3256 
+}
+bronzecoast_area = { 
+	3259 3257 3260 3258 
+}
+lymens_point_area = { 
+	3263 3261 3262 3264 3265 
+}
+corpse_isles_area = { 
+	3266 3268 3269 3267 
+}
+chatot_area = { 
+	3270 3271 3272 3273 3274 
+}
+ofo_area = { 
+	3277 3276 3275 3278 
+}
+meherrin_area = { 
+	3281 3280 3279 
+}
+khippewa_delta_area = { 
+	3284 3285 3283 3282 
+}
+great_allaatoon_area = { 
+	3288 3286 3287 3290 3289 
+}
+distant_courba_hills_area = { 
+	3294 3293 3292 3291 
+}
+nickajack_area = { 
+	3295 3296 3297 3298 3299 
+}
+mathapascan_area = { 
+	3300 3301 3302 3303 
+}
+chenega_area = { 
+	3304 3309 3306 
+}
+the_splinter_area = { 
+	3310 3311 3307 3308 
+}
+ethiover_highlands_area = { 
+	3315 3314 3313 3312 
+}
+ghermokee_area = { 
+	3316 3317 3319 3318 
+}
+mimek_march_area = { 
+	3320 3321 3324 3323 3950 
+}
+mikkel_march_area = { 
+	3326 3325 3327 3328 3329 
+}
+calibur_march_area = { 
+	3330 3331 3333 3332 3334 
+}
+inanbaga_area = { 
+	3336 3335 3337 3340 3339 3338 
+}
+attikayek_area = { 
+	3341 3342 3343 3344 3345 
+}
+lanoue_area = { 
+	3349 3346 3347 3348 
+}
+daisufud_area = { 
+	3352 3353 3351 3350 3354 
+}
+ilegobak_area = { 
+	3355 3356 3357 3358 
+}
+cannibal_islands_area = { 
+	3360 3361 3359 
+}
+worryista_area = { 
+	3362 3363 3364 3365 
+}
+forgotten_isles_area = { 
+	3368 3366 3370 3369 3367 
+}
+white_hord_isles_area = { 
+	3373 3371 3939 3372 3374 
+}
+blue_hord_isles_area = { 
+	3375 3376 3377 3378 
+}
+simuuns_area = { 
+	3399 3398 3379 
+}
+winter_islands_area = { 
+	3935 3382 3936 3933 3380 
+}
+warf_isles_area = { 
+	3385 3384 3386 3387 3388 3934 
+}
+qiyeet_area = { 
+	3390 3937 3389 
+}
+yactum_area = { 
+	3393 3391 3392 
+}
+black_moss_isles = { 
+	3397 3396 3395 3394 
+}
+east_craedons_area = { 
+	3400 3401 3402 3404 3403 
+}
+west_craedons_area = { 
+	3405 3406 3407 3408 3409 
+}
+kieekeen_bloodplain_area = { 
+	3410 3412 3411 3413 
+}
+ rooryik_area = { 
+	3414 3415 3416 3417 3418 
+}
+cuutur_area = { 
+	3419 3421 3422 3423 3420 
+}
+mandrake_river_delta_area = { 
+	3424 3425 3426 3427 3428 
+}
+kaakiake_area = { 
+	3429 3431 3430 3943 3432 
+}
+maanrahkeen_area = { 
+	3434 3435 3436 3437 3439 3438 
+}
+kakiyaah_area = { 
+	3440 3441 3442 
+}
+boollin_area = { 
+	3443 3444 3445 3446 
+}
+heet_area = { 
+	3449 3450 3448 3447 
+}
+alldives_area = { 
+	3451 3452 3454 3453 
+}
+raaduunk_area = { 
+	3455 3456 3457 3458 3459 
+}
+chlaambur_area = { 
+	3460 3461 3462 3463 3464 
+}
+istancl_area = { 
+	3465 3466 3467 3468 
+}
+rias_e_cle_area = { 
+	3470 3469 3471 3472 3473 
+}
+belacor_area = { 
+	3477 3474 3476 3475 3478 
+}
+molusc_e_cao_area = { 
+	3481 3480 3483 3482 3938 
+}
+toormank_area = { 
+	3484 3485 3486 3487 
+}
+maanyodren_area = { 
+	3490 3491 3489 3488 
+}
+hermaphr_area = { 
+	3495 3492 3494 3493 3940 
+}
+jermaphr_area = { 
+	3944 3942 3501 3945 3500 
+}
+naarkutaal_area = { 
+	3502 3503 3504 3505 3506 
+}
+hex_e_it_area = { 
+	3507 3509 3508 
+}
+foormuunkay_area = { 
+	3510 3512 3511 
+}
+kaakuuton_area = { 
+	3513 3514 3515 3516 3517 3518 
+}
+nattuuon_plains_area = { 
+	3946 3520 3521 3522 3523 
+}
+buulkreen_area = { 
+	3525 3524 3526 3529 3527 3528 
+}
+biilkeet_area = { 
+	3532 3531 3530 3533 
+}
+tetchl_area = { 
+	3534 3536 3535 
+}
+constn_area = { 
+	3537 3541 3540 3538 
+}
+traakeen_area = { 
+	3542 3543 3544 
+}
+floosdoon_area = { 
+	3545 3546 3547 3549 3548 
+}
+kakireet_area = { 
+	3550 3552 3553 3551 
+}
+coe_e_reyne_area = { 
+	3554 3555 3556 3557 
+}
+mancre_tar_area = { 
+	3558 3559 3561 3560 3562 
+}
+titanworm_plain_area = { 
+	3563 3564 3567 3565 3566 
+}
+bronn_grin_area = { 
+	3571 3568 3569 3570 
+}
+east_jorealus_area = { 
+	3573 3572 3574 3575 
+}
+central_jorealus_area = { 
+	3577 3578 3579 3576 
+}
+west_jorealus_area = { 
+	3581 3582 3580 3583 
+}
+far_west_jorealus = { 
+	3584 3585 3539 3586 
+}
+cuulkunn_area = { 
+	3587 3588 3590 3589 
+}
+mealealus_area = { 
+	3592 3591 3593 3594 3949 
 }

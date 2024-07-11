@@ -55,34 +55,28 @@ northern_syltor_superregion = {
 }
 nandor_superregion = { 
 }
-
 ### Haven
-middle_haven_superregion = {
-	red_kingdom_region
+middle_haven_superregion = { 
+	red_kingdom_region greater_kuntarra_region voajus_talawa_region 
 }
-the_lumonade_superregion = {
-
+the_lumonade_superregion = { 
+	wahar_region southern_lumonade_region cat_claw_region 
 }
-hearthstone_superregion = {
-
+hearthstone_superregion = { 
+	paloro_region lormere_region oraamun_region 
 }
-outer_haven_superregion = {
-
+outer_haven_superregion = { 
+	telad_peninsula_region auroran_realm_region bulkeen_horde_region 
 }
-southern_haven_superregion = {
-
+southern_haven_superregion = { 
+	tamjiban_region greater_savernia_region 
 }
-worryistane_superregion = {
-
+worryistane_superregion = { 
+	palantine_region knuckles_coast_region okefonok_region frosaklisk_isles_region 
 }
-the_withered_arm_superregion = {
-
+the_withered_arm_superregion = { 
+	morootkun_horde_region jorealus_region deelkak_horde_region vormund_tar_region 
 }
-
-
-
-
-
 ########################################
 # SEA SUPERREGIONS                     #
 ########################################
@@ -158,4 +152,6 @@ north_pacific_sea_superregion = {
 phsr_haven = { 
 }
 phsr_sorligste = { 
+}
+southern_haven = { 
 }
