@@ -1,5 +1,4 @@
 # 1235 - Rathnir9562
-
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi
 discovered_by = tech_niedene

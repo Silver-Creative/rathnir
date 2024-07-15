@@ -734,58 +734,60 @@ south_atlantic_region = {
 red_kingdom_region = { 
 	areas = { 
 		north_hatanimitas_area west_hatanimitas_area east_hatanimitas_area wa_khobanza_area litakun_area tiatua_isthmus_area isle_of_dogs_area lla_area tajriba_area upper_mithusu_area
-		tudkhilna_area wa_ghfir_area halasralas_area hapatralas_area aragats_desert_area wip_dearmani_desert_area wip_outer_servamon_area wip_dearman_area west_ethersidus_area east_ethersidus_area
-		kesh_area 
+		wa_ghfir_area halasralas_area hapatralas_area aragats_desert_area wip_dearmani_desert_area wip_outer_servamon_area wip_dearman_area west_ethersidus_area east_ethersidus_area kesh_area
+		tudkhilna_area 
 	}
 }
 cat_claw_region = { 
 	areas = { 
 		greater_russantia_area greater_knedik_area zhaitker_klend_area greater_mauki_area liyati_aea upper_montroig_area lower_montroig_area greater_veltuga_area greater_ecladious_area brohemian_grove_area
 		greater_misthallery_area greater_meram_area rexhold_area naraj_area umbrian_lowlands_area upper_urusia_area newcher_area wip_aether_area wip_lower_claw_area greater_valresh_area
+		chevkri_mountains_area 
 	}
 }
 southern_lumonade_region = { 
 	areas = { 
 		kheshmega_area alokhrad_area wip_jcon_desert_area wip_mari_area sindemlem_area wip_pikepoint_area barnuqhold_area aroshaqla_area alonde_area scaliga_area
 		berithkhani_area wip_far_ynhwta_area wip_oliende_area west_ynhwta_area east_ynhwta_area tanto_desert_area terrible_joh_area defir_area mart_muntar_area tichmorok_area
-		kutaiyara_area 
+		kutaiyara_area dande_mtns_area 
 	}
 }
 greater_kuntarra_region = { 
 	areas = { 
 		yostyrheim_area alvarian_highlands_area wip_wulvaga_area greater_alagadda_area east_refuge_area west_refuge_area high_sanctity_area south_refuge_area brewholm_area asylum_area
 		sanctum_area sacred_area reverance_area west_kal_thax_area new_dun_wulch_area east_kal_thax_area kenedrum_area east_hallowed_area barak_varr_area north_sanctified_area
-		safir_area 
+		safir_area sanctuary_mtns_area 
 	}
 }
 paloro_region = { 
 	areas = { 
-		west_raya_area gefail_area wip_draackar_area wip_vinovia_area greater_palovina_area paloro_jacheja_area paloro_chefjeo_area asahiri_area 
+		west_raya_area gefail_area wip_draackar_area wip_vinovia_area greater_palovina_area paloro_jacheja_area paloro_chefjeo_area asahiri_area paloro_mtns_area 
 	}
 }
 voajus_talawa_region = { 
 	areas = { 
 		rakincoast_area wa_hassapa_area vukeshpar_area high_kalmara_area halasketat_area lesser_talawa_area hassat_ikas_area traa_ewuala_area saliovah_area rovutopar_area
+		voajus_wastes_area lesser_talawan_mtns_area 
 	}
 }
 auroran_realm_region = { 
 	areas = { 
-		northport_peninsula_area bluevalley_area fornost_area wip_jesswall_area nordudiron_area auroran_band_area eastmarsh_area wip_winterstone_area 
+		northport_peninsula_area bluevalley_area fornost_area wip_jesswall_area nordudiron_area auroran_band_area eastmarsh_area wip_winterstone_area central_auroran_mtns_area 
 	}
 }
 lormere_region = { 
 	areas = { 
-		caister_area wip_lowmere_area heartsedge_area squirelfoot_area central_lormere_area east_lormere_area crestwall_area wolves_creek_area suulk_area 
+		caister_area wip_lowmere_area heartsedge_area squirelfoot_area central_lormere_area east_lormere_area crestwall_area wolves_creek_area suulk_area lormere_mtns_area
 	}
 }
 oraamun_region = { 
 	areas = { 
-		paldesji_area bringos_area valken_area splitland_area greater_hastings_area harria_area bead_isles_area 
+		paldesji_area bringos_area valken_area splitland_area greater_hastings_area harria_area bead_isles_area oraamun_mtns_area 
 	}
 }
 bulkeen_horde_region = { 
 	areas = { 
-		kakietraeein_area east_verosia_area west_verosia_area greater_chaurisey_area lorelink_area morian_area wip_far_bulkeen_area pintrin_area warinae_area 
+		kakietraeein_area east_verosia_area west_verosia_area greater_chaurisey_area lorelink_area morian_area wip_far_bulkeen_area pintrin_area warinae_area midge_mtns_area
 	}
 }
 wahar_region = { 
@@ -796,7 +798,7 @@ wahar_region = {
 tamjiban_region = { 
 	areas = { 
 		goldenfields_area tamji_area deep_tamji_area bunyahe_area greater_siluna_area greater_suns_break_area laumont_area wip_suns_wall_area ver_diera_area greater_mzark_area
-		greater_greengate_area 
+		greater_greengate_area deep_tamji_woodlands_area 
 	}
 }
 greater_savernia_region = { 
@@ -808,25 +810,25 @@ greater_savernia_region = {
 telad_peninsula_region = { 
 	areas = { 
 		franscense_area upper_nornback_area rooks_nestle_area erta_area corbent_area boars_rest_area wip_citadeil_area lower_nornback_area spreadedge_area tiymane_area
-		telisand_area aemon_tar dorman_isles_area warden_isles_area cressen_point_area 
+		telisand_area aemon_tar dorman_isles_area warden_isles_area cressen_point_area telad_mtns_area 
 	}
 }
 palantine_region = { 
 	areas = { 
 		aleeous_area calibur_march_area mikkel_march_area mimek_march_area the_splinter_area chenega_area trafalgar_area tersmuno_area cégisna_utumna_area south_patria
-		east_patria_area central_patria north_patria_area  glaives_edge_area greater_striprioula_area bolodravoha_area wip_chokehold_area 
+		east_patria_area central_patria north_patria_area glaives_edge_area greater_striprioula_area bolodravoha_area wip_chokehold_area great_boulders_area 
 	}
 }
 knuckles_coast_region = { 
 	areas = { 
 		lymens_point_area bronzecoast_area wildcoast_area leancoast_area meherrin_area ofo_area chatot_area aarietta_area etowah_area moose_thumb_area
-		fat_fingers_area alaa_wak_area corpse_isles_area simuuns_area khippewa_delta_area 
+		fat_fingers_area alaa_wak_area corpse_isles_area simuuns_area khippewa_delta_area knuckles_area 
 	}
 }
 okefonok_region = { 
 	areas = { 
 		distant_courba_hills_area great_allaatoon_area nickajack_area mathapascan_area ghermokee_area ethiover_highlands_area inanbaga_area attikayek_area ilegobak_area daisufud_area
-		lanoue_area 
+		lanoue_area worrymen_mtns_area 
 	}
 }
 frosaklisk_isles_region = { 
@@ -836,7 +838,7 @@ frosaklisk_isles_region = {
 }
 morootkun_horde_region = { 
 	areas = { 
-		griimdeenor_area mammoth_steppe_area southern_grecdons_area reetnen_area northern_grecdons_area east_craedons_area mandrake_river_delta_area kaakuuton_area cuutur_area  rooryik_area
+		griimdeenor_area mammoth_steppe_area southern_grecdons_area reetnen_area northern_grecdons_area east_craedons_area mandrake_river_delta_area kaakuuton_area cuutur_area rooryik_area
 		west_craedons_area kieekeen_bloodplain_area nattuuon_plains_area titanworm_plain_area buulkreen_area kaakiake_area 
 	}
 }

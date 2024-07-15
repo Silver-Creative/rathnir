@@ -4633,7 +4633,7 @@ south_patria = {
 central_patria = { 
 	3191 3188 3189 3190 
 }
-cégisna_utumna_area = { 
+cï¿½gisna_utumna_area = { 
 	3192 3194 3195 3193 
 }
 trafalgar_area = { 
@@ -4786,7 +4786,7 @@ west_craedons_area = {
 kieekeen_bloodplain_area = { 
 	3410 3412 3411 3413 
 }
- rooryik_area = { 
+rooryik_area = { 
 	3414 3415 3416 3417 3418 
 }
 cuutur_area = { 
@@ -4908,4 +4908,49 @@ cuulkunn_area = {
 }
 mealealus_area = { 
 	3592 3591 3593 3594 3949 
+}
+chevkri_mountains_area = { 
+	3600 3601 3602 3603 
+}
+dande_mtns_area = { 
+	3604 3605 3606 
+}
+sanctuary_mtns_area = { 
+	3964 3607 3608 3609 3610 3611 3612 3613 3614 
+}
+voajus_wastes_area = { 
+	3595 3596 
+}
+paloro_mtns_area = { 
+	3617 3616 3615 
+}
+lesser_talawan_mtns_area = { 
+	3619 3618 
+}
+deep_tamji_woodlands_area = { 
+	3597 
+}
+central_auroran_mtns_area = { 
+	3622 3620 3621 
+}
+lormere_mtns_area = { 
+	3627 3957 
+}
+oraamun_mtns_area = { 
+	3632 3631 3630 
+}
+worrymen_mtns_area = { 
+	3599 3598 3637 
+}
+great_boulders_area = { 
+	3638 3636 3634 3633 3635 3955 
+}
+telad_mtns_area = { 
+	3624 3623 
+}
+midge_mtns_area = { 
+	3626 3628 3629 3625 
+}
+knuckles_area = { 
+	3640 3639 3641 3642 3643 3644 
 }

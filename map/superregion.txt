@@ -60,7 +60,7 @@ middle_haven_superregion = {
 	red_kingdom_region greater_kuntarra_region voajus_talawa_region 
 }
 the_lumonade_superregion = { 
-	wahar_region southern_lumonade_region cat_claw_region 
+	wahar_region cat_claw_region southern_lumonade_region 
 }
 hearthstone_superregion = { 
 	paloro_region lormere_region oraamun_region 

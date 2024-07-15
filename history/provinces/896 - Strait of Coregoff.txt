@@ -1,5 +1,4 @@
 # 896 - Strait of Coregoff
-
 discovered_by = tech_alteniquian
 discovered_by = tech_vastallosi
 discovered_by = tech_niedene
