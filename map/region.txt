@@ -815,8 +815,8 @@ telad_peninsula_region = {
 }
 palantine_region = { 
 	areas = { 
-		aleeous_area calibur_march_area mikkel_march_area mimek_march_area the_splinter_area chenega_area trafalgar_area tersmuno_area cégisna_utumna_area south_patria
-		east_patria_area central_patria north_patria_area glaives_edge_area greater_striprioula_area bolodravoha_area wip_chokehold_area great_boulders_area 
+		aleeous_area calibur_march_area mikkel_march_area mimek_march_area the_splinter_area chenega_area trafalgar_area tersmuno_area south_patria east_patria_area
+		central_patria north_patria_area glaives_edge_area greater_striprioula_area bolodravoha_area wip_chokehold_area great_boulders_area 
 	}
 }
 knuckles_coast_region = { 
@@ -856,5 +856,30 @@ deelkak_horde_region = {
 vormund_tar_region = { 
 	areas = { 
 		tetchl_area constn_area biilkeet_area traakeen_area floosdoon_area kakireet_area mancre_tar_area cuulkunn_area mealealus_area coe_e_reyne_area
+	}
+}
+merifinrenor_region = { 
+	areas = { 
+		celume_area 
+	}
+}
+endanor_region = { 
+	areas = { 
+		lhumar_area lower_fornois_area sachomar_area helemar_area 
+	}
+}
+gulf_of_heaven_region = { 
+	areas = { 
+		necua_hopolos_area 
+	}
+}
+tacua_region = { 
+	areas = { 
+		tacuan_jungles_area 
+	}
+}
+middle_nandor_region = { 
+	areas = { 
+		hampo_area north_hampo_area 
 	}
 }

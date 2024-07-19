@@ -4954,3 +4954,30 @@ midge_mtns_area = {
 knuckles_area = { 
 	3640 3639 3641 3642 3643 3644 
 }
+celume_area = { 
+	3994 3986 3978 3973 3977 
+}
+lhumar_area = { 
+	4098 4112 4113 4116 4086 
+}
+lower_fornois_area = { 
+	4110 4135 4164 4127 
+}
+necua_hopolos_area = { 
+	4128 4131 4166 4190 4180 
+}
+sachomar_area = { 
+	4099 4074 
+}
+tacuan_jungles_area = { 
+	4092 4094 4077 
+}
+hampo_area = { 
+	4151 4192 4186 4171 
+}
+helemar_area = { 
+	4155 4179 4201 4202 4176 
+}
+north_hampo_area = { 
+	4165 4147 4161 4200 4195 
+}

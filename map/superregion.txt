@@ -54,6 +54,11 @@ tsaeloma_superregion = {
 northern_syltor_superregion = { 
 }
 nandor_superregion = { 
+	gulf_of_heaven_region tacua_region endanor_region middle_nandor_region 
+}
+
+western_syltor_superregion = { 
+	merifinrenor_region 
 }
 ### Haven
 middle_haven_superregion = { 
