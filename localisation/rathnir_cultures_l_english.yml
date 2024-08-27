@@ -121,10 +121,14 @@
   kutnubad_dwarf: "Kutnubad Dwarf"
   sea_dwarf: "Sea Dwarf"
   goldhill_dwarf: "Goldhill Dwarf"
+  red_dwarf: "Red Dwarf"
+  aravind_dwarf: "Aravind Dwarf"
+  cresthaven_dwarf: "Cresthaven Dwarf"
  brothian_group: "Brothian" #Brothian Group
   high_ryzani: "High Ryzani"
   low_ryzani: "Low Ryzani"
   west_ryzani: "West Ryzani"
+  nebsk: "Nebsk"
   deutzani: "Deutzani"
   vologdan: "Vologdan"
   olthiac: "Olthiac"
@@ -184,7 +188,7 @@
  zerith_group: "Zerith" #Zerith Group
   null_ari: "Null'Ari"
   lauren: "Lauren"
- chevkri: "Chevkri" #Chevkri Group
+ chevkri_group: "Chevkri" #Chevkri Group
   kezklarfini: "Kezklarfini"
   kheldashfini: "Kheldashfini"
   elekfini: "Elekfini"
@@ -196,3 +200,34 @@
   mithusan: "Mithusan"
  valdic_group: "Valdic" #Valdic Group
   tol_kalasi: "Tol Kalasi"
+ neo_chevkri_group: "Neo-Chevkri" #Neo-Chevkri Group
+  umbrian: "Umbrian"
+  aetherian: "Aetherian"
+  livadi: "Livadi"
+  ursusian: "Ursusian"
+ boulderite_group: "Boulderite" #Boulderov Group
+  harrian: "Harrian"
+  patrian: "Patrian"
+  valanon: "Valanon"
+  drathian: "Drathian"
+  berocian: "Berocian"
+ savernian_group: "Savernian" #Savernian
+  heartlander: "Heartlander"
+  ashlander: "Ashlander"
+  vordenlander: "Vordenlander"
+  avonlander: "Avonlander"
+  royalander: "Royalander"
+ tabite_group: "Tabite" #Splitish
+  splitish: "Splitish"
+  ziemian: "Ziemian"
+  valken: "Valken"
+ dearishk_group: "Dearishk" #Dearmani Group
+  vanir: "Vanir"
+  dearmani: "Dearmani"
+  tiatuan: "Tiatuan"
+ palovan_group: "Palovan" #Auroran Group
+  arete: "Arete"
+  auroran: "Auroran"
+  pintrinite: "Pintrinite"
+  northporter: "Northporter"
+  verosi: "Verosi"

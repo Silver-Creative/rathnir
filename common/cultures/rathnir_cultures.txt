@@ -760,6 +760,25 @@ dwarven_group = {
 	goldhill_dwarf = {
 		
 	}
+	red_dwarf = {
+
+	}
+	aravind_dwarf = {
+
+	}
+	cresthaven_dwarf = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+
+	}
+	female_names = {
+
+	}
 }
 
 brothian_group = {
@@ -786,6 +805,14 @@ brothian_group = {
 
 		dynasty_names = {
 			Sigrun Azurov Meklevich
+		}
+	}
+
+	nebsk = {
+		#primary = SO4 #Tossagrad
+
+		dynasty_names = {
+			Tossovich Aasimar Zefrivov Eckbert Korol
 		}
 	}
 
@@ -1361,5 +1388,170 @@ valdic_group = {
 		female_names = {
 			Seramida Ardamine Ederai Lerai Ifaeri
 		}
+	}
+}
+
+neo_chevkri_group = {
+	graphical_culture = easterngfx
+
+	umbrian = {
+
+	}
+	aetherian = {
+
+	}
+	livadi = {
+
+	}
+	ursusian = {
+
+	}
+	
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+boulderite_group = {
+	graphical_culture = easterngfx
+
+	harrian = {
+
+	}
+	patrian = {
+
+	}
+	valanon = {
+
+	}
+	drathian = {
+
+	}
+	berocian = {
+		
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+savernian_group = {
+	graphical_culture = westerngfx
+
+	heartlander = {
+
+	}
+	ashlander = {
+
+	}
+	vordenlander = {
+
+	}
+	avonlander = {
+
+	}
+	royalander = {
+		
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+tabite_group = {
+	graphical_culture = easterngfx
+
+	splitish = {
+
+	}
+	ziemian = {
+
+	}
+	valken = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+dearishk_group = {
+	graphical_culture = easterngfx
+
+	vanir = {
+
+	}
+	dearmani = {
+
+	}
+	tiatuan = {
+
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
+	}
+}
+
+palovan_group = {
+	graphical_culture = easterngfx
+
+	arete = {
+
+	}
+	auroran = {
+
+	}
+	pintrinite = {
+
+	}
+	northporter = {
+
+	}
+	verosi = {
+		
+	}
+
+	dynasty_names = {
+
+	}
+	male_names = {
+		PLACEHOLDER
+	}
+	female_names = {
+		PLACEHOLDER
 	}
 }
