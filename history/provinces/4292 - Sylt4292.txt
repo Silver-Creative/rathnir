@@ -1,2 +1,3 @@
 # 4292 - Sylt4292
-
+culture = deutzani
+is_city = no

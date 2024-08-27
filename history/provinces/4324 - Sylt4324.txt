@@ -1,2 +1,3 @@
 # 4324 - Sylt4324
-
+culture = low_ryzani
+is_city = no

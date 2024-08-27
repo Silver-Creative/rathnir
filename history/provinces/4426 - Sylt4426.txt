@@ -1,2 +1,3 @@
 # 4426 - Sylt4426
-
+culture = olthiac
+is_city = no

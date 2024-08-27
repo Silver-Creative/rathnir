@@ -1,2 +1,3 @@
 # 4388 - Sylt4388
-
+culture = west_ryzani
+is_city = no

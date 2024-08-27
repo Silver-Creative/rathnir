@@ -1,2 +1,3 @@
 # 4740 - SyltorWastes4740
-
+culture = olthiac
+is_city = no

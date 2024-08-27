@@ -1,2 +1,3 @@
 # 4340 - Sylt4340
-
+culture = west_ryzani
+is_city = no
