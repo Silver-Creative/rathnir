@@ -11,3 +11,4 @@ base_tax = 1
 base_manpower = 3
 base_production = 1
 culture = voajus
+trade_goods = salt

@@ -11,3 +11,4 @@ base_tax = 3
 base_manpower = 3
 base_production = 2
 culture = aravind_dwarf
+trade_goods = fruits

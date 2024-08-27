@@ -11,3 +11,4 @@ base_production = 1
 is_city = no
 culture = voajus
 religion = asharu
+trade_goods = salt

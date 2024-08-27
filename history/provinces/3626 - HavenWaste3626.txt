@@ -6,3 +6,4 @@ discovered_by = tech_luthic
 discovered_by = tech_vraelean
 discovered_by = tech_aldoviri
 is_city = no
+trade_goods = horses

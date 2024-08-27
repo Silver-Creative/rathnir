@@ -10,3 +10,4 @@ base_manpower = 1
 base_production = 2
 culture = lormerian
 is_city = no
+trade_goods = livestock

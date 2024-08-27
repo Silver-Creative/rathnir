@@ -11,3 +11,4 @@ base_tax = 3
 base_manpower = 1
 base_production = 1
 culture = tiatuan
+trade_goods = grain

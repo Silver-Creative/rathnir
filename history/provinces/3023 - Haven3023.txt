@@ -10,3 +10,4 @@ base_manpower = 1
 base_production = 1
 is_city = no
 culture = heartlander
+trade_goods = cloth

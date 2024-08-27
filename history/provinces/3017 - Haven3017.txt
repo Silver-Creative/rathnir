@@ -10,3 +10,4 @@ base_manpower = 3
 base_production = 1
 is_city = no
 culture = valanon
+trade_goods = horses

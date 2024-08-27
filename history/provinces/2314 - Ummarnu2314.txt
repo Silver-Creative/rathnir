@@ -11,3 +11,4 @@ base_production = 2
 is_city = no
 culture = tranquebar
 religion = ardat_lily
+trade_goods = glass

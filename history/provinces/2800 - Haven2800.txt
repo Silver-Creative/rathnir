@@ -11,3 +11,4 @@ base_tax = 1
 base_manpower = 2
 base_production = 1
 culture = kaskam_talawan
+trade_goods = tobacco

@@ -11,3 +11,4 @@ base_tax = 1
 base_manpower = 1
 base_production = 3
 culture = kaahirun
+trade_goods = paper
