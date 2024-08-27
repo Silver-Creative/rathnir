@@ -8,3 +8,6 @@ discovered_by = tech_aldoviri
 religion = asharu
 is_city = no
 culture = paloroti_hac
+base_tax = 2
+base_manpower = 1
+base_production = 3

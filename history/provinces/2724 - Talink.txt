@@ -8,3 +8,6 @@ discovered_by = tech_aldoviri
 religion = asharu
 is_city = no
 culture = draaken
+base_tax = 1
+base_manpower = 2
+base_production = 3

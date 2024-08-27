@@ -5,3 +5,6 @@ discovered_by = tech_niedene
 discovered_by = tech_luthic
 discovered_by = tech_vraelean
 discovered_by = tech_aldoviri
+base_tax = 3
+base_manpower = 1
+base_production = 1

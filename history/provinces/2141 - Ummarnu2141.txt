@@ -7,3 +7,6 @@ discovered_by = tech_vraelean
 discovered_by = tech_aldoviri
 religion = ardat_lily
 is_city = no
+base_tax = 2
+base_manpower = 3
+base_production = 1
