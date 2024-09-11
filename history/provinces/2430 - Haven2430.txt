@@ -12,6 +12,3 @@ base_manpower = 3
 base_production = 2
 culture = mithusan
 trade_goods = salt
-add_core = H11
-owner = H11
-controller = H11

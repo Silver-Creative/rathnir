@@ -11,6 +11,3 @@ base_production = 3
 is_city = no
 culture = arete
 trade_goods = lapis_lazuli
-add_core = H26
-owner = H26
-controller = H26

@@ -12,6 +12,3 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 trade_goods = lumber
-add_core = H09
-owner = H09
-controller = H09

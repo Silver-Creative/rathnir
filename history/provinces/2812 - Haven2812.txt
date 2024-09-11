@@ -10,6 +10,3 @@ base_manpower = 1
 base_production = 3
 is_city = no
 trade_goods = salt
-add_core = H26
-owner = H26
-controller = H26

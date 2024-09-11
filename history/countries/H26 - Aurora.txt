@@ -1,4 +1,6 @@
 capital = 2808
-technology_group = 
 primary_culture = auroran
 government_rank = 1
+technology_group = 
+government = monarchy
+add_government_reform = autocracy_reform

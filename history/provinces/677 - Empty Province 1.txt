@@ -1,9 +1,5 @@
 # 677 - Empty Province 1
 
-culture = nan
-religion = etherflame
-capital = ""
-
 hre = no
 
 base_tax = 0

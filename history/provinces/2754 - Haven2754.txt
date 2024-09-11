@@ -12,6 +12,3 @@ base_manpower = 2
 base_production = 1
 culture = voajus
 trade_goods = salt
-add_core = H13
-owner = H13
-controller = H13

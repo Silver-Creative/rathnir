@@ -12,6 +12,3 @@ base_manpower = 3
 base_production = 1
 culture = aravind_dwarf
 trade_goods = paper
-add_core = H20
-owner = H20
-controller = H20

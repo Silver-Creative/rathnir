@@ -12,6 +12,3 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 trade_goods = cheese
-add_core = H24
-owner = H24
-controller = H24

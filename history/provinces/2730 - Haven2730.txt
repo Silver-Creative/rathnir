@@ -12,6 +12,3 @@ base_tax = 1
 base_manpower = 3
 base_production = 1
 trade_goods = horses
-add_core = H23
-owner = H23
-controller = H23

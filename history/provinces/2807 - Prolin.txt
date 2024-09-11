@@ -11,6 +11,3 @@ base_production = 2
 is_city = no
 culture = auroran
 trade_goods = iron
-add_core = H26
-owner = H26
-controller = H26

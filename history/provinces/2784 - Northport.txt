@@ -11,6 +11,3 @@ base_production = 2
 is_city = no
 culture = northporter
 trade_goods = obsidian
-add_core = H27
-owner = H27
-controller = H27

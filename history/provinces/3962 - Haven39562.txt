@@ -12,6 +12,3 @@ base_manpower = 2
 base_production = 2
 culture = dearmani
 trade_goods = salt
-add_core = H16
-owner = H16
-controller = H16

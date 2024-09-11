@@ -12,6 +12,3 @@ base_manpower = 3
 base_production = 2
 culture = luciwan
 trade_goods = salt
-add_core = H04
-owner = H04
-controller = H04

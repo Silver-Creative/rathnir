@@ -12,6 +12,3 @@ base_manpower = 1
 base_production = 2
 culture = mithusan
 trade_goods = slaves
-add_core = H05
-owner = H05
-controller = H05

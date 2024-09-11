@@ -10,6 +10,3 @@ is_city = no
 base_tax = 1
 base_manpower = 2
 base_production = 1
-add_core = H07
-owner = H07
-controller = H07
