@@ -1,0 +1,7 @@
+religion = asharu
+capital = 2402
+technology_group = tech_havenite
+primary_culture = red_talawan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3

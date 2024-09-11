@@ -12,3 +12,6 @@ base_manpower = 1
 base_production = 2
 culture = voajus
 trade_goods = dyes
+add_core = H13
+owner = H13
+controller = H13

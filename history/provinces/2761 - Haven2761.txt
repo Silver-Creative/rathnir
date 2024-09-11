@@ -12,3 +12,6 @@ base_manpower = 3
 base_production = 3
 culture = voajus
 trade_goods = horses
+add_core = H03
+owner = H03
+controller = H03

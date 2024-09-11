@@ -1,0 +1,5 @@
+religion = sakrelism
+capital = 2459
+technology_group = tech_havenite
+primary_culture = tranquebar
+government_rank = 1

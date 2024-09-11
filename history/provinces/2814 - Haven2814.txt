@@ -10,3 +10,6 @@ base_manpower = 1
 base_production = 2
 is_city = no
 trade_goods = grain
+add_core = H26
+owner = H26
+controller = H26

@@ -1,0 +1,5 @@
+religion = asharu
+capital = 2419
+technology_group = tech_havenite
+primary_culture = mithusan
+government_rank = 1

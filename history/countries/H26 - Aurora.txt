@@ -1,0 +1,4 @@
+capital = 2808
+technology_group = 
+primary_culture = auroran
+government_rank = 1

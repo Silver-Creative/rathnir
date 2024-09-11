@@ -12,3 +12,6 @@ base_tax = 1
 base_manpower = 1
 base_production = 3
 trade_goods = wine
+add_core = H23
+owner = H23
+controller = H23

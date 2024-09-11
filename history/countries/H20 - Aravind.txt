@@ -1,0 +1,5 @@
+religion = asharu
+capital = 2606
+technology_group = tech_havenite
+primary_culture = aravind_dwarf
+government_rank = 1

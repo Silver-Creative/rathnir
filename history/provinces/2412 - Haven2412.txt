@@ -12,3 +12,6 @@ base_manpower = 1
 base_production = 1
 culture = red_talawan
 trade_goods = slaves
+add_core = H08
+owner = H08
+controller = H08

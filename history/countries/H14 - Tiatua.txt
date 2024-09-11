@@ -1,0 +1,7 @@
+religion = asharu
+capital = 2447
+technology_group = tech_havenite
+primary_culture = tiatuan
+government_rank = 1
+government = monarchy
+add_government_reform = feudalism_reform

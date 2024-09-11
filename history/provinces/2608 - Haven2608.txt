@@ -11,3 +11,7 @@ base_tax = 1
 base_manpower = 2
 base_production = 1
 trade_goods = naval_supplies
+add_core = H20
+owner = H20
+culture = aravind_dwarf
+controller = H20

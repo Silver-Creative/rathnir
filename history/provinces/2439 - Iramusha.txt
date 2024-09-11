@@ -12,3 +12,6 @@ base_manpower = 2
 base_production = 2
 culture = luciwan
 trade_goods = paper
+add_core = H05
+owner = H05
+controller = H05
