@@ -428,7 +428,7 @@ madrian_march_area = {
 	206 207 208 209 
 }
 theionikos_impassable_area = { 
-	1138 1139 1140 1154 
+	1139 1140 1154 1138 
 }
 #Raell (Aldovir, Alteniquia)
 rhodia_area = { 
@@ -4328,7 +4328,7 @@ lesser_talawa_area = {
 	2762 2761 2760 2763 2764 
 }
 traa_ewuala_area = { 
-	2765 2766 2767 2768 
+	2765 2766 2767 2768 4762 
 }
 hassat_ikas_area = { 
 	2769 2772 2770 2771 
@@ -4964,13 +4964,13 @@ lower_fornois_area = {
 	4110 4135 4164 4127 
 }
 necua_hopolos_area = { 
-	4128 4131 4166 4190 4180 
+	4166 4190 4180 
 }
 sachomar_area = { 
-	4099 4074 
+	4099 4074 4077 4094 
 }
 tacuan_jungles_area = { 
-	4092 4094 4077 
+	4092 4064 4053 4026 4021 4009 
 }
 hampo_area = { 
 	4151 4192 4186 4171 
@@ -4980,4 +4980,166 @@ helemar_area = {
 }
 north_hampo_area = { 
 	4165 4147 4161 4200 4195 
+}
+deutzan = { 
+}
+deutzan_area = { 
+	4298 4309 4320 4337 4336 
+}
+alum_area = { 
+	4315 4325 4358 4378 4404 
+}
+syros_area = { 
+	4292 4283 4273 4285 
+}
+endanor_area = { 
+	4129 4133 4145 4158 4146 
+}
+levan_area = { 
+	4208 4215 4185 4183 4225 
+}
+necua_area = { 
+	4756 4131 4128 
+}
+haeleos_area = { 
+	4169 4154 4124 4102 
+}
+vologdan_peninsula_area = { 
+	4412 4432 4401 4392 4389 
+}
+volkore_area = { 
+	4377 4383 4375 4353 4340 
+}
+tossagrad_area = { 
+	4363 4373 4376 
+}
+neuheim_area = { 
+	4427 4429 4419 4436 
+}
+tonton_area = { 
+	4437 4440 4455 4445 
+}
+bjornskull_area = { 
+	4344 4364 4348 4367 4384 
+}
+nebskoslavia_area = { 
+	4382 4379 4388 4397 4400 
+}
+flamme_dun_area = { 
+	4409 4408 4395 
+}
+nova_balreska_area = { 
+	4394 4396 4411 4415 
+}
+remtal_area = { 
+	4439 4426 4435 4442 
+}
+motanfet_area = { 
+	4416 4414 4421 
+}
+genkan_area = { 
+	4418 4406 4407 4410 4405 
+}
+terost_area = { 
+	4431 4441 4430 4425 4423 
+}
+lower_celebrost_area = { 
+	4428 4413 4422 4424 
+}
+nordinbad_area = { 
+	4417 4403 4393 4381 4398 4402 
+}
+carthya_area = { 
+	4434 4443 4450 4446 
+}
+new_dorasterrock_area = { 
+	4457 4461 4485 4458 
+}
+upper_areska_area = { 
+	4232 4233 4252 4217 
+}
+lower_areska_area = { 
+	4205 4184 4231 4255 4251 
+}
+savras_area = { 
+	4271 4301 4327 4308 4276 
+}
+sharla_area = { 
+	4287 4303 4318 4294 4277 
+}
+ashura_area = { 
+	4312 4330 4347 4349 4332 
+}
+askonia_region = { 
+	4385 4366 4386 4391 4399 
+}
+auron's_peak_area = { 
+	4543 4550 4755 4528 
+}
+northrosa_area = { 
+	4597 4608 4612 4625 
+}
+fentabrada_area = { 
+	4760 4553 4549 4535 4560 
+}
+solarnia_area = { 
+}
+virolia_area = { 
+	4489 4476 4486 4472 4473 4759 
+}
+novus_area = { 
+	4541 4536 4552 
+}
+brewtania_area = { 
+	4481 4468 4482 4469 
+}
+central_bardonia_area = { 
+	4501 4498 4522 4527 
+}
+fluenta_area = { 
+}
+dorasterrock_area = { 
+	4578 4565 4561 4554 
+}
+bardonia_proper_area = { 
+	4532 4517 4492 4524 4502 
+}
+cayogrod_area = { 
+	4359 4357 4346 4324 
+}
+visimer_area = { 
+	4589 4595 4604 4582 
+}
+eastreach_area = { 
+	4583 4593 4577 4571 4576 
+}
+solarnum_area = { 
+	4456 4448 4453 4452 
+}
+arania_area = { 
+	4480 4495 4479 4487 4467 
+}
+prata_area = { 
+	4584 4566 4572 4556 
+}
+trost_area = { 
+	4477 4497 4484 
+}
+annunor_area = { 
+	4516 4504 4519 4520 
+}
+medici_area = { 
+	4537 4544 4509 
+}
+aodh_area = { 
+	4514 4515 4758 
+}
+ryzan_impassable_area = { 
+	4735 4738 4740 4737 4739 
+}
+bardonia_impassable_area = { 
+	4741 4742 4743 4744 4761 3979 
+}
+balreska_area = { 
+	4280 4286 4300 4311 
 }

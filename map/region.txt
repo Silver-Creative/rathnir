@@ -883,3 +883,20 @@ middle_nandor_region = {
 		hampo_area north_hampo_area 
 	}
 }
+westreach_region = { 
+	areas = { 
+		flamme_dun_area nebskoslavia_area volkore_area cayogrod_area tossagrad_area vologdan_peninsula_area nova_balreska_area neuheim_area carthya_area remtal_area
+		motanfet_area terost_area genkan_area nordinbad_area bjornskull_area lower_celebrost_area 
+	}
+}
+northern_bardonia_region = { 
+	areas = { 
+		new_dorasterrock_area arania_area central_bardonia_area brewtania_area aodh_area auron's_peak_area fentabrada_area eastreach_area visimer_area 
+	}
+}
+southern_bardonia_region = { 
+	areas = { 
+		medici_area solarnum_area tonton_area dorasterrock_area virolia_area trost_area bardonia_proper_area annunor_area novus_area prata_area
+		northrosa_area 
+	}
+}
